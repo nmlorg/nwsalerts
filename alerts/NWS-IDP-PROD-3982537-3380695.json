@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982537-3380695",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.8,
+                    37.28
+                ],
+                [
+                    -86.89999999999999,
+                    37.18
+                ],
+                [
+                    -86.96999999999998,
+                    37.27
+                ],
+                [
+                    -86.77999999999999,
+                    37.39
+                ],
+                [
+                    -86.8,
+                    37.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982537-3380695",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3982537-3380695",
+        "areaDesc": "Butler, KY; Muhlenberg, KY; Ohio, KY",
+        "geocode": {
+            "UGC": [
+                "KYC031",
+                "KYC177",
+                "KYC183"
+            ],
+            "SAME": [
+                "021031",
+                "021177",
+                "021183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC031",
+            "https://api.weather.gov/zones/county/KYC177",
+            "https://api.weather.gov/zones/county/KYC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3981736-3380093",
+                "identifier": "NWS-IDP-PROD-3981736-3380093",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-31T10:38:00-05:00"
+            }
+        ],
+        "sent": "2019-12-31T21:04:00-05:00",
+        "effective": "2019-12-31T21:04:00-05:00",
+        "onset": "2019-12-31T21:04:00-05:00",
+        "expires": "2020-01-01T15:04:00-05:00",
+        "ends": "2020-01-03T21:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued December 31 at 9:04PM EST until January 3 at 9:00PM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nGreen River at Woodbury\nGreen River at Rochester\n\naffecting the following counties in Kentucky...Butler...Muhlenberg...\nOhio...Warren.\n\nThe Flood Warning continues for\nthe Green River at Rochester.\n* until Friday evening.\n* At  4:00 PM Tuesday the stage was 16.7 feet.\n* Flood stage is 17.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by tonight and continue to rise\nto near 18.3 feet by Thursday morning. The river will fall below\nflood stage by Friday early afternoon.\n* Impact...At 17.0 feet...Reeds and Rochester Ferries remain closed.\nKY 369 floods one mile north of Rochester.\n* Flood History...This crest compares to a previous crest of 18.4\nfeet on Dec 2 2001.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLMK.FL.W.0075.000000T0000Z-200104T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-03T21:00:00-05:00"
+            ]
+        }
+    }
+}
