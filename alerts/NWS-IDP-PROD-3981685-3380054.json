@@ -1,0 +1,87 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3981685-3380054",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.67,
+                    36.19
+                ],
+                [
+                    -86.62,
+                    36.199999999999996
+                ],
+                [
+                    -86.60000000000001,
+                    36.159999899999995
+                ],
+                [
+                    -86.67,
+                    36.13999999999999
+                ],
+                [
+                    -86.67,
+                    36.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3981685-3380054",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3981685-3380054",
+        "areaDesc": "Davidson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC037"
+            ],
+            "SAME": [
+                "047037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC037"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3980909-3379458",
+                "identifier": "NWS-IDP-PROD-3980909-3379458",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-30T22:19:00-06:00"
+            }
+        ],
+        "sent": "2019-12-31T08:58:00-06:00",
+        "effective": "2019-12-31T08:58:00-06:00",
+        "onset": "2019-12-31T08:58:00-06:00",
+        "expires": "2019-12-31T20:58:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued December 31 at 8:58AM CST by NWS Nashville TN",
+        "description": "...The Flood Advisory continues for the Stones River...\n\nStones River Near Donelson affecting Davidson County\n\n. While the river has leveled off, the Stones River near Donelson will\nremain in at least Action Stage for several days as water is released\nfrom Percy Priest Dam. More heavy rainfall is expcted Thursday\nand Thursday night, so additional rises are possible by Thursday evening.\n\nThe Flood Advisory continues for\nThe Stones River Near Donelson\n* Until further notice.\n* At 8 AM Tuesday the water has leveled out at 23.7 feet.\n* Flood stage is 35.0 feet.\n* Action stage is 20.0 feet.",
+        "instruction": "Stay tuned to NOAA weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0147.000000T0000Z-000000T0000Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3981897-3380207",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.29,
+                    34.09
+                ],
+                [
+                    -88.2099999,
+                    34.09
+                ],
+                [
+                    -88.26,
+                    33.7299999
+                ],
+                [
+                    -88.43,
+                    33.650000000000006
+                ],
+                [
+                    -88.44000000000001,
+                    33.7
+                ],
+                [
+                    -88.39000000000001,
+                    33.75
+                ],
+                [
+                    -88.29,
+                    34.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3981897-3380207",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3981897-3380207",
+        "areaDesc": "Monroe, MS; Lowndes, MS",
+        "geocode": {
+            "UGC": [
+                "MSC095",
+                "MSC087"
+            ],
+            "SAME": [
+                "028095",
+                "028087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC095",
+            "https://api.weather.gov/zones/county/MSC087"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3980795-3379366",
+                "identifier": "NWS-IDP-PROD-3980795-3379366",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-30T21:20:00-06:00"
+            }
+        ],
+        "sent": "2019-12-31T11:34:00-06:00",
+        "effective": "2019-12-31T11:34:00-06:00",
+        "onset": "2019-12-31T18:00:00-06:00",
+        "expires": "2020-01-01T11:34:00-06:00",
+        "ends": "2020-01-04T01:12:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued December 31 at 11:34AM CST until January 4 at 1:12AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Buttahatchie River.\n\nThe Flood Warning continues for\nthe Buttahatchie River near Aberdeen\n* from Tuesday December 31 until Friday January 3.\n* Flood stage is 13.0 feet and minor flooding is forecasted.\n* At 10 AM Tuesday the stage was 12.5 feet and rising.\n* Maximum forecast stage of 15.3 feet on Thursday January 2.\n* Forecast to rise above flood stage by later today and will\ncontinue to rise to near 15.3 feet by Thursday January 2.The river\nwill fall below flood stage by Friday January 3.\n* At 15.0 feet...Water is covering a portion of Airbase Road located\non the west bank of the river. Low-lying farm land is flooded.",
+        "instruction": "A followup Flood Statement will be issued this evening or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0183.200101T0000Z-200104T0712Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T01:12:00-06:00"
+            ]
+        }
+    }
+}

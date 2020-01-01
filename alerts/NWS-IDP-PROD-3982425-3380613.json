@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982425-3380613",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.05,
+                    37.88
+                ],
+                [
+                    -83.67,
+                    37.88
+                ],
+                [
+                    -83.4,
+                    37.830000000000005
+                ],
+                [
+                    -83.43,
+                    37.75000000000001
+                ],
+                [
+                    -83.74000000000001,
+                    37.800000000000004
+                ],
+                [
+                    -83.97000000000001,
+                    37.800000000000004
+                ],
+                [
+                    -84.05,
+                    37.88
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982425-3380613",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3982425-3380613",
+        "areaDesc": "Estill, KY; Powell, KY",
+        "geocode": {
+            "UGC": [
+                "KYC065",
+                "KYC197"
+            ],
+            "SAME": [
+                "021065",
+                "021197"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC065",
+            "https://api.weather.gov/zones/county/KYC197"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982411-3380596",
+                "identifier": "NWS-IDP-PROD-3982411-3380596",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-31T18:55:00-05:00"
+            }
+        ],
+        "sent": "2019-12-31T19:06:00-05:00",
+        "effective": "2019-12-31T19:06:00-05:00",
+        "onset": "2019-12-31T19:06:00-05:00",
+        "expires": "2020-01-01T07:06:00-05:00",
+        "ends": "2020-01-02T01:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Advisory issued December 31 at 7:06PM EST until January 2 at 1:30AM EST by NWS Jackson KY",
+        "description": "...The Flood Advisory continues for the following rivers in\nKentucky...\n\nThe Red River at Clay City\n\nThe Flood Advisory continues for\nThe Red River at Clay City\n* until late Wednesday night.\n* At 06 PM Tuesday the stage was 16.9 feet.\n* Bankfull stage is 12.0 feet.\n* Flood stage is 17.0 feet.\n* Forecast...The river will continue to fall.\n* At 17.0 feet...Low lying areas flood. Maple street near the Red\nRiver Ranch as well as Pompeii Road off of Highway 15 are\nimpassable.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 11 am Wednesday morning.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJKL.FL.Y.0086.000000T0000Z-200102T0630Z/"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-02T01:30:00-05:00"
+            ]
+        }
+    }
+}
