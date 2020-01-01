@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983730-3381551",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -149.86,
+                    61.8
+                ],
+                [
+                    -149.86,
+                    61.76
+                ],
+                [
+                    -150.03,
+                    61.76
+                ],
+                [
+                    -150.03,
+                    61.78
+                ],
+                [
+                    -149.86,
+                    61.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983730-3381551",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3983730-3381551",
+        "areaDesc": "Susitna Valley",
+        "geocode": {
+            "UGC": [
+                "AKZ145"
+            ],
+            "SAME": [
+                "002050",
+                "002068",
+                "002122",
+                "002170"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AKZ145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3980508-3379142",
+                "identifier": "NWS-IDP-PROD-3980508-3379142",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-30T14:26:00-09:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3976397-3376017",
+                "identifier": "NWS-IDP-PROD-3976397-3376017",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-28T14:05:00-09:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3973552-3374136",
+                "identifier": "NWS-IDP-PROD-3973552-3374136",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-26T14:46:00-09:00"
+            }
+        ],
+        "sent": "2020-01-01T12:50:00-09:00",
+        "effective": "2020-01-01T12:50:00-09:00",
+        "onset": "2020-01-01T12:49:00-09:00",
+        "expires": "2020-01-02T14:45:00-09:00",
+        "ends": "2020-01-02T14:45:00-09:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Anchorage AK",
+        "headline": "Flood Advisory issued January 1 at 12:49PM AKST until January 2 at 2:45PM AKST by NWS Anchorage AK",
+        "description": "The National Weather Service in Anchorage has extended the\n\n* Flood Advisory for...\nAn Ice Jam in...\nWillow Creek upstream of the Deneki Bridge.\n\n* Until 245 PM AKST Thursday.\n\n* An ice jam near the Deneki Bridge over Willow Creek is continuing\nto cause minor flooding upstream.",
+        "instruction": "A Flood Advisory means river or stream flows are elevated, or ponding\nof water in urban or other areas is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.PAFC.FA.Y.0014.000000T0000Z-200102T2345Z/"
+            ],
+            "PIL": [
+                "AFCFLSAFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-02T14:45:00-09:00"
+            ]
+        }
+    }
+}
