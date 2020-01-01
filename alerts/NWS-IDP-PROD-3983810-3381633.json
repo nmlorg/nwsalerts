@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983810-3381633",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983810-3381633",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3983810-3381633",
+        "areaDesc": "Santa Barbara County Mountains; Ventura County Mountains; Los Angeles County Mountains excluding the Santa Monica Range",
+        "geocode": {
+            "UGC": [
+                "CAZ052",
+                "CAZ053",
+                "CAZ054"
+            ],
+            "SAME": [
+                "006083",
+                "006111",
+                "006037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CAZ052",
+            "https://api.weather.gov/zones/forecast/CAZ053",
+            "https://api.weather.gov/zones/forecast/CAZ054"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983120-3381107",
+                "identifier": "NWS-IDP-PROD-3983120-3381107",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T03:33:00-08:00"
+            }
+        ],
+        "sent": "2020-01-01T15:14:00-08:00",
+        "effective": "2020-01-01T15:14:00-08:00",
+        "onset": "2020-01-01T15:14:00-08:00",
+        "expires": "2020-01-01T23:15:00-08:00",
+        "ends": "2020-01-02T12:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "High Wind Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Los Angeles/Oxnard CA",
+        "headline": "High Wind Warning issued January 1 at 3:14PM PST until January 2 at 12:00PM PST by NWS Los Angeles/Oxnard CA",
+        "description": "* WHAT...North winds 25 to 40 mph with gusts to 65 mph expected.\n\n* WHERE...Mountains of Santa Barbara, Ventura, and Los Angeles\nCounty, excluding the Santa Monica Range.\n\n* WHEN...Now to noon PST Thursday. Strongest tonight.\n\n* IMPACTS...Damaging winds will blow down large objects such as\ntrees and power lines. Power outages are expected. Travel will\nbe difficult, especially for high profile vehicles.\n\n* ADDITIONAL DETAILS...Warning-strength winds have been a bit slow\nto start, but are still expected to be strongest through the\nI-5 Corridor and Santa Ynez Range including the Montecito Hills.",
+        "instruction": "People should avoid being outside in forested areas and around\ntrees and branches. If possible, remain in the lower levels of\nyour home during the windstorm, and avoid windows. Use caution if\nyou must drive.",
+        "response": "Prepare",
+        "parameters": {
+            "NWSheadline": [
+                "HIGH WIND WARNING REMAINS IN EFFECT UNTIL NOON PST THURSDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KLOX.HW.W.0001.000000T0000Z-200102T2000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOXNPWLOX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-02T12:00:00-08:00"
+            ]
+        }
+    }
+}
