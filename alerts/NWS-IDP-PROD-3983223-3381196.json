@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983223-3381196",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.77,
+                    43.38
+                ],
+                [
+                    -97.63,
+                    43.400000000000006
+                ],
+                [
+                    -97.55,
+                    43.21000000000001
+                ],
+                [
+                    -97.36,
+                    43.080000000000005
+                ],
+                [
+                    -97.5,
+                    43.080000000000005
+                ],
+                [
+                    -97.69,
+                    43.17000000000001
+                ],
+                [
+                    -97.77,
+                    43.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983223-3381196",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3983223-3381196",
+        "areaDesc": "Hutchinson, SD; Yankton, SD",
+        "geocode": {
+            "UGC": [
+                "SDC067",
+                "SDC135"
+            ],
+            "SAME": [
+                "046067",
+                "046135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SDC067",
+            "https://api.weather.gov/zones/county/SDC135"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982027-3380301",
+                "identifier": "NWS-IDP-PROD-3982027-3380301",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-31T13:45:00-06:00"
+            }
+        ],
+        "sent": "2020-01-01T07:57:00-06:00",
+        "effective": "2020-01-01T07:57:00-06:00",
+        "onset": "2020-01-01T07:57:00-06:00",
+        "expires": "2020-01-02T11:57:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Sioux Falls SD",
+        "headline": "Flood Warning issued January 1 at 7:57AM CST by NWS Sioux Falls SD",
+        "description": "...The Flood Warning continues for the following rivers in South\nDakota...\n\nJames River At Huron\nJames River Near Forestburg\nJames River At Mitchell\nJames River Near Scotland\n\n.The following river forecasts include forecast precipitation through\ntonight. Any additional future rains could affect the crest\nforecasts.\n\nThe Flood Warning continues for\nThe James River Near Scotland.\n* until further notice.\n* At 07AM Wednesday the stage was 13.90 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 13.00 feet.\n* Forecast...The river will continue to fall to a stage of 13.6 feet\nby 6 AM Thursday.\n* At stages near 14.0 feet...Approximately 4400 acres of farm land\nare flooded between Mitchell and Yankton.",
+        "instruction": "Safety message...Do not drive cars through flooded areas. the water\ndepth and road condition may be unsafe.\n\nAdditional information is available at\n\nhttp://water.weather.gov/ahps2/index.php?wfo=fsd\n\nStay tuned for further updates by listening to NOAA weather radio...\nor your local radio and TV stations.\n\nThe next scheduled statement will be issued tomorrow morning.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFSD.FL.W.0339.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FSDFLSFSD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
