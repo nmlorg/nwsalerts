@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983172-3381157",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.1,
+                    43.07
+                ],
+                [
+                    -85.91,
+                    43.04
+                ],
+                [
+                    -85.83,
+                    42.97
+                ],
+                [
+                    -85.89,
+                    42.909999899999995
+                ],
+                [
+                    -85.95,
+                    42.97
+                ],
+                [
+                    -86.10000000000001,
+                    43
+                ],
+                [
+                    -86.1,
+                    43.07
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983172-3381157",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3983172-3381157",
+        "areaDesc": "Ottawa, MI",
+        "geocode": {
+            "UGC": [
+                "MIC139"
+            ],
+            "SAME": [
+                "026139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3981890-3380200",
+                "identifier": "NWS-IDP-PROD-3981890-3380200",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-31T12:20:00-05:00"
+            }
+        ],
+        "sent": "2020-01-01T07:18:00-05:00",
+        "effective": "2020-01-01T07:18:00-05:00",
+        "onset": "2020-01-01T07:18:00-05:00",
+        "expires": "2020-01-02T13:17:00-05:00",
+        "ends": "2020-01-06T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Rapids MI",
+        "headline": "Flood Warning issued January 1 at 7:18AM EST until January 6 at 7:00AM EST by NWS Grand Rapids MI",
+        "description": "...The Flood Warning has been cancelled for the following river in\nSouthwest Lower Michigan...\n\nChippewa River below Mt Pleasant affecting Isabella County\n\n...The flood warning continues for the following rivers in Southwest\nLower Michigan...\n\nGrand River near Comstock Park affecting Kent County\nGrand River at Robinson Township affecting Ottawa County\nMaple River at Maple Rapids affecting Clinton County\nMuskegon River at Newaygo affecting Newaygo County\nMuskegon River at Bridgeton affecting Newaygo County\n\n.Rivers in West Michigan continue to respond to recent heavy\nrains. Most of the smaller and medium-sized rivers are near their\ncrest, but the larger rivers will continue to rise for another few\ndays. The next threat of melting snow and additional rain moves\ninto the area on Friday and Saturday. Rain and melting snow may be\nenough to prolong crests on some of the rivers. The following\nforecast is based on observed and forecast 48 hour precipitation.\n\nThe Flood Warning continues for\nthe Grand River at Robinson Township.\n* until Monday morning.\n* at  3:20 PM Tuesday the stage was 13.2 feet.\n* Flood stage is 13.3 feet.\n* Minor Flooding is forecast.\n* Forecast, the river will continue rising to near 13.4 feet by\nWednesday night. The river will fall below flood stage late this\nweek or early this weekend.\n* Impact, at 13.3 feet...Minor flooding begins in low areas.\n* Flood history, this crest compares to a previous crest of 13.4 feet\non Oct 6 2019.",
+        "instruction": "Safety message...Motorists should not attempt to drive around\nbarricades or drive cars through flooded areas.\n\nStay tuned to further developments by listening to your local\nradio... television... or NOAA Weather Radio station for further\ninformation.\n\nAdditional weather and river information can be found on our homepage\nat www.weather.gov/grr",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGRR.FL.W.0036.000000T0000Z-200106T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GRRFLSGRR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-06T07:00:00-05:00"
+            ]
+        }
+    }
+}
