@@ -1,0 +1,73 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983471-3381379",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983471-3381379",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3983471-3381379",
+        "areaDesc": "Western Lemhi County",
+        "geocode": {
+            "UGC": [
+                "IDZ009"
+            ],
+            "SAME": [
+                "016059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/IDZ009"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982908-3380957",
+                "identifier": "NWS-IDP-PROD-3982908-3380957",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T01:22:00-07:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982768-3380858",
+                "identifier": "NWS-IDP-PROD-3982768-3380858",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-31T22:32:00-07:00"
+            }
+        ],
+        "sent": "2020-01-01T10:41:00-07:00",
+        "effective": "2020-01-01T10:41:00-07:00",
+        "onset": "2020-01-01T10:41:00-07:00",
+        "expires": "2020-01-01T11:45:00-07:00",
+        "ends": "2020-01-01T11:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Missoula MT",
+        "headline": "Winter Weather Advisory issued January 1 at 10:41AM MST until January 1 at 11:00AM MST by NWS Missoula MT",
+        "description": "Snow will continue at times through the day, but the greatest\nimpacts have lessened, thus allowing the Advisory to expire.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY WILL EXPIRE AT 11 AM MST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXP.KMSO.WW.Y.0071.000000T0000Z-200101T1800Z/"
+            ],
+            "PIL": [
+                "MSOWSWMSO"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-01T11:00:00-07:00"
+            ]
+        }
+    }
+}
