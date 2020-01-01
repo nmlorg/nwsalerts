@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983205-3381178",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.38,
+                    43.6599999
+                ],
+                [
+                    -84.3199999,
+                    43.67
+                ],
+                [
+                    -84.2099999,
+                    43.620000000000005
+                ],
+                [
+                    -83.98,
+                    43.440000000000005
+                ],
+                [
+                    -84.01,
+                    43.4099999
+                ],
+                [
+                    -84.27000000000001,
+                    43.6
+                ],
+                [
+                    -84.38,
+                    43.6599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983205-3381178",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3983205-3381178",
+        "areaDesc": "Midland, MI; Saginaw, MI",
+        "geocode": {
+            "UGC": [
+                "MIC111",
+                "MIC145"
+            ],
+            "SAME": [
+                "026111",
+                "026145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC111",
+            "https://api.weather.gov/zones/county/MIC145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983204-3381177",
+                "identifier": "NWS-IDP-PROD-3983204-3381177",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T08:09:00-05:00"
+            }
+        ],
+        "sent": "2020-01-01T08:14:00-05:00",
+        "effective": "2020-01-01T08:14:00-05:00",
+        "onset": "2020-01-01T08:09:00-05:00",
+        "expires": "2020-01-01T22:09:00-05:00",
+        "ends": "2020-01-02T04:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 1 at 8:09AM EST until January 2 at 4:45AM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nTittabawassee River\n\n.Recent heavy rainfall on top of frozen ground led to high\nrunoff and river flooding.\n\nA flood warning continues for\nTittabawassee River from Midland downstream into Saginaw.\n* From now until further notice.\n* At 8 AM Wednesday the stage is 25.3 feet and nearly steady.\n* Flood stage is 24.0 feet.\n* Moderate flooding is occurring.\n* Forecast...the river is currently cresting andd should fall\nbelow flood stage tonight.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.COR.KDTX.FL.W.0024.000000T0000Z-200102T0945Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-02T04:45:00-05:00"
+            ]
+        }
+    }
+}
