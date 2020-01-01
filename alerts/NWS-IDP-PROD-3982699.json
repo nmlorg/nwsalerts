@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982699",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -73.77,
+                    42.7299999
+                ],
+                [
+                    -73.74,
+                    42.89
+                ],
+                [
+                    -73.28999999999999,
+                    42.9099999
+                ],
+                [
+                    -73.3,
+                    42.7
+                ],
+                [
+                    -73.77,
+                    42.7299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982699",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3982699",
+        "areaDesc": "Southern Saratoga; Eastern Rensselaer; Eastern Albany; Western Rensselaer",
+        "geocode": {
+            "UGC": [
+                "NYZ050",
+                "NYZ054",
+                "NYZ052",
+                "NYZ053"
+            ],
+            "SAME": [
+                "036091",
+                "036083",
+                "036001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ050",
+            "https://api.weather.gov/zones/forecast/NYZ054",
+            "https://api.weather.gov/zones/forecast/NYZ052",
+            "https://api.weather.gov/zones/forecast/NYZ053"
+        ],
+        "references": [],
+        "sent": "2019-12-31T23:12:00-05:00",
+        "effective": "2019-12-31T23:12:00-05:00",
+        "onset": "2019-12-31T23:12:00-05:00",
+        "expires": "2019-12-31T23:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albany NY",
+        "headline": "Special Weather Statement issued December 31 at 11:12PM EST by NWS Albany NY",
+        "description": "At 1110 PM EST, a heavy snow shower was located near Center Brunswick,\nnortheast of Troy, moving east at 25 mph.\n\nThis heavy snow shower will be near...\nGrafton around 1125 PM EST.\nHoosick Falls around 1130 PM EST.\n\nThis includes the following highways...\nInterstate 87 near exit 7.\nInterstate 787 between exits 8 and 9.\n\nVisibilities will drop quickly to less than a half of a mile in\nthis heavy snow shower.\n\nConditions can deteriorate rapidly in winter weather situations. Be\nprepared for snow or ice covered roads. Slow down and allow extra\ntime when traveling.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2019-12-31T23:10:00.000-05:00...storm...272DEG...23KT...42.8,-73.55"
+            ],
+            "NWSheadline": [
+                "A HEAVY SNOW SHOWER WILL AFFECT NORTHEASTERN ALBANY...SOUTHEASTERN SARATOGA AND NORTHERN RENSSELAER COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ALYSPSALY"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
