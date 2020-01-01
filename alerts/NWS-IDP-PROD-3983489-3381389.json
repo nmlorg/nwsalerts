@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983489-3381389",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983489-3381389",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3983489-3381389",
+        "areaDesc": "Anchorage",
+        "geocode": {
+            "UGC": [
+                "AKZ101"
+            ],
+            "SAME": [
+                "002020"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AKZ101"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983213-3381187",
+                "identifier": "NWS-IDP-PROD-3983213-3381187",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T04:25:00-09:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3981529-3379947",
+                "identifier": "NWS-IDP-PROD-3981529-3379947",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-31T03:07:00-09:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982439-3380626",
+                "identifier": "NWS-IDP-PROD-3982439-3380626",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-31T15:20:00-09:00"
+            }
+        ],
+        "sent": "2020-01-01T08:50:00-09:00",
+        "effective": "2020-01-01T08:50:00-09:00",
+        "onset": "2020-01-01T08:50:00-09:00",
+        "expires": "2020-01-01T10:00:00-09:00",
+        "ends": "2020-01-01T09:00:00-09:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Anchorage, AK",
+        "headline": "Winter Weather Advisory issued January 1 at 8:50AM AKST until January 1 at 9:00AM AKST by NWS Anchorage, AK",
+        "description": "Snow has lightened up across Anchorage. Periods of light snow will\ncontinue today, though additional accumulation is expected to be\nless than one inch.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY WILL EXPIRE AT 9 AM AKST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXP.PAFC.WW.Y.0055.000000T0000Z-200101T1800Z/"
+            ],
+            "PIL": [
+                "AERWSWAER"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-01T09:00:00-09:00"
+            ]
+        }
+    }
+}
