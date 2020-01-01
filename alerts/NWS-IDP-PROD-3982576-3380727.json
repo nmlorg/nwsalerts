@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982576-3380727",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.65,
+                    37.54
+                ],
+                [
+                    -85.75,
+                    37.76
+                ],
+                [
+                    -85.89,
+                    37.9
+                ],
+                [
+                    -85.76,
+                    37.94
+                ],
+                [
+                    -85.61,
+                    37.809999999999995
+                ],
+                [
+                    -85.52,
+                    37.58
+                ],
+                [
+                    -85.65,
+                    37.54
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982576-3380727",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3982576-3380727",
+        "areaDesc": "Nelson, KY; Hardin, KY",
+        "geocode": {
+            "UGC": [
+                "KYC179",
+                "KYC093"
+            ],
+            "SAME": [
+                "021179",
+                "021093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC179",
+            "https://api.weather.gov/zones/county/KYC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3981740-3380097",
+                "identifier": "NWS-IDP-PROD-3981740-3380097",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2019-12-31T10:40:00-05:00"
+            }
+        ],
+        "sent": "2019-12-31T21:27:00-05:00",
+        "effective": "2019-12-31T21:27:00-05:00",
+        "onset": "2019-12-31T21:27:00-05:00",
+        "expires": "2020-01-01T15:26:00-05:00",
+        "ends": "2020-01-01T21:18:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued December 31 at 9:27PM EST until January 1 at 9:18PM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nRolling Fork River near Boston\n\naffecting the following counties in Kentucky...Hardin...Nelson.\n\nThe Flood Warning continues for\nthe Rolling Fork River near Boston.\n* until Wednesday evening.\n* At  8:30 PM Tuesday the stage was 36.2 feet.\n* Flood stage is 35.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 36.5 feet by\nearly Wednesday morning. The river will fall below flood stage\nWednesday afternoon.\n* Impact...At 35.0 feet...Agricultural bottomland is covered.\n* Flood History...This crest compares to a previous crest of 36.6\nfeet on Mar 26 2018.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLMK.FL.W.0077.000000T0000Z-200102T0218Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-01T21:18:00-05:00"
+            ]
+        }
+    }
+}
