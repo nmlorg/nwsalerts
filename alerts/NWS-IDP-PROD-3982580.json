@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982580",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -72.97,
+                    42.2299999
+                ],
+                [
+                    -72.87,
+                    42.31
+                ],
+                [
+                    -72.77000000000001,
+                    42.42
+                ],
+                [
+                    -72.34,
+                    42.29
+                ],
+                [
+                    -72.4599999,
+                    42.1599999
+                ],
+                [
+                    -72.62,
+                    42.04
+                ],
+                [
+                    -73.03,
+                    42.17
+                ],
+                [
+                    -72.97,
+                    42.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3982580",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3982580",
+        "areaDesc": "Western Hampshire; Eastern Hampshire; Western Hampden; Eastern Hampden",
+        "geocode": {
+            "UGC": [
+                "MAZ008",
+                "MAZ010",
+                "MAZ009",
+                "MAZ011"
+            ],
+            "SAME": [
+                "025015",
+                "025013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MAZ008",
+            "https://api.weather.gov/zones/forecast/MAZ010",
+            "https://api.weather.gov/zones/forecast/MAZ009",
+            "https://api.weather.gov/zones/forecast/MAZ011"
+        ],
+        "references": [],
+        "sent": "2019-12-31T21:36:00-05:00",
+        "effective": "2019-12-31T21:36:00-05:00",
+        "onset": "2019-12-31T21:36:00-05:00",
+        "expires": "2019-12-31T22:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Boston/Norton MA",
+        "headline": "Special Weather Statement issued December 31 at 9:36PM EST by NWS Boston/Norton MA",
+        "description": "At 934 PM EST...A line of snow showers with embedded snow squalls\nwas located along a line extending from near Goshen to Huntington to\nnear Otis, and was moving southeast at 30 mph.\n\nSome of the embedded snow squalls may produce briefly heavy snow,\nwhich could accumulate up to around one half inch in less than an\nhour. Any snow cover may cause slippery road conditions especially\nif not treated.\n\nLocations impacted include...\nSpringfield, Chicopee, Westfield, Holyoke, Amherst, Northampton,\nAgawam, West Springfield, Ludlow, South Hadley, Easthampton,\nLongmeadow, Belchertown, Wilbraham, Southwick, Granby, Southampton,\nHadley, Hatfield and Williamsburg.\n\nDrivers need to remain alert. Road conditions can deteriorate\nquickly in wintry weather. These conditions often lead to accidents,\nespecially on highways, since road conditions can change rapidly.\nAvoid braking suddenly. Consider delaying travel until the squalls\npass.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2019-12-31T21:31:00.000-05:00...storm...299DEG...25KT...42.42,-72.77 42.31,-72.88 42.19,-73.04"
+            ],
+            "NWSheadline": [
+                "A line of snow showers and a few snow squalls will affect Western Hampshire...Western Hampden... Eastern Hampden...Eastern Hampshire counties through 1015 PM"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BOXSPSBOX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
