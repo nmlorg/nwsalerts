@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984748-3382300",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.9599999,
+                    35.82
+                ],
+                [
+                    -89.56,
+                    35.82
+                ],
+                [
+                    -89.79,
+                    35.6
+                ],
+                [
+                    -89.95,
+                    35.39
+                ],
+                [
+                    -90.25,
+                    35.39
+                ],
+                [
+                    -89.9599999,
+                    35.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984748-3382300",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3984748-3382300",
+        "areaDesc": "Lauderdale, TN; Tipton, TN; Mississippi, AR",
+        "geocode": {
+            "UGC": [
+                "TNC097",
+                "TNC167",
+                "ARC093"
+            ],
+            "SAME": [
+                "047097",
+                "047167",
+                "005093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC097",
+            "https://api.weather.gov/zones/county/TNC167",
+            "https://api.weather.gov/zones/county/ARC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983856-3381664",
+                "identifier": "NWS-IDP-PROD-3983856-3381664",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T18:32:00-06:00"
+            }
+        ],
+        "sent": "2020-01-02T12:34:00-06:00",
+        "effective": "2020-01-02T12:34:00-06:00",
+        "onset": "2020-01-02T12:34:00-06:00",
+        "expires": "2020-01-03T12:33:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Advisory issued January 2 at 12:34PM CST by NWS Memphis TN",
+        "description": "...The Flood Advisory continues for the Mississippi River...\nMississippi River at Osceola affecting Mississippi...Lauderdale\nand Tipton Counties\n\nThe Flood Advisory continues for\nthe Mississippi River at Osceola\n* until further notice.\n* At 12 PM Thursday the stage was 20.7 feet.\n* Flood stage is 28.0 feet.\n* Forecast...The river will continue to rise through the weekend,\nwith a flat crest near 28.0 feet early next week.\n* At 29.0 feet...In Arkansas, water is going over the north side of\nCraighead Point. Pumphouse area for the power plant south of\nOsceola is flooded. In Tennessee, Lauderdale County Road 924 begins\nto flood, isolating a house on Island 34.",
+        "instruction": "The next River Statement will be issued this evening or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.Y.0051.000000T0000Z-000000T0000Z/"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
