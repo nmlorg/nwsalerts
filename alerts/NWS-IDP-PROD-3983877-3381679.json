@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983877-3381679",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    35.03
+                ],
+                [
+                    -85.33,
+                    35.02
+                ],
+                [
+                    -85.45,
+                    34.84
+                ],
+                [
+                    -85.49000000000001,
+                    34.71
+                ],
+                [
+                    -85.56,
+                    34.7299999
+                ],
+                [
+                    -85.53,
+                    34.870000000000005
+                ],
+                [
+                    -85.39,
+                    35.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983877-3381679",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3983877-3381679",
+        "areaDesc": "Dade, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC083",
+                "TNC065"
+            ],
+            "SAME": [
+                "013083",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC083",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983348-3381273",
+                "identifier": "NWS-IDP-PROD-3983348-3381273",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T10:44:00-05:00"
+            }
+        ],
+        "sent": "2020-01-01T20:12:00-05:00",
+        "effective": "2020-01-01T20:12:00-05:00",
+        "onset": "2020-01-02T17:25:00-05:00",
+        "expires": "2020-01-02T10:12:00-05:00",
+        "ends": "2020-01-04T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 1 at 8:12PM EST until January 4 at 10:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nOcmulgee River near Abbeville affecting Dodge...Telfair and Wilcox\nCounties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\nThe Flood Warning continues for\nThe Lookout Creek near New England.\n* From tomorrow afternoon until Saturday morning.\n* At 8PM Wednesday the stage was 4.7 feet...and slowly rising.\n* Minor flooding is forecast.\n* Flood stage is 12 feet.\n* Forecast to rise above flood stage by tomorrow afternoon and\ncontinue to rise to near 16.5 feet by early Friday morning.The\nriver will fall below flood stage by Saturday morning.\n* At 17 feet...Moderate flooding begins. Several small buildings\nnear the New England hang gliding recreation park begin to flood.\nSeveral roads in Dade county will be closed including Sells Lane...\nMason Road...and Creek Road. The water will be several feet deep on\nportions of these roads. Also moderate flooding will begin\ndownstream as the creek crosses the Tennessee border into the\nTiftona area. Several roads near the creek will be flooded and\nclosed.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0001.200102T2225Z-200104T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T10:00:00-05:00"
+            ]
+        }
+    }
+}
