@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984670-3382232",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.06,
+                    32.9099999
+                ],
+                [
+                    -89.9,
+                    33.14
+                ],
+                [
+                    -89.81,
+                    33.3
+                ],
+                [
+                    -89.63,
+                    33.22
+                ],
+                [
+                    -89.69,
+                    33.129999999999995
+                ],
+                [
+                    -89.87,
+                    32.849999999999994
+                ],
+                [
+                    -90.06,
+                    32.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984670-3382232",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3984670-3382232",
+        "areaDesc": "Holmes, MS; Attala, MS",
+        "geocode": {
+            "UGC": [
+                "MSC051",
+                "MSC007"
+            ],
+            "SAME": [
+                "028051",
+                "028007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC051",
+            "https://api.weather.gov/zones/county/MSC007"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983910-3381709",
+                "identifier": "NWS-IDP-PROD-3983910-3381709",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T19:41:00-06:00"
+            }
+        ],
+        "sent": "2020-01-02T10:35:00-06:00",
+        "effective": "2020-01-02T10:35:00-06:00",
+        "onset": "2020-01-03T00:13:00-06:00",
+        "expires": "2020-01-03T16:35:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 2 at 10:35AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nBig Black River At West affecting Attala and Holmes Counties\nBig Black River Near Bentonia affecting Madison and Yazoo Counties\nBig Black River Near Bovina affecting Hinds and Warren Counties\n\nThe Flood Warning continues for\nThe Big Black River At West\n* from late tonight until further notice.\n* At  9:45 AM Thursday the stage was 10.3 feet.\n* Moderate flooding is forecast.\n* Flood stage is 15.0 feet.\n* Forecast...The river will rise above flood stage just after\nmidnight tonight and will continue to rise to near 20.0 feet early\nTuesday morning.\n* Impact...At 19.0 feet...Thousands of acres of agricultural land are\nunder water.\n*",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 48 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0003.200103T0613Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
