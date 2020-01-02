@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984358-3382020",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    35.03
+                ],
+                [
+                    -85.33,
+                    35.02
+                ],
+                [
+                    -85.45,
+                    34.84
+                ],
+                [
+                    -85.49000000000001,
+                    34.71
+                ],
+                [
+                    -85.56,
+                    34.7299999
+                ],
+                [
+                    -85.53,
+                    34.870000000000005
+                ],
+                [
+                    -85.39,
+                    35.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984358-3382020",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3984358-3382020",
+        "areaDesc": "Dade, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC083",
+                "TNC065"
+            ],
+            "SAME": [
+                "013083",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC083",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983877-3381679",
+                "identifier": "NWS-IDP-PROD-3983877-3381679",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T20:12:00-05:00"
+            }
+        ],
+        "sent": "2020-01-02T05:44:00-05:00",
+        "effective": "2020-01-02T05:44:00-05:00",
+        "onset": "2020-01-02T17:25:00-05:00",
+        "expires": "2020-01-02T19:44:00-05:00",
+        "ends": "2020-01-04T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 2 at 5:44AM EST until January 4 at 10:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\nThe Flood Warning continues for\nThe Lookout Creek near New England.\n* From late this afternoon until Saturday morning.\n* At 5 AM Thursday the stage was 4.6 feet and steady.\n* Minor flooding is forecast.\n* Flood stage is 12 feet.\n* Forecast to rise above flood stage by later this afternoon and\ncontinue to rise to near 16.5 feet by after midnight tomorrow. The\nriver will then fall below flood stage by Saturday morning.\n* At 15 feet...Minor flooding continues to expand along Sells Lane in\nTrenton...Mason Road near Rising Fawn...and Creek Road near New\nEngland. These roads and other roads with creeks flowing into\nLookout Creek will flood causing the roads to be closed. The water\nwill be a few feet deep on portions of these roads. Also minor\nflooding will continue to expand downstream as the creek crosses the\nTennessee border into the Tiftona area.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0001.200102T2225Z-200104T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T10:00:00-05:00"
+            ]
+        }
+    }
+}
