@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984743-3382295",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.44,
+                    34.6599999
+                ],
+                [
+                    -89.1,
+                    34.6599999
+                ],
+                [
+                    -89.11999999999999,
+                    34.46
+                ],
+                [
+                    -89.24999999999999,
+                    34.34
+                ],
+                [
+                    -89.43999999999998,
+                    34.4099999
+                ],
+                [
+                    -89.44,
+                    34.6599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984743-3382295",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3984743-3382295",
+        "areaDesc": "Lafayette, MS; Marshall, MS; Union, MS",
+        "geocode": {
+            "UGC": [
+                "MSC071",
+                "MSC093",
+                "MSC145"
+            ],
+            "SAME": [
+                "028071",
+                "028093",
+                "028145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC071",
+            "https://api.weather.gov/zones/county/MSC093",
+            "https://api.weather.gov/zones/county/MSC145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983865-3381673",
+                "identifier": "NWS-IDP-PROD-3983865-3381673",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T19:00:00-06:00"
+            }
+        ],
+        "sent": "2020-01-02T12:08:00-06:00",
+        "effective": "2020-01-02T12:08:00-06:00",
+        "onset": "2020-01-03T18:00:00-06:00",
+        "expires": "2020-01-03T12:07:00-06:00",
+        "ends": "2020-01-04T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 2 at 12:08PM CST until January 4 at 12:00AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Little Tallahatchie Canal...\nTallahatchie River.\n\nThe Flood Warning continues for\nthe Little Tallahatchie Canal at Etta near New Albany\n* until Friday, January 3.\n* At 11 AM Thursday the stage was 12.2 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 25.0 feet on Friday, January 3.\n* Flood stage is 25.0 feet.\n* River is forecast to rise beginning this afternoon, cresting near\n25.0 feet Friday evening.\n* At 25.0 feet...Extensive crop land flooding is occurring, mainly\nbetween State Highway 30 and County Highway 46. Water is beginning\nto cover the unpaved portion of Union County Highway 47 near Mud\nCreek.",
+        "instruction": "A followup Flood Statement will be issued this evening or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.W.0006.200104T0000Z-200104T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T00:00:00-06:00"
+            ]
+        }
+    }
+}
