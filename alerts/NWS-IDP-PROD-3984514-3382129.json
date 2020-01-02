@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984514-3382129",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.44,
+                    41.3
+                ],
+                [
+                    -84.4599999,
+                    41.489999999999995
+                ],
+                [
+                    -84.39,
+                    41.589999999999996
+                ],
+                [
+                    -84.29,
+                    41.589999999999996
+                ],
+                [
+                    -84.38000000000001,
+                    41.3
+                ],
+                [
+                    -84.44,
+                    41.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984514-3382129",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3984514-3382129",
+        "areaDesc": "Williams, OH; Defiance, OH; Fulton, OH",
+        "geocode": {
+            "UGC": [
+                "OHC171",
+                "OHC039",
+                "OHC051"
+            ],
+            "SAME": [
+                "039171",
+                "039039",
+                "039051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC171",
+            "https://api.weather.gov/zones/county/OHC039",
+            "https://api.weather.gov/zones/county/OHC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984044-3381804",
+                "identifier": "NWS-IDP-PROD-3984044-3381804",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T22:50:00-05:00"
+            }
+        ],
+        "sent": "2020-01-02T10:00:00-05:00",
+        "effective": "2020-01-02T10:00:00-05:00",
+        "onset": "2020-01-02T10:00:00-05:00",
+        "expires": "2020-01-03T09:59:00-05:00",
+        "ends": "2020-01-05T21:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 2 at 10:00AM EST until January 5 at 9:00PM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nSaint Joseph River Ohio below Montpelier affecting Williams County\nSaint Joseph River Ohio NEAR Newville affecting Allen...De Kalb and\nDefiance Counties\nTiffin River At Stryker affecting Defiance...Fulton and Williams\nCounties\n\n.Minor flooding continues.\n\nThe Flood Warning has been extended for\nThe Tiffin River At Stryker\n* until Sunday evening.\n* At 9 AM Thursday the stage was 13.1 feet and rising.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 11.0 feet.\n* Forecast...The river will fall below the 11.0 foot flood stage\naround  9 PM Saturday January  4.\n* At 13.0 feet...Flood waters begin to affect some farm buildings\nnear Stryker and flood some secondary roads.\n* This crest compares to a previous crest of 13.1 feet which occurred\non Jul 15 2017.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0091.000000T0000Z-200106T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-05T21:00:00-05:00"
+            ]
+        }
+    }
+}
