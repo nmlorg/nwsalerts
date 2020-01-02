@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983863-3381671",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983863-3381671",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3983863-3381671",
+        "areaDesc": "Curry County; Quay County; Guadalupe County",
+        "geocode": {
+            "UGC": [
+                "NMZ235",
+                "NMZ234",
+                "NMZ233"
+            ],
+            "SAME": [
+                "035009",
+                "035037",
+                "035019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NMZ235",
+            "https://api.weather.gov/zones/forecast/NMZ234",
+            "https://api.weather.gov/zones/forecast/NMZ233"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983452-3381360",
+                "identifier": "NWS-IDP-PROD-3983452-3381360",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T10:36:00-07:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983000-3380998",
+                "identifier": "NWS-IDP-PROD-3983000-3380998",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T02:36:00-07:00"
+            }
+        ],
+        "sent": "2020-01-01T17:46:00-07:00",
+        "effective": "2020-01-01T17:46:00-07:00",
+        "onset": "2020-01-01T17:46:00-07:00",
+        "expires": "2020-01-01T19:00:00-07:00",
+        "ends": "2020-01-01T18:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albuquerque NM",
+        "headline": "Wind Advisory issued January 1 at 5:46PM MST until January 1 at 6:00PM MST by NWS Albuquerque NM",
+        "description": "Westerly winds have decreased in speed across Guadalupe, Quay and\nCurry counties. Though a few gusts near 35 mph will remain\npossible through the evening, speeds will generally continue to\ntrend downward. Therefore, the wind advisory will expire at 6 pm.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY WILL EXPIRE AT 6 PM MST THIS EVENING"
+            ],
+            "VTEC": [
+                "/O.EXP.KABQ.WI.Y.0001.000000T0000Z-200102T0100Z/"
+            ],
+            "PIL": [
+                "ABQNPWABQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-01T18:00:00-07:00"
+            ]
+        }
+    }
+}
