@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984883-3382368",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.75,
+                    31.13
+                ],
+                [
+                    -92.28,
+                    30.49
+                ],
+                [
+                    -92.56,
+                    30.49
+                ],
+                [
+                    -92.04,
+                    31.16
+                ],
+                [
+                    -91.75,
+                    31.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984883-3382368",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3984883-3382368",
+        "areaDesc": "Evangeline, LA; Avoyelles, LA; St. Landry, LA",
+        "geocode": {
+            "UGC": [
+                "LAC039",
+                "LAC009",
+                "LAC097"
+            ],
+            "SAME": [
+                "022039",
+                "022009",
+                "022097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC039",
+            "https://api.weather.gov/zones/county/LAC009",
+            "https://api.weather.gov/zones/county/LAC097"
+        ],
+        "references": [],
+        "sent": "2020-01-02T15:11:00-06:00",
+        "effective": "2020-01-02T15:11:00-06:00",
+        "onset": "2020-01-02T15:11:00-06:00",
+        "expires": "2020-01-02T18:15:00-06:00",
+        "ends": "2020-01-02T18:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Advisory issued January 2 at 3:11PM CST until January 2 at 6:15PM CST by NWS Lake Charles LA",
+        "description": "The National Weather Service in Lake Charles has issued a\n\n* Flood Advisory for...\nSoutheastern Evangeline Parish in central Louisiana...\nSouthern Avoyelles Parish in central Louisiana...\nNorthwestern St. Landry Parish in central Louisiana...\n\n* Until 615 PM CST.\n\n* At 310 PM CST, Doppler radar indicated heavy rain due to\nthunderstorms. This will cause minor flooding in the advisory area.\nThree to Five inches of rain have fallen over the past few hours.\n\n* Some locations that will experience flooding include...\nEunice, Ville Platte, Marksville, Bunkie, Mamou, Moreauville,\nBordelonville, Morrow, Cottonport, Mansura, Hessmer, Chataignier,\nEvergreen, Plaucheville, Goudeau, Indian Lake, Savoy, Duralde,\nWhiteville and Big Cane.\n\nAdditional rainfall of two to four inches is expected over the area.\nThis additional rain will result in minor flooding.",
+        "instruction": "A Flood Advisory means river or stream flows are elevated, or ponding\nof water in urban or other areas is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLCH.FA.Y.0001.200102T2111Z-200103T0015Z/"
+            ],
+            "PIL": [
+                "LCHFLSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-02T18:15:00-06:00"
+            ]
+        }
+    }
+}
