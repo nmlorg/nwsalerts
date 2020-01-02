@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984688-3382251",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.44,
+                    38.51
+                ],
+                [
+                    -87.6,
+                    38.44
+                ],
+                [
+                    -87.72999999999999,
+                    38.409999899999995
+                ],
+                [
+                    -87.72999999999999,
+                    38.42999999999999
+                ],
+                [
+                    -87.54999999999998,
+                    38.519999999999996
+                ],
+                [
+                    -87.43999999999998,
+                    38.54
+                ],
+                [
+                    -87.44,
+                    38.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984688-3382251",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3984688-3382251",
+        "areaDesc": "Wabash, IL; Knox, IN; Gibson, IN",
+        "geocode": {
+            "UGC": [
+                "ILC185",
+                "INC083",
+                "INC051"
+            ],
+            "SAME": [
+                "017185",
+                "018083",
+                "018051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC185",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983473-3381381",
+                "identifier": "NWS-IDP-PROD-3983473-3381381",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T12:41:00-05:00"
+            }
+        ],
+        "sent": "2020-01-02T11:49:00-05:00",
+        "effective": "2020-01-02T11:49:00-05:00",
+        "onset": "2020-01-02T11:49:00-05:00",
+        "expires": "2020-01-03T11:48:00-05:00",
+        "ends": "2020-01-08T11:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 2 at 11:49AM EST until January 8 at 11:00AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...White River...\n\n.Precipitation on Sunday and Monday have led to minor flooding conditions\nalong some points of the East Fork White...and White Rivers.\nSignificant flooding is not expected.\n\nThe Flood Warning continues for\nThe White River at Hazleton.\n* until Wednesday morning.\n* There have been no observations in the last 24 hours.\n* Flood stage is 16.0 feet.\n* Minor flooding is forecast.\n* Forecast...It is forecast to crest at 17.5 feet Sunday evening and\nwill fall below flood stage by Tuesday evening.\n* At 17.5 feet...Flood water is near or starting on Pottsville Road.\nLow bottomlands are increasingly affected by flood waters.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0358.000000T0000Z-200108T1600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T11:00:00-05:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984687-3382250",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.12,
+                    38.85
+                ],
+                [
+                    -87.23,
+                    38.77
+                ],
+                [
+                    -87.23,
+                    38.550000000000004
+                ],
+                [
+                    -87.26,
+                    38.550000000000004
+                ],
+                [
+                    -87.29,
+                    38.790000000000006
+                ],
+                [
+                    -87.15,
+                    38.870000000000005
+                ],
+                [
+                    -87.12,
+                    38.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984687-3382250",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3984687-3382250",
+        "areaDesc": "Daviess, IN; Knox, IN; Gibson, IN; Pike, IN",
+        "geocode": {
+            "UGC": [
+                "INC027",
+                "INC083",
+                "INC051",
+                "INC125"
+            ],
+            "SAME": [
+                "018027",
+                "018083",
+                "018051",
+                "018125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC027",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC051",
+            "https://api.weather.gov/zones/county/INC125"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3983475-3381383",
+                "identifier": "NWS-IDP-PROD-3983475-3381383",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-01T12:41:00-05:00"
+            }
+        ],
+        "sent": "2020-01-02T11:49:00-05:00",
+        "effective": "2020-01-02T11:49:00-05:00",
+        "onset": "2020-01-02T11:49:00-05:00",
+        "expires": "2020-01-03T11:48:00-05:00",
+        "ends": "2020-01-03T21:34:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 2 at 11:49AM EST until January 3 at 9:34PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...White River...\n\n.Precipitation on Sunday and Monday have led to minor flooding conditions\nalong some points of the East Fork White...and White Rivers.\nSignificant flooding is not expected.\n\nThe Flood Warning continues for\nThe White River at Edwardsport.\n* until Friday evening.\n* At  7:00 PM Wednesday the stage was 16.8 feet.\n* Flood stage is 15.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will continue to fall to below flood stage by Friday\nmorning.\n* At 17.5 feet...Flooding closes Old Vincennes Road.  High water\ncrosses SR 358 on the Daviess County side just west of the levee.\nFlooding begins to affect higher bottomlands.  Residential property\nof river cabins begins to flood.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0356.000000T0000Z-200104T0234Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-03T21:34:00-05:00"
+            ]
+        }
+    }
+}
