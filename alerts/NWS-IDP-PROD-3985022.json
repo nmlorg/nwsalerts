@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985022",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.95,
+                    30.6
+                ],
+                [
+                    -92.4,
+                    30.34
+                ],
+                [
+                    -92.48,
+                    30.51
+                ],
+                [
+                    -92.19,
+                    30.85
+                ],
+                [
+                    -92.13,
+                    30.85
+                ],
+                [
+                    -91.95,
+                    30.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985022",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985022",
+        "areaDesc": "Acadia; Evangeline; St. Landry",
+        "geocode": {
+            "UGC": [
+                "LAZ043",
+                "LAZ032",
+                "LAZ033"
+            ],
+            "SAME": [
+                "022001",
+                "022039",
+                "022097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/LAZ043",
+            "https://api.weather.gov/zones/forecast/LAZ032",
+            "https://api.weather.gov/zones/forecast/LAZ033"
+        ],
+        "references": [],
+        "sent": "2020-01-02T18:08:00-06:00",
+        "effective": "2020-01-02T18:08:00-06:00",
+        "onset": "2020-01-02T18:08:00-06:00",
+        "expires": "2020-01-02T18:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Special Weather Statement issued January 2 at 6:08PM CST by NWS Lake Charles LA",
+        "description": "At 608 PM CST, Doppler radar was tracking a strong thunderstorm over\nEunice, moving northeast at 55 mph.\n\nWinds in excess of 40 mph will be possible with this storm.\n\nLocations impacted include...\nOpelousas, Eunice, Ville Platte, Washington, Chataignier, Mowata,\nPrairie Ronde, Indian Lake, Savoy, Lawtell, Whiteville, Swords,\nRichard and Grand Prairie.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-02T18:08:00.000-06:00...storm...222DEG...46KT...30.5,-92.38"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHEASTERN EVANGELINE...NORTH CENTRAL ACADIA AND CENTRAL ST. LANDRY PARISHES UNTIL 630 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHSPSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
