@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985842-3382998",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.51,
+                    33.52
+                ],
+                [
+                    -88.63000000000001,
+                    33.52
+                ],
+                [
+                    -88.80000000000001,
+                    33.56
+                ],
+                [
+                    -88.70999990000001,
+                    33.650000000000006
+                ],
+                [
+                    -88.61000000000001,
+                    33.59
+                ],
+                [
+                    -88.53000000000002,
+                    33.57
+                ],
+                [
+                    -88.51,
+                    33.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985842-3382998",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985842-3382998",
+        "areaDesc": "Clay, MS",
+        "geocode": {
+            "UGC": [
+                "MSC025"
+            ],
+            "SAME": [
+                "028025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985103-3382532",
+                "identifier": "NWS-IDP-PROD-3985103-3382532",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T20:04:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T10:11:00-06:00",
+        "effective": "2020-01-03T10:11:00-06:00",
+        "onset": "2020-01-04T18:00:00-06:00",
+        "expires": "2020-01-04T16:10:00-06:00",
+        "ends": "2020-01-06T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 3 at 10:11AM CST until January 6 at 12:00AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nTibbee Creek Near Tibbee affecting Clay County\nNoxubee River At Macon affecting Noxubee County\nLuxapallila Creek Near Columbus affecting Lowndes County\n\nThe Flood Warning continues for\nThe Tibbee Creek Near Tibbee\n* from Saturday evening to late Sunday night.\n* At  9:30 AM Friday the stage was 19.4 feet.\n* Minor flooding is forecast.\n* Flood stage is 23.0 feet.\n* Forecast...The river will rise above flood stage tomorrow evening\nand will continue to rise to near 23.1 feet early Sunday morning.\n* Impact...At 23.5 feet...Flood water is covering the gravel road\nsouth of West Point that leads to the Tibbee Creek bridge near\nTibbee.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0001.200105T0000Z-200106T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-06T00:00:00-06:00"
+            ]
+        }
+    }
+}

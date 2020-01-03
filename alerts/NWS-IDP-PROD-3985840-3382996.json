@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985840-3382996",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.43,
+                    33.49
+                ],
+                [
+                    -88.4,
+                    33.56
+                ],
+                [
+                    -88.26,
+                    33.64
+                ],
+                [
+                    -88.28,
+                    33.5
+                ],
+                [
+                    -88.36,
+                    33.5
+                ],
+                [
+                    -88.42,
+                    33.45
+                ],
+                [
+                    -88.43,
+                    33.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985840-3382996",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985840-3382996",
+        "areaDesc": "Lowndes, MS",
+        "geocode": {
+            "UGC": [
+                "MSC087"
+            ],
+            "SAME": [
+                "028087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC087"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985101-3382530",
+                "identifier": "NWS-IDP-PROD-3985101-3382530",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T20:04:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T10:11:00-06:00",
+        "effective": "2020-01-03T10:11:00-06:00",
+        "onset": "2020-01-03T11:17:00-06:00",
+        "expires": "2020-01-04T16:10:00-06:00",
+        "ends": "2020-01-06T09:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 3 at 10:11AM CST until January 6 at 9:00AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nTibbee Creek Near Tibbee affecting Clay County\nNoxubee River At Macon affecting Noxubee County\nLuxapallila Creek Near Columbus affecting Lowndes County\n\nThe Flood Warning continues for\nThe Luxapallila Creek Near Columbus\n* until Monday morning.\n* At  9:00 AM Friday the stage was 14.4 feet.\n* Minor flooding is forecast.\n* Flood stage is 15.0 feet.\n* Forecast...The river will rise above flood stage late this morning\nand will continue to rise to near 16.8 feet early tomorrow\nafternoon.\n* Impact...At 16.0 feet...Water is flowing over Gunshoot Road near\nsteens. Low lying areas along sand road, black creek road, and near\nyellow creek are flooding.\n* Impact...At 15.0 feet...Overbank flooding is occurring in the steens\narea.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Monday morning"
+            ],
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0019.200103T1717Z-200106T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-06T09:00:00-06:00"
+            ]
+        }
+    }
+}
