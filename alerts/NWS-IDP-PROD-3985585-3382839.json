@@ -1,0 +1,81 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985585-3382839",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985585-3382839",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985585-3382839",
+        "areaDesc": "South Washington Cascades; Northern Oregon Cascades; Cascades in Lane County",
+        "geocode": {
+            "UGC": [
+                "WAZ019",
+                "ORZ011",
+                "ORZ013"
+            ],
+            "SAME": [
+                "053015",
+                "053059",
+                "041005",
+                "041027",
+                "041043",
+                "041047",
+                "041051",
+                "041039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/WAZ019",
+            "https://api.weather.gov/zones/forecast/ORZ011",
+            "https://api.weather.gov/zones/forecast/ORZ013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985125-3382555",
+                "identifier": "NWS-IDP-PROD-3985125-3382555",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T18:16:00-08:00"
+            }
+        ],
+        "sent": "2020-01-03T03:19:00-08:00",
+        "effective": "2020-01-03T03:19:00-08:00",
+        "onset": "2020-01-04T00:00:00-08:00",
+        "expires": "2020-01-03T16:00:00-08:00",
+        "ends": "2020-01-04T08:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Portland OR",
+        "headline": "Winter Weather Advisory issued January 3 at 3:19AM PST until January 4 at 8:00AM PST by NWS Portland OR",
+        "description": "* WHAT...Snow expected. Total snow accumulations of 6 to 12\ninches. Winds gusting as high as 45 mph.\n\n* WHERE...South Washington Cascades, North Oregon Cascades, and\nCascades of Lane County.\n\n* WHEN...From midnight Friday night to 8 AM Saturday.\n\n* IMPACTS...Snow and windy conditions will make travel difficult,\nwith poor visibility at times.",
+        "instruction": "Slow down and use caution while traveling.\n\nThe latest road conditions for the state you are calling from can\nbe obtained by calling 5 1 1.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT FROM MIDNIGHT TONIGHT TO 8 AM PST SATURDAY"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KPQR.WW.Y.0001.200104T0800Z-200104T1600Z/"
+            ],
+            "PIL": [
+                "PQRWSWPQR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T08:00:00-08:00"
+            ]
+        }
+    }
+}
