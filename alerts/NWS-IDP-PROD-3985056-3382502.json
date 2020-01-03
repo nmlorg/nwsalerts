@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985056-3382502",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    35.03
+                ],
+                [
+                    -85.33,
+                    35.02
+                ],
+                [
+                    -85.45,
+                    34.84
+                ],
+                [
+                    -85.49000000000001,
+                    34.71
+                ],
+                [
+                    -85.56,
+                    34.7299999
+                ],
+                [
+                    -85.53,
+                    34.870000000000005
+                ],
+                [
+                    -85.39,
+                    35.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985056-3382502",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985056-3382502",
+        "areaDesc": "Dade, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC083",
+                "TNC065"
+            ],
+            "SAME": [
+                "013083",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC083",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984555-3382164",
+                "identifier": "NWS-IDP-PROD-3984555-3382164",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T10:31:00-05:00"
+            }
+        ],
+        "sent": "2020-01-02T20:19:00-05:00",
+        "effective": "2020-01-02T20:19:00-05:00",
+        "onset": "2020-01-03T00:53:00-05:00",
+        "expires": "2020-01-03T10:18:00-05:00",
+        "ends": "2020-01-04T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 2 at 8:19PM EST until January 4 at 7:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nLookout Creek near New England affecting Dade and Hamilton\nCounties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Saturday morning...The Flood Warning continues for The Lookout Creek near New England. * From after midnight tomorrow until Saturday morning. * At 8 PM Thursday the stage was 7.1 feet...and rising. * Minor flooding is forecast. * Flood stage is 12 feet. * Forecast to rise above flood stage by after midnight tomorrow and continue to rise to near 16.5 feet by tomorrow morning.The river will fall below flood stage by early Saturday morning. * At 17 feet...Moderate flooding begins. Several small buildings near the New England hang gliding recreation park begin to flood. Several roads in Dade county will be closed including Sells Lane"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0001.200103T0553Z-200104T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T07:00:00-05:00"
+            ]
+        }
+    }
+}
