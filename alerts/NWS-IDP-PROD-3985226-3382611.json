@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985226-3382611",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.05,
+                    32.31
+                ],
+                [
+                    -87.91,
+                    32.32
+                ],
+                [
+                    -88.09,
+                    31.78
+                ],
+                [
+                    -88.04,
+                    31.6
+                ],
+                [
+                    -88.10000000000001,
+                    31.6
+                ],
+                [
+                    -88.22000000000001,
+                    31.78
+                ],
+                [
+                    -88.05,
+                    32.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985226-3382611",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985226-3382611",
+        "areaDesc": "Choctaw, AL; Washington, AL; Clarke, AL",
+        "geocode": {
+            "UGC": [
+                "ALC023",
+                "ALC129",
+                "ALC025"
+            ],
+            "SAME": [
+                "001023",
+                "001129",
+                "001025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC023",
+            "https://api.weather.gov/zones/county/ALC129",
+            "https://api.weather.gov/zones/county/ALC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985156-3382574",
+                "identifier": "NWS-IDP-PROD-3985156-3382574",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T20:45:00-06:00"
+            }
+        ],
+        "sent": "2020-01-02T21:20:00-06:00",
+        "effective": "2020-01-02T21:20:00-06:00",
+        "onset": "2020-01-02T21:20:00-06:00",
+        "expires": "2020-01-03T21:20:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued January 2 at 9:20PM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for the following rivers in Mississippi...\n\nChickasawhay At Leakesville affecting George...Greene and Wayne\nCounties.\n\n...The flood warning continues for the following rivers in Alabama...\n\nTombigbee River Near Coffeeville Dam affecting Choctaw...Clarke and\nWashington Counties.\nTombigbee River Near Leroy affecting Choctaw...Clarke and Washington\nCounties.\n\n.Heavy rainfall is forecast to occur over the next 24 hours. As a result...\nriver levels are forecast to rise and flood warnings continue. It is\nemphasized that the following forecast is based on the expected rainfall\nduring the next 24 hours. If less rainfall occurs...it may be necessary to\nrevise this stage forecast downward.\n\nThe Flood Warning continues for\nthe Tombigbee River Near Coffeeville Dam\n* until further notice.\n* At 8PM Thursday the stage was 27.6 feet.\n* Minor flooding is forecast.\n* Flood stage is 29 feet.\n* Forecast to rise above flood stage by tomorrow morning and continue to rise\nnear 35.2 feet by Tuesday evening. Additional rises are possible thereafter.\n* At 29 feet...Pastureland becomes flooded. Livestock should be moved to\nhigher ground. Old Ferry Road near the river begins to flood.\n* At 40 feet...Widespread flooding of timber and pastureland. Portions of\nState Highway 114 east of the river becomes covered by water. Cabins on\nOld Ferry Road flood.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMOB.FL.W.0001.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
