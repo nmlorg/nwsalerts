@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985200-3382598",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.09,
+                    31.92
+                ],
+                [
+                    -89.97,
+                    32
+                ],
+                [
+                    -89.88,
+                    32.05
+                ],
+                [
+                    -89.72999999999999,
+                    32.05
+                ],
+                [
+                    -89.88999999999999,
+                    31.889999999999997
+                ],
+                [
+                    -90.04999999999998,
+                    31.819999999999997
+                ],
+                [
+                    -90.09,
+                    31.92
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985200-3382598",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985200-3382598",
+        "areaDesc": "Simpson, MS",
+        "geocode": {
+            "UGC": [
+                "MSC127"
+            ],
+            "SAME": [
+                "028127"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC127"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984604-3382189",
+                "identifier": "NWS-IDP-PROD-3984604-3382189",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T09:55:00-06:00"
+            }
+        ],
+        "sent": "2020-01-02T21:09:00-06:00",
+        "effective": "2020-01-02T21:09:00-06:00",
+        "onset": "2020-01-03T14:00:00-06:00",
+        "expires": "2020-01-04T03:08:00-06:00",
+        "ends": "2020-01-05T13:20:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 2 at 9:09PM CST until January 5 at 1:20PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nPearl River Near Rockport affecting Copiah and Simpson Counties\nPearl River Near Monticello affecting Lawrence County\nPearl River Near Columbia affecting Marion County\n\nStrong River At D'lo affecting Simpson County\n\nThe Flood Warning continues for\nThe Strong River At D'lo\n* from Friday afternoon to Sunday afternoon.\n* At  8:45 PM Thursday the stage was 18.0 feet.\n* Minor flooding is forecast.\n* Flood stage is 25.0 feet.\n* Forecast...The river will rise above flood stage early tomorrow\nafternoon and will continue to rise to near 27.0 feet Saturday\nmorning.\n* Impact...At 27.0 feet...Water floods entrance to lower tent camping\narea at the Dlo Water Park.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0015.200103T2000Z-200105T1920Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-05T13:20:00-06:00"
+            ]
+        }
+    }
+}
