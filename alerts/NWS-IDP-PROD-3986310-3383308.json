@@ -1,0 +1,122 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986310-3383308",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.64,
+                    33.65
+                ],
+                [
+                    -81.42,
+                    33.89
+                ],
+                [
+                    -81.16,
+                    33.6599999
+                ],
+                [
+                    -81.19,
+                    33.6599999
+                ],
+                [
+                    -81.28,
+                    33.57
+                ],
+                [
+                    -81.62,
+                    33.47
+                ],
+                [
+                    -81.64,
+                    33.65
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986310-3383308",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986310-3383308",
+        "areaDesc": "Aiken, SC; Lexington, SC",
+        "geocode": {
+            "UGC": [
+                "SCC003",
+                "SCC063"
+            ],
+            "SAME": [
+                "045003",
+                "045063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC003",
+            "https://api.weather.gov/zones/county/SCC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986300-3383300",
+                "identifier": "NWS-IDP-PROD-3986300-3383300",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T18:19:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986305-3383304",
+                "identifier": "NWS-IDP-PROD-3986305-3383304",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T18:27:00-05:00"
+            }
+        ],
+        "sent": "2020-01-03T18:39:00-05:00",
+        "effective": "2020-01-03T18:39:00-05:00",
+        "onset": "2020-01-03T18:39:00-05:00",
+        "expires": "2020-01-03T19:00:00-05:00",
+        "ends": "2020-01-03T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Severe Thunderstorm Warning issued January 3 at 6:39PM EST until January 3 at 7:00PM EST by NWS Columbia SC",
+        "description": "At 639 PM EST, a severe thunderstorm was located 9 miles northeast of\nAiken State Park, or 16 miles south of Batesburg-Leesville, moving\nnortheast at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nAiken State Park, Wagener, Salley, Perry, Perry Airport, Thor,\nSteedman, New Holland, Samaria Fire Station and Cedar Pond\nCampground.\n\nThis includes Interstate 20 in South Carolina between mile markers 29\nand 43.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-03T18:39:00.000-05:00...storm...238DEG...49KT...33.68,-81.43"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 700 PM EST FOR SOUTHWESTERN LEXINGTON AND NORTHEASTERN AIKEN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KCAE.SV.W.0002.000000T0000Z-200104T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAESVSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-03T19:00:00-05:00"
+            ]
+        }
+    }
+}
