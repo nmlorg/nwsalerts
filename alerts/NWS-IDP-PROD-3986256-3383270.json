@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986256-3383270",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.9599999,
+                    35.01
+                ],
+                [
+                    -87.12,
+                    35.14
+                ],
+                [
+                    -87.12,
+                    35.33
+                ],
+                [
+                    -86.9599999,
+                    35.33
+                ],
+                [
+                    -86.9599999,
+                    35.18
+                ],
+                [
+                    -86.88,
+                    35.05
+                ],
+                [
+                    -86.9599999,
+                    35.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986256-3383270",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986256-3383270",
+        "areaDesc": "Giles, TN",
+        "geocode": {
+            "UGC": [
+                "TNC055"
+            ],
+            "SAME": [
+                "047055"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC055"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985525-3382806",
+                "identifier": "NWS-IDP-PROD-3985525-3382806",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T04:35:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T16:13:00-06:00",
+        "effective": "2020-01-03T16:13:00-06:00",
+        "onset": "2020-01-03T16:13:00-06:00",
+        "expires": "2020-01-04T04:13:00-06:00",
+        "ends": "2020-01-04T16:33:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued January 3 at 4:13PM CST until January 4 at 4:33PM CST by NWS Nashville TN",
+        "description": "...The Flood Advisory continues for Richland Creek...\n\nRichland Creek Above Pulaski affecting Giles County\n\n. Rainfall of 1 to 3 inches has caused rises along Richland Creek above Pulaski.\n\nThe Flood Advisory continues for\nThe Richland Creek Above Pulaski\n* Until Saturday afternoon.\n* At 3 PM Friday the stage was 16.3 feet.\n* Flood stage is 20.0 feet.\n* Action stage is 16.0 feet.\n* The river will rise to near 17.2 feet after midnight tomorrow.\n* At 20.0 feet...Portions of Vales Mill Rd between Chicken Creek Rd and the\nHighway 64 bypass become inundated and may be subject to closure.\n* At 16.0 feet...Flooding of low lying agricultural land along the river begins.",
+        "instruction": "Stay tuned to noaa weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0004.000000T0000Z-200104T2233Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T16:33:00-06:00"
+            ]
+        }
+    }
+}
