@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986191-3383218",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.94,
+                    33.9099999
+                ],
+                [
+                    -83.92,
+                    33.940000000000005
+                ],
+                [
+                    -83.88,
+                    33.96000000000001
+                ],
+                [
+                    -83.74,
+                    33.830000000000005
+                ],
+                [
+                    -83.78999999999999,
+                    33.790000000000006
+                ],
+                [
+                    -83.94,
+                    33.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986191-3383218",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986191-3383218",
+        "areaDesc": "Walton, GA; Gwinnett, GA",
+        "geocode": {
+            "UGC": [
+                "GAC297",
+                "GAC135"
+            ],
+            "SAME": [
+                "013297",
+                "013135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC297",
+            "https://api.weather.gov/zones/county/GAC135"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986124-3383198",
+                "identifier": "NWS-IDP-PROD-3986124-3383198",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T15:48:00-05:00"
+            }
+        ],
+        "sent": "2020-01-03T16:21:00-05:00",
+        "effective": "2020-01-03T16:21:00-05:00",
+        "onset": "2020-01-03T16:21:00-05:00",
+        "expires": "2020-01-04T04:05:00-05:00",
+        "ends": "2020-01-04T04:05:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 3 at 4:21PM EST until January 4 at 4:05AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nAlcovy River near Lawrenceville affecting Gwinnett and Walton\nCounties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0007.000000T0000Z-200104T0905Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T04:05:00-05:00"
+            ]
+        }
+    }
+}
