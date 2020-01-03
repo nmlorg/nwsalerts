@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985718-3382910",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.4599999,
+                    38.78
+                ],
+                [
+                    -88.29,
+                    38.71
+                ],
+                [
+                    -88.2,
+                    38.6
+                ],
+                [
+                    -88.3199999,
+                    38.6
+                ],
+                [
+                    -88.38,
+                    38.67
+                ],
+                [
+                    -88.4599999,
+                    38.7
+                ],
+                [
+                    -88.4599999,
+                    38.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985718-3382910",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985718-3382910",
+        "areaDesc": "Richland, IL; Clay, IL",
+        "geocode": {
+            "UGC": [
+                "ILC159",
+                "ILC025"
+            ],
+            "SAME": [
+                "017159",
+                "017025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC159",
+            "https://api.weather.gov/zones/county/ILC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985036-3382486",
+                "identifier": "NWS-IDP-PROD-3985036-3382486",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T18:40:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T08:44:00-06:00",
+        "effective": "2020-01-03T08:44:00-06:00",
+        "onset": "2020-01-03T08:44:00-06:00",
+        "expires": "2020-01-03T22:43:00-06:00",
+        "ends": "2020-01-05T00:40:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lincoln IL",
+        "headline": "Flood Warning issued January 3 at 8:44AM CST until January 5 at 12:40AM CST by NWS Lincoln IL",
+        "description": "...The Flood Warning continues for the following river in ...\n\nLittle Wabash River below Clay City affecting Clay and Richland\nCounties\n\n.The following forecasts are based on observed precipitation, soil\nmoisture conditions, and forecast precipitation.\n\nThe Flood Warning continues for\nThe Little Wabash River below Clay City.\n* Until late Saturday night.\n* At  745 AM Friday the stage was 19.4 feet.\n* Flood stage is 18.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\ntomorrow evening.\n* Impact...At 19.7 feet...Mayflower Road...just north of U.S. Route\n50...begins to flood.",
+        "instruction": "If you encounter a flooded roadway, turn around and find an alternate\nroute. Turn around, don't drown.\n\nAdditional river and weather information is available at\nwww.weather.gov/ilx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KILX.FL.W.0083.000000T0000Z-200105T0640Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILXFLSILX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-05T00:40:00-06:00"
+            ]
+        }
+    }
+}
