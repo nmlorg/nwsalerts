@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985864-3383011",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.75,
+                    31.15
+                ],
+                [
+                    -92.65,
+                    31.049999999999997
+                ],
+                [
+                    -92.62,
+                    30.9
+                ],
+                [
+                    -92.69,
+                    30.9
+                ],
+                [
+                    -92.78999999999999,
+                    31.13
+                ],
+                [
+                    -92.75,
+                    31.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985864-3383011",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985864-3383011",
+        "areaDesc": "Rapides, LA",
+        "geocode": {
+            "UGC": [
+                "LAC079"
+            ],
+            "SAME": [
+                "022079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC079"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985046-3382496",
+                "identifier": "NWS-IDP-PROD-3985046-3382496",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T18:55:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T10:31:00-06:00",
+        "effective": "2020-01-03T10:31:00-06:00",
+        "onset": "2020-01-05T00:00:00-06:00",
+        "expires": "2020-01-04T00:32:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued January 3 at 10:31AM CST by NWS Lake Charles LA",
+        "description": "...The Flood Warning is cancelled for the following rivers in\nLouisiana...\n\nVermilion River At Lafayette, Surrey Street Gage\n\n...The Flood Warning continues for the following rivers in\nLouisiana...\n\nCalcasieu River Near Glenmora\n\nThe Flood Warning continues for\nThe Calcasieu River Near Glenmora.\n* from late Saturday night until further notice...or until the\nwarning is cancelled.\n* At  9:45 AM Friday the stage was 10.9 feet.\n* Minor flooding is forecast.\n* Flood stage is 12.0 feet.\n* Forecast...rise above flood stage by early Sunday morning and\ncontinue to rise to near 12.5 feet by early Tuesday morning.\n* Impact...At stages near 12.0 feet...When the river is rising and\nthe gauge reading is forecast to reach 12 feet or higher. Roads\nupstream from Glenmora, including Strothers Crossing Road near the\ncommunity of Calcasieu and Price Crossing Road near Hineston have\nwater on them and are subject to being closed. Also, flooding of\nforested areas near the river will occur.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLCH.FL.W.0002.200105T0600Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHFLSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

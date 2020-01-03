@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985859-3383006",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.4,
+                    30.57
+                ],
+                [
+                    -92.35000000000001,
+                    30.56
+                ],
+                [
+                    -92.56,
+                    30.189999999999998
+                ],
+                [
+                    -92.60000000000001,
+                    30.22
+                ],
+                [
+                    -92.56999990000001,
+                    30.45
+                ],
+                [
+                    -92.4,
+                    30.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985859-3383006",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985859-3383006",
+        "areaDesc": "Acadia, LA; Evangeline, LA; St. Landry, LA",
+        "geocode": {
+            "UGC": [
+                "LAC001",
+                "LAC039",
+                "LAC097"
+            ],
+            "SAME": [
+                "022001",
+                "022039",
+                "022097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC001",
+            "https://api.weather.gov/zones/county/LAC039",
+            "https://api.weather.gov/zones/county/LAC097"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985044-3382494",
+                "identifier": "NWS-IDP-PROD-3985044-3382494",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T18:55:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T10:29:00-06:00",
+        "effective": "2020-01-03T10:29:00-06:00",
+        "onset": "2020-01-03T10:29:00-06:00",
+        "expires": "2020-01-04T00:28:00-06:00",
+        "ends": "2020-01-05T06:32:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued January 3 at 10:29AM CST until January 5 at 6:32AM CST by NWS Lake Charles LA",
+        "description": "...Forecast Flooding Changed from Minor to Moderate Severity for the\nfollowing rivers in Louisiana...\n\nBayou Des Cannes Near Eunice",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KLCH.FL.W.0001.000000T0000Z-200105T1232Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHFLWLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-05T06:32:00-06:00"
+            ]
+        }
+    }
+}
