@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986316",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.19,
+                    33.68
+                ],
+                [
+                    -81.39999999999999,
+                    33.88
+                ],
+                [
+                    -80.63999999999999,
+                    34.34
+                ],
+                [
+                    -80.32999999999998,
+                    33.92
+                ],
+                [
+                    -81.19,
+                    33.68
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986316",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986316",
+        "areaDesc": "Lee; Calhoun; Kershaw; Sumter; Lexington; Richland",
+        "geocode": {
+            "UGC": [
+                "SCZ029",
+                "SCZ037",
+                "SCZ022",
+                "SCZ031",
+                "SCZ027",
+                "SCZ028"
+            ],
+            "SAME": [
+                "045061",
+                "045017",
+                "045055",
+                "045085",
+                "045063",
+                "045079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/SCZ029",
+            "https://api.weather.gov/zones/forecast/SCZ037",
+            "https://api.weather.gov/zones/forecast/SCZ022",
+            "https://api.weather.gov/zones/forecast/SCZ031",
+            "https://api.weather.gov/zones/forecast/SCZ027",
+            "https://api.weather.gov/zones/forecast/SCZ028"
+        ],
+        "references": [],
+        "sent": "2020-01-03T18:52:00-05:00",
+        "effective": "2020-01-03T18:52:00-05:00",
+        "onset": "2020-01-03T18:52:00-05:00",
+        "expires": "2020-01-03T19:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Special Weather Statement issued January 3 at 6:52PM EST by NWS Columbia SC",
+        "description": "At 652 PM EST...National Weather Service doppler radar indicated a\nstrong thunderstorm near South Congaree, or near Red Bank, moving\nnortheast at 55 mph.\n\nHAZARD...gusty winds 40 to 50 mph.\n\nIMPACT...expect minor damage to tree limbs and blowing around of\nlight, unsecured objects.\n\nSome locations in the path of this storm include...\nColumbia, Sumter, Lexington, West Columbia, Cayce, Forest Acres,\nCamden, Springdale, St. Andrews, Dentsville, Oak Grove, Shaw Air\nBase, McEntire Air Base, Red Bank, South Congaree, Pine Ridge,\nGaston, Arcadia Lakes, Eastover and Lugoff.\n\nThis includes the following highways...\nInterstate 126 between mile markers 0 and 3.\nInterstate 20 in South Carolina between mile markers 44 and 100.\nInterstate 26 between mile markers 106 and 130.\nInterstate 77 between mile markers 0 and 22.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-03T18:52:00.000-05:00...storm...244DEG...47KT...33.86,-81.19"
+            ],
+            "NWSheadline": [
+                "Strong Thunderstorms Will Impact Portions of southeastern Lexington...northwestern Calhoun...northwestern Sumter...Richland... southwestern Kershaw and western Lee Counties Until 730 PM EST."
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAESPSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

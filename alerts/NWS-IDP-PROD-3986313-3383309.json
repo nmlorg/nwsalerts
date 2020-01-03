@@ -1,0 +1,134 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986313-3383309",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.04,
+                    33.19
+                ],
+                [
+                    -82.05000000000001,
+                    33.199999999999996
+                ],
+                [
+                    -82.06000000000002,
+                    33.24999999999999
+                ],
+                [
+                    -81.90000000000002,
+                    33.32999999999999
+                ],
+                [
+                    -81.87000000000002,
+                    33.30999999999999
+                ],
+                [
+                    -81.84000000000002,
+                    33.249999999999986
+                ],
+                [
+                    -81.85000000000002,
+                    33.249999999999986
+                ],
+                [
+                    -81.81000000000002,
+                    33.219999999999985
+                ],
+                [
+                    -81.89000000000001,
+                    33.15999989999998
+                ],
+                [
+                    -82.04,
+                    33.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986313-3383309",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986313-3383309",
+        "areaDesc": "Richmond, GA; Burke, GA",
+        "geocode": {
+            "UGC": [
+                "GAC245",
+                "GAC033"
+            ],
+            "SAME": [
+                "013245",
+                "013033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC245",
+            "https://api.weather.gov/zones/county/GAC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986309-3383307",
+                "identifier": "NWS-IDP-PROD-3986309-3383307",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T18:38:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986299-3383299",
+                "identifier": "NWS-IDP-PROD-3986299-3383299",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T18:17:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986303-3383303",
+                "identifier": "NWS-IDP-PROD-3986303-3383303",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T18:26:00-05:00"
+            }
+        ],
+        "sent": "2020-01-03T18:50:00-05:00",
+        "effective": "2020-01-03T18:50:00-05:00",
+        "onset": "2020-01-03T18:50:00-05:00",
+        "expires": "2020-01-03T19:00:00-05:00",
+        "ends": "2020-01-03T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Severe Thunderstorm Warning issued January 3 at 6:50PM EST until January 3 at 7:00PM EST by NWS Columbia SC",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and has exited the warned area. Therefore, the warning will\nbe allowed to expire.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-03T18:50:00.000-05:00...storm...245DEG...19KT...33.28,-81.85"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR NORTH CENTRAL BURKE AND SOUTHEASTERN RICHMOND COUNTIES WILL EXPIRE AT 700 PM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KCAE.SV.W.0001.000000T0000Z-200104T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAESVSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-03T19:00:00-05:00"
+            ]
+        }
+    }
+}
