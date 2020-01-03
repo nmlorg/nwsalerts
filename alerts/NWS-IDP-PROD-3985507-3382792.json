@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985507-3382792",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    35.03
+                ],
+                [
+                    -85.33,
+                    35.02
+                ],
+                [
+                    -85.45,
+                    34.84
+                ],
+                [
+                    -85.49000000000001,
+                    34.71
+                ],
+                [
+                    -85.56,
+                    34.7299999
+                ],
+                [
+                    -85.53,
+                    34.870000000000005
+                ],
+                [
+                    -85.39,
+                    35.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985507-3382792",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985507-3382792",
+        "areaDesc": "Dade, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC083",
+                "TNC065"
+            ],
+            "SAME": [
+                "013083",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC083",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985290-3382660",
+                "identifier": "NWS-IDP-PROD-3985290-3382660",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T23:52:00-05:00"
+            }
+        ],
+        "sent": "2020-01-03T05:20:00-05:00",
+        "effective": "2020-01-03T05:20:00-05:00",
+        "onset": "2020-01-03T05:20:00-05:00",
+        "expires": "2020-01-03T19:20:00-05:00",
+        "ends": "2020-01-04T14:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 3 at 5:20AM EST until January 4 at 2:00PM EST by NWS Peachtree City GA",
+        "description": "...Forecast Flooding Changed from Minor to Moderate Severity for the\nfollowing rivers in Georgia...\n\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\n\n.Recent heavy rainfall has caused significant runoff into streams and\nrivers which will cause flooding in some areas.\n\nThe Flood Warning continues for\nThe Lookout Creek near New England.\n* Until Saturday afternoon.\n* At 5 AM Friday the stage was 16.6 feet and rising.\n* Minor flooding is occurring, however, moderate flooding is forecast\nto develop.\n* Flood stage is 12 feet.\n* The creek will continue rising, reaching near 17.5 feet by this\nafternoon. The creek will fall below flood stage Saturday morning.\n* Between 16 and 17 feet, minor flooding expands along Sells Lane in\nTrenton, Mason Road near Rising Fawn and Creek Road near New\nEngland. These roads and other roads with creeks flowing into\nLookout Creek will flood causing the roads to be closed. The water\nwill be a few feet deep on portions of these roads. Also minor\nflooding will continue to expand downstream as the creek crosses\nthe Tennessee border into the Tiftona area.\n\nAt 17 feet, moderate flooding begins with several small buildings\nnear the New England hang gliding recreation park beginning to\nflood. Several roads in Dade county will be closed including Sells\nLane, Mason Road and Creek Road with water several feet deep on\nportions of these roads. Also, moderate flooding will begin\ndownstream as the creek crosses the Tennessee border into the\nTiftona area. Several roads near the creek will be flooded and\nclosed.",
+        "instruction": "All persons with interests along the river should monitor the latest\nforecasts...and be prepared to take necessary precautions to protect\nlife and property.\n\nThe latest stage data was furnished in cooperation with the United\nStates Geological Survey.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0001.000000T0000Z-200104T1900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLWFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T14:00:00-05:00"
+            ]
+        }
+    }
+}
