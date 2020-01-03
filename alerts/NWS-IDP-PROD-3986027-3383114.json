@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986027-3383114",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.59,
+                    33.2
+                ],
+                [
+                    -87.56,
+                    33.080000000000005
+                ],
+                [
+                    -87.8199999,
+                    32.77
+                ],
+                [
+                    -87.89,
+                    32.81
+                ],
+                [
+                    -87.69,
+                    33.21
+                ],
+                [
+                    -87.59,
+                    33.22
+                ],
+                [
+                    -87.59,
+                    33.2
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986027-3383114",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986027-3383114",
+        "areaDesc": "Marengo, AL; Tuscaloosa, AL; Greene, AL; Hale, AL; Sumter, AL",
+        "geocode": {
+            "UGC": [
+                "ALC091",
+                "ALC125",
+                "ALC063",
+                "ALC065",
+                "ALC119"
+            ],
+            "SAME": [
+                "001091",
+                "001125",
+                "001063",
+                "001065",
+                "001119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC091",
+            "https://api.weather.gov/zones/county/ALC125",
+            "https://api.weather.gov/zones/county/ALC063",
+            "https://api.weather.gov/zones/county/ALC065",
+            "https://api.weather.gov/zones/county/ALC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985802-3382976",
+                "identifier": "NWS-IDP-PROD-3985802-3382976",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T09:49:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T13:41:00-06:00",
+        "effective": "2020-01-03T13:41:00-06:00",
+        "onset": "2020-01-03T21:52:00-06:00",
+        "expires": "2020-01-04T01:41:00-06:00",
+        "ends": "2020-01-05T03:22:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued January 3 at 1:41PM CST until January 5 at 3:22AM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Black Warrior River At Oliver\nLock and Dam...\n\n.Rises continue along the Black Warrior River following the heavy rainfall\non Thursday...and a Flood Warning remains in effect at the Oliver Lock and\nDam and areas downstream.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Saturday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0004.200104T0352Z-200105T0922Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-05T03:22:00-06:00"
+            ]
+        }
+    }
+}
