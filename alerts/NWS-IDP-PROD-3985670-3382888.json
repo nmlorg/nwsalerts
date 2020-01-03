@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985670-3382888",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.95,
+                    31.83
+                ],
+                [
+                    -81.62,
+                    31.549999999999997
+                ],
+                [
+                    -81.72,
+                    31.519999999999996
+                ],
+                [
+                    -81.99,
+                    31.759999999999994
+                ],
+                [
+                    -81.95,
+                    31.83
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985670-3382888",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985670-3382888",
+        "areaDesc": "Long, GA; Wayne, GA",
+        "geocode": {
+            "UGC": [
+                "GAC183",
+                "GAC305"
+            ],
+            "SAME": [
+                "013183",
+                "013305"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC183",
+            "https://api.weather.gov/zones/county/GAC305"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985042-3382492",
+                "identifier": "NWS-IDP-PROD-3985042-3382492",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T19:54:00-05:00"
+            }
+        ],
+        "sent": "2020-01-03T08:52:00-05:00",
+        "effective": "2020-01-03T08:52:00-05:00",
+        "onset": "2020-01-03T08:52:00-05:00",
+        "expires": "2020-01-04T08:52:00-05:00",
+        "ends": "2020-01-05T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jacksonville FL",
+        "headline": "Flood Warning issued January 3 at 8:52AM EST until January 5 at 7:00AM EST by NWS Jacksonville FL",
+        "description": "...The flood warning continues for the following rivers in Georgia...\n\nAltamaha River At Doctortown affecting Long and Wayne Counties",
+        "instruction": "All persons with interest along the river should monitor the latest\nforecasts...And be prepared to take necessary precautions to protect\nlife and property. Do not drive cars through flooded areas. If you\nsee flood waters...Remember to turn around and do not drown.\n\nFor graphical hydrologic information...Please go to weather.gov and\nclick on your state. Select Rivers and Lakes under current weather.\nThe Advanced Hydrologic Prediction Service page provides current and\nforecast river information...Gage locations...Impacts... and\nhistorical crest information for all forecast points by clicking on\neach point.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJAX.FL.W.0018.000000T0000Z-200105T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JAXFLSJAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-05T07:00:00-05:00"
+            ]
+        }
+    }
+}
