@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985640-3382868",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.44,
+                    31.48
+                ],
+                [
+                    -87.12,
+                    31.32
+                ],
+                [
+                    -87.60000000000001,
+                    30.89
+                ],
+                [
+                    -87.78000000000002,
+                    31
+                ],
+                [
+                    -87.44,
+                    31.48
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985640-3382868",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985640-3382868",
+        "areaDesc": "Escambia, FL; Escambia, AL; Conecuh, AL; Monroe, AL; Baldwin, AL",
+        "geocode": {
+            "UGC": [
+                "FLC033",
+                "ALC053",
+                "ALC035",
+                "ALC099",
+                "ALC003"
+            ],
+            "SAME": [
+                "012033",
+                "001053",
+                "001035",
+                "001099",
+                "001003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC033",
+            "https://api.weather.gov/zones/county/ALC053",
+            "https://api.weather.gov/zones/county/ALC035",
+            "https://api.weather.gov/zones/county/ALC099",
+            "https://api.weather.gov/zones/county/ALC003"
+        ],
+        "references": [],
+        "sent": "2020-01-03T06:54:00-06:00",
+        "effective": "2020-01-03T06:54:00-06:00",
+        "onset": "2020-01-03T06:54:00-06:00",
+        "expires": "2020-01-03T08:00:00-06:00",
+        "ends": "2020-01-03T08:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Advisory issued January 3 at 6:54AM CST until January 3 at 8:00AM CST by NWS Mobile AL",
+        "description": "The National Weather Service in Mobile has issued a\n\n* Urban and Small Stream Flood Advisory for...\nSouth central Monroe County in south central Alabama...\nNorth central Baldwin County in southwestern Alabama...\nWestern Escambia County in south central Alabama...\nSouthwestern Conecuh County in south central Alabama...\nNorthwestern Escambia County in northwestern Florida...\n\n* Until 800 AM CST.\n\n* At 653 AM CST, Doppler radar indicated heavy rain due to\nthunderstorms. This will cause urban and small stream flooding in\nthe advisory area. Up to two inches of rain have already fallen.\n\n* Some locations that will experience flooding include...\nAtmore, Frisco City, McCullough, Uriah, Excel, I65 And CR 1, I65\nAnd AL 113, I65 And AL 21 and Poarch Creek Reservation.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KMOB.FA.Y.0001.200103T1254Z-200103T1400Z/"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-03T08:00:00-06:00"
+            ]
+        }
+    }
+}
