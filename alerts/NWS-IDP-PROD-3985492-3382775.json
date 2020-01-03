@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985492-3382775",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.25,
+                    34.1
+                ],
+                [
+                    -84.2,
+                    34.1
+                ],
+                [
+                    -84.25,
+                    34.04
+                ],
+                [
+                    -84.3,
+                    34.019999999999996
+                ],
+                [
+                    -84.33,
+                    34.04
+                ],
+                [
+                    -84.27,
+                    34.07
+                ],
+                [
+                    -84.25,
+                    34.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985492-3382775",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985492-3382775",
+        "areaDesc": "Fulton, GA; Forsyth, GA",
+        "geocode": {
+            "UGC": [
+                "GAC121",
+                "GAC117"
+            ],
+            "SAME": [
+                "013121",
+                "013117"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC121",
+            "https://api.weather.gov/zones/county/GAC117"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985341-3382677",
+                "identifier": "NWS-IDP-PROD-3985341-3382677",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T02:16:00-05:00"
+            }
+        ],
+        "sent": "2020-01-03T05:10:00-05:00",
+        "effective": "2020-01-03T05:10:00-05:00",
+        "onset": "2020-01-03T05:10:00-05:00",
+        "expires": "2020-01-03T19:09:00-05:00",
+        "ends": "2020-01-05T02:12:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 3 at 5:10AM EST until January 5 at 2:12AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nBig Creek near Alpharetta affecting Forsyth and Fulton Counties\n\nThe Flood Warning continues for\nThe Big Creek near Alpharetta.\n* Until late Saturday night.\n* At 445 AM Friday the stage was 7.5 feet and rising.\n* Minor flooding is occurring, and minor flooding is forecast to\ncontinue.\n* Flood stage is 7 feet.\n* The creek will continue rising, reaching near 7.6 feet by this\nevening. The creek will fall below flood stage Saturday evening.\n* Between 7 and 8 feet, minor flooding continues in the woodlands and\nfields along the creek from near Cumming in south Forsyth County to\nAlpharetta and Roswell in north Fulton County. Portions of The Big\nCreek Greenway will have minor flooding with 1 to 2 feet of water.\nMany of the walking and biking paths will be closed, especially\nupstream and downstream from the gage on Kimball Bridge Road and\nnear Rock Mill Park. Portions of the YMCA Campground off Preston\nRidge Road will also be flooded.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0002.000000T0000Z-200105T0712Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-05T02:12:00-05:00"
+            ]
+        }
+    }
+}
