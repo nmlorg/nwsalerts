@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986312",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.83,
+                    33.19
+                ],
+                [
+                    -81.92,
+                    33.36
+                ],
+                [
+                    -81.51,
+                    33.55
+                ],
+                [
+                    -81.24000000000001,
+                    33.269999999999996
+                ],
+                [
+                    -81.83,
+                    33.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986312",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986312",
+        "areaDesc": "Aiken; Richmond; Burke; Barnwell",
+        "geocode": {
+            "UGC": [
+                "SCZ030",
+                "GAZ065",
+                "GAZ077",
+                "SCZ035"
+            ],
+            "SAME": [
+                "045003",
+                "013245",
+                "013033",
+                "045011"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/SCZ030",
+            "https://api.weather.gov/zones/forecast/GAZ065",
+            "https://api.weather.gov/zones/forecast/GAZ077",
+            "https://api.weather.gov/zones/forecast/SCZ035"
+        ],
+        "references": [],
+        "sent": "2020-01-03T18:49:00-05:00",
+        "effective": "2020-01-03T18:49:00-05:00",
+        "onset": "2020-01-03T18:49:00-05:00",
+        "expires": "2020-01-03T19:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Special Weather Statement issued January 3 at 6:49PM EST by NWS Columbia SC",
+        "description": "At 649 PM EST...National Weather Service doppler radar indicated a\nstrong thunderstorm over Jackson, or 8 miles northwest of Savannah\nRiver Site, moving northeast at 45 mph.\n\nHAZARD...gusty winds 40 to 50 mph.\n\nIMPACT...expect minor damage to tree limbs and blowing around of\nlight, unsecured objects.\n\nSome locations in the path of this storm include...\nBarnwell, Savannah River Site, Williston, Blackville, New Ellenton,\nJackson, Barnwell State Park, Hilda, Snelling, Elko, Windsor,\nAudubon's Silver Bluff Sanctuary, Savannah River Site Badge Office,\nSavannah River Site H Canyon, Shell Bluff Landing and Barnwell County\nAirport.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-03T18:49:00.000-05:00...storm...244DEG...38KT...33.31,-81.8"
+            ],
+            "NWSheadline": [
+                "Strong Thunderstorms Will Impact Portions of north central Burke...eastern Richmond...central Barnwell and southwestern Aiken Counties Until 730 PM EST."
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAESPSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
