@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985997",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.83,
+                    31.88
+                ],
+                [
+                    -83.95,
+                    32.03
+                ],
+                [
+                    -83.7,
+                    32.27
+                ],
+                [
+                    -83.4599999,
+                    32.040000000000006
+                ],
+                [
+                    -83.83,
+                    31.88
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985997",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985997",
+        "areaDesc": "Wilcox; Crisp; Dooly; Pulaski",
+        "geocode": {
+            "UGC": [
+                "GAZ108",
+                "GAZ106",
+                "GAZ105",
+                "GAZ107"
+            ],
+            "SAME": [
+                "013315",
+                "013081",
+                "013093",
+                "013235"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/GAZ108",
+            "https://api.weather.gov/zones/forecast/GAZ106",
+            "https://api.weather.gov/zones/forecast/GAZ105",
+            "https://api.weather.gov/zones/forecast/GAZ107"
+        ],
+        "references": [],
+        "sent": "2020-01-03T14:01:00-05:00",
+        "effective": "2020-01-03T14:01:00-05:00",
+        "onset": "2020-01-03T14:01:00-05:00",
+        "expires": "2020-01-03T14:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Special Weather Statement issued January 3 at 2:01PM EST by NWS Peachtree City GA",
+        "description": "At 201 PM EST...National Weather Service doppler radar indicated a\nstrong thunderstorm near Richwood, or near Cordele...moving northeast\nat 35 mph.\n\nHAZARD...40 to 50 mph wind and enhanced risk of a brief tornado.\n\nIMPACT...While winds should result in minor damage to tree limbs\nand blowing around of light...unsecured objects...this\nstorm has also exhibited localized rotation. A brief\ntornado could quickly form.\n\nSome locations in the path of this storm include\nCordele, Vienna, Unadilla, Pinehurst, East Crisp, Pleasant View,\nRichwood, Tippettville, Tremont and Pope City.",
+        "instruction": "People outdoors should seek shelter immediately.\n\nLAT...LON 3188 8383 3203 8395 3227 8370 3204 8346\nTIME...MOT...LOC 1901Z 235DEG 30KT 3200 8382\n\nWIND...50MPH",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-03T14:01:00.000-05:00...storm...235DEG...30KT...32.0,-83.82"
+            ],
+            "windGust": [
+                "50 MPH"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHERN CRISP...EASTERN DOOLY... NORTHWESTERN WILCOX AND SOUTHWESTERN PULASKI COUNTIES UNTIL 230 PM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCSPSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
