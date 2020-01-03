@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986302-3383302",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986302-3383302",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986302-3383302",
+        "areaDesc": "Jones; Cedar; Muscatine",
+        "geocode": {
+            "UGC": [
+                "IAZ053",
+                "IAZ065",
+                "IAZ067"
+            ],
+            "SAME": [
+                "019105",
+                "019031",
+                "019139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/IAZ053",
+            "https://api.weather.gov/zones/forecast/IAZ065",
+            "https://api.weather.gov/zones/forecast/IAZ067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986079-3383149",
+                "identifier": "NWS-IDP-PROD-3986079-3383149",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T14:23:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T17:20:00-06:00",
+        "effective": "2020-01-03T17:20:00-06:00",
+        "onset": "2020-01-03T17:20:00-06:00",
+        "expires": "2020-01-04T01:30:00-06:00",
+        "ends": "2020-01-04T03:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Quad Cities IA IL",
+        "headline": "Winter Weather Advisory issued January 3 at 5:20PM CST until January 4 at 3:00AM CST by NWS Quad Cities IA IL",
+        "description": "...Quick Round of Snow Through Tonight...\n\n.Light to moderate snow will continue to spread across eastern\nIowa through the evening hours. Narrow bands of heavier snow are\nexpected to develop which could drop visibilities to a quarter\nmile for a brief time and quickly lead to slushy accumulation on\npavement. The heavier bands of snow will make for hazardous travel\nconditions and greatly reduced visibilities. Total snow\naccumulations are expected to range from 1 to 3 inches.\n\n* WHAT...Snow expected. Total snow accumulations of 1 to 2\ninches with isolated amounts near 3 inches possible. Brief\nmoderate to heavy bands of snow may drop visibilities down to\na quarter mile at times.\n\n* WHERE...Jones, Cedar and Muscatine Counties.\n\n* WHEN...Until 3 AM CST Saturday.\n\n* IMPACTS...Plan on slippery road conditions and rapid changes\nin visibility.",
+        "instruction": "Slow down and use caution while traveling.\n\nCall 511 for road conditions.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY NOW IN EFFECT UNTIL 3 AM CST SATURDAY"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.EXT.KDVN.WW.Y.0001.200103T2320Z-200104T0900Z/"
+            ],
+            "PIL": [
+                "DVNWSWDVN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T03:00:00-06:00"
+            ]
+        }
+    }
+}
