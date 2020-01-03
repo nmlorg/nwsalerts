@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986198",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.9599999,
+                    33.36
+                ],
+                [
+                    -82.08,
+                    33.519999999999996
+                ],
+                [
+                    -81.64,
+                    33.94
+                ],
+                [
+                    -81.29,
+                    33.54
+                ],
+                [
+                    -81.9599999,
+                    33.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986198",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986198",
+        "areaDesc": "Aiken; Richmond; Columbia; Saluda; Orangeburg; Edgefield",
+        "geocode": {
+            "UGC": [
+                "SCZ030",
+                "GAZ065",
+                "GAZ064",
+                "SCZ026",
+                "SCZ036",
+                "SCZ025"
+            ],
+            "SAME": [
+                "045003",
+                "013245",
+                "013073",
+                "045081",
+                "045075",
+                "045037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/SCZ030",
+            "https://api.weather.gov/zones/forecast/GAZ065",
+            "https://api.weather.gov/zones/forecast/GAZ064",
+            "https://api.weather.gov/zones/forecast/SCZ026",
+            "https://api.weather.gov/zones/forecast/SCZ036",
+            "https://api.weather.gov/zones/forecast/SCZ025"
+        ],
+        "references": [],
+        "sent": "2020-01-03T16:37:00-05:00",
+        "effective": "2020-01-03T16:37:00-05:00",
+        "onset": "2020-01-03T16:37:00-05:00",
+        "expires": "2020-01-03T17:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Special Weather Statement issued January 3 at 4:37PM EST by NWS Columbia SC",
+        "description": "At 437 PM EST...National Weather Service doppler radar indicated a\nstrong thunderstorm over Augusta, moving northeast at 45 mph.\n\nHAZARD...gusty winds 40 mph.\n\nIMPACT...expect minor damage to tree limbs and blowing around of\nlight, unsecured objects.\n\nSome locations in the path of this storm include...\nAiken, North Augusta, Aiken Mall, Augusta, Clearwater, Belvedere,\nMartinez, New Ellenton, Ridge Spring, Glendale, Edgefield County\nAirport, Midtown, Summerville, Daniel Field, Citizens Park, Augusta\nRegional Airport, Augusta National Golf Club, USC Aiken, Aiken\nMunicipal Airport and Gloverville.\n\nThis includes the following highways...\nInterstate 20 in Georgia between mile markers 198 and 201.\nInterstate 20 in South Carolina between mile markers 0 and 34.\nInterstate 520 in Georgia between mile markers 10 and 15.\nInterstate 520 in South Carolina between mile markers 16 and 23.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-03T16:37:00.000-05:00...storm...238DEG...39KT...33.49,-81.95"
+            ],
+            "NWSheadline": [
+                "Strong Thunderstorms Will Impact Portions of northeastern Richmond...east central Columbia...western Orangeburg...Aiken...south central Saluda and southeastern Edgefield Counties Until 515 PM EST."
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAESPSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
