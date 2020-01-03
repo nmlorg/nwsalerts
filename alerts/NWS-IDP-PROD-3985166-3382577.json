@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985166-3382577",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.8,
+                    37.28
+                ],
+                [
+                    -86.89999999999999,
+                    37.18
+                ],
+                [
+                    -86.96999999999998,
+                    37.27
+                ],
+                [
+                    -86.77999999999999,
+                    37.39
+                ],
+                [
+                    -86.8,
+                    37.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985166-3382577",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985166-3382577",
+        "areaDesc": "Butler, KY; Muhlenberg, KY; Ohio, KY",
+        "geocode": {
+            "UGC": [
+                "KYC031",
+                "KYC177",
+                "KYC183"
+            ],
+            "SAME": [
+                "021031",
+                "021177",
+                "021183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC031",
+            "https://api.weather.gov/zones/county/KYC177",
+            "https://api.weather.gov/zones/county/KYC183"
+        ],
+        "references": [],
+        "sent": "2020-01-02T21:52:00-05:00",
+        "effective": "2020-01-02T21:52:00-05:00",
+        "onset": "2020-01-02T21:52:00-05:00",
+        "expires": "2020-01-03T15:52:00-05:00",
+        "ends": "2020-01-04T09:47:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Advisory issued January 2 at 9:52PM EST until January 4 at 9:47AM EST by NWS Louisville KY",
+        "description": "...The National Weather Service in Louisville KY has issued a Flood\nAdvisory for the Green River...\n\nGreen River at Rochester\n\naffecting the following counties in Kentucky...Butler...Muhlenberg...\nOhio.\n\nThe National Weather Service in Louisville KY has issued a\n* Flood Advisory for\nthe Green River at Rochester.\n* until Saturday morning.\n* At  3:25 PM Thursday the stage was 16.7 feet.\n* Flood stage is 17.0 feet.\n* Forecast...The river will fall to 15.7 feet by Saturday morning and\nwill then rise again to near 16.4 feet Sunday evening.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLMK.FL.Y.0001.200103T0252Z-200104T1447Z/"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T09:47:00-05:00"
+            ]
+        }
+    }
+}
