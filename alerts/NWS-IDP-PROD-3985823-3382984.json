@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985823-3382984",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.03,
+                    34.12
+                ],
+                [
+                    -83.9599999,
+                    34.099999999999994
+                ],
+                [
+                    -83.98,
+                    34.029999999999994
+                ],
+                [
+                    -84.13000000000001,
+                    34.00999999999999
+                ],
+                [
+                    -84.12,
+                    34.029999999999994
+                ],
+                [
+                    -84.09,
+                    34.059999999999995
+                ],
+                [
+                    -84.03,
+                    34.12
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985823-3382984",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985823-3382984",
+        "areaDesc": "Gwinnett, GA",
+        "geocode": {
+            "UGC": [
+                "GAC135"
+            ],
+            "SAME": [
+                "013135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC135"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985668-3382886",
+                "identifier": "NWS-IDP-PROD-3985668-3382886",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T08:52:00-05:00"
+            }
+        ],
+        "sent": "2020-01-03T10:59:00-05:00",
+        "effective": "2020-01-03T10:59:00-05:00",
+        "onset": "2020-01-03T10:59:00-05:00",
+        "expires": "2020-01-04T00:59:00-05:00",
+        "ends": "2020-01-04T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 3 at 10:59AM EST until January 4 at 7:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nBig Creek near Alpharetta affecting Forsyth and Fulton Counties\n\nSuwanee Creek near Suwanee affecting Gwinnett County",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0005.000000T0000Z-200104T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T07:00:00-05:00"
+            ]
+        }
+    }
+}
