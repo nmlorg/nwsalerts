@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985643-3382870",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985643-3382870",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985643-3382870",
+        "areaDesc": "Vermillion; Parke; Fountain; Warren",
+        "geocode": {
+            "UGC": [
+                "INZ043",
+                "INZ044",
+                "INZ035",
+                "INZ028"
+            ],
+            "SAME": [
+                "018165",
+                "018121",
+                "018045",
+                "018171"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/INZ043",
+            "https://api.weather.gov/zones/forecast/INZ044",
+            "https://api.weather.gov/zones/forecast/INZ035",
+            "https://api.weather.gov/zones/forecast/INZ028"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985589-3382841",
+                "identifier": "NWS-IDP-PROD-3985589-3382841",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T06:27:00-05:00"
+            }
+        ],
+        "sent": "2020-01-03T08:02:00-05:00",
+        "effective": "2020-01-03T08:02:00-05:00",
+        "onset": "2020-01-03T08:02:00-05:00",
+        "expires": "2020-01-03T10:00:00-05:00",
+        "ends": "2020-01-03T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Dense Fog Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Dense Fog Advisory issued January 3 at 8:02AM EST until January 3 at 10:00AM EST by NWS Indianapolis IN",
+        "description": "...Dense Fog Advisory for Northwest Central Indiana until\n1000 AM...\n\n* VISIBILITY...Less than 1/4 of a mile.\n\n* IMPACTS...Visibility will be restricted. If driving...reduce\nspeed and use low beam headlights.",
+        "instruction": "A Dense Fog Advisory means visibilities will frequently be\nreduced to less than one quarter mile. If driving, slow down, use\nyour headlights, and leave plenty of distance ahead of you.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "DENSE FOG ADVISORY REMAINS IN EFFECT UNTIL 10 AM EST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.CON.KIND.FG.Y.0001.000000T0000Z-200103T1500Z/"
+            ],
+            "PIL": [
+                "INDNPWIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-03T10:00:00-05:00"
+            ]
+        }
+    }
+}
