@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985394-3382711",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.99,
+                    36.13
+                ],
+                [
+                    -86.97,
+                    36.25
+                ],
+                [
+                    -86.78,
+                    36.24
+                ],
+                [
+                    -86.67,
+                    36.31
+                ],
+                [
+                    -86.58,
+                    36.22
+                ],
+                [
+                    -86.77,
+                    36.12
+                ],
+                [
+                    -86.99,
+                    36.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985394-3382711",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985394-3382711",
+        "areaDesc": "Davidson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC037"
+            ],
+            "SAME": [
+                "047037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC037"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984844-3382346",
+                "identifier": "NWS-IDP-PROD-3984844-3382346",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T14:55:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T02:41:00-06:00",
+        "effective": "2020-01-03T02:41:00-06:00",
+        "onset": "2020-01-03T02:41:00-06:00",
+        "expires": "2020-01-03T14:40:00-06:00",
+        "ends": "2020-01-05T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued January 3 at 2:41AM CST until January 5 at 12:00AM CST by NWS Nashville TN",
+        "description": "...The flood advisory continues for the Cumberland River...\n\nCumberland River At Nashville affecting Davidson County\n\n. The Cumberland River at Nashville will continue to slowly rise today and reach its peak around midday.\nThen the river level will fall back below action stage on Sunday.\n\nThe Flood Advisory continues for\nThe Cumberland River At Nashville\n* Until late Saturday night.\n* At 01AM Friday the stage was 31.0 feet.\n* Flood stage is 40.0 feet.\n* The river will rise to near 31.9 feet this afternoon.\n* At 32.0 feet...Further inundation of low lying areas along the river is\noccurring including the riverfront landing and receation areas near Nissan\nStadium.\n* At 30.0 feet...Water reaches the first grassy area of the riverfront landing,\nand the access point on the east side of the river near Nissan Stadium.\n* At 25.0 feet...The riverfront recreation areas on both sides of the river\nbegin to be inundated.",
+        "instruction": "Stay tuned to noaa weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0003.000000T0000Z-200105T0600Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-05T00:00:00-06:00"
+            ]
+        }
+    }
+}
