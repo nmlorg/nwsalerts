@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985636-3382867",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.97,
+                    31.39
+                ],
+                [
+                    -87.53,
+                    31.01
+                ],
+                [
+                    -87.62,
+                    31.07
+                ],
+                [
+                    -87.43,
+                    31.61
+                ],
+                [
+                    -86.97,
+                    31.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985636-3382867",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3985636-3382867",
+        "areaDesc": "Escambia, AL; Conecuh, AL; Monroe, AL",
+        "geocode": {
+            "UGC": [
+                "ALC053",
+                "ALC035",
+                "ALC099"
+            ],
+            "SAME": [
+                "001053",
+                "001035",
+                "001099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC053",
+            "https://api.weather.gov/zones/county/ALC035",
+            "https://api.weather.gov/zones/county/ALC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985624-3382855",
+                "identifier": "NWS-IDP-PROD-3985624-3382855",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T06:22:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T06:43:00-06:00",
+        "effective": "2020-01-03T06:43:00-06:00",
+        "onset": "2020-01-03T06:43:00-06:00",
+        "expires": "2020-01-03T07:00:00-06:00",
+        "ends": "2020-01-03T07:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Severe Thunderstorm Warning issued January 3 at 6:43AM CST until January 3 at 7:00AM CST by NWS Mobile AL",
+        "description": "At 642 AM CST, severe thunderstorms were located along a line\nextending from near Repton to near I65 And CR 1, moving northeast at\n60 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nMonroeville, Frisco City, McCullough, Uriah, Excel, Repton, I65 And\nCR 1, I65 And AL 113, I65 And AL 21 and Poarch Creek Reservation.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with these storms, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-03T06:42:00.000-06:00...storm...214DEG...53KT...31.4,-87.28 31.05,-87.56"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 700 AM CST FOR SOUTH CENTRAL MONROE...WESTERN ESCAMBIA AND SOUTHWESTERN CONECUH COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.SV.W.0001.000000T0000Z-200103T1300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSVSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-03T07:00:00-06:00"
+            ]
+        }
+    }
+}
