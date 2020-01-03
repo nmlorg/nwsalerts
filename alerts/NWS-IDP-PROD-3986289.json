@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986289",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.29,
+                    33.08
+                ],
+                [
+                    -82.27000000000001,
+                    33.15
+                ],
+                [
+                    -82.25000000000001,
+                    33.199999999999996
+                ],
+                [
+                    -81.84000000000002,
+                    33.339999999999996
+                ],
+                [
+                    -81.68000000000002,
+                    33.089999999999996
+                ],
+                [
+                    -82.28000000000002,
+                    32.979999899999996
+                ],
+                [
+                    -82.29,
+                    33.08
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986289",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986289",
+        "areaDesc": "Aiken; Richmond; Burke; Barnwell",
+        "geocode": {
+            "UGC": [
+                "SCZ030",
+                "GAZ065",
+                "GAZ077",
+                "SCZ035"
+            ],
+            "SAME": [
+                "045003",
+                "013245",
+                "013033",
+                "045011"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/SCZ030",
+            "https://api.weather.gov/zones/forecast/GAZ065",
+            "https://api.weather.gov/zones/forecast/GAZ077",
+            "https://api.weather.gov/zones/forecast/SCZ035"
+        ],
+        "references": [],
+        "sent": "2020-01-03T18:02:00-05:00",
+        "effective": "2020-01-03T18:02:00-05:00",
+        "onset": "2020-01-03T18:02:00-05:00",
+        "expires": "2020-01-03T18:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Special Weather Statement issued January 3 at 6:02PM EST by NWS Columbia SC",
+        "description": "At 602 PM EST...National Weather Service doppler radar indicated a\nstrong thunderstorm near Gough, or near Louisville, moving east at 45\nmph.\n\nHAZARD...strong winds 45 to 55 mph.\n\nIMPACT...expect minor damage to tree limbs and blowing around of\nlight, unsecured objects.\n\nSome locations in the path of this storm include...\nWaynesboro, Plant Vogtle, Hephzibah, McBean, Gough, Burke County\nAirport, Vidette, Shell Bluff, Shell Bluff Landing, Audubon's Silver\nBluff Sanctuary and Bennock Mill.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-03T18:02:00.000-05:00...storm...249DEG...41KT...33.08,-82.34"
+            ],
+            "NWSheadline": [
+                "Strong Thunderstorms Will Impact Portions of northern Burke... southeastern Richmond...southwestern Barnwell and southwestern Aiken Counties Until 645 PM EST."
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAESPSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
