@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986964-3383813",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.42,
+                    34.79
+                ],
+                [
+                    -87.33,
+                    34.76
+                ],
+                [
+                    -87.25,
+                    34.68
+                ],
+                [
+                    -87.28,
+                    34.57
+                ],
+                [
+                    -87.41,
+                    34.58
+                ],
+                [
+                    -87.42,
+                    34.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986964-3383813",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986964-3383813",
+        "areaDesc": "Lawrence, AL",
+        "geocode": {
+            "UGC": [
+                "ALC079"
+            ],
+            "SAME": [
+                "001079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC079"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986354-3383346",
+                "identifier": "NWS-IDP-PROD-3986354-3383346",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T18:58:00-06:00"
+            }
+        ],
+        "sent": "2020-01-04T04:54:00-06:00",
+        "effective": "2020-01-04T04:54:00-06:00",
+        "onset": "2020-01-04T04:54:00-06:00",
+        "expires": "2020-01-04T18:53:00-06:00",
+        "ends": "2020-01-04T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued January 4 at 4:54AM CST until January 4 at 9:00PM CST by NWS Huntsville AL",
+        "description": "...Forecast Flooding Changed from Minor to Minor Severity for the\nfollowing rivers in Alabama...\n\nBig Nance Creek AT Courtland affecting Lawrence County\n\nThe Flood Warning continues for\nthe Big Nance Creek AT Courtland.\n* until this evening.\n* At 4 AM Saturday the stage was 14.7 feet and rising.\n* Flood Stage is 14.0 feet.\n* Minor Flooding is occurring and Minor Flooding is forecast.\n* Recent activity...The maximum river stage in the 24 hours ending at\n4 AM Saturday was 14.7 feet.\n* Forecast...The river will continue to fall to below Flood Stage by\nlate this afternoon.\n* Impact...At 14.0 feet...Lowland flooding begins on the left bank of\nthe river.\n* Flood history...This crest compares to a previous crest of 15.2 feet\non Jan 21 2019.",
+        "instruction": "Safety message...A flood warning means that flooding along the river\nis imminent or occurring. Move to higher ground to escape flood\nwaters. Residents living along creeks and streams should take\nimmediate precautions to protect life and property. Additional\ninformation is available at http://water.weather.gov. Once there,\nclick on the Tennessee Valley to view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KHUN.FL.W.0003.000000T0000Z-200105T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLWHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T21:00:00-06:00"
+            ]
+        }
+    }
+}
