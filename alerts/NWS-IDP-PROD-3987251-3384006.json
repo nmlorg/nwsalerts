@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987251-3384006",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.25,
+                    34.1
+                ],
+                [
+                    -84.2,
+                    34.1
+                ],
+                [
+                    -84.25,
+                    34.04
+                ],
+                [
+                    -84.3,
+                    34.019999999999996
+                ],
+                [
+                    -84.33,
+                    34.04
+                ],
+                [
+                    -84.27,
+                    34.07
+                ],
+                [
+                    -84.25,
+                    34.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987251-3384006",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3987251-3384006",
+        "areaDesc": "Fulton, GA; Forsyth, GA",
+        "geocode": {
+            "UGC": [
+                "GAC121",
+                "GAC117"
+            ],
+            "SAME": [
+                "013121",
+                "013117"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC121",
+            "https://api.weather.gov/zones/county/GAC117"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986940-3383785",
+                "identifier": "NWS-IDP-PROD-3986940-3383785",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-04T05:26:00-05:00"
+            }
+        ],
+        "sent": "2020-01-04T10:28:00-05:00",
+        "effective": "2020-01-04T10:28:00-05:00",
+        "onset": "2020-01-04T10:28:00-05:00",
+        "expires": "2020-01-05T00:28:00-05:00",
+        "ends": "2020-01-05T15:24:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 4 at 10:28AM EST until January 5 at 3:24PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\nBig Creek near Alpharetta affecting Forsyth and Fulton Counties\n\nMiddle Oconee River near Arcade affecting Barrow and Jackson\nCounties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0002.000000T0000Z-200105T2024Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-05T15:24:00-05:00"
+            ]
+        }
+    }
+}
