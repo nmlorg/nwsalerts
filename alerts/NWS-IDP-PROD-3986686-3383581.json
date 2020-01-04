@@ -1,0 +1,123 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986686-3383581",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.2099999,
+                    28.59
+                ],
+                [
+                    -85.45,
+                    28.64
+                ],
+                [
+                    -85.59,
+                    28.69
+                ],
+                [
+                    -84.99000000000001,
+                    29.59
+                ],
+                [
+                    -84.13000000000001,
+                    29.54
+                ],
+                [
+                    -84.61000000000001,
+                    28.65
+                ],
+                [
+                    -84.93,
+                    28.59
+                ],
+                [
+                    -85.2099999,
+                    28.59
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986686-3383581",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986686-3383581",
+        "areaDesc": "Waters from Mexico Beach to Apalachicola FL from 20 to 60 NM; Coastal Waters From  Ochlockonee River to Apalachicola FL out to 20 Nm; Waters from Suwannee River to Apalachicola FL from 20 to 60 NM; Coastal Waters from Mexico Beach to Apalachicola out 20 NM",
+        "geocode": {
+            "UGC": [
+                "GMZ772",
+                "GMZ755",
+                "GMZ775",
+                "GMZ752"
+            ],
+            "SAME": [
+                "077772",
+                "077755",
+                "077775",
+                "077752"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/GMZ772",
+            "https://api.weather.gov/zones/forecast/GMZ755",
+            "https://api.weather.gov/zones/forecast/GMZ775",
+            "https://api.weather.gov/zones/forecast/GMZ752"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986671-3383575",
+                "identifier": "NWS-IDP-PROD-3986671-3383575",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-04T01:19:00-05:00"
+            }
+        ],
+        "sent": "2020-01-04T02:03:00-05:00",
+        "effective": "2020-01-04T02:03:00-05:00",
+        "onset": "2020-01-04T02:03:00-05:00",
+        "expires": "2020-01-04T02:45:00-05:00",
+        "ends": "2020-01-04T02:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Special Marine Warning issued January 4 at 2:03AM EST until January 4 at 2:45AM EST by NWS Tallahassee FL",
+        "description": "For the following areas...\nCoastal Waters From  Ochlockonee River to Apalachicola FL out to 20\nNm...\nCoastal Waters from Mexico Beach to Apalachicola out 20 NM...\nWaters from Mexico Beach to Apalachicola FL from 20 to 60 NM...\nWaters from Suwannee River to Apalachicola FL from 20 to 60 NM...\n\nAt 202 AM EST/102 AM CST/, severe thunderstorms capable of producing\nwaterspouts were located along a line extending from 14 nm southwest\nof C Tower to 36 nm south of Empire Mica Wreck, moving east at 25\nknots.\n\nHAZARD...Waterspouts and wind gusts 34 knots or greater.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect wind gusts in excess of 34 knots...suddenly higher\nwaves...frequent lightning...and heavy downpours.\nWaterspouts can quickly form and capsize boats...damage\nvessels...and create suddenly higher waves. Make sure all\non board are in a secure location and wearing life jackets.\n\nLocations impacted include...\nS Tower, V Tower, O Tower and C Tower.",
+        "instruction": "Move to safe harbor until hazardous weather passes.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-04T02:02:00.000-05:00...storm...270DEG...24KT...29.19,-84.97 28.71,-85.23"
+            ],
+            "hailSize": [
+                0
+            ],
+            "waterspoutDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SPECIAL MARINE WARNING REMAINS IN EFFECT UNTIL 245 AM EST/145 AM CST/"
+            ],
+            "VTEC": [
+                "/O.CON.KTAE.MA.W.0001.000000T0000Z-200104T0745Z/"
+            ],
+            "PIL": [
+                "TAEMWSTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T02:45:00-05:00"
+            ]
+        }
+    }
+}
