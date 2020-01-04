@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986418-3383389",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.61,
+                    37.15
+                ],
+                [
+                    -88.52,
+                    37.15
+                ],
+                [
+                    -88.36999999999999,
+                    37.07
+                ],
+                [
+                    -88.53999999999999,
+                    36.97
+                ],
+                [
+                    -88.72,
+                    37.089999999999996
+                ],
+                [
+                    -88.61,
+                    37.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986418-3383389",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986418-3383389",
+        "areaDesc": "Pope, IL; McCracken, KY; Massac, IL; Livingston, KY",
+        "geocode": {
+            "UGC": [
+                "ILC151",
+                "KYC145",
+                "ILC127",
+                "KYC139"
+            ],
+            "SAME": [
+                "017151",
+                "021145",
+                "017127",
+                "021139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC151",
+            "https://api.weather.gov/zones/county/KYC145",
+            "https://api.weather.gov/zones/county/ILC127",
+            "https://api.weather.gov/zones/county/KYC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985924-3383062",
+                "identifier": "NWS-IDP-PROD-3985924-3383062",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T11:27:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T20:00:00-06:00",
+        "effective": "2020-01-03T20:00:00-06:00",
+        "onset": "2020-01-05T18:00:00-06:00",
+        "expires": "2020-01-05T00:01:00-06:00",
+        "ends": "2020-01-08T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 3 at 8:00PM CST until January 8 at 6:00AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Kentucky...Missouri...\n\nOhio River at Paducah\nOhio River at Cairo\n\n.Runoff from recent rainfall this past week will continue to\nraise water levels on the Ohio River at Paducah Kentucky and Cairo\nIllinois.\n\nThe Flood Warning continues for\nthe Ohio River at Paducah\n* from Sunday evening to Wednesday morning.\n* At  7:00 PM Friday the stage was 36.0 feet.\n* Flood Stage is 39.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by Sunday evening and continue to\nrise to near 39.5 feet by Monday evening. The river will fall below\nflood stage by early Wednesday morning.\n* Impact...At 39.0 Feet...Minor flooding occurs affecting mainly\nbottomland and surrounding low lying areas.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0001.200106T0000Z-200108T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T06:00:00-06:00"
+            ]
+        }
+    }
+}
