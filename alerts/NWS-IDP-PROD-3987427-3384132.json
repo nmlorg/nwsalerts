@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987427-3384132",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.77,
+                    36.2299999
+                ],
+                [
+                    -89.47999999999999,
+                    36.2299999
+                ],
+                [
+                    -89.49999999999999,
+                    36.06
+                ],
+                [
+                    -89.47999999999999,
+                    35.95
+                ],
+                [
+                    -89.55999999999999,
+                    35.82
+                ],
+                [
+                    -89.85,
+                    35.82
+                ],
+                [
+                    -89.77,
+                    36.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987427-3384132",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3987427-3384132",
+        "areaDesc": "Lauderdale, TN; Dyer, TN; Pemiscot, MO; Lake, TN; Mississippi, AR",
+        "geocode": {
+            "UGC": [
+                "TNC097",
+                "TNC045",
+                "MOC155",
+                "TNC095",
+                "ARC093"
+            ],
+            "SAME": [
+                "047097",
+                "047045",
+                "029155",
+                "047095",
+                "005093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC097",
+            "https://api.weather.gov/zones/county/TNC045",
+            "https://api.weather.gov/zones/county/MOC155",
+            "https://api.weather.gov/zones/county/TNC095",
+            "https://api.weather.gov/zones/county/ARC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986459-3383423",
+                "identifier": "NWS-IDP-PROD-3986459-3383423",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T20:39:00-06:00"
+            }
+        ],
+        "sent": "2020-01-04T11:38:00-06:00",
+        "effective": "2020-01-04T11:38:00-06:00",
+        "onset": "2020-01-05T10:30:00-06:00",
+        "expires": "2020-01-05T11:37:00-06:00",
+        "ends": "2020-01-14T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 4 at 11:38AM CST until January 14 at 6:00AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Mississippi River.\n\nThe Flood Warning continues for\nthe Mississippi River at Caruthersville\n* from Sunday January 05 until Monday January 13.\n* At 11 AM Saturday the stage was 30.3 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 33.5 feet on Tuesday January 07.\n* Flood stage is 32.0 feet.\n* Forecast to rise above flood stage by Sunday January 05 and\ncontinue to rise to near 33.5 feet by Tuesday January 07.The river\nwill fall below flood stage by Monday January 13.\n* At 34.0 feet...In Tennessee, Barr Road along the Middle Fork of the\nForked Deer River is flooding near the bridge at the south end of\nWatkins Road. Water from the north bottom of Lauderdale County is\nnow flowing over the basin boundary into the south bottomm of\nLauderdale County. In Missouri, large business just north of\nCaruthersville is beginning to flood. Many fields adjacent to the\nInterstate 155 bridge are flooded.",
+        "instruction": "A followup Flood Statement will be issued Sunday or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0007.200105T1630Z-200114T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T06:00:00-06:00"
+            ]
+        }
+    }
+}
