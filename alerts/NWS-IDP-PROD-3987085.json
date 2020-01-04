@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987085",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.29,
+                    29.51
+                ],
+                [
+                    -82.27000000000001,
+                    29.73
+                ],
+                [
+                    -81.93,
+                    29.91
+                ],
+                [
+                    -81.81,
+                    29.59
+                ],
+                [
+                    -82.29,
+                    29.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987085",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3987085",
+        "areaDesc": "Eastern Alachua; Clay; Putnam; Bradford",
+        "geocode": {
+            "UGC": [
+                "FLZ136",
+                "FLZ032",
+                "FLZ037",
+                "FLZ031"
+            ],
+            "SAME": [
+                "012001",
+                "012019",
+                "012107",
+                "012007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/FLZ136",
+            "https://api.weather.gov/zones/forecast/FLZ032",
+            "https://api.weather.gov/zones/forecast/FLZ037",
+            "https://api.weather.gov/zones/forecast/FLZ031"
+        ],
+        "references": [],
+        "sent": "2020-01-04T08:36:00-05:00",
+        "effective": "2020-01-04T08:36:00-05:00",
+        "onset": "2020-01-04T08:36:00-05:00",
+        "expires": "2020-01-04T09:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jacksonville FL",
+        "headline": "Special Weather Statement issued January 4 at 8:36AM EST by NWS Jacksonville FL",
+        "description": "* At 835 AM EST, National Weather Service meteorologists were\ntracking a strong thunderstorm over Rochelle, or 9 miles southeast\nof Gainesville, moving northeast at 45 mph.\n\n* Winds in excess of 45 mph possible with this storm.\n\n* Locations impacted include...\nInterlachen, Keystone Heights, Melrose, Hawthorne, Lake Geneva,\nFlorahome, Rochelle, Melrose Landing, Orange Heights and Newnans\nLake.",
+        "instruction": "These winds can down small tree limbs and branches, and blow around\nunsecured small objects. Seek shelter in a safe building until the\nstorm passes.\n\nTo report severe weather, contact your nearest law enforcement\nagency. You can also share your report with NWS Jacksonville on\nFacebook and Twitter.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-04T08:35:00.000-05:00...storm...240DEG...45KT...29.62,-82.19"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHEASTERN ALACHUA... SOUTHEASTERN BRADFORD...NORTHWESTERN PUTNAM AND SOUTHWESTERN CLAY COUNTIES UNTIL 900 AM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JAXSPSJAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
