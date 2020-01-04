@@ -1,0 +1,85 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986504-3383467",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986504-3383467",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986504-3383467",
+        "areaDesc": "Osceola; Clay; Nobles; Dickinson; Jackson",
+        "geocode": {
+            "UGC": [
+                "IAZ002",
+                "IAZ014",
+                "MNZ089",
+                "IAZ003",
+                "MNZ090"
+            ],
+            "SAME": [
+                "019143",
+                "019041",
+                "027105",
+                "019059",
+                "027063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/IAZ002",
+            "https://api.weather.gov/zones/forecast/IAZ014",
+            "https://api.weather.gov/zones/forecast/MNZ089",
+            "https://api.weather.gov/zones/forecast/IAZ003",
+            "https://api.weather.gov/zones/forecast/MNZ090"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986320-3383315",
+                "identifier": "NWS-IDP-PROD-3986320-3383315",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T17:54:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985887-3383026",
+                "identifier": "NWS-IDP-PROD-3985887-3383026",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T10:46:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T20:52:00-06:00",
+        "effective": "2020-01-03T20:52:00-06:00",
+        "onset": "2020-01-03T20:52:00-06:00",
+        "expires": "2020-01-03T22:00:00-06:00",
+        "ends": "2020-01-03T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Sioux Falls SD",
+        "headline": "Winter Weather Advisory issued January 3 at 8:52PM CST until January 3 at 9:00PM CST by NWS Sioux Falls SD",
+        "description": "Snow has ended across the advisory area. However, breezy winds\nwill continue to create blowing snow into the early overnight\nhours. Motorists should continue to be prepared for slippery\nconditions into Saturday morning.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY WILL EXPIRE AT 9 PM CST THIS EVENING"
+            ],
+            "VTEC": [
+                "/O.EXP.KFSD.WW.Y.0001.000000T0000Z-200104T0300Z/"
+            ],
+            "PIL": [
+                "FSDWSWFSD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-03T21:00:00-06:00"
+            ]
+        }
+    }
+}

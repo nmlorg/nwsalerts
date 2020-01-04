@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986503-3383466",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.78,
+                    32
+                ],
+                [
+                    -88.83,
+                    32.08
+                ],
+                [
+                    -88.89999999999999,
+                    32.159999899999995
+                ],
+                [
+                    -88.78999999999999,
+                    32.199999999999996
+                ],
+                [
+                    -88.72999999999999,
+                    32.10999999999999
+                ],
+                [
+                    -88.67999999999999,
+                    32.04999999999999
+                ],
+                [
+                    -88.78,
+                    32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986503-3383466",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986503-3383466",
+        "areaDesc": "Clarke, MS",
+        "geocode": {
+            "UGC": [
+                "MSC023"
+            ],
+            "SAME": [
+                "028023"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC023"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985867-3383013",
+                "identifier": "NWS-IDP-PROD-3985867-3383013",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T10:32:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T20:51:00-06:00",
+        "effective": "2020-01-03T20:51:00-06:00",
+        "onset": "2020-01-03T20:50:00-06:00",
+        "expires": "2020-01-05T02:51:00-06:00",
+        "ends": "2020-01-06T03:51:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 3 at 8:51PM CST until January 6 at 3:51AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nChickasawhay River At Enterprise affecting Clarke County\n\nThe Flood Warning continues for\nThe Chickasawhay River At Enterprise\n* from this evening to late Sunday night.\n* At  8:00 PM Friday the stage was 25.4 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 25.0 feet.\n* Forecast...The river will continue rising to near 26.5 feet early\nSunday morning.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until late Sunday night"
+            ],
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0020.200104T0250Z-200106T0951Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-06T03:51:00-06:00"
+            ]
+        }
+    }
+}

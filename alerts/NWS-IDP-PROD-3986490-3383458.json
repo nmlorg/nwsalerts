@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986490-3383458",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.5699999,
+                    36.5
+                ],
+                [
+                    -89.38,
+                    36.5
+                ],
+                [
+                    -89.47999999999999,
+                    36.2299999
+                ],
+                [
+                    -89.77,
+                    36.2299999
+                ],
+                [
+                    -89.5699999,
+                    36.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986490-3383458",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986490-3383458",
+        "areaDesc": "New Madrid, MO; Pemiscot, MO; Lake, TN",
+        "geocode": {
+            "UGC": [
+                "MOC143",
+                "MOC155",
+                "TNC095"
+            ],
+            "SAME": [
+                "029143",
+                "029155",
+                "047095"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC143",
+            "https://api.weather.gov/zones/county/MOC155",
+            "https://api.weather.gov/zones/county/TNC095"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985908-3383044",
+                "identifier": "NWS-IDP-PROD-3985908-3383044",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T11:16:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T20:48:00-06:00",
+        "effective": "2020-01-03T20:48:00-06:00",
+        "onset": "2020-01-03T20:48:00-06:00",
+        "expires": "2020-01-04T20:47:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Advisory issued January 3 at 8:48PM CST by NWS Memphis TN",
+        "description": "...The Flood Advisory continues for the Mississippi River...\nMississippi River at Tiptonville affecting New Madrid...Pemiscot\nand Lake Counties\nMississippi River at Memphis affecting Crittenden...DeSoto and\nShelby Counties\nMississippi River at Tunica Riverpark affecting Lee and Tunica\nCounties\n\nThe Flood Advisory continues for\nthe Mississippi River at Tiptonville\n* until further notice.\n* At 8 PM Friday the stage was 32.4 feet.\n* Flood stage is 37.0 feet.\n* Forecast...The river will rise to near 35.1 feet Tuesday January\n7.\n* At 35.0 feet...In Tennessee, a large section of Lake County\nTennessee Road 79 is flooded near the levee. Most fields and\npastures south of Stewart, Missouri are covered by flood water.",
+        "instruction": "The next River Statement will be issued Saturday or sooner if conditions\nwarrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.Y.0002.000000T0000Z-000000T0000Z/"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
