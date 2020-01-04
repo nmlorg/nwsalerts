@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987133-3383922",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.13,
+                    32.87
+                ],
+                [
+                    -87.97,
+                    32.65
+                ],
+                [
+                    -87.84,
+                    32.62
+                ],
+                [
+                    -87.83,
+                    32.519999999999996
+                ],
+                [
+                    -88.09,
+                    32.56999999999999
+                ],
+                [
+                    -88.22,
+                    32.849999999999994
+                ],
+                [
+                    -88.13,
+                    32.87
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987133-3383922",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3987133-3383922",
+        "areaDesc": "Marengo, AL; Greene, AL; Hale, AL; Sumter, AL",
+        "geocode": {
+            "UGC": [
+                "ALC091",
+                "ALC063",
+                "ALC065",
+                "ALC119"
+            ],
+            "SAME": [
+                "001091",
+                "001063",
+                "001065",
+                "001119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC091",
+            "https://api.weather.gov/zones/county/ALC063",
+            "https://api.weather.gov/zones/county/ALC065",
+            "https://api.weather.gov/zones/county/ALC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986391-3383373",
+                "identifier": "NWS-IDP-PROD-3986391-3383373",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T19:33:00-06:00"
+            }
+        ],
+        "sent": "2020-01-04T08:19:00-06:00",
+        "effective": "2020-01-04T08:19:00-06:00",
+        "onset": "2020-01-04T08:19:00-06:00",
+        "expires": "2020-01-04T20:18:00-06:00",
+        "ends": "2020-01-08T07:38:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued January 4 at 8:19AM CST until January 8 at 7:38AM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Tombigbee River At Gainesville\nLock and Dam...\n\n.Heavy rainfall of over the past few days is producing rises on the\nTombigbee River at Gainesville Lock and Dam a flood warning remains\nin effect.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Sunday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0002.000000T0000Z-200108T1338Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T07:38:00-06:00"
+            ]
+        }
+    }
+}

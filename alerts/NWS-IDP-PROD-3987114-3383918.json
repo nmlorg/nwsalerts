@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987114-3383918",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.28,
+                    34.9099999
+                ],
+                [
+                    -86.06,
+                    34.89
+                ],
+                [
+                    -86.37,
+                    34.42
+                ],
+                [
+                    -86.53,
+                    34.5
+                ],
+                [
+                    -86.28,
+                    34.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987114-3383918",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3987114-3383918",
+        "areaDesc": "Madison, AL; Marshall, AL; Jackson, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089",
+                "ALC095",
+                "ALC071"
+            ],
+            "SAME": [
+                "001089",
+                "001095",
+                "001071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089",
+            "https://api.weather.gov/zones/county/ALC095",
+            "https://api.weather.gov/zones/county/ALC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986969-3383818",
+                "identifier": "NWS-IDP-PROD-3986969-3383818",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-04T05:00:00-06:00"
+            }
+        ],
+        "sent": "2020-01-04T08:16:00-06:00",
+        "effective": "2020-01-04T08:16:00-06:00",
+        "onset": "2020-01-04T08:16:00-06:00",
+        "expires": "2020-01-04T22:16:00-06:00",
+        "ends": "2020-01-06T10:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued January 4 at 8:16AM CST until January 6 at 10:00AM CST by NWS Huntsville AL",
+        "description": "...Forecast Flooding Changed from Minor to Moderate Severity for the\nfollowing rivers in Alabama...\n\nPaint Rock River near Woodville affecting Jackson...Madison and\nMarshall Counties",
+        "instruction": "Safety message...A flood warning means that flooding along the river\nis imminent or occurring. Move to higher ground to escape flood\nwaters. Residents living along creeks and streams should take\nimmediate precautions to protect life and property. Additional\ninformation is available at http://water.weather.gov. Once there,\nclick on the Tennessee Valley to view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KHUN.FL.W.0001.000000T0000Z-200106T1600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLWHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-06T10:00:00-06:00"
+            ]
+        }
+    }
+}
