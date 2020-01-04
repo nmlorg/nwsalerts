@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986385-3383368",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.05,
+                    32.31
+                ],
+                [
+                    -87.91,
+                    32.32
+                ],
+                [
+                    -88.09,
+                    31.78
+                ],
+                [
+                    -88.04,
+                    31.6
+                ],
+                [
+                    -88.10000000000001,
+                    31.6
+                ],
+                [
+                    -88.22000000000001,
+                    31.78
+                ],
+                [
+                    -88.05,
+                    32.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986385-3383368",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986385-3383368",
+        "areaDesc": "Choctaw, AL; Washington, AL; Clarke, AL",
+        "geocode": {
+            "UGC": [
+                "ALC023",
+                "ALC129",
+                "ALC025"
+            ],
+            "SAME": [
+                "001023",
+                "001129",
+                "001025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC023",
+            "https://api.weather.gov/zones/county/ALC129",
+            "https://api.weather.gov/zones/county/ALC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985947-3383075",
+                "identifier": "NWS-IDP-PROD-3985947-3383075",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T12:03:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T19:25:00-06:00",
+        "effective": "2020-01-03T19:25:00-06:00",
+        "onset": "2020-01-03T19:25:00-06:00",
+        "expires": "2020-01-04T19:25:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued January 3 at 7:25PM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for the following river in Alabama...\n\nTombigbee River Near Coffeeville Dam affecting Choctaw...Clarke and\nWashington Counties.\nTombigbee River Near Leroy affecting Choctaw...Clarke and Washington\nCounties.\n\n.Recent heavy rains have caused significant rises along the river.\n\nSAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.\n\nThe Flood Warning continues for\nthe Tombigbee River Near Coffeeville Dam\n* until further notice.\n* At 6 PM Friday the stage was 29.8 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 29 feet.\n* The river will continue rising to near 36.5 feet by Wednesday evening.\nAdditional rises may be possible thereafter.\n* At 29 feet...Pastureland becomes flooded. Livestock should be moved to higher\nground. Old Ferry Road near the river begins to flood.\n* At 40 feet...Widespread flooding of timber and pastureland. Portions of\nState Highway 114 east of the river becomes covered by water. Cabins on Old\nFerry Road flood.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMOB.FL.W.0001.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
