@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986460-3383425",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986460-3383425",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986460-3383425",
+        "areaDesc": "St Joseph to South Haven MI; South Haven to Holland MI; Holland to Grand Haven MI",
+        "geocode": {
+            "UGC": [
+                "LMZ844",
+                "LMZ845",
+                "LMZ846"
+            ],
+            "SAME": [
+                "092844",
+                "092845",
+                "092846"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/LMZ844",
+            "https://api.weather.gov/zones/forecast/LMZ845",
+            "https://api.weather.gov/zones/forecast/LMZ846"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986046-3383125",
+                "identifier": "NWS-IDP-PROD-3986046-3383125",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T15:01:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986046-3383126",
+                "identifier": "NWS-IDP-PROD-3986046-3383126",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T15:01:00-05:00"
+            }
+        ],
+        "sent": "2020-01-03T21:39:00-05:00",
+        "effective": "2020-01-03T21:39:00-05:00",
+        "onset": "2020-01-05T13:00:00-05:00",
+        "expires": "2020-01-04T05:45:00-05:00",
+        "ends": "2020-01-06T05:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Gale Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Rapids MI",
+        "headline": "Gale Watch issued January 3 at 9:39PM EST until January 6 at 5:00AM EST by NWS Grand Rapids MI",
+        "description": "* WHAT...For the Small Craft Advisory, northwest winds 10 to 20\nknots and waves to 3 to 5 feet. For the Gale Watch, west winds\n20 to 25 knots with gusts up to 40 knots and waves 7 to 11 feet\npossible.\n\n* WHERE...St Joseph to Grand Haven.\n\n* WHEN...For the Small Craft Advisory, from 10 AM to 10 PM EST\nSaturday. For the Gale Watch, from Sunday afternoon through\nlate Sunday night.\n\n* IMPACTS...Strong winds can cause hazardous waves which could\ncapsize or damage vessels and reduce visibility.",
+        "instruction": "Mariners should consider altering plans to avoid possible\nhazardous conditions.  Remain in port, seek safe harbor, alter\ncourse, and/or secure the vessel for severe wind and waves.",
+        "response": "Prepare",
+        "parameters": {
+            "NWSheadline": [
+                "SMALL CRAFT ADVISORY REMAINS IN EFFECT FROM 10 AM TO 10 PM EST SATURDAY... ...GALE WATCH REMAINS IN EFFECT FROM SUNDAY AFTERNOON THROUGH LATE SUNDAY NIGHT"
+            ],
+            "VTEC": [
+                "/O.CON.KGRR.GL.A.0001.200105T1800Z-200106T1000Z/"
+            ],
+            "PIL": [
+                "GRRMWWGRR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-06T05:00:00-05:00"
+            ]
+        }
+    }
+}

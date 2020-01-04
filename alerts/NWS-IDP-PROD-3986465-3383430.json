@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986465-3383430",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.83,
+                    39.05
+                ],
+                [
+                    -85.99,
+                    38.86
+                ],
+                [
+                    -86.13,
+                    38.769999999999996
+                ],
+                [
+                    -86.19999999999999,
+                    38.79
+                ],
+                [
+                    -86.03999999999999,
+                    38.93
+                ],
+                [
+                    -85.86999999999999,
+                    39.06
+                ],
+                [
+                    -85.83,
+                    39.05
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986465-3383430",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986465-3383430",
+        "areaDesc": "Lawrence, IN; Jackson, IN; Washington, IN",
+        "geocode": {
+            "UGC": [
+                "INC093",
+                "INC071",
+                "INC175"
+            ],
+            "SAME": [
+                "018093",
+                "018071",
+                "018175"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC093",
+            "https://api.weather.gov/zones/county/INC071",
+            "https://api.weather.gov/zones/county/INC175"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986453-3383415",
+                "identifier": "NWS-IDP-PROD-3986453-3383415",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T21:36:00-05:00"
+            }
+        ],
+        "sent": "2020-01-03T21:40:00-05:00",
+        "effective": "2020-01-03T21:40:00-05:00",
+        "onset": "2020-01-04T05:21:00-05:00",
+        "expires": "2020-01-04T21:39:00-05:00",
+        "ends": "2020-01-07T04:25:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 3 at 9:40PM EST until January 7 at 4:25AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...White River...\n\n\n.Additional precipitation across portions of central and southern\nIndiana in the last 24 hours will prolong high water along portions\nof the lower White River and East Fork White River by an additional\n24 hours or so. Additional rainfall is expected late today\ninto Saturday, but should be light enough that impacts to river\nlevels will be minimal.\n\nThe Flood Warning continues for\nThe East Fork White River at Seymour.\n* from late tonight to late Monday night.\n* At  8:45 PM Friday the stage was 10.7 feet.\n* Flood stage is 12.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by late tonight and continue to\nrise to near 14.4 feet by Sunday morning.  It will fall below flood\nstage by Monday afternoon.\n* At 14.0 feet...Pasture lands...agricultural lands and several County\nand State Roads begin to flood.  High water isolates a few river\ncabins.  State Road 235 east of Medora and county roads near\nShields and Vallonia flood.  Roads that begin to flood include 258\neast of Cortland...County Road 725 N just north of the gaging site\nand Ewing Road near Brownstown.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0001.200104T1021Z-200107T0925Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-07T04:25:00-05:00"
+            ]
+        }
+    }
+}
