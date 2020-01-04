@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987167-3383950",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -102.35,
+                    41.36
+                ],
+                [
+                    -102.35,
+                    41.4
+                ],
+                [
+                    -101.9599999,
+                    41.3
+                ],
+                [
+                    -101.97,
+                    41.26
+                ],
+                [
+                    -102.35,
+                    41.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987167-3383950",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3987167-3383950",
+        "areaDesc": "Keith, NE; Garden, NE",
+        "geocode": {
+            "UGC": [
+                "NEC101",
+                "NEC069"
+            ],
+            "SAME": [
+                "031101",
+                "031069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC101",
+            "https://api.weather.gov/zones/county/NEC069"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986560-3383492",
+                "identifier": "NWS-IDP-PROD-3986560-3383492",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T21:18:00-06:00"
+            }
+        ],
+        "sent": "2020-01-04T08:43:00-06:00",
+        "effective": "2020-01-04T08:43:00-06:00",
+        "onset": "2020-01-04T08:43:00-06:00",
+        "expires": "2020-01-05T20:43:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS North Platte NE",
+        "headline": "Flood Warning issued January 4 at 8:43AM CST by NWS North Platte NE",
+        "description": "...The Flood Warning continues for the following rivers in\nNebraska...\nNorth Platte River at Lewellen affecting Garden and Keith\nCounties.\n\n.Minor flooding continues along the North Platte River at Lewellen\nthrough early next week due to ice jamming. Fluctuations of one\nfoot are possible with ice break ups during the day and refreeze at\nnight.\n\nThe Flood Warning continues for\nThe North Platte River at Lewellen.\n* until further notice.\n* At  6:45 AM Saturday the stage was 8.3 feet.\n* Flood stage is 8.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will remain near 8.3 feet.\n* Impact...At 8.0 feet...Minor flood stage. Overflow and high water\ntable levels may cause seepage and flooding of basements and crawl\nspaces near and along the river.",
+        "instruction": "Do not drive your vehicle into areas where water covers the roadway.\nThe water depth may be too great to allow your car to cross safely\nand the road beneath may not be intact. Vehicles caught in rising\nwaters should be abandoned quickly.\n\nDo not let children play near the river during high water.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLBF.FL.W.0010.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LBFFLSLBF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
