@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986367",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.02,
+                    33.4799999
+                ],
+                [
+                    -81.00999999999999,
+                    33.690000000000005
+                ],
+                [
+                    -80.35,
+                    33.790000000000006
+                ],
+                [
+                    -80.33999999999999,
+                    33.440000000000005
+                ],
+                [
+                    -81.02,
+                    33.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986367",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986367",
+        "areaDesc": "Calhoun; Sumter; Clarendon; Richland; Orangeburg",
+        "geocode": {
+            "UGC": [
+                "SCZ037",
+                "SCZ031",
+                "SCZ038",
+                "SCZ028",
+                "SCZ036"
+            ],
+            "SAME": [
+                "045017",
+                "045085",
+                "045027",
+                "045079",
+                "045075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/SCZ037",
+            "https://api.weather.gov/zones/forecast/SCZ031",
+            "https://api.weather.gov/zones/forecast/SCZ038",
+            "https://api.weather.gov/zones/forecast/SCZ028",
+            "https://api.weather.gov/zones/forecast/SCZ036"
+        ],
+        "references": [],
+        "sent": "2020-01-03T20:09:00-05:00",
+        "effective": "2020-01-03T20:09:00-05:00",
+        "onset": "2020-01-03T20:09:00-05:00",
+        "expires": "2020-01-03T21:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Special Weather Statement issued January 3 at 8:09PM EST by NWS Columbia SC",
+        "description": "At 808 PM EST...National Weather Service doppler radar indicated a\nstrong thunderstorm near Orangeburg, moving east at 35 mph.\n\nHAZARD...strong winds 45 to 55 mph.\n\nIMPACT...expect minor damage to tree limbs and blowing around of\nlight, unsecured objects.\n\nSome locations in the path of this storm include...\nOrangeburg, Brookdale, St. Matthews, Summerton, Elloree, Santee State\nPark, Claflin College, South Carolina State University, Edisto\nGardens, Santee, Pinewood, Cameron, Paxville, Poplar Creek Landing,\nRimini, Fort Motte, Stumphole Landing, Prince of Orange Mall, Edisto\nand Lone Star.\n\nThis includes the following highways...\nInterstate 26 between mile markers 134 and 153.\nInterstate 95 between mile markers 96 and 108.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-03T20:08:00.000-05:00...storm...260DEG...32KT...33.57,-80.93"
+            ],
+            "NWSheadline": [
+                "Strong Thunderstorms Will Impact Portions of northeastern Orangeburg...Calhoun...southwestern Clarendon...southwestern Sumter and southeastern Richland Counties Until 900 PM EST."
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAESPSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
