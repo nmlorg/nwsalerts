@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986600-3383524",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.61,
+                    35.1
+                ],
+                [
+                    -85.28,
+                    35.550000000000004
+                ],
+                [
+                    -85.23,
+                    35.52
+                ],
+                [
+                    -85.54,
+                    35.07
+                ],
+                [
+                    -85.61,
+                    35.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986600-3383524",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986600-3383524",
+        "areaDesc": "Marion, TN; Sequatchie, TN; Bledsoe, TN",
+        "geocode": {
+            "UGC": [
+                "TNC115",
+                "TNC153",
+                "TNC007"
+            ],
+            "SAME": [
+                "047115",
+                "047153",
+                "047007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC115",
+            "https://api.weather.gov/zones/county/TNC153",
+            "https://api.weather.gov/zones/county/TNC007"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984792-3382315",
+                "identifier": "NWS-IDP-PROD-3984792-3382315",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T15:03:00-05:00"
+            }
+        ],
+        "sent": "2020-01-03T23:04:00-05:00",
+        "effective": "2020-01-03T23:04:00-05:00",
+        "onset": "2020-01-03T23:04:00-05:00",
+        "expires": "2020-01-04T19:04:00-05:00",
+        "ends": "2020-01-05T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Flood Warning issued January 3 at 11:04PM EST until January 5 at 7:00PM EST by NWS Morristown TN",
+        "description": "...The Flood Warning is cancelled for the following rivers ...\n\nSouth Chickamauga Creek Near Chickamauga TN affecting Catoosa and\nHamilton Counties\n\n...The Flood Warning is extended for the following rivers ...\n\nSequatchie River Near Whitwell TN affecting Bledsoe...Marion and\nSequatchie Counties",
+        "instruction": "Most deaths in floods occur in automobiles. If you come to a closed\nor flooded road, Turn Around! Don't Drown! For more details, stay\ntuned to NOAA Weather Radio or commercial television or radio\nstations that carry weather information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMRX.FL.W.0001.000000T0000Z-200106T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXFLSMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-05T19:00:00-05:00"
+            ]
+        }
+    }
+}
