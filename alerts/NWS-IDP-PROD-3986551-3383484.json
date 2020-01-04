@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986551-3383484",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.52,
+                    33
+                ],
+                [
+                    -88.61999999999999,
+                    33.07
+                ],
+                [
+                    -88.74999999999999,
+                    33.14
+                ],
+                [
+                    -88.66999999999999,
+                    33.2
+                ],
+                [
+                    -88.54999999999998,
+                    33.13
+                ],
+                [
+                    -88.44999999999999,
+                    33.04
+                ],
+                [
+                    -88.52,
+                    33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986551-3383484",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986551-3383484",
+        "areaDesc": "Noxubee, MS",
+        "geocode": {
+            "UGC": [
+                "MSC103"
+            ],
+            "SAME": [
+                "028103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC103"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985841-3382997",
+                "identifier": "NWS-IDP-PROD-3985841-3382997",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T10:11:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T21:11:00-06:00",
+        "effective": "2020-01-03T21:11:00-06:00",
+        "onset": "2020-01-03T21:11:00-06:00",
+        "expires": "2020-01-05T03:10:00-06:00",
+        "ends": "2020-01-07T21:25:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 3 at 9:11PM CST until January 7 at 9:25PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nTibbee Creek Near Tibbee affecting Clay County\nNoxubee River At Macon affecting Noxubee County\nLuxapallila Creek Near Columbus affecting Lowndes County\n\nThe Flood Warning continues for\nThe Noxubee River At Macon\n* until Tuesday evening.\n* At  8:00 PM Friday the stage was 29.9 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 26.0 feet.\n* Forecast...The river will continue rising to near 30.7 feet\ntomorrow evening.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Tuesday evening"
+            ],
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0002.000000T0000Z-200108T0325Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-07T21:25:00-06:00"
+            ]
+        }
+    }
+}
