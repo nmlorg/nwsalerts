@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986508-3383471",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.15,
+                    33.62
+                ],
+                [
+                    -90.15,
+                    33.75
+                ],
+                [
+                    -89.89,
+                    33.83
+                ],
+                [
+                    -89.84,
+                    33.8
+                ],
+                [
+                    -90.06,
+                    33.68
+                ],
+                [
+                    -90.14,
+                    33.54
+                ],
+                [
+                    -90.15,
+                    33.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986508-3383471",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986508-3383471",
+        "areaDesc": "Leflore, MS; Carroll, MS",
+        "geocode": {
+            "UGC": [
+                "MSC083",
+                "MSC015"
+            ],
+            "SAME": [
+                "028083",
+                "028015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC083",
+            "https://api.weather.gov/zones/county/MSC015"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3985877-3383014",
+                "identifier": "NWS-IDP-PROD-3985877-3383014",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T10:35:00-06:00"
+            }
+        ],
+        "sent": "2020-01-03T20:56:00-06:00",
+        "effective": "2020-01-03T20:56:00-06:00",
+        "onset": "2020-01-03T20:56:00-06:00",
+        "expires": "2020-01-05T02:55:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 3 at 8:56PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi..\n\nYalobusha At Whaley affecting Carroll and Leflore Counties\n\nThe Flood Warning continues for\nThe Yalobusha At Whaley\n* until further notice.\n* At  8:00 PM Friday the stage was 22.1 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 21.0 feet.\n* Forecast...The river will continue falling.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0016.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
