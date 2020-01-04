@@ -1,0 +1,127 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987528-3384189",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.34,
+                    27.44
+                ],
+                [
+                    -80.41,
+                    27.650000000000002
+                ],
+                [
+                    -80.6,
+                    27.990000000000002
+                ],
+                [
+                    -80.44,
+                    28.340000000000003
+                ],
+                [
+                    -79.64,
+                    28.930000000000003
+                ],
+                [
+                    -79.55,
+                    28.660000000000004
+                ],
+                [
+                    -79.53999999999999,
+                    28.290000000000003
+                ],
+                [
+                    -79.27,
+                    27.640000000000004
+                ],
+                [
+                    -80.34,
+                    27.44
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987528-3384189",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3987528-3384189",
+        "areaDesc": "Sebastian Inlet to Jupiter Inlet 0-20 nm; Volusia-Brevard County Line to Sebastian Inlet 20-60 nm; Volusia-Brevard County Line to Sebastian Inlet 0-20 nm; Sebastian Inlet to Jupiter Inlet 20-60 nm",
+        "geocode": {
+            "UGC": [
+                "AMZ555",
+                "AMZ572",
+                "AMZ552",
+                "AMZ575"
+            ],
+            "SAME": [
+                "075555",
+                "075572",
+                "075552",
+                "075575"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AMZ555",
+            "https://api.weather.gov/zones/forecast/AMZ572",
+            "https://api.weather.gov/zones/forecast/AMZ552",
+            "https://api.weather.gov/zones/forecast/AMZ575"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987501-3384171",
+                "identifier": "NWS-IDP-PROD-3987501-3384171",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-04T14:10:00-05:00"
+            }
+        ],
+        "sent": "2020-01-04T14:49:00-05:00",
+        "effective": "2020-01-04T14:49:00-05:00",
+        "onset": "2020-01-04T14:49:00-05:00",
+        "expires": "2020-01-04T16:15:00-05:00",
+        "ends": "2020-01-04T16:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Melbourne FL",
+        "headline": "Special Marine Warning issued January 4 at 2:49PM EST until January 4 at 4:15PM EST by NWS Melbourne FL",
+        "description": "For the following areas...\nCape Canaveral to Sebastian Inlet out to 60 nm...\nSebastian Inlet to Fort Pierce Inlet out to 60 nm...\n\nAt 248 PM EST, a line of strong thunderstorm was located from 15 nm\neast of Satellite Beach to Barefoot Bay, moving northeast at 45\nknots.\n\nHAZARD...Wind gusts to 40 knots.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect wind gusts in excess of 34 knots...suddenly higher\nwaves...lightning and heavy downpours. Make sure all on\nboard are wearing life jackets. Return to safe harbor if\npossible.\n\nThe strong thunderstorm will remain over mainly open waters.",
+        "instruction": "Move to safe harbor immediately as gusty winds and high waves are\nexpected.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-04T14:48:00.000-05:00...storm...247DEG...43KT...28.23,-80.29"
+            ],
+            "hailSize": [
+                0
+            ],
+            "windGust": [
+                "40 knots"
+            ],
+            "NWSheadline": [
+                "A SPECIAL MARINE WARNING REMAINS IN EFFECT UNTIL 415 PM EST"
+            ],
+            "VTEC": [
+                "/O.CON.KMLB.MA.W.0003.000000T0000Z-200104T2115Z/"
+            ],
+            "PIL": [
+                "MLBMWSMLB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T16:15:00-05:00"
+            ]
+        }
+    }
+}
