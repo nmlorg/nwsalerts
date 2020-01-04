@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987342-3384062",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.52,
+                    35.14
+                ],
+                [
+                    -91.4599999,
+                    35.25
+                ],
+                [
+                    -91.5,
+                    35.37
+                ],
+                [
+                    -91.36,
+                    35.339999999999996
+                ],
+                [
+                    -91.33,
+                    35.209999999999994
+                ],
+                [
+                    -91.37,
+                    35.14999999999999
+                ],
+                [
+                    -91.52,
+                    35.14
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987342-3384062",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3987342-3384062",
+        "areaDesc": "White, AR; Woodruff, AR",
+        "geocode": {
+            "UGC": [
+                "ARC145",
+                "ARC147"
+            ],
+            "SAME": [
+                "005145",
+                "005147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC145",
+            "https://api.weather.gov/zones/county/ARC147"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986360-3383351",
+                "identifier": "NWS-IDP-PROD-3986360-3383351",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T19:04:00-06:00"
+            }
+        ],
+        "sent": "2020-01-04T10:22:00-06:00",
+        "effective": "2020-01-04T10:22:00-06:00",
+        "onset": "2020-01-04T10:22:00-06:00",
+        "expires": "2020-01-05T01:21:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Warning issued January 4 at 10:22AM CST by NWS Little Rock AR",
+        "description": "...From the National Weather Service in Little Rock...the Flood\nWarning continues for the following river in Arkansas...\n\nWhite River At Augusta affecting White and Woodruff Counties\n\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 24 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.\n\nThe Flood Warning continues for\nThe White River At Augusta.\n* until further notice...Or until the warning is cancelled.\n* At 10:00 AM Saturday the stage was 27.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 26.0 feet.\n* Forecast...The river will continue rising to near 27.5 feet by\ntomorrow early afternoon.\n* Impacts at 26.0 feet...Roads in Henry Gray Hurricane Lake\nWildlife Management area flooded. Thousands of acres of cultivated\nland flooded in White and Woodruff counties",
+        "instruction": "Safety message...Remember to Turn Around...Don't Drown\nDo not drive cars through flooded areas.\n\nEveryone with property or other interest along streams and rivers\nshould remain alert to changing weather forecasts. Should conditions\nchange...Look for river forecasts or Flood Warnings for use in making\ninformed decisions to protect life and property.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLZK.FL.W.0117.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
