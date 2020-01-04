@@ -1,0 +1,116 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986760-3383654",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.72,
+                    34.6599999
+                ],
+                [
+                    -82.76,
+                    34.63
+                ],
+                [
+                    -82.81,
+                    34.61
+                ],
+                [
+                    -82.8199999,
+                    34.65
+                ],
+                [
+                    -82.8,
+                    34.69
+                ],
+                [
+                    -82.75999999999999,
+                    34.739999999999995
+                ],
+                [
+                    -82.70999989999999,
+                    34.76
+                ],
+                [
+                    -82.64999999999999,
+                    34.739999999999995
+                ],
+                [
+                    -82.67999999999999,
+                    34.699999999999996
+                ],
+                [
+                    -82.72,
+                    34.6599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986760-3383654",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3986760-3383654",
+        "areaDesc": "Pickens, SC; Anderson, SC",
+        "geocode": {
+            "UGC": [
+                "SCC077",
+                "SCC007"
+            ],
+            "SAME": [
+                "045077",
+                "045007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC077",
+            "https://api.weather.gov/zones/county/SCC007"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3986615-3383535",
+                "identifier": "NWS-IDP-PROD-3986615-3383535",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-03T23:37:00-05:00"
+            }
+        ],
+        "sent": "2020-01-04T03:23:00-05:00",
+        "effective": "2020-01-04T03:23:00-05:00",
+        "onset": "2020-01-04T03:23:00-05:00",
+        "expires": "2020-01-04T03:31:00-05:00",
+        "ends": "2020-01-04T03:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Flood Advisory issued January 4 at 3:23AM EST until January 4 at 3:30AM EST by NWS Greenville-Spartanburg SC",
+        "description": "At 321 AM EST, flood waters continue to recede along Eighteen Mile\nCreek near Pendleton, SC. High water conditions could persist in low-\nlying areas around Eighteen Mile Creek through the morning hours as\nadditional light rain falls, but no further road flooding is\nexpected at this time.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLOOD ADVISORY WILL EXPIRE AT 330 AM EST FOR NORTH CENTRAL ANDERSON AND SOUTH CENTRAL PICKENS COUNTIES"
+            ],
+            "VTEC": [
+                "/O.EXP.KGSP.FA.Y.0003.000000T0000Z-200104T0830Z/"
+            ],
+            "PIL": [
+                "GSPFLSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-04T03:30:00-05:00"
+            ]
+        }
+    }
+}
