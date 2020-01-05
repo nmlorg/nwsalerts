@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988012-3384615",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.9599999,
+                    35.82
+                ],
+                [
+                    -89.56,
+                    35.82
+                ],
+                [
+                    -89.79,
+                    35.6
+                ],
+                [
+                    -89.95,
+                    35.39
+                ],
+                [
+                    -90.25,
+                    35.39
+                ],
+                [
+                    -89.9599999,
+                    35.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988012-3384615",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3988012-3384615",
+        "areaDesc": "Lauderdale, TN; Tipton, TN; Mississippi, AR",
+        "geocode": {
+            "UGC": [
+                "TNC097",
+                "TNC167",
+                "ARC093"
+            ],
+            "SAME": [
+                "047097",
+                "047167",
+                "005093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC097",
+            "https://api.weather.gov/zones/county/TNC167",
+            "https://api.weather.gov/zones/county/ARC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987426-3384131",
+                "identifier": "NWS-IDP-PROD-3987426-3384131",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-04T11:38:00-06:00"
+            }
+        ],
+        "sent": "2020-01-04T20:29:00-06:00",
+        "effective": "2020-01-04T20:29:00-06:00",
+        "onset": "2020-01-07T12:00:00-06:00",
+        "expires": "2020-01-05T20:29:00-06:00",
+        "ends": "2020-01-11T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 4 at 8:29PM CST until January 11 at 12:00PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for portions of the Mississippi River.\n\nThe Flood Warning continues for\nthe Mississippi River at Osceola\n* from Tuesday January 7 until Friday January 10.\n* At 8 PM Saturday the stage was 25.1 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 28.5 feet on Wednesday January 08.\n* Flood stage is 28.0 feet.\n* Forecast to rise above flood stage by Tuesday January 7 and\ncontinue to rise to near 28.5 feet by Wednesday January 08.The\nriver may fall below flood stage by Friday January 10.\n* At 29.0 feet...In Arkansas, water is going over the north side of\nCraighead Point. Pumphouse area for the power plant south of\nOsceola is flooded. In Tennessee, Lauderdale County Road 924 begins\nto flood, isolating a house on Island 34.",
+        "instruction": "A followup Flood Statement will be issued Sunday.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.W.0008.200107T1800Z-200111T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T12:00:00-06:00"
+            ]
+        }
+    }
+}
