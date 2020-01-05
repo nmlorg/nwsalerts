@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987942-3384547",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.8199999,
+                    32.77
+                ],
+                [
+                    -87.69,
+                    32.56
+                ],
+                [
+                    -87.8199999,
+                    32.510000000000005
+                ],
+                [
+                    -87.84,
+                    32.620000000000005
+                ],
+                [
+                    -87.9,
+                    32.7299999
+                ],
+                [
+                    -87.89,
+                    32.81
+                ],
+                [
+                    -87.8199999,
+                    32.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987942-3384547",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3987942-3384547",
+        "areaDesc": "Marengo, AL; Greene, AL; Hale, AL",
+        "geocode": {
+            "UGC": [
+                "ALC091",
+                "ALC063",
+                "ALC065"
+            ],
+            "SAME": [
+                "001091",
+                "001063",
+                "001065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC091",
+            "https://api.weather.gov/zones/county/ALC063",
+            "https://api.weather.gov/zones/county/ALC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987138-3383928",
+                "identifier": "NWS-IDP-PROD-3987138-3383928",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-04T08:26:00-06:00"
+            }
+        ],
+        "sent": "2020-01-04T19:20:00-06:00",
+        "effective": "2020-01-04T19:20:00-06:00",
+        "onset": "2020-01-04T19:20:00-06:00",
+        "expires": "2020-01-05T07:20:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued January 4 at 7:20PM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Black Warrior River At Selden\nLock and Dam...\n\n.Levels continue to rise on the Black Warrior River at Selden Lock\nand Dam, and a flood warning remain in effect. The river will crest\nby Monday morning.\n\nThe Flood Warning continues for\nThe Black Warrior River At Selden Lock and Dam.\n* until further notice...or until the warning is cancelled.\n* At 7:00 PM Saturday the stage was 96.0 feet.\n* Flood stage is 90.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 98.4 feet by\nMonday morning then begin falling.\n* Impact...At 98.0 feet...Some cabins and trailers along the river\nbegin to flood.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Sunday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KBMX.FL.W.0005.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
