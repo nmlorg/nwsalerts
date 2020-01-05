@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988944-3385331",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.44,
+                    38.51
+                ],
+                [
+                    -87.6,
+                    38.44
+                ],
+                [
+                    -87.72999999999999,
+                    38.409999899999995
+                ],
+                [
+                    -87.72999999999999,
+                    38.42999999999999
+                ],
+                [
+                    -87.54999999999998,
+                    38.519999999999996
+                ],
+                [
+                    -87.43999999999998,
+                    38.54
+                ],
+                [
+                    -87.44,
+                    38.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988944-3385331",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3988944-3385331",
+        "areaDesc": "Wabash, IL; Knox, IN; Gibson, IN",
+        "geocode": {
+            "UGC": [
+                "ILC185",
+                "INC083",
+                "INC051"
+            ],
+            "SAME": [
+                "017185",
+                "018083",
+                "018051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC185",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987934-3384539",
+                "identifier": "NWS-IDP-PROD-3987934-3384539",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-04T20:17:00-05:00"
+            }
+        ],
+        "sent": "2020-01-05T11:35:00-05:00",
+        "effective": "2020-01-05T11:35:00-05:00",
+        "onset": "2020-01-05T11:35:00-05:00",
+        "expires": "2020-01-06T11:34:00-05:00",
+        "ends": "2020-01-08T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 5 at 11:35AM EST until January 8 at 7:00AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...White River...\n\n.Minor lowland flooding will continue in a few locations along the\nlower White River and at one location along the East Fork White\nRiver.\n\nA strong storm system may bring heavy rainfall back to the area by next weekend.\nThis could renew flooding early next week. Monitor forecasts thru this week.\n\nThe Flood Warning continues for\nThe White River at Hazleton.\n* until Wednesday morning.\n* There have been no observations in the last 24 hours.\n* Flood stage is 16.0 feet.\n* Minor flooding is forecast.\n* Forecast...It is forecast to crest at 18.2 feet this evening and\nwill fall below flood stage by Tuesday evening.\n* At 18.0 feet...Floodwaters cover much low ground in agricultural\nseason.  Low lying oil fields...Pottsville Road and possibly a few\nother low rural roads flood.  High water isolates Pottstown, a\nriver cabin community.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0358.000000T0000Z-200108T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T07:00:00-05:00"
+            ]
+        }
+    }
+}
