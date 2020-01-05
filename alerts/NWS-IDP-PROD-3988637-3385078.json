@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988637-3385078",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.25,
+                    33.64
+                ],
+                [
+                    -83.33,
+                    33.64
+                ],
+                [
+                    -83.33,
+                    33.83
+                ],
+                [
+                    -83.27,
+                    33.839999999999996
+                ],
+                [
+                    -83.25,
+                    33.64
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988637-3385078",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3988637-3385078",
+        "areaDesc": "Greene, GA; Oconee, GA; Clarke, GA",
+        "geocode": {
+            "UGC": [
+                "GAC133",
+                "GAC219",
+                "GAC059"
+            ],
+            "SAME": [
+                "013133",
+                "013219",
+                "013059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC133",
+            "https://api.weather.gov/zones/county/GAC219",
+            "https://api.weather.gov/zones/county/GAC059"
+        ],
+        "references": [],
+        "sent": "2020-01-05T06:35:00-05:00",
+        "effective": "2020-01-05T06:35:00-05:00",
+        "onset": "2020-01-05T11:30:00-05:00",
+        "expires": "2020-01-05T20:35:00-05:00",
+        "ends": "2020-01-06T09:24:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 5 at 6:35AM EST until January 6 at 9:24AM EST by NWS Peachtree City GA",
+        "description": "...The National Weather Service in Peachtree City has issued a Flood\nWarning for the following rivers in Georgia...\n\nOconee River near Penfield affecting Clarke...Greene and Oconee\nCounties\n\n\n.Recent heavy rainfall has caused significant runoff into streams and\nrivers which will cause flooding in some areas.\n\nThe National Weather Service in Peachtree City has issued a\n* Flood Warning for\nThe Oconee River near Penfield.\n* From this morning until Monday morning.\n* At 6 AM Sunday the stage was 12.5 feet...and rising.\n* Minor flooding is forecast.\n* Flood stage is 13 feet.\n* Forecast to rise above flood stage by late this morning and\ncontinue to rise to near 13.4 feet by this evening. The river will\nfall below flood stage by early Monday morning.\n* At 13 feet...Flood Stage is reached. Minor flooding occurs along\nthe river upstream and downstream from the gage on the Georgia\nHighway 15 bridge. The right bank begins to overflow into\nagricultural land and pastures with a foot or two of water.",
+        "instruction": "All persons with interests along the river should monitor the latest\nforecasts...and be prepared to take necessary precautions to protect\nlife and property.\n\nThe latest stage data was furnished in cooperation with the United\nStates Geological Survey.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KFFC.FL.W.0011.200105T1630Z-200106T1424Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLWFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-06T09:24:00-05:00"
+            ]
+        }
+    }
+}
