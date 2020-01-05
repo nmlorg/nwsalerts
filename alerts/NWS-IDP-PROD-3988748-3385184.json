@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988748-3385184",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.43,
+                    33.49
+                ],
+                [
+                    -88.4,
+                    33.56
+                ],
+                [
+                    -88.26,
+                    33.64
+                ],
+                [
+                    -88.28,
+                    33.5
+                ],
+                [
+                    -88.36,
+                    33.5
+                ],
+                [
+                    -88.42,
+                    33.45
+                ],
+                [
+                    -88.43,
+                    33.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988748-3385184",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3988748-3385184",
+        "areaDesc": "Lowndes, MS",
+        "geocode": {
+            "UGC": [
+                "MSC087"
+            ],
+            "SAME": [
+                "028087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC087"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987940-3384545",
+                "identifier": "NWS-IDP-PROD-3987940-3384545",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-04T19:20:00-06:00"
+            }
+        ],
+        "sent": "2020-01-05T08:22:00-06:00",
+        "effective": "2020-01-05T08:22:00-06:00",
+        "onset": "2020-01-05T08:22:00-06:00",
+        "expires": "2020-01-06T14:21:00-06:00",
+        "ends": "2020-01-06T15:09:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 5 at 8:22AM CST until January 6 at 3:09PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nNoxubee River At Macon affecting Noxubee County\nLuxapallila Creek Near Columbus affecting Lowndes County\n\nThe Flood Warning continues for\nThe Luxapallila Creek Near Columbus\n* until Monday afternoon.\n* At  8:00 AM Sunday the stage was estimated at 19.9 feet.\n* Minor flooding is forecast.\n* Flood stage is 15.0 feet.\n* Forecast...The river has crested and will continue falling.\nThe river will fall below flood stage early Monday morning.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nRiver forecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0019.000000T0000Z-200106T2109Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-06T15:09:00-06:00"
+            ]
+        }
+    }
+}
