@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988970-3385349",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988970-3385349",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3988970-3385349",
+        "areaDesc": "Delaware Beaches; Eastern Monmouth; Atlantic Coastal Cape May; Coastal Ocean; Coastal Atlantic",
+        "geocode": {
+            "UGC": [
+                "DEZ004",
+                "NJZ014",
+                "NJZ024",
+                "NJZ026",
+                "NJZ025"
+            ],
+            "SAME": [
+                "010005",
+                "034025",
+                "034009",
+                "034029",
+                "034001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/DEZ004",
+            "https://api.weather.gov/zones/forecast/NJZ014",
+            "https://api.weather.gov/zones/forecast/NJZ024",
+            "https://api.weather.gov/zones/forecast/NJZ026",
+            "https://api.weather.gov/zones/forecast/NJZ025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988684-3385130",
+                "identifier": "NWS-IDP-PROD-3988684-3385130",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-05T07:38:00-05:00"
+            }
+        ],
+        "sent": "2020-01-05T11:54:00-05:00",
+        "effective": "2020-01-05T11:54:00-05:00",
+        "onset": "2020-01-05T11:54:00-05:00",
+        "expires": "2020-01-05T13:00:00-05:00",
+        "ends": "2020-01-05T12:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mount Holly NJ",
+        "headline": "Wind Advisory issued January 5 at 11:54AM EST until January 5 at 12:00PM EST by NWS Mount Holly NJ",
+        "description": "Winds are gradually diminishing in the advisory area, and the\nadvisory will be allowed to expire. However, gusts to 40mph will\nremain possible for the next couple of hours.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY WILL EXPIRE AT NOON EST TODAY"
+            ],
+            "VTEC": [
+                "/O.EXP.KPHI.WI.Y.0001.000000T0000Z-200105T1700Z/"
+            ],
+            "PIL": [
+                "PHINPWPHI"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-05T12:00:00-05:00"
+            ]
+        }
+    }
+}
