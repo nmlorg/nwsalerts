@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988983-3385363",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.4,
+                    30.57
+                ],
+                [
+                    -92.35000000000001,
+                    30.56
+                ],
+                [
+                    -92.56,
+                    30.189999999999998
+                ],
+                [
+                    -92.60000000000001,
+                    30.22
+                ],
+                [
+                    -92.56999990000001,
+                    30.45
+                ],
+                [
+                    -92.4,
+                    30.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988983-3385363",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3988983-3385363",
+        "areaDesc": "Acadia, LA; Evangeline, LA; St. Landry, LA",
+        "geocode": {
+            "UGC": [
+                "LAC001",
+                "LAC039",
+                "LAC097"
+            ],
+            "SAME": [
+                "022001",
+                "022039",
+                "022097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC001",
+            "https://api.weather.gov/zones/county/LAC039",
+            "https://api.weather.gov/zones/county/LAC097"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987911-3384521",
+                "identifier": "NWS-IDP-PROD-3987911-3384521",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-04T19:05:00-06:00"
+            }
+        ],
+        "sent": "2020-01-05T11:05:00-06:00",
+        "effective": "2020-01-05T11:05:00-06:00",
+        "onset": "2020-01-05T11:05:00-06:00",
+        "expires": "2020-01-06T01:03:00-06:00",
+        "ends": "2020-01-07T08:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued January 5 at 11:05AM CST until January 7 at 8:00AM CST by NWS Lake Charles LA",
+        "description": "...The Flood Warning is cancelled for the following rivers in\nLouisiana...\n\nCalcasieu River NEAR White Oak Park\nCalcasieu River Near Salt Water Barrier\n\n...The Flood Warning continues for the following rivers in\nLouisiana...\n\nBayou Des Cannes Near Eunice\nCalcasieu River Near Glenmora",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLCH.FL.W.0001.000000T0000Z-200107T1400Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHFLSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-07T08:00:00-06:00"
+            ]
+        }
+    }
+}
