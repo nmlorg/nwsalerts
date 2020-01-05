@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3989030-3385403",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.95,
+                    35.97
+                ],
+                [
+                    -87.85000000000001,
+                    36.06
+                ],
+                [
+                    -87.65,
+                    35.92
+                ],
+                [
+                    -87.76,
+                    35.82
+                ],
+                [
+                    -87.95,
+                    35.97
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3989030-3385403",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3989030-3385403",
+        "areaDesc": "Humphreys, TN",
+        "geocode": {
+            "UGC": [
+                "TNC085"
+            ],
+            "SAME": [
+                "047085"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC085"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988265-3384798",
+                "identifier": "NWS-IDP-PROD-3988265-3384798",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-05T00:04:00-06:00"
+            }
+        ],
+        "sent": "2020-01-05T11:42:00-06:00",
+        "effective": "2020-01-05T11:42:00-06:00",
+        "onset": "2020-01-05T11:42:00-06:00",
+        "expires": "2020-01-05T23:42:00-06:00",
+        "ends": "2020-01-06T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued January 5 at 11:42AM CST until January 6 at 12:00AM CST by NWS Nashville TN",
+        "description": "...The flood advisory continues for the Duck River...\n\nDuck River Near Hurricane Mills affecting Humphreys County\n\n. Recent rainfall caused the Duck River near Hurricane Mills to rise\nabove action stage. It has crested and should drop below action stage\ntonight.\n\nThe Flood Advisory continues for\nThe Duck River Near Hurricane Mills\n* Until late tonight.\n* At 11AM Sunday the stage was 16.8 feet.\n* Flood stage is 20.0 feet.\n* The river will continue to fall to near 14.9 feet by tomorrow morning.\n* At 16.0 feet...Water begins to inundate agricultural land and other low lying\nareas along the river including access points from Bucksnort to Taylortown,\nCedar Grove, and to Bakerville Rd.",
+        "instruction": "Stay tuned to noaa weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0010.000000T0000Z-200106T0600Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-06T00:00:00-06:00"
+            ]
+        }
+    }
+}
