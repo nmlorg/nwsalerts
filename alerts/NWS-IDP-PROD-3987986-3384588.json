@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987986-3384588",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.13,
+                    32.43
+                ],
+                [
+                    -89.9599999,
+                    32.58
+                ],
+                [
+                    -89.8,
+                    32.65
+                ],
+                [
+                    -89.78,
+                    32.559999999999995
+                ],
+                [
+                    -89.89,
+                    32.49999999999999
+                ],
+                [
+                    -90.02,
+                    32.36999999999999
+                ],
+                [
+                    -90.13,
+                    32.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987986-3384588",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3987986-3384588",
+        "areaDesc": "Madison, MS; Rankin, MS",
+        "geocode": {
+            "UGC": [
+                "MSC089",
+                "MSC121"
+            ],
+            "SAME": [
+                "028089",
+                "028121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC089",
+            "https://api.weather.gov/zones/county/MSC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3987332-3384052",
+                "identifier": "NWS-IDP-PROD-3987332-3384052",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-04T10:17:00-06:00"
+            }
+        ],
+        "sent": "2020-01-04T20:17:00-06:00",
+        "effective": "2020-01-04T20:17:00-06:00",
+        "onset": "2020-01-05T03:00:00-06:00",
+        "expires": "2020-01-06T02:16:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 4 at 8:17PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nPearl River Above Philadelphia affecting Neshoba County\nPearl River At Edinburg affecting Leake County\nPearl River Near Carthage affecting Leake County\nPearl River near Lena affecting Leake County\nTuscolameta Creek At Walnut Grove affecting Leake County\nYockanookany River Near Kosciusko affecting Attala County\nYockanookany River Near Ofahoma affecting Leake County\nPearl River Near Ratliff's Ferry affecting Madison and Rankin\nCounties\n\nThe Flood Warning continues for\nThe Pearl River Near Ratliff's Ferry\n* from late tonight until further notice.\n* At  7:15 PM Saturday the stage was 302.9 feet.\n* Minor flooding is forecast.\n* Flood stage is 303.0 feet.\n* Forecast...The river will rise above flood stage early tomorrow and\nwill continue to rise to near 304.0 feet Monday evening.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until further notice"
+            ],
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0022.200105T0900Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
