@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990160-3386200",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.1,
+                    43.07
+                ],
+                [
+                    -85.91,
+                    43.04
+                ],
+                [
+                    -85.83,
+                    42.97
+                ],
+                [
+                    -85.89,
+                    42.909999899999995
+                ],
+                [
+                    -85.95,
+                    42.97
+                ],
+                [
+                    -86.10000000000001,
+                    43
+                ],
+                [
+                    -86.1,
+                    43.07
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990160-3386200",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3990160-3386200",
+        "areaDesc": "Ottawa, MI",
+        "geocode": {
+            "UGC": [
+                "MIC139"
+            ],
+            "SAME": [
+                "026139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3988786-3385208",
+                "identifier": "NWS-IDP-PROD-3988786-3385208",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-05T09:55:00-05:00"
+            }
+        ],
+        "sent": "2020-01-06T09:48:00-05:00",
+        "effective": "2020-01-06T09:48:00-05:00",
+        "onset": "2020-01-06T09:48:00-05:00",
+        "expires": "2020-01-07T15:47:00-05:00",
+        "ends": "2020-01-08T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Rapids MI",
+        "headline": "Flood Warning issued January 6 at 9:48AM EST until January 8 at 1:00AM EST by NWS Grand Rapids MI",
+        "description": "...The flood warning continues for the following rivers in Southwest\nLower Michigan...\n\nGrand River near Comstock Park affecting Kent County\nGrand River at Robinson Township affecting Ottawa County\n\n.Water levels continue to slowly drop. No significant rain or snow is\nexpected over the next several days which will allow the rivers to\ncontinue falling through this week. The following\nforecast is based on observed and forecast 48 hour precipitation.\n\nThe Flood Warning continues for\nthe Grand River at Robinson Township.\n* until late Tuesday night.\n* at  8:55 AM Monday the stage was 13.8 feet.\n* Flood stage is 13.3 feet.\n* Minor Flooding is occurring and Minor Flooding is forecast.\n* Forecast, the river will continue to fall below flood stage\nafter midnight tonight.\n* Impact, at 13.7 feet...Two houses in the Vanlopik subdivision begin\nto be surrounded by water.\n* Flood history, this crest compares to a previous crest of 13.4 feet\non Oct 6 2019.",
+        "instruction": "Safety message...Motorists should not attempt to drive around\nbarricades or drive cars through flooded areas.\n\nStay tuned to further developments by listening to your local\nradio... television... or NOAA Weather Radio station for further\ninformation.\n\nAdditional weather and river information can be found on our homepage\nat www.weather.gov/grr",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGRR.FL.W.0036.000000T0000Z-200108T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GRRFLSGRR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T01:00:00-05:00"
+            ]
+        }
+    }
+}
