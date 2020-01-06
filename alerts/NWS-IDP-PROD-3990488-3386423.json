@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990488-3386423",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -123.68,
+                    46.32
+                ],
+                [
+                    -123.68,
+                    46.33
+                ],
+                [
+                    -123.61000000000001,
+                    46.36
+                ],
+                [
+                    -123.58000000000001,
+                    46.36
+                ],
+                [
+                    -123.56000000000002,
+                    46.37
+                ],
+                [
+                    -123.55000000000001,
+                    46.36
+                ],
+                [
+                    -123.58000000000001,
+                    46.339999999999996
+                ],
+                [
+                    -123.61000000000001,
+                    46.339999999999996
+                ],
+                [
+                    -123.66000000000001,
+                    46.309999999999995
+                ],
+                [
+                    -123.68,
+                    46.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990488-3386423",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3990488-3386423",
+        "areaDesc": "Wahkiakum, WA",
+        "geocode": {
+            "UGC": [
+                "WAC069"
+            ],
+            "SAME": [
+                "053069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC069"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990313-3386312",
+                "identifier": "NWS-IDP-PROD-3990313-3386312",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-06T08:51:00-08:00"
+            }
+        ],
+        "sent": "2020-01-06T12:08:00-08:00",
+        "effective": "2020-01-06T12:08:00-08:00",
+        "onset": "2020-01-06T12:08:00-08:00",
+        "expires": "2020-01-06T20:08:00-08:00",
+        "ends": "2020-01-07T19:01:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Portland OR",
+        "headline": "Flood Warning issued January 6 at 12:08PM PST until January 7 at 7:01PM PST by NWS Portland OR",
+        "description": "NW Oregon/SW Washington Coastal Basins Bulletin\n\n...The Flood Warning continues for the following rivers in\nWashington...\n\nGrays River near Rosburg affecting Wahkiakum County\n\nRiver forecasts are based on observed and forecast rainfall and\ntemperatures, and they include current and planned reservoir\nreleases.\n\nFor the latest river stages and forecasts, visit\nweather.gov/portland.\n\nThe next update for these locations will be issued by Monday at 8 PM.\n\nThe Flood Warning continues for\nThe Grays River near Rosburg.\n* At 11 AM Monday the stage was...13.3 feet / 10918 cfs.\n* Flood stage is 12.0 feet and flood flow is 8200 cfs.\n* Forecast...This river will crest at 15.0 ft around 4 PM Monday.\nAfter the crest, this river is forecast to fall below flood stage\naround 1 PM Tuesday.\n* Impact...Above 14 feet, expect widespread lowland flooding and numerous flooded\nroads near Rosburg and Hwy 4. This includes the roadway approaches to the\nAltoona Bridge over the Grays River.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPQR.FL.W.0001.000000T0000Z-200108T0301Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PQRFLSPQR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-07T19:01:00-08:00"
+            ]
+        }
+    }
+}
