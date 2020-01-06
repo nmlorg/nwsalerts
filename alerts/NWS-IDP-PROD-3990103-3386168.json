@@ -1,0 +1,86 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990103-3386168",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.06,
+                    34.04
+                ],
+                [
+                    -81,
+                    33.96
+                ],
+                [
+                    -81.06,
+                    33.94
+                ],
+                [
+                    -81.11,
+                    34.01
+                ],
+                [
+                    -81.06,
+                    34.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990103-3386168",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3990103-3386168",
+        "areaDesc": "Richland, SC; Lexington, SC",
+        "geocode": {
+            "UGC": [
+                "SCC079",
+                "SCC063"
+            ],
+            "SAME": [
+                "045079",
+                "045063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC079",
+            "https://api.weather.gov/zones/county/SCC063"
+        ],
+        "references": [],
+        "sent": "2020-01-06T09:03:00-05:00",
+        "effective": "2020-01-06T09:03:00-05:00",
+        "onset": "2020-01-06T09:03:00-05:00",
+        "expires": "2020-01-07T09:02:00-05:00",
+        "ends": "2020-01-08T09:01:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Advisory issued January 6 at 9:03AM EST until January 8 at 9:01AM EST by NWS Columbia SC",
+        "description": "...The National Weather Service in Columbia has issued a Flood\nAdvisory for the Congaree River...\n\nCongaree River At Columbia affecting Lexington and Richland\nCounties\n\n.Increased flows out of upstream reservoirs on the Broad and Saluda\nRivers will again cause nuisance flooding on portions of the Congaree\nin and around Columbia.\n\nThe National Weather Service in Columbia has issued a\n* Flood Advisory for\nThe Congaree River At Columbia.\n* until Wednesday morning.\n* At  8 AM Monday the stage was 9.1 feet.\n* Flood stage is 19.0 feet.\n* Forecast...The river will rise to crest at 10.6 feet this evening.\n* Advisory stage is 10.0 feet.\n* At 10.0 feet...Flooding occurs in flood prone areas near and\ndownstream from Columbia. Flooding also occurs on parts of the\nCayce and West Columbia river walk.",
+        "instruction": "A Flood Advisory means that nuisance flooding may occur nearest the\nriver when the level is below the official flood stage.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KCAE.FL.Y.0002.200106T1403Z-200108T1401Z/"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T09:01:00-05:00"
+            ]
+        }
+    }
+}
