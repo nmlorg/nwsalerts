@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990177-3386215",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.79,
+                    31
+                ],
+                [
+                    -89.92,
+                    31.21
+                ],
+                [
+                    -90.08,
+                    31.400000000000002
+                ],
+                [
+                    -89.92,
+                    31.400000000000002
+                ],
+                [
+                    -89.81,
+                    31.240000000000002
+                ],
+                [
+                    -89.69,
+                    31.000000000000004
+                ],
+                [
+                    -89.79,
+                    31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990177-3386215",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3990177-3386215",
+        "areaDesc": "Marion, MS",
+        "geocode": {
+            "UGC": [
+                "MSC091"
+            ],
+            "SAME": [
+                "028091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC091"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3989446-3385733",
+                "identifier": "NWS-IDP-PROD-3989446-3385733",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-05T19:37:00-06:00"
+            }
+        ],
+        "sent": "2020-01-06T08:53:00-06:00",
+        "effective": "2020-01-06T08:53:00-06:00",
+        "onset": "2020-01-07T00:00:00-06:00",
+        "expires": "2020-01-07T14:53:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 6 at 8:53AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi..\n\nPearl River Near Rockport affecting Copiah and Simpson Counties\nPearl River Near Monticello affecting Lawrence County\nPearl River Near Columbia affecting Marion County\n\nThe Flood Warning continues for\nThe Pearl River Near Columbia\n* from late tonight until further notice.\n* At  8:15 AM Monday the stage was 16.3 feet.\n* Minor flooding is forecast.\n* Flood stage is 17.0 feet.\n* Forecast...The river will rise above flood stage just after\nmidnight tonight and will continue to rise to near 18.0 feet\nWednesday morning.\n* Impact...At 18.0 feet...Low areas along the river are inundated.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0014.200107T0600Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
