@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3989390-3385679",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.19,
+                    32.63
+                ],
+                [
+                    -88.12,
+                    32.5
+                ],
+                [
+                    -88.05000000000001,
+                    32.44
+                ],
+                [
+                    -88.08000000000001,
+                    32.419999999999995
+                ],
+                [
+                    -88.20000000000002,
+                    32.46999999999999
+                ],
+                [
+                    -88.23000000000002,
+                    32.60999999999999
+                ],
+                [
+                    -88.19,
+                    32.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3989390-3385679",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3989390-3385679",
+        "areaDesc": "Sumter, AL",
+        "geocode": {
+            "UGC": [
+                "ALC119"
+            ],
+            "SAME": [
+                "001119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3989071-3385430",
+                "identifier": "NWS-IDP-PROD-3989071-3385430",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-05T12:34:00-06:00"
+            }
+        ],
+        "sent": "2020-01-05T18:35:00-06:00",
+        "effective": "2020-01-05T18:35:00-06:00",
+        "onset": "2020-01-05T18:35:00-06:00",
+        "expires": "2020-01-06T06:33:00-06:00",
+        "ends": "2020-01-07T10:40:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued January 5 at 6:35PM CST until January 7 at 10:40AM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Sucarnoochee River At\nLivingston...\n\n.Levels continue to rise on the Sucarnoochee River at Livingston,\nand a flood warning remains in effect. The river is expected to\ncrest on Monday.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Monday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0009.000000T0000Z-200107T1640Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-07T10:40:00-06:00"
+            ]
+        }
+    }
+}
