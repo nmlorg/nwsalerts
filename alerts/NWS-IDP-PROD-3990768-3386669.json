@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990768-3386669",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990768-3386669",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3990768-3386669",
+        "areaDesc": "Greeley; Cheyenne; Wallace; Sherman",
+        "geocode": {
+            "UGC": [
+                "KSZ041",
+                "KSZ001",
+                "KSZ027",
+                "KSZ013"
+            ],
+            "SAME": [
+                "020071",
+                "020023",
+                "020199",
+                "020181"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KSZ041",
+            "https://api.weather.gov/zones/forecast/KSZ001",
+            "https://api.weather.gov/zones/forecast/KSZ027",
+            "https://api.weather.gov/zones/forecast/KSZ013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3989958-3386061",
+                "identifier": "NWS-IDP-PROD-3989958-3386061",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-06T03:05:00-07:00"
+            }
+        ],
+        "sent": "2020-01-06T16:36:00-07:00",
+        "effective": "2020-01-06T16:36:00-07:00",
+        "onset": "2020-01-06T16:36:00-07:00",
+        "expires": "2020-01-06T17:45:00-07:00",
+        "ends": "2020-01-06T17:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "High Wind Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Goodland KS",
+        "headline": "High Wind Warning issued January 6 at 4:36PM MST until January 6 at 5:00PM MST by NWS Goodland KS",
+        "description": "Winds are decreasing across the Tri-State area and high wind\nconditions are no longer expected.",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+            "NWSheadline": [
+                "HIGH WIND WARNING WILL EXPIRE AT 5 PM MST /6 PM CST/ THIS AFTERNOON"
+            ],
+            "VTEC": [
+                "/O.EXP.KGLD.HW.W.0001.000000T0000Z-200107T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GLDNPWGLD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-06T17:00:00-07:00"
+            ]
+        }
+    }
+}
