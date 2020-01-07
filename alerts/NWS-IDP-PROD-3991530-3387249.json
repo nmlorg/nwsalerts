@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991530-3387249",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.76,
+                    47.68
+                ],
+                [
+                    -121.85000000000001,
+                    47.61
+                ],
+                [
+                    -121.94000000000001,
+                    47.61
+                ],
+                [
+                    -121.96000000000001,
+                    47.67
+                ],
+                [
+                    -121.89000000000001,
+                    47.71
+                ],
+                [
+                    -121.84000000000002,
+                    47.74
+                ],
+                [
+                    -121.76,
+                    47.68
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991530-3387249",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3991530-3387249",
+        "areaDesc": "King, WA",
+        "geocode": {
+            "UGC": [
+                "WAC033"
+            ],
+            "SAME": [
+                "053033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990618-3386536",
+                "identifier": "NWS-IDP-PROD-3990618-3386536",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-06T13:03:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991137-3386942",
+                "identifier": "NWS-IDP-PROD-3991137-3386942",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-06T21:57:00-08:00"
+            }
+        ],
+        "sent": "2020-01-07T04:15:00-08:00",
+        "effective": "2020-01-07T04:15:00-08:00",
+        "onset": "2020-01-07T04:15:00-08:00",
+        "expires": "2020-01-07T13:14:00-08:00",
+        "ends": "2020-01-07T23:41:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued January 7 at 4:15AM PST until January 7 at 11:41PM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nStillaguamish River At Arlington affecting Snohomish County\nTolt River Above Carnation affecting King County\nSnoqualmie River Near Snoqualmie Falls affecting King County\n\nNorth West Region\nCentral West Region\n\nAnother 2 to 4 inches of precipitation is forecast for the central\nCascades until a cold front moves through the area this evening.\nSnow levels will be as high as 5000 feet ahead of the front.\nPrecipation rates and snow levels will lower behind the front.\n\nThe Flood Warning continues for\nThe Tolt River Above Carnation\n* Until this evening.\n* At  3:15 AM Tuesday the flow was 5017 cfs.\n* Flood flow is 5000 cfs.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to rise and crest near 5826 cfs\naround 10 AM Tuesday. The river will fall below flood flow\nthis afternoon.\n* Impact...At 5000 cfs, the Tolt River will flood Tolt River Rd NE and\nmany driveways. Some homes in the San Souci area could be\ninaccessible due to deep and quick flood waters. This river level\non the Tolt corresponds to a phase 3 flood in the King County flood\nsystem.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until this evening"
+            ],
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0003.000000T0000Z-200108T0741Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-07T23:41:00-08:00"
+            ]
+        }
+    }
+}
