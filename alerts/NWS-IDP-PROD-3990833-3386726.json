@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990833-3386726",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.77,
+                    30.98
+                ],
+                [
+                    -88.72,
+                    30.98
+                ],
+                [
+                    -88.7099999,
+                    30.82
+                ],
+                [
+                    -88.64,
+                    30.740000000000002
+                ],
+                [
+                    -88.68,
+                    30.740000000000002
+                ],
+                [
+                    -88.79,
+                    30.82
+                ],
+                [
+                    -88.77,
+                    30.98
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990833-3386726",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3990833-3386726",
+        "areaDesc": "George, MS; Greene, MS; Jackson, MS",
+        "geocode": {
+            "UGC": [
+                "MSC039",
+                "MSC041",
+                "MSC059"
+            ],
+            "SAME": [
+                "028039",
+                "028041",
+                "028059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC039",
+            "https://api.weather.gov/zones/county/MSC041",
+            "https://api.weather.gov/zones/county/MSC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990348-3386343",
+                "identifier": "NWS-IDP-PROD-3990348-3386343",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-06T11:15:00-06:00"
+            }
+        ],
+        "sent": "2020-01-06T18:55:00-06:00",
+        "effective": "2020-01-06T18:55:00-06:00",
+        "onset": "2020-01-07T06:00:00-06:00",
+        "expires": "2020-01-07T18:53:00-06:00",
+        "ends": "2020-01-09T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued January 6 at 6:55PM CST until January 9 at 12:00AM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for the following rivers in Mississippi...\n\nLeaf Near Mclain affecting George...Greene and Perry Counties.\nChickasawhay At Leakesville affecting George...Greene and Wayne Counties.\nPascagoula At Merrill affecting George...Greene and Jackson Counties.\n\n.Recent heavy rains have caused significant rises along the river.\n\nThe Flood Warning continues for\nthe Pascagoula At Merrill\n* From tomorrow morning until late Wednesday night.\n* At 6PM Monday the stage was 21.3 feet.\n* Minor flooding is forecast.\n* Flood stage is 22 feet.\n* Forecast to rise above flood stage by tomorrow morning. The river will\nthen fall below flood stage Wednesday night; however, heavy rainfall\nlater this week could lead to additional rises by the weekend.\n* At 22 feet...Flood Stage. Water approaches homes in west Merrill.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMOB.FL.W.0005.200107T1200Z-200109T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-09T00:00:00-06:00"
+            ]
+        }
+    }
+}
