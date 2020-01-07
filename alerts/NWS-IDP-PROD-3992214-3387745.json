@@ -1,0 +1,87 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992214-3387745",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992214-3387745",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3992214-3387745",
+        "areaDesc": "South Washington Cascades; Northern Oregon Cascades; Cascades in Lane County",
+        "geocode": {
+            "UGC": [
+                "WAZ019",
+                "ORZ011",
+                "ORZ013"
+            ],
+            "SAME": [
+                "053015",
+                "053059",
+                "041005",
+                "041027",
+                "041043",
+                "041047",
+                "041051",
+                "041039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/WAZ019",
+            "https://api.weather.gov/zones/forecast/ORZ011",
+            "https://api.weather.gov/zones/forecast/ORZ013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991884-3387503",
+                "identifier": "NWS-IDP-PROD-3991884-3387503",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-07T09:11:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991515-3387225",
+                "identifier": "NWS-IDP-PROD-3991515-3387225",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-07T03:54:00-08:00"
+            }
+        ],
+        "sent": "2020-01-07T13:14:00-08:00",
+        "effective": "2020-01-07T13:14:00-08:00",
+        "onset": "2020-01-07T16:00:00-08:00",
+        "expires": "2020-01-08T05:00:00-08:00",
+        "ends": "2020-01-08T12:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Portland OR",
+        "headline": "Winter Weather Advisory issued January 7 at 1:14PM PST until January 8 at 12:00PM PST by NWS Portland OR",
+        "description": "* WHAT...Snow expected above 3000 feet. Snow levels will start\noff near 4000 to 4500 feet late this afternoon, but lower\nbelow 3000 feet overnight. Total snow accumulations of 3 to 6\ninches are expected between 3000 to 4000 feet. Total snow\naccumulations of 6 to 12 inches are expected above 4000 feet.\n\n* WHERE...In Washington, South Washington Cascades. In Oregon,\nNorthern Oregon Cascades and Cascades in Lane County.\n\n* WHEN...From 4 PM this afternoon to noon PST Wednesday.\n\n* IMPACTS...Winter travel conditions are expected across the\nCascade passes.",
+        "instruction": "Slow down and use caution while traveling.\n\nThe latest road conditions for the state you are calling from can\nbe obtained by calling 5 1 1.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL NOON PST WEDNESDAY ABOVE 3000 FEET"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KPQR.WW.Y.0004.200108T0000Z-200108T2000Z/"
+            ],
+            "PIL": [
+                "PQRWSWPQR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T12:00:00-08:00"
+            ]
+        }
+    }
+}
