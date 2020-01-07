@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990822-3386712",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.48,
+                    35.95
+                ],
+                [
+                    -89.4,
+                    36
+                ],
+                [
+                    -89.3199999,
+                    35.89
+                ],
+                [
+                    -89.4,
+                    35.84
+                ],
+                [
+                    -89.48,
+                    35.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990822-3386712",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3990822-3386712",
+        "areaDesc": "Lauderdale, TN; Crockett, TN; Dyer, TN",
+        "geocode": {
+            "UGC": [
+                "TNC097",
+                "TNC033",
+                "TNC045"
+            ],
+            "SAME": [
+                "047097",
+                "047033",
+                "047045"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC097",
+            "https://api.weather.gov/zones/county/TNC033",
+            "https://api.weather.gov/zones/county/TNC045"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3989430-3385715",
+                "identifier": "NWS-IDP-PROD-3989430-3385715",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-05T19:35:00-06:00"
+            }
+        ],
+        "sent": "2020-01-06T18:44:00-06:00",
+        "effective": "2020-01-06T18:44:00-06:00",
+        "onset": "2020-01-06T18:44:00-06:00",
+        "expires": "2020-01-07T18:42:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 6 at 6:44PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the S.F. of the Forked Deer River.\n\nThe Flood Warning continues for\nthe S.F. of the Forked Deer River near Halls\n* until further notice.\n* At 6 PM Monday the stage was 10.6 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* Flood stage is 9.0 feet.\n* At 10.5 feet...Flooding on agriculture land near the river.",
+        "instruction": "A followup Flood Statement will be issued Tuesday.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.W.0003.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

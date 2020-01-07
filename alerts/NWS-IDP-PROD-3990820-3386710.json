@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990820-3386710",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.77,
+                    36.2299999
+                ],
+                [
+                    -89.47999999999999,
+                    36.2299999
+                ],
+                [
+                    -89.49999999999999,
+                    36.06
+                ],
+                [
+                    -89.47999999999999,
+                    35.95
+                ],
+                [
+                    -89.55999999999999,
+                    35.82
+                ],
+                [
+                    -89.85,
+                    35.82
+                ],
+                [
+                    -89.77,
+                    36.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990820-3386710",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3990820-3386710",
+        "areaDesc": "Lauderdale, TN; Dyer, TN; Pemiscot, MO; Lake, TN; Mississippi, AR",
+        "geocode": {
+            "UGC": [
+                "TNC097",
+                "TNC045",
+                "MOC155",
+                "TNC095",
+                "ARC093"
+            ],
+            "SAME": [
+                "047097",
+                "047045",
+                "029155",
+                "047095",
+                "005093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC097",
+            "https://api.weather.gov/zones/county/TNC045",
+            "https://api.weather.gov/zones/county/MOC155",
+            "https://api.weather.gov/zones/county/TNC095",
+            "https://api.weather.gov/zones/county/ARC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990352-3386346",
+                "identifier": "NWS-IDP-PROD-3990352-3386346",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-06T11:23:00-06:00"
+            }
+        ],
+        "sent": "2020-01-06T18:43:00-06:00",
+        "effective": "2020-01-06T18:43:00-06:00",
+        "onset": "2020-01-06T18:43:00-06:00",
+        "expires": "2020-01-07T18:42:00-06:00",
+        "ends": "2020-01-11T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 6 at 6:43PM CST until January 11 at 6:00AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for portions of the Mississippi River.\n\nThe Flood Warning continues for\nthe Mississippi River at Caruthersville\n* from Monday January 6 until Friday January 10.\n* At 6 PM Monday the stage was 32.0 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 32.5 feet on Wednesday January 08.\n* Flood stage is 32.0 feet.\n* Forecast to rise to near 32.5 feet by Wednesday January 08.The\nriver may fall below flood stage by Friday January 10.\n* At 33.0 feet...In Tennessee, Barr Road in Chickasaw National\nWildlife Refuge is flooding, cutting off evacuations from the\nWardlews Pocket Area. In Arkansas, docks useed by the steel plant\nat Hickman are mostly flooded. Numerous roads and fields inside the\nlevee between Gayoso and Kennedy, Missouri are covered.",
+        "instruction": "A followup Flood Statement will be issued Tuesday.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.W.0007.000000T0000Z-200111T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T06:00:00-06:00"
+            ]
+        }
+    }
+}
