@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992220-3387749",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.44,
+                    38.51
+                ],
+                [
+                    -87.6,
+                    38.44
+                ],
+                [
+                    -87.72999999999999,
+                    38.409999899999995
+                ],
+                [
+                    -87.72999999999999,
+                    38.42999999999999
+                ],
+                [
+                    -87.54999999999998,
+                    38.519999999999996
+                ],
+                [
+                    -87.43999999999998,
+                    38.54
+                ],
+                [
+                    -87.44,
+                    38.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992220-3387749",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3992220-3387749",
+        "areaDesc": "Wabash, IL; Knox, IN; Gibson, IN",
+        "geocode": {
+            "UGC": [
+                "ILC185",
+                "INC083",
+                "INC051"
+            ],
+            "SAME": [
+                "017185",
+                "018083",
+                "018051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC185",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991688-3387365",
+                "identifier": "NWS-IDP-PROD-3991688-3387365",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-07T10:00:00-05:00"
+            }
+        ],
+        "sent": "2020-01-07T16:22:00-05:00",
+        "effective": "2020-01-07T16:22:00-05:00",
+        "onset": "2020-01-07T16:22:00-05:00",
+        "expires": "2020-01-08T16:22:00-05:00",
+        "ends": "2020-01-09T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 7 at 4:22PM EST until January 9 at 10:00AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nWhite River...\n\n.Lowland flooding continued on the lower White River Tuesday\nafternoon. The flooding is expected to end Wednesday night at\nHazeleton.\n\nA strong storm system is expected to bring copious rainfall to\nIndiana starting late Thursday and ending Saturday night. The time\nperiod of heaviest rainfall will likely be from Friday evening to\nSaturday evening.  Today's river forecasts do not yet capture the\npredicted rainfall from this system.\n\nThe Flood Warning continues for\nThe White River at Hazleton.\n* until Thursday morning.\n* There have been no observations in the last 24 hours.\n* Flood stage is 16.0 feet.\n* Minor flooding is forecast.\n* Forecast...It is forecast to crest at 16.8 feet this evening and\nwill fall below flood stage by Wednesday evening.\n* At 17.0 feet...Lowest reading available from the Hazleton Staff\nGage.  Since the 1930s the White River has moved from the \"old\nwellhouse\" to several hundred yards from the \"old wellhouse\".  The\nriver returns to the \"old wellhouse\" around 17 to 17.5 feet.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0358.000000T0000Z-200109T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-09T10:00:00-05:00"
+            ]
+        }
+    }
+}
