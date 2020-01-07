@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991542-3387259",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81,
+                    33.96
+                ],
+                [
+                    -80.92,
+                    33.87
+                ],
+                [
+                    -80.97,
+                    33.79
+                ],
+                [
+                    -81.06,
+                    33.94
+                ],
+                [
+                    -81,
+                    33.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991542-3387259",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3991542-3387259",
+        "areaDesc": "Richland, SC; Calhoun, SC; Lexington, SC",
+        "geocode": {
+            "UGC": [
+                "SCC079",
+                "SCC017",
+                "SCC063"
+            ],
+            "SAME": [
+                "045079",
+                "045017",
+                "045063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC079",
+            "https://api.weather.gov/zones/county/SCC017",
+            "https://api.weather.gov/zones/county/SCC063"
+        ],
+        "references": [],
+        "sent": "2020-01-07T07:45:00-05:00",
+        "effective": "2020-01-07T07:45:00-05:00",
+        "onset": "2020-01-07T08:57:00-05:00",
+        "expires": "2020-01-08T07:45:00-05:00",
+        "ends": "2020-01-08T17:23:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued January 7 at 7:45AM EST until January 8 at 5:23PM EST by NWS Columbia SC",
+        "description": "...The National Weather Service in Columbia has issued a flood\nwarning for the following rivers in South Carolina...\n\nCongaree River At Carolina Eastman affecting Calhoun...Lexington\nand Richland Counties\n\n.Recent rainfall combined with reservoir operations will produce\nrises again today along the Congaree River.\n\nThe National Weather Service in Columbia has issued a\n\n* Flood Warning for\nThe Congaree River At Carolina Eastman\n* until Wednesday afternoon...Or until the warning is cancelled.\n* At  7 AM Tuesday the stage was 114.9 feet.\n* Flood stage is 115.0 feet.\n* Minor flooding is forecast.\n* forecast...The river will rise above flood stage this morning and\ncontinue to rise to 115.3 feet early this afternoon. The river will\nfall below flood stage by Tuesday January 07.\n* At 115.0 feet...Flooding occurs in low lying areas of the Carolina\nEastman Facility and at the Congaree National Park.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KCAE.FL.W.0003.200107T1357Z-200108T2223Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLWCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T17:23:00-05:00"
+            ]
+        }
+    }
+}
