@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991885-3387504",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.37,
+                    30.74
+                ],
+                [
+                    -91.59,
+                    30.709999999999997
+                ],
+                [
+                    -91.7,
+                    31.019999999999996
+                ],
+                [
+                    -91.53,
+                    31.029999999999998
+                ],
+                [
+                    -91.37,
+                    30.74
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991885-3387504",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3991885-3387504",
+        "areaDesc": "Pointe Coupee, LA; East Baton Rouge, LA; West Feliciana, LA",
+        "geocode": {
+            "UGC": [
+                "LAC077",
+                "LAC033",
+                "LAC125"
+            ],
+            "SAME": [
+                "022077",
+                "022033",
+                "022125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC077",
+            "https://api.weather.gov/zones/county/LAC033",
+            "https://api.weather.gov/zones/county/LAC125"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990819-3386709",
+                "identifier": "NWS-IDP-PROD-3990819-3386709",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-06T18:40:00-06:00"
+            }
+        ],
+        "sent": "2020-01-07T11:12:00-06:00",
+        "effective": "2020-01-07T11:12:00-06:00",
+        "onset": "2020-01-12T18:00:00-06:00",
+        "expires": "2020-01-08T17:11:00-06:00",
+        "ends": "2020-01-19T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Flood Warning issued January 7 at 11:12AM CST until January 19 at 6:00PM CST by NWS New Orleans LA",
+        "description": "...The flood warning continues for the following rivers in\nLouisiana...\n\nMississippi River At Red River Landing affecting East Baton Rouge...\nPointe Coupee and West Feliciana Parishes\n\nThe Flood Warning continues for\nThe Mississippi River At Red River Landing.\n* Until Sunday January 19.\n* At 10:00 AM Tuesday the stage was 45.3 feet.\n* Minor flooding is forecast.\n* Flood stage is 48.0 feet.\n* Forecast...Rise above flood stage by Sunday January 12 and continue\nto rise to near 49.0 feet by Wednesday January 15.the river will\nfall below flood stage by Sunday January 19.\n* Impact...At 48.0 feet...Access roads will be inundated and\nevacuation of all river islands must be complete. Protection of\npeople and property in the river bottom land on the river side of\nthe levees must be complete.\n* Impact...At 46.0 feet...River traffic will become dangerous. A levee\ncrevasse would flood adjacent farm land. Significant flooding of\nRaccourci Island will continue and evacuation of the island is\nrecommended.\n* Impact...At 45.0 feet...Between the 40 and 45 foot stage flooding of\nRaccourci Island becomes significant. At the 45 foot stage\nevacuation of the island is recommended.",
+        "instruction": "Forecast crests are based upon rainfall that has occurred along with\nanticipated rain for the next 24 hours. Adjustments to the forecasts\nwill be made if additional heavy rainfall occurs.\n\nDo not drive cars through flooded areas. Remember, two feet of\nrushing water can carry away most vehicles including pickups.  Turn\naround and don't drown!\n\nA followup product will be issued later. Stay tuned to NOAA Weather\nRadio, local tv and radio stations...or your cable provider, for the\nlatest information. The latest graphical hydrologic information can\nalso be found at Weather.Gov.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLIX.FL.W.0001.200113T0000Z-200120T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LIXFLSLIX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T18:00:00-06:00"
+            ]
+        }
+    }
+}
