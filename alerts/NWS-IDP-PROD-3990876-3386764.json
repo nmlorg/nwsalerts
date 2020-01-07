@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990876-3386764",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81,
+                    33.96
+                ],
+                [
+                    -80.92,
+                    33.87
+                ],
+                [
+                    -80.97,
+                    33.79
+                ],
+                [
+                    -81.06,
+                    33.94
+                ],
+                [
+                    -81,
+                    33.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990876-3386764",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3990876-3386764",
+        "areaDesc": "Richland, SC; Calhoun, SC; Lexington, SC",
+        "geocode": {
+            "UGC": [
+                "SCC079",
+                "SCC017",
+                "SCC063"
+            ],
+            "SAME": [
+                "045079",
+                "045017",
+                "045063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC079",
+            "https://api.weather.gov/zones/county/SCC017",
+            "https://api.weather.gov/zones/county/SCC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990108-3386173",
+                "identifier": "NWS-IDP-PROD-3990108-3386173",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-06T09:16:00-05:00"
+            }
+        ],
+        "sent": "2020-01-06T20:16:00-05:00",
+        "effective": "2020-01-06T20:16:00-05:00",
+        "onset": "2020-01-06T20:16:00-05:00",
+        "expires": "2020-01-07T20:15:00-05:00",
+        "ends": "2020-01-08T03:07:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued January 6 at 8:16PM EST until January 8 at 3:07AM EST by NWS Columbia SC",
+        "description": "...The Flood Warning continues for the following rivers in South\nCarolina...\n\nCongaree River At Carolina Eastman affecting Calhoun...Lexington and\nRichland Counties\n\nCongaree River At Congaree National Park-Gadsden affecting Calhoun\nand Richland Counties\n\nThe Flood Warning extended for\nThe Congaree River At Carolina Eastman.\n* until late Tuesday night...Or until the warning is cancelled.\n* At  8 PM Monday the stage was 116.9 feet.\n* Flood stage is 115.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall...Going below flood\nstage tomorrow morning.\n* At 115.0 feet...Flooding occurs in low lying areas of the Carolina\nEastman Facility and at the Congaree National Park.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCAE.FL.W.0001.000000T0000Z-200108T0807Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T03:07:00-05:00"
+            ]
+        }
+    }
+}
