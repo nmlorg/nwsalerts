@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991520-3387230",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.96,
+                    47.56
+                ],
+                [
+                    -122.03999999999999,
+                    47.7
+                ],
+                [
+                    -122.02,
+                    47.84
+                ],
+                [
+                    -121.94,
+                    47.830000000000005
+                ],
+                [
+                    -121.92999999999999,
+                    47.71000000000001
+                ],
+                [
+                    -121.88,
+                    47.61000000000001
+                ],
+                [
+                    -121.96,
+                    47.56
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991520-3387230",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3991520-3387230",
+        "areaDesc": "King, WA",
+        "geocode": {
+            "UGC": [
+                "WAC033"
+            ],
+            "SAME": [
+                "053033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991119-3386931",
+                "identifier": "NWS-IDP-PROD-3991119-3386931",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-06T21:08:00-08:00"
+            }
+        ],
+        "sent": "2020-01-07T04:08:00-08:00",
+        "effective": "2020-01-07T04:08:00-08:00",
+        "onset": "2020-01-07T08:24:00-08:00",
+        "expires": "2020-01-07T13:07:00-08:00",
+        "ends": "2020-01-09T03:54:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued January 7 at 4:08AM PST until January 9 at 3:54AM PST by NWS Seattle WA",
+        "description": "...Forecast flooding changed from Minor to Moderate severity for the\nfollowing rivers in Washington...\n\nSnoqualmie River Near Carnation affecting King County\n\nAnother 2 to 4 inches of precipitation is forecast for the central\nCascades until a cold front moves through the area this evening.\nSnow levels will be as high as 5000 feet ahead of the front. The\nadditional precipitation will push the Snoqualmie river near\nCarnation into the moderate flooding category later today.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity... The Flood Warning continues for The Snoqualmie River Near Carnation * Until late Wednesday night. * At  3:15 AM Tuesday the stage was 53.0 feet. * Flood stage is 54.0 feet. * Moderate flooding is forecast. * Forecast...The river will rise above flood stage around 8 AM Tuesday and crest near 57.6 feet around 10 PM Tuesday. The river will fall below flood stage Wednesday afternoon. * Impact...At 56.0 feet, the Snoqualmie River will cause widespread flooding from Fall City downstream through Carnation and Duvall"
+            ],
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0006.200107T1624Z-200109T1154Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLWSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-09T03:54:00-08:00"
+            ]
+        }
+    }
+}
