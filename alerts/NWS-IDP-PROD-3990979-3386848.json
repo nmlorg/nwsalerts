@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990979-3386848",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.52,
+                    44.68
+                ],
+                [
+                    -88.47999999999999,
+                    44.33
+                ],
+                [
+                    -88.66999999999999,
+                    44.339999999999996
+                ],
+                [
+                    -88.66999999999999,
+                    44.4
+                ],
+                [
+                    -88.62999999999998,
+                    44.5
+                ],
+                [
+                    -88.66999999999999,
+                    44.68
+                ],
+                [
+                    -88.52,
+                    44.68
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990979-3386848",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3990979-3386848",
+        "areaDesc": "Waupaca, WI; Shawano, WI; Outagamie, WI",
+        "geocode": {
+            "UGC": [
+                "WIC135",
+                "WIC115",
+                "WIC087"
+            ],
+            "SAME": [
+                "055135",
+                "055115",
+                "055087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WIC135",
+            "https://api.weather.gov/zones/county/WIC115",
+            "https://api.weather.gov/zones/county/WIC087"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3990213-3386241",
+                "identifier": "NWS-IDP-PROD-3990213-3386241",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-06T09:14:00-06:00"
+            }
+        ],
+        "sent": "2020-01-06T20:59:00-06:00",
+        "effective": "2020-01-06T20:59:00-06:00",
+        "onset": "2020-01-06T20:59:00-06:00",
+        "expires": "2020-01-07T09:00:00-06:00",
+        "ends": "2020-01-09T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Green Bay WI",
+        "headline": "Flood Warning issued January 6 at 8:59PM CST until January 9 at 12:00PM CST by NWS Green Bay WI",
+        "description": "...The Flood Warning is extended for the following rivers in\nWisconsin...\n\nWolf River at New London affecting Winnebago, Outagamie and\nWaupaca Counties.\n\n...The Flood Warning continues for the following rivers in\nWisconsin...\n\nWolf River near Shiocton affecting Shawano, Outagamie and Waupaca\nCounties.\n\nFor the Lower Wolf River...including Shiocton, New London, Lake\nPoygan...Minor flooding is forecast.\n\nThe Flood Warning continues for\nthe Wolf River near Shiocton.\n* Until Thursday afternoon.\n* There is no current observed data.\n* Flood stage is 11.0 feet.\n* Minor flooding is forecast.\n* Forecast...The river is expected to fall below flood stage\nWednesday morning and continue falling to 9.8 feet Monday evening.\n* Impact...At 11.5 feet, There is minor flooding at the city park\nalong with lowland and adjacent agricultural land.",
+        "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nCaution is urged when walking near riverbanks.\n\nAdditional information is available at www.weather.gov.\n\nThe next statement will be issued Tuesday morning by 845 AM CST.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Warning remains in effect"
+            ],
+            "VTEC": [
+                "/O.CON.KGRB.FL.W.0001.000000T0000Z-200109T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GRBFLSGRB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-09T12:00:00-06:00"
+            ]
+        }
+    }
+}
