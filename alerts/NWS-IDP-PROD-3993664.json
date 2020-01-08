@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993664",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.4,
+                    40.46
+                ],
+                [
+                    -77.27000000000001,
+                    40.57
+                ],
+                [
+                    -76.65,
+                    40.34
+                ],
+                [
+                    -76.98,
+                    40.260000000000005
+                ],
+                [
+                    -77.4,
+                    40.46
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993664",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993664",
+        "areaDesc": "Juniata; Dauphin; Perry; Cumberland",
+        "geocode": {
+            "UGC": [
+                "PAZ028",
+                "PAZ057",
+                "PAZ056",
+                "PAZ063"
+            ],
+            "SAME": [
+                "042067",
+                "042043",
+                "042099",
+                "042041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PAZ028",
+            "https://api.weather.gov/zones/forecast/PAZ057",
+            "https://api.weather.gov/zones/forecast/PAZ056",
+            "https://api.weather.gov/zones/forecast/PAZ063"
+        ],
+        "references": [],
+        "sent": "2020-01-08T13:32:00-05:00",
+        "effective": "2020-01-08T13:32:00-05:00",
+        "onset": "2020-01-08T13:32:00-05:00",
+        "expires": "2020-01-08T14:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS State College PA",
+        "headline": "Special Weather Statement issued January 8 at 1:32PM EST by NWS State College PA",
+        "description": "HAZARDS...A snow squall accompanied by winds of up to 30 MPH which\ncan rapidly reduce visibility to less than a quarter of a mile.\n\nLOCATION AND MOVEMENT...At 130 PM EST, a snow squall was near New\nBloomfield moving east at 45 MPH.\n\nTHIS SQUALL WILL BE NEAR...\nNewport around 135 PM EST.\nDuncannon and New Buffalo around 145 PM EST.\nEnola, Marysville and Rockville around 155 PM EST.\nLinglestown, Colonial Park and Progress around 200 PM EST.\n\nThis includes the following Interstates...\nInterstate 81 from mile markers 59 to 77.\nInterstate 83 near mile marker 50.\n\nSAFETY INFO...\nUse extra caution if you must travel into or through this squall.\nRapid changes in visibility and potentially slick roads are likely to\nlead to accidents. Consider delaying travel until this squall passes\nyour location.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T13:30:00.000-05:00...storm...291DEG...37KT...40.46,-77.21"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WILL AFFECT PARTS OF PERRY...CUMBERLAND...JUNIATA... AND DAUPHIN COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CTPSPSCTP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
