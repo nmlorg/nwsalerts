@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994048",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -71.14,
+                    43.67
+                ],
+                [
+                    -70.99,
+                    43.83
+                ],
+                [
+                    -70.27,
+                    43.5
+                ],
+                [
+                    -70.33,
+                    43.49
+                ],
+                [
+                    -70.3,
+                    43.45
+                ],
+                [
+                    -70.41,
+                    43.36
+                ],
+                [
+                    -71.14,
+                    43.67
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994048",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3994048",
+        "areaDesc": "Interior York; Coastal York; Southern Oxford; Southern Carroll",
+        "geocode": {
+            "UGC": [
+                "MEZ018",
+                "MEZ023",
+                "MEZ012",
+                "NHZ006"
+            ],
+            "SAME": [
+                "023031",
+                "023017",
+                "033003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MEZ018",
+            "https://api.weather.gov/zones/forecast/MEZ023",
+            "https://api.weather.gov/zones/forecast/MEZ012",
+            "https://api.weather.gov/zones/forecast/NHZ006"
+        ],
+        "references": [],
+        "sent": "2020-01-08T18:05:00-05:00",
+        "effective": "2020-01-08T18:05:00-05:00",
+        "onset": "2020-01-08T18:05:00-05:00",
+        "expires": "2020-01-08T18:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Gray ME",
+        "headline": "Special Weather Statement issued January 8 at 6:05PM EST by NWS Gray ME",
+        "description": "At 604 PM EST...A snow squall was along a line extending from near\nEffingham to near Ossipee...and moving east, southeast at 30 MPH.\n\nLocations impacted include...\nBiddeford, Alfred, Ossipee, Saco, Kennebunk, Buxton, Hollis,\nKennebunkport, Effingham, Cornish, Old Orchard Beach, Waterboro,\nWolfeboro, Lyman, Arundel, Limington, Limerick, Acton, Freedom and\nDayton.\n\nThis includes Interstate 95 between mile markers 27 and 39.\n\nThis also includes...\nFortunes Rock Beach.\n\n* Visibilities will drop quickly to less than a half mile in this\nsnow squall.\n\n* Sudden and brief snowfall rates of 1 to 2 inches per hour are\npossible in this snow squall.\n\nTemperatures are above freezing...but sharply colder temperatures\nfollowing the snow will cause any water or slush to quickly freeze on\nroads and sidewalks. Untreated road surfaces will become extremely\nslippery. Reduced speeds and distance between vehicles is advised.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T18:04:00.000-05:00...storm...307DEG...24KT...43.73,-70.93 43.64,-71.05"
+            ],
+            "NWSheadline": [
+                "A snow squall will affect northern York and southeastern Carroll Counties"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GYXSPSGYX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
