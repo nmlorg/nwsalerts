@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992359-3387870",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.8199999,
+                    32.77
+                ],
+                [
+                    -87.69,
+                    32.56
+                ],
+                [
+                    -87.8199999,
+                    32.510000000000005
+                ],
+                [
+                    -87.84,
+                    32.620000000000005
+                ],
+                [
+                    -87.9,
+                    32.7299999
+                ],
+                [
+                    -87.89,
+                    32.81
+                ],
+                [
+                    -87.8199999,
+                    32.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992359-3387870",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3992359-3387870",
+        "areaDesc": "Marengo, AL; Greene, AL; Hale, AL",
+        "geocode": {
+            "UGC": [
+                "ALC091",
+                "ALC063",
+                "ALC065"
+            ],
+            "SAME": [
+                "001091",
+                "001063",
+                "001065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC091",
+            "https://api.weather.gov/zones/county/ALC063",
+            "https://api.weather.gov/zones/county/ALC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991702-3387371",
+                "identifier": "NWS-IDP-PROD-3991702-3387371",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-07T09:10:00-06:00"
+            }
+        ],
+        "sent": "2020-01-07T18:24:00-06:00",
+        "effective": "2020-01-07T18:24:00-06:00",
+        "onset": "2020-01-07T18:24:00-06:00",
+        "expires": "2020-01-08T06:23:00-06:00",
+        "ends": "2020-01-10T05:20:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued January 7 at 6:24PM CST until January 10 at 5:20AM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Black Warrior River at Selden\nLock and Dam...\n\nElevated water levels continue along portions of the Black Warrior River due to recent heavy rainfall. However, levels have been gradually falling since the start of the week. The latest forecast calls for the Black Warrior River at Selden Lock and Dam to fall below flood stage late Thursday. Additional rainfall is forecast Friday and Saturday, though current projected totals don't bring the river back into flood stage.\n\nThe Flood Warning continues for\nThe Black Warrior River At Selden Lock and Dam.\n* until late Thursday night...or until the warning is cancelled.\n* At  6:00 PM Tuesday the stage was 95.9 feet.\n* Flood stage is 90.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nThursday afternoon.\n* Impact...At 94.0 feet...Some secondary roads in the area begin to\nflood. Flooding of farm and pasture lands continues.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Wednesday morning, or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0005.000000T0000Z-200110T1120Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T05:20:00-06:00"
+            ]
+        }
+    }
+}
