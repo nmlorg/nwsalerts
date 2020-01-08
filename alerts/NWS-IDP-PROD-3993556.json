@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993556",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -75.8199999,
+                    42.96
+                ],
+                [
+                    -75.92,
+                    42.7
+                ],
+                [
+                    -76.67,
+                    42.9099999
+                ],
+                [
+                    -76.62,
+                    43.03
+                ],
+                [
+                    -76.5,
+                    43.03
+                ],
+                [
+                    -76.49,
+                    43.06
+                ],
+                [
+                    -75.8199999,
+                    42.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993556",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993556",
+        "areaDesc": "Cortland; Southern Cayuga; Madison; Onondaga",
+        "geocode": {
+            "UGC": [
+                "NYZ044",
+                "NYZ017",
+                "NYZ036",
+                "NYZ018"
+            ],
+            "SAME": [
+                "036023",
+                "036011",
+                "036053",
+                "036067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ044",
+            "https://api.weather.gov/zones/forecast/NYZ017",
+            "https://api.weather.gov/zones/forecast/NYZ036",
+            "https://api.weather.gov/zones/forecast/NYZ018"
+        ],
+        "references": [],
+        "sent": "2020-01-08T12:01:00-05:00",
+        "effective": "2020-01-08T12:01:00-05:00",
+        "onset": "2020-01-08T12:01:00-05:00",
+        "expires": "2020-01-08T13:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Binghamton NY",
+        "headline": "Special Weather Statement issued January 8 at 12:01PM EST by NWS Binghamton NY",
+        "description": "At 1200 PM EST, a snow squall was located over Sennett, or near\nAuburn, moving east at 30 mph.\n\nLocations impacted include...\nOnondaga, Syracuse, Auburn, Pompey, Owasco, Sennett, Cazenovia,\nOtisco, Skaneateles and Marcellus.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T12:00:00.000-05:00...storm...286DEG...25KT...42.98,-76.55"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WILL AFFECT SOUTHWESTERN MADISON...NORTHERN CAYUGA...NORTHEASTERN CORTLAND AND SOUTHERN ONONDAGA COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BGMSPSBGM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
