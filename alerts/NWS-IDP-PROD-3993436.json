@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993436",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.38,
+                    42.26
+                ],
+                [
+                    -76.91,
+                    42.33
+                ],
+                [
+                    -75.95,
+                    41.76
+                ],
+                [
+                    -76.5699999,
+                    41.78
+                ],
+                [
+                    -77.38,
+                    42.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993436",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993436",
+        "areaDesc": "Schuyler; Tioga; Steuben; Susquehanna; Bradford; Chemung",
+        "geocode": {
+            "UGC": [
+                "NYZ023",
+                "NYZ055",
+                "NYZ022",
+                "PAZ039",
+                "PAZ038",
+                "NYZ024"
+            ],
+            "SAME": [
+                "036097",
+                "036107",
+                "036101",
+                "042115",
+                "042015",
+                "036015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ023",
+            "https://api.weather.gov/zones/forecast/NYZ055",
+            "https://api.weather.gov/zones/forecast/NYZ022",
+            "https://api.weather.gov/zones/forecast/PAZ039",
+            "https://api.weather.gov/zones/forecast/PAZ038",
+            "https://api.weather.gov/zones/forecast/NYZ024"
+        ],
+        "references": [],
+        "sent": "2020-01-08T10:45:00-05:00",
+        "effective": "2020-01-08T10:45:00-05:00",
+        "onset": "2020-01-08T10:45:00-05:00",
+        "expires": "2020-01-08T11:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Binghamton NY",
+        "headline": "Special Weather Statement issued January 8 at 10:45AM EST by NWS Binghamton NY",
+        "description": "At 1045 AM EST, a snow squall was located along a line extending from\nCampbell to Ulster. Movement was east at 25 mph.\n\nLocations impacted include...\nChemung, Elmira, Corning, Southport, Barton, Big Flats, Horseheads,\nSayre, Waverly and Elmira Heights.\n\nUse extra caution if you must travel into or through this dangerous\nsnow squall. Rapid changes in visibility and potentially slick roads\nare likely to lead to accidents. Consider delaying travel until the\nsquall passes your location.\n\nConditions can deteriorate rapidly in winter weather situations. Be\nprepared for snow or ice covered roads. Slow down and allow extra\ntime when traveling.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T10:45:00.000-05:00...storm...264DEG...21KT...42.24,-77.17 41.85,-76.51"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WILL AFFECT SOUTHWESTERN SCHUYLER...CHEMUNG... SOUTHWESTERN TIOGA...SOUTHEASTERN STEUBEN...WEST CENTRAL SUSQUEHANNA AND NORTHERN BRADFORD COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BGMSPSBGM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
