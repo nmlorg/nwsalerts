@@ -1,0 +1,119 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993465-3388675",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.2,
+                    40.55
+                ],
+                [
+                    -79.48,
+                    40.43
+                ],
+                [
+                    -79.69,
+                    40.42
+                ],
+                [
+                    -80.14,
+                    40.68
+                ],
+                [
+                    -79.93,
+                    40.7
+                ],
+                [
+                    -79.70999990000001,
+                    40.74
+                ],
+                [
+                    -79.2,
+                    40.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993465-3388675",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993465-3388675",
+        "areaDesc": "Indiana, PA; Butler, PA; Armstrong, PA; Allegheny, PA; Westmoreland, PA",
+        "geocode": {
+            "UGC": [
+                "PAC063",
+                "PAC019",
+                "PAC005",
+                "PAC003",
+                "PAC129"
+            ],
+            "SAME": [
+                "042063",
+                "042019",
+                "042005",
+                "042003",
+                "042129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC063",
+            "https://api.weather.gov/zones/county/PAC019",
+            "https://api.weather.gov/zones/county/PAC005",
+            "https://api.weather.gov/zones/county/PAC003",
+            "https://api.weather.gov/zones/county/PAC129"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993437-3388644",
+                "identifier": "NWS-IDP-PROD-3993437-3388644",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T10:45:00-05:00"
+            }
+        ],
+        "sent": "2020-01-08T10:58:00-05:00",
+        "effective": "2020-01-08T10:58:00-05:00",
+        "onset": "2020-01-08T10:57:00-05:00",
+        "expires": "2020-01-08T11:30:00-05:00",
+        "ends": "2020-01-08T11:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pittsburgh PA",
+        "headline": "Snow Squall Warning issued January 8 at 10:57AM EST until January 8 at 11:30AM EST by NWS Pittsburgh PA",
+        "description": "At 1057 AM EST, a dangerous snow squall was located along a line\nextending from near Freeport to Gibsonia to Aliquippa, moving\nsoutheast at 35 mph.\n\nHAZARD...Heavy snow and blowing snow. Wind gusts up to 30 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Dangerous life-threatening travel.\n\nThis includes the following highways...\nPennsylvania Turnpike between mile markers 29 and 54.\nInterstate 79 in Pennsylvania between mile markers 77 and 79.\n\nLocations impacted include...\nPenn Hills, McCandless Township, Monroeville, Cranberry, Vandergrift,\nApollo, Plum, Murrysville, Hampton Township, New Kensington, Lower\nBurrell and Harrison Township.",
+        "instruction": "Consider avoiding or delaying travel until the snow squall passes\nyour location. If you must travel, use extra caution and allow extra\ntime. Rapid changes in visibility and slick road conditions may lead\nto accidents.\n\nReduce your speed and turn on headlights! During snow squalls, the\nvisibility may suddenly drop to near zero in whiteout conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T10:57:00.000-05:00...storm...302DEG...31KT...40.69,-79.72 40.62,-79.95 40.62,-80.24"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WARNING REMAINS IN EFFECT UNTIL 1130 AM EST FOR WEST CENTRAL INDIANA...SOUTHEASTERN BUTLER...NORTHEASTERN ALLEGHENY... NORTHWESTERN WESTMORELAND AND SOUTHWESTERN ARMSTRONG COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPBZ.SQ.W.0004.000000T0000Z-200108T1630Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PBZSQWPBZ"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T11:30:00-05:00"
+            ]
+        }
+    }
+}
