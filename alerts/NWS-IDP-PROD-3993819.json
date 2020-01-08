@@ -1,0 +1,91 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993819",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.75,
+                    42.81
+                ],
+                [
+                    -78.48,
+                    42.99
+                ],
+                [
+                    -77.9599999,
+                    42.88
+                ],
+                [
+                    -78.17,
+                    42.54
+                ],
+                [
+                    -78.75,
+                    42.81
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993819",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993819",
+        "areaDesc": "Genesee; Southern Erie; Northern Erie; Wyoming",
+        "geocode": {
+            "UGC": [
+                "NYZ011",
+                "NYZ085",
+                "NYZ010",
+                "NYZ012"
+            ],
+            "SAME": [
+                "036037",
+                "036029",
+                "036121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ011",
+            "https://api.weather.gov/zones/forecast/NYZ085",
+            "https://api.weather.gov/zones/forecast/NYZ010",
+            "https://api.weather.gov/zones/forecast/NYZ012"
+        ],
+        "references": [],
+        "sent": "2020-01-08T15:29:00-05:00",
+        "effective": "2020-01-08T15:29:00-05:00",
+        "onset": "2020-01-08T15:29:00-05:00",
+        "expires": "2020-01-08T16:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Buffalo NY",
+        "headline": "Special Weather Statement issued January 8 at 3:29PM EST by NWS Buffalo NY",
+        "description": "An area of briefly heavy lake effect snow showers will move from the\neastern suburbs of Buffalo into southwest Genesee and Wyoming\ncounties. Expect a brief burst of moderate to heavy snow that lasts\nfor 15 to 20 minutes. This will reduce the visibility to less than a\nhalf mile and result in slick spots on untreated roads.\n\nLocations impacted include...\nWest Seneca, East Aurora, Elma, Marilla, Warsaw, Bennington, Alden,\nAttica, Pavilion, Wales Center, Varysburg, Sheldon, Covington, Pike,\nSilver Springs, Corfu and Alexander.\n\nConditions can deteriorate rapidly in winter weather situations. Be\nprepared for snow or ice covered roads. Slow down and allow extra\ntime when traveling.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "A BAND OF LAKE EFFECT SNOW WILL AFFECT WYOMING...EAST CENTRAL ERIE AND SOUTHWESTERN GENESEE COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BUFSPSBUF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
