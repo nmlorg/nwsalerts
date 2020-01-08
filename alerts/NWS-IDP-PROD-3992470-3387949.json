@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992470-3387949",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.29,
+                    34.09
+                ],
+                [
+                    -88.2099999,
+                    34.09
+                ],
+                [
+                    -88.26,
+                    33.7299999
+                ],
+                [
+                    -88.43,
+                    33.650000000000006
+                ],
+                [
+                    -88.44000000000001,
+                    33.7
+                ],
+                [
+                    -88.39000000000001,
+                    33.75
+                ],
+                [
+                    -88.29,
+                    34.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992470-3387949",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3992470-3387949",
+        "areaDesc": "Monroe, MS; Lowndes, MS",
+        "geocode": {
+            "UGC": [
+                "MSC095",
+                "MSC087"
+            ],
+            "SAME": [
+                "028095",
+                "028087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC095",
+            "https://api.weather.gov/zones/county/MSC087"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3991707-3387373",
+                "identifier": "NWS-IDP-PROD-3991707-3387373",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-07T09:18:00-06:00"
+            }
+        ],
+        "sent": "2020-01-07T19:42:00-06:00",
+        "effective": "2020-01-07T19:42:00-06:00",
+        "onset": "2020-01-07T19:42:00-06:00",
+        "expires": "2020-01-08T11:00:00-06:00",
+        "ends": "2020-01-08T11:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 7 at 7:42PM CST until January 8 at 11:00AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Buttahatchie River.\n\nThe Flood Warning continues for\nthe Buttahatchie River near Aberdeen\n* until mid morning Wednesday January 8.\n* At 7 PM Tuesday the stage was 13.2 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* Flood stage is 13.0 feet.\n* At 13.0 feet...Lowland near the river is flooded.",
+        "instruction": "A followup Flood Statement will be issued Wednesday or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0183.000000T0000Z-200108T1700Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T11:00:00-06:00"
+            ]
+        }
+    }
+}
