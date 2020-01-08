@@ -1,0 +1,73 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992480-3387961",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992480-3387961",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3992480-3387961",
+        "areaDesc": "Mitchell; Avery; Yancey",
+        "geocode": {
+            "UGC": [
+                "NCZ050",
+                "NCZ033",
+                "NCZ049"
+            ],
+            "SAME": [
+                "037121",
+                "037011",
+                "037199"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NCZ050",
+            "https://api.weather.gov/zones/forecast/NCZ033",
+            "https://api.weather.gov/zones/forecast/NCZ049"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992036-3387623",
+                "identifier": "NWS-IDP-PROD-3992036-3387623",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-07T14:30:00-05:00"
+            }
+        ],
+        "sent": "2020-01-07T20:59:00-05:00",
+        "effective": "2020-01-07T20:59:00-05:00",
+        "onset": "2020-01-07T20:59:00-05:00",
+        "expires": "2020-01-08T06:00:00-05:00",
+        "ends": "2020-01-08T18:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Wind Advisory issued January 7 at 8:59PM EST until January 8 at 6:00PM EST by NWS Greenville-Spartanburg SC",
+        "description": "* WHAT...Northwest winds 20 to 30 mph with gusts up to 50 mph\nexpected.\n\n* WHERE...Avery, Yancey and Mitchell Counties.\n\n* WHEN...From 6 PM this evening to 6 PM EST Wednesday.\n\n* IMPACTS...Gusty winds could blow around unsecured objects.\nTree limbs could be blown down and a few power outages may\nresult.\n\n* ADDITIONAL DETAILS...Wind gusts will increase briefly this\nevening, followed by a relative lull late this evening and in\nthe pre-dawn hours on Wednesday. Another surge of strong winds\naloft will bring the strongest wind gusts down to the surface\nbetween sunrise and early afternoon Wednesday.",
+        "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY REMAINS IN EFFECT UNTIL 6 PM EST WEDNESDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KGSP.WI.Y.0002.000000T0000Z-200108T2300Z/"
+            ],
+            "PIL": [
+                "GSPNPWGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T18:00:00-05:00"
+            ]
+        }
+    }
+}
