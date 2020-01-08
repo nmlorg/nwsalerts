@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993709",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -70.99,
+                    44.09
+                ],
+                [
+                    -71.14,
+                    43.93000000000001
+                ],
+                [
+                    -71.8199999,
+                    44.20000000000001
+                ],
+                [
+                    -71.6,
+                    44.36000000000001
+                ],
+                [
+                    -70.99,
+                    44.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993709",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993709",
+        "areaDesc": "Northern Carroll; Northern Grafton; Southern Oxford; Southern Coos",
+        "geocode": {
+            "UGC": [
+                "NHZ004",
+                "NHZ003",
+                "MEZ012",
+                "NHZ002"
+            ],
+            "SAME": [
+                "033003",
+                "033009",
+                "023017",
+                "033007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NHZ004",
+            "https://api.weather.gov/zones/forecast/NHZ003",
+            "https://api.weather.gov/zones/forecast/MEZ012",
+            "https://api.weather.gov/zones/forecast/NHZ002"
+        ],
+        "references": [],
+        "sent": "2020-01-08T14:34:00-05:00",
+        "effective": "2020-01-08T14:34:00-05:00",
+        "onset": "2020-01-08T14:34:00-05:00",
+        "expires": "2020-01-08T15:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Gray ME",
+        "headline": "Special Weather Statement issued January 8 at 2:34PM EST by NWS Gray ME",
+        "description": "At 233 PM EST...An area of heavy snow showers was along a line\nextending from 6 miles west of Mount Washington to 6 miles northeast\nof Lincoln...and moving southeast AT 30 MPH.\n\nLocations impacted include...\nConway, Bethlehem, Lincoln, Franconia, Carroll, Bartlett, Madison,\nJackson, Albany, Chatham, Hart's Location, Sugar Hill, Whitefield and\nLivermore.\n\nThis includes Interstate 93 between mile markers 109 and 117.\n\nThis also includes...\nCrawford Notch State Park, Franconia Notch, Cannon Mountain, North\nTwin Mountain, and Franconia Ridge.\n\n* Visibilities will drop quickly to near a quarter mile at times\nin the area of heavy snow showers.\n\nTravel is not advised during these heavy snow showers. Rapid\nvisibility reduction and potentially icy roads are likely to lead to\naccidents. Consider delaying travel until the snow showers pass your\nlocation. If traveling pull off to a safe location.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T14:33:00.000-05:00...storm...296DEG...24KT...44.27,-71.43 44.13,-71.6"
+            ],
+            "NWSheadline": [
+                "An area of heavy snow showers will affect southwestern Coos... northeastern Grafton and northeastern Carroll Counties"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GYXSPSGYX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
