@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993254-3388526",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.52,
+                    41.2299999
+                ],
+                [
+                    -79.78,
+                    41.260000000000005
+                ],
+                [
+                    -79.73,
+                    40.940000000000005
+                ],
+                [
+                    -80.52000000000001,
+                    40.9099999
+                ],
+                [
+                    -80.52,
+                    41.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993254-3388526",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993254-3388526",
+        "areaDesc": "Venango, PA; Butler, PA; Mercer, PA; Lawrence, PA",
+        "geocode": {
+            "UGC": [
+                "PAC121",
+                "PAC019",
+                "PAC085",
+                "PAC073"
+            ],
+            "SAME": [
+                "042121",
+                "042019",
+                "042085",
+                "042073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC121",
+            "https://api.weather.gov/zones/county/PAC019",
+            "https://api.weather.gov/zones/county/PAC085",
+            "https://api.weather.gov/zones/county/PAC073"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993225-3388502",
+                "identifier": "NWS-IDP-PROD-3993225-3388502",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T08:30:00-05:00"
+            }
+        ],
+        "sent": "2020-01-08T08:59:00-05:00",
+        "effective": "2020-01-08T08:59:00-05:00",
+        "onset": "2020-01-08T08:59:00-05:00",
+        "expires": "2020-01-08T09:30:00-05:00",
+        "ends": "2020-01-08T09:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pittsburgh PA",
+        "headline": "Snow Squall Warning issued January 8 at 8:59AM EST until January 8 at 9:30AM EST by NWS Pittsburgh PA",
+        "description": "At 859 AM EST, a dangerous snow squall was located along a line\nextending from 10 miles northeast of Slippery Rock to near Campbell,\nmoving southeast at 20 mph.\n\nHAZARD...Extremely poor visibility heavy snow and blowing snow. Wind\ngusts up to 30 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Dangerous life-threatening travel.\n\nThis includes the following highways...\nInterstate 79 in Pennsylvania between mile markers 98 and 120.\nInterstate 80 in Pennsylvania between mile markers 0 and 40.\nInterstate 376 in Pennsylvania between mile markers 4 and 14.\n\nLocations impacted include...\nNew Castle, Hermitage, Sharon, Grove City, Farrell, Slippery Rock,\nNew Wilmington, Oakwood, New Castle Northwest, Mercer, Pulaski and\nBessemer.",
+        "instruction": "Consider avoiding or delaying travel until the snow squall passes\nyour location. If you must travel, use extra caution and allow extra\ntime. Rapid changes in visibility and slick road conditions may lead\nto accidents.\n\nReduce your speed and turn on headlights! During snow squalls, the\nvisibility may suddenly drop to near zero in whiteout conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T08:59:00.000-05:00...storm...313DEG...18KT...41.12,-79.88 41.06,-80.56"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WARNING REMAINS IN EFFECT UNTIL 930 AM EST FOR SOUTHERN MERCER...SOUTHWESTERN VENANGO...LAWRENCE AND NORTHERN BUTLER COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPBZ.SQ.W.0002.000000T0000Z-200108T1430Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PBZSQWPBZ"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T09:30:00-05:00"
+            ]
+        }
+    }
+}
