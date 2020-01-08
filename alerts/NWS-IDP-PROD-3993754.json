@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993754",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -74.16,
+                    41.35
+                ],
+                [
+                    -73.36,
+                    41.1
+                ],
+                [
+                    -73.73,
+                    40.93
+                ],
+                [
+                    -74.37,
+                    41.21
+                ],
+                [
+                    -74.16,
+                    41.35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993754",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993754",
+        "areaDesc": "Southern Westchester; Southern Fairfield; Rockland; Northern Westchester; Orange",
+        "geocode": {
+            "UGC": [
+                "NYZ071",
+                "CTZ009",
+                "NYZ069",
+                "NYZ070",
+                "NYZ067"
+            ],
+            "SAME": [
+                "036119",
+                "009001",
+                "036087",
+                "036071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ071",
+            "https://api.weather.gov/zones/forecast/CTZ009",
+            "https://api.weather.gov/zones/forecast/NYZ069",
+            "https://api.weather.gov/zones/forecast/NYZ070",
+            "https://api.weather.gov/zones/forecast/NYZ067"
+        ],
+        "references": [],
+        "sent": "2020-01-08T14:54:00-05:00",
+        "effective": "2020-01-08T14:54:00-05:00",
+        "onset": "2020-01-08T14:54:00-05:00",
+        "expires": "2020-01-08T15:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Upton NY",
+        "headline": "Special Weather Statement issued January 8 at 2:54PM EST by NWS Upton NY",
+        "description": "At 252 PM EST, Snow showers were located over Sloatsburg, moving\nsoutheast at 45 mph.\n\nWinds in excess of 30 mph are possible with these snow showers.\n\nThese snow showers will be near...\nHaverstraw and Nanuet around 305 PM EST.\nOssining and Nyack around 310 PM EST.\nTarrytown and Dobbs Ferry around 315 PM EST.\nWhite Plains and Harrison around 325 PM EST.\nPort Chester and Rye around 330 PM EST.\nGreenwich around 335 PM EST.\n\nVisibilities may drop quickly to less a mile in these snow showers.\n\nConditions can deteriorate rapidly in winter weather situations. Be\nprepared for snow or ice covered roads. Slow down and allow extra\ntime when traveling.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T14:52:00.000-05:00...storm...297DEG...39KT...41.17,-74.14"
+            ],
+            "NWSheadline": [
+                "SNOW SHOWERS WILL AFFECT SOUTHERN FAIRFIELD...CENTRAL WESTCHESTER...SOUTHEASTERN ORANGE AND ROCKLAND COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OKXSPSOKX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
