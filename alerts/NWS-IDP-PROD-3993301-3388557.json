@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993301-3388557",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.2,
+                    40.75
+                ],
+                [
+                    -78.17,
+                    40.78
+                ],
+                [
+                    -78.02,
+                    40.76
+                ],
+                [
+                    -78.0699999,
+                    40.699999999999996
+                ],
+                [
+                    -78.2,
+                    40.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993301-3388557",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993301-3388557",
+        "areaDesc": "Blair, PA; Huntingdon, PA; Centre, PA",
+        "geocode": {
+            "UGC": [
+                "PAC013",
+                "PAC061",
+                "PAC027"
+            ],
+            "SAME": [
+                "042013",
+                "042061",
+                "042027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC013",
+            "https://api.weather.gov/zones/county/PAC061",
+            "https://api.weather.gov/zones/county/PAC027"
+        ],
+        "references": [],
+        "sent": "2020-01-08T09:28:00-05:00",
+        "effective": "2020-01-08T09:28:00-05:00",
+        "onset": "2020-01-08T09:28:00-05:00",
+        "expires": "2020-01-08T10:15:00-05:00",
+        "ends": "2020-01-08T10:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS State College PA",
+        "headline": "Snow Squall Warning issued January 8 at 9:28AM EST until January 8 at 10:15AM EST by NWS State College PA",
+        "description": "The National Weather Service in State College PA has issued a\n\n* Snow Squall Warning for...\nNorthwestern Huntingdon County in central Pennsylvania...\nSouthern Centre County in central Pennsylvania...\nNortheastern Blair County in central Pennsylvania...\n\n* Until 1015 AM EST.\n\n* At 928 AM EST, a dangerous snow squall was located over Warriors\nMark, moving southeast at 35 mph.\n\nHAZARD...Extremely poor visibility in snow and blowing snow. Wind\ngusts up to 35 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect hazardous road conditions.\n\n* This includes Interstate 99 from mile markers 55 to 58.\n\nThis snow squall will remain over mainly rural areas of northwestern\nHuntingdon, southern Centre and northeastern Blair Counties.",
+        "instruction": "Consider avoiding or delaying travel until the snow squall passes\nyour location. If you must travel, use extra caution and allow extra\ntime. Rapid changes in visibility and slick road conditions may lead\nto accidents.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T09:28:00.000-05:00...storm...294DEG...31KT...40.74,-78.13"
+            ],
+            "VTEC": [
+                "/O.NEW.KCTP.SQ.W.0015.200108T1428Z-200108T1515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CTPSQWCTP"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T10:15:00-05:00"
+            ],
+            "CMAMtext": [
+                "Snow Squall Warning til 10:15 AM EST. Sudden whiteouts. Icy roads. Slow down! -NWS"
+            ]
+        }
+    }
+}
