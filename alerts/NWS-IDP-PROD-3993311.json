@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993311",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.62,
+                    42
+                ],
+                [
+                    -78.2,
+                    41.62
+                ],
+                [
+                    -79.08,
+                    41.839999999999996
+                ],
+                [
+                    -78.91,
+                    41.99999999999999
+                ],
+                [
+                    -77.62,
+                    42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993311",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993311",
+        "areaDesc": "McKean; Warren; Potter",
+        "geocode": {
+            "UGC": [
+                "PAZ005",
+                "PAZ004",
+                "PAZ006"
+            ],
+            "SAME": [
+                "042083",
+                "042123",
+                "042105"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PAZ005",
+            "https://api.weather.gov/zones/forecast/PAZ004",
+            "https://api.weather.gov/zones/forecast/PAZ006"
+        ],
+        "references": [],
+        "sent": "2020-01-08T09:34:00-05:00",
+        "effective": "2020-01-08T09:34:00-05:00",
+        "onset": "2020-01-08T09:34:00-05:00",
+        "expires": "2020-01-08T10:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS State College PA",
+        "headline": "Special Weather Statement issued January 8 at 9:34AM EST by NWS State College PA",
+        "description": "HAZARDS...An area of heavy snow accompanied by winds of up to 30 MPH\nwhich can rapidly reduce visibility to less than a quarter of a mile.\n\nLOCATION AND MOVEMENT...At 934 AM EST, an area of heavy snow was near\nAllegany State Park moving east at 40 MPH.\n\nTHIS AREA OF HEAVY SNOW WILL BE NEAR...\nBradford around 945 AM EST.\nCyclone around 950 AM EST.\nRew around 955 AM EST.\nCoryville and Smethport around 1005 AM EST.\nPort Allegany around 1015 AM EST.\nRoulette around 1025 AM EST.\n\nSAFETY INFO...\nConditions can deteriorate rapidly in winter weather situations. Be\nprepared for snow or ice covered roads. Slow down and allow extra\ntime to reach your destination.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T09:34:00.000-05:00...storm...288DEG...35KT...41.97,-78.76"
+            ],
+            "NWSheadline": [
+                "AN AREA OF HEAVY SNOW WILL AFFECT PARTS OF MCKEAN...WARREN...AND POTTER COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CTPSPSCTP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
