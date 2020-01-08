@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993225-3388502",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.73,
+                    40.94
+                ],
+                [
+                    -80.52000000000001,
+                    40.909999899999995
+                ],
+                [
+                    -80.52000000000001,
+                    41.309999999999995
+                ],
+                [
+                    -79.79,
+                    41.31999999999999
+                ],
+                [
+                    -79.73,
+                    40.94
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993225-3388502",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993225-3388502",
+        "areaDesc": "Venango, PA; Butler, PA; Mercer, PA; Lawrence, PA",
+        "geocode": {
+            "UGC": [
+                "PAC121",
+                "PAC019",
+                "PAC085",
+                "PAC073"
+            ],
+            "SAME": [
+                "042121",
+                "042019",
+                "042085",
+                "042073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC121",
+            "https://api.weather.gov/zones/county/PAC019",
+            "https://api.weather.gov/zones/county/PAC085",
+            "https://api.weather.gov/zones/county/PAC073"
+        ],
+        "references": [],
+        "sent": "2020-01-08T08:30:00-05:00",
+        "effective": "2020-01-08T08:30:00-05:00",
+        "onset": "2020-01-08T08:29:00-05:00",
+        "expires": "2020-01-08T09:30:00-05:00",
+        "ends": "2020-01-08T09:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pittsburgh PA",
+        "headline": "Snow Squall Warning issued January 8 at 8:29AM EST until January 8 at 9:30AM EST by NWS Pittsburgh PA",
+        "description": "The National Weather Service in Pittsburgh has issued a\n\n* Snow Squall Warning for...\nSouthern Mercer County in northwestern Pennsylvania...\nSouthwestern Venango County in northwestern Pennsylvania...\nLawrence County in western Pennsylvania...\nNorthern Butler County in west central Pennsylvania...\n\n* Until 930 AM EST.\n\n* At 829 AM EST, a dangerous snow squall was located along a line\nextending from 7 miles northeast of New Wilmington to near\nLordstown, moving southeast at 20 mph.\n\nHAZARD...Extremely poor visibility in heavy snow and blowing snow.\nWind gusts up to 30 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Dangerous life-threatening travel.\n\n* This includes the following highways...\nInterstate 79 in Pennsylvania between mile markers 98 and 125.\nInterstate 80 in Pennsylvania between mile markers 0 and 40.\nInterstate 376 in Pennsylvania between mile markers 4 and 14.\n\nLocations impacted include...\nNew Castle, Hermitage, Sharon, Grove City, Sharpsville, Farrell,\nSlippery Rock, New Wilmington, Oakwood, New Castle Northwest, Mercer\nand Pulaski.",
+        "instruction": "Consider avoiding or delaying travel until the snow squall passes\nyour location. If you must travel, use extra caution and allow extra\ntime. Rapid changes in visibility and slick road conditions may lead\nto accidents.\n\nReduce your speed and turn on headlights! During snow squalls, the\nvisibility may suddenly drop to near zero in whiteout conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T08:29:00.000-05:00...storm...323DEG...16KT...41.21,-80.24 41.15,-80.92"
+            ],
+            "VTEC": [
+                "/O.NEW.KPBZ.SQ.W.0002.200108T1329Z-200108T1430Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PBZSQWPBZ"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T09:30:00-05:00"
+            ],
+            "CMAMtext": [
+                "Snow Squall Warning til 9:30 AM EST. Sudden whiteouts. Icy roads. Slow down! -NWS"
+            ]
+        }
+    }
+}
