@@ -1,0 +1,91 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993387",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.4599999,
+                    41.04
+                ],
+                [
+                    -77.53,
+                    40.86
+                ],
+                [
+                    -78.03,
+                    40.99
+                ],
+                [
+                    -77.9,
+                    41.11
+                ],
+                [
+                    -77.4599999,
+                    41.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993387",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993387",
+        "areaDesc": "Southern Centre; Northern Centre; Southern Clinton",
+        "geocode": {
+            "UGC": [
+                "PAZ019",
+                "PAZ018",
+                "PAZ045"
+            ],
+            "SAME": [
+                "042027",
+                "042035"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PAZ019",
+            "https://api.weather.gov/zones/forecast/PAZ018",
+            "https://api.weather.gov/zones/forecast/PAZ045"
+        ],
+        "references": [],
+        "sent": "2020-01-08T10:09:00-05:00",
+        "effective": "2020-01-08T10:09:00-05:00",
+        "onset": "2020-01-08T10:09:00-05:00",
+        "expires": "2020-01-08T10:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS State College PA",
+        "headline": "Special Weather Statement issued January 8 at 10:09AM EST by NWS State College PA",
+        "description": "HAZARDS...A snow squall accompanied by winds of up to 30 MPH which\ncan rapidly reduce visibility to less than a quarter of a mile.\n\nLOCATION AND MOVEMENT...At 1008 AM EST, a snow squall was near Snow\nShoe moving east at 40 MPH.\n\nLOCATIONS IMPACTED INCLUDE...\nBellefonte, Lamar, Zion, Milesburg, Snow Shoe, Blanchard, Clarence,\nMadisonburg, Bald Eagle State Park and Howard.\n\nFor those driving on Interstate 80, this includes areas between the\nKylertown and Lock Haven exits, specifically from mile markers 142 to\n175.\n\nSAFETY INFO...\nConditions can deteriorate rapidly in winter weather\nsituations. Be prepared for snow or ice covered roads.\nSlow down and allow extra time to reach your destination.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T10:08:00.000-05:00...storm...291DEG...36KT...41.01,-77.85"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WILL AFFECT PARTS OF NORTHERN CENTRE...SOUTHERN CLINTON...AND SOUTHERN CENTRE COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CTPSPSCTP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
