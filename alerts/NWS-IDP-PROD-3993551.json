@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993551",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -76.54,
+                    40.11
+                ],
+                [
+                    -76.75,
+                    40.21
+                ],
+                [
+                    -76.5699999,
+                    40.25
+                ],
+                [
+                    -76.34,
+                    40.19
+                ],
+                [
+                    -76.54,
+                    40.11
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993551",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993551",
+        "areaDesc": "Lebanon; Lancaster; Dauphin",
+        "geocode": {
+            "UGC": [
+                "PAZ059",
+                "PAZ066",
+                "PAZ057"
+            ],
+            "SAME": [
+                "042075",
+                "042071",
+                "042043"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PAZ059",
+            "https://api.weather.gov/zones/forecast/PAZ066",
+            "https://api.weather.gov/zones/forecast/PAZ057"
+        ],
+        "references": [],
+        "sent": "2020-01-08T11:56:00-05:00",
+        "effective": "2020-01-08T11:56:00-05:00",
+        "onset": "2020-01-08T11:56:00-05:00",
+        "expires": "2020-01-08T12:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS State College PA",
+        "headline": "Special Weather Statement issued January 8 at 11:56AM EST by NWS State College PA",
+        "description": "HAZARDS...A snow squall accompanied by winds of up to 30 MPH which\ncan rapidly reduce visibility to less than a quarter of a mile.\n\nLOCATION AND MOVEMENT...At 1156 AM EST, a snow squall was\nbetween Hershey and Elizabethtown moving east at 30 MPH.\n\nLOCATIONS IMPACTED INCLUDE...\nElizabethtown, Mount Joy, Manheim, Rheems, Lawn, Elizabethtown\nCollege and Penn State Harrisburg.\n\nThis includes The Pennsylvania Turnpike from mile markers 250 to 264.\n\nSAFETY INFO...\nUse extra caution if you must travel into or through this squall.\nRapid changes in visibility and potentially slick roads are likely to\nlead to accidents. Consider delaying travel until this squall passes\nyour location.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T11:56:00.000-05:00...storm...292DEG...26KT...40.21,-76.62"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WILL AFFECT PARTS OF LANCASTER...LEBANON...AND DAUPHIN COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CTPSPSCTP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

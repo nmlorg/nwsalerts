@@ -1,0 +1,117 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993549-3388740",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -76.3199999,
+                    40.43
+                ],
+                [
+                    -76.2,
+                    40.49
+                ],
+                [
+                    -76.14,
+                    40.53
+                ],
+                [
+                    -75.56,
+                    40.42
+                ],
+                [
+                    -75.73,
+                    40.22
+                ],
+                [
+                    -75.87,
+                    40.14
+                ],
+                [
+                    -76.2099999,
+                    40.36
+                ],
+                [
+                    -76.3199999,
+                    40.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993549-3388740",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993549-3388740",
+        "areaDesc": "Berks, PA",
+        "geocode": {
+            "UGC": [
+                "PAC011"
+            ],
+            "SAME": [
+                "042011"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC011"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993513-3388702",
+                "identifier": "NWS-IDP-PROD-3993513-3388702",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T11:25:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993524-3388712",
+                "identifier": "NWS-IDP-PROD-3993524-3388712",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T11:43:00-05:00"
+            }
+        ],
+        "sent": "2020-01-08T11:55:00-05:00",
+        "effective": "2020-01-08T11:55:00-05:00",
+        "onset": "2020-01-08T11:55:00-05:00",
+        "expires": "2020-01-08T12:05:00-05:00",
+        "ends": "2020-01-08T12:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mount Holly NJ",
+        "headline": "Snow Squall Warning issued January 8 at 11:55AM EST until January 8 at 12:00PM EST by NWS Mount Holly NJ",
+        "description": "The snow squall which prompted the warning has exited the area.\nTherefore, the snow squall warning will be allowed to expire.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T11:55:00.000-05:00...storm...281DEG...50KT...40.36,-75.67"
+            ],
+            "NWSheadline": [
+                "THE SNOW SQUALL WARNING FOR BERKS COUNTY WILL EXPIRE AT NOON EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KPHI.SQ.W.0008.000000T0000Z-200108T1700Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PHISQWPHI"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T12:00:00-05:00"
+            ]
+        }
+    }
+}
