@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993680",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -71.78,
+                    42.39
+                ],
+                [
+                    -71.89,
+                    42.09
+                ],
+                [
+                    -72.09,
+                    41.95
+                ],
+                [
+                    -72.66,
+                    42.080000000000005
+                ],
+                [
+                    -72.53999999999999,
+                    42.25000000000001
+                ],
+                [
+                    -72.42999999999999,
+                    42.46000000000001
+                ],
+                [
+                    -71.78,
+                    42.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993680",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993680",
+        "areaDesc": "Southern Worcester; Eastern Hampshire; Tolland; Northern Worcester; Eastern Franklin; Windham; Eastern Hampden",
+        "geocode": {
+            "UGC": [
+                "MAZ012",
+                "MAZ010",
+                "CTZ003",
+                "MAZ004",
+                "MAZ003",
+                "CTZ004",
+                "MAZ011"
+            ],
+            "SAME": [
+                "025027",
+                "025015",
+                "009013",
+                "025011",
+                "009015",
+                "025013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MAZ012",
+            "https://api.weather.gov/zones/forecast/MAZ010",
+            "https://api.weather.gov/zones/forecast/CTZ003",
+            "https://api.weather.gov/zones/forecast/MAZ004",
+            "https://api.weather.gov/zones/forecast/MAZ003",
+            "https://api.weather.gov/zones/forecast/CTZ004",
+            "https://api.weather.gov/zones/forecast/MAZ011"
+        ],
+        "references": [],
+        "sent": "2020-01-08T14:05:00-05:00",
+        "effective": "2020-01-08T14:05:00-05:00",
+        "onset": "2020-01-08T14:05:00-05:00",
+        "expires": "2020-01-08T15:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Boston/Norton MA",
+        "headline": "Special Weather Statement issued January 8 at 2:05PM EST by NWS Boston/Norton MA",
+        "description": "At 202 PM EST...A snow squall was along a line extending from Pelham\nto Granby to Springfield, and was moving east at 20 mph.\n\nExpect a sudden reduction in visibility to as low as one-half mile\nat times, brief gusty winds up to 25 mph and a quick coating of snow\naccumulation.\n\nAt 155 PM, Chicopee, MA reported snow with half-mile visibility and\na wind gust to 24 mph as these squalls moved through.\n\nLocations impacted include...\nWorcester, Springfield, Chicopee, Amherst, Agawam, West Springfield,\nLudlow, South Hadley, Holden, Southbridge, Auburn, Longmeadow, East\nLongmeadow, Belchertown, Wilbraham, Oxford, Charlton, Palmer,\nStafford and Spencer.\n\nDrivers need to remain alert for quickly deteriorating and rapidly\nchanging conditions. Snow squalls can often lead to accidents,\nespecially on highways, since road conditions can change rapidly.\nSlow down and avoid braking suddenly.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T14:02:00.000-05:00...storm...287DEG...17KT...42.39,-72.41 42.23,-72.47 42.14,-72.56"
+            ],
+            "NWSheadline": [
+                "A snow squall will affect Tolland...Windham...Southern Worcester...Eastern Hampden...Northern Worcester...Eastern Franklin...and Eastern Hampshire Counties"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BOXSPSBOX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
