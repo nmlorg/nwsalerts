@@ -1,0 +1,122 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993498-3388688",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.2,
+                    40.55
+                ],
+                [
+                    -79.48,
+                    40.43
+                ],
+                [
+                    -79.63000000000001,
+                    40.42
+                ],
+                [
+                    -79.98,
+                    40.64
+                ],
+                [
+                    -79.68,
+                    40.6599999
+                ],
+                [
+                    -79.56,
+                    40.690000000000005
+                ],
+                [
+                    -79.2,
+                    40.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993498-3388688",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993498-3388688",
+        "areaDesc": "Indiana, PA; Armstrong, PA; Allegheny, PA; Westmoreland, PA",
+        "geocode": {
+            "UGC": [
+                "PAC063",
+                "PAC005",
+                "PAC003",
+                "PAC129"
+            ],
+            "SAME": [
+                "042063",
+                "042005",
+                "042003",
+                "042129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC063",
+            "https://api.weather.gov/zones/county/PAC005",
+            "https://api.weather.gov/zones/county/PAC003",
+            "https://api.weather.gov/zones/county/PAC129"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993465-3388675",
+                "identifier": "NWS-IDP-PROD-3993465-3388675",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T10:58:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993437-3388644",
+                "identifier": "NWS-IDP-PROD-3993437-3388644",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T10:45:00-05:00"
+            }
+        ],
+        "sent": "2020-01-08T11:14:00-05:00",
+        "effective": "2020-01-08T11:14:00-05:00",
+        "onset": "2020-01-08T11:14:00-05:00",
+        "expires": "2020-01-08T11:30:00-05:00",
+        "ends": "2020-01-08T11:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pittsburgh PA",
+        "headline": "Snow Squall Warning issued January 8 at 11:14AM EST until January 8 at 11:30AM EST by NWS Pittsburgh PA",
+        "description": "At 1114 AM EST, a dangerous snow squall was located along a line\nextending from near Vandergrift to New Kensington to near Fox Chapel,\nmoving southeast at 35 mph.\n\nHAZARD...Heavy snow and blowing snow. Wind gusts up to 30 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Dangerous life-threatening travel.\n\nThis includes  Pennsylvania Turnpike between mile markers 42 and 47.\n\nLocations impacted include...\nVandergrift, Apollo, Plum, Murrysville, Hampton Township, New\nKensington, Lower Burrell, Harrison Township, Arnold, Tarentum,\nNatrona Heights and Springdale.",
+        "instruction": "Consider avoiding or delaying travel until the snow squall passes\nyour location. If you must travel, use extra caution and allow extra\ntime. Rapid changes in visibility and slick road conditions may lead\nto accidents.\n\nReduce your speed and turn on headlights! During snow squalls, the\nvisibility may suddenly drop to near zero in whiteout conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T11:14:00.000-05:00...storm...299DEG...31KT...40.63,-79.53 40.56,-79.76 40.56,-79.87"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WARNING REMAINS IN EFFECT UNTIL 1130 AM EST FOR WEST CENTRAL INDIANA...NORTHEASTERN ALLEGHENY...NORTHWESTERN WESTMORELAND AND SOUTHWESTERN ARMSTRONG COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPBZ.SQ.W.0004.000000T0000Z-200108T1630Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PBZSQWPBZ"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T11:30:00-05:00"
+            ]
+        }
+    }
+}
