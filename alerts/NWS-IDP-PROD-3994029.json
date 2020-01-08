@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994029",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -73.52,
+                    44.19
+                ],
+                [
+                    -73.44,
+                    44.32
+                ],
+                [
+                    -72.86,
+                    44.21
+                ],
+                [
+                    -73,
+                    43.96
+                ],
+                [
+                    -73.52,
+                    44.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994029",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3994029",
+        "areaDesc": "Washington; Eastern Essex; Eastern Chittenden; Eastern Addison; Western Chittenden; Western Addison",
+        "geocode": {
+            "UGC": [
+                "VTZ008",
+                "NYZ035",
+                "VTZ017",
+                "VTZ018",
+                "VTZ005",
+                "VTZ009"
+            ],
+            "SAME": [
+                "050023",
+                "036031",
+                "050007",
+                "050001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/VTZ008",
+            "https://api.weather.gov/zones/forecast/NYZ035",
+            "https://api.weather.gov/zones/forecast/VTZ017",
+            "https://api.weather.gov/zones/forecast/VTZ018",
+            "https://api.weather.gov/zones/forecast/VTZ005",
+            "https://api.weather.gov/zones/forecast/VTZ009"
+        ],
+        "references": [],
+        "sent": "2020-01-08T17:50:00-05:00",
+        "effective": "2020-01-08T17:50:00-05:00",
+        "onset": "2020-01-08T17:50:00-05:00",
+        "expires": "2020-01-08T18:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Burlington VT",
+        "headline": "Special Weather Statement issued January 8 at 5:50PM EST by NWS Burlington VT",
+        "description": "At 549 PM EST...an area of moderate to heavy snow was near\nWestport, New York...moving east at 25 mph.\n\nLocations impacted include...\nVergennes, Middlebury, Westport, Ferrisburg, Waltham, Bristol,\nMonkton Ridge, Lincoln, Monkton, Monkton Boro, New Haven, Panton,\nKingsland Bay State Park, Ripton, Starksboro, Buels Gore,\nFerrisburgh, Fayston, Weybridge and Charlotte.\n\n* winds in excess of 25 mph are possible with this area of heavy\nsnow.\n\n* visibilities will drop quickly to less than a mile in this area\nof heavy snow.\n\nConditions can deteriorate rapidly in winter weather situations. Be\nprepared for snow or ice covered roads. Slow down and allow extra\ntime when traveling.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T17:49:00.000-05:00...storm...291DEG...21KT...44.22,-73.4"
+            ],
+            "NWSheadline": [
+                "AN AREA OF HEAVY SNOW WILL AFFECT NORTHEASTERN ESSEX... NORTHWESTERN ADDISON...SOUTHWESTERN CHITTENDEN AND WEST CENTRAL WASHINGTON COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BTVSPSBTV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
