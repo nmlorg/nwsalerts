@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993566-3388746",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.75,
+                    31.15
+                ],
+                [
+                    -92.65,
+                    31.049999999999997
+                ],
+                [
+                    -92.62,
+                    30.9
+                ],
+                [
+                    -92.69,
+                    30.9
+                ],
+                [
+                    -92.78999999999999,
+                    31.13
+                ],
+                [
+                    -92.75,
+                    31.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993566-3388746",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993566-3388746",
+        "areaDesc": "Rapides, LA",
+        "geocode": {
+            "UGC": [
+                "LAC079"
+            ],
+            "SAME": [
+                "022079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC079"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992508-3387978",
+                "identifier": "NWS-IDP-PROD-3992508-3387978",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-07T20:34:00-06:00"
+            }
+        ],
+        "sent": "2020-01-08T11:11:00-06:00",
+        "effective": "2020-01-08T11:11:00-06:00",
+        "onset": "2020-01-08T11:11:00-06:00",
+        "expires": "2020-01-09T01:11:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued January 8 at 11:11AM CST by NWS Lake Charles LA",
+        "description": "...The Flood Warning continues for the following rivers in\nLouisiana...\n\nCalcasieu River Near Glenmora",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLCH.FL.W.0002.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHFLSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
