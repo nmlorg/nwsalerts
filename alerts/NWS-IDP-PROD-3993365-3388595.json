@@ -1,0 +1,132 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993365-3388595",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.85,
+                    40.74
+                ],
+                [
+                    -79.5,
+                    40.72
+                ],
+                [
+                    -80.0699999,
+                    40.71
+                ],
+                [
+                    -80.13,
+                    40.86
+                ],
+                [
+                    -80.17,
+                    41
+                ],
+                [
+                    -79.17,
+                    41.11
+                ],
+                [
+                    -78.99,
+                    41.01
+                ],
+                [
+                    -78.85,
+                    40.74
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993365-3388595",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993365-3388595",
+        "areaDesc": "Indiana, PA; Butler, PA; Clarion, PA; Armstrong, PA; Jefferson, PA; Lawrence, PA",
+        "geocode": {
+            "UGC": [
+                "PAC063",
+                "PAC019",
+                "PAC031",
+                "PAC005",
+                "PAC065",
+                "PAC073"
+            ],
+            "SAME": [
+                "042063",
+                "042019",
+                "042031",
+                "042005",
+                "042065",
+                "042073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC063",
+            "https://api.weather.gov/zones/county/PAC019",
+            "https://api.weather.gov/zones/county/PAC031",
+            "https://api.weather.gov/zones/county/PAC005",
+            "https://api.weather.gov/zones/county/PAC065",
+            "https://api.weather.gov/zones/county/PAC073"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993296-3388554",
+                "identifier": "NWS-IDP-PROD-3993296-3388554",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T09:21:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993340-3388579",
+                "identifier": "NWS-IDP-PROD-3993340-3388579",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T09:48:00-05:00"
+            }
+        ],
+        "sent": "2020-01-08T09:56:00-05:00",
+        "effective": "2020-01-08T09:56:00-05:00",
+        "onset": "2020-01-08T09:56:00-05:00",
+        "expires": "2020-01-08T10:06:00-05:00",
+        "ends": "2020-01-08T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pittsburgh PA",
+        "headline": "Snow Squall Warning issued January 8 at 9:56AM EST until January 8 at 10:00AM EST by NWS Pittsburgh PA",
+        "description": "The snow squall which prompted the warning has weakened. Therefore,\nthe snow squall warning will be allowed to expire. Areas of blowing\nsnow and snow-covered roads will continue to make travel difficult.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T09:56:00.000-05:00...storm...299DEG...27KT...40.87,-79.03 40.85,-80.27"
+            ],
+            "NWSheadline": [
+                "THE SNOW SQUALL WARNING FOR EASTERN LAWRENCE...NORTHEASTERN INDIANA...BUTLER...SOUTHWESTERN JEFFERSON...ARMSTRONG AND SOUTHERN CLARION COUNTIES WILL EXPIRE AT 1000 AM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KPBZ.SQ.W.0003.000000T0000Z-200108T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PBZSQWPBZ"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T10:00:00-05:00"
+            ]
+        }
+    }
+}
