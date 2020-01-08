@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993528-3388715",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.9599999,
+                    35.82
+                ],
+                [
+                    -89.56,
+                    35.82
+                ],
+                [
+                    -89.79,
+                    35.6
+                ],
+                [
+                    -89.95,
+                    35.39
+                ],
+                [
+                    -90.25,
+                    35.39
+                ],
+                [
+                    -89.9599999,
+                    35.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993528-3388715",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993528-3388715",
+        "areaDesc": "Lauderdale, TN; Tipton, TN; Mississippi, AR",
+        "geocode": {
+            "UGC": [
+                "TNC097",
+                "TNC167",
+                "ARC093"
+            ],
+            "SAME": [
+                "047097",
+                "047167",
+                "005093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC097",
+            "https://api.weather.gov/zones/county/TNC167",
+            "https://api.weather.gov/zones/county/ARC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992594-3388038",
+                "identifier": "NWS-IDP-PROD-3992594-3388038",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-07T21:09:00-06:00"
+            }
+        ],
+        "sent": "2020-01-08T10:45:00-06:00",
+        "effective": "2020-01-08T10:45:00-06:00",
+        "onset": "2020-01-08T10:45:00-06:00",
+        "expires": "2020-01-09T10:44:00-06:00",
+        "ends": "2020-01-17T17:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Advisory issued January 8 at 10:45AM CST until January 17 at 5:30PM CST by NWS Memphis TN",
+        "description": "...The Flood Advisory continues for the Mississippi River...\nMississippi River at Osceola affecting Mississippi...Lauderdale\nand Tipton Counties\n\nThe Flood Advisory continues for\nthe Mississippi River at Osceola\n* until Friday January 17.\n* At 10 AM Wednesday the stage was 27.4 feet.\n* Flood stage is 28.0 feet.\n* Forecast...The river will rise to near 27.6 feet Wednesday January\n08.\n* At 28.0 feet...In Tennessee, the settlement south of Cold Creek\nRoad down from Crawford Road is flooding. Crawford Road West is\nflooding. The Reach-Coker Slough hunting camp is flooding along Nix\nRoad. Grammer Road is flooded at Jones Slough. Much of the\nLauderdale south bottom is under water. Homesteads and camps on\nCash Road are cutoff. Sections of Crane Road are cutoff on Island\n35. In Arkansas, Mississippi County Road 903 north of O'Donnell\nBend is flooded at places.",
+        "instruction": "The next River Statement will be issued this evening or sooner if conditions\nwarrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.Y.0051.200108T1645Z-200117T2330Z/"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T17:30:00-06:00"
+            ]
+        }
+    }
+}
