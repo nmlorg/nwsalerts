@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993689",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -72.38,
+                    42.02
+                ],
+                [
+                    -71.8,
+                    41.96
+                ],
+                [
+                    -71.78999999999999,
+                    41.9099999
+                ],
+                [
+                    -71.85999999999999,
+                    41.68
+                ],
+                [
+                    -72.44999999999999,
+                    41.85
+                ],
+                [
+                    -72.38,
+                    42.02
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993689",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993689",
+        "areaDesc": "Tolland; Windham",
+        "geocode": {
+            "UGC": [
+                "CTZ003",
+                "CTZ004"
+            ],
+            "SAME": [
+                "009013",
+                "009015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CTZ003",
+            "https://api.weather.gov/zones/forecast/CTZ004"
+        ],
+        "references": [],
+        "sent": "2020-01-08T14:11:00-05:00",
+        "effective": "2020-01-08T14:11:00-05:00",
+        "onset": "2020-01-08T14:11:00-05:00",
+        "expires": "2020-01-08T15:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Boston/Norton MA",
+        "headline": "Special Weather Statement issued January 8 at 2:11PM EST by NWS Boston/Norton MA",
+        "description": "At 208 PM EST...A snow squall was over Stafford Springs, or 8 miles\nnortheast of Vernon, moving east at 30 mph.\n\nExpect a sudden reduction in visibility to as low as one-half mile\nat times, and brief gusty winds up to 25 mph. A quick coating of\nsnow accumulation is possible, especially in the hilly terrain.\n\nLocations impacted include...\nVernon, Mansfield, Plainfield, Killingly, Ellington, Tolland,\nCoventry, Stafford, Putnam, Thompson, Brooklyn, Woodstock,\nWillington, Canterbury, Ashford, Pomfret, Sterling, Chaplin, Hampton\nand Eastford.\n\nDrivers need to remain alert for quickly deteriorating and rapidly\nchanging conditions. Snow squalls can often lead to accidents,\nespecially on highways, since road conditions can change rapidly.\nSlow down and avoid braking suddenly.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T14:08:00.000-05:00...storm...288DEG...24KT...41.92,-72.33"
+            ],
+            "NWSheadline": [
+                "A snow squall will affect Tolland and Windham Counties in Connecticut"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BOXSPSBOX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
