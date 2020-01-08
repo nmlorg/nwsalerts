@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992852-3388211",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -122.51,
+                    46.77
+                ],
+                [
+                    -122.74000000000001,
+                    46.760000000000005
+                ],
+                [
+                    -122.86000000000001,
+                    46.720000000000006
+                ],
+                [
+                    -122.93,
+                    46.81000000000001
+                ],
+                [
+                    -122.78,
+                    46.88000000000001
+                ],
+                [
+                    -122.6,
+                    46.92000000000001
+                ],
+                [
+                    -122.51,
+                    46.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992852-3388211",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3992852-3388211",
+        "areaDesc": "Thurston, WA",
+        "geocode": {
+            "UGC": [
+                "WAC067"
+            ],
+            "SAME": [
+                "053067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3992457-3387936",
+                "identifier": "NWS-IDP-PROD-3992457-3387936",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-07T17:42:00-08:00"
+            }
+        ],
+        "sent": "2020-01-08T00:36:00-08:00",
+        "effective": "2020-01-08T00:36:00-08:00",
+        "onset": "2020-01-08T00:36:00-08:00",
+        "expires": "2020-01-08T08:35:00-08:00",
+        "ends": "2020-01-08T13:52:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued January 8 at 12:36AM PST until January 8 at 1:52PM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nSkookumchuck River Near Bucoda affecting Thurston County\nChehalis River Above Grand Mound affecting Grays Harbor and Thurston\nCounties\nChehalis River At Porter affecting Grays Harbor County\n\nA cold front moved east of the area Tuesday evening. Precipitation\nrates decreased significantly behind the front. Snow levels have\nlowered down to around 3000 feet and will continue to lower today.\nThe lower reaches of the Chehalis river will crest later today\ninto Thursday. The Skookumchuck near Bucoda will continue to recede\ntoday.\n\nThe Flood Warning continues for\nThe Skookumchuck River Near Bucoda\n* Until this afternoon.\n* At 11:45 PM Tuesday the stage was 212.4 feet.\n* Flood stage is 211.5 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river crested at 212.9 feet at 5 PM Tuesday and will\ncontinue to fall to below flood stage early this morning.\n* Impact...At 211.5 feet, the Skookumchuck River in Thurston County\nwill flood a few roads and low pasture lands near Bucoda.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0015.000000T0000Z-200108T2152Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T13:52:00-08:00"
+            ]
+        }
+    }
+}
