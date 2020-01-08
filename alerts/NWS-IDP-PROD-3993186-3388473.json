@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993186-3388473",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77,
+                    40.9099999
+                ],
+                [
+                    -78.34,
+                    40.830000000000005
+                ],
+                [
+                    -78.37,
+                    40.99
+                ],
+                [
+                    -77.36,
+                    41.1
+                ],
+                [
+                    -77,
+                    40.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993186-3388473",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993186-3388473",
+        "areaDesc": "Clinton, PA; Union, PA; Clearfield, PA; Centre, PA",
+        "geocode": {
+            "UGC": [
+                "PAC035",
+                "PAC119",
+                "PAC033",
+                "PAC027"
+            ],
+            "SAME": [
+                "042035",
+                "042119",
+                "042033",
+                "042027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC035",
+            "https://api.weather.gov/zones/county/PAC119",
+            "https://api.weather.gov/zones/county/PAC033",
+            "https://api.weather.gov/zones/county/PAC027"
+        ],
+        "references": [],
+        "sent": "2020-01-08T07:42:00-05:00",
+        "effective": "2020-01-08T07:42:00-05:00",
+        "onset": "2020-01-08T07:41:00-05:00",
+        "expires": "2020-01-08T08:15:00-05:00",
+        "ends": "2020-01-08T08:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS State College PA",
+        "headline": "Snow Squall Warning issued January 8 at 7:41AM EST until January 8 at 8:15AM EST by NWS State College PA",
+        "description": "The National Weather Service in State College PA has issued a\n\n* Snow Squall Warning for...\nSoutheastern Clearfield County in central Pennsylvania...\nCentral Centre County in central Pennsylvania...\nWest central Union County in central Pennsylvania...\nSoutheastern Clinton County in north central Pennsylvania...\n\n* Until 815 AM EST.\n\n* At 741 AM EST, a dangerous snow squall was located along a line\nextending from Lamar to near Woodland, moving southeast at 25 mph.\n\nHAZARD...Extremely poor visibility in snow and blowing snow. Wind\ngusts up to 30 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect hazardous road conditions.\n\n* For those driving on Interstate 80, this includes areas between the\nWoodland and Jersey Shore exits, specifically from mile markers 128\nto 187.\n\nThis includes Interstate 99 from mile markers 79 to 85.\n\nLocations impacted include...\nBellefonte, Mifflinburg, Woodward, Pleasant Gap, Philipsburg, Lamar,\nZion, Osceola Mills, Milesburg, Millheim, Chester Hill, Snow Shoe,\nBlanchard, North Philipsburg, Clarence, Aaronsburg, Rebersburg, South\nPhilipsburg, Madisonburg and Julian.",
+        "instruction": "Reduce your speed and turn on headlights! During snow squalls, the\nvisibility may suddenly drop to near zero in whiteout conditions.\n\nIf traveling on a highway, find the nearest exit or rest area and\npark safely away from traffic. Allow snow squalls to pass before\nattempting to resume travel.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T07:41:00.000-05:00...storm...298DEG...24KT...41.01,-77.52 40.96,-78.37"
+            ],
+            "VTEC": [
+                "/O.NEW.KCTP.SQ.W.0011.200108T1241Z-200108T1315Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CTPSQWCTP"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T08:15:00-05:00"
+            ],
+            "CMAMtext": [
+                "Snow Squall Warning til 8:15 AM EST. Sudden whiteouts. Icy roads. Slow down! -NWS"
+            ]
+        }
+    }
+}
