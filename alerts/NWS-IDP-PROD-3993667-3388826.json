@@ -1,0 +1,133 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993667-3388826",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -74.55,
+                    39.85
+                ],
+                [
+                    -74.67,
+                    39.74
+                ],
+                [
+                    -74.92,
+                    39.85
+                ],
+                [
+                    -74.93,
+                    39.88
+                ],
+                [
+                    -74.98,
+                    39.93
+                ],
+                [
+                    -74.98,
+                    39.94
+                ],
+                [
+                    -74.99000000000001,
+                    39.94
+                ],
+                [
+                    -74.98,
+                    39.97
+                ],
+                [
+                    -74.93,
+                    40.019999999999996
+                ],
+                [
+                    -74.89,
+                    40.04
+                ],
+                [
+                    -74.52,
+                    39.97
+                ],
+                [
+                    -74.55,
+                    39.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993667-3388826",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993667-3388826",
+        "areaDesc": "Burlington, NJ",
+        "geocode": {
+            "UGC": [
+                "NJC005"
+            ],
+            "SAME": [
+                "034005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NJC005"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993635-3388806",
+                "identifier": "NWS-IDP-PROD-3993635-3388806",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T13:09:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993652-3388824",
+                "identifier": "NWS-IDP-PROD-3993652-3388824",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T13:30:00-05:00"
+            }
+        ],
+        "sent": "2020-01-08T13:39:00-05:00",
+        "effective": "2020-01-08T13:39:00-05:00",
+        "onset": "2020-01-08T13:39:00-05:00",
+        "expires": "2020-01-08T13:49:00-05:00",
+        "ends": "2020-01-08T13:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mount Holly NJ",
+        "headline": "Snow Squall Warning issued January 8 at 1:39PM EST until January 8 at 1:45PM EST by NWS Mount Holly NJ",
+        "description": "The snow squall which prompted the warning has weakened and exited\nthe area. Therefore, the snow squall warning will be allowed to\nexpire.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T13:39:00.000-05:00...storm...292DEG...41KT...39.86,-74.57"
+            ],
+            "NWSheadline": [
+                "THE SNOW SQUALL WARNING FOR CENTRAL BURLINGTON COUNTY WILL EXPIRE AT 145 PM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KPHI.SQ.W.0010.000000T0000Z-200108T1845Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PHISQWPHI"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T13:45:00-05:00"
+            ]
+        }
+    }
+}
