@@ -1,0 +1,164 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993410-3388625",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -75.0699999,
+                    43.22
+                ],
+                [
+                    -75.0699999,
+                    43.24
+                ],
+                [
+                    -75.1,
+                    43.2299999
+                ],
+                [
+                    -75.16,
+                    43.260000000000005
+                ],
+                [
+                    -75.14999999999999,
+                    43.300000000000004
+                ],
+                [
+                    -75.11999999999999,
+                    43.300000000000004
+                ],
+                [
+                    -75.07999999999998,
+                    43.330000000000005
+                ],
+                [
+                    -75.07999999999998,
+                    43.370000000000005
+                ],
+                [
+                    -74.38999999999999,
+                    43.470000000000006
+                ],
+                [
+                    -74.41999999999999,
+                    42.82000000000001
+                ],
+                [
+                    -74.61999999999999,
+                    42.82000000000001
+                ],
+                [
+                    -74.88,
+                    42.900000000000006
+                ],
+                [
+                    -74.89,
+                    42.84
+                ],
+                [
+                    -74.9,
+                    42.830000000000005
+                ],
+                [
+                    -75.10000000000001,
+                    42.9099999
+                ],
+                [
+                    -75.14000000000001,
+                    42.86
+                ],
+                [
+                    -75.20999990000001,
+                    42.86
+                ],
+                [
+                    -75.22000000000001,
+                    43.05
+                ],
+                [
+                    -75.0699999,
+                    43.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993410-3388625",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3993410-3388625",
+        "areaDesc": "Hamilton, NY; Fulton, NY; Herkimer, NY; Montgomery, NY",
+        "geocode": {
+            "UGC": [
+                "NYC041",
+                "NYC035",
+                "NYC043",
+                "NYC057"
+            ],
+            "SAME": [
+                "036041",
+                "036035",
+                "036043",
+                "036057"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NYC041",
+            "https://api.weather.gov/zones/county/NYC035",
+            "https://api.weather.gov/zones/county/NYC043",
+            "https://api.weather.gov/zones/county/NYC057"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993298-3388556",
+                "identifier": "NWS-IDP-PROD-3993298-3388556",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T09:23:00-05:00"
+            }
+        ],
+        "sent": "2020-01-08T10:22:00-05:00",
+        "effective": "2020-01-08T10:22:00-05:00",
+        "onset": "2020-01-08T10:21:00-05:00",
+        "expires": "2020-01-08T10:31:00-05:00",
+        "ends": "2020-01-08T10:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albany NY",
+        "headline": "Snow Squall Warning issued January 8 at 10:21AM EST until January 8 at 10:30AM EST by NWS Albany NY",
+        "description": "The snow squall which prompted the warning has weakened. Therefore,\nthe snow squall warning will be allowed to expire. Some roads may\nremain snow covered. Motorists should continue to use caution.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T10:21:00.000-05:00...storm...263DEG...28KT...43.34,-74.51 42.97,-74.55"
+            ],
+            "NWSheadline": [
+                "THE SNOW SQUALL WARNING FOR SOUTHWESTERN HAMILTON...WESTERN FULTON...SOUTHERN HERKIMER AND WESTERN MONTGOMERY COUNTIES WILL EXPIRE AT 1030 AM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KALY.SQ.W.0003.000000T0000Z-200108T1530Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ALYSQWALY"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-08T10:30:00-05:00"
+            ]
+        }
+    }
+}
