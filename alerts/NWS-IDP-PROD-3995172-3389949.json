@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995172-3389949",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.5699999,
+                    31.44
+                ],
+                [
+                    -88.4599999,
+                    31.44
+                ],
+                [
+                    -88.54,
+                    31.080000000000002
+                ],
+                [
+                    -88.73,
+                    30.98
+                ],
+                [
+                    -88.75,
+                    31
+                ],
+                [
+                    -88.58,
+                    31.1
+                ],
+                [
+                    -88.5699999,
+                    31.44
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995172-3389949",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995172-3389949",
+        "areaDesc": "Wayne, MS; George, MS; Greene, MS",
+        "geocode": {
+            "UGC": [
+                "MSC153",
+                "MSC039",
+                "MSC041"
+            ],
+            "SAME": [
+                "028153",
+                "028039",
+                "028041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC153",
+            "https://api.weather.gov/zones/county/MSC039",
+            "https://api.weather.gov/zones/county/MSC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994171-3389197",
+                "identifier": "NWS-IDP-PROD-3994171-3389197",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T19:53:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T11:21:00-06:00",
+        "effective": "2020-01-09T11:21:00-06:00",
+        "onset": "2020-01-09T11:20:00-06:00",
+        "expires": "2020-01-10T11:19:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued January 9 at 11:20AM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for the following river in Mississippi...\n\nChickasawhay At Leakesville affecting George...Greene and Wayne Counties.\n\n.Recent heavy rains have caused significant rises along the river.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMOB.FL.W.0003.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
