@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994139",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -76.3199999,
+                    42.82
+                ],
+                [
+                    -74.97,
+                    42.49
+                ],
+                [
+                    -74.92,
+                    42.68
+                ],
+                [
+                    -76.29,
+                    43.03
+                ],
+                [
+                    -76.3199999,
+                    42.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994139",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3994139",
+        "areaDesc": "Cortland; Madison; Otsego; Onondaga; Chenango",
+        "geocode": {
+            "UGC": [
+                "NYZ044",
+                "NYZ036",
+                "NYZ046",
+                "NYZ018",
+                "NYZ045"
+            ],
+            "SAME": [
+                "036023",
+                "036053",
+                "036077",
+                "036067",
+                "036017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ044",
+            "https://api.weather.gov/zones/forecast/NYZ036",
+            "https://api.weather.gov/zones/forecast/NYZ046",
+            "https://api.weather.gov/zones/forecast/NYZ018",
+            "https://api.weather.gov/zones/forecast/NYZ045"
+        ],
+        "references": [],
+        "sent": "2020-01-08T20:15:00-05:00",
+        "effective": "2020-01-08T20:15:00-05:00",
+        "onset": "2020-01-08T20:15:00-05:00",
+        "expires": "2020-01-08T21:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Binghamton NY",
+        "headline": "Special Weather Statement issued January 8 at 8:15PM EST by NWS Binghamton NY",
+        "description": "At 814 PM EST, an area of heavy snow was located along a line\nextending from near Marcellus to near Hartwick. Movement was\nsoutheast at 30 mph.\n\nWinds in excess of 30 mph are possible with this area of heavy snow.\n\nLocations impacted include...\nOnondaga, Syracuse, Pompey, Eaton, Hamilton, Cazenovia, Otisco,\nHartwick, Edmeston and Sherburne.\n\nVisibilities will drop quickly to less than a quarter of a mile in\nthis area of heavy snow.\n\nA winter weather advisory is in effect for the area. Please monitor\nlocal media outlets and the national weather service for further\nstatements.\n\nConditions can deteriorate rapidly in winter weather situations. Be\nprepared for snow or ice covered roads. Slow down and allow extra\ntime when traveling.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T20:14:00.000-05:00...storm...331DEG...14KT...42.97,-76.28 42.63,-75.11"
+            ],
+            "NWSheadline": [
+                "AN AREA OF HEAVY SNOW WILL AFFECT WEST CENTRAL OTSEGO...SOUTHERN MADISON...NORTHEASTERN CORTLAND...SOUTHEASTERN ONONDAGA AND NORTHERN CHENANGO COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BGMSPSBGM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
