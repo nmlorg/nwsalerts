@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995474-3390175",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.28,
+                    33.4
+                ],
+                [
+                    -91.28,
+                    33.57
+                ],
+                [
+                    -91.08,
+                    34.13
+                ],
+                [
+                    -90.66,
+                    34.120000000000005
+                ],
+                [
+                    -91.06,
+                    33.580000000000005
+                ],
+                [
+                    -91.05,
+                    33.400000000000006
+                ],
+                [
+                    -91.28,
+                    33.4
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995474-3390175",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995474-3390175",
+        "areaDesc": "Chicot, AR; Desha, AR; Bolivar, MS; Washington, MS",
+        "geocode": {
+            "UGC": [
+                "ARC017",
+                "ARC041",
+                "MSC011",
+                "MSC151"
+            ],
+            "SAME": [
+                "005017",
+                "005041",
+                "028011",
+                "028151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC017",
+            "https://api.weather.gov/zones/county/ARC041",
+            "https://api.weather.gov/zones/county/MSC011",
+            "https://api.weather.gov/zones/county/MSC151"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993584-3388760",
+                "identifier": "NWS-IDP-PROD-3993584-3388760",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T11:38:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T14:50:00-06:00",
+        "effective": "2020-01-09T14:50:00-06:00",
+        "onset": "2020-01-09T14:50:00-06:00",
+        "expires": "2020-01-10T15:00:00-06:00",
+        "ends": "2020-01-10T15:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Advisory issued January 9 at 2:50PM CST until January 10 at 3:00PM CST by NWS Jackson MS",
+        "description": "...The Flood Advisory continues for the Mississippi River...\n\nMississippi River Near Arkansas City affecting Chicot...Desha...\nBolivar and Washington Counties\n\nMississippi River Near Greenville affecting Chicot...East\nCarroll...Issaquena and Washington Counties\n\nMississippi River At Vicksburg affecting Madison...Tensas...\nClaiborne...Jefferson and Warren Counties/Parishes\n\nMississippi River At Natchez affecting Concordia...Adams and\nWilkinson Counties/Parishes\n\nThe Flood Advisory continues for\nThe Mississippi River Near Arkansas City.\n* until Friday afternoon.\n* At  2:00 PM Thursday the stage was 30.6 feet.\n* Flood stage is 37.0 feet.\n* Forecast...The river will rise to near 31.1 feet Saturday January\n11.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.Y.0001.000000T0000Z-200110T2100Z/"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T15:00:00-06:00"
+            ]
+        }
+    }
+}
