@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994163",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -75.64,
+                    42
+                ],
+                [
+                    -75.77,
+                    42
+                ],
+                [
+                    -76.35,
+                    42.34
+                ],
+                [
+                    -76.22999999999999,
+                    42.4799999
+                ],
+                [
+                    -75.47999999999999,
+                    42.1599999
+                ],
+                [
+                    -75.64,
+                    42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994163",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3994163",
+        "areaDesc": "Tompkins; Cortland; Tioga; Broome; Chenango",
+        "geocode": {
+            "UGC": [
+                "NYZ025",
+                "NYZ044",
+                "NYZ055",
+                "NYZ056",
+                "NYZ045"
+            ],
+            "SAME": [
+                "036109",
+                "036023",
+                "036107",
+                "036007",
+                "036017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ025",
+            "https://api.weather.gov/zones/forecast/NYZ044",
+            "https://api.weather.gov/zones/forecast/NYZ055",
+            "https://api.weather.gov/zones/forecast/NYZ056",
+            "https://api.weather.gov/zones/forecast/NYZ045"
+        ],
+        "references": [],
+        "sent": "2020-01-08T20:45:00-05:00",
+        "effective": "2020-01-08T20:45:00-05:00",
+        "onset": "2020-01-08T20:45:00-05:00",
+        "expires": "2020-01-08T21:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Binghamton NY",
+        "headline": "Special Weather Statement issued January 8 at 8:45PM EST by NWS Binghamton NY",
+        "description": "At 844 PM EST, an area of heavy snow was located over Richford, or 8\nmiles southwest of Marathon, moving southeast at 30 mph.\n\nWinds in excess of 30 mph are possible with this area of heavy snow.\n\nLocations impacted include...\nBinghamton, Johnson City, Kirkwood, Conklin, Maine, Caroline,\nNanticoke, Port Dickinson, Berkshire and Richford.\n\nVisibilities will drop quickly to less than a quarter of a mile in\nthis area of heavy snow.\n\nConditions can deteriorate rapidly in winter weather situations. Be\nprepared for snow or ice covered roads. Slow down and allow extra\ntime when traveling.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T20:44:00.000-05:00...storm...305DEG...33KT...42.35,-76.16"
+            ],
+            "NWSheadline": [
+                "AN AREA OF HEAVY SNOW WILL AFFECT BROOME...SOUTHWESTERN CORTLAND...NORTHEASTERN TIOGA...SOUTHEASTERN TOMPKINS AND SOUTHWESTERN CHENANGO COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BGMSPSBGM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
