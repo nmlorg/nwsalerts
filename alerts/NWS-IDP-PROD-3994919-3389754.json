@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994919-3389754",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.2,
+                    45.94
+                ],
+                [
+                    -98.13000000000001,
+                    45.94
+                ],
+                [
+                    -98.17000000000002,
+                    45.86
+                ],
+                [
+                    -98.24000000000001,
+                    45.86
+                ],
+                [
+                    -98.2,
+                    45.94
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994919-3389754",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3994919-3389754",
+        "areaDesc": "Brown, SD",
+        "geocode": {
+            "UGC": [
+                "SDC013"
+            ],
+            "SAME": [
+                "046013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SDC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3984531-3382142",
+                "identifier": "NWS-IDP-PROD-3984531-3382142",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-02T09:07:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T08:47:00-06:00",
+        "effective": "2020-01-09T08:47:00-06:00",
+        "onset": "2020-01-09T08:47:00-06:00",
+        "expires": "2020-01-16T12:46:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Aberdeen SD",
+        "headline": "Flood Warning issued January 9 at 8:47AM CST by NWS Aberdeen SD",
+        "description": "...The Flood Warning continues for the following rivers in South\nDakota...\n\nJames River Near Hecla\nJames River At Columbia\nJames River Near Stratford\nJames River At Ashton\n\n.The following river forecasts include forecast precipitation through\nthe next 24 hours. Any additional future precipitation could affect\nthe forecasts.\n\nThe Flood Warning continues for\nThe James River Near Hecla.\n* until further notice.\n* At 7:45 AM Thursday the stage was 93.1 feet.\n* Flood stage is 93.0 feet.\n* At 93.0 feet...100th Street is flooded.",
+        "instruction": "Safety message...Flood waters can be very dangerous. Never drive\nacross a flooded road. Turn around don't drown!\n\nStay tuned for further updates by listening to NOAA weather radio...\nor your favorite local media.\n\nFor additional information...check out our web site at\nwww.weather.gov/abr then left click on the Rivers and Lakes link.\n\nThe next scheduled statement will be issued Thursday, January 16th.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KABR.FL.W.0089.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ABRFLSABR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
