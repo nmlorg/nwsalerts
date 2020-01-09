@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995756-3390433",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -123.4,
+                    46.82
+                ],
+                [
+                    -123.47,
+                    46.89
+                ],
+                [
+                    -123.62,
+                    46.89
+                ],
+                [
+                    -123.60000000000001,
+                    47.06
+                ],
+                [
+                    -123.33000000000001,
+                    47.07
+                ],
+                [
+                    -123.18,
+                    46.93
+                ],
+                [
+                    -123.4,
+                    46.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995756-3390433",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995756-3390433",
+        "areaDesc": "Grays Harbor, WA",
+        "geocode": {
+            "UGC": [
+                "WAC027"
+            ],
+            "SAME": [
+                "053027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC027"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995216-3389981",
+                "identifier": "NWS-IDP-PROD-3995216-3389981",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T10:06:00-08:00"
+            }
+        ],
+        "sent": "2020-01-09T15:54:00-08:00",
+        "effective": "2020-01-09T15:54:00-08:00",
+        "onset": "2020-01-09T15:54:00-08:00",
+        "expires": "2020-01-09T23:53:00-08:00",
+        "ends": "2020-01-10T21:32:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued January 9 at 3:54PM PST until January 10 at 9:32PM PST by NWS Seattle WA",
+        "description": "...The Flood Warning has ended for the following rivers in\nWashington...\n\nSkokomish River At Potlatch affecting Mason County\nChehalis River Above Grand Mound affecting Grays Harbor and\nThurston Counties\n\n...The Flood Warning continues for the following rivers in\nWashington...\n\nChehalis River At Porter affecting Grays Harbor County\n\n\nThe next system and cold front Friday will bring 1 to 2 inches of\nprecipitation. The snow level will start off low at about 1000 feet\nbut will rise to over 3000 feet as the precipitation comes in. With\nthe Skokomish River not far below flood stage by that time, there is\na good chance the storm will be enough to drive the Skokomish back up\nabove flood stage Friday night.\n\nThe Flood Warning continues for\nThe Chehalis River At Porter\n* Until Friday evening.\n* At  2:45 PM Thursday the stage was 48.8 feet.\n* Flood stage is 48.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river crested at 49.0 feet at 7 AM Thursday and will\ncontinue to fall to below flood stage Friday early afternoon.\n* Impact...At 48.0 feet, the Chehalis River in Grays Harbor will flood\nlow pasture lands and some roads. High tidal levels at Aberdeen\nwill worsen flooding along the lower reaches.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0017.000000T0000Z-200111T0532Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T21:32:00-08:00"
+            ]
+        }
+    }
+}
