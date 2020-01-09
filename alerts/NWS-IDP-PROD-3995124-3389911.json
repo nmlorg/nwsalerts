@@ -1,0 +1,115 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995124-3389911",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.4599999,
+                    37.09
+                ],
+                [
+                    -89.16,
+                    37.17
+                ],
+                [
+                    -89.0699999,
+                    37.09
+                ],
+                [
+                    -89,
+                    36.800000000000004
+                ],
+                [
+                    -89.18,
+                    36.510000000000005
+                ],
+                [
+                    -89.4599999,
+                    37.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995124-3389911",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995124-3389911",
+        "areaDesc": "Mississippi, MO; Fulton, KY; Hickman, KY; Alexander, IL; Carlisle, KY; Ballard, KY; Pulaski, IL",
+        "geocode": {
+            "UGC": [
+                "MOC133",
+                "KYC075",
+                "KYC105",
+                "ILC003",
+                "KYC039",
+                "KYC007",
+                "ILC153"
+            ],
+            "SAME": [
+                "029133",
+                "021075",
+                "021105",
+                "017003",
+                "021039",
+                "021007",
+                "017153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC133",
+            "https://api.weather.gov/zones/county/KYC075",
+            "https://api.weather.gov/zones/county/KYC105",
+            "https://api.weather.gov/zones/county/ILC003",
+            "https://api.weather.gov/zones/county/KYC039",
+            "https://api.weather.gov/zones/county/KYC007",
+            "https://api.weather.gov/zones/county/ILC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994193-3389214",
+                "identifier": "NWS-IDP-PROD-3994193-3389214",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T20:13:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T10:49:00-06:00",
+        "effective": "2020-01-09T10:49:00-06:00",
+        "onset": "2020-01-09T10:48:00-06:00",
+        "expires": "2020-01-10T14:47:00-06:00",
+        "ends": "2020-01-16T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 9 at 10:48AM CST until January 16 at 12:00AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Kentucky...\n\nOhio River at Olmsted Lock and Dam...and Cairo\n\n.Minor flooding continues along portions of the lower Ohio River and\nriver levels are forecast to remain nearly steady over the next several\ndays, before falling early next week.\n\nThe Flood Warning continues for\nthe Ohio River at Cairo\n* until Thursday January 16.\n* At 10:00 AM Thursday the stage was 43.5 feet.\n* Flood Stage is 40.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will hold nearly steady over the next 72 hours\nwith a crest around 43.6 feet forecast on Sunday. The river is\nforecast to fall below flood stage next Wednesday.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0122.000000T0000Z-200116T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T00:00:00-06:00"
+            ]
+        }
+    }
+}
