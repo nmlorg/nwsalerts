@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994131-3389166",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.93,
+                    32.17
+                ],
+                [
+                    -90.78,
+                    32.24
+                ],
+                [
+                    -90.64,
+                    32.56
+                ],
+                [
+                    -90.52,
+                    32.45
+                ],
+                [
+                    -90.64999999999999,
+                    32.18
+                ],
+                [
+                    -91.02,
+                    32.04
+                ],
+                [
+                    -90.93,
+                    32.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994131-3389166",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3994131-3389166",
+        "areaDesc": "Hinds, MS; Warren, MS",
+        "geocode": {
+            "UGC": [
+                "MSC049",
+                "MSC149"
+            ],
+            "SAME": [
+                "028049",
+                "028149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC049",
+            "https://api.weather.gov/zones/county/MSC149"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993510-3388699",
+                "identifier": "NWS-IDP-PROD-3993510-3388699",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T10:23:00-06:00"
+            }
+        ],
+        "sent": "2020-01-08T19:06:00-06:00",
+        "effective": "2020-01-08T19:06:00-06:00",
+        "onset": "2020-01-08T19:06:00-06:00",
+        "expires": "2020-01-10T01:07:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 8 at 7:06PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nBig Black River At West affecting Attala and Holmes Counties\nBig Black River Near Bentonia affecting Madison and Yazoo Counties\nBig Black River Near Bovina affecting Hinds and Warren Counties\n\nThe Flood Warning continues for\nThe Big Black River Near Bovina\n* until further notice.\n* At 6:15 PM Wednesday the stage was 37.4 feet and falling.\n* Minor flooding is occurring and minor flooding is forecast.\n* Flood stage is 28 feet.\n* Forecast...The river will continue falling over the next few days.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0175.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
