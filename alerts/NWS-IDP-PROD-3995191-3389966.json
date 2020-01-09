@@ -1,0 +1,81 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995191-3389966",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995191-3389966",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995191-3389966",
+        "areaDesc": "Western Nevada Basin and Range including Pyramid Lake; Greater Reno-Carson City-Minden Area",
+        "geocode": {
+            "UGC": [
+                "NVZ004",
+                "NVZ003"
+            ],
+            "SAME": [
+                "032001",
+                "032019",
+                "032027",
+                "032031",
+                "032005",
+                "032029",
+                "032510"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NVZ004",
+            "https://api.weather.gov/zones/forecast/NVZ003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995009-3389824",
+                "identifier": "NWS-IDP-PROD-3995009-3389824",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T07:45:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993912-3388972",
+                "identifier": "NWS-IDP-PROD-3993912-3388972",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T12:59:00-08:00"
+            }
+        ],
+        "sent": "2020-01-09T09:44:00-08:00",
+        "effective": "2020-01-09T09:44:00-08:00",
+        "onset": "2020-01-09T09:44:00-08:00",
+        "expires": "2020-01-09T10:45:00-08:00",
+        "ends": "2020-01-09T10:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Reno NV",
+        "headline": "Winter Weather Advisory issued January 9 at 9:44AM PST until January 9 at 10:00AM PST by NWS Reno NV",
+        "description": "Scattered snow showers will continue into the early afternoon\nacross Western Nevada. Areas east of Reno to around Lovelock have\nthe best chance of snow showers. Light accumulations are possible\nwhich could cause temporary slick spots, however impacts are not\nexpected to be widespread enough to warrant a continued advisory.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY WILL EXPIRE AT 10 AM PST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXP.KREV.WW.Y.0001.000000T0000Z-200109T1800Z/"
+            ],
+            "PIL": [
+                "REVWSWREV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-09T10:00:00-08:00"
+            ]
+        }
+    }
+}

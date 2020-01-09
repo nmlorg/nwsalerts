@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995187-3389962",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.9599999,
+                    35.82
+                ],
+                [
+                    -89.56,
+                    35.82
+                ],
+                [
+                    -89.79,
+                    35.6
+                ],
+                [
+                    -89.95,
+                    35.39
+                ],
+                [
+                    -90.25,
+                    35.39
+                ],
+                [
+                    -89.9599999,
+                    35.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995187-3389962",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995187-3389962",
+        "areaDesc": "Lauderdale, TN; Tipton, TN; Mississippi, AR",
+        "geocode": {
+            "UGC": [
+                "TNC097",
+                "TNC167",
+                "ARC093"
+            ],
+            "SAME": [
+                "047097",
+                "047167",
+                "005093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC097",
+            "https://api.weather.gov/zones/county/TNC167",
+            "https://api.weather.gov/zones/county/ARC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994205-3389224",
+                "identifier": "NWS-IDP-PROD-3994205-3389224",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T20:27:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T11:44:00-06:00",
+        "effective": "2020-01-09T11:44:00-06:00",
+        "onset": "2020-01-09T11:44:00-06:00",
+        "expires": "2020-01-10T11:44:00-06:00",
+        "ends": "2020-01-17T17:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Advisory issued January 9 at 11:44AM CST until January 17 at 5:30PM CST by NWS Memphis TN",
+        "description": "...The Flood Advisory continues for portions of the Mississippi River...\nMississippi River at Tiptonville affecting New Madrid...Pemiscot\nand Lake Counties\nMississippi River at Osceola affecting Mississippi...Lauderdale\nand Tipton Counties\nMississippi River at Tunica Riverpark affecting Lee and Tunica\nCounties\n\nThe Flood Advisory continues for\nthe Mississippi River at Osceola\n* until Friday January 17.\n* At 11 AM Thursday the stage was 27.5 feet.\n* Flood stage is 28.0 feet.\n* Forecast...The river will remain steady over the next few days.\n* At 27.0 feet...In Arkansas, high water interferes with grain barge\nloading at the terminal at Osceola. Backwater is touching most of\nthe levee just north of Osceola on north past Mississippi County\nArkansas Road 330 in the Barfield Point vicinity. Mississippi\nCounty Arkansas Road 430 is flooded across from Tellier Island. In\nTennessee, Crutcher Lake Road is flooded north of Cold Creek. The\nMississippi River is over its banks northeast of Open Lake.\nBackwater has reached Bee Lake.",
+        "instruction": "The next River Statement will be issued Friday or sooner if conditions\nwarrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.Y.0051.000000T0000Z-200117T2330Z/"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T17:30:00-06:00"
+            ]
+        }
+    }
+}
