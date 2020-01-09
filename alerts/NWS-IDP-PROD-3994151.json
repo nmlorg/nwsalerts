@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994151",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -75.58,
+                    42.43
+                ],
+                [
+                    -75.48,
+                    42.58
+                ],
+                [
+                    -74.75,
+                    42.39
+                ],
+                [
+                    -74.95,
+                    42.2
+                ],
+                [
+                    -75.58,
+                    42.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994151",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3994151",
+        "areaDesc": "Otsego; Chenango; Delaware",
+        "geocode": {
+            "UGC": [
+                "NYZ046",
+                "NYZ045",
+                "NYZ057"
+            ],
+            "SAME": [
+                "036077",
+                "036017",
+                "036025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ046",
+            "https://api.weather.gov/zones/forecast/NYZ045",
+            "https://api.weather.gov/zones/forecast/NYZ057"
+        ],
+        "references": [],
+        "sent": "2020-01-08T20:24:00-05:00",
+        "effective": "2020-01-08T20:24:00-05:00",
+        "onset": "2020-01-08T20:24:00-05:00",
+        "expires": "2020-01-08T21:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Binghamton NY",
+        "headline": "Special Weather Statement issued January 8 at 8:24PM EST by NWS Binghamton NY",
+        "description": "At 824 PM EST, an area of heavy snow was located near Gilbertsville,\nor 9 miles west of Oneonta, moving southeast at 30 mph.\n\nWinds in excess of 30 mph are possible with this area of heavy snow.\n\nLocations impacted include...\nOneonta, Norwich, Delhi, Guilford, Kortright, Meredith, Unadilla,\nOtego, Gilbertsville and Franklin.\n\nVisibilities will drop quickly to less than a quarter of a mile in\nthis area of heavy snow.\n\nConditions can deteriorate rapidly in winter weather situations. Be\nprepared for snow or ice covered roads. Slow down and allow extra\ntime when traveling.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-08T20:24:00.000-05:00...storm...298DEG...25KT...42.45,-75.25"
+            ],
+            "NWSheadline": [
+                "AN AREA OF HEAVY SNOW WILL AFFECT SOUTHWESTERN OTSEGO... NORTHWESTERN DELAWARE AND EAST CENTRAL CHENANGO COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BGMSPSBGM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
