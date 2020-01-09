@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994156-3389183",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.08,
+                    31.4
+                ],
+                [
+                    -90.17,
+                    31.549999999999997
+                ],
+                [
+                    -90.19,
+                    31.679999999999996
+                ],
+                [
+                    -90.05,
+                    31.689999999999998
+                ],
+                [
+                    -90.02,
+                    31.549999999999997
+                ],
+                [
+                    -89.92,
+                    31.4
+                ],
+                [
+                    -90.08,
+                    31.4
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994156-3389183",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3994156-3389183",
+        "areaDesc": "Lawrence, MS",
+        "geocode": {
+            "UGC": [
+                "MSC077"
+            ],
+            "SAME": [
+                "028077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993501-3388691",
+                "identifier": "NWS-IDP-PROD-3993501-3388691",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T10:16:00-06:00"
+            }
+        ],
+        "sent": "2020-01-08T19:31:00-06:00",
+        "effective": "2020-01-08T19:31:00-06:00",
+        "onset": "2020-01-08T19:30:00-06:00",
+        "expires": "2020-01-10T01:28:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 8 at 7:30PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi..\n\nPearl River Near Rockport affecting Copiah and Simpson Counties\nPearl River Near Monticello affecting Lawrence County\nPearl River Near Columbia affecting Marion County\n\nThe Flood Warning continues for\nThe Pearl River Near Monticello\n* until further notice.\n* At 6 PM Wednesday the stage was estimated at 24.5 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* Flood stage is 22 feet.\n* Forecast...The river will slowly fall over the next few days.\n* Impact...At 24 feet...Water appears in low areas in the extreme\neastern portion of the city of Monticello.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0013.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
