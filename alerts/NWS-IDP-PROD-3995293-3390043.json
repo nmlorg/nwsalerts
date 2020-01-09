@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995293-3390043",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.5,
+                    34.42
+                ],
+                [
+                    -95.43,
+                    34.17
+                ],
+                [
+                    -95.58000000000001,
+                    34.190000000000005
+                ],
+                [
+                    -95.69000000000001,
+                    34.24
+                ],
+                [
+                    -95.69000000000001,
+                    34.4099999
+                ],
+                [
+                    -95.5,
+                    34.42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995293-3390043",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995293-3390043",
+        "areaDesc": "Pushmataha, OK",
+        "geocode": {
+            "UGC": [
+                "OKC127"
+            ],
+            "SAME": [
+                "040127"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC127"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994942-3389778",
+                "identifier": "NWS-IDP-PROD-3994942-3389778",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T09:03:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T13:07:00-06:00",
+        "effective": "2020-01-09T13:07:00-06:00",
+        "onset": "2020-01-11T14:50:00-06:00",
+        "expires": "2020-01-09T21:07:00-06:00",
+        "ends": "2020-01-12T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 9 at 1:07PM CST until January 12 at 12:00PM CST by NWS Tulsa OK",
+        "description": "...The Flood Warning continues for the following rivers in\nOklahoma...\n\nPoteau River near Panama affecting Le Flore County.\n\nKiamichi River near Antlers affecting Pushmataha County.\n\nThe Flood Warning continues for\nThe Kiamichi River near Antlers.\n* from Saturday afternoon to Sunday afternoon.\n* At 12:30 PM Thursday, the stage was  4.62 feet.\n* Flood stage is 25.0 feet.\n* Minor flooding is forecast.\n* Forecast...The Kiamichi River near Antlers is expected to rise\nabove flood stage early Saturday afternoon and continue to rise to\nnear 26.1 feet late Saturday night. The river is expected to\nfall below flood stage Sunday morning.\n* Impact...At 27.0 feet, minor flooding occurs along the west bank of\nthe Kiamichi River near Moyers. Campers should move to higher\nground.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KTSA.FL.W.0008.200111T2050Z-200112T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T12:00:00-06:00"
+            ]
+        }
+    }
+}
