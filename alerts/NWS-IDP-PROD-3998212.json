@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998212",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.56,
+                    31.19
+                ],
+                [
+                    -88.76,
+                    31.240000000000002
+                ],
+                [
+                    -88.62,
+                    31.720000000000002
+                ],
+                [
+                    -88.3199999,
+                    31.640000000000004
+                ],
+                [
+                    -88.56,
+                    31.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998212",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998212",
+        "areaDesc": "Wayne; Washington; Greene",
+        "geocode": {
+            "UGC": [
+                "MSZ067",
+                "ALZ052",
+                "MSZ076"
+            ],
+            "SAME": [
+                "028153",
+                "001129",
+                "028041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MSZ067",
+            "https://api.weather.gov/zones/forecast/ALZ052",
+            "https://api.weather.gov/zones/forecast/MSZ076"
+        ],
+        "references": [],
+        "sent": "2020-01-10T16:19:00-06:00",
+        "effective": "2020-01-10T16:19:00-06:00",
+        "onset": "2020-01-10T16:19:00-06:00",
+        "expires": "2020-01-10T17:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Special Weather Statement issued January 10 at 4:19PM CST by NWS Mobile AL",
+        "description": "At 419 PM CST, the strong thunderstorm was located 10 miles northwest\nof Leakesville, moving north at 20 mph.\n\nWind gusts of 45 to 55 mph will be possible with this storm.\n\nLocations impacted include...\nState Line and Buckatunna.",
+        "instruction": "This storm may intensify, so be certain to monitor local radio\nstations and available television stations for additional information\nand possible warnings from the National Weather Service.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T16:19:00.000-06:00...storm...198DEG...19KT...31.29,-88.64"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT THE FOLLOWING COUNTIES... NORTHWESTERN WASHINGTON...SOUTHEASTERN WAYNE AND NORTHERN GREENE COUNTIES UNTIL 515 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSPSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
