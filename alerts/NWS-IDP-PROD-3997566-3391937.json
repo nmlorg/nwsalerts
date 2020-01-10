@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997566-3391937",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.26,
+                    35.82
+                ],
+                [
+                    -95.36,
+                    35.82
+                ],
+                [
+                    -95.3199999,
+                    36.02
+                ],
+                [
+                    -95.14,
+                    35.93
+                ],
+                [
+                    -95.26,
+                    35.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997566-3391937",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997566-3391937",
+        "areaDesc": "Cherokee, OK; Wagoner, OK",
+        "geocode": {
+            "UGC": [
+                "OKC021",
+                "OKC145"
+            ],
+            "SAME": [
+                "040021",
+                "040145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC021",
+            "https://api.weather.gov/zones/county/OKC145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997548-3391919",
+                "identifier": "NWS-IDP-PROD-3997548-3391919",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T13:22:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997538-3391910",
+                "identifier": "NWS-IDP-PROD-3997538-3391910",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T13:12:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997521-3391899",
+                "identifier": "NWS-IDP-PROD-3997521-3391899",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T13:04:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T13:38:00-06:00",
+        "effective": "2020-01-10T13:38:00-06:00",
+        "onset": "2020-01-10T13:38:00-06:00",
+        "expires": "2020-01-10T13:48:00-06:00",
+        "ends": "2020-01-10T13:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 1:38PM CST until January 10 at 1:45PM CST by NWS Tulsa OK",
+        "description": "The storm which prompted the warning has moved out of the area.\nTherefore the warning will be allowed to expire.\n\nA Tornado Watch remains in effect until 600 PM CST for northeastern\nand east central Oklahoma.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T13:38:00.000-06:00...storm...214DEG...26KT...35.94,-95.19"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR SOUTHEASTERN WAGONER AND WEST CENTRAL CHEROKEE COUNTIES WILL EXPIRE AT 145 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KTSA.TO.W.0002.000000T0000Z-200110T1945Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T13:45:00-06:00"
+            ]
+        }
+    }
+}

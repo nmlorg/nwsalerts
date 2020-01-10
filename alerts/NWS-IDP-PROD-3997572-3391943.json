@@ -1,0 +1,119 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997572-3391943",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.8,
+                    36.1
+                ],
+                [
+                    -95.19,
+                    35.9099999
+                ],
+                [
+                    -95.2,
+                    35.99
+                ],
+                [
+                    -95.16,
+                    36.03
+                ],
+                [
+                    -95.22,
+                    36.08
+                ],
+                [
+                    -95.05,
+                    36.3
+                ],
+                [
+                    -94.8,
+                    36.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997572-3391943",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997572-3391943",
+        "areaDesc": "Delaware, OK; Cherokee, OK; Mayes, OK",
+        "geocode": {
+            "UGC": [
+                "OKC041",
+                "OKC021",
+                "OKC097"
+            ],
+            "SAME": [
+                "040041",
+                "040021",
+                "040097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC041",
+            "https://api.weather.gov/zones/county/OKC021",
+            "https://api.weather.gov/zones/county/OKC097"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997557-3391928",
+                "identifier": "NWS-IDP-PROD-3997557-3391928",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T13:31:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T13:40:00-06:00",
+        "effective": "2020-01-10T13:40:00-06:00",
+        "onset": "2020-01-10T13:40:00-06:00",
+        "expires": "2020-01-10T14:15:00-06:00",
+        "ends": "2020-01-10T14:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 1:40PM CST until January 10 at 2:15PM CST by NWS Tulsa OK",
+        "description": "At 140 PM CST, a severe thunderstorm capable of producing a tornado\nwas located 5 miles north of Hulbert, moving northeast at 50 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations in or near the path include...\nHulbert...                        Peggs...\nRose...                           Scraper...\nLost City...",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T13:40:00.000-06:00...storm...217DEG...42KT...36.01,-95.12"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 215 PM CST FOR SOUTHWESTERN DELAWARE...SOUTHEASTERN MAYES AND NORTHERN CHEROKEE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.TO.W.0005.000000T0000Z-200110T2015Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T14:15:00-06:00"
+            ]
+        }
+    }
+}
