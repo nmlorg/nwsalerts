@@ -1,0 +1,125 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997998-3392362",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.36,
+                    36.76
+                ],
+                [
+                    -94.4,
+                    36.96
+                ],
+                [
+                    -94.12,
+                    37.25
+                ],
+                [
+                    -93.83,
+                    37.24
+                ],
+                [
+                    -93.83,
+                    36.88
+                ],
+                [
+                    -94.16,
+                    36.75
+                ],
+                [
+                    -94.36,
+                    36.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997998-3392362",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997998-3392362",
+        "areaDesc": "Newton, MO; Lawrence, MO; Barry, MO; Jasper, MO",
+        "geocode": {
+            "UGC": [
+                "MOC145",
+                "MOC109",
+                "MOC009",
+                "MOC097"
+            ],
+            "SAME": [
+                "029145",
+                "029109",
+                "029009",
+                "029097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC145",
+            "https://api.weather.gov/zones/county/MOC109",
+            "https://api.weather.gov/zones/county/MOC009",
+            "https://api.weather.gov/zones/county/MOC097"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997971-3392335",
+                "identifier": "NWS-IDP-PROD-3997971-3392335",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T15:20:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T15:31:00-06:00",
+        "effective": "2020-01-10T15:31:00-06:00",
+        "onset": "2020-01-10T15:31:00-06:00",
+        "expires": "2020-01-10T16:00:00-06:00",
+        "ends": "2020-01-10T16:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 3:31PM CST until January 10 at 4:00PM CST by NWS Springfield MO",
+        "description": "At 330 PM CST, severe thunderstorms were located along a line\nextending from near Sarcoxie to near Granby to 6 miles west of\nFairview, moving east at 55 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nNeosho...                         Monett...\nMount Vernon...                   Granby...\nSarcoxie...                       Pierce City...\nDiamond...                        Miller...\nFairview...                       Stotts City...\nNewtonia...                       Pioneer...\nFreistatt...                      Stella...\nWentworth...                      Stark City...\nAvilla...                         La Russell...\nReeds...                          Ritchey...\n\nThis includes Interstate 44 between mile markers 21 and 45.",
+        "instruction": "A Tornado Watch remains in effect until 600 PM CST for southwestern\nMissouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T15:30:00.000-06:00...storm...273DEG...49KT...37.04,-94.2 36.94,-94.17 36.84,-94.2"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 400 PM CST FOR EASTERN NEWTON...NORTHWESTERN BARRY...WESTERN LAWRENCE AND SOUTHEASTERN JASPER COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KSGF.SV.W.0007.000000T0000Z-200110T2200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T16:00:00-06:00"
+            ]
+        }
+    }
+}

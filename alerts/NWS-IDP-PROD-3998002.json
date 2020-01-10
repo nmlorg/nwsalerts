@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998002",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.4,
+                    35.1599999
+                ],
+                [
+                    -97.45,
+                    35.260000000000005
+                ],
+                [
+                    -97.14,
+                    35.46000000000001
+                ],
+                [
+                    -97.14,
+                    35.260000000000005
+                ],
+                [
+                    -97.4,
+                    35.1599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998002",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998002",
+        "areaDesc": "Oklahoma; Cleveland",
+        "geocode": {
+            "UGC": [
+                "OKZ025",
+                "OKZ029"
+            ],
+            "SAME": [
+                "040109",
+                "040027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/OKZ025",
+            "https://api.weather.gov/zones/forecast/OKZ029"
+        ],
+        "references": [],
+        "sent": "2020-01-10T15:32:00-06:00",
+        "effective": "2020-01-10T15:32:00-06:00",
+        "onset": "2020-01-10T15:32:00-06:00",
+        "expires": "2020-01-10T16:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Special Weather Statement issued January 10 at 3:32PM CST by NWS Norman OK",
+        "description": "AT 331 PM CST, a strong thunderstorm was located over southeastern\nNorman, moving northeast at 25 MPH.\n\nHAZARDS INCLUDE...\nHail up to one-half inch diameter...\n\nLocations impacted include...\nNorman, Stella, Newalla, Lake Thunderbird and Little Axe.",
+        "instruction": "Monitor the weather situation closely and be alert for threatening\nweather conditions.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T15:31:00.000-06:00...storm...231DEG...23KT...35.24,-97.36"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR southeastern Oklahoma and northeastern Cleveland Counties Until 400 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSPSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
