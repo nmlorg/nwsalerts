@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997931-3392290",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.5,
+                    35.56
+                ],
+                [
+                    -95.1,
+                    35.31
+                ],
+                [
+                    -95.6,
+                    35.02
+                ],
+                [
+                    -95.64,
+                    35.25
+                ],
+                [
+                    -95.5,
+                    35.56
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997931-3392290",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997931-3392290",
+        "areaDesc": "Haskell, OK; Muskogee, OK; Pittsburg, OK; McIntosh, OK",
+        "geocode": {
+            "UGC": [
+                "OKC061",
+                "OKC101",
+                "OKC121",
+                "OKC091"
+            ],
+            "SAME": [
+                "040061",
+                "040101",
+                "040121",
+                "040091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC061",
+            "https://api.weather.gov/zones/county/OKC101",
+            "https://api.weather.gov/zones/county/OKC121",
+            "https://api.weather.gov/zones/county/OKC091"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997843-3392227",
+                "identifier": "NWS-IDP-PROD-3997843-3392227",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:51:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T15:07:00-06:00",
+        "effective": "2020-01-10T15:07:00-06:00",
+        "onset": "2020-01-10T15:07:00-06:00",
+        "expires": "2020-01-10T15:30:00-06:00",
+        "ends": "2020-01-10T15:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 3:07PM CST until January 10 at 3:30PM CST by NWS Tulsa OK",
+        "description": "At 307 PM CST, a severe thunderstorm capable of producing a tornado\nwas located 7 miles northeast of Eufaula, moving northeast at 55 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations in or near the path include...\nEufaula...                        Checotah...\nPorum...                          Whitefield...\nRentiesville...                   Arrowhead State Park...\nBriartown...                      Enterprise...\nBlocker...                        Onapa...\n\nThis includes Interstate 40 in Oklahoma between mile markers 263 and\n273.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T15:07:00.000-06:00...storm...218DEG...48KT...35.33,-95.46"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 330 PM CST FOR WEST CENTRAL HASKELL...EASTERN MCINTOSH...NORTHEASTERN PITTSBURG AND SOUTH CENTRAL MUSKOGEE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.TO.W.0010.000000T0000Z-200110T2130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T15:30:00-06:00"
+            ]
+        }
+    }
+}

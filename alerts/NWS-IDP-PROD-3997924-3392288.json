@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997924-3392288",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.67,
+                    35.9
+                ],
+                [
+                    -94.9,
+                    35.809999999999995
+                ],
+                [
+                    -94.95,
+                    35.809999999999995
+                ],
+                [
+                    -94.97,
+                    35.87
+                ],
+                [
+                    -94.98,
+                    36.08
+                ],
+                [
+                    -94.67,
+                    35.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997924-3392288",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997924-3392288",
+        "areaDesc": "Cherokee, OK; Adair, OK",
+        "geocode": {
+            "UGC": [
+                "OKC021",
+                "OKC001"
+            ],
+            "SAME": [
+                "040021",
+                "040001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC021",
+            "https://api.weather.gov/zones/county/OKC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997850-3392230",
+                "identifier": "NWS-IDP-PROD-3997850-3392230",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:53:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997831-3392215",
+                "identifier": "NWS-IDP-PROD-3997831-3392215",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:49:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997777-3392170",
+                "identifier": "NWS-IDP-PROD-3997777-3392170",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:36:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T15:06:00-06:00",
+        "effective": "2020-01-10T15:06:00-06:00",
+        "onset": "2020-01-10T15:06:00-06:00",
+        "expires": "2020-01-10T15:15:00-06:00",
+        "ends": "2020-01-10T15:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 3:06PM CST until January 10 at 3:15PM CST by NWS Tulsa OK",
+        "description": "At 306 PM CST, a severe thunderstorm capable of producing a tornado\nwas located over Eldon, moving northeast at 40 mph.\n\nHAZARD...Tornado and golf ball size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations in or near the path include...\nTahlequah...                      Eldon...",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T15:06:00.000-06:00...storm...225DEG...36KT...35.91,-94.86"
+            ],
+            "hailSize": [
+                1.75
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 315 PM CST FOR WEST CENTRAL ADAIR AND NORTHEASTERN CHEROKEE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.TO.W.0009.000000T0000Z-200110T2115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T15:15:00-06:00"
+            ]
+        }
+    }
+}

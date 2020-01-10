@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997930-3392289",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.39,
+                    33.43
+                ],
+                [
+                    -97.39,
+                    33.19
+                ],
+                [
+                    -97.5699999,
+                    33
+                ],
+                [
+                    -97.66,
+                    33
+                ],
+                [
+                    -97.75,
+                    33.04
+                ],
+                [
+                    -97.54,
+                    33.43
+                ],
+                [
+                    -97.39,
+                    33.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997930-3392289",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997930-3392289",
+        "areaDesc": "Wise, TX",
+        "geocode": {
+            "UGC": [
+                "TXC497"
+            ],
+            "SAME": [
+                "048497"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC497"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997817-3392203",
+                "identifier": "NWS-IDP-PROD-3997817-3392203",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:45:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T15:07:00-06:00",
+        "effective": "2020-01-10T15:07:00-06:00",
+        "onset": "2020-01-10T15:07:00-06:00",
+        "expires": "2020-01-10T15:30:00-06:00",
+        "ends": "2020-01-10T15:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Tornado Warning issued January 10 at 3:07PM CST until January 10 at 3:30PM CST by NWS Fort Worth TX",
+        "description": "At 306 PM CST, a severe thunderstorm capable of producing a tornado\nwas located 3 miles east of Decatur, moving northeast at 45 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis tornadic thunderstorm will remain over mainly rural areas of\nnortheastern Wise County. The communities of Greenwood and Slidell\nare in the path of this storm.",
+        "instruction": "TAKE COVER NOW! If you are outdoors, in a mobile home, or in a\nvehicle, move to the closest substantial shelter now!  Get to an\ninterior room on the lowest floor of a sturdy building and avoid\nwindows.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T15:06:00.000-06:00...storm...210DEG...40KT...33.27,-97.5"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 330 PM CST FOR EASTERN WISE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KFWD.TO.W.0002.000000T0000Z-200110T2130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDSVSFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T15:30:00-06:00"
+            ]
+        }
+    }
+}
