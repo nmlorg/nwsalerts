@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998399-3392731",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.05,
+                    32.56
+                ],
+                [
+                    -97.45,
+                    32.440000000000005
+                ],
+                [
+                    -97.51,
+                    32.50000000000001
+                ],
+                [
+                    -97.26,
+                    32.74000000000001
+                ],
+                [
+                    -97.05,
+                    32.56
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998399-3392731",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998399-3392731",
+        "areaDesc": "Johnson, TX; Tarrant, TX",
+        "geocode": {
+            "UGC": [
+                "TXC251",
+                "TXC439"
+            ],
+            "SAME": [
+                "048251",
+                "048439"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC251",
+            "https://api.weather.gov/zones/county/TXC439"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998369-3392708",
+                "identifier": "NWS-IDP-PROD-3998369-3392708",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:42:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T17:49:00-06:00",
+        "effective": "2020-01-10T17:49:00-06:00",
+        "onset": "2020-01-10T17:49:00-06:00",
+        "expires": "2020-01-10T18:15:00-06:00",
+        "ends": "2020-01-10T18:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Tornado Warning issued January 10 at 5:49PM CST until January 10 at 6:15PM CST by NWS Fort Worth TX",
+        "description": "At 548 PM CST, a radar confirmed tornado was located near Joshua,\nmoving northeast at 30 mph.\n\nHAZARD...Damaging tornado and quarter size hail.\n\nSOURCE...Radar confirmed tornado.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis tornado will be near...\nBurleson and Crowley around 600 PM CST.\nEdgecliff Village and Edgecliff around 610 PM CST.\nMansfield, Forest Hill, Kennedale, Everman and Rendon around 615\nPM CST.",
+        "instruction": "To repeat, a tornado is on the ground. TAKE COVER NOW! Move to an\ninterior room on the lowest floor of a sturdy building and avoid\nwindows. If you are outdoors or in a vehicle, move to the closest\nsubstantial shelter and protect yourself from flying debris.\n\nMotorists should not take shelter under highway overpasses. If you\ncannot safely drive away from the tornado, as a last resort, either\npark your vehicle and stay put, or abandon your vehicle and lie down\nin a low lying area and protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T17:48:00.000-06:00...storm...231DEG...24KT...32.51,-97.4"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "OBSERVED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 615 PM CST FOR NORTHEASTERN JOHNSON AND SOUTHEASTERN TARRANT COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KFWD.TO.W.0007.000000T0000Z-200111T0015Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDSVSFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:15:00-06:00"
+            ]
+        }
+    }
+}

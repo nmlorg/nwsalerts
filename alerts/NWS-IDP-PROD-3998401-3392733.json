@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998401-3392733",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.86,
+                    30.01
+                ],
+                [
+                    -98.88,
+                    30.05
+                ],
+                [
+                    -98.88,
+                    30.14
+                ],
+                [
+                    -98.63,
+                    30.14
+                ],
+                [
+                    -98.8,
+                    30
+                ],
+                [
+                    -98.86,
+                    30.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998401-3392733",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998401-3392733",
+        "areaDesc": "Kendall, TX",
+        "geocode": {
+            "UGC": [
+                "TXC259"
+            ],
+            "SAME": [
+                "048259"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC259"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998331-3392671",
+                "identifier": "NWS-IDP-PROD-3998331-3392671",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:26:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T17:49:00-06:00",
+        "effective": "2020-01-10T17:49:00-06:00",
+        "onset": "2020-01-10T17:49:00-06:00",
+        "expires": "2020-01-10T18:15:00-06:00",
+        "ends": "2020-01-10T18:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 5:49PM CST until January 10 at 6:15PM CST by NWS Austin/San Antonio TX",
+        "description": "At 549 PM CST, a severe thunderstorm was located over Old Tunnel\nState Park, or 8 miles northeast of Comfort, moving northeast at 35\nmph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nOld Tunnel State Park and Bankersmith.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T17:49:00.000-06:00...storm...227DEG...32KT...30.08,-98.83"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 615 PM CST FOR NORTHWESTERN KENDALL COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KEWX.SV.W.0004.000000T0000Z-200111T0015Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSVSEWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:15:00-06:00"
+            ]
+        }
+    }
+}
