@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997742-3392129",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.5,
+                    35.39
+                ],
+                [
+                    -95.4,
+                    34.89
+                ],
+                [
+                    -95.84,
+                    34.7299999
+                ],
+                [
+                    -95.92,
+                    35.02
+                ],
+                [
+                    -95.5,
+                    35.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997742-3392129",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997742-3392129",
+        "areaDesc": "Latimer, OK; Pittsburg, OK; McIntosh, OK",
+        "geocode": {
+            "UGC": [
+                "OKC077",
+                "OKC121",
+                "OKC091"
+            ],
+            "SAME": [
+                "040077",
+                "040121",
+                "040091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC077",
+            "https://api.weather.gov/zones/county/OKC121",
+            "https://api.weather.gov/zones/county/OKC091"
+        ],
+        "references": [],
+        "sent": "2020-01-10T14:29:00-06:00",
+        "effective": "2020-01-10T14:29:00-06:00",
+        "onset": "2020-01-10T14:29:00-06:00",
+        "expires": "2020-01-10T15:15:00-06:00",
+        "ends": "2020-01-10T15:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 2:29PM CST until January 10 at 3:15PM CST by NWS Tulsa OK",
+        "description": "The National Weather Service in Tulsa has issued a\n\n* Severe Thunderstorm Warning for...\nSoutheastern McIntosh County in southeastern Oklahoma...\nNorthwestern Latimer County in southeastern Oklahoma...\nCentral Pittsburg County in southeastern Oklahoma...\n\n* Until 315 PM CST.\n\n* At 228 PM CST, severe thunderstorms were located along a line\nextending from 6 miles southeast of Scipio to 2 miles northwest of\nBlanco, moving northeast at 45 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* Locations in or near the path include...\nMcalester...                      Eufaula...\nHartshorne...                     Krebs...\nSavanna...                        Crowder...\nAlderson...                       Canadian...\nBlocker...                        Arrowhead State Park...\nMcalester Regional Airport...     Haileyville...\nGowen...                          Dow...\nBache...                          Featherston...",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T14:28:00.000-06:00...storm...217DEG...39KT...35.01,-95.85 34.78,-95.8"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KTSA.SV.W.0008.200110T2029Z-200110T2115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVRTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T15:15:00-06:00"
+            ]
+        }
+    }
+}
