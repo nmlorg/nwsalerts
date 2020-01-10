@@ -1,0 +1,129 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998090-3392463",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.27,
+                    35.52
+                ],
+                [
+                    -94.81,
+                    35.64
+                ],
+                [
+                    -94.85000000000001,
+                    35.22
+                ],
+                [
+                    -94.86000000000001,
+                    35.199999999999996
+                ],
+                [
+                    -94.93,
+                    35.199999999999996
+                ],
+                [
+                    -94.93,
+                    35.019999999999996
+                ],
+                [
+                    -95.36000000000001,
+                    34.979999899999996
+                ],
+                [
+                    -95.27,
+                    35.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998090-3392463",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998090-3392463",
+        "areaDesc": "Latimer, OK; Haskell, OK; Muskogee, OK; Sequoyah, OK",
+        "geocode": {
+            "UGC": [
+                "OKC077",
+                "OKC061",
+                "OKC101",
+                "OKC135"
+            ],
+            "SAME": [
+                "040077",
+                "040061",
+                "040101",
+                "040135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC077",
+            "https://api.weather.gov/zones/county/OKC061",
+            "https://api.weather.gov/zones/county/OKC101",
+            "https://api.weather.gov/zones/county/OKC135"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997976-3392340",
+                "identifier": "NWS-IDP-PROD-3997976-3392340",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T15:21:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T15:43:00-06:00",
+        "effective": "2020-01-10T15:43:00-06:00",
+        "onset": "2020-01-10T15:43:00-06:00",
+        "expires": "2020-01-10T16:00:00-06:00",
+        "ends": "2020-01-10T16:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 3:43PM CST until January 10 at 4:00PM CST by NWS Tulsa OK",
+        "description": "At 343 PM CST, severe thunderstorms were located along a line\nextending from 3 miles northeast of Gore to 5 miles east of Stigler\nto 3 miles south of Lequire, moving northeast at 50 mph.\n\nHAZARD...70 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect considerable\ntree damage. Wind damage is also likely to mobile homes,\nroofs, and outbuildings.\n\nLocations in or near the path include...\nSallisaw...                       Stigler...\nVian...                           Gore...\nPorum...                          Webbers Falls...\nKeota...                          Mccurtain...\nWhitefield...                     Kinta...\nMarble City...                    Tamaha...\nBriartown...                      Robbers Cave State Park...\nMc Curtain...                     Lequire...\nKanima...                         Box...\nMc Key...                         Lewisville...\n\nThis includes Interstate 40 in Oklahoma between mile markers 279 and\n304.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T15:43:00.000-06:00...storm...243DEG...44KT...35.56,-95.07 35.25,-95.03 35.06,-95.12"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "70 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 400 PM CST FOR HASKELL...WESTERN SEQUOYAH...NORTHEASTERN LATIMER AND SOUTHEASTERN MUSKOGEE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.SV.W.0011.000000T0000Z-200110T2200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T16:00:00-06:00"
+            ]
+        }
+    }
+}

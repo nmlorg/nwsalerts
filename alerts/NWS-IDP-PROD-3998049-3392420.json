@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998049-3392420",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.11,
+                    35.19
+                ],
+                [
+                    -95.16,
+                    35.29
+                ],
+                [
+                    -94.72999999999999,
+                    35.55
+                ],
+                [
+                    -94.57999999999998,
+                    35.29
+                ],
+                [
+                    -95.11,
+                    35.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998049-3392420",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998049-3392420",
+        "areaDesc": "Haskell, OK; Sequoyah, OK; Le Flore, OK",
+        "geocode": {
+            "UGC": [
+                "OKC061",
+                "OKC135",
+                "OKC079"
+            ],
+            "SAME": [
+                "040061",
+                "040135",
+                "040079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC061",
+            "https://api.weather.gov/zones/county/OKC135",
+            "https://api.weather.gov/zones/county/OKC079"
+        ],
+        "references": [],
+        "sent": "2020-01-10T15:40:00-06:00",
+        "effective": "2020-01-10T15:40:00-06:00",
+        "onset": "2020-01-10T15:40:00-06:00",
+        "expires": "2020-01-10T16:30:00-06:00",
+        "ends": "2020-01-10T16:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 3:40PM CST until January 10 at 4:30PM CST by NWS Tulsa OK",
+        "description": "The National Weather Service in Tulsa has issued a\n\n* Tornado Warning for...\nNortheastern Haskell County in southeastern Oklahoma...\nSouth central Sequoyah County in east central Oklahoma...\nNorth central Le Flore County in southeastern Oklahoma...\n\n* Until 430 PM CST.\n\n* At 340 PM CST, a severe thunderstorm capable of producing a tornado\nwas located over Stigler, moving northeast at 40 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* Locations in or near the path include...\nSallisaw...                       Stigler...\nKeota...                          Gans...\nTamaha...                         Cowlington...\nKanima...\n\nThis includes Interstate 40 in Oklahoma between mile markers 302 and\n316.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.\n\nThis cluster of thunderstorms is capable of producing tornadoes and\nwidespread significant wind damage. Do not wait to see or hear the\ntornado. For your protection move to an interior room on the lowest\nfloor of a building.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T15:40:00.000-06:00...storm...245DEG...37KT...35.26,-95.09"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KTSA.TO.W.0012.200110T2140Z-200110T2230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSATORTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T16:30:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 4:30 PM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}
