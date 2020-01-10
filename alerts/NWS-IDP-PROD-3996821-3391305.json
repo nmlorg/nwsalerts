@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996821-3391305",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.44,
+                    38.51
+                ],
+                [
+                    -87.6,
+                    38.44
+                ],
+                [
+                    -87.72999999999999,
+                    38.409999899999995
+                ],
+                [
+                    -87.72999999999999,
+                    38.42999999999999
+                ],
+                [
+                    -87.54999999999998,
+                    38.519999999999996
+                ],
+                [
+                    -87.43999999999998,
+                    38.54
+                ],
+                [
+                    -87.44,
+                    38.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996821-3391305",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996821-3391305",
+        "areaDesc": "Wabash, IL; Knox, IN; Gibson, IN",
+        "geocode": {
+            "UGC": [
+                "ILC185",
+                "INC083",
+                "INC051"
+            ],
+            "SAME": [
+                "017185",
+                "018083",
+                "018051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC185",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3993555-3388743",
+                "identifier": "NWS-IDP-PROD-3993555-3388743",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-08T12:00:00-05:00"
+            }
+        ],
+        "sent": "2020-01-10T08:43:00-05:00",
+        "effective": "2020-01-10T08:43:00-05:00",
+        "onset": "2020-01-10T08:42:00-05:00",
+        "expires": "2020-01-11T08:42:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 10 at 8:42AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nDriftwood River...Eagle Creek...East Fork White River...Eel River...\nSugar Creek...Tippecanoe River...Wabash River...White River...\nWildcat Creek...\n\n\n.With rainfall totals between 1 to 1 and a half inches there are\nwidespread flooding concerns across much of Indiana. Over the next\ncouple of days we will see another 1 to 3 inches of rain or more\npossible.\n\nThe Flood Warning continues for\nThe White River at Hazleton.\n* until further notice.\n* There have been no observations in the last 24 hours.\n* Flood stage is 16.0 feet.\n* Minor flooding is forecast.\n* Forecast...It is forecast to crest at 22.5 feet Sunday January 19\nand will rise above flood stage by Sunday afternoon.\n* At 22.0 feet...In agricultural season, extensive flooding of\nbottomlands and some of the higher bottomlands is in progress.\nHigh water surrounds Residents in river cabins.  Oil fields and\nlocal roads flood.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0358.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

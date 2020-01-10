@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996810-3391294",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.09,
+                    39.9099999
+                ],
+                [
+                    -86.13000000000001,
+                    39.870000000000005
+                ],
+                [
+                    -86.19000000000001,
+                    39.81
+                ],
+                [
+                    -86.20999990000001,
+                    39.82
+                ],
+                [
+                    -86.16000000000001,
+                    39.88
+                ],
+                [
+                    -86.11000000000001,
+                    39.9099999
+                ],
+                [
+                    -86.09,
+                    39.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996810-3391294",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996810-3391294",
+        "areaDesc": "Morgan, IN; Marion, IN",
+        "geocode": {
+            "UGC": [
+                "INC109",
+                "INC097"
+            ],
+            "SAME": [
+                "018109",
+                "018097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC109",
+            "https://api.weather.gov/zones/county/INC097"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995282-3390036",
+                "identifier": "NWS-IDP-PROD-3995282-3390036",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T14:03:00-05:00"
+            }
+        ],
+        "sent": "2020-01-10T08:43:00-05:00",
+        "effective": "2020-01-10T08:43:00-05:00",
+        "onset": "2020-01-12T04:00:00-05:00",
+        "expires": "2020-01-11T08:42:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 10 at 8:42AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nDriftwood River...Eagle Creek...East Fork White River...Eel River...\nSugar Creek...Tippecanoe River...Wabash River...White River...\nWildcat Creek...\n\n\n.With rainfall totals between 1 to 1 and a half inches there are\nwidespread flooding concerns across much of Indiana. Over the next\ncouple of days we will see another 1 to 3 inches of rain or more\npossible.\n\nThe Flood Warning continues for\nThe White River at Ravenswood.\n* from late Saturday night until further notice.\n* There have been no observations in the last 24 hours.\n* Flood stage is 6.0 feet.\n* Minor flooding is forecast.\n* Forecast...It is forecast to crest at 8.7 feet late Sunday night\nand will rise above flood stage by late Saturday night.\n* At 9.0 feet...High water affects Ravenswood and River Edge Drive.\nMany basements in Ravenswood fill with one to two feet of water.\nSome basements fill with three feet or more feet of water.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0004.200112T0900Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
