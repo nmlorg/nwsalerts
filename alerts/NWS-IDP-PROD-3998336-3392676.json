@@ -1,0 +1,115 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998336-3392676",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.23,
+                    30.95
+                ],
+                [
+                    -98.29,
+                    30.96
+                ],
+                [
+                    -98.31,
+                    31.03
+                ],
+                [
+                    -97.97,
+                    31.03
+                ],
+                [
+                    -98.19,
+                    30.950000000000003
+                ],
+                [
+                    -98.23,
+                    30.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998336-3392676",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998336-3392676",
+        "areaDesc": "Burnet, TX",
+        "geocode": {
+            "UGC": [
+                "TXC053"
+            ],
+            "SAME": [
+                "048053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998318-3392658",
+                "identifier": "NWS-IDP-PROD-3998318-3392658",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:18:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998328-3392668",
+                "identifier": "NWS-IDP-PROD-3998328-3392668",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:25:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T17:30:00-06:00",
+        "effective": "2020-01-10T17:30:00-06:00",
+        "onset": "2020-01-10T17:30:00-06:00",
+        "expires": "2020-01-10T17:45:00-06:00",
+        "ends": "2020-01-10T17:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Tornado Warning issued January 10 at 5:30PM CST until January 10 at 5:45PM CST by NWS Austin/San Antonio TX",
+        "description": "At 530 PM CST, a severe thunderstorm capable of producing a tornado\nwas located near Lampasas, moving east at 45 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis tornadic thunderstorm will remain over mainly rural areas of\nnorth central Burnet County.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T17:30:00.000-06:00...storm...251DEG...41KT...31.01,-98.23"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 545 PM CST FOR NORTH CENTRAL BURNET COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KEWX.TO.W.0001.000000T0000Z-200110T2345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSVSEWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T17:45:00-06:00"
+            ]
+        }
+    }
+}
