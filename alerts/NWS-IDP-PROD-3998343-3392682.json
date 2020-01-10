@@ -1,0 +1,126 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998343-3392682",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.47,
+                    36.86
+                ],
+                [
+                    -93.47,
+                    37.019999999999996
+                ],
+                [
+                    -93.52,
+                    37.19
+                ],
+                [
+                    -93.38,
+                    37.419999999999995
+                ],
+                [
+                    -93.11,
+                    37.419999999999995
+                ],
+                [
+                    -93.11,
+                    37.409999899999995
+                ],
+                [
+                    -93.12,
+                    37.239999999999995
+                ],
+                [
+                    -93.47,
+                    36.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998343-3392682",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998343-3392682",
+        "areaDesc": "Christian, MO; Greene, MO; Stone, MO",
+        "geocode": {
+            "UGC": [
+                "MOC043",
+                "MOC077",
+                "MOC209"
+            ],
+            "SAME": [
+                "029043",
+                "029077",
+                "029209"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC043",
+            "https://api.weather.gov/zones/county/MOC077",
+            "https://api.weather.gov/zones/county/MOC209"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998321-3392661",
+                "identifier": "NWS-IDP-PROD-3998321-3392661",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:22:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T17:35:00-06:00",
+        "effective": "2020-01-10T17:35:00-06:00",
+        "onset": "2020-01-10T17:35:00-06:00",
+        "expires": "2020-01-10T18:00:00-06:00",
+        "ends": "2020-01-10T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 5:35PM CST until January 10 at 6:00PM CST by NWS Springfield MO",
+        "description": "At 534 PM CST, severe thunderstorms were located along a line\nextending from near Willard to near Battlefield to near Clever,\nmoving east at 40 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Emergency management reported quarter-zise hail on the\nsouth side of Springfield.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nSpringfield...                    Nixa...\nRepublic...                       Battlefield...\nWillard...                        Strafford...\nClever...                         Fair Grove...\nBrookline...                      Glidewell...\nEbenezer...                       Bassville...\nBoaz...                           Galloway...\n\nThis includes Interstate 44 between mile markers 64 and 87.",
+        "instruction": "A Tornado Watch remains in effect until 200 AM CST for southwestern\nMissouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T17:34:00.000-06:00...storm...270DEG...33KT...37.26,-93.41 37.15,-93.38 36.99,-93.4"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 600 PM CST FOR NORTHWESTERN CHRISTIAN...NORTH CENTRAL STONE AND CENTRAL GREENE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KSGF.SV.W.0010.000000T0000Z-200111T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:00:00-06:00"
+            ]
+        }
+    }
+}

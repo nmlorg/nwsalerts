@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998344-3392683",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.35,
+                    31.22
+                ],
+                [
+                    -97.86999999999999,
+                    31.34
+                ],
+                [
+                    -97.91,
+                    31.04
+                ],
+                [
+                    -98.39,
+                    31.029999999999998
+                ],
+                [
+                    -98.35,
+                    31.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998344-3392683",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998344-3392683",
+        "areaDesc": "Coryell, TX; Lampasas, TX",
+        "geocode": {
+            "UGC": [
+                "TXC099",
+                "TXC281"
+            ],
+            "SAME": [
+                "048099",
+                "048281"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC099",
+            "https://api.weather.gov/zones/county/TXC281"
+        ],
+        "references": [],
+        "sent": "2020-01-10T17:35:00-06:00",
+        "effective": "2020-01-10T17:35:00-06:00",
+        "onset": "2020-01-10T17:35:00-06:00",
+        "expires": "2020-01-10T18:30:00-06:00",
+        "ends": "2020-01-10T18:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 5:35PM CST until January 10 at 6:30PM CST by NWS Fort Worth TX",
+        "description": "The National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Coryell County in central Texas...\nSoutheastern Lampasas County in central Texas...\n\n* Until 630 PM CST.\n\n* At 534 PM CST, a severe thunderstorm was located over Lampasas,\nmoving east at 35 mph.\n\nHAZARD...65 mph wind gusts and half dollar size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* Locations impacted include...\nCopperas Cove, Lampasas and Kempner.",
+        "instruction": "A Tornado Watch remains in effect until 900 PM CST for central Texas.\n\nFor your protection get inside a sturdy structure and stay away from\nwindows.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T17:34:00.000-06:00...storm...255DEG...31KT...31.06,-98.23"
+            ],
+            "hailSize": [
+                1.25
+            ],
+            "windGust": [
+                "65 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KFWD.SV.W.0009.200110T2335Z-200111T0030Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDSVRFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:30:00-06:00"
+            ]
+        }
+    }
+}
