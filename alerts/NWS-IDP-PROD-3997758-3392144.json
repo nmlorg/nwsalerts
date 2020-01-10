@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997758-3392144",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.88,
+                    34.59
+                ],
+                [
+                    -95.94,
+                    34.56
+                ],
+                [
+                    -96.05,
+                    34.650000000000006
+                ],
+                [
+                    -96.00999999999999,
+                    34.68000000000001
+                ],
+                [
+                    -95.88999999999999,
+                    34.68000000000001
+                ],
+                [
+                    -95.87999999999998,
+                    34.65999990000001
+                ],
+                [
+                    -95.88,
+                    34.59
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997758-3392144",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997758-3392144",
+        "areaDesc": "Atoka, OK",
+        "geocode": {
+            "UGC": [
+                "OKC005"
+            ],
+            "SAME": [
+                "040005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC005"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997738-3392126",
+                "identifier": "NWS-IDP-PROD-3997738-3392126",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:25:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T14:33:00-06:00",
+        "effective": "2020-01-10T14:33:00-06:00",
+        "onset": "2020-01-10T14:33:00-06:00",
+        "expires": "2020-01-10T15:00:00-06:00",
+        "ends": "2020-01-10T15:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Tornado Warning issued January 10 at 2:33PM CST until January 10 at 3:00PM CST by NWS Norman OK",
+        "description": "At 233 PM CST, a severe thunderstorm capable of producing a tornado\nwas located 4 miles east of Wardville, moving northeast at 55 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nWardville.",
+        "instruction": "TAKE COVER NOW! Move to a storm shelter, safe room, or an interior\nroom on the lowest floor of a sturdy building. Avoid windows. If you\nare outdoors, in a mobile home, or in a vehicle, move to the closest\nsubstantial shelter and protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T14:33:00.000-06:00...storm...226DEG...48KT...34.65,-95.96"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 300 PM CST FOR NORTHEASTERN ATOKA COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KOUN.TO.W.0004.000000T0000Z-200110T2100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSVSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T15:00:00-06:00"
+            ]
+        }
+    }
+}
