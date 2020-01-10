@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997053-3391499",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.66,
+                    38.57
+                ],
+                [
+                    -88.55,
+                    38.58
+                ],
+                [
+                    -88.56,
+                    38.39
+                ],
+                [
+                    -88.38,
+                    38.27
+                ],
+                [
+                    -88.4599999,
+                    38.260000000000005
+                ],
+                [
+                    -88.65,
+                    38.36000000000001
+                ],
+                [
+                    -88.66,
+                    38.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997053-3391499",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997053-3391499",
+        "areaDesc": "Wayne, IL; White, IL",
+        "geocode": {
+            "UGC": [
+                "ILC191",
+                "ILC193"
+            ],
+            "SAME": [
+                "017191",
+                "017193"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC191",
+            "https://api.weather.gov/zones/county/ILC193"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995837-3390496",
+                "identifier": "NWS-IDP-PROD-3995837-3390496",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T19:14:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T09:50:00-06:00",
+        "effective": "2020-01-10T09:50:00-06:00",
+        "onset": "2020-01-11T05:22:00-06:00",
+        "expires": "2020-01-11T13:49:00-06:00",
+        "ends": "2020-01-13T12:40:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 10 at 9:50AM CST until January 13 at 12:40PM CST by NWS Paducah KY",
+        "description": "...Forecast Flooding Changed from Moderate to Major Severity for the\nfollowing rivers in Illinois...\n\nSkillet Fork River at Wayne City\n\n.River levels along the Skillet Fork River are rising due to heavy\nrainfall of 1 to 2 inches that has fallen over the past 24 hours\ncombined with additional heavy rain forecast over the next 36 hours.\nMajor flooding is now forecast to occur at Wayne City with a crest\naround 20.2 feet Saturday night. This would be the highest crest\nsince May 2017 when it crested at 22.8 feet.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "forecast flooding increased from Moderate to Major severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0003.200111T1122Z-200113T1840Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLWPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T12:40:00-06:00"
+            ]
+        }
+    }
+}
