@@ -1,0 +1,118 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997625-3392002",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.49,
+                    35.6
+                ],
+                [
+                    -95.24,
+                    35.46
+                ],
+                [
+                    -95.35,
+                    35.36
+                ],
+                [
+                    -95.4599999,
+                    35.36
+                ],
+                [
+                    -95.51,
+                    35.39
+                ],
+                [
+                    -95.49,
+                    35.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997625-3392002",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997625-3392002",
+        "areaDesc": "Muskogee, OK; McIntosh, OK",
+        "geocode": {
+            "UGC": [
+                "OKC101",
+                "OKC091"
+            ],
+            "SAME": [
+                "040101",
+                "040091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC101",
+            "https://api.weather.gov/zones/county/OKC091"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997563-3391934",
+                "identifier": "NWS-IDP-PROD-3997563-3391934",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T13:37:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997597-3391970",
+                "identifier": "NWS-IDP-PROD-3997597-3391970",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T13:46:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T13:58:00-06:00",
+        "effective": "2020-01-10T13:58:00-06:00",
+        "onset": "2020-01-10T13:58:00-06:00",
+        "expires": "2020-01-10T14:15:00-06:00",
+        "ends": "2020-01-10T14:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 1:58PM CST until January 10 at 2:15PM CST by NWS Tulsa OK",
+        "description": "At 158 PM CST, a severe thunderstorm capable of producing a tornado\nwas located 7 miles southeast of Checotah, moving northeast at 30\nmph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations in or near the path include...\nWarner...                         Oktaha...\nRentiesville...\n\nThis includes Interstate 40 in Oklahoma between mile markers 266 and\n277.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T13:58:00.000-06:00...storm...215DEG...26KT...35.42,-95.41"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 215 PM CST FOR NORTHEASTERN MCINTOSH AND SOUTH CENTRAL MUSKOGEE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.TO.W.0006.000000T0000Z-200110T2015Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T14:15:00-06:00"
+            ]
+        }
+    }
+}
