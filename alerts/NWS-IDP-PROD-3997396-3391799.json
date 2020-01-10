@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997396-3391799",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.16,
+                    35.95
+                ],
+                [
+                    -95.31,
+                    35.970000000000006
+                ],
+                [
+                    -95.26,
+                    36.38
+                ],
+                [
+                    -94.8199999,
+                    36.29
+                ],
+                [
+                    -95.16,
+                    35.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997396-3391799",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997396-3391799",
+        "areaDesc": "Delaware, OK; Cherokee, OK; Mayes, OK; Wagoner, OK",
+        "geocode": {
+            "UGC": [
+                "OKC041",
+                "OKC021",
+                "OKC097",
+                "OKC145"
+            ],
+            "SAME": [
+                "040041",
+                "040021",
+                "040097",
+                "040145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC041",
+            "https://api.weather.gov/zones/county/OKC021",
+            "https://api.weather.gov/zones/county/OKC097",
+            "https://api.weather.gov/zones/county/OKC145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997391-3391795",
+                "identifier": "NWS-IDP-PROD-3997391-3391795",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:34:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T11:41:00-06:00",
+        "effective": "2020-01-10T11:41:00-06:00",
+        "onset": "2020-01-10T11:41:00-06:00",
+        "expires": "2020-01-10T12:15:00-06:00",
+        "ends": "2020-01-10T12:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 11:41AM CST until January 10 at 12:15PM CST by NWS Tulsa OK",
+        "description": "At 1141 AM CST, a severe thunderstorm with strong low level rotation\nthat could produce a tornado at any time was located 6 miles\nnorthwest of Hulbert, moving northeast at 30 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations in or near the path include...\nLocust Grove...                   Salina...\nLeach...                          Peggs...\nRose...                           Sportsmen Acres Community...\nLost City...                      Murphy...\nSnowdale State Park...",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T11:41:00.000-06:00...storm...203DEG...25KT...36.01,-95.22"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 1215 PM CST FOR SOUTHWESTERN DELAWARE...SOUTHEASTERN MAYES...EAST CENTRAL WAGONER AND NORTHWESTERN CHEROKEE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.TO.W.0001.000000T0000Z-200110T1815Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T12:15:00-06:00"
+            ]
+        }
+    }
+}
