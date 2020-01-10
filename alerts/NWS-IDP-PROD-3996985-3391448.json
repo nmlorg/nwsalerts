@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996985-3391448",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.92,
+                    39.12
+                ],
+                [
+                    -86.94,
+                    39.08
+                ],
+                [
+                    -86.92999999999999,
+                    39
+                ],
+                [
+                    -86.97,
+                    39
+                ],
+                [
+                    -86.99,
+                    39.05
+                ],
+                [
+                    -86.9599999,
+                    39.129999999999995
+                ],
+                [
+                    -86.92,
+                    39.12
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996985-3391448",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996985-3391448",
+        "areaDesc": "Daviess, IN; Knox, IN; Greene, IN",
+        "geocode": {
+            "UGC": [
+                "INC027",
+                "INC083",
+                "INC055"
+            ],
+            "SAME": [
+                "018027",
+                "018083",
+                "018055"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC027",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC055"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996814-3391298",
+                "identifier": "NWS-IDP-PROD-3996814-3391298",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T08:43:00-05:00"
+            }
+        ],
+        "sent": "2020-01-10T10:26:00-05:00",
+        "effective": "2020-01-10T10:26:00-05:00",
+        "onset": "2020-01-11T10:45:00-05:00",
+        "expires": "2020-01-10T22:24:00-05:00",
+        "ends": "2020-01-19T20:48:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 10 at 10:25AM EST until January 19 at 8:48PM EST by NWS Indianapolis IN",
+        "description": "...The National Weather Service in Indianapolis has issued a Flood\nWarning for portions of the following waterways in central and\nsouthern Indiana...\n\nBig Blue River...East Fork White River...Flatrock River...\n...The National Weather Service in Indianapolis has upgraded the\nflood category from Minor to Moderate severity for the following\nrivers and streams in Illinois...Indiana...\n\nWhite River at Hazleton\n\n...The National Weather Service in Indianapolis has upgraded the\nflood category from Minor to Moderate severity for the following\nrivers and streams\n\nDriftwood River near Edinburgh 2 SW\nEast Fork White River at Seymour\nWhite River near Centerton\nWhite River below Eagle Valley Power Plant\nWhite River at Spencer\nWhite River at Elliston\nWhite River at Edwardsport\nWhite River at Petersburg\n\n\n.With rainfall totals between 1 to 2 inches there are\nwidespread flooding concerns across much of Indiana. Over the next\ncouple of days we will see another 1 to 3 inches of rain or more\npossible.\n\nThe Flood Warning continues for\nThe White River at Elliston.\n* from Saturday morning to Sunday January 19.\n* There have been no observations in the last 24 hours.\n* Flood stage is 18.0 feet.\n* Forecast...It is forecast to rise above flood stage Saturday\nmorning, crest at 26.5 feet Tuesday evening and then fall below\nflood stage by Sunday January 19.\n* At 26.0 feet...Shawnee Airfield floods as flood waters begin to get\ninto the hangar.  Relocation of livestock may be necessary.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0008.200111T1545Z-200120T0148Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLWIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T20:48:00-05:00"
+            ]
+        }
+    }
+}

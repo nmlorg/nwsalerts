@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996992-3391455",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.44,
+                    38.51
+                ],
+                [
+                    -87.6,
+                    38.44
+                ],
+                [
+                    -87.72999999999999,
+                    38.409999899999995
+                ],
+                [
+                    -87.72999999999999,
+                    38.42999999999999
+                ],
+                [
+                    -87.54999999999998,
+                    38.519999999999996
+                ],
+                [
+                    -87.43999999999998,
+                    38.54
+                ],
+                [
+                    -87.44,
+                    38.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996992-3391455",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996992-3391455",
+        "areaDesc": "Wabash, IL; Knox, IN; Gibson, IN",
+        "geocode": {
+            "UGC": [
+                "ILC185",
+                "INC083",
+                "INC051"
+            ],
+            "SAME": [
+                "017185",
+                "018083",
+                "018051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC185",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996821-3391305",
+                "identifier": "NWS-IDP-PROD-3996821-3391305",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T08:43:00-05:00"
+            }
+        ],
+        "sent": "2020-01-10T10:26:00-05:00",
+        "effective": "2020-01-10T10:26:00-05:00",
+        "onset": "2020-01-10T10:25:00-05:00",
+        "expires": "2020-01-10T22:24:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 10 at 10:25AM EST by NWS Indianapolis IN",
+        "description": "...The National Weather Service in Indianapolis has issued a Flood\nWarning for portions of the following waterways in central and\nsouthern Indiana...\n\nBig Blue River...East Fork White River...Flatrock River...\n...The National Weather Service in Indianapolis has upgraded the\nflood category from Minor to Moderate severity for the following\nrivers and streams in Illinois...Indiana...\n\nWhite River at Hazleton\n\n...The National Weather Service in Indianapolis has upgraded the\nflood category from Minor to Moderate severity for the following\nrivers and streams\n\nDriftwood River near Edinburgh 2 SW\nEast Fork White River at Seymour\nWhite River near Centerton\nWhite River below Eagle Valley Power Plant\nWhite River at Spencer\nWhite River at Elliston\nWhite River at Edwardsport\nWhite River at Petersburg\n\n\n.With rainfall totals between 1 to 2 inches there are\nwidespread flooding concerns across much of Indiana. Over the next\ncouple of days we will see another 1 to 3 inches of rain or more\npossible.\n\nThe Flood Warning continues for\nThe White River at Hazleton.\n* until further notice.\n* There have been no observations in the last 24 hours.\n* Flood stage is 16.0 feet.\n* Forecast...It is forecast to crest at 25.2 feet Saturday January 18\nand will rise above flood stage by late tonight.\n* At 25.0 feet...Extensive river flooding continues in northern Gibson\nCounty.  Numerous county roads were flooded in March 2011.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0358.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLWIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

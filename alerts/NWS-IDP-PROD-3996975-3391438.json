@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996975-3391438",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.29,
+                    35.4099999
+                ],
+                [
+                    -98.54,
+                    35.42
+                ],
+                [
+                    -98.27000000000001,
+                    36.09
+                ],
+                [
+                    -97.83000000000001,
+                    36.07
+                ],
+                [
+                    -98.29,
+                    35.4099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996975-3391438",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996975-3391438",
+        "areaDesc": "Canadian, OK; Caddo, OK; Blaine, OK; Kingfisher, OK",
+        "geocode": {
+            "UGC": [
+                "OKC017",
+                "OKC015",
+                "OKC011",
+                "OKC073"
+            ],
+            "SAME": [
+                "040017",
+                "040015",
+                "040011",
+                "040073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC017",
+            "https://api.weather.gov/zones/county/OKC015",
+            "https://api.weather.gov/zones/county/OKC011",
+            "https://api.weather.gov/zones/county/OKC073"
+        ],
+        "references": [],
+        "sent": "2020-01-10T09:23:00-06:00",
+        "effective": "2020-01-10T09:23:00-06:00",
+        "onset": "2020-01-10T09:23:00-06:00",
+        "expires": "2020-01-10T10:15:00-06:00",
+        "ends": "2020-01-10T10:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 9:23AM CST until January 10 at 10:15AM CST by NWS Norman OK",
+        "description": "The National Weather Service in Norman has issued a\n\n* Severe Thunderstorm Warning for...\nWestern Kingfisher County in central Oklahoma...\nNorthwestern Caddo County in southwestern Oklahoma...\nEastern Blaine County in northwestern Oklahoma...\nNorthwestern Canadian County in central Oklahoma...\n\n* Until 1015 AM CST.\n\n* At 923 AM CST, a severe thunderstorm was located near Bridgeport,\nmoving northeast at 55 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\n* Locations impacted include...\nHinton, Geary, Dover, Bridgeport, Greenfield, Loyal and Omega.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T09:23:00.000-06:00...storm...204DEG...46KT...35.55,-98.34"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KOUN.SV.W.0006.200110T1523Z-200110T1615Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSVROUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T10:15:00-06:00"
+            ]
+        }
+    }
+}
