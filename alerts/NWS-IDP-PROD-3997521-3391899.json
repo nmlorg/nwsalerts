@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997521-3391899",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.42,
+                    35.63
+                ],
+                [
+                    -95.51,
+                    35.690000000000005
+                ],
+                [
+                    -95.37,
+                    36.040000000000006
+                ],
+                [
+                    -95.08,
+                    35.900000000000006
+                ],
+                [
+                    -95.42,
+                    35.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997521-3391899",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997521-3391899",
+        "areaDesc": "Cherokee, OK; Muskogee, OK; Wagoner, OK",
+        "geocode": {
+            "UGC": [
+                "OKC021",
+                "OKC101",
+                "OKC145"
+            ],
+            "SAME": [
+                "040021",
+                "040101",
+                "040145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC021",
+            "https://api.weather.gov/zones/county/OKC101",
+            "https://api.weather.gov/zones/county/OKC145"
+        ],
+        "references": [],
+        "sent": "2020-01-10T13:04:00-06:00",
+        "effective": "2020-01-10T13:04:00-06:00",
+        "onset": "2020-01-10T13:04:00-06:00",
+        "expires": "2020-01-10T13:45:00-06:00",
+        "ends": "2020-01-10T13:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 1:04PM CST until January 10 at 1:45PM CST by NWS Tulsa OK",
+        "description": "The National Weather Service in Tulsa has issued a\n\n* Tornado Warning for...\nSoutheastern Wagoner County in northeastern Oklahoma...\nWest central Cherokee County in east central Oklahoma...\nNorth central Muskogee County in east central Oklahoma...\n\n* Until 145 PM CST.\n\n* At 104 PM CST, a severe thunderstorm with strong low level rotation\nthat could produce a tornado at any time was located 4 miles\nsouthwest of Muskogee, moving northeast at 30 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* Locations in or near the path include...\nMuskogee...                       Wagoner...\nFort Gibson...                    Okay...\nHulbert...                        Tullahassee...\nSequoyah State Park...            Summit...",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T13:04:00.000-06:00...storm...214DEG...26KT...35.71,-95.43"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KTSA.TO.W.0002.200110T1904Z-200110T1945Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSATORTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T13:45:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 1:45 PM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}
