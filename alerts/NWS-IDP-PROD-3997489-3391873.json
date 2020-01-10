@@ -1,0 +1,132 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997489-3391873",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.62,
+                    36.76
+                ],
+                [
+                    -94.62,
+                    36.65
+                ],
+                [
+                    -94.87,
+                    36.39
+                ],
+                [
+                    -95.01,
+                    36.46
+                ],
+                [
+                    -95.01,
+                    36.52
+                ],
+                [
+                    -95,
+                    36.550000000000004
+                ],
+                [
+                    -94.86,
+                    36.85
+                ],
+                [
+                    -94.62,
+                    36.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997489-3391873",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997489-3391873",
+        "areaDesc": "Delaware, OK; Ottawa, OK",
+        "geocode": {
+            "UGC": [
+                "OKC041",
+                "OKC115"
+            ],
+            "SAME": [
+                "040041",
+                "040115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC041",
+            "https://api.weather.gov/zones/county/OKC115"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997479-3391864",
+                "identifier": "NWS-IDP-PROD-3997479-3391864",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T12:23:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997431-3391822",
+                "identifier": "NWS-IDP-PROD-3997431-3391822",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:54:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997455-3391850",
+                "identifier": "NWS-IDP-PROD-3997455-3391850",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T12:08:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T12:36:00-06:00",
+        "effective": "2020-01-10T12:36:00-06:00",
+        "onset": "2020-01-10T12:36:00-06:00",
+        "expires": "2020-01-10T12:45:00-06:00",
+        "ends": "2020-01-10T12:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 12:36PM CST until January 10 at 12:45PM CST by NWS Tulsa OK",
+        "description": "At 1235 PM CST, severe thunderstorms were located along a line\nextending from 3 miles southeast of Cleora to 4 miles east of\nFairland to 3 miles southwest of Wyandotte, moving northeast at 50\nmph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations in or near the path include...\nGrove...                          Fairland...\nBernice...                        Wyandotte...\nDisney...                         Cleora...\nHoney Creek State Park...         Bernice State Park...\nZena...                           Twin Bridges State Park...\n\nThis includes Interstate 44 between mile markers 299 and 307.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T12:35:00.000-06:00...storm...215DEG...44KT...36.55,-94.92 36.74,-94.76 36.75,-94.76"
+            ],
+            "hailSize": [
+                0.75
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1245 PM CST FOR NORTHWESTERN DELAWARE AND SOUTHEASTERN OTTAWA COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.SV.W.0004.000000T0000Z-200110T1845Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T12:45:00-06:00"
+            ]
+        }
+    }
+}
