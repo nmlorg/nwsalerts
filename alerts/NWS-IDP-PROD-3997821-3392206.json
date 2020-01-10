@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997821-3392206",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.11,
+                    39.05
+                ],
+                [
+                    -87.95,
+                    38.919999999999995
+                ],
+                [
+                    -87.79,
+                    38.919999999999995
+                ],
+                [
+                    -87.73,
+                    38.849999999999994
+                ],
+                [
+                    -88.01,
+                    38.849999999999994
+                ],
+                [
+                    -88.15,
+                    38.959999999999994
+                ],
+                [
+                    -88.11,
+                    39.05
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997821-3392206",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997821-3392206",
+        "areaDesc": "Jasper, IL; Crawford, IL",
+        "geocode": {
+            "UGC": [
+                "ILC079",
+                "ILC033"
+            ],
+            "SAME": [
+                "017079",
+                "017033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC079",
+            "https://api.weather.gov/zones/county/ILC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997100-3391527",
+                "identifier": "NWS-IDP-PROD-3997100-3391527",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T10:02:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T14:45:00-06:00",
+        "effective": "2020-01-10T14:45:00-06:00",
+        "onset": "2020-01-11T07:25:00-06:00",
+        "expires": "2020-01-11T04:45:00-06:00",
+        "ends": "2020-01-15T14:24:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lincoln IL",
+        "headline": "Flood Warning issued January 10 at 2:45PM CST until January 15 at 2:24PM CST by NWS Lincoln IL",
+        "description": "...The Flood Warning continues for the following river in Illinois...\n\nEmbarras River at Ste. Marie affecting Crawford and Jasper Counties\n\n.The following forecasts are based on observed precipitation, soil\nmoisture conditions, and forecast precipitation.\n\nThe Flood Warning continues for\nThe Embarras River at Ste. Marie.\n* From Saturday morning until Wednesday afternoon.\n* At 2 PM Friday the stage was 8.8 feet.\n* Flood stage is 19 feet.\n* Moderate flooding is forecast.\n* Forecast...Rise above flood stage by tomorrow morning and continue\nto rise to near 22.9 feet by Sunday evening. The river will fall\nbelow flood stage by Wednesday morning.\n* Impact...At 21 feet...Water overtops a few private levees in the\nSte. Marie area.",
+        "instruction": "If you encounter a flooded roadway, turn around and find an alternate\nroute. Turn around, don't drown.\n\nAdditional river and weather information is available at\nwww.weather.gov/ilx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KILX.FL.W.0002.200111T1325Z-200115T2024Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILXFLSILX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T14:24:00-06:00"
+            ]
+        }
+    }
+}

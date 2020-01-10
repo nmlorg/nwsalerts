@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997820",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.62,
+                    36.5
+                ],
+                [
+                    -94.62,
+                    36.77
+                ],
+                [
+                    -94.28,
+                    36.89
+                ],
+                [
+                    -94.25,
+                    36.5
+                ],
+                [
+                    -94.62,
+                    36.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997820",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997820",
+        "areaDesc": "Newton; McDonald",
+        "geocode": {
+            "UGC": [
+                "MOZ093",
+                "MOZ101"
+            ],
+            "SAME": [
+                "029145",
+                "029119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MOZ093",
+            "https://api.weather.gov/zones/forecast/MOZ101"
+        ],
+        "references": [],
+        "sent": "2020-01-10T14:45:00-06:00",
+        "effective": "2020-01-10T14:45:00-06:00",
+        "onset": "2020-01-10T14:45:00-06:00",
+        "expires": "2020-01-10T15:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Special Weather Statement issued January 10 at 2:45PM CST by NWS Springfield MO",
+        "description": "At 244 PM CST, Doppler radar was tracking strong thunderstorms along\na line extending from 9 miles northeast of Grove to near South West\nCity. Movement was northeast at 30 mph.\n\nNickel size hail and wind gusts up to 50 mph will be possible with\nthese storms.\n\nStrong thunderstorms will be near...\nNoel around 315 PM CST.\nNeosho, Pineville, Anderson, Goodman and Lanagan around 330 PM\nCST.\n\nOther locations impacted by these storms include Tiff City, Big Sugar\nCreek State Park, Dodge and Cayuga.\n\nThis includes Interstate 49 between mile markers 1 and 20.",
+        "instruction": "These storms may intensify, so be certain to monitor local radio\nstations and available television stations for additional information\nand possible warnings from the National Weather Service.\n\nTorrential rainfall is also occurring with these storms, and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T14:44:00.000-06:00...storm...237DEG...16KT...36.67,-94.63 36.48,-94.64"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHWESTERN NEWTON AND MCDONALD COUNTIES UNTIL 330 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSPSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
