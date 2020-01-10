@@ -1,0 +1,133 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997681-3392078",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.92,
+                    39.93
+                ],
+                [
+                    -85.94,
+                    39.93
+                ],
+                [
+                    -85.94,
+                    39.87
+                ],
+                [
+                    -85.95,
+                    39.87
+                ],
+                [
+                    -85.98,
+                    39.37
+                ],
+                [
+                    -86.73,
+                    39.18
+                ],
+                [
+                    -86.68,
+                    40.01
+                ],
+                [
+                    -85.89,
+                    40.22
+                ],
+                [
+                    -85.92,
+                    39.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997681-3392078",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997681-3392078",
+        "areaDesc": "Johnson, IN; Monroe, IN; Boone, IN; Morgan, IN; Brown, IN; Owen, IN; Hamilton, IN; Hendricks, IN; Putnam, IN; Marion, IN",
+        "geocode": {
+            "UGC": [
+                "INC081",
+                "INC105",
+                "INC011",
+                "INC109",
+                "INC013",
+                "INC119",
+                "INC057",
+                "INC063",
+                "INC133",
+                "INC097"
+            ],
+            "SAME": [
+                "018081",
+                "018105",
+                "018011",
+                "018109",
+                "018013",
+                "018119",
+                "018057",
+                "018063",
+                "018133",
+                "018097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC081",
+            "https://api.weather.gov/zones/county/INC105",
+            "https://api.weather.gov/zones/county/INC011",
+            "https://api.weather.gov/zones/county/INC109",
+            "https://api.weather.gov/zones/county/INC013",
+            "https://api.weather.gov/zones/county/INC119",
+            "https://api.weather.gov/zones/county/INC057",
+            "https://api.weather.gov/zones/county/INC063",
+            "https://api.weather.gov/zones/county/INC133",
+            "https://api.weather.gov/zones/county/INC097"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996925-3391397",
+                "identifier": "NWS-IDP-PROD-3996925-3391397",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T09:59:00-05:00"
+            }
+        ],
+        "sent": "2020-01-10T15:14:00-05:00",
+        "effective": "2020-01-10T15:14:00-05:00",
+        "onset": "2020-01-10T15:14:00-05:00",
+        "expires": "2020-01-11T04:00:00-05:00",
+        "ends": "2020-01-11T04:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Advisory issued January 10 at 3:14PM EST until January 11 at 4:00AM EST by NWS Indianapolis IN",
+        "description": "The National Weather Service in Indianapolis has extended the\n\n* Flood Advisory for...\nNorthern Monroe County in south central Indiana...\nMorgan County in central Indiana...\nNorthwestern Brown County in south central Indiana...\nJohnson County in central Indiana...\nHendricks County in central Indiana...\nEastern Owen County in west central Indiana...\nMarion County in central Indiana...\nSouthern Boone County in central Indiana...\nHamilton County in central Indiana...\nEastern Putnam County in west central Indiana...\n\n* Until 400 AM EST Saturday.\n\n* At 313 PM EST, Doppler radar indicated rain continuing to fall\nacross south central Indiana this afternoon. Much of the area has\nseen 1 to 2 inches of rain since Thursday evening...and minor\nflooding is ongoing in the advisory area.\n\n* Some locations that will experience flooding include...\nIndianapolis, Carmel, Fishers, Noblesville, Greenwood, Lawrence,\nPlainfield, Franklin, Brownsburg, Lebanon, Beech Grove, Zionsville,\nMartinsville, Speedway, Mooresville, Danville, Southport,\nWestfield, Avon and Ellettsville.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nPlease report flooding to your local law enforcement agency when you\ncan do so safely.\n\nA Flood Advisory means river or stream flows are elevated, or ponding\nof water in urban or other areas is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FA.Y.0003.000000T0000Z-200111T0900Z/"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T04:00:00-05:00"
+            ]
+        }
+    }
+}
