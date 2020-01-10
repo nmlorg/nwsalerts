@@ -1,0 +1,115 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996839-3391323",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -99.58,
+                    36.07
+                ],
+                [
+                    -99.2099999,
+                    36
+                ],
+                [
+                    -99.4,
+                    35.8
+                ],
+                [
+                    -99.4599999,
+                    35.76
+                ],
+                [
+                    -99.54,
+                    35.769999999999996
+                ],
+                [
+                    -99.58,
+                    36.07
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996839-3391323",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996839-3391323",
+        "areaDesc": "Dewey, OK; Roger Mills, OK; Ellis, OK",
+        "geocode": {
+            "UGC": [
+                "OKC043",
+                "OKC129",
+                "OKC045"
+            ],
+            "SAME": [
+                "040043",
+                "040129",
+                "040045"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC043",
+            "https://api.weather.gov/zones/county/OKC129",
+            "https://api.weather.gov/zones/county/OKC045"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996786-3391279",
+                "identifier": "NWS-IDP-PROD-3996786-3391279",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T07:32:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T07:47:00-06:00",
+        "effective": "2020-01-10T07:47:00-06:00",
+        "onset": "2020-01-10T07:47:00-06:00",
+        "expires": "2020-01-10T08:00:00-06:00",
+        "ends": "2020-01-10T08:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 7:47AM CST until January 10 at 8:00AM CST by NWS Norman OK",
+        "description": "At 747 AM CST, a severe thunderstorm was located over Angora, moving\nnortheast at 45 mph.\n\nHAZARD...Ping pong ball size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect damage\nto roofs, siding, windows, and vehicles.\n\nLocations impacted include...\nLeedey, Camargo and Angora.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T07:47:00.000-06:00...storm...204DEG...40KT...35.85,-99.46"
+            ],
+            "hailSize": [
+                1.5
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 800 AM CST FOR SOUTHEASTERN ELLIS...NORTHEASTERN ROGER MILLS AND WEST CENTRAL DEWEY COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOUN.SV.W.0001.000000T0000Z-200110T1400Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSVSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T08:00:00-06:00"
+            ]
+        }
+    }
+}
