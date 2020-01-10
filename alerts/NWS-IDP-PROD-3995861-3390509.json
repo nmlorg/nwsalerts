@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995861-3390509",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.52,
+                    35.14
+                ],
+                [
+                    -91.4599999,
+                    35.25
+                ],
+                [
+                    -91.5,
+                    35.37
+                ],
+                [
+                    -91.36,
+                    35.339999999999996
+                ],
+                [
+                    -91.33,
+                    35.209999999999994
+                ],
+                [
+                    -91.37,
+                    35.14999999999999
+                ],
+                [
+                    -91.52,
+                    35.14
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995861-3390509",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995861-3390509",
+        "areaDesc": "White, AR; Woodruff, AR",
+        "geocode": {
+            "UGC": [
+                "ARC145",
+                "ARC147"
+            ],
+            "SAME": [
+                "005145",
+                "005147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC145",
+            "https://api.weather.gov/zones/county/ARC147"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995201-3389968",
+                "identifier": "NWS-IDP-PROD-3995201-3389968",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T11:49:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T19:29:00-06:00",
+        "effective": "2020-01-09T19:29:00-06:00",
+        "onset": "2020-01-11T13:00:00-06:00",
+        "expires": "2020-01-10T10:29:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Warning issued January 9 at 7:29PM CST by NWS Little Rock AR",
+        "description": "...From the National Weather Service in Little Rock...the Flood\nWarning continues for the following river in Arkansas...\n\nWhite River At Augusta affecting White and Woodruff Counties\n\nCache River Near Patterson affecting Jackson and Woodruff Counties\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 48 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.\n\nThe Flood Warning continues for\nThe White River At Augusta.\n* from Saturday afternoon until further notice...Or until the warning\nis cancelled.\n* At  6:00 PM Thursday the stage was 25.1 feet.\n* Minor flooding is forecast.\n* Flood stage is 26.0 feet.\n* Forecast...Rise above flood stage by Saturday early afternoon. It will\ncontinue rising through the next seven days, and is expected to be\nclose to 31 feet by the end of next week.\n* Impacts at 32.0 feet...Thousands of acres of cropland and farm roads\nare flooded in White and Woodruff counties. Water is isolating\nhomes and camps along the river in White and Woodruff counties.\n\nFld     Observed        Forecast 6 AM        Crest\nLocation     Stg   Stg  Day Time   Fri   Sat   Sun  Crest Time  Date\n\nLower White River\nAugusta     26  25.1 Thu 06 PM  25.1  25.4  27.9   31.0 06 AM 01/17",
+        "instruction": "Safety message...Remember to Turn Around...Don't Drown\nDo not drive cars through flooded areas.\n\nEveryone with property or other interest along streams and rivers\nshould remain alert to changing weather forecasts. Should conditions\nchange...Look for river forecasts or Flood Warnings for use in making\ninformed decisions to protect life and property.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLZK.FL.W.0001.200111T1900Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
