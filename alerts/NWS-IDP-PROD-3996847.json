@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996847",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.4,
+                    31.28
+                ],
+                [
+                    -90.24000000000001,
+                    30.94
+                ],
+                [
+                    -90.52000000000001,
+                    30.42
+                ],
+                [
+                    -90.64000000000001,
+                    30.69
+                ],
+                [
+                    -90.4,
+                    31.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996847",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996847",
+        "areaDesc": "St. Helena; Southern Tangipahoa; Northern Tangipahoa; Pike; Washington; Livingston",
+        "geocode": {
+            "UGC": [
+                "LAZ037",
+                "LAZ072",
+                "LAZ071",
+                "MSZ070",
+                "LAZ039",
+                "LAZ050"
+            ],
+            "SAME": [
+                "022091",
+                "022105",
+                "028113",
+                "022117",
+                "022063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/LAZ037",
+            "https://api.weather.gov/zones/forecast/LAZ072",
+            "https://api.weather.gov/zones/forecast/LAZ071",
+            "https://api.weather.gov/zones/forecast/MSZ070",
+            "https://api.weather.gov/zones/forecast/LAZ039",
+            "https://api.weather.gov/zones/forecast/LAZ050"
+        ],
+        "references": [],
+        "sent": "2020-01-10T08:01:00-06:00",
+        "effective": "2020-01-10T08:01:00-06:00",
+        "onset": "2020-01-10T08:01:00-06:00",
+        "expires": "2020-01-10T08:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Special Weather Statement issued January 10 at 8:01AM CST by NWS New Orleans LA",
+        "description": "At 801 AM CST, radar indicated strong thunderstorms were located\nalong a line extending from Amite City to near Natalbany. Movement\nwas north at 40 mph.\n\nWinds in excess of 40 mph are possible with these storms.\n\nLocations impacted include...\nHammond, Amite, Amite City, Magnolia, Kentwood, Independence,\nRoseland, Osyka, Mount Herman, Wilmer, Natalbany, Tangipahoa and\nTickfaw.\n\nIf outdoors, consider seeking shelter inside a building.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T08:01:00.000-06:00...storm...201DEG...34KT...30.73,-90.54 30.57,-90.51"
+            ],
+            "NWSheadline": [
+                "A LINE OF STRONG THUNDERSTORMS WILL AFFECT SOUTHEASTERN ST. HELENA...NORTHEASTERN LIVINGSTON...NORTHERN TANGIPAHOA...NORTHWESTERN WASHINGTON PARISHES IN SOUTHEASTERN LOUISIANA AND SOUTHEASTERN PIKE COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LIXSPSLIX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
