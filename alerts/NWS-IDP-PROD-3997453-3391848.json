@@ -1,0 +1,82 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997453-3391848",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997453-3391848",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997453-3391848",
+        "areaDesc": "Lincoln; Russell; Ellsworth; Barton",
+        "geocode": {
+            "UGC": [
+                "KSZ033",
+                "KSZ032",
+                "KSZ048",
+                "KSZ047"
+            ],
+            "SAME": [
+                "020105",
+                "020167",
+                "020053",
+                "020009"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KSZ033",
+            "https://api.weather.gov/zones/forecast/KSZ032",
+            "https://api.weather.gov/zones/forecast/KSZ048",
+            "https://api.weather.gov/zones/forecast/KSZ047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996126-3390709",
+                "identifier": "NWS-IDP-PROD-3996126-3390709",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T21:46:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996580-3391115",
+                "identifier": "NWS-IDP-PROD-3996580-3391115",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T04:18:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T12:07:00-06:00",
+        "effective": "2020-01-10T12:07:00-06:00",
+        "onset": "2020-01-10T12:07:00-06:00",
+        "expires": "2020-01-11T02:15:00-06:00",
+        "ends": "2020-01-11T04:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wichita KS",
+        "headline": "Winter Weather Advisory issued January 10 at 12:07PM CST until January 11 at 4:00AM CST by NWS Wichita KS",
+        "description": "...Winter Weather to impact the area this afternoon through\nSaturday...\n\n* WHAT...Mixed wintry precipitation expected. Total snow\naccumulations of up to two inches and ice accumulations around a\ntenth of an inch. Winds gusting as high as 35 mph. A narrow\nband of 2 to 4 inches of snow is possible across across Russell\nand Lincoln counties.\n\n* WHERE...Portions of Central and South Central Kansas.\n\n* WHEN...Until 4 AM CST Saturday. Most of the precipitation is\nexpected during the daylight hours.\n\n* IMPACTS...Plan on slippery road conditions. Patchy blowing\nsnow could significantly reduce visibility. The hazardous\nconditions could impact the evening commute.\n\n* ADDITIONAL DETAILS...Trees, power lines and elevated surfaces\nwill rapidly become ice covered this afternoon.",
+        "instruction": "Slow down and use caution while traveling.\n\nThe latest road conditions for the state you are calling from can\nbe obtained by calling 5 1 1.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL 4 AM CST SATURDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KICT.WW.Y.0001.000000T0000Z-200111T1000Z/"
+            ],
+            "PIL": [
+                "ICTWSWICT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T04:00:00-06:00"
+            ]
+        }
+    }
+}
