@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998179-3392531",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.84,
+                    35.4099999
+                ],
+                [
+                    -94.87,
+                    35.45
+                ],
+                [
+                    -94.73,
+                    35.550000000000004
+                ],
+                [
+                    -94.66000000000001,
+                    35.43000000000001
+                ],
+                [
+                    -94.84,
+                    35.4099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998179-3392531",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998179-3392531",
+        "areaDesc": "Sequoyah, OK",
+        "geocode": {
+            "UGC": [
+                "OKC135"
+            ],
+            "SAME": [
+                "040135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC135"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998049-3392420",
+                "identifier": "NWS-IDP-PROD-3998049-3392420",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T15:40:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998120-3392481",
+                "identifier": "NWS-IDP-PROD-3998120-3392481",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T15:51:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T16:04:00-06:00",
+        "effective": "2020-01-10T16:04:00-06:00",
+        "onset": "2020-01-10T16:04:00-06:00",
+        "expires": "2020-01-10T16:30:00-06:00",
+        "ends": "2020-01-10T16:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 4:04PM CST until January 10 at 4:30PM CST by NWS Tulsa OK",
+        "description": "At 404 PM CST, a severe thunderstorm capable of producing a tornado\nwas located over Sallisaw, moving northeast at 60 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations in or near the path include...\nSallisaw...\n\nThis includes Interstate 40 in Oklahoma between mile markers 303 and\n311.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.\n\nThis cluster of thunderstorms is capable of producing tornadoes and\nwidespread significant wind damage. Do not wait to see or hear the\ntornado. For your protection move to an interior room on the lowest\nfloor of a building.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T16:04:00.000-06:00...storm...230DEG...51KT...35.47,-94.78"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 430 PM CST FOR CENTRAL SEQUOYAH COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.TO.W.0012.000000T0000Z-200110T2230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T16:30:00-06:00"
+            ]
+        }
+    }
+}
