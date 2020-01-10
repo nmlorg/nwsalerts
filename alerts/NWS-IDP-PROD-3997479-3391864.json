@@ -1,0 +1,136 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997479-3391864",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.62,
+                    36.76
+                ],
+                [
+                    -94.62,
+                    36.65
+                ],
+                [
+                    -95.01,
+                    36.229999899999996
+                ],
+                [
+                    -95.2099999,
+                    36.24999999999999
+                ],
+                [
+                    -95.2099999,
+                    36.25999999999999
+                ],
+                [
+                    -95.03,
+                    36.66999999999999
+                ],
+                [
+                    -95.3,
+                    36.70999999999999
+                ],
+                [
+                    -95.24,
+                    36.97999989999999
+                ],
+                [
+                    -94.62,
+                    36.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997479-3391864",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997479-3391864",
+        "areaDesc": "Delaware, OK; Craig, OK; Mayes, OK; Ottawa, OK",
+        "geocode": {
+            "UGC": [
+                "OKC041",
+                "OKC035",
+                "OKC097",
+                "OKC115"
+            ],
+            "SAME": [
+                "040041",
+                "040035",
+                "040097",
+                "040115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC041",
+            "https://api.weather.gov/zones/county/OKC035",
+            "https://api.weather.gov/zones/county/OKC097",
+            "https://api.weather.gov/zones/county/OKC115"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997431-3391822",
+                "identifier": "NWS-IDP-PROD-3997431-3391822",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:54:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997455-3391850",
+                "identifier": "NWS-IDP-PROD-3997455-3391850",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T12:08:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T12:23:00-06:00",
+        "effective": "2020-01-10T12:23:00-06:00",
+        "onset": "2020-01-10T12:23:00-06:00",
+        "expires": "2020-01-10T12:45:00-06:00",
+        "ends": "2020-01-10T12:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 12:23PM CST until January 10 at 12:45PM CST by NWS Tulsa OK",
+        "description": "At 1223 PM CST, severe thunderstorms were located along a line\nextending from 3 miles south of Spavinaw to 5 miles southeast of\nBernice and from 2 miles northwest of Fairland to 8 miles west of\nWelch, moving northeast at 55 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations in or near the path include...\nMiami...                          Grove...\nSalina...                         Fairland...\nAfton...                          Langley...\nWelch...                          Bernice...\nKetchum...                        Spavinaw...\nBluejacket...                     Wyandotte...\nDisney...                         Hoot Owl...\nHoney Creek State Park...         Cherokee State Park...\nBernice State Park...             Cleora...\nChloeta...                        Spavinaw State Park...\n\nThis includes Interstate 44 between mile markers 290 and 306.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T12:23:00.000-06:00...storm...212DEG...49KT...36.35,-95.04 36.55,-94.88 36.77,-94.88 36.83,-95.23"
+            ],
+            "hailSize": [
+                0.75
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1245 PM CST FOR EASTERN CRAIG...NORTHWESTERN DELAWARE...SOUTHERN OTTAWA AND NORTHEASTERN MAYES COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.SV.W.0004.000000T0000Z-200110T1845Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T12:45:00-06:00"
+            ]
+        }
+    }
+}
