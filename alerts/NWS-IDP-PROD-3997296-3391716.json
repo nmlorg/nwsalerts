@@ -1,0 +1,112 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997296-3391716",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.62,
+                    35.93
+                ],
+                [
+                    -96.51,
+                    36.03
+                ],
+                [
+                    -96.30000000000001,
+                    36.01
+                ],
+                [
+                    -96.27000000000001,
+                    35.8
+                ],
+                [
+                    -96.62,
+                    35.54
+                ],
+                [
+                    -96.62,
+                    35.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997296-3391716",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997296-3391716",
+        "areaDesc": "Okfuskee, OK; Creek, OK",
+        "geocode": {
+            "UGC": [
+                "OKC107",
+                "OKC037"
+            ],
+            "SAME": [
+                "040107",
+                "040037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC107",
+            "https://api.weather.gov/zones/county/OKC037"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997250-3391668",
+                "identifier": "NWS-IDP-PROD-3997250-3391668",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T10:42:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T10:52:00-06:00",
+        "effective": "2020-01-10T10:52:00-06:00",
+        "onset": "2020-01-10T10:52:00-06:00",
+        "expires": "2020-01-10T11:30:00-06:00",
+        "ends": "2020-01-10T11:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 10:52AM CST until January 10 at 11:30AM CST by NWS Tulsa OK",
+        "description": "At 1051 AM CST, severe thunderstorms were located along a line\nextending from 3 miles northeast of Stroud to 5 miles southwest of\nDepew to 6 miles north of Paden, moving northeast at 40 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations in or near the path include...\nBristow...                        Depew...\nShamrock...                       Milfay...\n\nThis includes Interstate 44 between mile markers 178 and 199.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T10:51:00.000-06:00...storm...210DEG...36KT...35.78,-96.61 35.74,-96.57 35.6,-96.6"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1130 AM CST FOR SOUTHWESTERN CREEK AND NORTHWESTERN OKFUSKEE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.SV.W.0001.000000T0000Z-200110T1730Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T11:30:00-06:00"
+            ]
+        }
+    }
+}
