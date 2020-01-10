@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995896-3390535",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.27,
+                    40.94
+                ],
+                [
+                    -87.08999999999999,
+                    41
+                ],
+                [
+                    -87.08999999999999,
+                    40.9099999
+                ],
+                [
+                    -87.22999999999999,
+                    40.85
+                ],
+                [
+                    -87.27,
+                    40.94
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995896-3390535",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995896-3390535",
+        "areaDesc": "Jasper, IN",
+        "geocode": {
+            "UGC": [
+                "INC073"
+            ],
+            "SAME": [
+                "018073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC073"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995154-3389934",
+                "identifier": "NWS-IDP-PROD-3995154-3389934",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T11:06:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T19:45:00-06:00",
+        "effective": "2020-01-09T19:45:00-06:00",
+        "onset": "2020-01-12T00:00:00-06:00",
+        "expires": "2020-01-10T09:44:00-06:00",
+        "ends": "2020-01-15T23:08:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 9 at 7:45PM CST until January 15 at 11:08PM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in Indiana...\nIllinois...\n\nIroquois River at Rensselaer affecting Jasper County\nIroquois River near Foresman affecting Newton County\nIroquois River at Iroquois affecting Iroquois County\nIroquois River near Chebanse affecting Iroquois and Kankakee\nCounties\nKankakee River near Kouts affecting Jasper and Porter Counties\nKankakee River at Shelby affecting Lake and Newton Counties\nKankakee River at Momence affecting Kankakee County\nKankakee River near Wilmington affecting Grundy...Kankakee and Will\nCounties\nSugar Creek at Milford affecting Iroquois County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Warning continues for\nThe Iroquois River at Rensselaer, or from Near Rensselaer downstream\nto near I-65 east of Foresman.\n* from late Saturday night to Wednesday evening.\n* At  630 PM Thursday the stage was 4.9 feet.\n* Flood stage is 12.0 feet.\n* Major flooding is forecast.\n* Forecast...Rise above flood stage by early Sunday morning and\ncontinue to rise to near 15.0 feet by Monday afternoon.\n* Impact...At 15.0 feet...College Avenue threatened in Rensselaer.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0006.200112T0600Z-200116T0508Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T23:08:00-06:00"
+            ]
+        }
+    }
+}

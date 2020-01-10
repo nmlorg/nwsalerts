@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995889-3390528",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.49,
+                    40.86
+                ],
+                [
+                    -87.27,
+                    40.94
+                ],
+                [
+                    -87.22999999999999,
+                    40.849999999999994
+                ],
+                [
+                    -87.45999989999999,
+                    40.769999999999996
+                ],
+                [
+                    -87.49,
+                    40.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995889-3390528",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995889-3390528",
+        "areaDesc": "Newton, IN",
+        "geocode": {
+            "UGC": [
+                "INC111"
+            ],
+            "SAME": [
+                "018111"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC111"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995156-3389936",
+                "identifier": "NWS-IDP-PROD-3995156-3389936",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T11:06:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T19:45:00-06:00",
+        "effective": "2020-01-09T19:45:00-06:00",
+        "onset": "2020-01-12T02:17:00-06:00",
+        "expires": "2020-01-10T09:44:00-06:00",
+        "ends": "2020-01-16T19:42:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 9 at 7:45PM CST until January 16 at 7:42PM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in Indiana...\nIllinois...\n\nIroquois River at Rensselaer affecting Jasper County\nIroquois River near Foresman affecting Newton County\nIroquois River at Iroquois affecting Iroquois County\nIroquois River near Chebanse affecting Iroquois and Kankakee\nCounties\nKankakee River near Kouts affecting Jasper and Porter Counties\nKankakee River at Shelby affecting Lake and Newton Counties\nKankakee River at Momence affecting Kankakee County\nKankakee River near Wilmington affecting Grundy...Kankakee and Will\nCounties\nSugar Creek at Milford affecting Iroquois County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Warning continues for\nThe Iroquois River near Foresman, or from Near I-65 east of Foresman\ndownstream to near US-41 north of Kentland.\n* from late Saturday night to Thursday January 16.\n* At  645 PM Thursday the stage was 7.6 feet.\n* Flood stage is 18.0 feet.\n* Moderate flooding is forecast.\n* Forecast...Rise above flood stage by early Sunday morning and\ncontinue to rise to near 22.0 feet by Monday afternoon.\n* Impact...At 22.0 feet...Water approaches sewage treatment plant at\nGeorge Ade Memorial Healthcare center on State Rd 16.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0007.200112T0817Z-200117T0142Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T19:42:00-06:00"
+            ]
+        }
+    }
+}
