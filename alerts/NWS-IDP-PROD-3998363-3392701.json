@@ -1,0 +1,115 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998363-3392701",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.23,
+                    30.95
+                ],
+                [
+                    -98.29,
+                    30.96
+                ],
+                [
+                    -98.31,
+                    31.03
+                ],
+                [
+                    -97.97,
+                    31.03
+                ],
+                [
+                    -98.19,
+                    30.950000000000003
+                ],
+                [
+                    -98.23,
+                    30.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998363-3392701",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998363-3392701",
+        "areaDesc": "Burnet, TX",
+        "geocode": {
+            "UGC": [
+                "TXC053"
+            ],
+            "SAME": [
+                "048053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998318-3392658",
+                "identifier": "NWS-IDP-PROD-3998318-3392658",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:18:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998328-3392668",
+                "identifier": "NWS-IDP-PROD-3998328-3392668",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:25:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998336-3392676",
+                "identifier": "NWS-IDP-PROD-3998336-3392676",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:30:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T17:41:00-06:00",
+        "effective": "2020-01-10T17:41:00-06:00",
+        "onset": "2020-01-10T17:41:00-06:00",
+        "expires": "2020-01-10T17:51:00-06:00",
+        "ends": "2020-01-10T17:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Tornado Warning issued January 10 at 5:41PM CST until January 10 at 5:45PM CST by NWS Austin/San Antonio TX",
+        "description": "The storm which prompted the warning has moved out of the area.\nTherefore, the warning will be allowed to expire.\n\nA Severe Thunderstorm Watch remains in effect until 1000 PM CST for\nsouth central Texas.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T17:41:00.000-06:00...storm...229DEG...37KT...31.08,-98.14"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR NORTH CENTRAL BURNET COUNTY WILL EXPIRE AT 545 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KEWX.TO.W.0001.000000T0000Z-200110T2345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSVSEWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T17:45:00-06:00"
+            ]
+        }
+    }
+}

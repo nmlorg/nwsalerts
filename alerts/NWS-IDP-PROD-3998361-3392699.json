@@ -1,0 +1,118 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998361-3392699",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.86,
+                    36.1
+                ],
+                [
+                    -93.87,
+                    36.2
+                ],
+                [
+                    -93.65,
+                    36.49
+                ],
+                [
+                    -93.37,
+                    36.120000000000005
+                ],
+                [
+                    -93.48,
+                    36.120000000000005
+                ],
+                [
+                    -93.86,
+                    36.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998361-3392699",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998361-3392699",
+        "areaDesc": "Carroll, AR; Madison, AR",
+        "geocode": {
+            "UGC": [
+                "ARC015",
+                "ARC087"
+            ],
+            "SAME": [
+                "005015",
+                "005087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC015",
+            "https://api.weather.gov/zones/county/ARC087"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998313-3392654",
+                "identifier": "NWS-IDP-PROD-3998313-3392654",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:14:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998282-3392638",
+                "identifier": "NWS-IDP-PROD-3998282-3392638",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:01:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998326-3392666",
+                "identifier": "NWS-IDP-PROD-3998326-3392666",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:24:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T17:41:00-06:00",
+        "effective": "2020-01-10T17:41:00-06:00",
+        "onset": "2020-01-10T17:41:00-06:00",
+        "expires": "2020-01-10T17:50:00-06:00",
+        "ends": "2020-01-10T17:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 5:41PM CST until January 10 at 5:45PM CST by NWS Tulsa OK",
+        "description": "The storm which prompted the warning no longer appears capable of\nproducing a tornado. Therefore the Tornado Warning will be allowed\nto expire.\n\nA Tornado Watch remains in effect until 600 PM CST for northwestern\nArkansas.\n\nRemember, a Severe Thunderstorm Warning still remains in effect for\nnorthern Madison and Carroll counties. Damaging winds to 60 mph will\nbe possible.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T17:40:00.000-06:00...storm...241DEG...46KT...36.25,-93.6"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR NORTHERN MADISON AND CENTRAL CARROLL COUNTIES WILL EXPIRE AT 545 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KTSA.TO.W.0013.000000T0000Z-200110T2345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T17:45:00-06:00"
+            ]
+        }
+    }
+}
