@@ -1,0 +1,118 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997662-3392047",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.1,
+                    34.42
+                ],
+                [
+                    -96.25999999999999,
+                    34.17
+                ],
+                [
+                    -96.50999999999999,
+                    34.18
+                ],
+                [
+                    -96.33999999999999,
+                    34.58
+                ],
+                [
+                    -96.08999999999999,
+                    34.769999999999996
+                ],
+                [
+                    -96.1,
+                    34.42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997662-3392047",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997662-3392047",
+        "areaDesc": "Coal, OK; Atoka, OK; Johnston, OK",
+        "geocode": {
+            "UGC": [
+                "OKC029",
+                "OKC005",
+                "OKC069"
+            ],
+            "SAME": [
+                "040029",
+                "040005",
+                "040069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC029",
+            "https://api.weather.gov/zones/county/OKC005",
+            "https://api.weather.gov/zones/county/OKC069"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997657-3392042",
+                "identifier": "NWS-IDP-PROD-3997657-3392042",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:08:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T14:11:00-06:00",
+        "effective": "2020-01-10T14:11:00-06:00",
+        "onset": "2020-01-10T14:11:00-06:00",
+        "expires": "2020-01-10T15:00:00-06:00",
+        "ends": "2020-01-10T15:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 2:11PM CST until January 10 at 3:00PM CST by NWS Norman OK",
+        "description": "At 211 PM CST, severe thunderstorms were located along a line\nextending from near Lehigh to 6 miles northwest of Caney to 3 miles\nsouth of Coleman, moving north at 50 mph.\n\nHAZARD...70 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to mobile\nhomes, roofs, and outbuildings.\n\nLocations impacted include...\nAtoka, Coalgate, Wapanucka, Lehigh, Tushka, Caney, Olney, Coleman,\nPhillips, Boggy Depot Park and southwestern Atoka Reservoir.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T14:11:00.000-06:00...storm...199DEG...43KT...34.44,-96.19 34.31,-96.27 34.22,-96.42"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "70 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 300 PM CST FOR SOUTHEASTERN JOHNSTON...EASTERN COAL AND SOUTHWESTERN ATOKA COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOUN.SV.W.0012.000000T0000Z-200110T2100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSVSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T15:00:00-06:00"
+            ]
+        }
+    }
+}
