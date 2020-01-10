@@ -1,0 +1,118 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996857-3391339",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -99.3,
+                    36.35
+                ],
+                [
+                    -98.9599999,
+                    36.24
+                ],
+                [
+                    -99.17,
+                    36.050000000000004
+                ],
+                [
+                    -99.28,
+                    36.050000000000004
+                ],
+                [
+                    -99.35,
+                    36.13
+                ],
+                [
+                    -99.3,
+                    36.35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996857-3391339",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996857-3391339",
+        "areaDesc": "Dewey, OK; Woodward, OK",
+        "geocode": {
+            "UGC": [
+                "OKC043",
+                "OKC153"
+            ],
+            "SAME": [
+                "040043",
+                "040153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC043",
+            "https://api.weather.gov/zones/county/OKC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996846-3391329",
+                "identifier": "NWS-IDP-PROD-3996846-3391329",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T07:57:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996849-3391331",
+                "identifier": "NWS-IDP-PROD-3996849-3391331",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T08:04:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T08:14:00-06:00",
+        "effective": "2020-01-10T08:14:00-06:00",
+        "onset": "2020-01-10T08:14:00-06:00",
+        "expires": "2020-01-10T08:30:00-06:00",
+        "ends": "2020-01-10T08:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 8:14AM CST until January 10 at 8:30AM CST by NWS Norman OK",
+        "description": "At 814 AM CST, a severe thunderstorm was located 4 miles east of\nVici, moving northeast at 50 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\nLocations impacted include...\nVici, Mutual and Cestos.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T08:14:00.000-06:00...storm...208DEG...45KT...36.15,-99.23"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 830 AM CST FOR NORTHWESTERN DEWEY AND SOUTHEASTERN WOODWARD COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOUN.SV.W.0002.000000T0000Z-200110T1430Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSVSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T08:30:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996860-3391341",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.47,
+                    36.45
+                ],
+                [
+                    -98.63,
+                    36.1599999
+                ],
+                [
+                    -98.78999999999999,
+                    36.1599999
+                ],
+                [
+                    -98.66999999999999,
+                    36.5
+                ],
+                [
+                    -98.47,
+                    36.45
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996860-3391341",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996860-3391341",
+        "areaDesc": "Major, OK; Woods, OK",
+        "geocode": {
+            "UGC": [
+                "OKC093",
+                "OKC151"
+            ],
+            "SAME": [
+                "040093",
+                "040151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC093",
+            "https://api.weather.gov/zones/county/OKC151"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996848-3391330",
+                "identifier": "NWS-IDP-PROD-3996848-3391330",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T08:03:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996851-3391333",
+                "identifier": "NWS-IDP-PROD-3996851-3391333",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T08:08:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T08:19:00-06:00",
+        "effective": "2020-01-10T08:19:00-06:00",
+        "onset": "2020-01-10T08:19:00-06:00",
+        "expires": "2020-01-10T08:45:00-06:00",
+        "ends": "2020-01-10T08:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 8:19AM CST until January 10 at 8:45AM CST by NWS Norman OK",
+        "description": "At 819 AM CST, a severe thunderstorm was located 4 miles east of\nOrion, moving north at 40 mph.\n\nHAZARD...Golf ball size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect damage\nto roofs, siding, windows, and vehicles.\n\nThis severe thunderstorm will remain over mainly rural areas of\nsoutheastern Woods and central Major Counties.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T08:19:00.000-06:00...storm...201DEG...34KT...36.23,-98.69"
+            ],
+            "hailSize": [
+                1.75
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 845 AM CST FOR SOUTHEASTERN WOODS AND CENTRAL MAJOR COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOUN.SV.W.0003.000000T0000Z-200110T1445Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSVSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T08:45:00-06:00"
+            ]
+        }
+    }
+}
