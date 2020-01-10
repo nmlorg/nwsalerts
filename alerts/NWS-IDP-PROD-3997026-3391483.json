@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997026-3391483",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.5,
+                    38.72
+                ],
+                [
+                    -91.5,
+                    38.69
+                ],
+                [
+                    -91.56,
+                    38.659999899999995
+                ],
+                [
+                    -91.64,
+                    38.67999999999999
+                ],
+                [
+                    -91.64,
+                    38.729999899999996
+                ],
+                [
+                    -91.5,
+                    38.72
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997026-3391483",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997026-3391483",
+        "areaDesc": "Montgomery, MO; Gasconade, MO",
+        "geocode": {
+            "UGC": [
+                "MOC139",
+                "MOC073"
+            ],
+            "SAME": [
+                "029139",
+                "029073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC139",
+            "https://api.weather.gov/zones/county/MOC073"
+        ],
+        "references": [],
+        "sent": "2020-01-10T09:40:00-06:00",
+        "effective": "2020-01-10T09:40:00-06:00",
+        "onset": "2020-01-11T16:10:00-06:00",
+        "expires": "2020-01-11T15:39:00-06:00",
+        "ends": "2020-01-15T05:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 10 at 9:40AM CST until January 15 at 5:15AM CST by NWS St Louis MO",
+        "description": "...The National Weather Service in St. Louis has issued a flood\nwarning for the following rivers in Missouri...\n\n\nMissouri River near Chamois\n\nMissouri River at Gasconade\n\nMissouri River at Hermann\n\nOsage River near Mari-Osa Campground\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe National Weather Service in St. Louis has issued a\n\n* Flood Warning for\nthe Missouri River at Gasconade\n* from Saturday afternoon to late Tuesday night.\n* Flood stage is 22.0 feet.\n* The river is forecast to have a maximum value of 25.6 feet Sunday\nearly afternoon.\n* Impact:  At 24.5 feet...Southern portions of Old Rock Road and\nTwisters Road south of Rhineland begin flooding near this height.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLSX.FL.W.0008.200111T2210Z-200115T1115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLWLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T05:15:00-06:00"
+            ]
+        }
+    }
+}
