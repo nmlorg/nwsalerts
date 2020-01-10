@@ -1,0 +1,86 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997533",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.48,
+                    37.39
+                ],
+                [
+                    -95.10000000000001,
+                    37.38
+                ],
+                [
+                    -95.43,
+                    37
+                ],
+                [
+                    -95.59,
+                    37
+                ],
+                [
+                    -95.48,
+                    37.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997533",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997533",
+        "areaDesc": "Montgomery; Labette",
+        "geocode": {
+            "UGC": [
+                "KSZ099",
+                "KSZ100"
+            ],
+            "SAME": [
+                "020125",
+                "020099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KSZ099",
+            "https://api.weather.gov/zones/forecast/KSZ100"
+        ],
+        "references": [],
+        "sent": "2020-01-10T13:10:00-06:00",
+        "effective": "2020-01-10T13:10:00-06:00",
+        "onset": "2020-01-10T13:10:00-06:00",
+        "expires": "2020-01-10T14:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wichita KS",
+        "headline": "Special Weather Statement issued January 10 at 1:10PM CST by NWS Wichita KS",
+        "description": "The National Weather Service in Wichita has issued a\n\n* Significant Weather Advisory for...\nSoutheastern Montgomery County in southeastern Kansas...\nNorthwestern Labette County in southeastern Kansas...\n\n* Until 200 PM CST.\n\n* At 108 PM CST...National Weather Service meteorologists were\ntracking a strong thunderstorm 7 miles east of Coffeyville...moving\nnortheast at 45 mph.\n\nhail up to the size of dimes will be possible with this storm.\n\n* Locations impacted include...\nParsons, Altamont, Mound Valley, Big Hill Lake, Angola and Dennis.\n\nA Severe Thunderstorm Watch remains in effect until 200 PM CST for\nsoutheastern Kansas.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T13:10:00.000-06:00...storm...207DEG...38KT...37.05,-95.5"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ICTSPSICT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
