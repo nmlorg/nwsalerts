@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997180-3391600",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.56,
+                    41.22
+                ],
+                [
+                    -87.28,
+                    41.28
+                ],
+                [
+                    -87.25,
+                    41.17
+                ],
+                [
+                    -87.53,
+                    41.11
+                ],
+                [
+                    -87.56,
+                    41.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997180-3391600",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997180-3391600",
+        "areaDesc": "Newton, IN; Lake, IN",
+        "geocode": {
+            "UGC": [
+                "INC111",
+                "INC089"
+            ],
+            "SAME": [
+                "018111",
+                "018089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC111",
+            "https://api.weather.gov/zones/county/INC089"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995893-3390532",
+                "identifier": "NWS-IDP-PROD-3995893-3390532",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T19:45:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T10:21:00-06:00",
+        "effective": "2020-01-10T10:21:00-06:00",
+        "onset": "2020-01-12T02:00:00-06:00",
+        "expires": "2020-01-11T00:21:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 10 at 10:21AM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in Indiana...\nIllinois...\n\nIroquois River at Rensselaer affecting Jasper County\nIroquois River near Foresman affecting Newton County\nIroquois River at Iroquois affecting Iroquois County\nIroquois River near Chebanse affecting Iroquois and Kankakee\nCounties\nKankakee River at Dunns Bridge affecting Porter County\nKankakee River near Kouts affecting Jasper and Porter Counties\nKankakee River at Shelby affecting Lake and Newton Counties\nKankakee River at Momence affecting Kankakee County\nKankakee River near Wilmington affecting Grundy...Kankakee and Will\nCounties\nSugar Creek at Milford affecting Iroquois County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Warning continues for\nThe Kankakee River at Shelby, or from Near I-65 and De Motte\ndownstream to IL/IN state line.\n* from late Saturday night until further notice.\n* At  945 AM Friday the stage was 7.1 feet.\n* Flood stage is 10.5 feet.\n* Moderate flooding is forecast.\n* Forecast...Rise above flood stage by early Sunday morning and\ncontinue to rise to near 12.0 feet by Tuesday evening.\n* Impact...At 12.0 feet...IN-55 is threatened south of the river.\nCounty Road 1200W/Range Line Road is threatened north of the river.\nCounty Road 1150N is threatened at Sumava Resorts.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0003.200112T0800Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
