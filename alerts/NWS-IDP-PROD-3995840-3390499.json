@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995840-3390499",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.06,
+                    35.45
+                ],
+                [
+                    -94.04,
+                    35.61
+                ],
+                [
+                    -93.94000000000001,
+                    35.62
+                ],
+                [
+                    -94.00000000000001,
+                    35.57
+                ],
+                [
+                    -94.03000000000002,
+                    35.46
+                ],
+                [
+                    -94.06,
+                    35.45
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995840-3390499",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995840-3390499",
+        "areaDesc": "Crawford, AR; Franklin, AR",
+        "geocode": {
+            "UGC": [
+                "ARC033",
+                "ARC047"
+            ],
+            "SAME": [
+                "005033",
+                "005047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC033",
+            "https://api.weather.gov/zones/county/ARC047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995298-3390048",
+                "identifier": "NWS-IDP-PROD-3995298-3390048",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T13:10:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T19:15:00-06:00",
+        "effective": "2020-01-09T19:15:00-06:00",
+        "onset": "2020-01-09T19:15:00-06:00",
+        "expires": "2020-01-10T03:13:00-06:00",
+        "ends": "2020-01-12T09:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Advisory issued January 9 at 7:15PM CST until January 12 at 9:00AM CST by NWS Tulsa OK",
+        "description": "...The Flood Advisory continues for the following rivers in\nArkansas...Oklahoma...\n\nLee Creek near Van Buren affecting Crawford and Sequoyah Counties\nMulberry River near Mulberry affecting Crawford and Franklin\nCounties\n\nThe Flood Advisory continues for\nThe Mulberry River near Mulberry\n* until Sunday morning, or until the advisory is cancelled.\n* At 6:30 PM Thursday, the stage was 2.2 feet.\n* Action stage is 10.0 feet.\n* Flood stage is 18.0 feet.\n* Forecast...The river will rise to near 15.9 feet by early Saturday\nafternoon, which is below flood stage.\n* Impact...At 16.0 feet, agricultural and timber lands along the left\nbank and in the vicinity of the gage are threatened. The first\nseveral miles of the river are subject to backwater flooding from\nthe Arkansas River. Mulberry and the area south of I-40 are\nthreatened. The river is swift and dangerous.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KTSA.FL.Y.0002.000000T0000Z-200112T1500Z/"
+            ],
+            "PIL": [
+                "TSAFLSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T09:00:00-06:00"
+            ]
+        }
+    }
+}

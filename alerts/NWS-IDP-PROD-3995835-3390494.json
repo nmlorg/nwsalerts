@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995835-3390494",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.98,
+                    41.37
+                ],
+                [
+                    -88.79,
+                    41.37
+                ],
+                [
+                    -88.79,
+                    41.3
+                ],
+                [
+                    -88.99000000000001,
+                    41.279999999999994
+                ],
+                [
+                    -88.98,
+                    41.37
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995835-3390494",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995835-3390494",
+        "areaDesc": "La Salle",
+        "geocode": {
+            "UGC": [
+                "ILZ019"
+            ],
+            "SAME": [
+                "017099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ILZ019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995177-3389954",
+                "identifier": "NWS-IDP-PROD-3995177-3389954",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T11:23:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T19:14:00-06:00",
+        "effective": "2020-01-09T19:14:00-06:00",
+        "onset": "2020-01-11T21:47:00-06:00",
+        "expires": "2020-01-10T07:14:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Watch issued January 9 at 7:14PM CST by NWS Chicago IL",
+        "description": "...The Flood Watch continues for the following rivers in Illinois...\n\nIllinois River at Morris affecting Grundy County\nIllinois River at Ottawa affecting La Salle County\nIllinois River at La Salle affecting Bureau...La Salle and Putnam\nCounties\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Watch continues for\nThe Illinois River at Ottawa, or from Heritage Harbor east of Ottawa\ndownstream to Starved Rock Lock and Dam.\n* from Saturday evening until further notice.\n* At  6:30 PM Thursday the stage was 459.3 feet.\n* Moderate flooding is possible.\n* Flood stage is 463.0 feet.\n* Forecast...Flood stage may be reached by Saturday evening. The\nriver may crest near 468.5 feet Monday morning.\n* Impact...At 469.0 feet...Backwater causes the Fox River to reach\nbankfull near the YMCA in Ottawa.",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLOT.FL.A.0006.200112T0347Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFFALOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
