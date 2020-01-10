@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997805-3392189",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.42,
+                    37.81
+                ],
+                [
+                    -93.26,
+                    37.77
+                ],
+                [
+                    -93.55000000000001,
+                    37.620000000000005
+                ],
+                [
+                    -93.61000000000001,
+                    37.68000000000001
+                ],
+                [
+                    -93.61000000000001,
+                    37.70000000000001
+                ],
+                [
+                    -93.56000000000002,
+                    37.81000000000001
+                ],
+                [
+                    -93.42,
+                    37.81
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997805-3392189",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997805-3392189",
+        "areaDesc": "Polk, MO",
+        "geocode": {
+            "UGC": [
+                "MOC167"
+            ],
+            "SAME": [
+                "029167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997776-3392169",
+                "identifier": "NWS-IDP-PROD-3997776-3392169",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:35:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T14:41:00-06:00",
+        "effective": "2020-01-10T14:41:00-06:00",
+        "onset": "2020-01-10T14:41:00-06:00",
+        "expires": "2020-01-10T15:00:00-06:00",
+        "ends": "2020-01-10T15:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Tornado Warning issued January 10 at 2:41PM CST until January 10 at 3:00PM CST by NWS Springfield MO",
+        "description": "At 240 PM CST, a confirmed tornado was located near Fair Play, or 8\nmiles northwest of Bolivar, moving northeast at 30 mph.\n\nHAZARD...Damaging tornado and golf ball size hail.\n\nSOURCE...Radar confirmed tornado.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nPomme de Terre Lake...            Humansville...\nFlemington...                     Dunnegan...",
+        "instruction": "To repeat, a tornado is on the ground. TAKE COVER NOW! Move to a\nbasement or an interior room on the lowest floor of a sturdy\nbuilding. Avoid windows. If you are outdoors, in a mobile home, or in\na vehicle, move to the closest substantial shelter and protect\nyourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T14:40:00.000-06:00...storm...228DEG...28KT...37.69,-93.52"
+            ],
+            "hailSize": [
+                1.75
+            ],
+            "tornadoDetection": [
+                "OBSERVED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 300 PM CST FOR NORTHWESTERN POLK COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KSGF.TO.W.0003.000000T0000Z-200110T2100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T15:00:00-06:00"
+            ]
+        }
+    }
+}

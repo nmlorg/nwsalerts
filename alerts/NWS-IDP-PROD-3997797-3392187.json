@@ -1,0 +1,123 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997797-3392187",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.94,
+                    34.55
+                ],
+                [
+                    -95.88,
+                    34.599999999999994
+                ],
+                [
+                    -95.88,
+                    34.589999999999996
+                ],
+                [
+                    -95.81,
+                    34.589999999999996
+                ],
+                [
+                    -95.8,
+                    34.599999999999994
+                ],
+                [
+                    -95.84,
+                    34.50999999999999
+                ],
+                [
+                    -95.9,
+                    34.51999999999999
+                ],
+                [
+                    -95.94,
+                    34.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997797-3392187",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997797-3392187",
+        "areaDesc": "Atoka, OK",
+        "geocode": {
+            "UGC": [
+                "OKC005"
+            ],
+            "SAME": [
+                "040005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC005"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997752-3392139",
+                "identifier": "NWS-IDP-PROD-3997752-3392139",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:32:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997708-3392110",
+                "identifier": "NWS-IDP-PROD-3997708-3392110",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:20:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T14:39:00-06:00",
+        "effective": "2020-01-10T14:39:00-06:00",
+        "onset": "2020-01-10T14:39:00-06:00",
+        "expires": "2020-01-10T14:45:00-06:00",
+        "ends": "2020-01-10T14:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Tornado Warning issued January 10 at 2:39PM CST until January 10 at 2:45PM CST by NWS Norman OK",
+        "description": "At 239 PM CST, a severe thunderstorm capable of producing a tornado\nwas located 8 miles west of Daisy, moving northeast at 50 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis tornadic thunderstorm will remain over mainly rural areas of\nnortheastern Atoka County.",
+        "instruction": "TAKE COVER NOW! Move to a storm shelter, safe room, or an interior\nroom on the lowest floor of a sturdy building. Avoid windows. If you\nare outdoors, in a mobile home, or in a vehicle, move to the closest\nsubstantial shelter and protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T14:39:00.000-06:00...storm...234DEG...42KT...34.55,-95.89"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 245 PM CST FOR NORTHEASTERN ATOKA COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KOUN.TO.W.0003.000000T0000Z-200110T2045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSVSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T14:45:00-06:00"
+            ]
+        }
+    }
+}
