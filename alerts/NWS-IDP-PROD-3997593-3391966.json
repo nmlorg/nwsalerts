@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997593-3391966",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.27,
+                    32.97
+                ],
+                [
+                    -96.14999999999999,
+                    32.93
+                ],
+                [
+                    -96.19999999999999,
+                    32.83
+                ],
+                [
+                    -96.33999999999999,
+                    32.87
+                ],
+                [
+                    -96.27,
+                    32.97
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997593-3391966",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997593-3391966",
+        "areaDesc": "Rockwall, TX; Hunt, TX",
+        "geocode": {
+            "UGC": [
+                "TXC397",
+                "TXC231"
+            ],
+            "SAME": [
+                "048397",
+                "048231"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC397",
+            "https://api.weather.gov/zones/county/TXC231"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997173-3391593",
+                "identifier": "NWS-IDP-PROD-3997173-3391593",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T10:21:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T13:44:00-06:00",
+        "effective": "2020-01-10T13:44:00-06:00",
+        "onset": "2020-01-11T07:12:00-06:00",
+        "expires": "2020-01-11T01:42:00-06:00",
+        "ends": "2020-01-12T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Flood Warning issued January 10 at 1:44PM CST until January 12 at 6:00AM CST by NWS Fort Worth TX",
+        "description": "...The Flood Warning continues for the following areas in Texas...\n\nCowleech Fork Sabine River At Greenville Affecting Hunt County\n\nSouth Fork Sabine River Near Quinlan Affecting Hunt and Rockwall\nCounties\n\nThe Flood Warning continues for\nThe South Fork Sabine River Near Quinlan.\n* At 1245 PM Friday the stage was 4.38 feet.\n* Flood stage is 15 feet.\n* Minor flooding is forecast.\n* Forecast...The river is expected to rise above flood stage by\nSaturday morning and crest near 15 feet by Saturday afternoon. The\nriver should fall below flood stage by Saturday evening.\n* At 15 feet, minor out of bank flooding will occur.",
+        "instruction": "Do not drive cars through flooded areas.\nCaution is urged when walking near riverbanks.\nStay tuned to NOAA All Hazards Radio for the latest river forecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFWD.FL.W.0002.200111T1312Z-200112T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDFLSFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T06:00:00-06:00"
+            ]
+        }
+    }
+}
