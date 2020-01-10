@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997878-3392258",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.36,
+                    39.6
+                ],
+                [
+                    -87.4,
+                    39.43
+                ],
+                [
+                    -87.5699999,
+                    39.3
+                ],
+                [
+                    -87.63,
+                    39.32
+                ],
+                [
+                    -87.47,
+                    39.45
+                ],
+                [
+                    -87.41,
+                    39.6
+                ],
+                [
+                    -87.36,
+                    39.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997878-3392258",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997878-3392258",
+        "areaDesc": "Crawford, IL; Sullivan, IN; Clark, IL; Vigo, IN",
+        "geocode": {
+            "UGC": [
+                "ILC033",
+                "INC153",
+                "ILC023",
+                "INC167"
+            ],
+            "SAME": [
+                "017033",
+                "018153",
+                "017023",
+                "018167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC153",
+            "https://api.weather.gov/zones/county/ILC023",
+            "https://api.weather.gov/zones/county/INC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997126-3391546",
+                "identifier": "NWS-IDP-PROD-3997126-3391546",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:09:00-05:00"
+            }
+        ],
+        "sent": "2020-01-10T15:54:00-05:00",
+        "effective": "2020-01-10T15:54:00-05:00",
+        "onset": "2020-01-11T15:36:00-05:00",
+        "expires": "2020-01-11T15:53:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 10 at 3:54PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Buck Creek...Driftwood River...Eagle Creek...East\nFork White River...Eel River...Flatrock River...Mill Creek...\nMississinewa River...Sugar Creek...Tippecanoe River...Wabash\nRiver...White River...Wildcat Creek...Youngs Creek...\n\n.With rainfall totals between 1 to 2 inches there are\nwidespread flooding concerns across much of Indiana. Over the next\ncouple of days we will see another 1 to 3 inches of rain or more\npossible.\n\nThe Flood Warning continues for\nThe Wabash River at Terre Haute.\n* from Saturday afternoon until further notice.\n* At  3:30 PM Friday the stage was 9.6 feet. This is 2.0 to 2.5 feet\nhigher than the observations from the old legacy gauge.\n* Flood stage is 16.5 feet. This is 2.5 feet higher than flood stage\nfrom the old legacy gauge.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by Saturday afternoon and\ncontinue to rise to near 22.8 feet by Tuesday afternoon.\n* At 22.5 feet...Extensive flooding behind Honey Creek Levee as a\nresult of two unrepaired levee breaks from the April 2013 flood.\nThis levee is maintained by the Honey Creek Levee Association.\nFlood waters behind the Honey Creek levee inundates most roads and\naffects a few residences and or commercial activities.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0016.200111T2036Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

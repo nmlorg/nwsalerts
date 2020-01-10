@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997866-3392246",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.09,
+                    40.33
+                ],
+                [
+                    -87.37,
+                    40.17
+                ],
+                [
+                    -87.39,
+                    39.97
+                ],
+                [
+                    -87.45,
+                    39.97
+                ],
+                [
+                    -87.47,
+                    40.199999999999996
+                ],
+                [
+                    -87.09,
+                    40.4
+                ],
+                [
+                    -87.09,
+                    40.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997866-3392246",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997866-3392246",
+        "areaDesc": "Vermillion, IN; Warren, IN; Fountain, IN; Parke, IN",
+        "geocode": {
+            "UGC": [
+                "INC165",
+                "INC171",
+                "INC045",
+                "INC121"
+            ],
+            "SAME": [
+                "018165",
+                "018171",
+                "018045",
+                "018121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC165",
+            "https://api.weather.gov/zones/county/INC171",
+            "https://api.weather.gov/zones/county/INC045",
+            "https://api.weather.gov/zones/county/INC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997113-3391533",
+                "identifier": "NWS-IDP-PROD-3997113-3391533",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:09:00-05:00"
+            }
+        ],
+        "sent": "2020-01-10T15:54:00-05:00",
+        "effective": "2020-01-10T15:54:00-05:00",
+        "onset": "2020-01-12T08:33:00-05:00",
+        "expires": "2020-01-11T15:53:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 10 at 3:54PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Buck Creek...Driftwood River...Eagle Creek...East\nFork White River...Eel River...Flatrock River...Mill Creek...\nMississinewa River...Sugar Creek...Tippecanoe River...Wabash\nRiver...White River...Wildcat Creek...Youngs Creek...\n\n.With rainfall totals between 1 to 2 inches there are\nwidespread flooding concerns across much of Indiana. Over the next\ncouple of days we will see another 1 to 3 inches of rain or more\npossible.\n\nThe Flood Warning continues for\nThe Wabash River at Covington.\n* from Sunday morning until further notice.\n* At  2:45 PM Friday the stage was 8.1 feet.\n* Flood stage is 16.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by Sunday morning and continue to\nrise to near 22.5 feet by Wednesday morning.\n* At 23.0 feet...Flood water is at critical height for most\nagricultural levees.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0013.200112T1333Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

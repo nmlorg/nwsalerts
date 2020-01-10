@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997857-3392237",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.53,
+                    38.8
+                ],
+                [
+                    -86.67,
+                    38.75
+                ],
+                [
+                    -86.73,
+                    38.69
+                ],
+                [
+                    -86.81,
+                    38.72
+                ],
+                [
+                    -86.68,
+                    38.8
+                ],
+                [
+                    -86.56,
+                    38.849999999999994
+                ],
+                [
+                    -86.53,
+                    38.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997857-3392237",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997857-3392237",
+        "areaDesc": "Martin, IN; Lawrence, IN",
+        "geocode": {
+            "UGC": [
+                "INC101",
+                "INC093"
+            ],
+            "SAME": [
+                "018101",
+                "018093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC101",
+            "https://api.weather.gov/zones/county/INC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997120-3391540",
+                "identifier": "NWS-IDP-PROD-3997120-3391540",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:09:00-05:00"
+            }
+        ],
+        "sent": "2020-01-10T15:54:00-05:00",
+        "effective": "2020-01-10T15:54:00-05:00",
+        "onset": "2020-01-11T16:20:00-05:00",
+        "expires": "2020-01-11T15:53:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 10 at 3:54PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Buck Creek...Driftwood River...Eagle Creek...East\nFork White River...Eel River...Flatrock River...Mill Creek...\nMississinewa River...Sugar Creek...Tippecanoe River...Wabash\nRiver...White River...Wildcat Creek...Youngs Creek...\n\n.With rainfall totals between 1 to 2 inches there are\nwidespread flooding concerns across much of Indiana. Over the next\ncouple of days we will see another 1 to 3 inches of rain or more\npossible.\n\nThe Flood Warning continues for\nThe East Fork White River at Williams.\n* from Saturday afternoon until further notice.\n* At  7:00 AM Friday the stage was 4.3 feet.\n* Flood stage is 8.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by Saturday afternoon and\ncontinue to rise to near 10.3 feet by late Saturday night and will\nrise later to 11.9 by Thursday afternoon.\n* At 12.0 feet...River begins to be noticeable as water backs up in\nlocal streams.  State Road 450 closes in several locations.  Higher\ncampgrounds flood.  Most roads in the flood plain are impassable\nabove this level.  Huron-Williams Road begins to flood south of\nPort Williams Road.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0034.200111T2120Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997850-3392230",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.67,
+                    35.9
+                ],
+                [
+                    -95,
+                    35.699999999999996
+                ],
+                [
+                    -95.0699999,
+                    35.709999999999994
+                ],
+                [
+                    -95.12,
+                    35.809999999999995
+                ],
+                [
+                    -94.98,
+                    36.08
+                ],
+                [
+                    -94.67,
+                    35.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997850-3392230",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997850-3392230",
+        "areaDesc": "Cherokee, OK; Adair, OK",
+        "geocode": {
+            "UGC": [
+                "OKC021",
+                "OKC001"
+            ],
+            "SAME": [
+                "040021",
+                "040001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC021",
+            "https://api.weather.gov/zones/county/OKC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997831-3392215",
+                "identifier": "NWS-IDP-PROD-3997831-3392215",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:49:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997777-3392170",
+                "identifier": "NWS-IDP-PROD-3997777-3392170",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T14:36:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T14:53:00-06:00",
+        "effective": "2020-01-10T14:53:00-06:00",
+        "onset": "2020-01-10T14:53:00-06:00",
+        "expires": "2020-01-10T15:15:00-06:00",
+        "ends": "2020-01-10T15:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 2:53PM CST until January 10 at 3:15PM CST by NWS Tulsa OK",
+        "description": "At 253 PM CST, a confirmed tornado was located 6 miles northwest of\nCherokee Landing State Park, moving northeast at 45 mph.\n\nHAZARD...Damaging tornado and ping pong ball size hail.\n\nSOURCE...Radar confirmed tornado.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations in or near the path include...\nTahlequah...                      Eldon...\nCherokee Landing State Park...",
+        "instruction": "To repeat, a tornado is on the ground. TAKE COVER NOW! Move to a\nbasement or an interior room on the lowest floor of a sturdy\nbuilding. Avoid windows. If you are outdoors, in a mobile home, or in\na vehicle, move to the closest substantial shelter and protect\nyourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T14:53:00.000-06:00...storm...218DEG...38KT...35.82,-94.98"
+            ],
+            "hailSize": [
+                1.5
+            ],
+            "tornadoDetection": [
+                "OBSERVED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 315 PM CST FOR WEST CENTRAL ADAIR AND EASTERN CHEROKEE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.TO.W.0009.000000T0000Z-200110T2115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T15:15:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997898-3392278",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.62,
+                    36.5
+                ],
+                [
+                    -94.62,
+                    36.77
+                ],
+                [
+                    -94.28,
+                    36.89
+                ],
+                [
+                    -94.25,
+                    36.5
+                ],
+                [
+                    -94.62,
+                    36.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997898-3392278",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997898-3392278",
+        "areaDesc": "McDonald, MO; Newton, MO",
+        "geocode": {
+            "UGC": [
+                "MOC119",
+                "MOC145"
+            ],
+            "SAME": [
+                "029119",
+                "029145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC119",
+            "https://api.weather.gov/zones/county/MOC145"
+        ],
+        "references": [],
+        "sent": "2020-01-10T14:56:00-06:00",
+        "effective": "2020-01-10T14:56:00-06:00",
+        "onset": "2020-01-10T14:56:00-06:00",
+        "expires": "2020-01-10T15:45:00-06:00",
+        "ends": "2020-01-10T15:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 2:56PM CST until January 10 at 3:45PM CST by NWS Springfield MO",
+        "description": "The National Weather Service in Springfield has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Newton County in southwestern Missouri...\nMcDonald County in southwestern Missouri...\n\n* Until 345 PM CST.\n\n* At 255 PM CST, severe thunderstorms were located along a line\nextending from 7 miles northwest of Anderson to near Lanagan to\nnear Noel, moving northeast at 25 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* Locations impacted include...\nNeosho...                         Big Sugar Creek State Park...\nAnderson...                       Noel...\nDodge...                          Goodman...\nSouth West City...                Pineville...\nLanagan...                        Cayuga...\nTiff City...\n\nThis includes Interstate 49 between mile markers 1 and 20.",
+        "instruction": "A Tornado Watch remains in effect until 600 PM CST for southwestern\nMissouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T14:55:00.000-06:00...storm...238DEG...22KT...36.71,-94.55 36.63,-94.54 36.53,-94.54"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KSGF.SV.W.0006.200110T2056Z-200110T2145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVRSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T15:45:00-06:00"
+            ]
+        }
+    }
+}
