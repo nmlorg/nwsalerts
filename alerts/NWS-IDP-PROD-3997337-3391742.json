@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997337-3391742",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.01,
+                    36.67
+                ],
+                [
+                    -98.18,
+                    36.690000000000005
+                ],
+                [
+                    -98.12,
+                    36.85
+                ],
+                [
+                    -97.88000000000001,
+                    36.870000000000005
+                ],
+                [
+                    -98.01,
+                    36.67
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997337-3391742",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997337-3391742",
+        "areaDesc": "Alfalfa, OK; Grant, OK",
+        "geocode": {
+            "UGC": [
+                "OKC003",
+                "OKC053"
+            ],
+            "SAME": [
+                "040003",
+                "040053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC003",
+            "https://api.weather.gov/zones/county/OKC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997229-3391648",
+                "identifier": "NWS-IDP-PROD-3997229-3391648",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T10:33:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997287-3391707",
+                "identifier": "NWS-IDP-PROD-3997287-3391707",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T10:47:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T11:08:00-06:00",
+        "effective": "2020-01-10T11:08:00-06:00",
+        "onset": "2020-01-10T11:08:00-06:00",
+        "expires": "2020-01-10T11:15:00-06:00",
+        "ends": "2020-01-10T11:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 11:08AM CST until January 10 at 11:15AM CST by NWS Norman OK",
+        "description": "At 1108 AM CST, a severe thunderstorm was located 7 miles northeast\nof Great Salt Plains Lake, moving northeast at 45 mph.\n\nHAZARD...Quarter size hail with the potential for accumulating,\nsmall hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected. Accumulating hail may make\ntraffic difficult.\n\nLocations impacted include...\nEastern Great Salt Plains Lake.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T11:08:00.000-06:00...storm...202DEG...38KT...36.8,-98.08"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1115 AM CST FOR EAST CENTRAL ALFALFA AND WEST CENTRAL GRANT COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOUN.SV.W.0009.000000T0000Z-200110T1715Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSVSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T11:15:00-06:00"
+            ]
+        }
+    }
+}
