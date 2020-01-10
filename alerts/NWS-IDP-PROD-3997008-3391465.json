@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997008-3391465",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.2099999,
+                    35.53
+                ],
+                [
+                    -98.47,
+                    35.59
+                ],
+                [
+                    -98.27,
+                    36.09
+                ],
+                [
+                    -97.83,
+                    36.07
+                ],
+                [
+                    -98.2099999,
+                    35.53
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997008-3391465",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997008-3391465",
+        "areaDesc": "Canadian, OK; Blaine, OK; Kingfisher, OK",
+        "geocode": {
+            "UGC": [
+                "OKC017",
+                "OKC011",
+                "OKC073"
+            ],
+            "SAME": [
+                "040017",
+                "040011",
+                "040073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC017",
+            "https://api.weather.gov/zones/county/OKC011",
+            "https://api.weather.gov/zones/county/OKC073"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996975-3391438",
+                "identifier": "NWS-IDP-PROD-3996975-3391438",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T09:23:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T09:34:00-06:00",
+        "effective": "2020-01-10T09:34:00-06:00",
+        "onset": "2020-01-10T09:34:00-06:00",
+        "expires": "2020-01-10T10:15:00-06:00",
+        "ends": "2020-01-10T10:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 9:34AM CST until January 10 at 10:15AM CST by NWS Norman OK",
+        "description": "At 934 AM CST, a severe thunderstorm was located 4 miles northeast of\nGeary, moving northeast at 55 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\nLocations impacted include...\nGeary, Dover, Greenfield, Loyal and Omega.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T09:34:00.000-06:00...storm...204DEG...46KT...35.69,-98.27"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1015 AM CST FOR WESTERN KINGFISHER...EASTERN BLAINE AND NORTHWESTERN CANADIAN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOUN.SV.W.0006.000000T0000Z-200110T1615Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSVSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T10:15:00-06:00"
+            ]
+        }
+    }
+}
