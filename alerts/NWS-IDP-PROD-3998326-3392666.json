@@ -1,0 +1,118 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998326-3392666",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.86,
+                    36.1
+                ],
+                [
+                    -93.87,
+                    36.2
+                ],
+                [
+                    -93.65,
+                    36.49
+                ],
+                [
+                    -93.37,
+                    36.120000000000005
+                ],
+                [
+                    -93.48,
+                    36.120000000000005
+                ],
+                [
+                    -93.86,
+                    36.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998326-3392666",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998326-3392666",
+        "areaDesc": "Carroll, AR; Madison, AR",
+        "geocode": {
+            "UGC": [
+                "ARC015",
+                "ARC087"
+            ],
+            "SAME": [
+                "005015",
+                "005087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC015",
+            "https://api.weather.gov/zones/county/ARC087"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998313-3392654",
+                "identifier": "NWS-IDP-PROD-3998313-3392654",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:14:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998282-3392638",
+                "identifier": "NWS-IDP-PROD-3998282-3392638",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:01:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T17:24:00-06:00",
+        "effective": "2020-01-10T17:24:00-06:00",
+        "onset": "2020-01-10T17:24:00-06:00",
+        "expires": "2020-01-10T17:45:00-06:00",
+        "ends": "2020-01-10T17:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 5:24PM CST until January 10 at 5:45PM CST by NWS Tulsa OK",
+        "description": "At 524 PM CST, a severe thunderstorm capable of producing a tornado\nwas located 3 miles east of Hindsville, moving northeast at 50 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations in or near the path include...\nBerryville...                     Huntsville...\nEureka Springs...                 Hindsville...\nWithrow Springs State Park...     Rudd...\nMarble...                         Forum...\nGrandview...                      Clifty...\nRockhouse...                      Dryfork...\nCabanal...                        Metalton...\nAlabam...                         Pleasant Ridge...",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T17:24:00.000-06:00...storm...239DEG...44KT...36.16,-93.8"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 545 PM CST FOR NORTHERN MADISON AND CENTRAL CARROLL COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.TO.W.0013.000000T0000Z-200110T2345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T17:45:00-06:00"
+            ]
+        }
+    }
+}
