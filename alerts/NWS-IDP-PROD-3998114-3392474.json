@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998114-3392474",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.58,
+                    35.82
+                ],
+                [
+                    -94.73,
+                    35.95
+                ],
+                [
+                    -94.34,
+                    36.2299999
+                ],
+                [
+                    -93.97,
+                    36.1599999
+                ],
+                [
+                    -94.58,
+                    35.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998114-3392474",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998114-3392474",
+        "areaDesc": "Washington, AR; Benton, AR; Adair, OK",
+        "geocode": {
+            "UGC": [
+                "ARC143",
+                "ARC007",
+                "OKC001"
+            ],
+            "SAME": [
+                "005143",
+                "005007",
+                "040001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC143",
+            "https://api.weather.gov/zones/county/ARC007",
+            "https://api.weather.gov/zones/county/OKC001"
+        ],
+        "references": [],
+        "sent": "2020-01-10T15:49:00-06:00",
+        "effective": "2020-01-10T15:49:00-06:00",
+        "onset": "2020-01-10T15:49:00-06:00",
+        "expires": "2020-01-10T16:30:00-06:00",
+        "ends": "2020-01-10T16:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 3:49PM CST until January 10 at 4:30PM CST by NWS Tulsa OK",
+        "description": "The National Weather Service in Tulsa has issued a\n\n* Severe Thunderstorm Warning for...\nSouth central Benton County in northwestern Arkansas...\nNorthern Washington County in northwestern Arkansas...\nCentral Adair County in northeastern Oklahoma...\n\n* Until 430 PM CST.\n\n* At 349 PM CST, a severe thunderstorm was located over Baron, moving\nnortheast at 45 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations in or near the path include...\nFayetteville...                   Springdale...\nFarmington...                     Prairie Grove...\nTontitown...                      Lincoln...\nWestville...                      Christie...\nCincinnati...                     Baron...\nJohnson...                        Elm Springs...\nGoshen...                         Prairie Grove Battlefield\nState...\nWalnut Grove...                   Savoy...\nWedington...                      Rhea...\nSummers...                        Wheeler...\n\nThis includes Interstate 49 between mile markers 61 and 73.\n\nA Tornado Watch remains in effect until 600 PM CST for northwestern\nArkansas...and northeastern Oklahoma.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T15:49:00.000-06:00...storm...221DEG...37KT...35.93,-94.61"
+            ],
+            "hailSize": [
+                0.75
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KTSA.SV.W.0014.200110T2149Z-200110T2230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVRTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T16:30:00-06:00"
+            ]
+        }
+    }
+}
