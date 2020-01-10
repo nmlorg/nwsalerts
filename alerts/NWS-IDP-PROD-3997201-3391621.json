@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997201-3391621",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.95,
+                    37.31
+                ],
+                [
+                    -97.72,
+                    37.21
+                ],
+                [
+                    -97.88,
+                    37
+                ],
+                [
+                    -98.08999999999999,
+                    37.07
+                ],
+                [
+                    -97.95,
+                    37.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997201-3391621",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997201-3391621",
+        "areaDesc": "Harper, KS; Sumner, KS",
+        "geocode": {
+            "UGC": [
+                "KSC077",
+                "KSC191"
+            ],
+            "SAME": [
+                "020077",
+                "020191"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KSC077",
+            "https://api.weather.gov/zones/county/KSC191"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997164-3391584",
+                "identifier": "NWS-IDP-PROD-3997164-3391584",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T10:15:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T10:25:00-06:00",
+        "effective": "2020-01-10T10:25:00-06:00",
+        "onset": "2020-01-10T10:25:00-06:00",
+        "expires": "2020-01-10T11:00:00-06:00",
+        "ends": "2020-01-10T11:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wichita KS",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 10:25AM CST until January 10 at 11:00AM CST by NWS Wichita KS",
+        "description": "At 1024 AM CST, a severe thunderstorm was located 6 miles east of\nAnthony, moving northeast at 35 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nAnthony, Bluff City, Danville and Freeport.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTo report severe weather contact your nearest law enforcement agency.\nThey will send your report to the National Weather Service office in\nWichita.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T10:24:00.000-06:00...storm...210DEG...31KT...37.16,-97.9"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1100 AM CST FOR EASTERN HARPER AND WESTERN SUMNER COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KICT.SV.W.0001.000000T0000Z-200110T1700Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ICTSVSICT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T11:00:00-06:00"
+            ]
+        }
+    }
+}
