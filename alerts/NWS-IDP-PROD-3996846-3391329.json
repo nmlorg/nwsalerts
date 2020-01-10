@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996846-3391329",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -99.3,
+                    36.35
+                ],
+                [
+                    -98.9599999,
+                    36.24
+                ],
+                [
+                    -99.37,
+                    35.870000000000005
+                ],
+                [
+                    -99.48,
+                    35.92
+                ],
+                [
+                    -99.3,
+                    36.35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996846-3391329",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996846-3391329",
+        "areaDesc": "Dewey, OK; Roger Mills, OK; Woodward, OK; Ellis, OK",
+        "geocode": {
+            "UGC": [
+                "OKC043",
+                "OKC129",
+                "OKC153",
+                "OKC045"
+            ],
+            "SAME": [
+                "040043",
+                "040129",
+                "040153",
+                "040045"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC043",
+            "https://api.weather.gov/zones/county/OKC129",
+            "https://api.weather.gov/zones/county/OKC153",
+            "https://api.weather.gov/zones/county/OKC045"
+        ],
+        "references": [],
+        "sent": "2020-01-10T07:57:00-06:00",
+        "effective": "2020-01-10T07:57:00-06:00",
+        "onset": "2020-01-10T07:57:00-06:00",
+        "expires": "2020-01-10T08:30:00-06:00",
+        "ends": "2020-01-10T08:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 7:57AM CST until January 10 at 8:30AM CST by NWS Norman OK",
+        "description": "The National Weather Service in Norman has issued a\n\n* Severe Thunderstorm Warning for...\nEast central Ellis County in northwestern Oklahoma...\nNortheastern Roger Mills County in western Oklahoma...\nNorthwestern Dewey County in northwestern Oklahoma...\nSoutheastern Woodward County in northwestern Oklahoma...\n\n* Until 830 AM CST.\n\n* At 757 AM CST, a severe thunderstorm was located 5 miles southwest\nof Camargo, moving northeast at 50 mph.\n\nHAZARD...Ping pong ball size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect\ndamage to roofs, siding, windows, and vehicles.\n\n* Locations impacted include...\nVici, Camargo, Mutual and Cestos.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T07:57:00.000-06:00...storm...208DEG...45KT...35.96,-99.37"
+            ],
+            "hailSize": [
+                1.5
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KOUN.SV.W.0002.200110T1357Z-200110T1430Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSVROUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T08:30:00-06:00"
+            ]
+        }
+    }
+}
