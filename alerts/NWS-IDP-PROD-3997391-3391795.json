@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997391-3391795",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.16,
+                    35.86
+                ],
+                [
+                    -95.36999999999999,
+                    35.92
+                ],
+                [
+                    -95.25999999999999,
+                    36.38
+                ],
+                [
+                    -94.81999989999998,
+                    36.29
+                ],
+                [
+                    -95.16,
+                    35.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997391-3391795",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997391-3391795",
+        "areaDesc": "Delaware, OK; Cherokee, OK; Mayes, OK; Wagoner, OK",
+        "geocode": {
+            "UGC": [
+                "OKC041",
+                "OKC021",
+                "OKC097",
+                "OKC145"
+            ],
+            "SAME": [
+                "040041",
+                "040021",
+                "040097",
+                "040145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC041",
+            "https://api.weather.gov/zones/county/OKC021",
+            "https://api.weather.gov/zones/county/OKC097",
+            "https://api.weather.gov/zones/county/OKC145"
+        ],
+        "references": [],
+        "sent": "2020-01-10T11:34:00-06:00",
+        "effective": "2020-01-10T11:34:00-06:00",
+        "onset": "2020-01-10T11:34:00-06:00",
+        "expires": "2020-01-10T12:15:00-06:00",
+        "ends": "2020-01-10T12:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 11:34AM CST until January 10 at 12:15PM CST by NWS Tulsa OK",
+        "description": "The National Weather Service in Tulsa has issued a\n\n* Tornado Warning for...\nSouthwestern Delaware County in northeastern Oklahoma...\nSoutheastern Mayes County in northeastern Oklahoma...\nEast central Wagoner County in northeastern Oklahoma...\nNorthwestern Cherokee County in east central Oklahoma...\n\n* Until 1215 PM CST.\n\n* At 1134 AM CST, a severe thunderstorm with strong low level\nrotation that could produce a tornado at any time was located 6\nmiles north of Sequoyah State Park, moving northeast at 30 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* Locations in or near the path include...\nWagoner...                        Locust Grove...\nSalina...                         Hulbert...\nLeach...                          Peggs...\nRose...                           Sportsmen Acres Community...\nSequoyah State Park...            Lost City...\nMurphy...                         Snowdale State Park...",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T11:34:00.000-06:00...storm...202DEG...26KT...35.98,-95.24"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KTSA.TO.W.0001.200110T1734Z-200110T1815Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSATORTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T12:15:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 12:15 PM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}
