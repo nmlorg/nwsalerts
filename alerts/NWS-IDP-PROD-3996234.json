@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996234",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.18,
+                    37.2
+                ],
+                [
+                    -96.29,
+                    37.35
+                ],
+                [
+                    -95.83000000000001,
+                    37.67
+                ],
+                [
+                    -95.58000000000001,
+                    37.31
+                ],
+                [
+                    -96.18,
+                    37.2
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996234",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996234",
+        "areaDesc": "Chautauqua; Elk; Wilson; Montgomery",
+        "geocode": {
+            "UGC": [
+                "KSZ098",
+                "KSZ094",
+                "KSZ095",
+                "KSZ099"
+            ],
+            "SAME": [
+                "020019",
+                "020049",
+                "020205",
+                "020125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KSZ098",
+            "https://api.weather.gov/zones/forecast/KSZ094",
+            "https://api.weather.gov/zones/forecast/KSZ095",
+            "https://api.weather.gov/zones/forecast/KSZ099"
+        ],
+        "references": [],
+        "sent": "2020-01-10T00:40:00-06:00",
+        "effective": "2020-01-10T00:40:00-06:00",
+        "onset": "2020-01-10T00:40:00-06:00",
+        "expires": "2020-01-10T01:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wichita KS",
+        "headline": "Special Weather Statement issued January 10 at 12:40AM CST by NWS Wichita KS",
+        "description": "The National Weather Service in Wichita has issued a\n\n* Significant Weather Advisory for...\nNorthern Montgomery County in southeastern Kansas...\nWestern Wilson County in southeastern Kansas...\nNortheastern Chautauqua County in southeastern Kansas...\nSoutheastern Elk County in southeastern Kansas...\n\n* Until 115 AM CST.\n\n* At 1237 AM CST...National Weather Service meteorologists were\ntracking a strong thunderstorm near Elk Falls, or 11 miles\nsoutheast of Howard...moving northeast at 55 mph.\n\n* Hail up to the size of dimes...and wind gusts up to 50 mph will be\npossible with this storm.\n\n* Locations impacted include...\nNeodesha, Fredonia, Longton, Elk City, Elk Falls, Sycamore, New\nAlbany, Hale, Buxton and Elk City Lake.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T00:40:00.000-06:00...storm...240DEG...49KT...37.32,-96.15"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ICTSPSICT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
