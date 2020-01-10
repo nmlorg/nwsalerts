@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997413-3391812",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.15,
+                    37.22
+                ],
+                [
+                    -97.14,
+                    37.479999899999996
+                ],
+                [
+                    -96.75,
+                    37.47
+                ],
+                [
+                    -96.9599999,
+                    37.18
+                ],
+                [
+                    -97.15,
+                    37.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997413-3391812",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997413-3391812",
+        "areaDesc": "Cowley, KS",
+        "geocode": {
+            "UGC": [
+                "KSC035"
+            ],
+            "SAME": [
+                "020035"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KSC035"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997353-3391759",
+                "identifier": "NWS-IDP-PROD-3997353-3391759",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:19:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997390-3391794",
+                "identifier": "NWS-IDP-PROD-3997390-3391794",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:33:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T11:46:00-06:00",
+        "effective": "2020-01-10T11:46:00-06:00",
+        "onset": "2020-01-10T11:46:00-06:00",
+        "expires": "2020-01-10T12:15:00-06:00",
+        "ends": "2020-01-10T12:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wichita KS",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 11:46AM CST until January 10 at 12:15PM CST by NWS Wichita KS",
+        "description": "At 1145 AM CST, a severe thunderstorm was located near Udall, moving\nnortheast at 45 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\nLocations impacted include...\nWinfield, Udall, Rock and Winfield City Lake.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T11:45:00.000-06:00...storm...208DEG...39KT...37.34,-97.07"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1215 PM CST FOR NORTHWESTERN COWLEY COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KICT.SV.W.0002.000000T0000Z-200110T1815Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ICTSVSICT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T12:15:00-06:00"
+            ]
+        }
+    }
+}

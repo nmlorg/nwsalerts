@@ -1,0 +1,133 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997419-3391815",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.8199999,
+                    36.29
+                ],
+                [
+                    -95.15,
+                    36
+                ],
+                [
+                    -95.23,
+                    36.03
+                ],
+                [
+                    -95.22,
+                    36.04
+                ],
+                [
+                    -95.2099999,
+                    36.04
+                ],
+                [
+                    -95.2099999,
+                    36.07
+                ],
+                [
+                    -95.22,
+                    36.08
+                ],
+                [
+                    -95.19,
+                    36.37
+                ],
+                [
+                    -94.8199999,
+                    36.29
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997419-3391815",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997419-3391815",
+        "areaDesc": "Delaware, OK; Cherokee, OK; Mayes, OK",
+        "geocode": {
+            "UGC": [
+                "OKC041",
+                "OKC021",
+                "OKC097"
+            ],
+            "SAME": [
+                "040041",
+                "040021",
+                "040097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC041",
+            "https://api.weather.gov/zones/county/OKC021",
+            "https://api.weather.gov/zones/county/OKC097"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997396-3391799",
+                "identifier": "NWS-IDP-PROD-3997396-3391799",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:41:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997391-3391795",
+                "identifier": "NWS-IDP-PROD-3997391-3391795",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:34:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T11:49:00-06:00",
+        "effective": "2020-01-10T11:49:00-06:00",
+        "onset": "2020-01-10T11:49:00-06:00",
+        "expires": "2020-01-10T12:15:00-06:00",
+        "ends": "2020-01-10T12:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued January 10 at 11:49AM CST until January 10 at 12:15PM CST by NWS Tulsa OK",
+        "description": "At 1148 AM CST, a severe thunderstorm capable of producing a tornado\nwas located 4 miles west of Peggs, moving northeast at 30 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations in or near the path include...\nLocust Grove...                   Salina...\nPeggs...                          Rose...\nLeach...                          Snowdale State Park...",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T11:48:00.000-06:00...storm...204DEG...26KT...36.06,-95.17"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 1215 PM CST FOR SOUTHWESTERN DELAWARE...SOUTHEASTERN MAYES AND NORTHWESTERN CHEROKEE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTSA.TO.W.0001.000000T0000Z-200110T1815Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASVSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T12:15:00-06:00"
+            ]
+        }
+    }
+}
