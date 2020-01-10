@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998373-3392712",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.35,
+                    31.22
+                ],
+                [
+                    -97.86999999999999,
+                    31.34
+                ],
+                [
+                    -97.91,
+                    31.04
+                ],
+                [
+                    -98.39,
+                    31.029999999999998
+                ],
+                [
+                    -98.35,
+                    31.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998373-3392712",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998373-3392712",
+        "areaDesc": "Coryell, TX; Lampasas, TX",
+        "geocode": {
+            "UGC": [
+                "TXC099",
+                "TXC281"
+            ],
+            "SAME": [
+                "048099",
+                "048281"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC099",
+            "https://api.weather.gov/zones/county/TXC281"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998344-3392683",
+                "identifier": "NWS-IDP-PROD-3998344-3392683",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:35:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T17:44:00-06:00",
+        "effective": "2020-01-10T17:44:00-06:00",
+        "onset": "2020-01-10T17:44:00-06:00",
+        "expires": "2020-01-10T18:30:00-06:00",
+        "ends": "2020-01-10T18:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 5:44PM CST until January 10 at 6:30PM CST by NWS Fort Worth TX",
+        "description": "At 542 PM CST, a severe thunderstorm was located over Lampasas,\nmoving northeast at 40 mph.\n\nHAZARD...65 mph wind gusts and half dollar size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nCopperas Cove and Kempner.",
+        "instruction": "For your protection stay inside a sturdy structure and keep away from\nwindows.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T17:42:00.000-06:00...storm...236DEG...36KT...31.09,-98.19"
+            ],
+            "hailSize": [
+                1.25
+            ],
+            "windGust": [
+                "65 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 630 PM CST FOR SOUTHWESTERN CORYELL AND SOUTHEASTERN LAMPASAS COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KFWD.SV.W.0009.000000T0000Z-200111T0030Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDSVSFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:30:00-06:00"
+            ]
+        }
+    }
+}

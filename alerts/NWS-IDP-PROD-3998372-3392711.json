@@ -1,0 +1,122 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998372-3392711",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.43,
+                    37.1
+                ],
+                [
+                    -93.33000000000001,
+                    37.17
+                ],
+                [
+                    -93.38000000000001,
+                    37.42
+                ],
+                [
+                    -93.11000000000001,
+                    37.4099999
+                ],
+                [
+                    -93.12000000000002,
+                    37.24
+                ],
+                [
+                    -93.26000000000002,
+                    37.1
+                ],
+                [
+                    -93.43,
+                    37.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998372-3392711",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998372-3392711",
+        "areaDesc": "Greene, MO",
+        "geocode": {
+            "UGC": [
+                "MOC077"
+            ],
+            "SAME": [
+                "029077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998343-3392682",
+                "identifier": "NWS-IDP-PROD-3998343-3392682",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:35:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998321-3392661",
+                "identifier": "NWS-IDP-PROD-3998321-3392661",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:22:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T17:43:00-06:00",
+        "effective": "2020-01-10T17:43:00-06:00",
+        "onset": "2020-01-10T17:43:00-06:00",
+        "expires": "2020-01-10T18:00:00-06:00",
+        "ends": "2020-01-10T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 5:43PM CST until January 10 at 6:00PM CST by NWS Springfield MO",
+        "description": "At 542 PM CST, severe thunderstorms were located along a line\nextending from near Fair Grove to near Springfield to 6 miles west of\nRogersville, moving east at 50 mph.\n\nHAZARD...70 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect considerable\ntree damage. Wind damage is also likely to mobile homes,\nroofs, and outbuildings.\n\nLocations impacted include...\nSpringfield...                    Battlefield...\nStrafford...                      Fair Grove...\nGlidewell...                      Ebenezer...\nBassville...                      Galloway...\n\nThis includes Interstate 44 between mile markers 75 and 87.",
+        "instruction": "A Tornado Watch remains in effect until 200 AM CST for southwestern\nMissouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with these storms, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T17:42:00.000-06:00...storm...267DEG...44KT...37.36,-93.22 37.2,-93.2 37.14,-93.18"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "70 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 600 PM CST FOR EASTERN GREENE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KSGF.SV.W.0010.000000T0000Z-200111T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:00:00-06:00"
+            ]
+        }
+    }
+}
