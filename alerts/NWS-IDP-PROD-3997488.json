@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997488",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.5699999,
+                    37.19
+                ],
+                [
+                    -94.76,
+                    37.29
+                ],
+                [
+                    -94.72,
+                    37.339999999999996
+                ],
+                [
+                    -94.62,
+                    37.339999999999996
+                ],
+                [
+                    -94.62,
+                    37.31999999999999
+                ],
+                [
+                    -94.4599999,
+                    37.309999999999995
+                ],
+                [
+                    -94.5699999,
+                    37.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997488",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997488",
+        "areaDesc": "Jasper; Cherokee",
+        "geocode": {
+            "UGC": [
+                "MOZ088",
+                "KSZ101"
+            ],
+            "SAME": [
+                "029097",
+                "020021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MOZ088",
+            "https://api.weather.gov/zones/forecast/KSZ101"
+        ],
+        "references": [],
+        "sent": "2020-01-10T12:35:00-06:00",
+        "effective": "2020-01-10T12:35:00-06:00",
+        "onset": "2020-01-10T12:35:00-06:00",
+        "expires": "2020-01-10T13:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Special Weather Statement issued January 10 at 12:35PM CST by NWS Springfield MO",
+        "description": "At 1235 PM CST, Doppler radar was tracking a strong thunderstorm 7\nmiles southeast of Pittsburg, moving northeast at 60 mph.\n\nHalf inch hail will be possible with this storm.\n\nLocations impacted include...\nAsbury...                         Waco...",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T12:35:00.000-06:00...storm...212DEG...53KT...37.32,-94.61"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHEASTERN CHEROKEE AND NORTHWESTERN JASPER COUNTIES UNTIL 115 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSPSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
