@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996265-3390817",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -123.4,
+                    46.82
+                ],
+                [
+                    -123.47,
+                    46.89
+                ],
+                [
+                    -123.62,
+                    46.89
+                ],
+                [
+                    -123.60000000000001,
+                    47.06
+                ],
+                [
+                    -123.33000000000001,
+                    47.07
+                ],
+                [
+                    -123.18,
+                    46.93
+                ],
+                [
+                    -123.4,
+                    46.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3996265-3390817",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3996265-3390817",
+        "areaDesc": "Grays Harbor, WA",
+        "geocode": {
+            "UGC": [
+                "WAC027"
+            ],
+            "SAME": [
+                "053027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC027"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995756-3390433",
+                "identifier": "NWS-IDP-PROD-3995756-3390433",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T15:54:00-08:00"
+            }
+        ],
+        "sent": "2020-01-10T00:00:00-08:00",
+        "effective": "2020-01-10T00:00:00-08:00",
+        "onset": "2020-01-10T00:00:00-08:00",
+        "expires": "2020-01-10T08:00:00-08:00",
+        "ends": "2020-01-10T21:32:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued January 10 at 12:00AM PST until January 10 at 9:32PM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nChehalis River At Porter affecting Grays Harbor County\n\nThe next system moving into the area Friday will bring another\n1 to 2 inches of precipitation. The snow level will start\noff low at about 1000 feet but will rise to over 3000 feet as the\nprecipitation comes in. The precipitation will not be enough to\nkeep the river from falling below flood stage Friday afternoon.\n\nThe Flood Warning continues for\nThe Chehalis River At Porter\n* Until Friday evening.\n* At 10:45 PM Thursday the stage was 48.7 feet.\n* Flood stage is 48.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river has crested and will continue to fall to below\nflood stage Friday early afternoon.\n* Impact...At 48.0 feet, the Chehalis River in Grays Harbor will flood\nlow pasture lands and some roads. High tidal levels at Aberdeen\nwill worsen flooding along the lower reaches.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KSEW.FL.W.0017.000000T0000Z-200111T0532Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T21:32:00-08:00"
+            ]
+        }
+    }
+}
