@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995851-3390500",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.89,
+                    41.09
+                ],
+                [
+                    -88.8,
+                    41.13
+                ],
+                [
+                    -88.52,
+                    40.84
+                ],
+                [
+                    -88.61,
+                    40.790000000000006
+                ],
+                [
+                    -88.89,
+                    41.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995851-3390500",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995851-3390500",
+        "areaDesc": "Livingston",
+        "geocode": {
+            "UGC": [
+                "ILZ032"
+            ],
+            "SAME": [
+                "017105"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ILZ032"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995168-3389945",
+                "identifier": "NWS-IDP-PROD-3995168-3389945",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T11:15:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T19:20:00-06:00",
+        "effective": "2020-01-09T19:20:00-06:00",
+        "onset": "2020-01-12T03:21:00-06:00",
+        "expires": "2020-01-10T07:19:00-06:00",
+        "ends": "2020-01-14T11:32:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Watch issued January 9 at 7:20PM CST until January 14 at 11:32AM CST by NWS Chicago IL",
+        "description": "...The Flood Watch continues for the following rivers in Illinois...\n\nMazon River near Coal City affecting Grundy County\nVermilion River at Pontiac affecting Livingston County\nVermilion River near Leonore affecting La Salle County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Watch continues for\nThe Vermilion River at Pontiac, or from Near Pontiac downstream to\nIL-23 near Streator.\n* from late Saturday night to Tuesday morning.\n* At  6:45 PM Thursday the stage was 3.4 feet.\n* Moderate flooding is possible.\n* Flood stage is 14.0 feet.\n* Forecast...Flood stage may be reached by Sunday morning. The river\nmay crest near 17 feet Monday morning.\n* Impact...At 17.0 feet...Numerous residences threatened along Grove\nStreet south of the river in Pontiac. Washington Elementary School\nis threatened in Pontiac.",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLOT.FL.A.0003.200112T0921Z-200114T1732Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFFALOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T11:32:00-06:00"
+            ]
+        }
+    }
+}

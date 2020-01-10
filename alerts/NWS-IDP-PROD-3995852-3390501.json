@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995852-3390501",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.12,
+                    41.31
+                ],
+                [
+                    -88.99000000000001,
+                    41.32
+                ],
+                [
+                    -88.80000000000001,
+                    41.13
+                ],
+                [
+                    -88.89000000000001,
+                    41.09
+                ],
+                [
+                    -89.12,
+                    41.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995852-3390501",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3995852-3390501",
+        "areaDesc": "La Salle",
+        "geocode": {
+            "UGC": [
+                "ILZ019"
+            ],
+            "SAME": [
+                "017099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ILZ019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3995167-3389944",
+                "identifier": "NWS-IDP-PROD-3995167-3389944",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T11:15:00-06:00"
+            }
+        ],
+        "sent": "2020-01-09T19:20:00-06:00",
+        "effective": "2020-01-09T19:20:00-06:00",
+        "onset": "2020-01-11T18:00:00-06:00",
+        "expires": "2020-01-10T07:19:00-06:00",
+        "ends": "2020-01-15T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Watch issued January 9 at 7:20PM CST until January 15 at 12:00PM CST by NWS Chicago IL",
+        "description": "...The Flood Watch continues for the following rivers in Illinois...\n\nMazon River near Coal City affecting Grundy County\nVermilion River at Pontiac affecting Livingston County\nVermilion River near Leonore affecting La Salle County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Watch continues for\nThe Vermilion River near Leonore, or from IL-23 near Streator\ndownstream to confluence with the Illinois River.\n* from Saturday evening to Wednesday afternoon.\n* At  5:45 PM Thursday the stage was 4.8 feet.\n* Moderate flooding is possible.\n* Flood stage is 16.0 feet.\n* Forecast...Flood stage may be reached by Saturday evening. The\nriver may crest near 24 feet Monday morning.",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLOT.FL.A.0004.200112T0000Z-200115T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFFALOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T12:00:00-06:00"
+            ]
+        }
+    }
+}
