@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997252-3391669",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.24,
+                    34.9099999
+                ],
+                [
+                    -96.33,
+                    34.940000000000005
+                ],
+                [
+                    -96.25,
+                    35.13
+                ],
+                [
+                    -96.1,
+                    35.07
+                ],
+                [
+                    -96.24,
+                    34.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997252-3391669",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3997252-3391669",
+        "areaDesc": "Hughes, OK",
+        "geocode": {
+            "UGC": [
+                "OKC063"
+            ],
+            "SAME": [
+                "040063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997222-3391641",
+                "identifier": "NWS-IDP-PROD-3997222-3391641",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T10:29:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997236-3391654",
+                "identifier": "NWS-IDP-PROD-3997236-3391654",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T10:38:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T10:44:00-06:00",
+        "effective": "2020-01-10T10:44:00-06:00",
+        "onset": "2020-01-10T10:44:00-06:00",
+        "expires": "2020-01-10T11:00:00-06:00",
+        "ends": "2020-01-10T11:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Tornado Warning issued January 10 at 10:44AM CST until January 10 at 11:00AM CST by NWS Norman OK",
+        "description": "At 1044 AM CST, a severe thunderstorm capable of producing a tornado\nwas located over Calvin, moving north at 40 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nCalvin and Horntown.",
+        "instruction": "TAKE COVER NOW! Move to a storm shelter, safe room, or an interior\nroom on the lowest floor of a sturdy building. Avoid windows. If you\nare outdoors, in a mobile home, or in a vehicle, move to the closest\nsubstantial shelter and protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T10:44:00.000-06:00...storm...201DEG...34KT...34.97,-96.27"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 1100 AM CST FOR CENTRAL HUGHES COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KOUN.TO.W.0001.000000T0000Z-200110T1700Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNSVSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T11:00:00-06:00"
+            ]
+        }
+    }
+}
