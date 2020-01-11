@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998777-3393089",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.63,
+                    38.75
+                ],
+                [
+                    -90.66,
+                    38.79
+                ],
+                [
+                    -90.63,
+                    38.83
+                ],
+                [
+                    -90.61,
+                    38.82
+                ],
+                [
+                    -90.62,
+                    38.76
+                ],
+                [
+                    -90.63,
+                    38.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998777-3393089",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998777-3393089",
+        "areaDesc": "St. Charles, MO",
+        "geocode": {
+            "UGC": [
+                "MOC183"
+            ],
+            "SAME": [
+                "029183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997245-3391662",
+                "identifier": "NWS-IDP-PROD-3997245-3391662",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T10:38:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T20:09:00-06:00",
+        "effective": "2020-01-10T20:09:00-06:00",
+        "onset": "2020-01-11T04:42:00-06:00",
+        "expires": "2020-01-11T20:09:00-06:00",
+        "ends": "2020-01-13T04:25:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 10 at 8:09PM CST until January 13 at 4:25AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\nCuivre River near Troy\n\nNorth River at Palmyra\n\nDardenne Creek at St. Peters\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nThe Dardenne Creek at St. Peters\n* from late tonight to late Sunday night.\n* At  7:00 PM Friday the stage was 12.7 feet.\n* Flood stage is 18.0 feet.\n* Moderate flooding is forecast.\n* The river is forecast to rise above flood stage by early tomorrow\nand crest near 20.0 feet by tomorrow early afternoon. The river is\nforecast to fall below flood stage by tomorrow late evening.\n* Impact:  At 20.0 feet...Outdoor exercise area at the St. Charles\nCounty Animal Control begins flooding near this height.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0019.200111T1042Z-200113T1025Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLWLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T04:25:00-06:00"
+            ]
+        }
+    }
+}
