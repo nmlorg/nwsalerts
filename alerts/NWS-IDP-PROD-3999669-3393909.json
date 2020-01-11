@@ -1,0 +1,143 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999669-3393909",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.91,
+                    31.16
+                ],
+                [
+                    -93.78,
+                    31.16
+                ],
+                [
+                    -94.13,
+                    29.65
+                ],
+                [
+                    -94.35,
+                    29.56
+                ],
+                [
+                    -94.36,
+                    29.889999999999997
+                ],
+                [
+                    -94.44,
+                    29.889999999999997
+                ],
+                [
+                    -94.42,
+                    30.109999999999996
+                ],
+                [
+                    -94.44,
+                    30.089999999999996
+                ],
+                [
+                    -94.1,
+                    31.109999999999996
+                ],
+                [
+                    -93.91,
+                    31.16
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999669-3393909",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999669-3393909",
+        "areaDesc": "Orange, TX; Tyler, TX; Jefferson, TX; Jasper, TX; Newton, TX; Hardin, TX",
+        "geocode": {
+            "UGC": [
+                "TXC361",
+                "TXC457",
+                "TXC245",
+                "TXC241",
+                "TXC351",
+                "TXC199"
+            ],
+            "SAME": [
+                "048361",
+                "048457",
+                "048245",
+                "048241",
+                "048351",
+                "048199"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC361",
+            "https://api.weather.gov/zones/county/TXC457",
+            "https://api.weather.gov/zones/county/TXC245",
+            "https://api.weather.gov/zones/county/TXC241",
+            "https://api.weather.gov/zones/county/TXC351",
+            "https://api.weather.gov/zones/county/TXC199"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999605-3393848",
+                "identifier": "NWS-IDP-PROD-3999605-3393848",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T01:31:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T01:57:00-06:00",
+        "effective": "2020-01-11T01:57:00-06:00",
+        "onset": "2020-01-11T01:57:00-06:00",
+        "expires": "2020-01-11T02:30:00-06:00",
+        "ends": "2020-01-11T02:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 1:57AM CST until January 11 at 2:30AM CST by NWS Lake Charles LA",
+        "description": "At 155 AM CST, severe thunderstorms were located along a line\nextending from near Pineland to Magnolia Springs to near Gilchrist,\nmoving east at 35 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated. At 1:40 am CST a wind gust to 59 mph was\nreported by local media at Pinewood, Texas.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nBeaumont, Port Arthur, Lumberton, Jasper, Silsbee, Kirbyville,\nKountze, Sour Lake, Nome, Evadale, Town Bluff, Hamshire, Fred, Buna,\nBevil Oaks, China, Rose City, Pine Forest, Browndell and Lakeview.\n\nThis includes Interstate 10 in Texas between mile markers 860 and\n832.",
+        "instruction": "A Tornado Watch remains in effect until 800 AM CST for southeastern\nTexas.\n\nRemain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into a\nsmall central room in a sturdy structure.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.\n\nIntense thunderstorm lines can produce brief tornadoes and widespread\nsignificant wind damage. Although a tornado is not immediately\nlikely, it is best to move to an interior room on the lowest floor of\na building. These storms may cause serious injury and significant\nproperty damage.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T01:55:00.000-06:00...storm...263DEG...17KT...31.28,-93.9 30.75,-94.05 29.49,-94.45"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 230 AM CST FOR JEFFERSON...SOUTHEASTERN TYLER...NORTHWESTERN NEWTON...EASTERN HARDIN...NORTHWESTERN ORANGE AND JASPER COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KLCH.SV.W.0003.000000T0000Z-200111T0830Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHSVSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T02:30:00-06:00"
+            ]
+        }
+    }
+}

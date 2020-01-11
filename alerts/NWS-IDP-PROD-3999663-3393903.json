@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999663-3393903",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.05,
+                    37.47
+                ],
+                [
+                    -89.48,
+                    37.25
+                ],
+                [
+                    -89.51,
+                    37.25
+                ],
+                [
+                    -89.65,
+                    37.43
+                ],
+                [
+                    -89.27000000000001,
+                    37.71
+                ],
+                [
+                    -89.05,
+                    37.47
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999663-3393903",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999663-3393903",
+        "areaDesc": "Union, IL; Alexander, IL; Jackson, IL; Cape Girardeau, MO",
+        "geocode": {
+            "UGC": [
+                "ILC181",
+                "ILC003",
+                "ILC077",
+                "MOC031"
+            ],
+            "SAME": [
+                "017181",
+                "017003",
+                "017077",
+                "029031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC181",
+            "https://api.weather.gov/zones/county/ILC003",
+            "https://api.weather.gov/zones/county/ILC077",
+            "https://api.weather.gov/zones/county/MOC031"
+        ],
+        "references": [],
+        "sent": "2020-01-11T01:51:00-06:00",
+        "effective": "2020-01-11T01:51:00-06:00",
+        "onset": "2020-01-11T01:51:00-06:00",
+        "expires": "2020-01-11T02:30:00-06:00",
+        "ends": "2020-01-11T02:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 1:51AM CST until January 11 at 2:30AM CST by NWS Paducah KY",
+        "description": "The National Weather Service in Paducah has issued a\n\n* Severe Thunderstorm Warning for...\nUnion County in southern Illinois...\nSoutheastern Jackson County in southern Illinois...\nNorthwestern Alexander County in southern Illinois...\nNortheastern Cape Girardeau County in southeastern Missouri...\n\n* Until 230 AM CST.\n\n* At 151 AM CST, a severe thunderstorm was located near Cape\nGirardeau, moving northeast at 40 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nCape Girardeau, Anna, Jonesboro, Trail Of Tears State Park, Cobden,\nWare, Cedar Lake Area, Makanda, Alto Pass and East Cape Girardeau.\n\nThis includes the following highways...\nInterstate 57 in Illinois between Mile Markers 28 and 35.\nInterstate 55 between Mile Markers 104 and 106.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T01:51:00.000-06:00...storm...240DEG...35KT...37.38,-89.55"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KPAH.SV.W.0003.200111T0751Z-200111T0830Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVRPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T02:30:00-06:00"
+            ]
+        }
+    }
+}
