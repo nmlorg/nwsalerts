@@ -1,0 +1,123 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000266-3394527",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.81,
+                    34.87
+                ],
+                [
+                    -89.89,
+                    34.18
+                ],
+                [
+                    -90.34,
+                    34.05
+                ],
+                [
+                    -90.29,
+                    34.62
+                ],
+                [
+                    -89.81,
+                    34.87
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000266-3394527",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000266-3394527",
+        "areaDesc": "DeSoto, MS; Tallahatchie, MS; Tate, MS; Panola, MS; Tunica, MS; Quitman, MS",
+        "geocode": {
+            "UGC": [
+                "MSC033",
+                "MSC135",
+                "MSC137",
+                "MSC107",
+                "MSC143",
+                "MSC119"
+            ],
+            "SAME": [
+                "028033",
+                "028135",
+                "028137",
+                "028107",
+                "028143",
+                "028119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC033",
+            "https://api.weather.gov/zones/county/MSC135",
+            "https://api.weather.gov/zones/county/MSC137",
+            "https://api.weather.gov/zones/county/MSC107",
+            "https://api.weather.gov/zones/county/MSC143",
+            "https://api.weather.gov/zones/county/MSC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000230-3394494",
+                "identifier": "NWS-IDP-PROD-4000230-3394494",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T04:29:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T04:51:00-06:00",
+        "effective": "2020-01-11T04:51:00-06:00",
+        "onset": "2020-01-11T04:51:00-06:00",
+        "expires": "2020-01-11T05:15:00-06:00",
+        "ends": "2020-01-11T05:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 4:51AM CST until January 11 at 5:15AM CST by NWS Memphis TN",
+        "description": "At 450 AM CST, severe thunderstorms were located along a line\nextending from near Strayhorn to near Lambert, moving northeast at 30\nmph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nSenatobia, Batesville, Marks, Sardis, Coldwater, Lambert, Como,\nCrenshaw, Crowder, Sledge, Pope, Vance, Darling, Strayhorn, Pleasant\nGrove, Curtis Station, Arkabutla, Lewisburg, Courtland and Falcon.",
+        "instruction": "A Tornado Watch remains in effect until 700 AM CST for northwestern\nMississippi.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with these storms, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T04:50:00.000-06:00...storm...244DEG...28KT...34.59,-90.19 34.19,-90.24"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 515 AM CST FOR SOUTHEASTERN DESOTO...SOUTHEASTERN TUNICA...TATE...NORTHWESTERN TALLAHATCHIE...QUITMAN AND PANOLA COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMEG.SV.W.0020.000000T0000Z-200111T1115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T05:15:00-06:00"
+            ]
+        }
+    }
+}
