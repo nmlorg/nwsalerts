@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000840-3395074",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.65,
+                    37.95
+                ],
+                [
+                    -86.7,
+                    38.040000000000006
+                ],
+                [
+                    -86.41,
+                    38.2
+                ],
+                [
+                    -86.24,
+                    38.03
+                ],
+                [
+                    -86.65,
+                    37.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000840-3395074",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000840-3395074",
+        "areaDesc": "Breckinridge, KY; Crawford, IN; Perry, IN; Meade, KY",
+        "geocode": {
+            "UGC": [
+                "KYC027",
+                "INC025",
+                "INC123",
+                "KYC163"
+            ],
+            "SAME": [
+                "021027",
+                "018025",
+                "018123",
+                "021163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC027",
+            "https://api.weather.gov/zones/county/INC025",
+            "https://api.weather.gov/zones/county/INC123",
+            "https://api.weather.gov/zones/county/KYC163"
+        ],
+        "references": [],
+        "sent": "2020-01-11T09:43:00-05:00",
+        "effective": "2020-01-11T09:43:00-05:00",
+        "onset": "2020-01-11T09:43:00-05:00",
+        "expires": "2020-01-11T10:15:00-05:00",
+        "ends": "2020-01-11T10:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 9:43AM EST until January 11 at 10:15AM EST by NWS Louisville KY",
+        "description": "The National Weather Service in Louisville has issued a\n\n* Severe Thunderstorm Warning for...\nSouth central Crawford County in south central Indiana...\nEast central Perry County in south central Indiana...\nNorthwestern Meade County in central Kentucky...\nNorth central Breckinridge County in central Kentucky...\n\n* Until 1015 AM EST/915 AM CST/.\n\n* At 942 AM EST/842 AM CST/, a severe thunderstorm was located 8\nmiles northeast of Tell City, moving northeast at 50 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nMount Pleasant, Leopold, Alton, Roberta, Concordia, Lodale,\nBattletown, Derby, Lilly Dale and Magnet.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T09:42:00.000-05:00...storm...241DEG...43KT...38.01,-86.64"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KLMK.SV.W.0003.200111T1443Z-200111T1515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKSVRLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T10:15:00-05:00"
+            ]
+        }
+    }
+}

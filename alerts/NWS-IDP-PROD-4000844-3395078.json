@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000844-3395078",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.89,
+                    41.09
+                ],
+                [
+                    -88.8,
+                    41.13
+                ],
+                [
+                    -88.52,
+                    40.84
+                ],
+                [
+                    -88.61,
+                    40.790000000000006
+                ],
+                [
+                    -88.89,
+                    41.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000844-3395078",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000844-3395078",
+        "areaDesc": "Livingston, IL",
+        "geocode": {
+            "UGC": [
+                "ILC105"
+            ],
+            "SAME": [
+                "017105"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC105"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998753-3393067",
+                "identifier": "NWS-IDP-PROD-3998753-3393067",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:58:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:43:00-06:00",
+        "effective": "2020-01-11T08:43:00-06:00",
+        "onset": "2020-01-12T11:15:00-06:00",
+        "expires": "2020-01-11T22:43:00-06:00",
+        "ends": "2020-01-13T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 11 at 8:43AM CST until January 13 at 6:00PM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in\nIllinois...\n\nVermilion River at Pontiac affecting Livingston County\nVermilion River near Leonore affecting La Salle County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future. This forecasts\nis now based mostly upon observed precipitation.\n\nThe Flood Warning continues for\nThe Vermilion River at Pontiac, or from Near Pontiac downstream to\nIL-23 near Streator.\n* from Sunday morning to Monday evening.\n* At  745 AM Saturday the stage was 6.6 feet.\n* Flood stage is 14.0 feet.\n* Moderate flooding is forecast.\n* Forecast...Rise above flood stage by Sunday morning and continue to\nrise to near 15.0 feet by Sunday evening.\n* Impact...At 15.0 feet...Low-lying residences threatened between Mill\nStreet and Chautauqua Park in Pontiac. IL-116 threatened east and\nwest of Pontiac.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLOT.FL.W.0011.200112T1715Z-200114T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T18:00:00-06:00"
+            ]
+        }
+    }
+}

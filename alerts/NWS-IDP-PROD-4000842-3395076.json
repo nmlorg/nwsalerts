@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000842-3395076",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.56,
+                    29.56
+                ],
+                [
+                    -90.64,
+                    29.7
+                ],
+                [
+                    -90.42,
+                    29.82
+                ],
+                [
+                    -90.34,
+                    29.63
+                ],
+                [
+                    -90.56,
+                    29.56
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000842-3395076",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000842-3395076",
+        "areaDesc": "St. Charles, LA; Lafourche, LA",
+        "geocode": {
+            "UGC": [
+                "LAC089",
+                "LAC057"
+            ],
+            "SAME": [
+                "022089",
+                "022057"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC089",
+            "https://api.weather.gov/zones/county/LAC057"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000797-3395033",
+                "identifier": "NWS-IDP-PROD-4000797-3395033",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T08:26:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:43:00-06:00",
+        "effective": "2020-01-11T08:43:00-06:00",
+        "onset": "2020-01-11T08:43:00-06:00",
+        "expires": "2020-01-11T09:00:00-06:00",
+        "ends": "2020-01-11T09:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 8:43AM CST until January 11 at 9:00AM CST by NWS New Orleans LA",
+        "description": "At 843 AM CST, a severe thunderstorm was located over Mathews, or 12\nmiles northwest of Larose, moving northeast at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nLockport, Mathews, Raceland, Bayou Gauche and Des Allemands.",
+        "instruction": "A Tornado Watch remains in effect until noon CST for southeastern\nLouisiana.\n\nA tornado watch remains in effect for the warned area. Tornadoes can\ndevelop quickly from severe thunderstorms. Although a tornado is not\nimmediately likely, if one is spotted act quickly and move to a place\nof safety inside a sturdy structure, such as a small interior room.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T08:43:00.000-06:00...storm...243DEG...50KT...29.68,-90.53"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 900 AM CST FOR SOUTHWESTERN ST. CHARLES AND NORTH CENTRAL LAFOURCHE PARISHES"
+            ],
+            "VTEC": [
+                "/O.CON.KLIX.SV.W.0003.000000T0000Z-200111T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LIXSVSLIX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T09:00:00-06:00"
+            ]
+        }
+    }
+}

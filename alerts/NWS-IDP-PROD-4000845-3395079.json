@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000845-3395079",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.12,
+                    41.31
+                ],
+                [
+                    -88.99000000000001,
+                    41.32
+                ],
+                [
+                    -88.80000000000001,
+                    41.13
+                ],
+                [
+                    -88.89000000000001,
+                    41.09
+                ],
+                [
+                    -89.12,
+                    41.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000845-3395079",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000845-3395079",
+        "areaDesc": "La Salle, IL",
+        "geocode": {
+            "UGC": [
+                "ILC099"
+            ],
+            "SAME": [
+                "017099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998755-3393069",
+                "identifier": "NWS-IDP-PROD-3998755-3393069",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:58:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:43:00-06:00",
+        "effective": "2020-01-11T08:43:00-06:00",
+        "onset": "2020-01-12T00:21:00-06:00",
+        "expires": "2020-01-11T22:43:00-06:00",
+        "ends": "2020-01-14T15:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 11 at 8:43AM CST until January 14 at 3:00PM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in\nIllinois...\n\nVermilion River at Pontiac affecting Livingston County\nVermilion River near Leonore affecting La Salle County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future. This forecasts\nis now based mostly upon observed precipitation.\n\nThe Flood Warning continues for\nThe Vermilion River near Leonore, or from IL-23 near Streator\ndownstream to confluence with the Illinois River.\n* from late tonight to Tuesday afternoon.\n* At  745 AM Saturday the stage was 8.9 feet.\n* Flood stage is 16.0 feet.\n* Moderate flooding is forecast.\n* Forecast...Rise above flood stage by early Sunday and continue to\nrise to near 21.5 feet by early Monday morning.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLOT.FL.W.0012.200112T0621Z-200114T2100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T15:00:00-06:00"
+            ]
+        }
+    }
+}
