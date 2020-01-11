@@ -1,0 +1,112 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001455-3395629",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.81,
+                    36.18
+                ],
+                [
+                    -85.8199999,
+                    35.97
+                ],
+                [
+                    -86.02,
+                    35.96
+                ],
+                [
+                    -86.02,
+                    35.97
+                ],
+                [
+                    -86,
+                    36.11
+                ],
+                [
+                    -85.81,
+                    36.18
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001455-3395629",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001455-3395629",
+        "areaDesc": "De Kalb, TN; Smith, TN",
+        "geocode": {
+            "UGC": [
+                "TNC041",
+                "TNC159"
+            ],
+            "SAME": [
+                "047041",
+                "047159"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC041",
+            "https://api.weather.gov/zones/county/TNC159"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001420-3395596",
+                "identifier": "NWS-IDP-PROD-4001420-3395596",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:43:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T10:56:00-06:00",
+        "effective": "2020-01-11T10:56:00-06:00",
+        "onset": "2020-01-11T10:56:00-06:00",
+        "expires": "2020-01-11T11:15:00-06:00",
+        "ends": "2020-01-11T11:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 10:56AM CST until January 11 at 11:15AM CST by NWS Nashville TN",
+        "description": "At 1055 AM CST, a severe thunderstorm was located 10 miles southeast\nof Watertown, or 10 miles northwest of Smithville, moving east at 35\nmph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nDowelltown, Liberty and Center Hill Lake.\n\nThis includes Interstate 40 between mile markers 263 and 266.",
+        "instruction": "A Tornado Watch remains in effect until 100 PM CST for Middle\nTennessee.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T10:55:00.000-06:00...storm...255DEG...31KT...36.02,-85.99"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1115 AM CST FOR SOUTHEASTERN SMITH AND NORTHWESTERN DE KALB COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOHX.SV.W.0015.000000T0000Z-200111T1715Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T11:15:00-06:00"
+            ]
+        }
+    }
+}
