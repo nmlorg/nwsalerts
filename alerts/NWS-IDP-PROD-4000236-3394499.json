@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000236-3394499",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.26,
+                    38.49
+                ],
+                [
+                    -94,
+                    38.47
+                ],
+                [
+                    -93.8,
+                    38.37
+                ],
+                [
+                    -93.8199999,
+                    38.32
+                ],
+                [
+                    -94.25,
+                    38.43
+                ],
+                [
+                    -94.26,
+                    38.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000236-3394499",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000236-3394499",
+        "areaDesc": "Cass, MO; Bates, MO; Henry, MO",
+        "geocode": {
+            "UGC": [
+                "MOC037",
+                "MOC013",
+                "MOC083"
+            ],
+            "SAME": [
+                "029037",
+                "029013",
+                "029083"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC037",
+            "https://api.weather.gov/zones/county/MOC013",
+            "https://api.weather.gov/zones/county/MOC083"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998491-3392823",
+                "identifier": "NWS-IDP-PROD-3998491-3392823",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:38:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T04:32:00-06:00",
+        "effective": "2020-01-11T04:32:00-06:00",
+        "onset": "2020-01-11T04:32:00-06:00",
+        "expires": "2020-01-12T04:31:00-06:00",
+        "ends": "2020-01-13T00:49:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant HIll MO",
+        "headline": "Flood Warning issued January 11 at 4:32AM CST until January 13 at 12:49AM CST by NWS Kansas City/Pleasant HIll MO",
+        "description": "...The Flood Warning continues for the following rivers in\nMissouri...\n\nBlackwater River at Valley City affecting Johnson and Pettis\nCounties.\n\nSouth Grand River at Urich affecting Bates...Cass and Henry\nCounties.\n\nThe Flood Warning continues for\nThe South Grand River at Urich.\n* from early this morning to late Sunday night.\n* At  4:15 AM Saturday the stage was 25.3 feet.\n* Flood stage is 24.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 25.8 feet by this\nafternoon. The river will fall below flood stage early Sunday\nmorning.\n* At 24.0 feet...Flooding occurs across locations within 0.5 to 1.5\nmiles of the river. Areas affected include low lying pastures along\nwith cropland and secondary roads.",
+        "instruction": "Do not drive through flowing water. Nearly half of all flood\nfatalities are vehicle related. As little as 6 inches of water may\ncause you to lose control of your vehicle. Two feet of water will\ncarry most vehicles away.This product along with additional weather\nand stream information is available at www.weather.gov/kc/.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KEAX.FL.W.0007.200111T1032Z-200113T0649Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EAXFLSEAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T00:49:00-06:00"
+            ]
+        }
+    }
+}

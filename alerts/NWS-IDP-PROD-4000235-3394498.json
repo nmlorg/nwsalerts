@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000235-3394498",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.42,
+                    38.94
+                ],
+                [
+                    -93.61,
+                    38.82
+                ],
+                [
+                    -93.67999999999999,
+                    38.82
+                ],
+                [
+                    -93.61,
+                    38.9099999
+                ],
+                [
+                    -93.48,
+                    38.99
+                ],
+                [
+                    -93.42,
+                    38.94
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000235-3394498",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000235-3394498",
+        "areaDesc": "Johnson, MO; Pettis, MO",
+        "geocode": {
+            "UGC": [
+                "MOC101",
+                "MOC159"
+            ],
+            "SAME": [
+                "029101",
+                "029159"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC101",
+            "https://api.weather.gov/zones/county/MOC159"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998530-3392859",
+                "identifier": "NWS-IDP-PROD-3998530-3392859",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:51:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T04:32:00-06:00",
+        "effective": "2020-01-11T04:32:00-06:00",
+        "onset": "2020-01-11T04:32:00-06:00",
+        "expires": "2020-01-12T04:31:00-06:00",
+        "ends": "2020-01-12T20:43:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant HIll MO",
+        "headline": "Flood Warning issued January 11 at 4:32AM CST until January 12 at 8:43PM CST by NWS Kansas City/Pleasant HIll MO",
+        "description": "...The Flood Warning continues for the following rivers in\nMissouri...\n\nBlackwater River at Valley City affecting Johnson and Pettis\nCounties.\n\nSouth Grand River at Urich affecting Bates...Cass and Henry\nCounties.\n\nThe Flood Warning continues for\nThe Blackwater River at Valley City.\n* from early this morning to Sunday evening.\n* At  4:00 AM Saturday the stage was 25.2 feet.\n* Flood stage is 22.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to near 25.4 feet by this\nmorning. The river will fall below flood stage this evening.\n* At 25.0 feet...County Highway E near Valley City and Highway 23\nnear the Perry State Wildlife Area are under water.\n* At 22.0 feet...Woodlands and farm fields along the river begin to\nflood.",
+        "instruction": "Do not drive through flowing water. Nearly half of all flood\nfatalities are vehicle related. As little as 6 inches of water may\ncause you to lose control of your vehicle. Two feet of water will\ncarry most vehicles away.This product along with additional weather\nand stream information is available at www.weather.gov/kc/.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KEAX.FL.W.0001.200111T1032Z-200113T0243Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EAXFLSEAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T20:43:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000234-3394497",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.4,
+                    35.14
+                ],
+                [
+                    -90.19000000000001,
+                    35.37
+                ],
+                [
+                    -89.64000000000001,
+                    35.37
+                ],
+                [
+                    -89.64000000000001,
+                    35.04
+                ],
+                [
+                    -90.34000000000002,
+                    34.9
+                ],
+                [
+                    -90.40000000000002,
+                    35.01
+                ],
+                [
+                    -90.4,
+                    35.14
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000234-3394497",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000234-3394497",
+        "areaDesc": "DeSoto, MS; Crittenden, AR; Shelby, TN",
+        "geocode": {
+            "UGC": [
+                "MSC033",
+                "ARC035",
+                "TNC157"
+            ],
+            "SAME": [
+                "028033",
+                "005035",
+                "047157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC033",
+            "https://api.weather.gov/zones/county/ARC035",
+            "https://api.weather.gov/zones/county/TNC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000161-3394416",
+                "identifier": "NWS-IDP-PROD-4000161-3394416",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T04:09:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T04:32:00-06:00",
+        "effective": "2020-01-11T04:32:00-06:00",
+        "onset": "2020-01-11T04:32:00-06:00",
+        "expires": "2020-01-11T05:00:00-06:00",
+        "ends": "2020-01-11T05:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 4:32AM CST until January 11 at 5:00AM CST by NWS Memphis TN",
+        "description": "At 431 AM CST, a severe thunderstorm was located over Frayser, or 9\nmiles west of Bartlett, moving northeast at 50 mph. A second severe\nthunderstorms is located near Lake Cormorant, also moving northeast\nat 50 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nBartlett, Southaven, Collierville, Germantown, Olive Branch, West\nMemphis, Horn Lake, Marion, Millington, T O Fuller State Park, Meeman\nShelby Forest State Park, Cordova, Memphis, Lakeland, Arlington,\nWalls, Crawfordsville, Edmondson, Horseshoe Lake and Sunset.",
+        "instruction": "A Tornado Watch remains in effect until 700 AM CST for eastern\nArkansas...northwestern Mississippi...and western Tennessee.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T04:31:00.000-06:00...storm...238DEG...44KT...35.19,-90.0"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 500 AM CST FOR CENTRAL CRITTENDEN...NORTHWESTERN DESOTO AND SHELBY COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMEG.SV.W.0017.000000T0000Z-200111T1100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T05:00:00-06:00"
+            ]
+        }
+    }
+}
