@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998793-3393103",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.9,
+                    29.49
+                ],
+                [
+                    -98.13000000000001,
+                    29.52
+                ],
+                [
+                    -98.13000000000001,
+                    29.55
+                ],
+                [
+                    -97.89000000000001,
+                    29.580000000000002
+                ],
+                [
+                    -97.9,
+                    29.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998793-3393103",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998793-3393103",
+        "areaDesc": "Guadalupe, TX",
+        "geocode": {
+            "UGC": [
+                "TXC187"
+            ],
+            "SAME": [
+                "048187"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC187"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998767-3393081",
+                "identifier": "NWS-IDP-PROD-3998767-3393081",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T20:03:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T20:13:00-06:00",
+        "effective": "2020-01-10T20:13:00-06:00",
+        "onset": "2020-01-10T20:13:00-06:00",
+        "expires": "2020-01-10T20:30:00-06:00",
+        "ends": "2020-01-10T20:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Tornado Warning issued January 10 at 8:13PM CST until January 10 at 8:30PM CST by NWS Austin/San Antonio TX",
+        "description": "At 813 PM CST, a severe thunderstorm capable of producing a tornado\nwas located near New Berlin, or 7 miles southwest of Seguin, moving\neast at 40 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nSeguin, Cibolo and Zipp.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T20:13:00.000-06:00...storm...278DEG...35KT...29.52,-98.08"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 830 PM CST FOR CENTRAL GUADALUPE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KEWX.TO.W.0003.000000T0000Z-200111T0230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSVSEWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T20:30:00-06:00"
+            ]
+        }
+    }
+}

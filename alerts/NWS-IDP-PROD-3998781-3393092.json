@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998781-3393092",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.16,
+                    37.17
+                ],
+                [
+                    -89.02,
+                    37.25
+                ],
+                [
+                    -88.88,
+                    37.25
+                ],
+                [
+                    -88.89999999999999,
+                    37.1599999
+                ],
+                [
+                    -88.99,
+                    37.17
+                ],
+                [
+                    -89.05999999999999,
+                    37.09
+                ],
+                [
+                    -89.16,
+                    37.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998781-3393092",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998781-3393092",
+        "areaDesc": "Ballard, KY; Pulaski, IL",
+        "geocode": {
+            "UGC": [
+                "KYC007",
+                "ILC153"
+            ],
+            "SAME": [
+                "021007",
+                "017153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC007",
+            "https://api.weather.gov/zones/county/ILC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997380-3391788",
+                "identifier": "NWS-IDP-PROD-3997380-3391788",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:30:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T20:10:00-06:00",
+        "effective": "2020-01-10T20:10:00-06:00",
+        "onset": "2020-01-10T20:10:00-06:00",
+        "expires": "2020-01-12T00:10:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 10 at 8:10PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Kentucky...Missouri...\n\nOhio River at Paducah...Olmsted Lock and Dam and Cairo\n\n.Current and expected Heavy rainfall through Saturday will\ncontinue to cause rises in water levels at Paducah, Olmsted\nLock and Dam and Cairo.\n\nThe Flood Warning continues for\nthe Ohio River at Olmsted Lock and Dam\n* until further notice.\n* At  7:00 PM Friday the stage was 39.1 feet.\n* Flood Stage is 36.0 feet.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to near 44.8 feet by\nnoon next Friday morning, January 17th. Additional rises may be\npossible thereafter.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0002.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
