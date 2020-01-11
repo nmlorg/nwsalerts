@@ -1,0 +1,127 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000501-3394755",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.45,
+                    37.34
+                ],
+                [
+                    -89.43,
+                    37.35
+                ],
+                [
+                    -89.42,
+                    37.4
+                ],
+                [
+                    -89.44,
+                    37.44
+                ],
+                [
+                    -89.49,
+                    37.489999999999995
+                ],
+                [
+                    -89.52,
+                    37.56999999999999
+                ],
+                [
+                    -89.50999999999999,
+                    37.57999999999999
+                ],
+                [
+                    -89.46999999999998,
+                    37.55999999999999
+                ],
+                [
+                    -89.44999999999999,
+                    37.59999999999999
+                ],
+                [
+                    -89.03999999999999,
+                    37.59999999999999
+                ],
+                [
+                    -89.03999999999999,
+                    37.329999999999984
+                ],
+                [
+                    -89.45,
+                    37.34
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000501-3394755",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000501-3394755",
+        "areaDesc": "Union, IL",
+        "geocode": {
+            "UGC": [
+                "ILC181"
+            ],
+            "SAME": [
+                "017181"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC181"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000124-3394374",
+                "identifier": "NWS-IDP-PROD-4000124-3394374",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T04:04:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999914-3394165",
+                "identifier": "NWS-IDP-PROD-3999914-3394165",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T03:09:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T06:28:00-06:00",
+        "effective": "2020-01-11T06:28:00-06:00",
+        "onset": "2020-01-11T06:28:00-06:00",
+        "expires": "2020-01-11T15:15:00-06:00",
+        "ends": "2020-01-11T15:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flash Flood Warning issued January 11 at 6:28AM CST until January 11 at 3:15PM CST by NWS Paducah KY",
+        "description": "The National Weather Service in Paducah has extended the\n\n* Flash Flood Warning for...\nUnion County in southern Illinois...\n\n* Until 315 PM CST Saturday.\n\n* At 627 AM CST, Doppler radar indicated thunderstorms produced\nheavy rain across the warned area, and some rainfall continues to\nlinger. Flash flooding is likely already occurring.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar indicated.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other\ndrainage and low lying areas.",
+        "instruction": "Excessive runoff from heavy rainfall will cause flooding of small\ncreeks and streams, country roads, farmland, and other low lying\nspots.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FF.W.0006.000000T0000Z-200111T2115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFFWPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T15:15:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000493-3394747",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.76,
+                    40.15
+                ],
+                [
+                    -87.60000000000001,
+                    40.15
+                ],
+                [
+                    -87.44000000000001,
+                    40.01
+                ],
+                [
+                    -87.44000000000001,
+                    39.9
+                ],
+                [
+                    -87.63000000000001,
+                    40.08
+                ],
+                [
+                    -87.76,
+                    40.08
+                ],
+                [
+                    -87.76,
+                    40.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000493-3394747",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000493-3394747",
+        "areaDesc": "Vermillion, IN; Vermilion, IL",
+        "geocode": {
+            "UGC": [
+                "INC165",
+                "ILC183"
+            ],
+            "SAME": [
+                "018165",
+                "017183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC165",
+            "https://api.weather.gov/zones/county/ILC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998984-3393274",
+                "identifier": "NWS-IDP-PROD-3998984-3393274",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T21:06:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T06:25:00-06:00",
+        "effective": "2020-01-11T06:25:00-06:00",
+        "onset": "2020-01-12T18:00:00-06:00",
+        "expires": "2020-01-11T20:25:00-06:00",
+        "ends": "2020-01-13T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lincoln IL",
+        "headline": "Flood Warning issued January 11 at 6:25AM CST until January 13 at 12:00AM CST by NWS Lincoln IL",
+        "description": "...The Flood Warning continues for the following river in Illinois...\nIndiana...\n\nVermilion River near Danville affecting Vermilion and Vermillion\nCounties\n\n.The following forecasts are based on observed precipitation, soil\nmoisture conditions, and forecast precipitation.\n\nThe Flood Warning continues for\nThe Vermilion River near Danville.\n* From Sunday evening until late Sunday night.\n* At  515 AM Saturday the stage was 7.3 feet.\n* Flood stage is 18.0 feet.\n* Forecast...The river is expected to rise to flood stage\ntomorrow evening.\n* Impact...At 18.0 feet...Minor flooding begins to some secondary\nroads and agricultural land not protected by levees.",
+        "instruction": "If you encounter a flooded roadway, turn around and find an alternate\nroute. Turn around, don't drown.\n\nAdditional river and weather information is available at\nwww.weather.gov/ilx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILX.FL.W.0004.200113T0000Z-200113T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILXFLSILX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T00:00:00-06:00"
+            ]
+        }
+    }
+}
