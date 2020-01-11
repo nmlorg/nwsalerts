@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001491-3395652",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.39,
+                    32.58
+                ],
+                [
+                    -88.76,
+                    32.58
+                ],
+                [
+                    -88.54,
+                    33.29
+                ],
+                [
+                    -88.30000000000001,
+                    33.29
+                ],
+                [
+                    -88.39,
+                    32.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001491-3395652",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001491-3395652",
+        "areaDesc": "Noxubee, MS; Kemper, MS",
+        "geocode": {
+            "UGC": [
+                "MSC103",
+                "MSC069"
+            ],
+            "SAME": [
+                "028103",
+                "028069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC103",
+            "https://api.weather.gov/zones/county/MSC069"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001428-3395603",
+                "identifier": "NWS-IDP-PROD-4001428-3395603",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:45:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001307-3395486",
+                "identifier": "NWS-IDP-PROD-4001307-3395486",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:14:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T11:06:00-06:00",
+        "effective": "2020-01-11T11:06:00-06:00",
+        "onset": "2020-01-11T11:06:00-06:00",
+        "expires": "2020-01-11T11:15:00-06:00",
+        "ends": "2020-01-11T11:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 11:06AM CST until January 11 at 11:15AM CST by NWS Jackson MS",
+        "description": "The storms which prompted the warning have moved out of the area.\nTherefore, the warning will be allowed to expire.\n\nA Tornado Watch remains in effect until 400 PM CST for northeastern\nand east central Mississippi.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T11:05:00.000-06:00...storm...270DEG...53KT...33.28,-88.3 33.09,-88.28"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR EASTERN NOXUBEE AND KEMPER COUNTIES WILL EXPIRE AT 1115 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KJAN.SV.W.0031.000000T0000Z-200111T1715Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T11:15:00-06:00"
+            ]
+        }
+    }
+}

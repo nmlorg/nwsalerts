@@ -1,0 +1,137 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001490-3395651",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.8199999,
+                    38.78
+                ],
+                [
+                    -84.81,
+                    38.800000000000004
+                ],
+                [
+                    -84.83,
+                    38.830000000000005
+                ],
+                [
+                    -84.78,
+                    38.86000000000001
+                ],
+                [
+                    -84.66,
+                    38.78000000000001
+                ],
+                [
+                    -84.63,
+                    38.80000000000001
+                ],
+                [
+                    -84.53,
+                    38.79000000000001
+                ],
+                [
+                    -84.48,
+                    38.54000000000001
+                ],
+                [
+                    -84.79,
+                    38.34000000000001
+                ],
+                [
+                    -84.8199999,
+                    38.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001490-3395651",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001490-3395651",
+        "areaDesc": "Owen, KY; Gallatin, KY; Grant, KY",
+        "geocode": {
+            "UGC": [
+                "KYC187",
+                "KYC077",
+                "KYC081"
+            ],
+            "SAME": [
+                "021187",
+                "021077",
+                "021081"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC187",
+            "https://api.weather.gov/zones/county/KYC077",
+            "https://api.weather.gov/zones/county/KYC081"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001462-3395634",
+                "identifier": "NWS-IDP-PROD-4001462-3395634",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T11:59:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001412-3395588",
+                "identifier": "NWS-IDP-PROD-4001412-3395588",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T11:40:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001449-3395623",
+                "identifier": "NWS-IDP-PROD-4001449-3395623",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T11:54:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T12:06:00-05:00",
+        "effective": "2020-01-11T12:06:00-05:00",
+        "onset": "2020-01-11T12:06:00-05:00",
+        "expires": "2020-01-11T12:15:00-05:00",
+        "ends": "2020-01-11T12:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 12:06PM EST until January 11 at 12:15PM EST by NWS Wilmington OH",
+        "description": "The storms which prompted the warning have weakened below severe\nlimits, and no longer pose an immediate threat to life or property.\nTherefore, the warning will be allowed to expire.  However gusty\nwinds are still possible with these thunderstorms.\n\nA Severe Thunderstorm Watch remains in effect until 500 PM EST for\nsoutheastern Indiana...and northern Kentucky.\n\nPlease report previous wind damage or hail to the National Weather\nService by going to our website at weather.gov/iln and submitting\nyour report via social media.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T12:05:00.000-05:00...storm...222DEG...62KT...38.9,-84.79 38.55,-84.64"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR GRANT...EASTERN OWEN AND EASTERN GALLATIN COUNTIES WILL EXPIRE AT 1215 PM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KILN.SV.W.0001.000000T0000Z-200111T1715Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNSVSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T12:15:00-05:00"
+            ]
+        }
+    }
+}
