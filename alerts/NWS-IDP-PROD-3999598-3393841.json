@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999598-3393841",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.74,
+                    36.19
+                ],
+                [
+                    -94.53,
+                    36.15
+                ],
+                [
+                    -94.53,
+                    36.07
+                ],
+                [
+                    -94.72,
+                    36.11
+                ],
+                [
+                    -94.74,
+                    36.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999598-3393841",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999598-3393841",
+        "areaDesc": "Delaware, OK; Adair, OK",
+        "geocode": {
+            "UGC": [
+                "OKC041",
+                "OKC001"
+            ],
+            "SAME": [
+                "040041",
+                "040001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC041",
+            "https://api.weather.gov/zones/county/OKC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998646-3392964",
+                "identifier": "NWS-IDP-PROD-3998646-3392964",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:25:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T01:30:00-06:00",
+        "effective": "2020-01-11T01:30:00-06:00",
+        "onset": "2020-01-11T03:31:00-06:00",
+        "expires": "2020-01-11T09:29:00-06:00",
+        "ends": "2020-01-12T15:11:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 11 at 1:30AM CST until January 12 at 3:11PM CST by NWS Tulsa OK",
+        "description": "...The Flood Warning continues for the following rivers in\nOklahoma...\n\nIllinois River near Watts affecting Adair and Delaware Counties.\n\nIllinois River near Tahlequah affecting Cherokee County.\n\nFlint Creek near Kansas affecting Cherokee and Delaware Counties.\n\n...The Flood Warning continues for the following rivers in\nOklahoma...\n\nIllinois River at Chewey affecting Adair...Cherokee and Delaware\nCounties.\n\nBaron Fork River at Eldon affecting Cherokee County.\n\nThe Flood Warning continues for\nThe Illinois River near Watts.\n* until Sunday afternoon, or until the warning is cancelled.\n* At 12:30 AM Saturday, the stage was  9.84 feet.\n* Flood stage is 13.0 feet.\n* Moderate flooding is forecast.\n* Forecast...The Illinois River near Watts is expected to rise above\nflood stage early this morning and continue to rise to near 21.0\nfeet by this evening. The river is expected to fall below flood\nstage late Sunday morning.\n* Impact...At 21.0 feet, severe flooding occurs from the Arkansas\nborder to Fidler's Bend. Water will reach the base of the building\nat River Valley Raceway. Farmlands and permanent camgrounds are\ninundated. Numerous cabins in the Fidler's Bend area are flooded.\nExtreme turbulence makes the river too hazardous for floating.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KTSA.FL.W.0003.200111T0931Z-200112T2111Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T15:11:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999600-3393843",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.61,
+                    36.3
+                ],
+                [
+                    -94.56,
+                    36.199999999999996
+                ],
+                [
+                    -94.8199999,
+                    36.06999999999999
+                ],
+                [
+                    -94.83,
+                    36.18999999999999
+                ],
+                [
+                    -94.61,
+                    36.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999600-3393843",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999600-3393843",
+        "areaDesc": "Delaware, OK; Cherokee, OK",
+        "geocode": {
+            "UGC": [
+                "OKC041",
+                "OKC021"
+            ],
+            "SAME": [
+                "040041",
+                "040021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC041",
+            "https://api.weather.gov/zones/county/OKC021"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998644-3392962",
+                "identifier": "NWS-IDP-PROD-3998644-3392962",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:25:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T01:30:00-06:00",
+        "effective": "2020-01-11T01:30:00-06:00",
+        "onset": "2020-01-11T05:18:00-06:00",
+        "expires": "2020-01-11T09:29:00-06:00",
+        "ends": "2020-01-11T13:23:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 11 at 1:30AM CST until January 11 at 1:23PM CST by NWS Tulsa OK",
+        "description": "...The Flood Warning continues for the following rivers in\nOklahoma...\n\nIllinois River near Watts affecting Adair and Delaware Counties.\n\nIllinois River near Tahlequah affecting Cherokee County.\n\nFlint Creek near Kansas affecting Cherokee and Delaware Counties.\n\n...The Flood Warning continues for the following rivers in\nOklahoma...\n\nIllinois River at Chewey affecting Adair...Cherokee and Delaware\nCounties.\n\nBaron Fork River at Eldon affecting Cherokee County.\n\nThe Flood Warning continues for\nThe Flint Creek near Kansas.\n* from early this morning to this afternoon, or until the warning is\ncancelled.\n* At 12:30 AM Saturday, the stage was  8.91 feet.\n* Flood stage is 11.0 feet.\n* Minor flooding is forecast.\n* Forecast...The Flint Creek near Kansas is expected to rise above\nflood stage early this morning and continue to rise to near 11.3\nfeet early this morning. The river is expected to fall below flood\nstage by noon.\n* Impact...At 11.0 feet, minor flooding occurs from Fidlers Bend to\nChewey Bridge. Permanent campgrounds and farmlands are affected.\nTurbulence makes the river unsafe for floating.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KTSA.FL.W.0006.200111T1118Z-200111T1923Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T13:23:00-06:00"
+            ]
+        }
+    }
+}
