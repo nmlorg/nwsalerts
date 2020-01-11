@@ -1,0 +1,127 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000700-3394940",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.49,
+                    35
+                ],
+                [
+                    -87.49,
+                    34.99
+                ],
+                [
+                    -87.50999999999999,
+                    34.82
+                ],
+                [
+                    -87.55999999999999,
+                    34.57
+                ],
+                [
+                    -88.13999999999999,
+                    34.58
+                ],
+                [
+                    -88.09999999999998,
+                    34.89
+                ],
+                [
+                    -88.15999999999998,
+                    34.92
+                ],
+                [
+                    -88.19999999999999,
+                    35.010000000000005
+                ],
+                [
+                    -87.49,
+                    35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000700-3394940",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000700-3394940",
+        "areaDesc": "Lauderdale, AL; Colbert, AL",
+        "geocode": {
+            "UGC": [
+                "ALC077",
+                "ALC033"
+            ],
+            "SAME": [
+                "001077",
+                "001033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC077",
+            "https://api.weather.gov/zones/county/ALC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000608-3394851",
+                "identifier": "NWS-IDP-PROD-4000608-3394851",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T07:14:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T07:44:00-06:00",
+        "effective": "2020-01-11T07:44:00-06:00",
+        "onset": "2020-01-11T07:44:00-06:00",
+        "expires": "2020-01-11T08:15:00-06:00",
+        "ends": "2020-01-11T08:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 7:44AM CST until January 11 at 8:15AM CST by NWS Huntsville AL",
+        "description": "At 744 AM CST, severe thunderstorms were located along a line\nextending from near Walnut Grove to 6 miles west of Cherokee to near\nTishomingo State Park, moving east at 40 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nFlorence, Muscle Shoals, Sheffield, Tuscumbia, Killen, Cherokee,\nLittleville, Leighton, St. Florian and Underwood-Petersville.",
+        "instruction": "A Tornado Watch remains in effect until 100 PM CST for north central\nand northwestern Alabama.\n\nRemain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T07:44:00.000-06:00...storm...252DEG...28KT...35.08,-88.05 34.74,-88.08 34.6,-88.11"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 815 AM CST FOR LAUDERDALE AND COLBERT COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KHUN.SV.W.0001.000000T0000Z-200111T1415Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNSVSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T08:15:00-06:00"
+            ]
+        }
+    }
+}
