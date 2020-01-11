@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001649-3395807",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.59,
+                    37.2299999
+                ],
+                [
+                    -89.41,
+                    37.25
+                ],
+                [
+                    -89.28999999999999,
+                    37.13
+                ],
+                [
+                    -89.45999989999999,
+                    37.09
+                ],
+                [
+                    -89.59,
+                    37.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001649-3395807",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001649-3395807",
+        "areaDesc": "Scott, MO; Alexander, IL",
+        "geocode": {
+            "UGC": [
+                "MOC201",
+                "ILC003"
+            ],
+            "SAME": [
+                "029201",
+                "017003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC201",
+            "https://api.weather.gov/zones/county/ILC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997440-3391832",
+                "identifier": "NWS-IDP-PROD-3997440-3391832",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T11:59:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T11:51:00-06:00",
+        "effective": "2020-01-11T11:51:00-06:00",
+        "onset": "2020-01-12T21:00:00-06:00",
+        "expires": "2020-01-12T15:50:00-06:00",
+        "ends": "2020-01-20T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 11 at 11:51AM CST until January 20 at 6:00AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following river in\nIllinois...Missouri...Kentucky...\n\nMississippi River at Cape Girardeau...Thebes...New Madrid\n\n.Heavy rainfall over the past 36 hours, along with expected rain\nand snow melt from the middle and upper Mississippi Valley next\nweek, will cause river levels to rise along the Mississippi River.\nCape Girardeau and Thebes are forecast to enter flood stage later\nthis weekend and crest in moderate flood stage midweek. New Madrid,\nwhich will also take in floodwaters from the Ohio River, is forecast\nto reach flood stage early Monday and crest in minor flood stage next\nweekend.\n\nThe Flood Warning continues for\nthe Mississippi River at Thebes.\n* from Sunday evening to Monday January 20.\n* At 11:30 AM Saturday the stage was 29.7 feet.\n* Flood Stage is 33.0 feet.\n* Moderate flooding is forecast.\n* Forecast...Rise above flood stage by tomorrow late evening and\ncontinue to rise to near 37.8 feet by Wednesday evening. The\nriver will fall below flood stage by Monday January 20th.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0012.200113T0300Z-200120T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T06:00:00-06:00"
+            ]
+        }
+    }
+}

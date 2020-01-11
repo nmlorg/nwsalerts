@@ -1,0 +1,134 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001646-3395804",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.22,
+                    40.31
+                ],
+                [
+                    -85.22,
+                    40.38
+                ],
+                [
+                    -85.86,
+                    40.38
+                ],
+                [
+                    -85.86,
+                    40.650000000000006
+                ],
+                [
+                    -85.64,
+                    40.99000000000001
+                ],
+                [
+                    -85.38,
+                    40.95000000000001
+                ],
+                [
+                    -84.8,
+                    40.57000000000001
+                ],
+                [
+                    -84.8,
+                    40.34000000000001
+                ],
+                [
+                    -84.88,
+                    40.31000000000001
+                ],
+                [
+                    -85.22,
+                    40.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001646-3395804",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001646-3395804",
+        "areaDesc": "Huntington, IN; Wells, IN; Grant, IN; Blackford, IN; Adams, IN; Jay, IN; Wabash, IN",
+        "geocode": {
+            "UGC": [
+                "INC069",
+                "INC179",
+                "INC053",
+                "INC009",
+                "INC001",
+                "INC075",
+                "INC169"
+            ],
+            "SAME": [
+                "018069",
+                "018179",
+                "018053",
+                "018009",
+                "018001",
+                "018075",
+                "018169"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC069",
+            "https://api.weather.gov/zones/county/INC179",
+            "https://api.weather.gov/zones/county/INC053",
+            "https://api.weather.gov/zones/county/INC009",
+            "https://api.weather.gov/zones/county/INC001",
+            "https://api.weather.gov/zones/county/INC075",
+            "https://api.weather.gov/zones/county/INC169"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001155-3395348",
+                "identifier": "NWS-IDP-PROD-4001155-3395348",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:44:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T12:49:00-05:00",
+        "effective": "2020-01-11T12:49:00-05:00",
+        "onset": "2020-01-11T12:49:00-05:00",
+        "expires": "2020-01-11T16:45:00-05:00",
+        "ends": "2020-01-11T16:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 11 at 12:49PM EST until January 11 at 4:45PM EST by NWS Northern Indiana",
+        "description": "At 1245 PM EST, Doppler radar and automated gauges indicated light\nto moderate rain is moving across the warned area. Additional\nrainfall up to one inch has fallen with light additional amounts\npossible through 2 PM EST. This light additional rainfall could\nprolong minor flooding of poor drainage areas, and rises on rivers\nand creeks into this afternoon.\n\nSome locations that will experience flooding include...\nMarion, Huntington, Bluffton, Portland, Hartford City, Gas City,\nBerne, Upland, Fairmount, Dunkirk, Montpelier, Jonesboro, Redkey,\nGeneva, Sweetser, Andrews, Markle, Swayzee, La Fontaine and Van\nBuren.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nPlease report flooding to your local law enforcement agency when you\ncan do so safely.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "A FLOOD WARNING REMAINS IN EFFECT UNTIL 445 PM EST FOR SOUTHEASTERN WABASH...GRANT...BLACKFORD...HUNTINGTON...WELLS... SOUTHERN ADAMS AND JAY COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KIWX.FA.W.0004.000000T0000Z-200111T2145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T16:45:00-05:00"
+            ]
+        }
+    }
+}

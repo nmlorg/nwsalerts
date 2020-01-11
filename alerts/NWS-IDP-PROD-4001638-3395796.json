@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001638-3395796",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.84,
+                    33.25
+                ],
+                [
+                    -87.61,
+                    33.27
+                ],
+                [
+                    -87.51,
+                    33.1
+                ],
+                [
+                    -87.73,
+                    33.02
+                ],
+                [
+                    -87.84,
+                    33.1
+                ],
+                [
+                    -87.84,
+                    33.25
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001638-3395796",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001638-3395796",
+        "areaDesc": "Tuscaloosa, AL",
+        "geocode": {
+            "UGC": [
+                "ALC125"
+            ],
+            "SAME": [
+                "001125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC125"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001597-3395762",
+                "identifier": "NWS-IDP-PROD-4001597-3395762",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T11:33:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T11:46:00-06:00",
+        "effective": "2020-01-11T11:46:00-06:00",
+        "onset": "2020-01-11T11:46:00-06:00",
+        "expires": "2020-01-11T12:15:00-06:00",
+        "ends": "2020-01-11T12:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Tornado Warning issued January 11 at 11:46AM CST until January 11 at 12:15PM CST by NWS Birmingham AL",
+        "description": "At 1146 AM CST, a severe thunderstorm capable of producing a tornado\nwas located near Jena, or 10 miles southwest of Northport, moving\nnortheast at 60 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nSouthwestern Tuscaloosa, Northport, Coker, Shelton State Community\nCollege, Tuscaloosa Regional Airport, Englewood, Buhl, Little Sandy,\nFlatwoods, Taylorville, Fosters Boat Landing, Palmore Park, Stillman\nCollege, Fosters, Romulus and Oliver Lock And Dam.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.\n\nThis cluster of thunderstorms is capable of producing tornadoes and\nwidespread significant wind damage. Do not wait to see or hear the\ntornado. For your protection move to an interior room on the lowest\nfloor of a building.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T11:46:00.000-06:00...storm...231DEG...53KT...33.16,-87.74"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 1215 PM CST FOR SOUTHWESTERN TUSCALOOSA COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KBMX.TO.W.0003.000000T0000Z-200111T1815Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSVSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T12:15:00-06:00"
+            ]
+        }
+    }
+}
