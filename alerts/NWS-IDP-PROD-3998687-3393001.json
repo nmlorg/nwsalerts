@@ -1,0 +1,145 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998687-3393001",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.64,
+                    38.15
+                ],
+                [
+                    -91.53,
+                    38.15
+                ],
+                [
+                    -91.53,
+                    37.79
+                ],
+                [
+                    -91.81,
+                    37.79
+                ],
+                [
+                    -91.81,
+                    37.6
+                ],
+                [
+                    -92.03,
+                    37.6
+                ],
+                [
+                    -92.03,
+                    37.620000000000005
+                ],
+                [
+                    -92.25,
+                    37.64000000000001
+                ],
+                [
+                    -92.08,
+                    37.85000000000001
+                ],
+                [
+                    -92.14,
+                    38.13000000000001
+                ],
+                [
+                    -91.65,
+                    38.290000000000006
+                ],
+                [
+                    -91.64,
+                    38.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998687-3393001",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998687-3393001",
+        "areaDesc": "Pulaski, MO; Maries, MO; Phelps, MO",
+        "geocode": {
+            "UGC": [
+                "MOC169",
+                "MOC125",
+                "MOC161"
+            ],
+            "SAME": [
+                "029169",
+                "029125",
+                "029161"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC169",
+            "https://api.weather.gov/zones/county/MOC125",
+            "https://api.weather.gov/zones/county/MOC161"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998612-3392931",
+                "identifier": "NWS-IDP-PROD-3998612-3392931",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:20:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998666-3392984",
+                "identifier": "NWS-IDP-PROD-3998666-3392984",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:32:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998556-3392882",
+                "identifier": "NWS-IDP-PROD-3998556-3392882",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:01:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:39:00-06:00",
+        "effective": "2020-01-10T19:39:00-06:00",
+        "onset": "2020-01-10T19:39:00-06:00",
+        "expires": "2020-01-10T19:49:00-06:00",
+        "ends": "2020-01-10T19:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 7:39PM CST until January 10 at 7:45PM CST by NWS Springfield MO",
+        "description": "The storms which prompted the warning have weakened below severe\nlimits, and no longer pose an immediate threat to life or property.\nTherefore, the warning will be allowed to expire.\n\nA Tornado Watch remains in effect until 200 AM CST for south central\nMissouri.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T19:39:00.000-06:00...storm...218DEG...39KT...38.12,-92.01 37.93,-91.93 37.71,-91.96"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR MARIES...EASTERN PULASKI AND PHELPS COUNTIES WILL EXPIRE AT 745 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KSGF.SV.W.0015.000000T0000Z-200111T0145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:45:00-06:00"
+            ]
+        }
+    }
+}

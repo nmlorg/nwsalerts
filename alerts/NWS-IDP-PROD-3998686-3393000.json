@@ -1,0 +1,118 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998686-3393000",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.25,
+                    37.33
+                ],
+                [
+                    -92.25,
+                    37.65
+                ],
+                [
+                    -92.03,
+                    37.62
+                ],
+                [
+                    -92.03,
+                    37.599999999999994
+                ],
+                [
+                    -91.75,
+                    37.599999999999994
+                ],
+                [
+                    -92.25,
+                    37.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998686-3393000",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998686-3393000",
+        "areaDesc": "Pulaski, MO; Texas, MO",
+        "geocode": {
+            "UGC": [
+                "MOC169",
+                "MOC215"
+            ],
+            "SAME": [
+                "029169",
+                "029215"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC169",
+            "https://api.weather.gov/zones/county/MOC215"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998640-3392958",
+                "identifier": "NWS-IDP-PROD-3998640-3392958",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:23:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998595-3392914",
+                "identifier": "NWS-IDP-PROD-3998595-3392914",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:14:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998586-3392905",
+                "identifier": "NWS-IDP-PROD-3998586-3392905",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:08:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:38:00-06:00",
+        "effective": "2020-01-10T19:38:00-06:00",
+        "onset": "2020-01-10T19:38:00-06:00",
+        "expires": "2020-01-10T19:48:00-06:00",
+        "ends": "2020-01-10T19:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 7:38PM CST until January 10 at 7:45PM CST by NWS Springfield MO",
+        "description": "The storms which prompted the warning have weakened below severe\nlimits, and no longer pose an immediate threat to life or property.\nTherefore, the warning will be allowed to expire.  However gusty\nwinds are still possible with these thunderstorms.\n\nA Tornado Watch remains in effect until 200 AM CST for south central\nMissouri.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T19:38:00.000-06:00...storm...270DEG...53KT...37.73,-91.95 37.63,-91.92 37.49,-91.99"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR SOUTHEASTERN PULASKI AND NORTHWESTERN TEXAS COUNTIES WILL EXPIRE AT 745 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KSGF.SV.W.0016.000000T0000Z-200111T0145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:45:00-06:00"
+            ]
+        }
+    }
+}
