@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001435",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.18,
+                    34.32
+                ],
+                [
+                    -87.64,
+                    34.31
+                ],
+                [
+                    -87.64,
+                    33.93
+                ],
+                [
+                    -87.83,
+                    33.52
+                ],
+                [
+                    -88.27,
+                    33.53
+                ],
+                [
+                    -88.18,
+                    34.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001435",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001435",
+        "areaDesc": "Marion; Fayette; Lamar",
+        "geocode": {
+            "UGC": [
+                "ALZ011",
+                "ALZ013",
+                "ALZ012"
+            ],
+            "SAME": [
+                "001093",
+                "001057",
+                "001075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ALZ011",
+            "https://api.weather.gov/zones/forecast/ALZ013",
+            "https://api.weather.gov/zones/forecast/ALZ012"
+        ],
+        "references": [],
+        "sent": "2020-01-11T10:47:00-06:00",
+        "effective": "2020-01-11T10:47:00-06:00",
+        "onset": "2020-01-11T10:47:00-06:00",
+        "expires": "2020-01-11T11:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Special Weather Statement issued January 11 at 10:47AM CST by NWS Birmingham AL",
+        "description": "At 1047 AM CST, Doppler radar was tracking strong thunderstorms along\na line extending from 6 miles northwest of Hackleburg to near Guin to\nnear Lamar County Airport. Movement was northeast at 60 mph.\n\nWinds in excess of 40 mph will be possible with these storms.\n\nLocations impacted include...\nHamilton, Winfield, Fayette, Vernon, Sulligent, Millport, Guin,\nHackleburg, Brilliant, Glen Allen, Kennedy, Detroit, Belk, Beaverton,\nGu-Win, Bluff, Blooming Grove, Brinn, Lake Buttahatchee and Weston.",
+        "instruction": "Torrential rainfall is also occurring with these storms, and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T10:47:00.000-06:00...storm...229DEG...52KT...34.35,-87.9 34.05,-87.94 33.85,-88.07"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR MARION...WESTERN FAYETTE AND LAMAR COUNTIES UNTIL 1130 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSPSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

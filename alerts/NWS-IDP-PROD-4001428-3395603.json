@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001428-3395603",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.39,
+                    32.58
+                ],
+                [
+                    -88.76,
+                    32.58
+                ],
+                [
+                    -88.54,
+                    33.29
+                ],
+                [
+                    -88.30000000000001,
+                    33.29
+                ],
+                [
+                    -88.39,
+                    32.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001428-3395603",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001428-3395603",
+        "areaDesc": "Noxubee, MS; Kemper, MS",
+        "geocode": {
+            "UGC": [
+                "MSC103",
+                "MSC069"
+            ],
+            "SAME": [
+                "028103",
+                "028069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC103",
+            "https://api.weather.gov/zones/county/MSC069"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001307-3395486",
+                "identifier": "NWS-IDP-PROD-4001307-3395486",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:14:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T10:45:00-06:00",
+        "effective": "2020-01-11T10:45:00-06:00",
+        "onset": "2020-01-11T10:45:00-06:00",
+        "expires": "2020-01-11T11:15:00-06:00",
+        "ends": "2020-01-11T11:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 10:45AM CST until January 11 at 11:15AM CST by NWS Jackson MS",
+        "description": "At 1045 AM CST, severe thunderstorms were located along a line\nextending from Macon to 8 miles southwest of Paulette, moving\nnortheast at 60 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nPaulette, Cooksville, Prairie Point and Deerbrook around 1055 AM\nCST.\nBigbee Valley around 1100 AM CST.\n\nOther locations impacted by these severe thunderstorms include\nShuqualak and Scooba.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T10:45:00.000-06:00...storm...230DEG...53KT...33.1,-88.56 32.91,-88.54"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1115 AM CST FOR EASTERN NOXUBEE AND KEMPER COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0031.000000T0000Z-200111T1715Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T11:15:00-06:00"
+            ]
+        }
+    }
+}
