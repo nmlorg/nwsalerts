@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001062-3395262",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.93,
+                    40.43
+                ],
+                [
+                    -90.74000000000001,
+                    40.24
+                ],
+                [
+                    -90.66000000000001,
+                    40.13
+                ],
+                [
+                    -90.72000000000001,
+                    40.13
+                ],
+                [
+                    -91.02000000000001,
+                    40.4099999
+                ],
+                [
+                    -90.93,
+                    40.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001062-3395262",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001062-3395262",
+        "areaDesc": "McDonough, IL; Hancock, IL",
+        "geocode": {
+            "UGC": [
+                "ILC109",
+                "ILC067"
+            ],
+            "SAME": [
+                "017109",
+                "017067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC109",
+            "https://api.weather.gov/zones/county/ILC067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000258-3394520",
+                "identifier": "NWS-IDP-PROD-4000258-3394520",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T04:47:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T09:14:00-06:00",
+        "effective": "2020-01-11T09:14:00-06:00",
+        "onset": "2020-01-12T01:30:00-06:00",
+        "expires": "2020-01-12T01:14:00-06:00",
+        "ends": "2020-01-14T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Quad Cities IA IL",
+        "headline": "Flood Warning issued January 11 at 9:14AM CST until January 14 at 6:00AM CST by NWS Quad Cities IA IL",
+        "description": "Heavy rainfall of 1.00 to 1.25 inches of rain fell yesterday into\nthis morning and was casusing rapids rises on the La Moine River at Colmar.\n\nRiver forecasts include past precipitation and forecast rainfall for\nthe next 48 hours.\n\nThe Flood Warning continues for\nThe La Moine River at Colmar.\n* Until Monday.\n* At  8:45 AM Saturday the stage was 17.2 feet and rising.\n* Flood stage is 20.0 feet.\n* No flooding is occurring and Minor flooding is forecast.\n* Recent activity, river is rising rapidly due to heavy rainfall!.\n* Forecast, Rise above flood stage Sunday morning and continue rising\nto 21.0 feet Sunday. The river will fall below flood stage Monday.\n* Impact, At  20.0 feet, Water affects the lowest portions of Lambert\nRoad and affects Lamar Road approximately 100 feet north of the\nintersection with County Road 26.",
+        "instruction": "If you encounter a flooded roadway, turn around and find an\nalternate route. Turn around, don't drown.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning now in effect until Monday"
+            ],
+            "VTEC": [
+                "/O.EXT.KDVN.FL.W.0001.200112T0730Z-200114T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DVNFLSDVN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T06:00:00-06:00"
+            ]
+        }
+    }
+}

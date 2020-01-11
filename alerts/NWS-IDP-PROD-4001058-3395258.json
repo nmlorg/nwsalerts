@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001058-3395258",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.39,
+                    35.49
+                ],
+                [
+                    -94.22,
+                    35.39
+                ],
+                [
+                    -94.22,
+                    35.31
+                ],
+                [
+                    -94.53999999999999,
+                    35.31
+                ],
+                [
+                    -94.53999999999999,
+                    35.400000000000006
+                ],
+                [
+                    -94.39,
+                    35.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001058-3395258",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001058-3395258",
+        "areaDesc": "Sebastian, AR; Crawford, AR",
+        "geocode": {
+            "UGC": [
+                "ARC131",
+                "ARC033"
+            ],
+            "SAME": [
+                "005131",
+                "005033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC131",
+            "https://api.weather.gov/zones/county/ARC033"
+        ],
+        "references": [],
+        "sent": "2020-01-11T09:13:00-06:00",
+        "effective": "2020-01-11T09:13:00-06:00",
+        "onset": "2020-01-12T12:00:00-06:00",
+        "expires": "2020-01-11T17:12:00-06:00",
+        "ends": "2020-01-12T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 11 at 9:13AM CST until January 12 at 6:00PM CST by NWS Tulsa OK",
+        "description": "...The National Weather Service in Tulsa has issued a Flood Warning\nfor the following rivers in Arkansas...\n\nArkansas River at Van Buren affecting Crawford and Sebastian\nCounties.\n\nThe National Weather Service in Tulsa has issued a\n\n* Flood Warning for\nThe Arkansas River at Van Buren\n* from Sunday afternoon to Sunday evening, or until the warning is\ncancelled.\n* At  9:00 AM Saturday, the stage was 21.65 feet.\n* Flood stage is 22.0 feet.\n* Minor flooding is forecast.\n* Forecast...The Arkansas River at Van Buren is expected to rise to\nnear flood stage early Sunday afternoon.\n* Impact...At 22.0 feet, minor lowland flooding occurs along the\nshoreline from the I-540 bridge east towards Lavaca.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KTSA.FL.W.0013.200112T1800Z-200113T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLWTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T18:00:00-06:00"
+            ]
+        }
+    }
+}
