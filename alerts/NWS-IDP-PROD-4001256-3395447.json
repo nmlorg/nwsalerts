@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001256-3395447",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.92,
+                    32.36
+                ],
+                [
+                    -89.27,
+                    32.3
+                ],
+                [
+                    -89.28999999999999,
+                    32.65
+                ],
+                [
+                    -89.13999999999999,
+                    32.87
+                ],
+                [
+                    -88.94999999999999,
+                    32.919999999999995
+                ],
+                [
+                    -88.92999999999999,
+                    32.919999999999995
+                ],
+                [
+                    -88.92999999999999,
+                    32.92999999999999
+                ],
+                [
+                    -88.91999999999999,
+                    32.92999999999999
+                ],
+                [
+                    -88.92,
+                    32.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001256-3395447",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001256-3395447",
+        "areaDesc": "Newton, MS; Neshoba, MS",
+        "geocode": {
+            "UGC": [
+                "MSC101",
+                "MSC099"
+            ],
+            "SAME": [
+                "028101",
+                "028099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC101",
+            "https://api.weather.gov/zones/county/MSC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001099-3395298",
+                "identifier": "NWS-IDP-PROD-4001099-3395298",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:29:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T09:59:00-06:00",
+        "effective": "2020-01-11T09:59:00-06:00",
+        "onset": "2020-01-11T09:59:00-06:00",
+        "expires": "2020-01-11T10:30:00-06:00",
+        "ends": "2020-01-11T10:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 9:59AM CST until January 11 at 10:30AM CST by NWS Jackson MS",
+        "description": "At 958 AM CST, a severe thunderstorm was located over Neshoba, or 8\nmiles northeast of Prospect, moving northeast at 40 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThis severe storm will be near...\nBethsaida and House around 1010 AM CST.\nForestdale around 1020 AM CST.\n\nOther locations impacted by this severe thunderstorm include Tucker.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T09:58:00.000-06:00...storm...242DEG...34KT...32.64,-89.16"
+            ],
+            "hailSize": [
+                0.75
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1030 AM CST FOR NEWTON AND NESHOBA COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0027.000000T0000Z-200111T1630Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T10:30:00-06:00"
+            ]
+        }
+    }
+}
