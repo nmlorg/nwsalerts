@@ -1,0 +1,125 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001240-3395438",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.02,
+                    32.04
+                ],
+                [
+                    -89.31,
+                    31.83
+                ],
+                [
+                    -89.3199999,
+                    31.88
+                ],
+                [
+                    -89.3199999,
+                    32.19
+                ],
+                [
+                    -89.26,
+                    32.3
+                ],
+                [
+                    -89,
+                    32.349999999999994
+                ],
+                [
+                    -89.02,
+                    32.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001240-3395438",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001240-3395438",
+        "areaDesc": "Newton, MS; Jasper, MS",
+        "geocode": {
+            "UGC": [
+                "MSC101",
+                "MSC061"
+            ],
+            "SAME": [
+                "028101",
+                "028061"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC101",
+            "https://api.weather.gov/zones/county/MSC061"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001181-3395374",
+                "identifier": "NWS-IDP-PROD-4001181-3395374",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:48:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001064-3395264",
+                "identifier": "NWS-IDP-PROD-4001064-3395264",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:16:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T09:55:00-06:00",
+        "effective": "2020-01-11T09:55:00-06:00",
+        "onset": "2020-01-11T09:55:00-06:00",
+        "expires": "2020-01-11T10:15:00-06:00",
+        "ends": "2020-01-11T10:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 9:55AM CST until January 11 at 10:15AM CST by NWS Jackson MS",
+        "description": "At 955 AM CST, severe thunderstorms were located along a line\nextending from near Roberts to near Turnerville, moving northeast at\n55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nNewton around 1005 AM CST.\nGarlandville around 1010 AM CST.\n\nOther locations impacted by these severe thunderstorms include\nMontrose, Louin and Hickory.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T09:55:00.000-06:00...storm...229DEG...49KT...32.28,-89.25 32.05,-89.24"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1015 AM CST FOR WESTERN JASPER AND SOUTHERN NEWTON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0024.000000T0000Z-200111T1615Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T10:15:00-06:00"
+            ]
+        }
+    }
+}

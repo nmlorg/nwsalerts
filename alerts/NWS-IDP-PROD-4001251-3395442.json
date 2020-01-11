@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001251-3395442",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.77,
+                    38.53
+                ],
+                [
+                    -85.8199999,
+                    38.6
+                ],
+                [
+                    -85.55,
+                    38.74
+                ],
+                [
+                    -85.42999999999999,
+                    38.580000000000005
+                ],
+                [
+                    -85.77,
+                    38.53
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001251-3395442",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001251-3395442",
+        "areaDesc": "Jefferson, IN; Clark, IN; Scott, IN",
+        "geocode": {
+            "UGC": [
+                "INC077",
+                "INC019",
+                "INC143"
+            ],
+            "SAME": [
+                "018077",
+                "018019",
+                "018143"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC077",
+            "https://api.weather.gov/zones/county/INC019",
+            "https://api.weather.gov/zones/county/INC143"
+        ],
+        "references": [],
+        "sent": "2020-01-11T10:57:00-05:00",
+        "effective": "2020-01-11T10:57:00-05:00",
+        "onset": "2020-01-11T10:57:00-05:00",
+        "expires": "2020-01-11T11:30:00-05:00",
+        "ends": "2020-01-11T11:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 10:57AM EST until January 11 at 11:30AM EST by NWS Louisville KY",
+        "description": "The National Weather Service in Louisville has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Jefferson County in south central Indiana...\nNortheastern Clark County in south central Indiana...\nSoutheastern Scott County in south central Indiana...\n\n* Until 1130 AM EST.\n\n* At 1057 AM EST, a severe thunderstorm was located 7 miles south of\nScottsburg, moving northeast at 45 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nLexington, Saluda, Marysville, Henryville, Underwood, Paynesville,\nNabb, Chelsea, Swanville and New Washington.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T10:57:00.000-05:00...storm...243DEG...40KT...38.59,-85.72"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KLMK.SV.W.0011.200111T1557Z-200111T1630Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKSVRLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T11:30:00-05:00"
+            ]
+        }
+    }
+}
