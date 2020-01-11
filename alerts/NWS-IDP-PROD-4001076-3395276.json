@@ -1,0 +1,134 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001076-3395276",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.9599999,
+                    31.52
+                ],
+                [
+                    -89.98,
+                    31.52
+                ],
+                [
+                    -89.97,
+                    31.759999999999998
+                ],
+                [
+                    -89.9,
+                    32.05
+                ],
+                [
+                    -89.67,
+                    32.05
+                ],
+                [
+                    -89.66,
+                    31.779999999999998
+                ],
+                [
+                    -89.75999999999999,
+                    31.769999999999996
+                ],
+                [
+                    -89.75999999999999,
+                    31.619999999999997
+                ],
+                [
+                    -89.95999989999999,
+                    31.419999999999998
+                ],
+                [
+                    -89.9599999,
+                    31.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001076-3395276",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001076-3395276",
+        "areaDesc": "Jefferson Davis, MS; Simpson, MS",
+        "geocode": {
+            "UGC": [
+                "MSC065",
+                "MSC127"
+            ],
+            "SAME": [
+                "028065",
+                "028127"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC065",
+            "https://api.weather.gov/zones/county/MSC127"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000836-3395071",
+                "identifier": "NWS-IDP-PROD-4000836-3395071",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T08:40:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000793-3395030",
+                "identifier": "NWS-IDP-PROD-4000793-3395030",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T08:24:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000978-3395195",
+                "identifier": "NWS-IDP-PROD-4000978-3395195",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:06:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T09:21:00-06:00",
+        "effective": "2020-01-11T09:21:00-06:00",
+        "onset": "2020-01-11T09:21:00-06:00",
+        "expires": "2020-01-11T09:31:00-06:00",
+        "ends": "2020-01-11T09:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 9:21AM CST until January 11 at 9:30AM CST by NWS Jackson MS",
+        "description": "The storms which prompted the warning have moved out of the area.\nTherefore, the warning will be allowed to expire.\n\nA Tornado Watch remains in effect until 1100 AM CST for south central\nand central Mississippi. A Tornado Watch also remains in effect until\n400 PM CST for south central, central and southeastern Mississippi.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T09:21:00.000-06:00...storm...221DEG...63KT...32.22,-89.58 32.01,-89.62"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR EASTERN SIMPSON AND NORTHWESTERN JEFFERSON DAVIS COUNTIES WILL EXPIRE AT 930 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KJAN.SV.W.0022.000000T0000Z-200111T1530Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T09:30:00-06:00"
+            ]
+        }
+    }
+}
