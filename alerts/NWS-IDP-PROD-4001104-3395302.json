@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001104-3395302",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.63,
+                    38.75
+                ],
+                [
+                    -90.66,
+                    38.79
+                ],
+                [
+                    -90.63,
+                    38.83
+                ],
+                [
+                    -90.61,
+                    38.82
+                ],
+                [
+                    -90.62,
+                    38.76
+                ],
+                [
+                    -90.63,
+                    38.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001104-3395302",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001104-3395302",
+        "areaDesc": "St. Charles, MO",
+        "geocode": {
+            "UGC": [
+                "MOC183"
+            ],
+            "SAME": [
+                "029183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998777-3393089",
+                "identifier": "NWS-IDP-PROD-3998777-3393089",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T20:09:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T09:30:00-06:00",
+        "effective": "2020-01-11T09:30:00-06:00",
+        "onset": "2020-01-11T09:30:00-06:00",
+        "expires": "2020-01-12T15:30:00-06:00",
+        "ends": "2020-01-13T04:44:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 11 at 9:30AM CST until January 13 at 4:44AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\n\nCuivre River near Troy\n\nDardenne Creek at St. Peters\n\nNorth River at Palmyra\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Dardenne Creek at St. Peters\n* until late Sunday night.\n* At  9:00 AM Saturday the stage was 20.1 feet.\n* Flood stage is 18.0 feet.\n* Moderate flooding is forecast.\n* The river is forecast to crest near 20.5 feet by this afternoon,\nthen fall below flood stage tonight.\n* Impact:  At 20.5 feet...The athletic fields at the Woodlands Sports\nPark and at the Tony Glavin Soccer Complex begin flooding near this\nheight.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0019.000000T0000Z-200113T1044Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T04:44:00-06:00"
+            ]
+        }
+    }
+}

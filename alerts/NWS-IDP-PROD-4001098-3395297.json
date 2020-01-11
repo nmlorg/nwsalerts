@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001098-3395297",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.3199999,
+                    36.53
+                ],
+                [
+                    -86.38,
+                    36.29
+                ],
+                [
+                    -86.77,
+                    36.13
+                ],
+                [
+                    -86.75,
+                    36.370000000000005
+                ],
+                [
+                    -86.3199999,
+                    36.53
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001098-3395297",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001098-3395297",
+        "areaDesc": "Davidson, TN; Wilson, TN; Sumner, TN",
+        "geocode": {
+            "UGC": [
+                "TNC037",
+                "TNC189",
+                "TNC165"
+            ],
+            "SAME": [
+                "047037",
+                "047189",
+                "047165"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC037",
+            "https://api.weather.gov/zones/county/TNC189",
+            "https://api.weather.gov/zones/county/TNC165"
+        ],
+        "references": [],
+        "sent": "2020-01-11T09:29:00-06:00",
+        "effective": "2020-01-11T09:29:00-06:00",
+        "onset": "2020-01-11T09:29:00-06:00",
+        "expires": "2020-01-11T10:00:00-06:00",
+        "ends": "2020-01-11T10:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 9:29AM CST until January 11 at 10:00AM CST by NWS Nashville TN",
+        "description": "The National Weather Service in Nashville has issued a\n\n* Severe Thunderstorm Warning for...\nNortheastern Davidson County in Middle Tennessee...\nSouthern Sumner County in Middle Tennessee...\nNorthwestern Wilson County in Middle Tennessee...\n\n* Until 1000 AM CST.\n\n* At 928 AM CST, severe thunderstorms were located along a line\nextending from Millersville to near Nashville, moving northeast at\n65 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nGallatin, Madison, Hendersonville, Mount Juliet, Goodlettsville,\nMillersville, Lakewood, Hermitage and Old Hickory.",
+        "instruction": "A Tornado Watch remains in effect until 100 PM CST for Middle\nTennessee.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T09:28:00.000-06:00...storm...235DEG...55KT...36.4,-86.7 36.17,-86.73"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KOHX.SV.W.0012.200111T1529Z-200111T1600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVROHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T10:00:00-06:00"
+            ]
+        }
+    }
+}
