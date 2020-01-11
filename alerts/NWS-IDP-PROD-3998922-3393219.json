@@ -1,0 +1,112 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998922-3393219",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.94,
+                    36.11
+                ],
+                [
+                    -92.94,
+                    35.92
+                ],
+                [
+                    -93.0699999,
+                    35.9099999
+                ],
+                [
+                    -93.15,
+                    35.96
+                ],
+                [
+                    -93.03,
+                    36.11
+                ],
+                [
+                    -92.94,
+                    36.11
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998922-3393219",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998922-3393219",
+        "areaDesc": "Newton, AR; Searcy, AR",
+        "geocode": {
+            "UGC": [
+                "ARC101",
+                "ARC129"
+            ],
+            "SAME": [
+                "005101",
+                "005129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC101",
+            "https://api.weather.gov/zones/county/ARC129"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998849-3393154",
+                "identifier": "NWS-IDP-PROD-3998849-3393154",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T20:31:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T20:48:00-06:00",
+        "effective": "2020-01-10T20:48:00-06:00",
+        "onset": "2020-01-10T20:48:00-06:00",
+        "expires": "2020-01-10T21:15:00-06:00",
+        "ends": "2020-01-10T21:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Tornado Warning issued January 10 at 8:48PM CST until January 10 at 9:15PM CST by NWS Little Rock AR",
+        "description": "At 848 PM CST, a severe squall line capable of producing both\ntornadoes and extensive straight line wind damage was located 9 miles\nnorth of Bertha, or 11 miles south of Jasper, moving northeast at 45\nmph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nWestern Grove...                  Piercetown...\nCarver...                         Yardelle...\nVendor...                         Hasty...\nMt Judea...",
+        "instruction": "Tornadoes are extremely difficult to see and confirm at night. Do not\nwait to see or hear the tornado. TAKE COVER NOW!\n\nTorrential rainfall is occurring with this storm, and flash flooding\nmay occur. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T20:48:00.000-06:00...storm...212DEG...40KT...35.84,-93.15"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 915 PM CST FOR NORTHWESTERN SEARCY AND NORTHEASTERN NEWTON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KLZK.TO.W.0005.000000T0000Z-200111T0315Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKSVSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T21:15:00-06:00"
+            ]
+        }
+    }
+}
