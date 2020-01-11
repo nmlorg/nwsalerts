@@ -1,0 +1,164 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002059-3396211",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.36,
+                    38.32
+                ],
+                [
+                    -83.41,
+                    38.4
+                ],
+                [
+                    -83.45,
+                    38.379999999999995
+                ],
+                [
+                    -83.53,
+                    38.419999999999995
+                ],
+                [
+                    -83.33,
+                    39.10999999999999
+                ],
+                [
+                    -83.16,
+                    39.18999999999999
+                ],
+                [
+                    -83.02,
+                    39.17999999999999
+                ],
+                [
+                    -83.03,
+                    38.67999999999999
+                ],
+                [
+                    -83.0699999,
+                    38.629999999999995
+                ],
+                [
+                    -83.0699999,
+                    38.599999999999994
+                ],
+                [
+                    -83.1,
+                    38.55
+                ],
+                [
+                    -83.19,
+                    38.489999999999995
+                ],
+                [
+                    -83.19,
+                    38.46999999999999
+                ],
+                [
+                    -83.24,
+                    38.42999999999999
+                ],
+                [
+                    -83.22999999999999,
+                    38.33999999999999
+                ],
+                [
+                    -83.36,
+                    38.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002059-3396211",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002059-3396211",
+        "areaDesc": "Lewis, KY; Pike, OH; Adams, OH; Scioto, OH",
+        "geocode": {
+            "UGC": [
+                "KYC135",
+                "OHC131",
+                "OHC001",
+                "OHC145"
+            ],
+            "SAME": [
+                "021135",
+                "039131",
+                "039001",
+                "039145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC135",
+            "https://api.weather.gov/zones/county/OHC131",
+            "https://api.weather.gov/zones/county/OHC001",
+            "https://api.weather.gov/zones/county/OHC145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002018-3396167",
+                "identifier": "NWS-IDP-PROD-4002018-3396167",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T14:11:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001939-3396086",
+                "identifier": "NWS-IDP-PROD-4001939-3396086",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T14:01:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T14:21:00-05:00",
+        "effective": "2020-01-11T14:21:00-05:00",
+        "onset": "2020-01-11T14:21:00-05:00",
+        "expires": "2020-01-11T14:45:00-05:00",
+        "ends": "2020-01-11T14:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 2:21PM EST until January 11 at 2:45PM EST by NWS Wilmington OH",
+        "description": "At 221 PM EST, severe thunderstorms were located along a line\nextending from near Kincaid Springs to 6 miles east of Tollesboro,\nmoving east at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to trees and power lines.\n\nLocations impacted include...\nPiketon, Vanceburg, Head of Grassy, Pike Lake, Kincaid Springs, Camp\nDix, Rome, Blue Creek, Rarden, Otway, Saint Paul, Kinniconick,\nFriendship, Mcdermott, Charters, Petersville, Stricklett, Mount Joy,\nBear Creek and Rexton.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTo report severe weather, go to our website at weather.gov/iln and\nsubmit your report via social media, when you can do so safely.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T14:21:00.000-05:00...storm...270DEG...49KT...39.14,-83.28 38.54,-83.46"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 245 PM EST FOR LEWIS...EASTERN ADAMS...CENTRAL PIKE AND WESTERN SCIOTO COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KILN.SV.W.0003.000000T0000Z-200111T1945Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNSVSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T14:45:00-05:00"
+            ]
+        }
+    }
+}

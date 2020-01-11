@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002065-3396218",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.29,
+                    41.37
+                ],
+                [
+                    -88.24000000000001,
+                    41.409999899999995
+                ],
+                [
+                    -87.84,
+                    41.15
+                ],
+                [
+                    -87.84,
+                    41.059999999999995
+                ],
+                [
+                    -88.14,
+                    41.21999999999999
+                ],
+                [
+                    -88.29,
+                    41.37
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002065-3396218",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002065-3396218",
+        "areaDesc": "Kankakee, IL; Will, IL; Grundy, IL",
+        "geocode": {
+            "UGC": [
+                "ILC091",
+                "ILC197",
+                "ILC063"
+            ],
+            "SAME": [
+                "017091",
+                "017197",
+                "017063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC091",
+            "https://api.weather.gov/zones/county/ILC197",
+            "https://api.weather.gov/zones/county/ILC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000995-3395208",
+                "identifier": "NWS-IDP-PROD-4000995-3395208",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:07:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T13:22:00-06:00",
+        "effective": "2020-01-11T13:22:00-06:00",
+        "onset": "2020-01-12T01:12:00-06:00",
+        "expires": "2020-01-12T03:21:00-06:00",
+        "ends": "2020-01-13T16:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 11 at 1:22PM CST until January 13 at 4:00PM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in Indiana...\nIllinois...\n\nKankakee River at Dunns Bridge affecting Porter County\nKankakee River near Kouts affecting Jasper and Porter Counties\nKankakee River near Wilmington affecting Grundy...Kankakee and Will\nCounties\nSugar Creek at Milford affecting Iroquois County\nVermilion River at Pontiac affecting Livingston County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Warning continues for\nThe Kankakee River near Wilmington, or from confluence with Iroquois\nRiver downstream to confluence with the Illinois River.\n* from late tonight to Monday afternoon.\n* At 1245 PM Saturday the stage was 4.9 feet.\n* Flood stage is 6.5 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by early Sunday and continue to\nrise to near 7.0 feet by Sunday afternoon.\n* Impact...At 7.0 feet...Backyards of some houses downstream of\nWilmington begin to flood. Low-lying sections of Bird Park and\nJeffers Park inundated in Kankakee.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0005.200112T0712Z-200113T2200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T16:00:00-06:00"
+            ]
+        }
+    }
+}
