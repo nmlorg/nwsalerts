@@ -1,0 +1,120 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002162-3396319",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.35,
+                    31.26
+                ],
+                [
+                    -87.03,
+                    31.26
+                ],
+                [
+                    -87.23,
+                    30.650000000000002
+                ],
+                [
+                    -87.49000000000001,
+                    30.64
+                ],
+                [
+                    -87.35,
+                    31.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002162-3396319",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002162-3396319",
+        "areaDesc": "Escambia, FL; Santa Rosa, FL; Escambia, AL; Baldwin, AL",
+        "geocode": {
+            "UGC": [
+                "FLC033",
+                "FLC113",
+                "ALC053",
+                "ALC003"
+            ],
+            "SAME": [
+                "012033",
+                "012113",
+                "001053",
+                "001003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC033",
+            "https://api.weather.gov/zones/county/FLC113",
+            "https://api.weather.gov/zones/county/ALC053",
+            "https://api.weather.gov/zones/county/ALC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002115-3396269",
+                "identifier": "NWS-IDP-PROD-4002115-3396269",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:38:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002011-3396161",
+                "identifier": "NWS-IDP-PROD-4002011-3396161",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:10:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T13:48:00-06:00",
+        "effective": "2020-01-11T13:48:00-06:00",
+        "onset": "2020-01-11T13:48:00-06:00",
+        "expires": "2020-01-11T14:00:00-06:00",
+        "ends": "2020-01-11T14:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 1:48PM CST until January 11 at 2:00PM CST by NWS Mobile AL",
+        "description": "At 148 PM CST, severe thunderstorms were located along a line\nextending from 6 miles southwest of Castleberry to 6 miles southwest\nof Molino, moving east at 45 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nCentury, Flomaton, Molino, Jay, Pollard and I65 And AL 113.",
+        "instruction": "A Tornado Watch remains in effect until 400 PM CST for south central\nand southwestern Alabama...and northwestern Florida.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T13:48:00.000-06:00...storm...265DEG...37KT...31.25,-87.11 30.65,-87.38"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 200 PM CST FOR EASTERN BALDWIN...CENTRAL ESCAMBIA...NORTHWESTERN SANTA ROSA AND NORTHWESTERN ESCAMBIA COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.SV.W.0012.000000T0000Z-200111T2000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSVSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T14:00:00-06:00"
+            ]
+        }
+    }
+}
