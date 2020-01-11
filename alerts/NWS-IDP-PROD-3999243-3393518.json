@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999243-3393518",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.17,
+                    36.31
+                ],
+                [
+                    -92.33,
+                    36.39
+                ],
+                [
+                    -92.26,
+                    36.5
+                ],
+                [
+                    -92,
+                    36.5
+                ],
+                [
+                    -92.17,
+                    36.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999243-3393518",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999243-3393518",
+        "areaDesc": "Baxter, AR; Fulton, AR",
+        "geocode": {
+            "UGC": [
+                "ARC005",
+                "ARC049"
+            ],
+            "SAME": [
+                "005005",
+                "005049"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC005",
+            "https://api.weather.gov/zones/county/ARC049"
+        ],
+        "references": [],
+        "sent": "2020-01-10T22:15:00-06:00",
+        "effective": "2020-01-10T22:15:00-06:00",
+        "onset": "2020-01-10T22:15:00-06:00",
+        "expires": "2020-01-10T22:45:00-06:00",
+        "ends": "2020-01-10T22:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Tornado Warning issued January 10 at 10:15PM CST until January 10 at 10:45PM CST by NWS Little Rock AR",
+        "description": "The National Weather Service in Little Rock has issued a\n\n* Tornado Warning for...\nNortheastern Baxter County in north central Arkansas...\nNorthwestern Fulton County in north central Arkansas...\n\n* Until 1045 PM CST.\n\n* At 1015 PM CST, a severe thunderstorm capable of producing a\ntornado was located over Gamaliel Landing, or 12 miles northeast of\nMountain Home, moving northeast at 70 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* Locations impacted include...\nOtt...                            Gamaliel Landing...\nVidette...                        Robinson Point Landing...\nGamaliel...                       Henderson...\nGepp...                           Norfork Lake...",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T22:15:00.000-06:00...storm...211DEG...61KT...36.42,-92.19"
+            ],
+            "hailSize": [
+                0
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KLZK.TO.W.0007.200111T0415Z-200111T0445Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKTORLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T22:45:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 10:45 PM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}
