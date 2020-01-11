@@ -1,0 +1,118 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999344-3393613",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.12,
+                    36.79
+                ],
+                [
+                    -92.3199999,
+                    36.8
+                ],
+                [
+                    -92.09,
+                    37.059999999999995
+                ],
+                [
+                    -91.66,
+                    37.05
+                ],
+                [
+                    -91.66,
+                    36.79
+                ],
+                [
+                    -91.67999999999999,
+                    36.79
+                ],
+                [
+                    -91.67999999999999,
+                    36.699999999999996
+                ],
+                [
+                    -92.11999999999999,
+                    36.54
+                ],
+                [
+                    -92.12,
+                    36.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999344-3393613",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999344-3393613",
+        "areaDesc": "Howell, MO; Douglas, MO",
+        "geocode": {
+            "UGC": [
+                "MOC091",
+                "MOC067"
+            ],
+            "SAME": [
+                "029091",
+                "029067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC091",
+            "https://api.weather.gov/zones/county/MOC067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999228-3393502",
+                "identifier": "NWS-IDP-PROD-3999228-3393502",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:06:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T22:56:00-06:00",
+        "effective": "2020-01-10T22:56:00-06:00",
+        "onset": "2020-01-10T22:56:00-06:00",
+        "expires": "2020-01-10T23:06:00-06:00",
+        "ends": "2020-01-10T23:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 10:56PM CST until January 10 at 11:00PM CST by NWS Springfield MO",
+        "description": "The storms which prompted the warning have moved out of the area.\nTherefore, the warning will be allowed to expire.  However heavy rain\nis still possible with these thunderstorms.\n\nA Tornado Watch remains in effect until 200 AM CST for south central\nMissouri.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T22:56:00.000-06:00...storm...229DEG...51KT...37.28,-91.65 37.17,-91.54 37.0,-91.54"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR SOUTHEASTERN DOUGLAS AND HOWELL COUNTIES WILL EXPIRE AT 1100 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KSGF.SV.W.0018.000000T0000Z-200111T0500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T23:00:00-06:00"
+            ]
+        }
+    }
+}
