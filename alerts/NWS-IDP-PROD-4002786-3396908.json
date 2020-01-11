@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002786-3396908",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.05,
+                    35.33
+                ],
+                [
+                    -89.8,
+                    35.3
+                ],
+                [
+                    -89.64,
+                    35.379999999999995
+                ],
+                [
+                    -89.64,
+                    35.199999999999996
+                ],
+                [
+                    -89.89,
+                    35.239999999999995
+                ],
+                [
+                    -90.04,
+                    35.21999999999999
+                ],
+                [
+                    -90.05,
+                    35.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002786-3396908",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002786-3396908",
+        "areaDesc": "Fayette, TN; Shelby, TN",
+        "geocode": {
+            "UGC": [
+                "TNC047",
+                "TNC157"
+            ],
+            "SAME": [
+                "047047",
+                "047157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC047",
+            "https://api.weather.gov/zones/county/TNC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001124-3395320",
+                "identifier": "NWS-IDP-PROD-4001124-3395320",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:39:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T16:18:00-06:00",
+        "effective": "2020-01-11T16:18:00-06:00",
+        "onset": "2020-01-11T18:00:00-06:00",
+        "expires": "2020-01-12T16:18:00-06:00",
+        "ends": "2020-01-13T12:27:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 11 at 4:18PM CST until January 13 at 12:27PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Loosahatchie River.\n\nThe Flood Warning continues for\nthe Loosahatchie River at Loosahatchie River Near Arlington 2NE\n* from Saturday January 11 until Monday January 13.\n* At 3 PM Saturday the stage was 19.5 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 21.0 feet on Sunday January 12.\n* Flood stage is 20.0 feet.\n* Forecast to rise above flood stage by Saturday January 11 and\ncontinue to rise to near 21.0 feet by Sunday January 12.The river\nwill fall below flood stage by Monday January 13.\n* At 21.0 feet...Brief road is flooding.",
+        "instruction": "A followup Flood Statement will be issued when conditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0020.200112T0000Z-200113T1827Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T12:27:00-06:00"
+            ]
+        }
+    }
+}
