@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998938-3393235",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.25,
+                    31.93
+                ],
+                [
+                    -90.34,
+                    32.12
+                ],
+                [
+                    -90.13000000000001,
+                    32.43
+                ],
+                [
+                    -90.02000000000001,
+                    32.37
+                ],
+                [
+                    -90.20000000000002,
+                    32.129999999999995
+                ],
+                [
+                    -90.12000000000002,
+                    31.979999999999997
+                ],
+                [
+                    -90.25,
+                    31.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998938-3393235",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998938-3393235",
+        "areaDesc": "Hinds, MS; Rankin, MS",
+        "geocode": {
+            "UGC": [
+                "MSC049",
+                "MSC121"
+            ],
+            "SAME": [
+                "028049",
+                "028121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC049",
+            "https://api.weather.gov/zones/county/MSC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997055-3391501",
+                "identifier": "NWS-IDP-PROD-3997055-3391501",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T09:51:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T20:55:00-06:00",
+        "effective": "2020-01-10T20:55:00-06:00",
+        "onset": "2020-01-10T20:55:00-06:00",
+        "expires": "2020-01-12T02:54:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 10 at 8:55PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi..\n\nPearl River At Jackson affecting Hinds and Rankin Counties\nPearl River Near Rockport affecting Copiah and Simpson Counties\nPearl River Near Monticello affecting Lawrence County\nPearl River Near Columbia affecting Marion County\n\nThe Flood Warning continues for\nThe Pearl River At Jackson\n* until further notice.\n* At  8:30 PM Friday the stage was 31.1 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 28.0 feet.\n* Forecast...The river will continue rising to near 31.5 feet Sunday\nafternoon.\n* Impact...At 31.0 feet...Water begins to impact approaches to\nadditional homes and businesses in the Byram area.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0011.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
