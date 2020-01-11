@@ -1,0 +1,140 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002650-3396755",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.06,
+                    31.62
+                ],
+                [
+                    -85.54,
+                    31.62
+                ],
+                [
+                    -85.65,
+                    31.27
+                ],
+                [
+                    -85.7099999,
+                    31.2
+                ],
+                [
+                    -85.7,
+                    31.2
+                ],
+                [
+                    -85.69,
+                    31.189999999999998
+                ],
+                [
+                    -85.78999999999999,
+                    30.99
+                ],
+                [
+                    -86.19,
+                    30.99
+                ],
+                [
+                    -86.19,
+                    31.36
+                ],
+                [
+                    -86.06,
+                    31.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002650-3396755",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002650-3396755",
+        "areaDesc": "Geneva, AL; Coffee, AL; Dale, AL",
+        "geocode": {
+            "UGC": [
+                "ALC061",
+                "ALC031",
+                "ALC045"
+            ],
+            "SAME": [
+                "001061",
+                "001031",
+                "001045"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC061",
+            "https://api.weather.gov/zones/county/ALC031",
+            "https://api.weather.gov/zones/county/ALC045"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002435-3396557",
+                "identifier": "NWS-IDP-PROD-4002435-3396557",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T14:49:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002606-3396708",
+                "identifier": "NWS-IDP-PROD-4002606-3396708",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T15:28:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T15:42:00-06:00",
+        "effective": "2020-01-11T15:42:00-06:00",
+        "onset": "2020-01-11T15:42:00-06:00",
+        "expires": "2020-01-11T16:15:00-06:00",
+        "ends": "2020-01-11T16:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 3:42PM CST until January 11 at 4:15PM CST by NWS Tallahassee FL",
+        "description": "At 342 PM CST, severe thunderstorms were located along a line\nextending from near Brundidge to 9 miles east of Florala, moving east\nat 40 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nDaleville, Elba, Geneva, Enterprise, Fort Rucker, Ozark, Level\nPlains, Samson, New Brockton, Ariton, Lee, Clayhatchee, Kinston,\nCoffee Springs, Mixons Crossroads, Kellys Crossroads, Hunt Field,\nCurtis, Carl Folsom A/p and Hooper Stage Field.",
+        "instruction": "A Tornado Watch remains in effect until 800 PM CST for southeastern\nAlabama...and the Panhandle of Florida.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTo report severe weather contact your nearest law enforcement agency.\nThey will send your report to the National Weather Service office in\nTallahassee.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T15:42:00.000-06:00...storm...273DEG...34KT...31.76,-85.82 30.96,-86.18"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 415 PM CST FOR WESTERN DALE...COFFEE AND GENEVA COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTAE.SV.W.0001.000000T0000Z-200111T2215Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAESVSTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T16:15:00-06:00"
+            ]
+        }
+    }
+}
