@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999574-3393818",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.12,
+                    29.31
+                ],
+                [
+                    -95.16000000000001,
+                    29.38
+                ],
+                [
+                    -94.88000000000001,
+                    29.459999999999997
+                ],
+                [
+                    -94.88000000000001,
+                    29.299999999999997
+                ],
+                [
+                    -95.12,
+                    29.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999574-3393818",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999574-3393818",
+        "areaDesc": "Galveston, TX",
+        "geocode": {
+            "UGC": [
+                "TXC167"
+            ],
+            "SAME": [
+                "048167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999552-3393800",
+                "identifier": "NWS-IDP-PROD-3999552-3393800",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T00:50:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999565-3393813",
+                "identifier": "NWS-IDP-PROD-3999565-3393813",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T01:01:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T01:09:00-06:00",
+        "effective": "2020-01-11T01:09:00-06:00",
+        "onset": "2020-01-11T01:09:00-06:00",
+        "expires": "2020-01-11T01:19:00-06:00",
+        "ends": "2020-01-11T01:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Houston/Galveston TX",
+        "headline": "Tornado Warning issued January 11 at 1:09AM CST until January 11 at 1:15AM CST by NWS Houston/Galveston TX",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and no longer appears capable of producing a tornado.\nTherefore, the warning will be allowed to expire.  However gusty\nwinds are still possible with this thunderstorm.\n\nA Tornado Watch remains in effect until 400 AM CST for southeastern\nTexas.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T01:09:00.000-06:00...storm...270DEG...36KT...29.36,-94.95"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR WEST CENTRAL GALVESTON COUNTY WILL EXPIRE AT 115 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KHGX.TO.W.0005.000000T0000Z-200111T0715Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HGXSVSHGX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T01:15:00-06:00"
+            ]
+        }
+    }
+}
