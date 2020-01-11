@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998445-3392779",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.75,
+                    32.99
+                ],
+                [
+                    -97.24,
+                    32.56
+                ],
+                [
+                    -97.38,
+                    32.67
+                ],
+                [
+                    -97.16,
+                    32.99
+                ],
+                [
+                    -96.75,
+                    32.99
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998445-3392779",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998445-3392779",
+        "areaDesc": "Dallas, TX; Tarrant, TX",
+        "geocode": {
+            "UGC": [
+                "TXC113",
+                "TXC439"
+            ],
+            "SAME": [
+                "048113",
+                "048439"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC113",
+            "https://api.weather.gov/zones/county/TXC439"
+        ],
+        "references": [],
+        "sent": "2020-01-10T18:09:00-06:00",
+        "effective": "2020-01-10T18:09:00-06:00",
+        "onset": "2020-01-10T18:09:00-06:00",
+        "expires": "2020-01-10T18:45:00-06:00",
+        "ends": "2020-01-10T18:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Tornado Warning issued January 10 at 6:09PM CST until January 10 at 6:45PM CST by NWS Fort Worth TX",
+        "description": "The National Weather Service in Fort Worth has issued a\n\n* Tornado Warning for...\nEastern Tarrant County in north central Texas...\nNorthwestern Dallas County in north central Texas...\n\n* Until 645 PM CST.\n\n* At 609 PM CST, a severe thunderstorm capable of producing a tornado\nwas located over Forest Hill, moving northeast at 35 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This dangerous storm will be near...\nPantego around 620 PM CST.\nRichland Hills around 625 PM CST.\nWatauga around 630 PM CST.\nFort Worth, Arlington, Grand Prairie, Euless, Bedford, Hurst,\nColleyville and North Richland Hills around 635 PM CST.\nDFW Airport around 640 PM CST.\nIrving, Grapevine, Coppell and Southlake around 645 PM CST.",
+        "instruction": "TAKE COVER NOW! Move to an interior room on the lowest floor of a\nsturdy building. Avoid windows. If you are outdoors, in a mobile\nhome, or in a vehicle, move to the closest substantial shelter and\nprotect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T18:09:00.000-06:00...storm...216DEG...30KT...32.68,-97.25"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KFWD.TO.W.0009.200111T0009Z-200111T0045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDTORFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:45:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 6:45 PM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}

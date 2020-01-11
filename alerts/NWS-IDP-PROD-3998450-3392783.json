@@ -1,0 +1,125 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998450-3392783",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.08,
+                    37.43
+                ],
+                [
+                    -93.06,
+                    37.49
+                ],
+                [
+                    -92.77,
+                    37.4799999
+                ],
+                [
+                    -92.77,
+                    37.440000000000005
+                ],
+                [
+                    -93.0699999,
+                    37.27
+                ],
+                [
+                    -93.08,
+                    37.27
+                ],
+                [
+                    -93.08,
+                    37.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998450-3392783",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998450-3392783",
+        "areaDesc": "Webster, MO",
+        "geocode": {
+            "UGC": [
+                "MOC225"
+            ],
+            "SAME": [
+                "029225"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC225"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998426-3392761",
+                "identifier": "NWS-IDP-PROD-3998426-3392761",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:55:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998385-3392718",
+                "identifier": "NWS-IDP-PROD-3998385-3392718",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:47:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998413-3392749",
+                "identifier": "NWS-IDP-PROD-3998413-3392749",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:53:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998436-3392771",
+                "identifier": "NWS-IDP-PROD-3998436-3392771",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:02:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T18:11:00-06:00",
+        "effective": "2020-01-10T18:11:00-06:00",
+        "onset": "2020-01-10T18:11:00-06:00",
+        "expires": "2020-01-10T18:20:00-06:00",
+        "ends": "2020-01-10T18:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Tornado Warning issued January 10 at 6:11PM CST until January 10 at 6:15PM CST by NWS Springfield MO",
+        "description": "The tornado threat has diminished and the Tornado Warning has been\ncancelled. However, large hail and damaging winds remain likely and\na Severe Thunderstorm Warning remains in effect for portions of\nWebster and Dallas counties.\n\nA Tornado Watch remains in effect until 200 AM CST for southwestern\nMissouri.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T18:10:00.000-06:00...storm...221DEG...48KT...37.49,-92.9"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR NORTHWESTERN WEBSTER COUNTY WILL EXPIRE AT 615 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KSGF.TO.W.0007.000000T0000Z-200111T0015Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:15:00-06:00"
+            ]
+        }
+    }
+}
