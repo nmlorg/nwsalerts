@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999017-3393303",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.73,
+                    38.69
+                ],
+                [
+                    -86.83,
+                    38.47
+                ],
+                [
+                    -87.22,
+                    38.519999999999996
+                ],
+                [
+                    -87.23,
+                    38.559999999999995
+                ],
+                [
+                    -86.89,
+                    38.529999999999994
+                ],
+                [
+                    -86.9,
+                    38.659999899999995
+                ],
+                [
+                    -86.81,
+                    38.72
+                ],
+                [
+                    -86.73,
+                    38.69
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999017-3393303",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999017-3393303",
+        "areaDesc": "Martin, IN; Daviess, IN; Dubois, IN; Pike, IN",
+        "geocode": {
+            "UGC": [
+                "INC101",
+                "INC027",
+                "INC037",
+                "INC125"
+            ],
+            "SAME": [
+                "018101",
+                "018027",
+                "018037",
+                "018125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC101",
+            "https://api.weather.gov/zones/county/INC027",
+            "https://api.weather.gov/zones/county/INC037",
+            "https://api.weather.gov/zones/county/INC125"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997859-3392239",
+                "identifier": "NWS-IDP-PROD-3997859-3392239",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T15:54:00-05:00"
+            }
+        ],
+        "sent": "2020-01-10T22:08:00-05:00",
+        "effective": "2020-01-10T22:08:00-05:00",
+        "onset": "2020-01-11T22:38:00-05:00",
+        "expires": "2020-01-11T22:07:00-05:00",
+        "ends": "2020-01-19T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 10 at 10:08PM EST until January 19 at 7:00AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Big Walnut Creek...Buck Creek...Driftwood River...\nEagle Creek...East Fork White River...Eel River...Flatrock River...\nMill Creek...Mississinewa River...Sugar Creek...Tippecanoe River...\nWabash River...White River...Wildcat Creek...Youngs Creek...\n\n.Periods of rain, possibly heavy at times, is expected overnight\ninto Saturday. Total rainfall amounts of 2 to 4 inches with locally\nheavier amounts are possible. The forecast rainfall amounts will\nresult in widespread minor to moderate flooding of area rivers and\nstreams.\n\nThe Flood Warning continues for\nThe East Fork White River at Shoals.\n* from Saturday evening to Sunday January 19.\n* At  9:30 PM Friday the stage was 11.2 feet.\n* Flood stage is 20.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by Saturday evening and continue\nto rise to near 21.3 feet by late Saturday night  and will rise\nlater to 21.6 by Friday January 17. It will fall below flood stage\nby Saturday January 18.\n* At 22.0 feet...Lowland flooding affects all local roads in the flood\nplain.  Farmers must move some livestock to higher ground.  State\nRoad 550 floods on left bank.  Roads that flood include West River,\nSpout Spring, Cemetery, East River, Chicken Farm and a few other\nside roads near the river.  East Fork White River forms at least\none island.  Two families are nearly isolated.  Significant\nagricultural flooding is in progress.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0035.200112T0338Z-200119T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T07:00:00-05:00"
+            ]
+        }
+    }
+}

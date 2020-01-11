@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998992-3393278",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.53,
+                    38.8
+                ],
+                [
+                    -86.67,
+                    38.75
+                ],
+                [
+                    -86.73,
+                    38.69
+                ],
+                [
+                    -86.81,
+                    38.72
+                ],
+                [
+                    -86.68,
+                    38.8
+                ],
+                [
+                    -86.56,
+                    38.849999999999994
+                ],
+                [
+                    -86.53,
+                    38.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998992-3393278",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998992-3393278",
+        "areaDesc": "Martin, IN; Lawrence, IN",
+        "geocode": {
+            "UGC": [
+                "INC101",
+                "INC093"
+            ],
+            "SAME": [
+                "018101",
+                "018093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC101",
+            "https://api.weather.gov/zones/county/INC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997857-3392237",
+                "identifier": "NWS-IDP-PROD-3997857-3392237",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T15:54:00-05:00"
+            }
+        ],
+        "sent": "2020-01-10T22:08:00-05:00",
+        "effective": "2020-01-10T22:08:00-05:00",
+        "onset": "2020-01-11T16:45:00-05:00",
+        "expires": "2020-01-11T22:07:00-05:00",
+        "ends": "2020-01-20T20:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 10 at 10:08PM EST until January 20 at 8:30PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Big Walnut Creek...Buck Creek...Driftwood River...\nEagle Creek...East Fork White River...Eel River...Flatrock River...\nMill Creek...Mississinewa River...Sugar Creek...Tippecanoe River...\nWabash River...White River...Wildcat Creek...Youngs Creek...\n\n.Periods of rain, possibly heavy at times, is expected overnight\ninto Saturday. Total rainfall amounts of 2 to 4 inches with locally\nheavier amounts are possible. The forecast rainfall amounts will\nresult in widespread minor to moderate flooding of area rivers and\nstreams.\n\nThe Flood Warning continues for\nThe East Fork White River at Williams.\n* from Saturday afternoon to Monday January 20.\n* At  7:00 AM Friday the stage was 4.3 feet.\n* Flood stage is 8.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by Saturday afternoon and\ncontinue to rise to near 10.3 feet by late Saturday night  and will\nrise later to 12.0 by Thursday afternoon. It will fall below flood\nstage by Monday January 20.\n* At 12.0 feet...River begins to be noticeable as water backs up in\nlocal streams.  State Road 450 closes in several locations.  Higher\ncampgrounds flood.  Most roads in the flood plain are impassable\nabove this level.  Huron-Williams Road begins to flood south of\nPort Williams Road.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0034.200111T2145Z-200121T0130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T20:30:00-05:00"
+            ]
+        }
+    }
+}
