@@ -1,0 +1,148 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999694-3393942",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.7099999,
+                    32.58
+                ],
+                [
+                    -93.05,
+                    32.04
+                ],
+                [
+                    -93.4599999,
+                    32.05
+                ],
+                [
+                    -93.38,
+                    32.26
+                ],
+                [
+                    -93.31,
+                    32.419999999999995
+                ],
+                [
+                    -93.18,
+                    33.129999999999995
+                ],
+                [
+                    -92.77000000000001,
+                    33.35999999999999
+                ],
+                [
+                    -92.66000000000001,
+                    32.96999999999999
+                ],
+                [
+                    -92.7099999,
+                    32.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999694-3393942",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999694-3393942",
+        "areaDesc": "Red River, LA; Lincoln, LA; Union, LA; Union, AR; Claiborne, LA; Natchitoches, LA; Columbia, AR; Webster, LA; Bienville, LA",
+        "geocode": {
+            "UGC": [
+                "LAC081",
+                "LAC061",
+                "LAC111",
+                "ARC139",
+                "LAC027",
+                "LAC069",
+                "ARC027",
+                "LAC119",
+                "LAC013"
+            ],
+            "SAME": [
+                "022081",
+                "022061",
+                "022111",
+                "005139",
+                "022027",
+                "022069",
+                "005027",
+                "022119",
+                "022013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC081",
+            "https://api.weather.gov/zones/county/LAC061",
+            "https://api.weather.gov/zones/county/LAC111",
+            "https://api.weather.gov/zones/county/ARC139",
+            "https://api.weather.gov/zones/county/LAC027",
+            "https://api.weather.gov/zones/county/LAC069",
+            "https://api.weather.gov/zones/county/ARC027",
+            "https://api.weather.gov/zones/county/LAC119",
+            "https://api.weather.gov/zones/county/LAC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999603-3393846",
+                "identifier": "NWS-IDP-PROD-3999603-3393846",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T01:30:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T02:05:00-06:00",
+        "effective": "2020-01-11T02:05:00-06:00",
+        "onset": "2020-01-11T02:05:00-06:00",
+        "expires": "2020-01-11T02:30:00-06:00",
+        "ends": "2020-01-11T02:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 2:05AM CST until January 11 at 2:30AM CST by NWS Shreveport LA",
+        "description": "At 205 AM CST, severe thunderstorms were located along a line\nextending from near Atlanta to 6 miles east of Homer to 7 miles\nsouthwest of Gibsland to near Coushatta, moving east at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nMinden, Homer, Junction City, Arcadia, Haynesville, Ringgold, Sibley,\nGibsland, Dubberly, Heflin, Wesson, Lisbon, Atlanta, Simsboro,\nMartin, Hall Summit, Saline, Lucky, Ashland and Castor.",
+        "instruction": "A Tornado Watch remains in effect until 600 AM CST for south central\nand southwestern Arkansas...and northwestern Louisiana. A Tornado\nWatch also remains in effect until 800 AM CST for north central and\nnorthwestern Louisiana.\n\nRemain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T02:04:00.000-06:00...storm...264DEG...28KT...33.12,-93.0 32.8,-92.95 32.44,-93.11 32.07,-93.31"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 230 AM CST FOR WESTERN UNION AND SOUTHEASTERN COLUMBIA COUNTIES...SOUTHEASTERN WEBSTER...NORTHWESTERN UNION...NORTHEASTERN RED RIVER...NORTH CENTRAL NATCHITOCHES...CLAIBORNE...BIENVILLE AND WESTERN LINCOLN PARISHES"
+            ],
+            "VTEC": [
+                "/O.CON.KSHV.SV.W.0007.000000T0000Z-200111T0830Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVSVSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T02:30:00-06:00"
+            ]
+        }
+    }
+}
