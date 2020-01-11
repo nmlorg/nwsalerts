@@ -1,0 +1,145 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999578-3393822",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.92,
+                    32.04
+                ],
+                [
+                    -93.89,
+                    32.85
+                ],
+                [
+                    -93.64,
+                    33.300000000000004
+                ],
+                [
+                    -93.4599999,
+                    33.440000000000005
+                ],
+                [
+                    -93.49,
+                    33.02
+                ],
+                [
+                    -93.52,
+                    33.02
+                ],
+                [
+                    -93.53,
+                    32.9799999
+                ],
+                [
+                    -93.48,
+                    32.93
+                ],
+                [
+                    -93.44,
+                    32.25
+                ],
+                [
+                    -93.61,
+                    32.24
+                ],
+                [
+                    -93.5699999,
+                    32.2
+                ],
+                [
+                    -93.92,
+                    32.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999578-3393822",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999578-3393822",
+        "areaDesc": "Bossier, LA; De Soto, LA; Lafayette, AR; Caddo, LA",
+        "geocode": {
+            "UGC": [
+                "LAC015",
+                "LAC031",
+                "ARC073",
+                "LAC017"
+            ],
+            "SAME": [
+                "022015",
+                "022031",
+                "005073",
+                "022017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC015",
+            "https://api.weather.gov/zones/county/LAC031",
+            "https://api.weather.gov/zones/county/ARC073",
+            "https://api.weather.gov/zones/county/LAC017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999544-3393792",
+                "identifier": "NWS-IDP-PROD-3999544-3393792",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T00:40:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T01:11:00-06:00",
+        "effective": "2020-01-11T01:11:00-06:00",
+        "onset": "2020-01-11T01:11:00-06:00",
+        "expires": "2020-01-11T01:45:00-06:00",
+        "ends": "2020-01-11T01:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 1:11AM CST until January 11 at 1:45AM CST by NWS Shreveport LA",
+        "description": "At 110 AM CST, severe thunderstorms were located along a line\nextending from Bradley to 6 miles north of Eastwood to 8 miles\nnorthwest of Mansfield, moving northeast at 40 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nShreveport, Bossier City, Stamps, Lewisville, Haughton, Blanchard,\nBenton, Stonewall, Plain Dealing, Bradley, Hosston, Belcher, Gilliam,\nEastwood, Canfield, Fosters, Keachi, Grand Cane, Ferguson and Gin\nCity.",
+        "instruction": "A Tornado Watch remains in effect until 600 AM CST for southwestern\nArkansas...and northwestern Louisiana. A Tornado Watch also remains\nin effect until 800 AM CST for northwestern Louisiana.\n\nRemain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T01:10:00.000-06:00...storm...228DEG...35KT...33.12,-93.65 32.65,-93.58 32.12,-93.8"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 145 AM CST FOR EASTERN LAFAYETTE COUNTY...NORTHWESTERN DE SOTO...CENTRAL CADDO AND BOSSIER PARISHES"
+            ],
+            "VTEC": [
+                "/O.CON.KSHV.SV.W.0005.000000T0000Z-200111T0745Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVSVSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T01:45:00-06:00"
+            ]
+        }
+    }
+}
