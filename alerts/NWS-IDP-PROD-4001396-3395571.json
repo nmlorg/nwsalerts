@@ -1,0 +1,112 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001396-3395571",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.47,
+                    31.9
+                ],
+                [
+                    -88.81,
+                    31.83
+                ],
+                [
+                    -88.91,
+                    31.83
+                ],
+                [
+                    -88.91,
+                    32.57
+                ],
+                [
+                    -88.39,
+                    32.58
+                ],
+                [
+                    -88.47,
+                    31.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001396-3395571",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001396-3395571",
+        "areaDesc": "Clarke, MS; Lauderdale, MS",
+        "geocode": {
+            "UGC": [
+                "MSC023",
+                "MSC075"
+            ],
+            "SAME": [
+                "028023",
+                "028075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC023",
+            "https://api.weather.gov/zones/county/MSC075"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001281-3395463",
+                "identifier": "NWS-IDP-PROD-4001281-3395463",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:06:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T10:36:00-06:00",
+        "effective": "2020-01-11T10:36:00-06:00",
+        "onset": "2020-01-11T10:36:00-06:00",
+        "expires": "2020-01-11T11:00:00-06:00",
+        "ends": "2020-01-11T11:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 10:36AM CST until January 11 at 11:00AM CST by NWS Jackson MS",
+        "description": "At 1036 AM CST, severe thunderstorms were located along a line\nextending from near Meridian Station to near Stonewall, moving\nnortheast at 60 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nMeridian Station, Marion and Daleville around 1040 AM CST.\nLauderdale around 1045 AM CST.\nIncrease and Snell around 1050 AM CST.\nAlamucha around 1100 AM CST.\n\nOther locations impacted by these severe thunderstorms include\nPachuta and Shubuta.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T10:36:00.000-06:00...storm...236DEG...51KT...32.5,-88.66 32.11,-88.73"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1100 AM CST FOR CLARKE AND LAUDERDALE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0030.000000T0000Z-200111T1700Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T11:00:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001399-3395574",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.14,
+                    36.63
+                ],
+                [
+                    -90,
+                    36.36
+                ],
+                [
+                    -90.28,
+                    36.03
+                ],
+                [
+                    -90.38,
+                    36.1
+                ],
+                [
+                    -90.17999999999999,
+                    36.33
+                ],
+                [
+                    -90.2099999,
+                    36.489999999999995
+                ],
+                [
+                    -90.14,
+                    36.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001399-3395574",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001399-3395574",
+        "areaDesc": "Greene, AR; Dunklin, MO; Clay, AR",
+        "geocode": {
+            "UGC": [
+                "ARC055",
+                "MOC069",
+                "ARC021"
+            ],
+            "SAME": [
+                "005055",
+                "029069",
+                "005021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC055",
+            "https://api.weather.gov/zones/county/MOC069",
+            "https://api.weather.gov/zones/county/ARC021"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998982-3393272",
+                "identifier": "NWS-IDP-PROD-3998982-3393272",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T21:05:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T10:36:00-06:00",
+        "effective": "2020-01-11T10:36:00-06:00",
+        "onset": "2020-01-11T19:42:00-06:00",
+        "expires": "2020-01-12T10:35:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 11 at 10:36AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Right Hand Chute Little River...\nSaint Francis River.\n\nThe Flood Warning continues for\nthe Saint Francis River near Saint Francis\n* from Saturday January 11 until further notice.\n* At 10 AM Saturday the stage was 21.2 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 23.5 feet on Monday January 13.\n* Flood stage is 22.0 feet.\n* Forecast to rise above flood stage by Saturday January 11 and\ncontinue to rise to near 23.5 feet by Monday January 13.\n* At 23.0 feet...Most lowland inside the levee system is flooded.",
+        "instruction": "A followup Flood Statement will be issued Sunday or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0011.200112T0142Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

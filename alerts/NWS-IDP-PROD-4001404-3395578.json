@@ -1,0 +1,149 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001404-3395578",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.27,
+                    33.57
+                ],
+                [
+                    -88.88,
+                    32.93
+                ],
+                [
+                    -89.05,
+                    32.94
+                ],
+                [
+                    -89.02,
+                    33.559999999999995
+                ],
+                [
+                    -89.02,
+                    33.60999999999999
+                ],
+                [
+                    -88.72,
+                    33.79999999999999
+                ],
+                [
+                    -88.72,
+                    33.67999999999999
+                ],
+                [
+                    -88.5,
+                    33.669999999999995
+                ],
+                [
+                    -88.51,
+                    33.64999999999999
+                ],
+                [
+                    -88.37,
+                    33.68999999999999
+                ],
+                [
+                    -88.3199999,
+                    33.74999999999999
+                ],
+                [
+                    -88.25,
+                    33.739999999999995
+                ],
+                [
+                    -88.27,
+                    33.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001404-3395578",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001404-3395578",
+        "areaDesc": "Winston, MS; Noxubee, MS; Lowndes, MS; Oktibbeha, MS; Clay, MS",
+        "geocode": {
+            "UGC": [
+                "MSC159",
+                "MSC103",
+                "MSC087",
+                "MSC105",
+                "MSC025"
+            ],
+            "SAME": [
+                "028159",
+                "028103",
+                "028087",
+                "028105",
+                "028025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC159",
+            "https://api.weather.gov/zones/county/MSC103",
+            "https://api.weather.gov/zones/county/MSC087",
+            "https://api.weather.gov/zones/county/MSC105",
+            "https://api.weather.gov/zones/county/MSC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001261-3395452",
+                "identifier": "NWS-IDP-PROD-4001261-3395452",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:01:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001350-3395525",
+                "identifier": "NWS-IDP-PROD-4001350-3395525",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:26:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T10:38:00-06:00",
+        "effective": "2020-01-11T10:38:00-06:00",
+        "onset": "2020-01-11T10:38:00-06:00",
+        "expires": "2020-01-11T10:48:00-06:00",
+        "ends": "2020-01-11T10:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 10:38AM CST until January 11 at 10:45AM CST by NWS Jackson MS",
+        "description": "The storms which prompted the warning have weakened below severe\nlimits, and no longer pose an immediate threat to life or property.\nTherefore, the warning will be allowed to expire.  However gusty\nwinds are still possible with these thunderstorms.\n\nA Tornado Watch remains in effect until 400 PM CST for northeastern\nand east central Mississippi.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T10:38:00.000-06:00...storm...221DEG...78KT...33.78,-88.71 33.68,-88.54 33.54,-88.46"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR NORTHWESTERN NOXUBEE... OKTIBBEHA...EASTERN WINSTON...CLAY AND LOWNDES COUNTIES WILL EXPIRE AT 1045 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KJAN.SV.W.0029.000000T0000Z-200111T1645Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T10:45:00-06:00"
+            ]
+        }
+    }
+}
