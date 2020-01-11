@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001980-3396127",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.7,
+                    40.54
+                ],
+                [
+                    -86.88000000000001,
+                    40.4
+                ],
+                [
+                    -87.09,
+                    40.33
+                ],
+                [
+                    -87.09,
+                    40.4
+                ],
+                [
+                    -86.88000000000001,
+                    40.479999899999996
+                ],
+                [
+                    -86.73,
+                    40.559999999999995
+                ],
+                [
+                    -86.7,
+                    40.54
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001980-3396127",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001980-3396127",
+        "areaDesc": "Vermillion, IN; Warren, IN; Fountain, IN; Tippecanoe, IN; Parke, IN",
+        "geocode": {
+            "UGC": [
+                "INC165",
+                "INC171",
+                "INC045",
+                "INC157",
+                "INC121"
+            ],
+            "SAME": [
+                "018165",
+                "018171",
+                "018045",
+                "018157",
+                "018121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC165",
+            "https://api.weather.gov/zones/county/INC171",
+            "https://api.weather.gov/zones/county/INC045",
+            "https://api.weather.gov/zones/county/INC157",
+            "https://api.weather.gov/zones/county/INC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999001-3393287",
+                "identifier": "NWS-IDP-PROD-3999001-3393287",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:08:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T14:02:00-05:00",
+        "effective": "2020-01-11T14:02:00-05:00",
+        "onset": "2020-01-11T19:22:00-05:00",
+        "expires": "2020-01-12T14:02:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 11 at 2:02PM EST by NWS Indianapolis IN",
+        "description": "Flood Statement\nNational Weather Service Indianapolis IN\n<INHDR_TIME>\n\n...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Big Walnut Creek...Buck Creek...Driftwood River...\nEagle Creek...East Fork White River...Eel River...Flatrock River...\nMill Creek...Mississinewa River...Sugar Creek...Tippecanoe River...\nWabash River...White River...Youngs Creek...\n\n.High river levels and some lowland flooding will occur along rivers\nin western, central and southern Indiana. River levels will approach moderate\nflood stage in some areas along the White and East Fork White rivers.\n\nBetween 2.5 to 3.5 inches of rain fell across western, central and southern Indiana over the last 48 hours. Light rain is expected to continue until later this afternoon. Dry weather is then expected to dominate the early parts of next week.\n\nRiver levels will continue to rise over the next 24 hours as water drains into the river. Most rivers are expected to crest between Sunday evening and Monday morning. Please see below for specific river level forecasts for each site.\n\nThe Flood Warning continues for\nThe Wabash River at Lafayette.\n* from this evening until further notice.\n* At  1:30 PM Saturday the stage was 8.3 feet.\n* Flood stage is 11.0 feet.\n* Moderate flooding is forecast.\n* Forecast...Rise above flood stage by this evening and continue to\nrise to near 19.2 feet by late Sunday night.\n* At 19.0 feet...Flood waters cover SR 225 from just north of Stair\nRoad to just south of the bridge over the Wabash River. Tippecanoe\nCR 950 W south of CR 75 S is completely flooded from the Wabash\nBottoms Janssen Tract area to Warren CR 350 N in the Black Rock\nPreserve Area. Four residences on high ground along CR 950 W cannot\naccess CR 950 W by land vehicles. Barton Beach and N River Rds\nclosed. Local roads in the Granville Bridge area and homes near N\n9th St also affected.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0012.200112T0022Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

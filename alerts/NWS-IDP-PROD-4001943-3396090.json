@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001943-3396090",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.09,
+                    40.33
+                ],
+                [
+                    -87.37,
+                    40.17
+                ],
+                [
+                    -87.39,
+                    39.97
+                ],
+                [
+                    -87.45,
+                    39.97
+                ],
+                [
+                    -87.47,
+                    40.199999999999996
+                ],
+                [
+                    -87.09,
+                    40.4
+                ],
+                [
+                    -87.09,
+                    40.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001943-3396090",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001943-3396090",
+        "areaDesc": "Vermillion, IN; Warren, IN; Fountain, IN; Parke, IN",
+        "geocode": {
+            "UGC": [
+                "INC165",
+                "INC171",
+                "INC045",
+                "INC121"
+            ],
+            "SAME": [
+                "018165",
+                "018171",
+                "018045",
+                "018121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC165",
+            "https://api.weather.gov/zones/county/INC171",
+            "https://api.weather.gov/zones/county/INC045",
+            "https://api.weather.gov/zones/county/INC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998989-3393275",
+                "identifier": "NWS-IDP-PROD-3998989-3393275",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:08:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T14:02:00-05:00",
+        "effective": "2020-01-11T14:02:00-05:00",
+        "onset": "2020-01-12T03:00:00-05:00",
+        "expires": "2020-01-12T14:02:00-05:00",
+        "ends": "2020-01-19T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 11 at 2:02PM EST until January 19 at 7:00AM EST by NWS Indianapolis IN",
+        "description": "Flood Statement\nNational Weather Service Indianapolis IN\n<INHDR_TIME>\n\n...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Big Walnut Creek...Buck Creek...Driftwood River...\nEagle Creek...East Fork White River...Eel River...Flatrock River...\nMill Creek...Mississinewa River...Sugar Creek...Tippecanoe River...\nWabash River...White River...Youngs Creek...\n\n.High river levels and some lowland flooding will occur along rivers\nin western, central and southern Indiana. River levels will approach moderate\nflood stage in some areas along the White and East Fork White rivers.\n\nBetween 2.5 to 3.5 inches of rain fell across western, central and southern Indiana over the last 48 hours. Light rain is expected to continue until later this afternoon. Dry weather is then expected to dominate the early parts of next week.\n\nRiver levels will continue to rise over the next 24 hours as water drains into the river. Most rivers are expected to crest between Sunday evening and Monday morning. Please see below for specific river level forecasts for each site.\n\nThe Flood Warning continues for\nThe Wabash River at Covington.\n* from late tonight to Sunday January 19.\n* At 12:45 PM Saturday the stage was 13.4 feet.\n* Flood stage is 16.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by late tonight and continue to\nrise to near 22.9 feet by late Tuesday night.  It will fall below\nflood stage by Saturday January 18.\n* At 23.0 feet...Flood water is at critical height for most\nagricultural levees.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0013.200112T0800Z-200119T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T07:00:00-05:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001944-3396091",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.61,
+                    39.13
+                ],
+                [
+                    -87.48,
+                    38.99
+                ],
+                [
+                    -87.5,
+                    38.86
+                ],
+                [
+                    -87.56,
+                    38.85
+                ],
+                [
+                    -87.59,
+                    38.9799999
+                ],
+                [
+                    -87.67,
+                    39.13
+                ],
+                [
+                    -87.61,
+                    39.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001944-3396091",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001944-3396091",
+        "areaDesc": "Lawrence, IL; Crawford, IL; Knox, IN; Sullivan, IN",
+        "geocode": {
+            "UGC": [
+                "ILC101",
+                "ILC033",
+                "INC083",
+                "INC153"
+            ],
+            "SAME": [
+                "017101",
+                "017033",
+                "018083",
+                "018153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC101",
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999002-3393288",
+                "identifier": "NWS-IDP-PROD-3999002-3393288",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:08:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T14:02:00-05:00",
+        "effective": "2020-01-11T14:02:00-05:00",
+        "onset": "2020-01-11T14:02:00-05:00",
+        "expires": "2020-01-12T14:02:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 11 at 2:02PM EST by NWS Indianapolis IN",
+        "description": "Flood Statement\nNational Weather Service Indianapolis IN\n<INHDR_TIME>\n\n...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Big Walnut Creek...Buck Creek...Driftwood River...\nEagle Creek...East Fork White River...Eel River...Flatrock River...\nMill Creek...Mississinewa River...Sugar Creek...Tippecanoe River...\nWabash River...White River...Youngs Creek...\n\n.High river levels and some lowland flooding will occur along rivers\nin western, central and southern Indiana. River levels will approach moderate\nflood stage in some areas along the White and East Fork White rivers.\n\nBetween 2.5 to 3.5 inches of rain fell across western, central and southern Indiana over the last 48 hours. Light rain is expected to continue until later this afternoon. Dry weather is then expected to dominate the early parts of next week.\n\nRiver levels will continue to rise over the next 24 hours as water drains into the river. Most rivers are expected to crest between Sunday evening and Monday morning. Please see below for specific river level forecasts for each site.\n\nThe Flood Warning continues for\nThe Wabash River at Riverton.\n* until further notice.\n* At  1:00 PM Saturday the stage was 16.5 feet.\n* Flood stage is 15.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will continue rising to near 21.9 feet by Friday\nmorning then begin falling.\n* At 22.0 feet...Flooding becomes more serious.  Water is approaching\ncritical levels on most levees.  Flooding enters some river cabins.\nFlooding is at the outskirts of Palestine and Russellville,\nIllinois.  Flood waters near Illinois 33 between Palestine and\nHutsonville, Illinois.  Many local river roads are flooded.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0018.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001969-3396116",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.22,
+                    38.52
+                ],
+                [
+                    -87.28999999999999,
+                    38.5
+                ],
+                [
+                    -87.44,
+                    38.51
+                ],
+                [
+                    -87.44,
+                    38.54
+                ],
+                [
+                    -87.36,
+                    38.55
+                ],
+                [
+                    -87.29,
+                    38.529999999999994
+                ],
+                [
+                    -87.23,
+                    38.559999999999995
+                ],
+                [
+                    -87.22,
+                    38.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001969-3396116",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001969-3396116",
+        "areaDesc": "Wabash, IL; Daviess, IN; Knox, IN; Gibson, IN; Pike, IN",
+        "geocode": {
+            "UGC": [
+                "ILC185",
+                "INC027",
+                "INC083",
+                "INC051",
+                "INC125"
+            ],
+            "SAME": [
+                "017185",
+                "018027",
+                "018083",
+                "018051",
+                "018125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC185",
+            "https://api.weather.gov/zones/county/INC027",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC051",
+            "https://api.weather.gov/zones/county/INC125"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999022-3393308",
+                "identifier": "NWS-IDP-PROD-3999022-3393308",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:08:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T14:02:00-05:00",
+        "effective": "2020-01-11T14:02:00-05:00",
+        "onset": "2020-01-11T14:02:00-05:00",
+        "expires": "2020-01-12T14:02:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 11 at 2:02PM EST by NWS Indianapolis IN",
+        "description": "Flood Statement\nNational Weather Service Indianapolis IN\n<INHDR_TIME>\n\n...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Big Walnut Creek...Buck Creek...Driftwood River...\nEagle Creek...East Fork White River...Eel River...Flatrock River...\nMill Creek...Mississinewa River...Sugar Creek...Tippecanoe River...\nWabash River...White River...Youngs Creek...\n\n.High river levels and some lowland flooding will occur along rivers\nin western, central and southern Indiana. River levels will approach moderate\nflood stage in some areas along the White and East Fork White rivers.\n\nBetween 2.5 to 3.5 inches of rain fell across western, central and southern Indiana over the last 48 hours. Light rain is expected to continue until later this afternoon. Dry weather is then expected to dominate the early parts of next week.\n\nRiver levels will continue to rise over the next 24 hours as water drains into the river. Most rivers are expected to crest between Sunday evening and Monday morning. Please see below for specific river level forecasts for each site.\n\nThe Flood Warning continues for\nThe White River at Petersburg.\n* until further notice.\n* At  1:30 PM Saturday the stage was 19.4 feet.\n* Flood stage is 16.0 feet.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* Forecast...It will continue rising to near 25.0 feet by late\nThursday night then begin falling.\n* At 25.0 feet...A very significant flood is in progress.  Emergency\nflood fighting may be needed.  Evacuations would begin from river\ncabins in Dodge City.  Livestock must be moved.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0011.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

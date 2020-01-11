@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001970-3396117",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.73,
+                    38.69
+                ],
+                [
+                    -86.83,
+                    38.47
+                ],
+                [
+                    -87.22,
+                    38.519999999999996
+                ],
+                [
+                    -87.23,
+                    38.559999999999995
+                ],
+                [
+                    -86.89,
+                    38.529999999999994
+                ],
+                [
+                    -86.9,
+                    38.659999899999995
+                ],
+                [
+                    -86.81,
+                    38.72
+                ],
+                [
+                    -86.73,
+                    38.69
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001970-3396117",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001970-3396117",
+        "areaDesc": "Martin, IN; Daviess, IN; Dubois, IN; Pike, IN",
+        "geocode": {
+            "UGC": [
+                "INC101",
+                "INC027",
+                "INC037",
+                "INC125"
+            ],
+            "SAME": [
+                "018101",
+                "018027",
+                "018037",
+                "018125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC101",
+            "https://api.weather.gov/zones/county/INC027",
+            "https://api.weather.gov/zones/county/INC037",
+            "https://api.weather.gov/zones/county/INC125"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999017-3393303",
+                "identifier": "NWS-IDP-PROD-3999017-3393303",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:08:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T14:02:00-05:00",
+        "effective": "2020-01-11T14:02:00-05:00",
+        "onset": "2020-01-12T00:49:00-05:00",
+        "expires": "2020-01-12T14:02:00-05:00",
+        "ends": "2020-01-19T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 11 at 2:02PM EST until January 19 at 7:00PM EST by NWS Indianapolis IN",
+        "description": "Flood Statement\nNational Weather Service Indianapolis IN\n<INHDR_TIME>\n\n...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Big Walnut Creek...Buck Creek...Driftwood River...\nEagle Creek...East Fork White River...Eel River...Flatrock River...\nMill Creek...Mississinewa River...Sugar Creek...Tippecanoe River...\nWabash River...White River...Youngs Creek...\n\n.High river levels and some lowland flooding will occur along rivers\nin western, central and southern Indiana. River levels will approach moderate\nflood stage in some areas along the White and East Fork White rivers.\n\nBetween 2.5 to 3.5 inches of rain fell across western, central and southern Indiana over the last 48 hours. Light rain is expected to continue until later this afternoon. Dry weather is then expected to dominate the early parts of next week.\n\nRiver levels will continue to rise over the next 24 hours as water drains into the river. Most rivers are expected to crest between Sunday evening and Monday morning. Please see below for specific river level forecasts for each site.\n\nThe Flood Warning continues for\nThe East Fork White River at Shoals.\n* from late tonight to Sunday January 19.\n* At  1:30 PM Saturday the stage was 15.5 feet.\n* Flood stage is 20.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by late tonight and continue to\nrise to near 20.1 feet by late tonight  and will rise later to 22.4\nby Friday morning. It will fall below flood stage by Sunday January\n19.\n* At 22.5 feet...West River Road east from Shoals flooded in at least\ntwo locations.  Residential area near McBrides Bluff isolated by\nhigh water.  Low lying county roads east of McBrides Bluff also\nflooded.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0035.200112T0549Z-200120T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T19:00:00-05:00"
+            ]
+        }
+    }
+}

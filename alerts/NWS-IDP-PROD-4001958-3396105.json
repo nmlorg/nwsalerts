@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001958-3396105",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.64,
+                    40.09
+                ],
+                [
+                    -85.8199999,
+                    40.13
+                ],
+                [
+                    -85.9599999,
+                    40.11
+                ],
+                [
+                    -85.98,
+                    40.13
+                ],
+                [
+                    -85.85000000000001,
+                    40.150000000000006
+                ],
+                [
+                    -85.65,
+                    40.120000000000005
+                ],
+                [
+                    -85.64,
+                    40.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001958-3396105",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001958-3396105",
+        "areaDesc": "Madison, IN; Hamilton, IN",
+        "geocode": {
+            "UGC": [
+                "INC095",
+                "INC057"
+            ],
+            "SAME": [
+                "018095",
+                "018057"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC095",
+            "https://api.weather.gov/zones/county/INC057"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999020-3393306",
+                "identifier": "NWS-IDP-PROD-3999020-3393306",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:08:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T14:02:00-05:00",
+        "effective": "2020-01-11T14:02:00-05:00",
+        "onset": "2020-01-11T14:02:00-05:00",
+        "expires": "2020-01-12T14:02:00-05:00",
+        "ends": "2020-01-14T04:36:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 11 at 2:02PM EST until January 14 at 4:36AM EST by NWS Indianapolis IN",
+        "description": "Flood Statement\nNational Weather Service Indianapolis IN\n<INHDR_TIME>\n\n...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Big Walnut Creek...Buck Creek...Driftwood River...\nEagle Creek...East Fork White River...Eel River...Flatrock River...\nMill Creek...Mississinewa River...Sugar Creek...Tippecanoe River...\nWabash River...White River...Youngs Creek...\n\n.High river levels and some lowland flooding will occur along rivers\nin western, central and southern Indiana. River levels will approach moderate\nflood stage in some areas along the White and East Fork White rivers.\n\nBetween 2.5 to 3.5 inches of rain fell across western, central and southern Indiana over the last 48 hours. Light rain is expected to continue until later this afternoon. Dry weather is then expected to dominate the early parts of next week.\n\nRiver levels will continue to rise over the next 24 hours as water drains into the river. Most rivers are expected to crest between Sunday evening and Monday morning. Please see below for specific river level forecasts for each site.\n\nThe Flood Warning continues for\nThe White River at Anderson.\n* until late Monday night.\n* At  1:30 PM Saturday the stage was 11.3 feet.\n* Flood stage is 10.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will rise to near 12.3 feet by Sunday morning then\nbegin falling. It will fall below flood stage Monday afternoon.\n* At 12.0 feet...Flooding of Irondale Park, Madison Avenue Park,\nMounds State Park, and low agricultural land begins.  Grand Avenue\neast of Broadway Street Bridge is nearly impassable.  City of\nAnderson closes off Edgewater Park.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0025.000000T0000Z-200114T0936Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T04:36:00-05:00"
+            ]
+        }
+    }
+}

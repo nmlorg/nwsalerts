@@ -1,0 +1,116 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001955-3396102",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.65,
+                    38.46
+                ],
+                [
+                    -87.81,
+                    38.28
+                ],
+                [
+                    -87.94,
+                    38.22
+                ],
+                [
+                    -88,
+                    38.22
+                ],
+                [
+                    -88,
+                    38.269999999999996
+                ],
+                [
+                    -87.77,
+                    38.47
+                ],
+                [
+                    -87.65,
+                    38.46
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001955-3396102",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001955-3396102",
+        "areaDesc": "Wabash, IL; Edwards, IL; White, IL; Posey, IN; Knox, IN; Gallatin, IL; Gibson, IN",
+        "geocode": {
+            "UGC": [
+                "ILC185",
+                "ILC047",
+                "ILC193",
+                "INC129",
+                "INC083",
+                "ILC059",
+                "INC051"
+            ],
+            "SAME": [
+                "017185",
+                "017047",
+                "017193",
+                "018129",
+                "018083",
+                "017059",
+                "018051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC185",
+            "https://api.weather.gov/zones/county/ILC047",
+            "https://api.weather.gov/zones/county/ILC193",
+            "https://api.weather.gov/zones/county/INC129",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/ILC059",
+            "https://api.weather.gov/zones/county/INC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999019-3393305",
+                "identifier": "NWS-IDP-PROD-3999019-3393305",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:08:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T14:02:00-05:00",
+        "effective": "2020-01-11T14:02:00-05:00",
+        "onset": "2020-01-11T20:07:00-05:00",
+        "expires": "2020-01-12T14:02:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 11 at 2:02PM EST by NWS Indianapolis IN",
+        "description": "Flood Statement\nNational Weather Service Indianapolis IN\n<INHDR_TIME>\n\n...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Big Walnut Creek...Buck Creek...Driftwood River...\nEagle Creek...East Fork White River...Eel River...Flatrock River...\nMill Creek...Mississinewa River...Sugar Creek...Tippecanoe River...\nWabash River...White River...Youngs Creek...\n\n.High river levels and some lowland flooding will occur along rivers\nin western, central and southern Indiana. River levels will approach moderate\nflood stage in some areas along the White and East Fork White rivers.\n\nBetween 2.5 to 3.5 inches of rain fell across western, central and southern Indiana over the last 48 hours. Light rain is expected to continue until later this afternoon. Dry weather is then expected to dominate the early parts of next week.\n\nRiver levels will continue to rise over the next 24 hours as water drains into the river. Most rivers are expected to crest between Sunday evening and Monday morning. Please see below for specific river level forecasts for each site.\n\nThe Flood Warning continues for\nThe Wabash River at Mount Carmel.\n* from this evening until further notice.\n* At 11:45 AM Saturday the stage was 17.6 feet.\n* Flood stage is 19.0 feet.\n* Moderate flooding is forecast.\n* Forecast...Rise above flood stage by this evening and continue to\nrise to near 28.5 feet by Sunday January 19.\n* At 28.5 feet...Extensive flooding in progress.  Some residents along\nSouth Division Street in the Mt. Carmel area and in the Keensburg\narea must relocate.  Several local roads are flooded, some by\nseveral feet of water.   These include South Division Street, CR\n1280 E, three township roads south of Illinois 1 near Keensburg in\nIllinois, and Wabash River Road and Wilson Road near Little Rock in\nIndiana.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0020.200112T0107Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

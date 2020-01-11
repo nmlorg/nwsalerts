@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001971-3396118",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.83,
+                    39.05
+                ],
+                [
+                    -85.99,
+                    38.86
+                ],
+                [
+                    -86.13,
+                    38.769999999999996
+                ],
+                [
+                    -86.19999999999999,
+                    38.79
+                ],
+                [
+                    -86.03999999999999,
+                    38.93
+                ],
+                [
+                    -85.86999999999999,
+                    39.06
+                ],
+                [
+                    -85.83,
+                    39.05
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001971-3396118",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001971-3396118",
+        "areaDesc": "Lawrence, IN; Jackson, IN; Washington, IN",
+        "geocode": {
+            "UGC": [
+                "INC093",
+                "INC071",
+                "INC175"
+            ],
+            "SAME": [
+                "018093",
+                "018071",
+                "018175"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC093",
+            "https://api.weather.gov/zones/county/INC071",
+            "https://api.weather.gov/zones/county/INC175"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999025-3393311",
+                "identifier": "NWS-IDP-PROD-3999025-3393311",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:08:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T14:02:00-05:00",
+        "effective": "2020-01-11T14:02:00-05:00",
+        "onset": "2020-01-11T14:02:00-05:00",
+        "expires": "2020-01-12T14:02:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 11 at 2:02PM EST by NWS Indianapolis IN",
+        "description": "Flood Statement\nNational Weather Service Indianapolis IN\n<INHDR_TIME>\n\n...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Big Walnut Creek...Buck Creek...Driftwood River...\nEagle Creek...East Fork White River...Eel River...Flatrock River...\nMill Creek...Mississinewa River...Sugar Creek...Tippecanoe River...\nWabash River...White River...Youngs Creek...\n\n.High river levels and some lowland flooding will occur along rivers\nin western, central and southern Indiana. River levels will approach moderate\nflood stage in some areas along the White and East Fork White rivers.\n\nBetween 2.5 to 3.5 inches of rain fell across western, central and southern Indiana over the last 48 hours. Light rain is expected to continue until later this afternoon. Dry weather is then expected to dominate the early parts of next week.\n\nRiver levels will continue to rise over the next 24 hours as water drains into the river. Most rivers are expected to crest between Sunday evening and Monday morning. Please see below for specific river level forecasts for each site.\n\nThe Flood Warning continues for\nThe East Fork White River at Seymour.\n* until further notice.\n* At 12:45 PM Saturday the stage was 14.7 feet.\n* Flood stage is 12.0 feet.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* Forecast...It will continue rising to near 18.2 feet by Sunday\nevening then begin falling.\n* At 18.2 feet...Flood waters begin to cross CR 760E near Seymour\nWater Plant just south of CR 725N.  Extensive flooding and CR 760E\nflooded south of Seymour Water Plant.  Many local roads are\nflooded.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0027.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
