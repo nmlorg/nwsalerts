@@ -1,0 +1,118 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002338-3396482",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.23,
+                    30.32
+                ],
+                [
+                    -87.19,
+                    29.990000000000002
+                ],
+                [
+                    -87.33,
+                    29.98
+                ],
+                [
+                    -87.41,
+                    29.96
+                ],
+                [
+                    -87.53999999999999,
+                    29.95
+                ],
+                [
+                    -87.23,
+                    30.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002338-3396482",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002338-3396482",
+        "areaDesc": "Coastal waters from Pensacola FL to Pascagoula MS out 20 NM",
+        "geocode": {
+            "UGC": [
+                "GMZ650"
+            ],
+            "SAME": [
+                "077650"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/GMZ650"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002129-3396282",
+                "identifier": "NWS-IDP-PROD-4002129-3396282",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:42:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002034-3396182",
+                "identifier": "NWS-IDP-PROD-4002034-3396182",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:13:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002245-3396391",
+                "identifier": "NWS-IDP-PROD-4002245-3396391",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T14:11:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T14:33:00-06:00",
+        "effective": "2020-01-11T14:33:00-06:00",
+        "onset": "2020-01-11T14:33:00-06:00",
+        "expires": "2020-01-11T14:45:00-06:00",
+        "ends": "2020-01-11T14:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Special Marine Warning issued January 11 at 2:33PM CST until January 11 at 2:45PM CST by NWS Mobile AL",
+        "description": "For the following areas...\nCoastal waters from Pensacola FL to Pascagoula MS out 20 NM...\n\nAt 233 PM CST, severe thunderstorms were located along a line\nextending from West Santa Rosa Sound to 19 nm west of Oriskany Reef,\nmoving east at 25 knots.\n\nHAZARD...Wind gusts in excess of 50 knots.\n\nSOURCE...Radar indicated.\n\nIMPACT...Boats could suffer significant structural damage in high\nwinds. Small craft could capsize in suddenly higher waves.\n\nSevere thunderstorms will remain over mainly open waters.",
+        "instruction": "A Tornado Watch remains in effect until 400 PM CST for northwestern\nFlorida...and the adjacent coastal waters.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T14:33:00.000-06:00...storm...251DEG...27KT...30.38,-87.1 29.96,-87.36"
+            ],
+            "hailSize": [
+                0
+            ],
+            "windGust": [
+                "50 knots"
+            ],
+            "NWSheadline": [
+                "A SPECIAL MARINE WARNING REMAINS IN EFFECT UNTIL 245 PM CST"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.MA.W.0004.000000T0000Z-200111T2045Z/"
+            ],
+            "PIL": [
+                "MOBMWSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T14:45:00-06:00"
+            ]
+        }
+    }
+}
