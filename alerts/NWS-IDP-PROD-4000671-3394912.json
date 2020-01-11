@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000671-3394912",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.38,
+                    34.42
+                ],
+                [
+                    -96.3199999,
+                    34.42
+                ],
+                [
+                    -96.22,
+                    34.27
+                ],
+                [
+                    -95.95,
+                    34.1599999
+                ],
+                [
+                    -96.08,
+                    34.1599999
+                ],
+                [
+                    -96.26,
+                    34.25
+                ],
+                [
+                    -96.38,
+                    34.42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000671-3394912",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000671-3394912",
+        "areaDesc": "Atoka, OK",
+        "geocode": {
+            "UGC": [
+                "OKC005"
+            ],
+            "SAME": [
+                "040005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC005"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999667-3393907",
+                "identifier": "NWS-IDP-PROD-3999667-3393907",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T01:55:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T07:35:00-06:00",
+        "effective": "2020-01-11T07:35:00-06:00",
+        "onset": "2020-01-11T07:35:00-06:00",
+        "expires": "2020-01-11T15:34:00-06:00",
+        "ends": "2020-01-14T23:41:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Flood Warning issued January 11 at 7:35AM CST until January 14 at 11:41PM CST by NWS Norman OK",
+        "description": "The Flood Warning continues for\nThe Clear Boggy Creek near Caney.\n\n* until Tuesday evening...or until the warning is cancelled.\n\n* At 6:30 AM Saturday the stage was 29.8 feet.\n\n* Moderate flooding is occurring and Moderate flooding is forecast.\n\n* Flood stage is 26.0 feet.\n\n* Forecast...The Clear Boggy Creek will continue rising and crest\nnear 31.8 feet early Saturday afternoon. The Clear Boggy Creek will\nfall below flood stage late Tuesday afternoon.\n\n* Impact...At 32.0 feet...Creek levels rise to six feet higher than\nflood stage...spreading over most of the bottomlands in western\nAtoka County...and the northeastern edge of Bryan County.\nAgricultural lands are inundated for many hours...and machinery\nand other property are cut off from access. Many rural roads are\nimpassable.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOUN.FL.W.0001.000000T0000Z-200115T0541Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNFLSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T23:41:00-06:00"
+            ]
+        }
+    }
+}

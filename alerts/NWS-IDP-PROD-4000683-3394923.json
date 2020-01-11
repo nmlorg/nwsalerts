@@ -1,0 +1,121 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000683-3394923",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.66,
+                    36.96
+                ],
+                [
+                    -87.67,
+                    36.97
+                ],
+                [
+                    -87.73,
+                    37
+                ],
+                [
+                    -87.77000000000001,
+                    36.97
+                ],
+                [
+                    -87.80000000000001,
+                    36.97
+                ],
+                [
+                    -87.87,
+                    37.08
+                ],
+                [
+                    -87.58,
+                    37.339999999999996
+                ],
+                [
+                    -87.35,
+                    37.169999999999995
+                ],
+                [
+                    -87.66,
+                    36.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000683-3394923",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000683-3394923",
+        "areaDesc": "Christian, KY; Hopkins, KY; Caldwell, KY",
+        "geocode": {
+            "UGC": [
+                "KYC047",
+                "KYC107",
+                "KYC033"
+            ],
+            "SAME": [
+                "021047",
+                "021107",
+                "021033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC047",
+            "https://api.weather.gov/zones/county/KYC107",
+            "https://api.weather.gov/zones/county/KYC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000607-3394850",
+                "identifier": "NWS-IDP-PROD-4000607-3394850",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T07:12:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T07:38:00-06:00",
+        "effective": "2020-01-11T07:38:00-06:00",
+        "onset": "2020-01-11T07:38:00-06:00",
+        "expires": "2020-01-11T07:48:00-06:00",
+        "ends": "2020-01-11T07:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Tornado Warning issued January 11 at 7:38AM CST until January 11 at 7:45AM CST by NWS Paducah KY",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and no longer appears capable of producing a tornado.\nTherefore, the warning will be allowed to expire.\n\nA Tornado Watch remains in effect until 100 PM CST for western, south\ncentral and northwestern Kentucky.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T07:38:00.000-06:00...storm...224DEG...49KT...37.26,-87.47"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR NORTHWESTERN CHRISTIAN...SOUTHEASTERN CALDWELL AND SOUTHEASTERN HOPKINS COUNTIES WILL EXPIRE AT 745 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KPAH.TO.W.0005.000000T0000Z-200111T1345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T07:45:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000688-3394928",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.11,
+                    34.83
+                ],
+                [
+                    -88.34,
+                    34.75
+                ],
+                [
+                    -88.36,
+                    34.76
+                ],
+                [
+                    -88.37,
+                    34.76
+                ],
+                [
+                    -88.37,
+                    34.82
+                ],
+                [
+                    -88.29,
+                    34.99
+                ],
+                [
+                    -88.27000000000001,
+                    35
+                ],
+                [
+                    -88.20000000000002,
+                    35
+                ],
+                [
+                    -88.15000000000002,
+                    34.92
+                ],
+                [
+                    -88.13000000000002,
+                    34.9
+                ],
+                [
+                    -88.10000000000002,
+                    34.89
+                ],
+                [
+                    -88.11,
+                    34.83
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000688-3394928",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000688-3394928",
+        "areaDesc": "Tishomingo, MS",
+        "geocode": {
+            "UGC": [
+                "MSC141"
+            ],
+            "SAME": [
+                "028141"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC141"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000576-3394824",
+                "identifier": "NWS-IDP-PROD-4000576-3394824",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T06:59:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000666-3394908",
+                "identifier": "NWS-IDP-PROD-4000666-3394908",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T07:33:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T07:39:00-06:00",
+        "effective": "2020-01-11T07:39:00-06:00",
+        "onset": "2020-01-11T07:39:00-06:00",
+        "expires": "2020-01-11T07:48:00-06:00",
+        "ends": "2020-01-11T07:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 7:39AM CST until January 11 at 7:45AM CST by NWS Memphis TN",
+        "description": "The storm which prompted the warning has moved out of the area.\nTherefore, the warning will be allowed to expire.\n\nA Tornado Watch remains in effect until 1000 AM CST for northeastern\nMississippi...and western Tennessee.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T07:38:00.000-06:00...storm...249DEG...42KT...34.96,-87.99"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR NORTHERN TISHOMINGO COUNTY WILL EXPIRE AT 745 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KMEG.SV.W.0034.000000T0000Z-200111T1345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T07:45:00-06:00"
+            ]
+        }
+    }
+}

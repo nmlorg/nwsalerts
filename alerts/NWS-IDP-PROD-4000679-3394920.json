@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000679-3394920",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.67,
+                    36.74
+                ],
+                [
+                    -87.67,
+                    36.82
+                ],
+                [
+                    -87.29,
+                    36.94
+                ],
+                [
+                    -87.33000000000001,
+                    36.65
+                ],
+                [
+                    -87.37000000000002,
+                    36.64
+                ],
+                [
+                    -87.69000000000001,
+                    36.64
+                ],
+                [
+                    -87.67,
+                    36.74
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000679-3394920",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000679-3394920",
+        "areaDesc": "Christian, KY",
+        "geocode": {
+            "UGC": [
+                "KYC047"
+            ],
+            "SAME": [
+                "021047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000637-3394876",
+                "identifier": "NWS-IDP-PROD-4000637-3394876",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T07:23:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T07:37:00-06:00",
+        "effective": "2020-01-11T07:37:00-06:00",
+        "onset": "2020-01-11T07:37:00-06:00",
+        "expires": "2020-01-11T08:00:00-06:00",
+        "ends": "2020-01-11T08:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Tornado Warning issued January 11 at 7:37AM CST until January 11 at 8:00AM CST by NWS Paducah KY",
+        "description": "At 737 AM CST, a severe thunderstorm capable of producing a tornado\nwas located near Oak Grove, moving northeast at 55 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis dangerous storm will be near...\nPembroke around 745 AM CST.\n\nOther locations impacted by this tornadic thunderstorm include\nLafayette and Herndon.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T07:37:00.000-06:00...storm...246DEG...48KT...36.75,-87.48"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 800 AM CST FOR SOUTHERN CHRISTIAN COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.TO.W.0006.000000T0000Z-200111T1400Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T08:00:00-06:00"
+            ]
+        }
+    }
+}
