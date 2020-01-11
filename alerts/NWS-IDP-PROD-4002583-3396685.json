@@ -1,0 +1,131 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002583-3396685",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.78,
+                    32.58
+                ],
+                [
+                    -85.76,
+                    33.11
+                ],
+                [
+                    -85.59,
+                    33.11
+                ],
+                [
+                    -85.59,
+                    32.7299999
+                ],
+                [
+                    -85.61,
+                    32.71
+                ],
+                [
+                    -85.67999999999999,
+                    32.71
+                ],
+                [
+                    -85.69999999999999,
+                    32.7
+                ],
+                [
+                    -85.69999999999999,
+                    32.59
+                ],
+                [
+                    -85.71999999999998,
+                    32.580000000000005
+                ],
+                [
+                    -85.78,
+                    32.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002583-3396685",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002583-3396685",
+        "areaDesc": "Tallapoosa, AL",
+        "geocode": {
+            "UGC": [
+                "ALC123"
+            ],
+            "SAME": [
+                "001123"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC123"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002513-3396625",
+                "identifier": "NWS-IDP-PROD-4002513-3396625",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T15:05:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002319-3396465",
+                "identifier": "NWS-IDP-PROD-4002319-3396465",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T14:27:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T15:20:00-06:00",
+        "effective": "2020-01-11T15:20:00-06:00",
+        "onset": "2020-01-11T15:20:00-06:00",
+        "expires": "2020-01-11T15:45:00-06:00",
+        "ends": "2020-01-11T15:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 3:20PM CST until January 11 at 3:45PM CST by NWS Birmingham AL",
+        "description": "At 320 PM CST, severe thunderstorms were located along a line\nextending from 6 miles west of Sparkling Springs to Notasulga, moving\neast at 45 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nDadeville, Camp Hill, New Site, Waverly, Liberty City, Southern Lake\nMartin, Daviston, Eagle Creek, Horseshoe Bend and Horseshoe Bend\nNational Military Park.",
+        "instruction": "A Tornado Watch remains in effect until 800 PM CST for southeastern\nand east central Alabama.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T15:20:00.000-06:00...storm...256DEG...41KT...33.09,-85.68 32.58,-85.68"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 345 PM CST FOR EASTERN TALLAPOOSA COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KBMX.SV.W.0020.000000T0000Z-200111T2145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSVSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T15:45:00-06:00"
+            ]
+        }
+    }
+}
