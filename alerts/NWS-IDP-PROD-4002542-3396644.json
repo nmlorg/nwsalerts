@@ -1,0 +1,130 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002542-3396644",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.98,
+                    34.99
+                ],
+                [
+                    -85.26,
+                    35.61
+                ],
+                [
+                    -84.99000000000001,
+                    35.76
+                ],
+                [
+                    -84.94000000000001,
+                    35.769999999999996
+                ],
+                [
+                    -84.55000000000001,
+                    34.989999999999995
+                ],
+                [
+                    -84.98,
+                    34.99
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002542-3396644",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002542-3396644",
+        "areaDesc": "Polk, TN; Bradley, TN; McMinn, TN; Rhea, TN; Meigs, TN; Hamilton, TN; Bledsoe, TN",
+        "geocode": {
+            "UGC": [
+                "TNC139",
+                "TNC011",
+                "TNC107",
+                "TNC143",
+                "TNC121",
+                "TNC065",
+                "TNC007"
+            ],
+            "SAME": [
+                "047139",
+                "047011",
+                "047107",
+                "047143",
+                "047121",
+                "047065",
+                "047007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC139",
+            "https://api.weather.gov/zones/county/TNC011",
+            "https://api.weather.gov/zones/county/TNC107",
+            "https://api.weather.gov/zones/county/TNC143",
+            "https://api.weather.gov/zones/county/TNC121",
+            "https://api.weather.gov/zones/county/TNC065",
+            "https://api.weather.gov/zones/county/TNC007"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002436-3396558",
+                "identifier": "NWS-IDP-PROD-4002436-3396558",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T15:49:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T16:08:00-05:00",
+        "effective": "2020-01-11T16:08:00-05:00",
+        "onset": "2020-01-11T16:08:00-05:00",
+        "expires": "2020-01-11T16:45:00-05:00",
+        "ends": "2020-01-11T16:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 4:08PM EST until January 11 at 4:45PM EST by NWS Morristown TN",
+        "description": "At 408 PM EST/308 PM CST/, severe thunderstorms were located along a\nline extending from 6 miles east of Pikeville to near East Cleveland,\nmoving northeast at 65 mph.\n\nHAZARD...70 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to mobile\nhomes, roofs, and outbuildings.\n\nLocations impacted include...\nCleveland, Dayton, Pikeville, Benton, Charleston, South Cleveland,\nEast Cleveland, Wildwood Lake, Collegedale and Graysville.",
+        "instruction": "A Tornado Watch remains in effect until 900 PM EST/800 PM CST/ for\neast Tennessee.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T16:08:00.000-05:00...storm...242DEG...56KT...35.63,-85.09 35.13,-84.78"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "70 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 445 PM EST/345 PM CST/ FOR RHEA...BRADLEY...CENTRAL BLEDSOE...WESTERN POLK...SOUTHWESTERN MEIGS...SOUTHWESTERN MCMINN AND EASTERN HAMILTON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMRX.SV.W.0002.000000T0000Z-200111T2145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXSVSMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T16:45:00-05:00"
+            ]
+        }
+    }
+}
