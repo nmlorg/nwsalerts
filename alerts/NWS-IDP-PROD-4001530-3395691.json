@@ -1,0 +1,169 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001530-3395691",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.94,
+                    32.31
+                ],
+                [
+                    -88.02,
+                    32.28
+                ],
+                [
+                    -88.03999999999999,
+                    32.09
+                ],
+                [
+                    -88.11999999999999,
+                    32.050000000000004
+                ],
+                [
+                    -88.05999999999999,
+                    31.980000000000004
+                ],
+                [
+                    -88.11999999999999,
+                    31.950000000000003
+                ],
+                [
+                    -88.08999999999999,
+                    31.930000000000003
+                ],
+                [
+                    -88.04999999999998,
+                    31.930000000000003
+                ],
+                [
+                    -88.12999999999998,
+                    31.910000000000004
+                ],
+                [
+                    -88.17999999999998,
+                    31.820000000000004
+                ],
+                [
+                    -88.08999999999997,
+                    31.740000000000006
+                ],
+                [
+                    -88.07999999999997,
+                    31.620000000000005
+                ],
+                [
+                    -88.40999999999997,
+                    31.120000000000005
+                ],
+                [
+                    -88.99999999999997,
+                    30.950000000000003
+                ],
+                [
+                    -88.70999989999997,
+                    31.860000000000003
+                ],
+                [
+                    -88.46999999999997,
+                    31.900000000000002
+                ],
+                [
+                    -88.41999999999997,
+                    32.31
+                ],
+                [
+                    -87.94,
+                    32.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001530-3395691",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001530-3395691",
+        "areaDesc": "Choctaw, AL; Washington, AL; Wayne, MS; Perry, MS; Greene, MS",
+        "geocode": {
+            "UGC": [
+                "ALC023",
+                "ALC129",
+                "MSC153",
+                "MSC111",
+                "MSC041"
+            ],
+            "SAME": [
+                "001023",
+                "001129",
+                "028153",
+                "028111",
+                "028041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC023",
+            "https://api.weather.gov/zones/county/ALC129",
+            "https://api.weather.gov/zones/county/MSC153",
+            "https://api.weather.gov/zones/county/MSC111",
+            "https://api.weather.gov/zones/county/MSC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001451-3395625",
+                "identifier": "NWS-IDP-PROD-4001451-3395625",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:55:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T11:18:00-06:00",
+        "effective": "2020-01-11T11:18:00-06:00",
+        "onset": "2020-01-11T11:18:00-06:00",
+        "expires": "2020-01-11T11:45:00-06:00",
+        "ends": "2020-01-11T11:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 11:18AM CST until January 11 at 11:45AM CST by NWS Mobile AL",
+        "description": "At 1118 AM CST, severe thunderstorms were located along a line\nextending from York to 7 miles southwest of McLain, moving east at 30\nmph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nWaynesboro, Butler, Chatom, Leakesville, Clara, Beaumont, Lisman,\nMillry, McLain, State Line, Buckatunna, Silas, Fruitdale, Pennington,\nGilbertown and Toxey.",
+        "instruction": "A Tornado Watch remains in effect until 400 PM CST for southwestern\nAlabama...and southeastern Mississippi.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T11:18:00.000-06:00...storm...253DEG...28KT...32.48,-88.28 31.04,-88.92"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1145 AM CST FOR CHOCTAW...WESTERN WASHINGTON...SOUTHEASTERN PERRY...WAYNE AND GREENE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.SV.W.0004.000000T0000Z-200111T1745Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSVSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T11:45:00-06:00"
+            ]
+        }
+    }
+}

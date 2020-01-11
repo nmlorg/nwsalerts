@@ -1,0 +1,129 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001531-3395692",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.31,
+                    37.57
+                ],
+                [
+                    -85.35000000000001,
+                    37.69
+                ],
+                [
+                    -85.42,
+                    37.82
+                ],
+                [
+                    -85.28,
+                    37.96
+                ],
+                [
+                    -85.25,
+                    37.96
+                ],
+                [
+                    -85.11,
+                    37.69
+                ],
+                [
+                    -85.31,
+                    37.519999999999996
+                ],
+                [
+                    -85.31,
+                    37.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001531-3395692",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001531-3395692",
+        "areaDesc": "Marion, KY; Nelson, KY; Washington, KY",
+        "geocode": {
+            "UGC": [
+                "KYC155",
+                "KYC179",
+                "KYC229"
+            ],
+            "SAME": [
+                "021155",
+                "021179",
+                "021229"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC155",
+            "https://api.weather.gov/zones/county/KYC179",
+            "https://api.weather.gov/zones/county/KYC229"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001456-3395630",
+                "identifier": "NWS-IDP-PROD-4001456-3395630",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T11:56:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001485-3395650",
+                "identifier": "NWS-IDP-PROD-4001485-3395650",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T12:04:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T12:18:00-05:00",
+        "effective": "2020-01-11T12:18:00-05:00",
+        "onset": "2020-01-11T12:18:00-05:00",
+        "expires": "2020-01-11T12:30:00-05:00",
+        "ends": "2020-01-11T12:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 12:18PM EST until January 11 at 12:30PM EST by NWS Louisville KY",
+        "description": "At 1217 PM EST, severe thunderstorms were from 12 miles southeast of\nTaylorsville to near Lebanon, moving northeast at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nLebanon, Springfield, Bloomfield, Belltown, Rineltown, Booker,\nBearwallow, Maud, Briartown, and Botland.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T12:17:00.000-05:00...storm...226DEG...48KT...37.88,-85.2 37.58,-85.21"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1230 PM EST FOR NORTHEASTERN NELSON...CENTRAL MARION AND WESTERN WASHINGTON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KLMK.SV.W.0015.000000T0000Z-200111T1730Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKSVSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T12:30:00-05:00"
+            ]
+        }
+    }
+}
