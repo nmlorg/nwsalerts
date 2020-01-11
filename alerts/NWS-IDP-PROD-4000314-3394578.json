@@ -1,0 +1,136 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000314-3394578",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.01,
+                    31.93
+                ],
+                [
+                    -92.01,
+                    31.33
+                ],
+                [
+                    -92.04,
+                    31.34
+                ],
+                [
+                    -92.08000000000001,
+                    31.32
+                ],
+                [
+                    -92.09000000000002,
+                    31.34
+                ],
+                [
+                    -92.08000000000001,
+                    31.35
+                ],
+                [
+                    -92.15,
+                    31.41
+                ],
+                [
+                    -92.16000000000001,
+                    31.47
+                ],
+                [
+                    -92.18,
+                    31.48
+                ],
+                [
+                    -92.25,
+                    31.47
+                ],
+                [
+                    -92.05,
+                    31.93
+                ],
+                [
+                    -92.01,
+                    31.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000314-3394578",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000314-3394578",
+        "areaDesc": "La Salle, LA; Caldwell, LA",
+        "geocode": {
+            "UGC": [
+                "LAC059",
+                "LAC021"
+            ],
+            "SAME": [
+                "022059",
+                "022021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC059",
+            "https://api.weather.gov/zones/county/LAC021"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000244-3394505",
+                "identifier": "NWS-IDP-PROD-4000244-3394505",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T04:42:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T05:05:00-06:00",
+        "effective": "2020-01-11T05:05:00-06:00",
+        "onset": "2020-01-11T05:05:00-06:00",
+        "expires": "2020-01-11T05:15:00-06:00",
+        "ends": "2020-01-11T05:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 5:05AM CST until January 11 at 5:15AM CST by NWS Shreveport LA",
+        "description": "At 505 AM CST, severe thunderstorms were located along a line\nextending from near Jigger to 6 miles northeast of Holloway, moving\neast at 20 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nJena, Midway, Nebo and Catahoula Lake.",
+        "instruction": "A tornado watch remains in effect for the warned area. Tornadoes can\ndevelop quickly from severe thunderstorms. Although a tornado is not\nimmediately likely, if one is spotted act quickly and move to a\nplace of safety inside a sturdy structure, such as a basement or\nsmall interior room.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T05:04:00.000-06:00...storm...280DEG...17KT...32.01,-91.78 31.48,-92.18"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 515 AM CST FOR SOUTHEASTERN CALDWELL AND EASTERN LA SALLE PARISHES"
+            ],
+            "VTEC": [
+                "/O.CON.KSHV.SV.W.0012.000000T0000Z-200111T1115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVSVSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T05:15:00-06:00"
+            ]
+        }
+    }
+}

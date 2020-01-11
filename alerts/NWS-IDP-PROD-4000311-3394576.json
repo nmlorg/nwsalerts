@@ -1,0 +1,115 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000311-3394576",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.65,
+                    32.53
+                ],
+                [
+                    -91.37,
+                    32.54
+                ],
+                [
+                    -91.37,
+                    32.53
+                ],
+                [
+                    -91.5699999,
+                    32.02
+                ],
+                [
+                    -91.88,
+                    32
+                ],
+                [
+                    -91.65,
+                    32.53
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000311-3394576",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000311-3394576",
+        "areaDesc": "Richland, LA; Franklin, LA; Madison, LA",
+        "geocode": {
+            "UGC": [
+                "LAC083",
+                "LAC041",
+                "LAC065"
+            ],
+            "SAME": [
+                "022083",
+                "022041",
+                "022065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC083",
+            "https://api.weather.gov/zones/county/LAC041",
+            "https://api.weather.gov/zones/county/LAC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000170-3394428",
+                "identifier": "NWS-IDP-PROD-4000170-3394428",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T04:13:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T05:03:00-06:00",
+        "effective": "2020-01-11T05:03:00-06:00",
+        "onset": "2020-01-11T05:03:00-06:00",
+        "expires": "2020-01-11T05:15:00-06:00",
+        "ends": "2020-01-11T05:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 5:03AM CST until January 11 at 5:15AM CST by NWS Jackson MS",
+        "description": "At 503 AM CST, severe thunderstorms were located along a line\nextending from near Delhi to near Winnsboro, moving northeast at 60\nmph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nWaverly around 510 AM CST.\nBakers around 515 AM CST.\n\nOther locations impacted by these severe thunderstorms include\nGilbert and Baskin.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T05:03:00.000-06:00...storm...245DEG...54KT...32.45,-91.45 32.17,-91.67"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 515 AM CST FOR NORTHWESTERN MADISON...EAST CENTRAL RICHLAND AND FRANKLIN PARISHES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0005.000000T0000Z-200111T1115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T05:15:00-06:00"
+            ]
+        }
+    }
+}
