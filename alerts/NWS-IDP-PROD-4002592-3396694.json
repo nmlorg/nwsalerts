@@ -1,0 +1,146 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002592-3396694",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.79,
+                    34.99
+                ],
+                [
+                    -84.83000000000001,
+                    34.59
+                ],
+                [
+                    -84.98000000000002,
+                    34.080000000000005
+                ],
+                [
+                    -85.26000000000002,
+                    34.10000000000001
+                ],
+                [
+                    -85.26000000000002,
+                    34.080000000000005
+                ],
+                [
+                    -85.42000000000002,
+                    34.080000000000005
+                ],
+                [
+                    -85.40000000000002,
+                    34.21000000000001
+                ],
+                [
+                    -85.23000000000002,
+                    34.56000000000001
+                ],
+                [
+                    -85.14000000000001,
+                    34.99000000000001
+                ],
+                [
+                    -84.79,
+                    34.99
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002592-3396694",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002592-3396694",
+        "areaDesc": "Whitfield, GA; Walker, GA; Floyd, GA; Murray, GA; Gordon, GA; Chattooga, GA; Bartow, GA; Catoosa, GA",
+        "geocode": {
+            "UGC": [
+                "GAC313",
+                "GAC295",
+                "GAC115",
+                "GAC213",
+                "GAC129",
+                "GAC055",
+                "GAC015",
+                "GAC047"
+            ],
+            "SAME": [
+                "013313",
+                "013295",
+                "013115",
+                "013213",
+                "013129",
+                "013055",
+                "013015",
+                "013047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC313",
+            "https://api.weather.gov/zones/county/GAC295",
+            "https://api.weather.gov/zones/county/GAC115",
+            "https://api.weather.gov/zones/county/GAC213",
+            "https://api.weather.gov/zones/county/GAC129",
+            "https://api.weather.gov/zones/county/GAC055",
+            "https://api.weather.gov/zones/county/GAC015",
+            "https://api.weather.gov/zones/county/GAC047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002391-3396522",
+                "identifier": "NWS-IDP-PROD-4002391-3396522",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T15:42:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002536-3396638",
+                "identifier": "NWS-IDP-PROD-4002536-3396638",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T16:07:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T16:24:00-05:00",
+        "effective": "2020-01-11T16:24:00-05:00",
+        "onset": "2020-01-11T16:24:00-05:00",
+        "expires": "2020-01-11T16:33:00-05:00",
+        "ends": "2020-01-11T16:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 4:24PM EST until January 11 at 4:30PM EST by NWS Peachtree City GA",
+        "description": "The storms which prompted the warning have moved out of the area.\nTherefore, the warning will be allowed to expire. However, a new\nwarning has been issued just downstream\n\nA Tornado Watch remains in effect until 900 PM EST for northwestern\nGeorgia.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T16:23:00.000-05:00...storm...242DEG...40KT...35.1,-84.89 34.58,-84.88 34.23,-85.08"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR CATOOSA...WESTERN MURRAY... FLOYD...WHITFIELD...SOUTHEASTERN WALKER...WESTERN GORDON... NORTHEASTERN CHATTOOGA AND WESTERN BARTOW COUNTIES WILL EXPIRE AT 430 PM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KFFC.SV.W.0002.000000T0000Z-200111T2130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCSVSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T16:30:00-05:00"
+            ]
+        }
+    }
+}
