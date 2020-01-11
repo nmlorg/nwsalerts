@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000148-3394403",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.88,
+                    41.07
+                ],
+                [
+                    -83.53999999999999,
+                    41.06
+                ],
+                [
+                    -83.52999999999999,
+                    40.9799999
+                ],
+                [
+                    -83.57999999999998,
+                    40.9799999
+                ],
+                [
+                    -83.58999999999999,
+                    41.010000000000005
+                ],
+                [
+                    -83.88,
+                    41.010000000000005
+                ],
+                [
+                    -83.88,
+                    41.07
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000148-3394403",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000148-3394403",
+        "areaDesc": "Hancock, OH",
+        "geocode": {
+            "UGC": [
+                "OHC063"
+            ],
+            "SAME": [
+                "039063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998889-3393184",
+                "identifier": "NWS-IDP-PROD-3998889-3393184",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T21:39:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T05:08:00-05:00",
+        "effective": "2020-01-11T05:08:00-05:00",
+        "onset": "2020-01-11T23:40:00-05:00",
+        "expires": "2020-01-11T13:07:00-05:00",
+        "ends": "2020-01-13T15:10:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cleveland OH",
+        "headline": "Flood Warning issued January 11 at 5:07AM EST until January 13 at 3:10PM EST by NWS Cleveland OH",
+        "description": "...The flood warning continues for the following rivers in Ohio...\n\nPortage River At Woodville\nSandusky River At Tiffin\nSandusky River Above Fremont\nKillbuck Creek Near Killbuck\nEagle Creek Above Findlay\nHuron River Near Milan\nBlanchard River Near Findlay\nMaumee River Near Grand Rapids\nMaumee River At Waterville\nScioto River Near Larue\nScioto River Near Prospect\n\nThe flood warning continues for\nThe Blanchard River Near Findlay.\n* From tonight until Monday afternoon.\n* At  4:00 AM Saturday the stage was...7.6 feet.\n* Moderate flooding is forecast.\n* Flood stage is 11.0 feet.\n* Forecast to rise above flood stage by tonight and rise to near 12.5\nfeet by Sunday afternoon. The river will fall below flood stage by\nMonday morning.\n* At 12.0 feet... Water impacts River Street and Apple Alley on the west\nside of Findlay, Blanchard Street between Sandusky and Main Cross, and\nseveral streets south of Clinton Court near Riverside Park.",
+        "instruction": "Never drive your car through flooded roadways. The water may be\ndeeper than it appears. Turn around...don't drown!\n\nStay tuned to NOAA weather radio and other local media for further\ndetails and updates.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCLE.FL.W.0003.200112T0440Z-200113T2010Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CLEFLSCLE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T15:10:00-05:00"
+            ]
+        }
+    }
+}

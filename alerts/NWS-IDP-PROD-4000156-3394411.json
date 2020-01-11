@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000156-3394411",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.66,
+                    41.04
+                ],
+                [
+                    -83.63,
+                    41.04
+                ],
+                [
+                    -83.66,
+                    40.87
+                ],
+                [
+                    -83.7,
+                    40.87
+                ],
+                [
+                    -83.66,
+                    41.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000156-3394411",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000156-3394411",
+        "areaDesc": "Hancock, OH",
+        "geocode": {
+            "UGC": [
+                "OHC063"
+            ],
+            "SAME": [
+                "039063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998892-3393187",
+                "identifier": "NWS-IDP-PROD-3998892-3393187",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T21:39:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T05:08:00-05:00",
+        "effective": "2020-01-11T05:08:00-05:00",
+        "onset": "2020-01-11T16:24:00-05:00",
+        "expires": "2020-01-11T13:07:00-05:00",
+        "ends": "2020-01-12T10:51:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cleveland OH",
+        "headline": "Flood Warning issued January 11 at 5:07AM EST until January 12 at 10:51AM EST by NWS Cleveland OH",
+        "description": "...The flood warning continues for the following rivers in Ohio...\n\nPortage River At Woodville\nSandusky River At Tiffin\nSandusky River Above Fremont\nKillbuck Creek Near Killbuck\nEagle Creek Above Findlay\nHuron River Near Milan\nBlanchard River Near Findlay\nMaumee River Near Grand Rapids\nMaumee River At Waterville\nScioto River Near Larue\nScioto River Near Prospect",
+        "instruction": "Never drive your car through flooded roadways. The water may be\ndeeper than it appears. Turn around...don't drown!\n\nStay tuned to NOAA weather radio and other local media for further\ndetails and updates.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCLE.FL.W.0004.200111T2124Z-200112T1551Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CLEFLSCLE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T10:51:00-05:00"
+            ]
+        }
+    }
+}

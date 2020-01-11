@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000158-3394413",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.11,
+                    41.43
+                ],
+                [
+                    -83.05,
+                    41.4099999
+                ],
+                [
+                    -83.11999999999999,
+                    41.260000000000005
+                ],
+                [
+                    -83.19999999999999,
+                    41.25000000000001
+                ],
+                [
+                    -83.11,
+                    41.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000158-3394413",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000158-3394413",
+        "areaDesc": "Sandusky, OH",
+        "geocode": {
+            "UGC": [
+                "OHC143"
+            ],
+            "SAME": [
+                "039143"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC143"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998888-3393183",
+                "identifier": "NWS-IDP-PROD-3998888-3393183",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T21:39:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T05:08:00-05:00",
+        "effective": "2020-01-11T05:08:00-05:00",
+        "onset": "2020-01-12T18:20:00-05:00",
+        "expires": "2020-01-11T13:07:00-05:00",
+        "ends": "2020-01-13T09:24:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cleveland OH",
+        "headline": "Flood Warning issued January 11 at 5:07AM EST until January 13 at 9:24AM EST by NWS Cleveland OH",
+        "description": "...The flood warning continues for the following rivers in Ohio...\n\nPortage River At Woodville\nSandusky River At Tiffin\nSandusky River Above Fremont\nKillbuck Creek Near Killbuck\nEagle Creek Above Findlay\nHuron River Near Milan\nBlanchard River Near Findlay\nMaumee River Near Grand Rapids\nMaumee River At Waterville\nScioto River Near Larue\nScioto River Near Prospect\n\nThe flood warning continues for\nThe Sandusky River Above Fremont.\n* From Sunday evening until Monday morning.\n* At  4:30 AM Saturday the stage was...4.3 feet.\n* Minor flooding is forecast.\n* Flood stage is 10.0 feet.\n* Forecast to rise above flood stage by Sunday evening and rise to\nnear 10.2 feet by early Monday morning. The river will fall below\nflood stage by Monday morning.\n* At 10.0 feet...Flooding of lowland areas will occur just south of\nFremont with water threatening South River Road.",
+        "instruction": "Never drive your car through flooded roadways. The water may be\ndeeper than it appears. Turn around...don't drown!\n\nStay tuned to NOAA weather radio and other local media for further\ndetails and updates.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCLE.FL.W.0005.200112T2320Z-200113T1424Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CLEFLSCLE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T09:24:00-05:00"
+            ]
+        }
+    }
+}

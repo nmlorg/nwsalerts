@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000157-3394412",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.76,
+                    41.4799999
+                ],
+                [
+                    -83.48,
+                    41.71
+                ],
+                [
+                    -83.45,
+                    41.67
+                ],
+                [
+                    -83.7099999,
+                    41.47
+                ],
+                [
+                    -83.74,
+                    41.449999999999996
+                ],
+                [
+                    -83.76,
+                    41.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000157-3394412",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000157-3394412",
+        "areaDesc": "Lucas, OH; Wood, OH",
+        "geocode": {
+            "UGC": [
+                "OHC095",
+                "OHC173"
+            ],
+            "SAME": [
+                "039095",
+                "039173"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC095",
+            "https://api.weather.gov/zones/county/OHC173"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998887-3393182",
+                "identifier": "NWS-IDP-PROD-3998887-3393182",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T21:39:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T05:08:00-05:00",
+        "effective": "2020-01-11T05:08:00-05:00",
+        "onset": "2020-01-12T08:00:00-05:00",
+        "expires": "2020-01-11T13:07:00-05:00",
+        "ends": "2020-01-15T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cleveland OH",
+        "headline": "Flood Warning issued January 11 at 5:07AM EST until January 15 at 7:00AM EST by NWS Cleveland OH",
+        "description": "...The flood warning continues for the following rivers in Ohio...\n\nPortage River At Woodville\nSandusky River At Tiffin\nSandusky River Above Fremont\nKillbuck Creek Near Killbuck\nEagle Creek Above Findlay\nHuron River Near Milan\nBlanchard River Near Findlay\nMaumee River Near Grand Rapids\nMaumee River At Waterville\nScioto River Near Larue\nScioto River Near Prospect\n\nThe flood warning continues for\nThe Maumee River At Waterville.\n* From Sunday morning until Wednesday morning.\n* There is no current observed data.\n* Flood stage is 11.0 feet.\n* The river is forecast to rise above flood stage by Sunday morning\nand continue to rise to near 12.8 feet by early Monday morning.The\nriver will fall below flood stage by early Wednesday morning.\n* At 13.0 feet...Floodwaters can back up through storm drains onto\nWater Street in Waterville making roads inaccessible.",
+        "instruction": "Never drive your car through flooded roadways. The water may be\ndeeper than it appears. Turn around...don't drown!\n\nStay tuned to NOAA weather radio and other local media for further\ndetails and updates.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCLE.FL.W.0009.200112T1300Z-200115T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CLEFLSCLE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T07:00:00-05:00"
+            ]
+        }
+    }
+}
