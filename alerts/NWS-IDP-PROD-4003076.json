@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003076",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.68,
+                    30.57
+                ],
+                [
+                    -85.18,
+                    30.57
+                ],
+                [
+                    -85.16000000000001,
+                    30.61
+                ],
+                [
+                    -85.13000000000001,
+                    30.61
+                ],
+                [
+                    -85.37,
+                    30.2
+                ],
+                [
+                    -85.39,
+                    30.2
+                ],
+                [
+                    -85.39,
+                    30.16
+                ],
+                [
+                    -85.51,
+                    29.95
+                ],
+                [
+                    -85.86,
+                    30.189999999999998
+                ],
+                [
+                    -85.68,
+                    30.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003076",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003076",
+        "areaDesc": "Inland Bay; Coastal Bay; Calhoun; Washington",
+        "geocode": {
+            "UGC": [
+                "FLZ012",
+                "FLZ112",
+                "FLZ013",
+                "FLZ010"
+            ],
+            "SAME": [
+                "012005",
+                "012013",
+                "012133"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/FLZ012",
+            "https://api.weather.gov/zones/forecast/FLZ112",
+            "https://api.weather.gov/zones/forecast/FLZ013",
+            "https://api.weather.gov/zones/forecast/FLZ010"
+        ],
+        "references": [],
+        "sent": "2020-01-11T18:41:00-05:00",
+        "effective": "2020-01-11T18:41:00-05:00",
+        "onset": "2020-01-11T18:41:00-05:00",
+        "expires": "2020-01-11T19:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Special Weather Statement issued January 11 at 6:41PM EST by NWS Tallahassee FL",
+        "description": "At 540 PM CST, Doppler radar was tracking a strong thunderstorm 8\nmiles north of Lynn Haven, moving east at 35 mph.\n\nWind gusts up to 50 mph will be possible with this storm.\n\nLocations impacted include...\nPanama City, Lynn Haven, Panama City Beach, Callaway, Springfield,\nHiland Park, Tyndall Air Force Base, Parker, Moose Pond, St Andrews\nState Park, Southport, Fountain, Cedar Grove, Singer Road, Dirego\nPark, Beacon Beach, College Station, Bayou George, West Panama City\nand Camp Flowers.\n\nA Tornado Watch remains in effect until 800 PM CST for the Panhandle\nof Florida.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T18:40:00.000-05:00...storm...255DEG...29KT...30.37,-85.64"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR BAY...WESTERN CALHOUN AND SOUTHEASTERN WASHINGTON COUNTIES IN THE PANHANDLE OF FLORIDA UNTIL 645 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAESPSTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
