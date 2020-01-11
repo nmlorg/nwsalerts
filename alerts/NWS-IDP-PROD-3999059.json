@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999059",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.26,
+                    28.6
+                ],
+                [
+                    -97.9599999,
+                    28.41
+                ],
+                [
+                    -98.36,
+                    28.05
+                ],
+                [
+                    -98.39,
+                    28.060000000000002
+                ],
+                [
+                    -98.6,
+                    28.14
+                ],
+                [
+                    -98.26,
+                    28.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999059",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999059",
+        "areaDesc": "Live Oak; McMullen",
+        "geocode": {
+            "UGC": [
+                "TXZ231",
+                "TXZ230"
+            ],
+            "SAME": [
+                "048297",
+                "048311"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TXZ231",
+            "https://api.weather.gov/zones/forecast/TXZ230"
+        ],
+        "references": [],
+        "sent": "2020-01-10T21:19:00-06:00",
+        "effective": "2020-01-10T21:19:00-06:00",
+        "onset": "2020-01-10T21:19:00-06:00",
+        "expires": "2020-01-10T21:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Corpus Christi TX",
+        "headline": "Special Weather Statement issued January 10 at 9:19PM CST by NWS Corpus Christi TX",
+        "description": "At 919 PM CST, a strong thunderstorm was located over Loma Alta, or\n19 miles northeast of Freer, moving northeast at 55 mph.\n\nWind gusts up to 50 mph and half inch hail are possible with this\nstorm.\n\nLocations impacted include...\nGeorge West, Three Rivers, Choke Canyon, Oakville, Simmons and Loma\nAlta.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T21:19:00.000-06:00...storm...223DEG...49KT...28.14,-98.47"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT SOUTHEASTERN MCMULLEN AND SOUTHWESTERN LIVE OAK COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CRPSPSCRP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
