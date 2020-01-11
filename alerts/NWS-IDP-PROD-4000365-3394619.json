@@ -1,0 +1,134 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000365-3394619",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.77,
+                    33.87
+                ],
+                [
+                    -89.50999999999999,
+                    33.87
+                ],
+                [
+                    -89.50999999999999,
+                    33.72
+                ],
+                [
+                    -89.27,
+                    33.72
+                ],
+                [
+                    -89.38,
+                    33.54
+                ],
+                [
+                    -89.89,
+                    33.46
+                ],
+                [
+                    -89.88,
+                    33.82
+                ],
+                [
+                    -89.86999999999999,
+                    33.9
+                ],
+                [
+                    -89.77,
+                    33.9
+                ],
+                [
+                    -89.77,
+                    33.87
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000365-3394619",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000365-3394619",
+        "areaDesc": "Webster, MS; Grenada, MS; Carroll, MS; Montgomery, MS",
+        "geocode": {
+            "UGC": [
+                "MSC155",
+                "MSC043",
+                "MSC015",
+                "MSC097"
+            ],
+            "SAME": [
+                "028155",
+                "028043",
+                "028015",
+                "028097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC155",
+            "https://api.weather.gov/zones/county/MSC043",
+            "https://api.weather.gov/zones/county/MSC015",
+            "https://api.weather.gov/zones/county/MSC097"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000338-3394598",
+                "identifier": "NWS-IDP-PROD-4000338-3394598",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T05:14:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T05:33:00-06:00",
+        "effective": "2020-01-11T05:33:00-06:00",
+        "onset": "2020-01-11T05:33:00-06:00",
+        "expires": "2020-01-11T06:15:00-06:00",
+        "ends": "2020-01-11T06:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 5:33AM CST until January 11 at 6:15AM CST by NWS Jackson MS",
+        "description": "At 533 AM CST, severe thunderstorms were located along a line\nextending from 6 miles northwest of Gore Springs to near Duck Hill,\nmoving east at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nGore Springs around 540 AM CST.\nSweatman around 545 AM CST.\nLodi around 550 AM CST.\nEmbry around 600 AM CST.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T05:33:00.000-06:00...storm...268DEG...47KT...33.83,-89.69 33.58,-89.75"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 615 AM CST FOR NORTH CENTRAL CARROLL...GRENADA...NORTHWESTERN WEBSTER AND NORTHWESTERN MONTGOMERY COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0010.000000T0000Z-200111T1215Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T06:15:00-06:00"
+            ]
+        }
+    }
+}

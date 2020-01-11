@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000367-3394621",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.37,
+                    35.06
+                ],
+                [
+                    -89.43,
+                    35.150000000000006
+                ],
+                [
+                    -89.22000000000001,
+                    35.39000000000001
+                ],
+                [
+                    -89.01000000000002,
+                    35.31000000000001
+                ],
+                [
+                    -89.00000000000001,
+                    35.14000000000001
+                ],
+                [
+                    -89.37,
+                    35.06
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000367-3394621",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000367-3394621",
+        "areaDesc": "Hardeman, TN; Fayette, TN",
+        "geocode": {
+            "UGC": [
+                "TNC069",
+                "TNC047"
+            ],
+            "SAME": [
+                "047069",
+                "047047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC069",
+            "https://api.weather.gov/zones/county/TNC047"
+        ],
+        "references": [],
+        "sent": "2020-01-11T05:36:00-06:00",
+        "effective": "2020-01-11T05:36:00-06:00",
+        "onset": "2020-01-11T05:36:00-06:00",
+        "expires": "2020-01-11T06:00:00-06:00",
+        "ends": "2020-01-11T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Tornado Warning issued January 11 at 5:36AM CST until January 11 at 6:00AM CST by NWS Memphis TN",
+        "description": "The National Weather Service in Memphis has issued a\n\n* Tornado Warning for...\nEastern Fayette County in western Tennessee...\nNorthwestern Hardeman County in western Tennessee...\n\n* Until 600 AM CST.\n\n* At 536 AM CST, doppler radar indicated a severe thunderstorm\nproducing a tornado was located 8 miles south of Somerville, or 18\nmiles east of Collierville, moving northeast at 50 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* Locations impacted include...\nBolivar, Whiteville, Somerville, Williston, Hickory Valley, Fayette\nCorners, Laconia, Pattersonville, Van Buren and Middleburg.",
+        "instruction": "TAKE COVER NOW! Move to a storm shelter or an interior room on the\nlowest floor of a sturdy building. Avoid windows. If you are\noutdoors, in a mobile home, or in a vehicle, move to the closest\nsubstantial shelter and protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T05:36:00.000-06:00...storm...234DEG...43KT...35.12,-89.36"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KMEG.TO.W.0004.200111T1136Z-200111T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGTORMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T06:00:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 6:00 AM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}
