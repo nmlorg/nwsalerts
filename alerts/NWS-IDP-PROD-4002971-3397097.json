@@ -1,0 +1,131 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002971-3397097",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.45,
+                    29.33
+                ],
+                [
+                    -86.54,
+                    29.38
+                ],
+                [
+                    -86.69000000000001,
+                    29.39
+                ],
+                [
+                    -86.81000000000002,
+                    29.38
+                ],
+                [
+                    -86.73000000000002,
+                    29.689999999999998
+                ],
+                [
+                    -86.59000000000002,
+                    29.939999999999998
+                ],
+                [
+                    -86.47000000000001,
+                    30.159999999999997
+                ],
+                [
+                    -86.39000000000001,
+                    30.179999999999996
+                ],
+                [
+                    -86.40000000000002,
+                    29.259999999999994
+                ],
+                [
+                    -86.45,
+                    29.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002971-3397097",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002971-3397097",
+        "areaDesc": "Coastal waters from Okaloosa-Walton County Line to Pensacola FL out 20 NM; Waters from Okaloosa-Walton County Line to Pensacola FL from 20 to 60 NM",
+        "geocode": {
+            "UGC": [
+                "GMZ655",
+                "GMZ675"
+            ],
+            "SAME": [
+                "077655",
+                "077675"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/GMZ655",
+            "https://api.weather.gov/zones/forecast/GMZ675"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002908-3397033",
+                "identifier": "NWS-IDP-PROD-4002908-3397033",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T16:57:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002764-3396885",
+                "identifier": "NWS-IDP-PROD-4002764-3396885",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T16:08:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T17:13:00-06:00",
+        "effective": "2020-01-11T17:13:00-06:00",
+        "onset": "2020-01-11T17:13:00-06:00",
+        "expires": "2020-01-11T17:45:00-06:00",
+        "ends": "2020-01-11T17:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Special Marine Warning issued January 11 at 5:13PM CST until January 11 at 5:45PM CST by NWS Mobile AL",
+        "description": "For the following areas...\nCoastal waters from Okaloosa-Walton County Line to Pensacola FL out\n20 NM...\nWaters from Okaloosa-Walton County Line to Pensacola FL from 20 to 60\nNM...\n\nAt 512 PM CST, strong thunderstorms were located along a line\nextending from 10 nm east of Okaloosa Deep Water Reef to 40 nm\nsoutheast of Oriskany Reef, moving northeast at 40 knots.\n\nHAZARD...Wind gusts to 40 knots.\n\nSOURCE...Radar indicated.\n\nIMPACT...Small craft could be damaged in briefly higher winds and\nsuddenly higher waves.\n\nLocations impacted include...\nOkaloosa Deep Water Reef.",
+        "instruction": "Move to safe harbor immediately as gusty winds and high waves are\nexpected.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T17:12:00.000-06:00...storm...244DEG...41KT...30.02,-86.34 29.45,-86.63"
+            ],
+            "hailSize": [
+                0
+            ],
+            "windGust": [
+                "40 knots"
+            ],
+            "NWSheadline": [
+                "A SPECIAL MARINE WARNING REMAINS IN EFFECT UNTIL 545 PM CST"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.MA.W.0008.000000T0000Z-200111T2345Z/"
+            ],
+            "PIL": [
+                "MOBMWSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T17:45:00-06:00"
+            ]
+        }
+    }
+}
