@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002890-3397016",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.24,
+                    40.52
+                ],
+                [
+                    -83.17999999999999,
+                    40.550000000000004
+                ],
+                [
+                    -83.16999999999999,
+                    40.440000000000005
+                ],
+                [
+                    -83.23999999999998,
+                    40.440000000000005
+                ],
+                [
+                    -83.24,
+                    40.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002890-3397016",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002890-3397016",
+        "areaDesc": "Marion, OH",
+        "geocode": {
+            "UGC": [
+                "OHC101"
+            ],
+            "SAME": [
+                "039101"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC101"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002873-3396999",
+                "identifier": "NWS-IDP-PROD-4002873-3396999",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T17:49:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T17:54:00-05:00",
+        "effective": "2020-01-11T17:54:00-05:00",
+        "onset": "2020-01-12T20:12:00-05:00",
+        "expires": "2020-01-12T01:49:00-05:00",
+        "ends": "2020-01-15T14:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cleveland OH",
+        "headline": "Flood Warning issued January 11 at 5:49PM EST until January 15 at 2:30PM EST by NWS Cleveland OH",
+        "description": "...The flood warning is cancelled for the following rivers in Ohio...\n\nSandusky River Above Fremont\n\n...The flood warning continues for the following rivers in Ohio...\n\nHuron River Near Milan\nBlanchard River Near Findlay\nEagle Creek Above Findlay\nPortage River At Woodville\nSandusky River At Tiffin\nMaumee River Near Grand Rapids\nMaumee River At Waterville\nScioto River Near Larue\nScioto River Near Prospect\nKillbuck Creek Near Killbuck\n\nThe flood warning continues for\nThe Scioto River Near Prospect.\n* From Sunday evening until Wednesday afternoon.\n* At  5:00 PM Saturday the stage was...6.1 feet.\n* Minor flooding is forecast.\n* Flood stage is 9.0 feet.\n* Forecast to rise above flood stage by Sunday evening and rise to\nnear 10.2 feet by Monday evening. The river will fall below flood\nstage by Wednesday morning.\n* At 10.0 feet...Highway 203 is inaccessible north of Prospect.\nFlooding occurs near Elm Street in northern parts of Prospect.",
+        "instruction": "Never drive your car through flooded roadways. The water may be\ndeeper than it appears. Turn around...don't drown!\n\nStay tuned to NOAA weather radio and other local media for further\ndetails and updates.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCLE.FL.W.0011.200113T0112Z-200115T1930Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CLEFLSCLE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T14:30:00-05:00"
+            ]
+        }
+    }
+}
