@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000712-3394952",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.14,
+                    34.58
+                ],
+                [
+                    -87.53,
+                    34.57
+                ],
+                [
+                    -87.53,
+                    34.31
+                ],
+                [
+                    -87.58,
+                    34.300000000000004
+                ],
+                [
+                    -88.17,
+                    34.32000000000001
+                ],
+                [
+                    -88.14,
+                    34.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000712-3394952",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000712-3394952",
+        "areaDesc": "Franklin, AL",
+        "geocode": {
+            "UGC": [
+                "ALC059"
+            ],
+            "SAME": [
+                "001059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000661-3394902",
+                "identifier": "NWS-IDP-PROD-4000661-3394902",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T07:31:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T07:56:00-06:00",
+        "effective": "2020-01-11T07:56:00-06:00",
+        "onset": "2020-01-11T07:56:00-06:00",
+        "expires": "2020-01-11T08:30:00-06:00",
+        "ends": "2020-01-11T08:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 7:56AM CST until January 11 at 8:30AM CST by NWS Huntsville AL",
+        "description": "At 756 AM CST, severe thunderstorms were located along a line\nextending from 6 miles south of Cherokee to 6 miles northeast of\nTremont, moving east at 40 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nRussellville, Red Bay, Phil Campbell, Littleville, Belgreen, Vina,\nHodges, Pogo, Cedar Creek Reservoir and Atwood.",
+        "instruction": "A Tornado Watch remains in effect until 100 PM CST for north central\nand northwestern Alabama.\n\nA tornado watch remains in effect for the warned area. Tornadoes can\ndevelop quickly from severe thunderstorms. Although a tornado is not\nimmediately likely, if one is spotted act quickly and move to a place\nof safety inside a sturdy structure, such as a basement or small\ninterior room.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T07:56:00.000-06:00...storm...249DEG...34KT...34.67,-88.01 34.27,-88.15"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 830 AM CST FOR FRANKLIN COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KHUN.SV.W.0002.000000T0000Z-200111T1430Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNSVSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T08:30:00-06:00"
+            ]
+        }
+    }
+}
