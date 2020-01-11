@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000873-3395106",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.7099999,
+                    32.05
+                ],
+                [
+                    -90.11,
+                    32.05
+                ],
+                [
+                    -89.5699999,
+                    32.51
+                ],
+                [
+                    -89.35,
+                    32.269999999999996
+                ],
+                [
+                    -89.7099999,
+                    32.05
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000873-3395106",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000873-3395106",
+        "areaDesc": "Scott, MS; Smith, MS; Rankin, MS",
+        "geocode": {
+            "UGC": [
+                "MSC123",
+                "MSC129",
+                "MSC121"
+            ],
+            "SAME": [
+                "028123",
+                "028129",
+                "028121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC123",
+            "https://api.weather.gov/zones/county/MSC129",
+            "https://api.weather.gov/zones/county/MSC121"
+        ],
+        "references": [],
+        "sent": "2020-01-11T08:49:00-06:00",
+        "effective": "2020-01-11T08:49:00-06:00",
+        "onset": "2020-01-11T08:49:00-06:00",
+        "expires": "2020-01-11T09:45:00-06:00",
+        "ends": "2020-01-11T09:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Tornado Warning issued January 11 at 8:49AM CST until January 11 at 9:45AM CST by NWS Jackson MS",
+        "description": "The National Weather Service in Jackson has issued a\n\n* Tornado Warning for...\nSoutheastern Rankin County in central Mississippi...\nNorthwestern Smith County in central Mississippi...\nSouthern Scott County in central Mississippi...\n\n* Until 945 AM CST.\n\n* At 849 AM CST, a severe thunderstorm capable of producing a tornado\nwas located near Piney Woods, or near Star, moving northeast at 45\nmph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This dangerous storm will be near...\nCato around 900 AM CST.\nJohns around 905 AM CST.\nMorton, Pulaski and Homewood around 930 AM CST.\nForest around 940 AM CST.\n\nOther locations impacted by this tornadic thunderstorm include\nPolkville and Puckett.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T08:49:00.000-06:00...storm...229DEG...40KT...32.01,-90.02"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KJAN.TO.W.0006.200111T1449Z-200111T1545Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANTORJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T09:45:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 9:45 AM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}

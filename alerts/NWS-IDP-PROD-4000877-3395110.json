@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000877-3395110",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.29,
+                    41.72
+                ],
+                [
+                    -86.28,
+                    41.78
+                ],
+                [
+                    -86.26,
+                    41.78
+                ],
+                [
+                    -86.2099999,
+                    41.6599999
+                ],
+                [
+                    -86.24,
+                    41.6599999
+                ],
+                [
+                    -86.29,
+                    41.72
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000877-3395110",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000877-3395110",
+        "areaDesc": "Berrien, MI; St. Joseph, IN; Elkhart, IN",
+        "geocode": {
+            "UGC": [
+                "MIC021",
+                "INC141",
+                "INC039"
+            ],
+            "SAME": [
+                "026021",
+                "018141",
+                "018039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC021",
+            "https://api.weather.gov/zones/county/INC141",
+            "https://api.weather.gov/zones/county/INC039"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999121-3393406",
+                "identifier": "NWS-IDP-PROD-3999121-3393406",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:34:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T09:50:00-05:00",
+        "effective": "2020-01-11T09:50:00-05:00",
+        "onset": "2020-01-12T04:36:00-05:00",
+        "expires": "2020-01-12T09:49:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 11 at 9:50AM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nElkhart River at Goshen affecting Elkhart and Noble Counties\nSaint Joseph River Michigan at Three Rivers affecting Elkhart...\nBranch and St. Joseph Counties\nSaint Joseph River Michigan at Mottville affecting Elkhart...Cass\nand St. Joseph Counties\nSaint Joseph River Michigan at Elkhart affecting Elkhart...St.\nJoseph and Cass Counties\nSaint Joseph River Michigan at South Bend affecting Elkhart...St.\nJoseph and Berrien Counties\nSaint Joseph River Michigan at Niles affecting Elkhart...St. Joseph\nand Berrien Counties\n\n...The Flood Warning continues for the following rivers...\n\nNorth Branch Elkhart River at Cosperville affecting Noble County\n\n\n.Heavy rain over the past 24 to 48 hours is expected to cause\nsignificant rises on area rivers begining later today. Timing\nand crest heights area still subject to change over the coming days.\n\nThe Flood Warning has been extended for\nThe Saint Joseph River Michigan at South Bend\n* from late tonight until further notice.\n* At 7 AM Saturday the stage was 3.3 feet and rising.\n* Moderate flooding is forecast.\n* Flood stage is 5.5 feet.\n* Forecast...The river will rise above flood stage early Sunday\nmorning  and crest near 8.5 feet around 7 PM Wednesday January 15.\nAdditional rises are possible thereafter.\n* At 9.0 feet...Major flooding is in progress. Flooding almost\ncompletely submerges parks and floods local streets near the St.\nJoseph River.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0018.200112T0936Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

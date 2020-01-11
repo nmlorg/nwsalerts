@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000881-3395114",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.16,
+                    41.6599999
+                ],
+                [
+                    -86.16,
+                    41.68
+                ],
+                [
+                    -85.94,
+                    41.71
+                ],
+                [
+                    -85.94,
+                    41.69
+                ],
+                [
+                    -85.99,
+                    41.669999999999995
+                ],
+                [
+                    -86.16,
+                    41.6599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000881-3395114",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000881-3395114",
+        "areaDesc": "St. Joseph, MI; St. Joseph, IN; Cass, MI; Elkhart, IN",
+        "geocode": {
+            "UGC": [
+                "MIC149",
+                "INC141",
+                "MIC027",
+                "INC039"
+            ],
+            "SAME": [
+                "026149",
+                "018141",
+                "026027",
+                "018039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC149",
+            "https://api.weather.gov/zones/county/INC141",
+            "https://api.weather.gov/zones/county/MIC027",
+            "https://api.weather.gov/zones/county/INC039"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999102-3393387",
+                "identifier": "NWS-IDP-PROD-3999102-3393387",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:34:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T09:50:00-05:00",
+        "effective": "2020-01-11T09:50:00-05:00",
+        "onset": "2020-01-12T20:30:00-05:00",
+        "expires": "2020-01-12T09:49:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 11 at 9:50AM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nElkhart River at Goshen affecting Elkhart and Noble Counties\nSaint Joseph River Michigan at Three Rivers affecting Elkhart...\nBranch and St. Joseph Counties\nSaint Joseph River Michigan at Mottville affecting Elkhart...Cass\nand St. Joseph Counties\nSaint Joseph River Michigan at Elkhart affecting Elkhart...St.\nJoseph and Cass Counties\nSaint Joseph River Michigan at South Bend affecting Elkhart...St.\nJoseph and Berrien Counties\nSaint Joseph River Michigan at Niles affecting Elkhart...St. Joseph\nand Berrien Counties\n\n...The Flood Warning continues for the following rivers...\n\nNorth Branch Elkhart River at Cosperville affecting Noble County\n\n\n.Heavy rain over the past 24 to 48 hours is expected to cause\nsignificant rises on area rivers begining later today. Timing\nand crest heights area still subject to change over the coming days.\n\nThe Flood Warning has been extended for\nThe Saint Joseph River Michigan at Elkhart\n* from Sunday evening until further notice.\n* At 9 AM Saturday the stage was 21.3 feet and rising.\n* Moderate flooding is forecast.\n* Flood stage is 24.0 feet.\n* Forecast...The river will rise above flood stage Sunday evening\nand crest near 25.5 feet around  7 PM Tuesday January 14.\nAdditional rises are possible thereafter.\n* At 25.0 feet...Basement flooding begins in residential areas of the\n6th Street area and along South Shore Drive.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0017.200113T0130Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
