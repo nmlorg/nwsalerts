@@ -1,0 +1,121 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002473-3396587",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.44,
+                    38.37
+                ],
+                [
+                    -82.38,
+                    38.33
+                ],
+                [
+                    -82.3,
+                    38.239999999999995
+                ],
+                [
+                    -82.27,
+                    38.21999999999999
+                ],
+                [
+                    -82.28,
+                    38.19999999999999
+                ],
+                [
+                    -82.27,
+                    38.16999999999999
+                ],
+                [
+                    -82.45,
+                    38.139999999999986
+                ],
+                [
+                    -82.54,
+                    38.23999999999999
+                ],
+                [
+                    -82.44,
+                    38.37
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002473-3396587",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002473-3396587",
+        "areaDesc": "Wayne, WV",
+        "geocode": {
+            "UGC": [
+                "WVC099"
+            ],
+            "SAME": [
+                "054099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WVC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002425-3396547",
+                "identifier": "NWS-IDP-PROD-4002425-3396547",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T15:45:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T15:56:00-05:00",
+        "effective": "2020-01-11T15:56:00-05:00",
+        "onset": "2020-01-11T15:56:00-05:00",
+        "expires": "2020-01-11T16:15:00-05:00",
+        "ends": "2020-01-11T16:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston WV",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 3:56PM EST until January 11 at 4:15PM EST by NWS Charleston WV",
+        "description": "At 355 PM EST, a severe thunderstorm was located over Wayne, moving\nnortheast at 55 mph.\n\nHAZARD...70 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to mobile\nhomes, roofs, and outbuildings.\n\nLocations impacted include...\nWayne, Beech Fork State Park, East Lynn Lake, Centerville, East Lynn\nand Lavalette.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T15:55:00.000-05:00...storm...233DEG...48KT...38.19,-82.44"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "70 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 415 PM EST FOR NORTHEASTERN WAYNE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KRLX.SV.W.0004.000000T0000Z-200111T2115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RLXSVSRLX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T16:15:00-05:00"
+            ]
+        }
+    }
+}
