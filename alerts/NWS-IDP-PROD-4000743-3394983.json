@@ -1,0 +1,138 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000743-3394983",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.84,
+                    36.36
+                ],
+                [
+                    -86.86,
+                    36.38
+                ],
+                [
+                    -86.88,
+                    36.370000000000005
+                ],
+                [
+                    -86.89,
+                    36.39000000000001
+                ],
+                [
+                    -86.91,
+                    36.39000000000001
+                ],
+                [
+                    -86.91,
+                    36.370000000000005
+                ],
+                [
+                    -86.92999999999999,
+                    36.32000000000001
+                ],
+                [
+                    -87.50999999999999,
+                    36.09000000000001
+                ],
+                [
+                    -87.39999999999999,
+                    36.64000000000001
+                ],
+                [
+                    -86.72999999999999,
+                    36.650000000000006
+                ],
+                [
+                    -86.84,
+                    36.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000743-3394983",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000743-3394983",
+        "areaDesc": "Dickson, TN; Cheatham, TN; Montgomery, TN; Robertson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC043",
+                "TNC021",
+                "TNC125",
+                "TNC147"
+            ],
+            "SAME": [
+                "047043",
+                "047021",
+                "047125",
+                "047147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC043",
+            "https://api.weather.gov/zones/county/TNC021",
+            "https://api.weather.gov/zones/county/TNC125",
+            "https://api.weather.gov/zones/county/TNC147"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000690-3394930",
+                "identifier": "NWS-IDP-PROD-4000690-3394930",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T07:40:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:08:00-06:00",
+        "effective": "2020-01-11T08:08:00-06:00",
+        "onset": "2020-01-11T08:08:00-06:00",
+        "expires": "2020-01-11T08:30:00-06:00",
+        "ends": "2020-01-11T08:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 8:08AM CST until January 11 at 8:30AM CST by NWS Nashville TN",
+        "description": "At 808 AM CST, severe thunderstorms were located along a line\nextending from near Elkton to 10 miles north of Dickson, moving\nnortheast at 60 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nClarksville, Springfield, Ashland City, Greenbrier, Coopertown,\nPleasant View, Charlotte, Adams, Vanleer, Cedar Hill, Slayden,\nCheatham Dam and Cunningham.\n\nThis includes Interstate 24 between mile markers 1 and 31.",
+        "instruction": "A Tornado Watch remains in effect until 100 PM CST for Middle\nTennessee.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T08:08:00.000-06:00...storm...226DEG...52KT...36.8,-87.25 36.23,-87.34"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 830 AM CST FOR NORTHERN DICKSON...MONTGOMERY...NORTHERN CHEATHAM AND ROBERTSON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOHX.SV.W.0004.000000T0000Z-200111T1430Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T08:30:00-06:00"
+            ]
+        }
+    }
+}
