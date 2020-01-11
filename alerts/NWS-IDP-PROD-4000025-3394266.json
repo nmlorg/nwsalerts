@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000025-3394266",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.27,
+                    30.2
+                ],
+                [
+                    -93.31,
+                    30.259999999999998
+                ],
+                [
+                    -93.2099999,
+                    30.349999999999998
+                ],
+                [
+                    -93.16,
+                    30.24
+                ],
+                [
+                    -93.27,
+                    30.2
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000025-3394266",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000025-3394266",
+        "areaDesc": "Calcasieu, LA",
+        "geocode": {
+            "UGC": [
+                "LAC019"
+            ],
+            "SAME": [
+                "022019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999926-3394177",
+                "identifier": "NWS-IDP-PROD-3999926-3394177",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T03:12:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999969-3394217",
+                "identifier": "NWS-IDP-PROD-3999969-3394217",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T03:22:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T03:36:00-06:00",
+        "effective": "2020-01-11T03:36:00-06:00",
+        "onset": "2020-01-11T03:36:00-06:00",
+        "expires": "2020-01-11T03:45:00-06:00",
+        "ends": "2020-01-11T03:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Tornado Warning issued January 11 at 3:36AM CST until January 11 at 3:45AM CST by NWS Lake Charles LA",
+        "description": "At 335 AM CST, a severe squall line capable of producing both\ntornadoes and extensive straight line wind damage was located over\nWestlake, moving northeast at 35 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThese dangerous storms will be near...\nMoss Bluff around 345 AM CST.\n\nThis includes the following highways...\nInterstate 10 in Louisiana between mile markers 26 and 34.\nInterstate 210 near mile marker 12.",
+        "instruction": "TAKE COVER NOW! Move to an interior room on the lowest floor of a\nsturdy building. Avoid windows. If you are outdoors, in a mobile\nhome, or in a vehicle, move to the closest substantial shelter and\nprotect yourself from flying debris.\n\nThis cluster of thunderstorms is capable of producing tornadoes and\nwidespread significant wind damage. Do not wait to see or hear the\ntornado. For your protection move to an interior room on the lowest\nfloor of a building.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T03:35:00.000-06:00...storm...243DEG...32KT...30.25,-93.26"
+            ],
+            "hailSize": [
+                0
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 345 AM CST FOR CENTRAL CALCASIEU PARISH"
+            ],
+            "VTEC": [
+                "/O.CON.KLCH.TO.W.0002.000000T0000Z-200111T0945Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHSVSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T03:45:00-06:00"
+            ]
+        }
+    }
+}

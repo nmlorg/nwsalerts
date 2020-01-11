@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000026-3394267",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.92,
+                    35.55
+                ],
+                [
+                    -89.66,
+                    35.32
+                ],
+                [
+                    -90.28,
+                    35.13
+                ],
+                [
+                    -90.42,
+                    35.32
+                ],
+                [
+                    -89.92,
+                    35.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000026-3394267",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000026-3394267",
+        "areaDesc": "Crittenden, AR; Tipton, TN; Shelby, TN; Mississippi, AR",
+        "geocode": {
+            "UGC": [
+                "ARC035",
+                "TNC167",
+                "TNC157",
+                "ARC093"
+            ],
+            "SAME": [
+                "005035",
+                "047167",
+                "047157",
+                "005093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC035",
+            "https://api.weather.gov/zones/county/TNC167",
+            "https://api.weather.gov/zones/county/TNC157",
+            "https://api.weather.gov/zones/county/ARC093"
+        ],
+        "references": [],
+        "sent": "2020-01-11T03:36:00-06:00",
+        "effective": "2020-01-11T03:36:00-06:00",
+        "onset": "2020-01-11T03:36:00-06:00",
+        "expires": "2020-01-11T04:15:00-06:00",
+        "ends": "2020-01-11T04:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 3:36AM CST until January 11 at 4:15AM CST by NWS Memphis TN",
+        "description": "The National Weather Service in Memphis has issued a\n\n* Severe Thunderstorm Warning for...\nSouth central Mississippi County in eastern Arkansas...\nNorthern Crittenden County in eastern Arkansas...\nSouthwestern Tipton County in western Tennessee...\nNorthern Shelby County in western Tennessee...\n\n* Until 415 AM CST.\n\n* At 336 AM CST, a severe thunderstorm was located near Jericho, or\nnear Marion, moving northeast at 40 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nBartlett, West Memphis, Marion, Millington, Meeman Shelby Forest\nState Park, Memphis, Munford, Crawfordsville, Sunset, Jericho,\nDixonville, Tipton, Crittenden, Atoka, Turrell, Clarkedale, Booker,\nCunningham Corner, Woodstock and St Clair.",
+        "instruction": "A Tornado Watch remains in effect until 700 AM CST for eastern\nArkansas...and western Tennessee.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T03:36:00.000-06:00...storm...238DEG...34KT...35.25,-90.26"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KMEG.SV.W.0013.200111T0936Z-200111T1015Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVRMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T04:15:00-06:00"
+            ]
+        }
+    }
+}
