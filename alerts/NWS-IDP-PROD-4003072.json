@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003072",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.26,
+                    35.9799999
+                ],
+                [
+                    -86.9599999,
+                    35.790000000000006
+                ],
+                [
+                    -86.94,
+                    36.09
+                ],
+                [
+                    -86.27,
+                    36.31
+                ],
+                [
+                    -86.26,
+                    35.9799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003072",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003072",
+        "areaDesc": "Davidson; Williamson; Wilson; Rutherford",
+        "geocode": {
+            "UGC": [
+                "TNZ027",
+                "TNZ059",
+                "TNZ028",
+                "TNZ062"
+            ],
+            "SAME": [
+                "047037",
+                "047187",
+                "047189",
+                "047149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TNZ027",
+            "https://api.weather.gov/zones/forecast/TNZ059",
+            "https://api.weather.gov/zones/forecast/TNZ028",
+            "https://api.weather.gov/zones/forecast/TNZ062"
+        ],
+        "references": [],
+        "sent": "2020-01-11T17:36:00-06:00",
+        "effective": "2020-01-11T17:36:00-06:00",
+        "onset": "2020-01-11T17:36:00-06:00",
+        "expires": "2020-01-11T18:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Special Weather Statement issued January 11 at 5:36PM CST by NWS Nashville TN",
+        "description": "At 536 PM CST, Doppler radar was tracking a strong thunderstorm over\nFranklin, moving northeast at 50 mph.\n\nWinds in excess of 40 mph will be possible with this storm.\n\nLocations impacted include...\nFranklin, Lebanon, Smyrna, Brentwood, La Vergne, Mount Juliet,\nNolensville, Forest Hills, Oak Hill, Belle Meade, Thompson's Station,\nWalterhill, Rural Hill, Bellevue, Antioch, Belinda City, Berry Hill,\nCedars Of Lebanon State Park, Percy Priest Lake and Gladeville.\n\nThis includes the following highways...\nInterstate 40 between mile markers 212 and 239.\nInterstate 65 between mile markers 60 and 82.\nInterstate 24 between mile markers 52 and 71.\nInterstate 840 between mile markers 25 and 30, and between mile\nmarkers 58 and 76.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T17:36:00.000-06:00...storm...244DEG...45KT...35.96,-86.88"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHERN DAVIDSON...NORTHWESTERN RUTHERFORD...NORTHEASTERN WILLIAMSON AND WESTERN WILSON COUNTIES UNTIL 615 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSPSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
