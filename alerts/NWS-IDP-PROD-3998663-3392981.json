@@ -1,0 +1,115 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998663-3392981",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.19,
+                    30.31
+                ],
+                [
+                    -98.28999999999999,
+                    30.049999999999997
+                ],
+                [
+                    -98.41999999999999,
+                    30.029999999999998
+                ],
+                [
+                    -98.46999999999998,
+                    30.259999999999998
+                ],
+                [
+                    -98.36999999999999,
+                    30.369999999999997
+                ],
+                [
+                    -98.19,
+                    30.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998663-3392981",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998663-3392981",
+        "areaDesc": "Blanco, TX",
+        "geocode": {
+            "UGC": [
+                "TXC031"
+            ],
+            "SAME": [
+                "048031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC031"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998609-3392928",
+                "identifier": "NWS-IDP-PROD-3998609-3392928",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:20:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998559-3392885",
+                "identifier": "NWS-IDP-PROD-3998559-3392885",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:03:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:31:00-06:00",
+        "effective": "2020-01-10T19:31:00-06:00",
+        "onset": "2020-01-10T19:31:00-06:00",
+        "expires": "2020-01-10T19:45:00-06:00",
+        "ends": "2020-01-10T19:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 7:31PM CST until January 10 at 7:45PM CST by NWS Austin/San Antonio TX",
+        "description": "At 730 PM CST, a severe thunderstorm was located near Payton, or 8\nmiles northeast of Blanco, moving northeast at 40 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Public.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nBlanco, Johnson City, Payton and Pedernales Falls State Park.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T19:30:00.000-06:00...storm...226DEG...34KT...30.16,-98.31"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 745 PM CST FOR CENTRAL BLANCO COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KEWX.SV.W.0009.000000T0000Z-200111T0145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSVSEWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:45:00-06:00"
+            ]
+        }
+    }
+}

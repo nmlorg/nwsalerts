@@ -1,0 +1,140 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998664-3392982",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.15,
+                    39.52
+                ],
+                [
+                    -90.15,
+                    39.010000000000005
+                ],
+                [
+                    -90.17,
+                    39.00000000000001
+                ],
+                [
+                    -90.27,
+                    39.00000000000001
+                ],
+                [
+                    -90.28,
+                    38.95000000000001
+                ],
+                [
+                    -90.89,
+                    38.67000000000001
+                ],
+                [
+                    -90.79,
+                    39.02000000000001
+                ],
+                [
+                    -90.60000000000001,
+                    39.26000000000001
+                ],
+                [
+                    -90.37,
+                    39.52000000000001
+                ],
+                [
+                    -90.15,
+                    39.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998664-3392982",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998664-3392982",
+        "areaDesc": "Jersey, IL; Lincoln, MO; St. Charles, MO; Greene, IL; Calhoun, IL",
+        "geocode": {
+            "UGC": [
+                "ILC083",
+                "MOC113",
+                "MOC183",
+                "ILC061",
+                "ILC013"
+            ],
+            "SAME": [
+                "017083",
+                "029113",
+                "029183",
+                "017061",
+                "017013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC083",
+            "https://api.weather.gov/zones/county/MOC113",
+            "https://api.weather.gov/zones/county/MOC183",
+            "https://api.weather.gov/zones/county/ILC061",
+            "https://api.weather.gov/zones/county/ILC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998587-3392906",
+                "identifier": "NWS-IDP-PROD-3998587-3392906",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:09:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:31:00-06:00",
+        "effective": "2020-01-10T19:31:00-06:00",
+        "onset": "2020-01-10T19:31:00-06:00",
+        "expires": "2020-01-10T20:00:00-06:00",
+        "ends": "2020-01-10T20:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 7:31PM CST until January 10 at 8:00PM CST by NWS St Louis MO",
+        "description": "At 730 PM CST, severe thunderstorms were located along a line\nextending from near Carrollton to 7 miles southwest of Old Kane to\nnear St. Charles to Weldon Spring Heights, moving northeast at 60\nmph.\n\nHAZARD...60 mph wind gusts and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nO'Fallon, St. Charles, St. Peters, Wentzville, Lake St. Louis,\nDardenne Prairie, Jerseyville, White Hall, St. Paul, Carrollton,\nBrighton, Roodhouse, Winfield, Greenfield, Hardin, Grafton, Elsah,\nNew Melle, Josephville and Athensville.\n\nThis also includes Pere Marquette State Park.\n\nThis includes Interstate 70 in Missouri between exits 210 and 222.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T19:30:00.000-06:00...storm...228DEG...53KT...39.34,-90.41 39.12,-90.48 38.86,-90.58 38.73,-90.71"
+            ],
+            "hailSize": [
+                0.88
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 800 PM CST FOR SOUTHEASTERN CALHOUN...GREENE...JERSEY...NORTHWESTERN ST. CHARLES AND SOUTHEASTERN LINCOLN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KLSX.SV.W.0002.000000T0000Z-200111T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXSVSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T20:00:00-06:00"
+            ]
+        }
+    }
+}

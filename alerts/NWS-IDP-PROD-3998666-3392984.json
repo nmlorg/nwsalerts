@@ -1,0 +1,145 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998666-3392984",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.64,
+                    38.15
+                ],
+                [
+                    -91.53,
+                    38.15
+                ],
+                [
+                    -91.53,
+                    37.79
+                ],
+                [
+                    -91.81,
+                    37.79
+                ],
+                [
+                    -91.81,
+                    37.6
+                ],
+                [
+                    -92.03,
+                    37.6
+                ],
+                [
+                    -92.03,
+                    37.620000000000005
+                ],
+                [
+                    -92.25,
+                    37.64000000000001
+                ],
+                [
+                    -92.08,
+                    37.85000000000001
+                ],
+                [
+                    -92.14,
+                    38.13000000000001
+                ],
+                [
+                    -91.65,
+                    38.290000000000006
+                ],
+                [
+                    -91.64,
+                    38.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998666-3392984",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998666-3392984",
+        "areaDesc": "Pulaski, MO; Maries, MO; Phelps, MO",
+        "geocode": {
+            "UGC": [
+                "MOC169",
+                "MOC125",
+                "MOC161"
+            ],
+            "SAME": [
+                "029169",
+                "029125",
+                "029161"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC169",
+            "https://api.weather.gov/zones/county/MOC125",
+            "https://api.weather.gov/zones/county/MOC161"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998612-3392931",
+                "identifier": "NWS-IDP-PROD-3998612-3392931",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:20:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998556-3392882",
+                "identifier": "NWS-IDP-PROD-3998556-3392882",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:01:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:32:00-06:00",
+        "effective": "2020-01-10T19:32:00-06:00",
+        "onset": "2020-01-10T19:32:00-06:00",
+        "expires": "2020-01-10T19:45:00-06:00",
+        "ends": "2020-01-10T19:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 7:32PM CST until January 10 at 7:45PM CST by NWS Springfield MO",
+        "description": "At 732 PM CST, severe thunderstorms were located along a line\nextending from near Dixon to near Newburg to 8 miles east of Fort\nLeonard Wood, moving northeast at 60 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nRolla...                          Fort Leonard Wood...\nSt. James...                      Dixon...\nDoolittle...                      Vienna...\nNewburg...                        Edgar Springs...\nBrinktown...                      Beulah...\nDevil's Elbow...                  Vichy...\nNorthwye...                       Jerome...\nRosati...\n\nThis includes Interstate 44 between mile markers 165 and 169, and\nbetween mile markers 171 and 200.",
+        "instruction": "A Tornado Watch remains in effect until 200 AM CST for south central\nMissouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T19:32:00.000-06:00...storm...246DEG...53KT...38.07,-92.06 37.88,-91.98 37.66,-92.01"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 745 PM CST FOR MARIES...EASTERN PULASKI AND PHELPS COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KSGF.SV.W.0015.000000T0000Z-200111T0145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:45:00-06:00"
+            ]
+        }
+    }
+}
