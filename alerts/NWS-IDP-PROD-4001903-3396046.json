@@ -1,0 +1,135 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001903-3396046",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.75,
+                    33.65
+                ],
+                [
+                    -86.81,
+                    33.11
+                ],
+                [
+                    -87.16,
+                    33.06
+                ],
+                [
+                    -86.89,
+                    33.61
+                ],
+                [
+                    -86.9599999,
+                    33.8
+                ],
+                [
+                    -86.95,
+                    33.82
+                ],
+                [
+                    -86.88000000000001,
+                    33.84
+                ],
+                [
+                    -86.75,
+                    33.65
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001903-3396046",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001903-3396046",
+        "areaDesc": "Bibb, AL; Jefferson, AL; Shelby, AL",
+        "geocode": {
+            "UGC": [
+                "ALC007",
+                "ALC073",
+                "ALC117"
+            ],
+            "SAME": [
+                "001007",
+                "001073",
+                "001117"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC007",
+            "https://api.weather.gov/zones/county/ALC073",
+            "https://api.weather.gov/zones/county/ALC117"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001787-3395947",
+                "identifier": "NWS-IDP-PROD-4001787-3395947",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T12:19:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001836-3395995",
+                "identifier": "NWS-IDP-PROD-4001836-3395995",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T12:35:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001704-3395865",
+                "identifier": "NWS-IDP-PROD-4001704-3395865",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T12:01:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T12:54:00-06:00",
+        "effective": "2020-01-11T12:54:00-06:00",
+        "onset": "2020-01-11T12:54:00-06:00",
+        "expires": "2020-01-11T13:00:00-06:00",
+        "ends": "2020-01-11T13:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 12:54PM CST until January 11 at 1:00PM CST by NWS Birmingham AL",
+        "description": "At 1253 PM CST, severe thunderstorms were located along a line\nextending from near Good Hope to Center Point to near Wilton, moving\nnortheast at 60 mph.\n\nHAZARD...70 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to mobile\nhomes, roofs, and outbuildings.\n\nLocations impacted include...\nBirmingham, Hoover, Vestavia Hills, Alabaster, Bessemer, Homewood,\nPelham, Mountain Brook, Helena, Hueytown, Gardendale, Fairfield,\nFultondale, Montevallo, Tarrant, Midfield, Brighton, Kimberly,\nLipscomb and Morris.",
+        "instruction": "A Tornado Watch remains in effect until 400 PM CST for central and\nwest central Alabama.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T12:53:00.000-06:00...storm...245DEG...54KT...34.11,-86.82 33.64,-86.69 33.11,-86.96"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "70 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 100 PM CST FOR SOUTHWESTERN SHELBY...NORTHEASTERN BIBB AND CENTRAL JEFFERSON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KBMX.SV.W.0004.000000T0000Z-200111T1900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSVSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T13:00:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001937-3396084",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.08,
+                    31.4
+                ],
+                [
+                    -90.17,
+                    31.549999999999997
+                ],
+                [
+                    -90.19,
+                    31.679999999999996
+                ],
+                [
+                    -90.05,
+                    31.689999999999998
+                ],
+                [
+                    -90.02,
+                    31.549999999999997
+                ],
+                [
+                    -89.92,
+                    31.4
+                ],
+                [
+                    -90.08,
+                    31.4
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001937-3396084",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001937-3396084",
+        "areaDesc": "Lawrence, MS",
+        "geocode": {
+            "UGC": [
+                "MSC077"
+            ],
+            "SAME": [
+                "028077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001204-3395398",
+                "identifier": "NWS-IDP-PROD-4001204-3395398",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:52:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T12:57:00-06:00",
+        "effective": "2020-01-11T12:57:00-06:00",
+        "onset": "2020-01-11T12:57:00-06:00",
+        "expires": "2020-01-12T18:56:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 11 at 12:57PM CST by NWS Jackson MS",
+        "description": "...Forecast flooding changed from Minor to Moderate severity for the\nfollowing rivers in Mississippi...\n\nPearl River Near Monticello affecting Lawrence County",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0013.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLWJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

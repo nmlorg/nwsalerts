@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001904-3396047",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.2099999,
+                    37.89
+                ],
+                [
+                    -84.24,
+                    37.97
+                ],
+                [
+                    -84.05,
+                    38.06
+                ],
+                [
+                    -83.97,
+                    37.940000000000005
+                ],
+                [
+                    -84.2099999,
+                    37.89
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001904-3396047",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001904-3396047",
+        "areaDesc": "Clark, KY",
+        "geocode": {
+            "UGC": [
+                "KYC049"
+            ],
+            "SAME": [
+                "021049"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC049"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001809-3395969",
+                "identifier": "NWS-IDP-PROD-4001809-3395969",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:26:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001847-3396005",
+                "identifier": "NWS-IDP-PROD-4001847-3396005",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:36:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T13:54:00-05:00",
+        "effective": "2020-01-11T13:54:00-05:00",
+        "onset": "2020-01-11T13:54:00-05:00",
+        "expires": "2020-01-11T14:04:00-05:00",
+        "ends": "2020-01-11T14:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 1:54PM EST until January 11 at 2:00PM EST by NWS Louisville KY",
+        "description": "The storm which prompted the warning has moved out of the area.\nTherefore, the warning will be allowed to expire.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T13:54:00.000-05:00...storm...240DEG...45KT...38.07,-83.94"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR CENTRAL CLARK COUNTY WILL EXPIRE AT 200 PM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KLMK.SV.W.0019.000000T0000Z-200111T1900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKSVSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T14:00:00-05:00"
+            ]
+        }
+    }
+}
