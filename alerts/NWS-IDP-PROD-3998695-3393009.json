@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998695-3393009",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.98,
+                    34.31
+                ],
+                [
+                    -94.87,
+                    34.300000000000004
+                ],
+                [
+                    -94.88000000000001,
+                    34.1
+                ],
+                [
+                    -94.94000000000001,
+                    34.02
+                ],
+                [
+                    -94.97000000000001,
+                    34.03
+                ],
+                [
+                    -94.98,
+                    34.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998695-3393009",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998695-3393009",
+        "areaDesc": "McCurtain, OK",
+        "geocode": {
+            "UGC": [
+                "OKC089"
+            ],
+            "SAME": [
+                "040089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC089"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997554-3391925",
+                "identifier": "NWS-IDP-PROD-3997554-3391925",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T13:26:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:40:00-06:00",
+        "effective": "2020-01-10T19:40:00-06:00",
+        "onset": "2020-01-11T05:50:00-06:00",
+        "expires": "2020-01-11T19:40:00-06:00",
+        "ends": "2020-01-12T00:21:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued January 10 at 7:40PM CST until January 12 at 12:21AM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Glover River At Glover.\n* from late tonight to late Saturday night...or until the warning is\ncancelled.\n* At  6:30 PM Friday The stage was 4.1 feet.\n* Minor flooding is forecast.\n* Flood stage is 16.0 feet.\n* Forecast...Rise above flood stage by early tomorrow and continue to\nrise to near 16.2 feet BY tomorrow morning. The river will fall\nbelow flood stage by tomorrow morning.\n* Impact...at 16.0 feet...The Glover River is at flood stage with\nminor flooding at its confluence with the Little River west of\nGolden, Oklahoma.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSHV.FL.W.0001.200111T1150Z-200112T0621Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T00:21:00-06:00"
+            ]
+        }
+    }
+}

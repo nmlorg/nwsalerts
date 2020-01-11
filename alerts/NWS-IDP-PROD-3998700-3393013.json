@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998700-3393013",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.9599999,
+                    34.99
+                ],
+                [
+                    -93.61,
+                    34.79
+                ],
+                [
+                    -94.01,
+                    34.44
+                ],
+                [
+                    -94.2099999,
+                    34.54
+                ],
+                [
+                    -93.9599999,
+                    34.99
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998700-3393013",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998700-3393013",
+        "areaDesc": "Scott, AR; Montgomery, AR; Polk, AR; Yell, AR",
+        "geocode": {
+            "UGC": [
+                "ARC127",
+                "ARC097",
+                "ARC113",
+                "ARC149"
+            ],
+            "SAME": [
+                "005127",
+                "005097",
+                "005113",
+                "005149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC127",
+            "https://api.weather.gov/zones/county/ARC097",
+            "https://api.weather.gov/zones/county/ARC113",
+            "https://api.weather.gov/zones/county/ARC149"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998637-3392955",
+                "identifier": "NWS-IDP-PROD-3998637-3392955",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:23:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:43:00-06:00",
+        "effective": "2020-01-10T19:43:00-06:00",
+        "onset": "2020-01-10T19:43:00-06:00",
+        "expires": "2020-01-10T20:15:00-06:00",
+        "ends": "2020-01-10T20:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Tornado Warning issued January 10 at 7:43PM CST until January 10 at 8:15PM CST by NWS Little Rock AR",
+        "description": "At 743 PM CST, a severe thunderstorm capable of producing a tornado\nwas located near Opal, or 8 miles east of Mena, moving northeast at\n55 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nOden...                           Cardiff...\nOpal...                           Mena Intermountain Airport...\nMuddy Creek WMA...                Big Fork...\nBoard Camp...                     Cedar Creek...\nNunley...                         Ink...\nY City...                         Pine Ridge...\nNeedmore...                       Cherry Hill in Polk County...\nHarvey...                         Boles...\nParks...                          Olio...",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T19:43:00.000-06:00...storm...213DEG...48KT...34.56,-94.08"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 815 PM CST FOR NORTHEASTERN POLK...SOUTHEASTERN SCOTT...SOUTHWESTERN YELL AND NORTHWESTERN MONTGOMERY COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KLZK.TO.W.0001.000000T0000Z-200111T0215Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKSVSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T20:15:00-06:00"
+            ]
+        }
+    }
+}
