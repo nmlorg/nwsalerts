@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999950-3394199",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999950-3394199",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999950-3394199",
+        "areaDesc": "Coastal waters from Intracoastal City to Cameron LA out 20 NM; Calcasieu Lake; Coastal waters from Cameron LA to High Island TX out 20 NM; Vermilion Bay; Coastal waters from Lower Atchafalaya River to Intracoastal City LA out 20 NM",
+        "geocode": {
+            "UGC": [
+                "GMZ452",
+                "GMZ432",
+                "GMZ450",
+                "GMZ435",
+                "GMZ455"
+            ],
+            "SAME": [
+                "077452",
+                "077432",
+                "077450",
+                "077435",
+                "077455"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/GMZ452",
+            "https://api.weather.gov/zones/forecast/GMZ432",
+            "https://api.weather.gov/zones/forecast/GMZ450",
+            "https://api.weather.gov/zones/forecast/GMZ435",
+            "https://api.weather.gov/zones/forecast/GMZ455"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999512-3393768",
+                "identifier": "NWS-IDP-PROD-3999512-3393768",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T00:28:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T03:17:00-06:00",
+        "effective": "2020-01-11T03:17:00-06:00",
+        "onset": "2020-01-11T03:17:00-06:00",
+        "expires": "2020-01-11T08:00:00-06:00",
+        "ends": "2020-01-11T08:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Tornado Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Tornado Watch issued January 11 at 3:17AM CST until January 11 at 8:00AM CST by NWS Lake Charles LA",
+        "description": "TORNADO WATCH 8 REMAINS VALID UNTIL 8 AM CST THIS MORNING FOR THE\nFOLLOWING AREAS\n\nTHIS WATCH INCLUDES THE FOLLOWING ADJACENT COASTAL WATERS\n\nCALCASIEU LAKE        VERMILION BAY\nCOASTAL WATERS FROM CAMERON LA TO HIGH ISLAND TX OUT 20 NM\nCOASTAL WATERS FROM INTRACOASTAL CITY TO CAMERON LA OUT 20 NM\nCOASTAL WATERS FROM LOWER ATCHAFALAYA RIVER TO INTRACOASTAL CITY\nLA OUT 20 NM",
+        "instruction": null,
+        "response": "Monitor",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLCH.TO.A.0008.000000T0000Z-200111T1400Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHWCNLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T08:00:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999942-3394191",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.88,
+                    33.39
+                ],
+                [
+                    -91.4599999,
+                    33.39
+                ],
+                [
+                    -91.45,
+                    33.56
+                ],
+                [
+                    -91.43,
+                    33.56
+                ],
+                [
+                    -91.44000000000001,
+                    33.02
+                ],
+                [
+                    -92.06000000000002,
+                    32.81
+                ],
+                [
+                    -92.08000000000001,
+                    32.870000000000005
+                ],
+                [
+                    -91.99000000000001,
+                    33.010000000000005
+                ],
+                [
+                    -91.83000000000001,
+                    33.25000000000001
+                ],
+                [
+                    -91.88,
+                    33.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999942-3394191",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999942-3394191",
+        "areaDesc": "Chicot, AR; Ashley, AR; Morehouse, LA",
+        "geocode": {
+            "UGC": [
+                "ARC017",
+                "ARC003",
+                "LAC067"
+            ],
+            "SAME": [
+                "005017",
+                "005003",
+                "022067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC017",
+            "https://api.weather.gov/zones/county/ARC003",
+            "https://api.weather.gov/zones/county/LAC067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999771-3394031",
+                "identifier": "NWS-IDP-PROD-3999771-3394031",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T02:34:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T03:15:00-06:00",
+        "effective": "2020-01-11T03:15:00-06:00",
+        "onset": "2020-01-11T03:15:00-06:00",
+        "expires": "2020-01-11T03:30:00-06:00",
+        "ends": "2020-01-11T03:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 3:15AM CST until January 11 at 3:30AM CST by NWS Jackson MS",
+        "description": "At 315 AM CST, severe thunderstorms were located along a line\nextending from near Snyder to near Berlin, moving east at 65 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nMontrose around 320 AM CST.\nDermott and Portland around 325 AM CST.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T03:15:00.000-06:00...storm...251DEG...55KT...33.38,-91.62 33.1,-91.67"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 330 AM CST FOR WESTERN CHICOT...ASHLEY COUNTIES IN SOUTHEASTERN ARKANSAS AND NORTHWESTERN MOREHOUSE PARISHES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0002.000000T0000Z-200111T0930Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T03:30:00-06:00"
+            ]
+        }
+    }
+}
