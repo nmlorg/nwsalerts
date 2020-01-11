@@ -1,0 +1,121 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001181-3395374",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.02,
+                    32.04
+                ],
+                [
+                    -89.36,
+                    31.8
+                ],
+                [
+                    -89.55,
+                    31.79
+                ],
+                [
+                    -89.34,
+                    32.35
+                ],
+                [
+                    -88.99000000000001,
+                    32.47
+                ],
+                [
+                    -89.02,
+                    32.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001181-3395374",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001181-3395374",
+        "areaDesc": "Newton, MS; Scott, MS; Jasper, MS; Smith, MS",
+        "geocode": {
+            "UGC": [
+                "MSC101",
+                "MSC123",
+                "MSC061",
+                "MSC129"
+            ],
+            "SAME": [
+                "028101",
+                "028123",
+                "028061",
+                "028129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC101",
+            "https://api.weather.gov/zones/county/MSC123",
+            "https://api.weather.gov/zones/county/MSC061",
+            "https://api.weather.gov/zones/county/MSC129"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001064-3395264",
+                "identifier": "NWS-IDP-PROD-4001064-3395264",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:16:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T09:48:00-06:00",
+        "effective": "2020-01-11T09:48:00-06:00",
+        "onset": "2020-01-11T09:48:00-06:00",
+        "expires": "2020-01-11T10:15:00-06:00",
+        "ends": "2020-01-11T10:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 9:48AM CST until January 11 at 10:15AM CST by NWS Jackson MS",
+        "description": "At 948 AM CST, severe thunderstorms were located along a line\nextending from near Roberts to near Bay Springs, moving northeast at\n55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nRoberts around 955 AM CST.\nLawrence around 1000 AM CST.\nNewton around 1005 AM CST.\nGarlandville around 1010 AM CST.\n\nOther locations impacted by these severe thunderstorms include\nSylvarena, Lake, Montrose, Louin and Hickory.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T09:48:00.000-06:00...storm...229DEG...49KT...32.22,-89.33 31.99,-89.32"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1015 AM CST FOR WESTERN JASPER...SOUTHERN NEWTON...EASTERN SMITH AND SOUTHEASTERN SCOTT COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0024.000000T0000Z-200111T1615Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T10:15:00-06:00"
+            ]
+        }
+    }
+}
