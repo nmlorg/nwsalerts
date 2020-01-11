@@ -1,0 +1,135 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000767-3395007",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.5,
+                    31.58
+                ],
+                [
+                    -90.55,
+                    31.7
+                ],
+                [
+                    -90.42,
+                    31.7
+                ],
+                [
+                    -90.41,
+                    31.689999999999998
+                ],
+                [
+                    -90.38,
+                    31.689999999999998
+                ],
+                [
+                    -90.38,
+                    31.7
+                ],
+                [
+                    -90.28,
+                    31.7
+                ],
+                [
+                    -90.25,
+                    31.71
+                ],
+                [
+                    -90.24,
+                    31.54
+                ],
+                [
+                    -90.47999999999999,
+                    31.41
+                ],
+                [
+                    -90.5,
+                    31.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000767-3395007",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000767-3395007",
+        "areaDesc": "Lincoln, MS",
+        "geocode": {
+            "UGC": [
+                "MSC085"
+            ],
+            "SAME": [
+                "028085"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC085"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000717-3394957",
+                "identifier": "NWS-IDP-PROD-4000717-3394957",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T07:58:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000703-3394943",
+                "identifier": "NWS-IDP-PROD-4000703-3394943",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T07:47:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:13:00-06:00",
+        "effective": "2020-01-11T08:13:00-06:00",
+        "onset": "2020-01-11T08:13:00-06:00",
+        "expires": "2020-01-11T08:45:00-06:00",
+        "ends": "2020-01-11T08:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Tornado Warning issued January 11 at 8:13AM CST until January 11 at 8:45AM CST by NWS Jackson MS",
+        "description": "At 813 AM CST, a severe thunderstorm capable of producing a tornado\nwas located over Enterprise, or near Brookhaven, moving northeast at\n60 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis tornadic thunderstorm will remain over mainly rural areas of\neastern Lincoln County.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T08:13:00.000-06:00...storm...219DEG...51KT...31.5,-90.41"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 845 AM CST FOR EASTERN LINCOLN COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.TO.W.0004.000000T0000Z-200111T1445Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T08:45:00-06:00"
+            ]
+        }
+    }
+}
