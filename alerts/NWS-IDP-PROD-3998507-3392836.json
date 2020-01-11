@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998507-3392836",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.67,
+                    33.05
+                ],
+                [
+                    -96.97,
+                    32.86
+                ],
+                [
+                    -97.03,
+                    32.9099999
+                ],
+                [
+                    -96.93,
+                    33.07
+                ],
+                [
+                    -96.67,
+                    33.05
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998507-3392836",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998507-3392836",
+        "areaDesc": "Denton, TX; Collin, TX; Dallas, TX",
+        "geocode": {
+            "UGC": [
+                "TXC121",
+                "TXC085",
+                "TXC113"
+            ],
+            "SAME": [
+                "048121",
+                "048085",
+                "048113"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC121",
+            "https://api.weather.gov/zones/county/TXC085",
+            "https://api.weather.gov/zones/county/TXC113"
+        ],
+        "references": [],
+        "sent": "2020-01-10T18:46:00-06:00",
+        "effective": "2020-01-10T18:46:00-06:00",
+        "onset": "2020-01-10T18:46:00-06:00",
+        "expires": "2020-01-10T19:00:00-06:00",
+        "ends": "2020-01-10T19:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Tornado Warning issued January 10 at 6:46PM CST until January 10 at 7:00PM CST by NWS Fort Worth TX",
+        "description": "The National Weather Service in Fort Worth has issued a\n\n* Tornado Warning for...\nSoutheastern Denton County in north central Texas...\nSouthwestern Collin County in north central Texas...\nNorthwestern Dallas County in north central Texas...\n\n* Until 700 PM CST.\n\n* At 646 PM CST, a severe thunderstorm capable of producing a tornado\nwas located near Coppell, moving northeast at 40 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This dangerous storm will be near...\nFarmers Branch around 655 PM CST.\nCarrollton, Addison and Hebron around 700 PM CST.\n\nThis includes Interstate 35E between mile markers 439 and 447.",
+        "instruction": "TAKE COVER NOW! Move to an interior room on the lowest floor of a\nsturdy building. Avoid windows. If you are outdoors, in a mobile\nhome, or in a vehicle, move to the closest substantial shelter and\nprotect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T18:46:00.000-06:00...storm...230DEG...33KT...32.92,-96.95"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KFWD.TO.W.0010.200111T0046Z-200111T0100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDTORFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:00:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 7:00 PM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}
