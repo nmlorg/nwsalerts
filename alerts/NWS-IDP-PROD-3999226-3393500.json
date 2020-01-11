@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999226-3393500",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.38,
+                    39.09
+                ],
+                [
+                    -91,
+                    39.080000000000005
+                ],
+                [
+                    -91.64,
+                    38.400000000000006
+                ],
+                [
+                    -92.05,
+                    38.4099999
+                ],
+                [
+                    -91.38,
+                    39.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999226-3393500",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999226-3393500",
+        "areaDesc": "Montgomery, MO; Gasconade, MO; Callaway, MO; Osage, MO; Lincoln, MO; Warren, MO",
+        "geocode": {
+            "UGC": [
+                "MOC139",
+                "MOC073",
+                "MOC027",
+                "MOC151",
+                "MOC113",
+                "MOC219"
+            ],
+            "SAME": [
+                "029139",
+                "029073",
+                "029027",
+                "029151",
+                "029113",
+                "029219"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC139",
+            "https://api.weather.gov/zones/county/MOC073",
+            "https://api.weather.gov/zones/county/MOC027",
+            "https://api.weather.gov/zones/county/MOC151",
+            "https://api.weather.gov/zones/county/MOC113",
+            "https://api.weather.gov/zones/county/MOC219"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998535-3392864",
+                "identifier": "NWS-IDP-PROD-3998535-3392864",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:52:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T22:04:00-06:00",
+        "effective": "2020-01-10T22:04:00-06:00",
+        "onset": "2020-01-10T22:04:00-06:00",
+        "expires": "2020-01-11T00:45:00-06:00",
+        "ends": "2020-01-11T00:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flash Flood Warning issued January 10 at 10:04PM CST until January 11 at 12:45AM CST by NWS St Louis MO",
+        "description": "At 1003 PM CST, Missouri Department of Transportation reported\nHighway 94 was closed in Montgomery County. Up to three inches of\nrain have already fallen. Flash flooding is ongoing.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Missouri Department of Transportation.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other drainage\nand low lying areas.\n\nSome locations that will experience flooding include...\nMontgomery City, Hermann, Linn, Davis, New Florence, Jonesburg, Hawk\nPoint, Chamois, Bellflower, Westphalia, Big Spring, Mount Sterling,\nMineola, Gasconade, High Hill, Rhineland, Morrison, Truxton,\nMcKittrick and Cave.\n\nAdditional rainfall amounts of 1 to 2 inches are possible in the\nwarned area.\n\nThis also includes Deutschheim Historic Site.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 1245 AM CST FOR SOUTHWESTERN LINCOLN...MONTGOMERY...EAST CENTRAL CALLAWAY... NORTHEASTERN OSAGE...NORTHWESTERN WARREN AND NORTHERN GASCONADE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KLSX.FF.W.0001.000000T0000Z-200111T0645Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFFSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T00:45:00-06:00"
+            ]
+        }
+    }
+}
