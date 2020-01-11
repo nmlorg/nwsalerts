@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000810-3395047",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.02,
+                    33.47
+                ],
+                [
+                    -79.97999999999999,
+                    33.54
+                ],
+                [
+                    -79.36999999999999,
+                    33.25
+                ],
+                [
+                    -79.38,
+                    33.21
+                ],
+                [
+                    -79.50999999999999,
+                    33.2
+                ],
+                [
+                    -79.75999999999999,
+                    33.290000000000006
+                ],
+                [
+                    -80.02,
+                    33.47
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000810-3395047",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000810-3395047",
+        "areaDesc": "Williamsburg, SC; Berkeley, SC; Georgetown, SC",
+        "geocode": {
+            "UGC": [
+                "SCC089",
+                "SCC015",
+                "SCC043"
+            ],
+            "SAME": [
+                "045089",
+                "045015",
+                "045043"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC089",
+            "https://api.weather.gov/zones/county/SCC015",
+            "https://api.weather.gov/zones/county/SCC043"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998564-3392890",
+                "identifier": "NWS-IDP-PROD-3998564-3392890",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T20:04:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T09:29:00-05:00",
+        "effective": "2020-01-11T09:29:00-05:00",
+        "onset": "2020-01-11T09:29:00-05:00",
+        "expires": "2020-01-12T09:29:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston SC",
+        "headline": "Flood Warning issued January 11 at 9:29AM EST by NWS Charleston SC",
+        "description": "The Flood Warning continues for\nThe Santee River near Jamestown.\n* At 8 AM Saturday the stage was 13.1 feet.\n* Flood stage is 10.0 feet.\n* Minor flooding is occurring.\n* Forecast, the river will remain steady. Additional rises may be\npossible.\n* At 12.0 feet, several dirt logging roads are impassable.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCHS.FL.W.0016.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CHSFLSCHS"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
