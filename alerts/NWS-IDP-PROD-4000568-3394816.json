@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000568-3394816",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.15,
+                    34.4799999
+                ],
+                [
+                    -88.65,
+                    34.46
+                ],
+                [
+                    -88.72,
+                    34.63
+                ],
+                [
+                    -88.11,
+                    34.84
+                ],
+                [
+                    -88.15,
+                    34.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000568-3394816",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000568-3394816",
+        "areaDesc": "Tishomingo, MS; Lee, MS; Prentiss, MS",
+        "geocode": {
+            "UGC": [
+                "MSC141",
+                "MSC081",
+                "MSC117"
+            ],
+            "SAME": [
+                "028141",
+                "028081",
+                "028117"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC141",
+            "https://api.weather.gov/zones/county/MSC081",
+            "https://api.weather.gov/zones/county/MSC117"
+        ],
+        "references": [],
+        "sent": "2020-01-11T06:56:00-06:00",
+        "effective": "2020-01-11T06:56:00-06:00",
+        "onset": "2020-01-11T06:56:00-06:00",
+        "expires": "2020-01-11T07:45:00-06:00",
+        "ends": "2020-01-11T07:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Tornado Warning issued January 11 at 6:56AM CST until January 11 at 7:45AM CST by NWS Memphis TN",
+        "description": "The National Weather Service in Memphis has issued a\n\n* Tornado Warning for...\nNortheastern Lee County in northeastern Mississippi...\nSouthern Tishomingo County in northeastern Mississippi...\nPrentiss County in northeastern Mississippi...\n\n* Until 745 AM CST.\n\n* At 655 AM CST, doppler radar indicated a severe thunderstorm\nproducing a tornado was located over Wheeler, or near Baldwyn,\nmoving northeast at 50 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* Locations impacted include...\nBooneville, Baldwyn, Iuka, Tishomingo State Park, Belmont,\nTishomingo, Thrashers, Burton, Midway, Wheeler, Marietta, Golden,\nPaden, Oldham, Thrasher, Dennis, Blythe Crossing, Carter Branch,\nHolcut and Geeville.",
+        "instruction": "TAKE COVER NOW! Move to a storm shelter or an interior room on the\nlowest floor of a sturdy building. Avoid windows. If you are\noutdoors, in a mobile home, or in a vehicle, move to the closest\nsubstantial shelter and protect yourself from flying debris.\n\nThis cluster of thunderstorms is producing tornadoes and widespread\nsignificant wind damage. Do not wait to see or hear the tornado. For\nyour protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T06:55:00.000-06:00...storm...242DEG...42KT...34.56,-88.58"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KMEG.TO.W.0005.200111T1256Z-200111T1345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGTORMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T07:45:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 7:45 AM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}

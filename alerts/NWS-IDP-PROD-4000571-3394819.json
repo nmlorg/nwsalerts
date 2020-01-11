@@ -1,0 +1,119 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000571-3394819",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.79,
+                    35
+                ],
+                [
+                    -88.7,
+                    35.44
+                ],
+                [
+                    -88.63000000000001,
+                    35.51
+                ],
+                [
+                    -88.31999990000001,
+                    35.379999999999995
+                ],
+                [
+                    -88.23000000000002,
+                    35.15
+                ],
+                [
+                    -88.40000000000002,
+                    34.99
+                ],
+                [
+                    -88.79,
+                    35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000571-3394819",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000571-3394819",
+        "areaDesc": "Chester, TN; Hardin, TN; McNairy, TN",
+        "geocode": {
+            "UGC": [
+                "TNC023",
+                "TNC071",
+                "TNC109"
+            ],
+            "SAME": [
+                "047023",
+                "047071",
+                "047109"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC023",
+            "https://api.weather.gov/zones/county/TNC071",
+            "https://api.weather.gov/zones/county/TNC109"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000472-3394726",
+                "identifier": "NWS-IDP-PROD-4000472-3394726",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T06:19:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000543-3394789",
+                "identifier": "NWS-IDP-PROD-4000543-3394789",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T06:42:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T06:56:00-06:00",
+        "effective": "2020-01-11T06:56:00-06:00",
+        "onset": "2020-01-11T06:56:00-06:00",
+        "expires": "2020-01-11T07:06:00-06:00",
+        "ends": "2020-01-11T07:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 6:56AM CST until January 11 at 7:00AM CST by NWS Memphis TN",
+        "description": "The storm which prompted the warning has moved out of the area.\nTherefore, the warning will be allowed to expire.  However gusty\nwinds are still possible with this thunderstorm.\n\nA Tornado Watch remains in effect until 1000 AM CST for northeastern\nMississippi...and western Tennessee.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T06:56:00.000-06:00...storm...230DEG...50KT...35.39,-88.33"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR MCNAIRY...NORTHWESTERN HARDIN AND CENTRAL CHESTER COUNTIES WILL EXPIRE AT 700 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KMEG.SV.W.0030.000000T0000Z-200111T1300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T07:00:00-06:00"
+            ]
+        }
+    }
+}

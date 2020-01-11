@@ -1,0 +1,131 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000575-3394823",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.84,
+                    33.2299999
+                ],
+                [
+                    -90.18,
+                    32.56
+                ],
+                [
+                    -90.44000000000001,
+                    32.580000000000005
+                ],
+                [
+                    -90.52000000000001,
+                    32.510000000000005
+                ],
+                [
+                    -90.54,
+                    32.52
+                ],
+                [
+                    -90.55000000000001,
+                    32.52
+                ],
+                [
+                    -90.38000000000001,
+                    32.78
+                ],
+                [
+                    -90.31999990000001,
+                    32.9
+                ],
+                [
+                    -90.16000000000001,
+                    33.15
+                ],
+                [
+                    -89.84,
+                    33.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000575-3394823",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000575-3394823",
+        "areaDesc": "Holmes, MS; Madison, MS; Yazoo, MS",
+        "geocode": {
+            "UGC": [
+                "MSC051",
+                "MSC089",
+                "MSC163"
+            ],
+            "SAME": [
+                "028051",
+                "028089",
+                "028163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC051",
+            "https://api.weather.gov/zones/county/MSC089",
+            "https://api.weather.gov/zones/county/MSC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000500-3394754",
+                "identifier": "NWS-IDP-PROD-4000500-3394754",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T06:27:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T06:58:00-06:00",
+        "effective": "2020-01-11T06:58:00-06:00",
+        "onset": "2020-01-11T06:58:00-06:00",
+        "expires": "2020-01-11T07:30:00-06:00",
+        "ends": "2020-01-11T07:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 6:58AM CST until January 11 at 7:30AM CST by NWS Jackson MS",
+        "description": "At 657 AM CST, severe thunderstorms were located along a line\nextending from near Emory to Benton, moving northeast at 55 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nThese severe storms will be near...\nBrozville around 710 AM CST.\nFranklin around 720 AM CST.\n\nOther locations impacted by these severe thunderstorms include\nBentonia.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T06:57:00.000-06:00...storm...240DEG...49KT...33.32,-89.89 32.85,-90.25"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 730 AM CST FOR SOUTHEASTERN HOLMES...CENTRAL YAZOO AND WEST CENTRAL MADISON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0015.000000T0000Z-200111T1330Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T07:30:00-06:00"
+            ]
+        }
+    }
+}
