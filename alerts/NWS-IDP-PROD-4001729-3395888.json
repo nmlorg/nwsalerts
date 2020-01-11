@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001729-3395888",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.06,
+                    32.9099999
+                ],
+                [
+                    -89.9,
+                    33.14
+                ],
+                [
+                    -89.81,
+                    33.3
+                ],
+                [
+                    -89.63,
+                    33.22
+                ],
+                [
+                    -89.69,
+                    33.129999999999995
+                ],
+                [
+                    -89.87,
+                    32.849999999999994
+                ],
+                [
+                    -90.06,
+                    32.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001729-3395888",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001729-3395888",
+        "areaDesc": "Holmes, MS; Attala, MS",
+        "geocode": {
+            "UGC": [
+                "MSC051",
+                "MSC007"
+            ],
+            "SAME": [
+                "028051",
+                "028007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC051",
+            "https://api.weather.gov/zones/county/MSC007"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001231-3395431",
+                "identifier": "NWS-IDP-PROD-4001231-3395431",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:54:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T12:06:00-06:00",
+        "effective": "2020-01-11T12:06:00-06:00",
+        "onset": "2020-01-11T13:45:00-06:00",
+        "expires": "2020-01-12T18:05:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 11 at 12:06PM CST by NWS Jackson MS",
+        "description": "...Forecast flooding changed from Minor to Moderate severity for the\nfollowing rivers in Mississippi...\nBig Black River At West affecting Attala and Holmes Counties",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0029.200111T1945Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLWJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
