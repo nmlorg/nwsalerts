@@ -1,0 +1,117 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000458-3394713",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.09,
+                    32.06
+                ],
+                [
+                    -91.45,
+                    31.330000000000002
+                ],
+                [
+                    -91.69,
+                    31.32
+                ],
+                [
+                    -91.39999999999999,
+                    32.03
+                ],
+                [
+                    -91.09,
+                    32.06
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000458-3394713",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000458-3394713",
+        "areaDesc": "Tensas, LA; Adams, MS; Claiborne, MS; Concordia, LA; Jefferson, MS",
+        "geocode": {
+            "UGC": [
+                "LAC107",
+                "MSC001",
+                "MSC021",
+                "LAC029",
+                "MSC063"
+            ],
+            "SAME": [
+                "022107",
+                "028001",
+                "028021",
+                "022029",
+                "028063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC107",
+            "https://api.weather.gov/zones/county/MSC001",
+            "https://api.weather.gov/zones/county/MSC021",
+            "https://api.weather.gov/zones/county/LAC029",
+            "https://api.weather.gov/zones/county/MSC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000385-3394637",
+                "identifier": "NWS-IDP-PROD-4000385-3394637",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T05:43:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T06:04:00-06:00",
+        "effective": "2020-01-11T06:04:00-06:00",
+        "onset": "2020-01-11T06:04:00-06:00",
+        "expires": "2020-01-11T06:45:00-06:00",
+        "ends": "2020-01-11T06:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 6:04AM CST until January 11 at 6:45AM CST by NWS Jackson MS",
+        "description": "At 604 AM CST, severe thunderstorms were located along a line\nextending from Lake Bruin to near Vidalia, moving northeast at 45\nmph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nLake Bruin around 610 AM CST.\n\nOther locations impacted by these severe thunderstorms include\nRidgecrest.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T06:04:00.000-06:00...storm...243DEG...40KT...32.0,-91.24 31.62,-91.41"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 645 AM CST FOR SOUTHERN TENSAS AND NORTHEASTERN CONCORDIA PARISHES...WEST CENTRAL CLAIBORNE...NORTHWESTERN JEFFERSON AND CENTRAL ADAMS COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0012.000000T0000Z-200111T1245Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T06:45:00-06:00"
+            ]
+        }
+    }
+}
