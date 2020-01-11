@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998534-3392863",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -99.37,
+                    28.98
+                ],
+                [
+                    -99.38000000000001,
+                    29.23
+                ],
+                [
+                    -98.81000000000002,
+                    29.61
+                ],
+                [
+                    -98.80000000000001,
+                    29.21
+                ],
+                [
+                    -99.20999990000001,
+                    28.98
+                ],
+                [
+                    -99.37,
+                    28.98
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998534-3392863",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998534-3392863",
+        "areaDesc": "Medina, TX; Frio, TX",
+        "geocode": {
+            "UGC": [
+                "TXC325",
+                "TXC163"
+            ],
+            "SAME": [
+                "048325",
+                "048163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC325",
+            "https://api.weather.gov/zones/county/TXC163"
+        ],
+        "references": [],
+        "sent": "2020-01-10T18:52:00-06:00",
+        "effective": "2020-01-10T18:52:00-06:00",
+        "onset": "2020-01-10T18:52:00-06:00",
+        "expires": "2020-01-10T19:30:00-06:00",
+        "ends": "2020-01-10T19:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 6:52PM CST until January 10 at 7:30PM CST by NWS Austin/San Antonio TX",
+        "description": "The National Weather Service in Austin San Antonio has issued a\n\n* Severe Thunderstorm Warning for...\nSouthern Medina County in south central Texas...\nNorthwestern Frio County in south central Texas...\n\n* Until 730 PM CST.\n\n* At 652 PM CST, a severe thunderstorm was located 7 miles northwest\nof Yancey, or 11 miles southwest of Hondo, moving northeast at 35\nmph.\n\nHAZARD...Ping pong ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* Locations impacted include...\nHondo, Devine, Castroville, Lytle, Natalia, Lacoste, Cliff, Noonan,\nNew Fountain, Dunlay, Quihi, Biry, Pearson, Yancey, Bader, Rio\nMedina, Frio Town and Government Canyon State Natural Area.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T18:52:00.000-06:00...storm...228DEG...31KT...29.21,-99.23"
+            ],
+            "hailSize": [
+                1.5
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KEWX.SV.W.0008.200111T0052Z-200111T0130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSVREWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:30:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998535-3392864",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.38,
+                    39.09
+                ],
+                [
+                    -91,
+                    39.080000000000005
+                ],
+                [
+                    -91.64,
+                    38.400000000000006
+                ],
+                [
+                    -92.05,
+                    38.4099999
+                ],
+                [
+                    -91.38,
+                    39.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998535-3392864",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998535-3392864",
+        "areaDesc": "Montgomery, MO; Gasconade, MO; Callaway, MO; Osage, MO; Lincoln, MO; Warren, MO",
+        "geocode": {
+            "UGC": [
+                "MOC139",
+                "MOC073",
+                "MOC027",
+                "MOC151",
+                "MOC113",
+                "MOC219"
+            ],
+            "SAME": [
+                "029139",
+                "029073",
+                "029027",
+                "029151",
+                "029113",
+                "029219"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC139",
+            "https://api.weather.gov/zones/county/MOC073",
+            "https://api.weather.gov/zones/county/MOC027",
+            "https://api.weather.gov/zones/county/MOC151",
+            "https://api.weather.gov/zones/county/MOC113",
+            "https://api.weather.gov/zones/county/MOC219"
+        ],
+        "references": [],
+        "sent": "2020-01-10T18:52:00-06:00",
+        "effective": "2020-01-10T18:52:00-06:00",
+        "onset": "2020-01-10T18:52:00-06:00",
+        "expires": "2020-01-11T00:45:00-06:00",
+        "ends": "2020-01-11T00:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flash Flood Warning issued January 10 at 6:52PM CST until January 11 at 12:45AM CST by NWS St Louis MO",
+        "description": "The National Weather Service in St Louis has issued a\n\n* Flash Flood Warning for...\nSouthwestern Lincoln County in east central Missouri...\nMontgomery County in east central Missouri...\nEast central Callaway County in central Missouri...\nNortheastern Osage County in central Missouri...\nNorthwestern Warren County in east central Missouri...\nNorthern Gasconade County in east central Missouri...\n\n* Until 1245 AM CST.\n\n* At 651 PM CST, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Up to two inches of rain have\nalready fallen. Flash flooding is ongoing or expected to begin\nshortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar indicated.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other\ndrainage and low lying areas.\n\n* Some locations that will experience flooding include...\nMontgomery City, Hermann, Linn, Davis, New Florence, Jonesburg,\nHawk Point, Chamois, Bellflower, Westphalia, Big Spring, Mount\nSterling, Mineola, Gasconade, High Hill, Rhineland, Morrison,\nTruxton, McKittrick and Cave.\n\nAdditional rainfall amounts of 2 to 3 inches are possible in the\nwarned area.\n\nThis also includes Deutschheim Historic Site.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLSX.FF.W.0001.200111T0052Z-200111T0645Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFFWLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T00:45:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: FLASH FLOOD WARNING this area til 12:45 AM CST. Avoid flooded areas."
+            ]
+        }
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998519-3392849",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.7099999,
+                    39.5
+                ],
+                [
+                    -90.55,
+                    38.84
+                ],
+                [
+                    -91.17999999999999,
+                    38.620000000000005
+                ],
+                [
+                    -91.22999999999999,
+                    38.82000000000001
+                ],
+                [
+                    -91.25999999999999,
+                    39.120000000000005
+                ],
+                [
+                    -90.7099999,
+                    39.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998519-3392849",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998519-3392849",
+        "areaDesc": "Lincoln, MO; St. Charles, MO; Calhoun, IL; Pike, MO; Pike, IL; Warren, MO",
+        "geocode": {
+            "UGC": [
+                "MOC113",
+                "MOC183",
+                "ILC013",
+                "MOC163",
+                "ILC149",
+                "MOC219"
+            ],
+            "SAME": [
+                "029113",
+                "029183",
+                "017013",
+                "029163",
+                "017149",
+                "029219"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC113",
+            "https://api.weather.gov/zones/county/MOC183",
+            "https://api.weather.gov/zones/county/ILC013",
+            "https://api.weather.gov/zones/county/MOC163",
+            "https://api.weather.gov/zones/county/ILC149",
+            "https://api.weather.gov/zones/county/MOC219"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998486-3392819",
+                "identifier": "NWS-IDP-PROD-3998486-3392819",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:35:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T18:48:00-06:00",
+        "effective": "2020-01-10T18:48:00-06:00",
+        "onset": "2020-01-10T18:48:00-06:00",
+        "expires": "2020-01-10T19:15:00-06:00",
+        "ends": "2020-01-10T19:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Tornado Warning issued January 10 at 6:48PM CST until January 10 at 7:15PM CST by NWS St Louis MO",
+        "description": "At 647 PM CST, severe thunderstorms capable of producing tornadoes\nwere located along a line extending from 8 miles west of Davis to\nnear Hawk Point to near Wright City to near Innsbrook, moving east at\n50 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThese dangerous storms will be near...\nDavis around 655 PM CST.\nWentzville and Troy around 700 PM CST.\nLake St. Louis, Moscow Mills, Eolia, Josephville, Fountain N'\nLakes and Chain of Rocks around 705 PM CST.\nO'Fallon, Dardenne Prairie and St. Paul around 710 PM CST.\nSt. Peters, Elsberry and Winfield around 715 PM CST.\n\nOther locations impacted by these tornadic storms include Nebo,\nWhiteside, Brussels, Mozier, Batchtown, Meppen, Olney, Hamburg, Silex\nand Flint Hill.\n\nThis also includes Cuivre River State Park.\n\nThis includes Interstate 70 in Missouri between exits 188 and 219.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T18:47:00.000-06:00...storm...249DEG...43KT...39.08,-91.18 38.91,-91.15 38.85,-91.07 38.72,-91.04"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 715 PM CST FOR CALHOUN COUNTY IN SOUTHWESTERN ILLINOIS...SOUTHEASTERN PIKE COUNTY IN WEST CENTRAL ILLINOIS...NORTHWESTERN ST. CHARLES...LINCOLN...EASTERN WARREN COUNTIES IN EAST CENTRAL MISSOURI AND SOUTHEASTERN PIKE COUNTIES IN NORTHEASTERN MISSOURI"
+            ],
+            "VTEC": [
+                "/O.CON.KLSX.TO.W.0002.000000T0000Z-200111T0115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXSVSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:15:00-06:00"
+            ]
+        }
+    }
+}
