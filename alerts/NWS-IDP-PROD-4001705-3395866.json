@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001705-3395866",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.43,
+                    38.26
+                ],
+                [
+                    -90.30000000000001,
+                    38.26
+                ],
+                [
+                    -89.35000000000001,
+                    37.69
+                ],
+                [
+                    -89.59,
+                    37.69
+                ],
+                [
+                    -90.03,
+                    37.87
+                ],
+                [
+                    -90.43,
+                    38.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001705-3395866",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001705-3395866",
+        "areaDesc": "Randolph, IL; Jackson, IL; Ste. Genevieve, MO; Perry, MO",
+        "geocode": {
+            "UGC": [
+                "ILC157",
+                "ILC077",
+                "MOC186",
+                "MOC157"
+            ],
+            "SAME": [
+                "017157",
+                "017077",
+                "029186",
+                "029157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC157",
+            "https://api.weather.gov/zones/county/ILC077",
+            "https://api.weather.gov/zones/county/MOC186",
+            "https://api.weather.gov/zones/county/MOC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998812-3393121",
+                "identifier": "NWS-IDP-PROD-3998812-3393121",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T20:22:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T12:01:00-06:00",
+        "effective": "2020-01-11T12:01:00-06:00",
+        "onset": "2020-01-11T21:51:00-06:00",
+        "expires": "2020-01-12T18:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 11 at 12:01PM CST by NWS St Louis MO",
+        "description": "...Forecast flooding changed from Minor to Moderate severity for the\nfollowing rivers in Illinois...Missouri...\n\nMississippi River at Chester\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nThe Mississippi River at Chester\n* from this evening until further notice.\n* At 11:30 AM Saturday the stage was 24.5 feet.\n* Flood stage is 27.0 feet.\n* Moderate flooding is forecast.\n* The river is forecast to rise above flood stage tonight and\ncontinue to crest near 36.0 feet by Tuesday evening.\n* Impact:  At 36.0 feet...Chester water works pumphouse is threatened\nby flood waters.  Highway 61 is closed at the bend at St. Marys and\na detour is set up through town.  Near this height, St. Genevieve\nCounty levee #2 is overtopped.  This levee protects 7000 acres.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0005.200112T0351Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLWLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
