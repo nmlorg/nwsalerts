@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000777-3395015",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.83,
+                    34.31
+                ],
+                [
+                    -87.84,
+                    34.190000000000005
+                ],
+                [
+                    -88.2,
+                    34.080000000000005
+                ],
+                [
+                    -88.17,
+                    34.32000000000001
+                ],
+                [
+                    -87.83,
+                    34.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000777-3395015",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000777-3395015",
+        "areaDesc": "Marion, AL",
+        "geocode": {
+            "UGC": [
+                "ALC093"
+            ],
+            "SAME": [
+                "001093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000734-3394974",
+                "identifier": "NWS-IDP-PROD-4000734-3394974",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T08:05:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000689-3394929",
+                "identifier": "NWS-IDP-PROD-4000689-3394929",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T07:39:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:18:00-06:00",
+        "effective": "2020-01-11T08:18:00-06:00",
+        "onset": "2020-01-11T08:18:00-06:00",
+        "expires": "2020-01-11T08:45:00-06:00",
+        "ends": "2020-01-11T08:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 8:18AM CST until January 11 at 8:45AM CST by NWS Birmingham AL",
+        "description": "At 816 AM CST, a severe thunderstorm was located near Tremont, or 12\nmiles east of Fulton, moving northeast at 45 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nHamilton, Hackleburg, Weston, Pigeye, Shottsville and Bexar.",
+        "instruction": "A Tornado Watch remains in effect until 100 PM CST for northwestern\nAlabama.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T08:16:00.000-06:00...storm...246DEG...41KT...34.25,-88.19"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 845 AM CST FOR NORTHWESTERN MARION COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KBMX.SV.W.0001.000000T0000Z-200111T1445Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSVSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T08:45:00-06:00"
+            ]
+        }
+    }
+}
