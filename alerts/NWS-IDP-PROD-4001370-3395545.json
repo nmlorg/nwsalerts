@@ -1,0 +1,123 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001370-3395545",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.15,
+                    31.43
+                ],
+                [
+                    -88.94000000000001,
+                    31.43
+                ],
+                [
+                    -88.94000000000001,
+                    31.82
+                ],
+                [
+                    -88.65,
+                    31.85
+                ],
+                [
+                    -88.47,
+                    31.89
+                ],
+                [
+                    -88.85,
+                    31.25
+                ],
+                [
+                    -89.14999999999999,
+                    31.24
+                ],
+                [
+                    -89.15,
+                    31.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001370-3395545",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001370-3395545",
+        "areaDesc": "Wayne, MS; Perry, MS; Greene, MS",
+        "geocode": {
+            "UGC": [
+                "MSC153",
+                "MSC111",
+                "MSC041"
+            ],
+            "SAME": [
+                "028153",
+                "028111",
+                "028041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC153",
+            "https://api.weather.gov/zones/county/MSC111",
+            "https://api.weather.gov/zones/county/MSC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001304-3395483",
+                "identifier": "NWS-IDP-PROD-4001304-3395483",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:13:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T10:30:00-06:00",
+        "effective": "2020-01-11T10:30:00-06:00",
+        "onset": "2020-01-11T10:30:00-06:00",
+        "expires": "2020-01-11T11:00:00-06:00",
+        "ends": "2020-01-11T11:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 10:30AM CST until January 11 at 11:00AM CST by NWS Mobile AL",
+        "description": "At 1030 AM CST, severe thunderstorms were located along a line\nextending from Barnett to 3 miles southeast of Sunrise, moving\nnortheast at 60 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nWaynesboro, Richton and Clara.",
+        "instruction": "A Tornado Watch remains in effect until 400 PM CST for southwestern\nAlabama...and southeastern Mississippi.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T10:30:00.000-06:00...storm...234DEG...52KT...31.98,-88.93 31.27,-89.19"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1100 AM CST FOR NORTHERN PERRY...WAYNE AND NORTHWESTERN GREENE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.SV.W.0003.000000T0000Z-200111T1700Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSVSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T11:00:00-06:00"
+            ]
+        }
+    }
+}

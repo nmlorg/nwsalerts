@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001375-3395550",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.56,
+                    38.53
+                ],
+                [
+                    -90.56,
+                    38.550000000000004
+                ],
+                [
+                    -90.43,
+                    38.57000000000001
+                ],
+                [
+                    -90.43,
+                    38.540000000000006
+                ],
+                [
+                    -90.56,
+                    38.53
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001375-3395550",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001375-3395550",
+        "areaDesc": "Jefferson, MO; St. Louis, MO",
+        "geocode": {
+            "UGC": [
+                "MOC099",
+                "MOC189"
+            ],
+            "SAME": [
+                "029099",
+                "029189"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC099",
+            "https://api.weather.gov/zones/county/MOC189"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998797-3393107",
+                "identifier": "NWS-IDP-PROD-3998797-3393107",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T20:17:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T10:31:00-06:00",
+        "effective": "2020-01-11T10:31:00-06:00",
+        "onset": "2020-01-11T15:25:00-06:00",
+        "expires": "2020-01-12T16:30:00-06:00",
+        "ends": "2020-01-17T16:07:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 11 at 10:31AM CST until January 17 at 4:07PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\n\nBig River at Byrnesville\n\nBourbeuse River at Union\n\nMeramec River near Steelville\n\nMeramec River near Sullivan\n\nMeramec River at Pacific\n\nMeramec River near Eureka\n\nMeramec River at Valley Park\n\nMeramec River near Arnold\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Meramec River at Valley Park\n* from this afternoon to Friday afternoon.\n* At 10:00 AM Saturday the stage was 14.3 feet.\n* Flood stage is 16.0 feet.\n* Moderate flooding is forecast.\n* The river is forecast to rise above flood stage late this\nafternoon and crest near 24.0 feet by Tuesday morning. The river\nis forecast to fall below flood stage by late Thursday morning.\n* Impact:  At 21.9 feet...Yarnell Road is closed at Riverside Drive.\nLarkin Williams is closed at Riverside Golf Club entrance.  In\nValley Park...Tree Court Industrial Road begins flooding between\nMarshall Road and Scarlet Oak Boulevard.  Also...the golf course at\nFamily Golf and Learning Center and the Kirkwood Athletic\nAssociation ball fields begin flooding near this height.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0016.200111T2125Z-200117T2207Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T16:07:00-06:00"
+            ]
+        }
+    }
+}
