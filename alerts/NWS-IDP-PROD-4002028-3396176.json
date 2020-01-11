@@ -1,0 +1,120 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002028-3396176",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.78,
+                    37.85
+                ],
+                [
+                    -83.73,
+                    38.1
+                ],
+                [
+                    -83.48,
+                    38.13
+                ],
+                [
+                    -83.4,
+                    37.93
+                ],
+                [
+                    -83.78,
+                    37.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002028-3396176",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002028-3396176",
+        "areaDesc": "Menifee, KY; Morgan, KY; Rowan, KY; Bath, KY; Powell, KY",
+        "geocode": {
+            "UGC": [
+                "KYC165",
+                "KYC175",
+                "KYC205",
+                "KYC011",
+                "KYC197"
+            ],
+            "SAME": [
+                "021165",
+                "021175",
+                "021205",
+                "021011",
+                "021197"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC165",
+            "https://api.weather.gov/zones/county/KYC175",
+            "https://api.weather.gov/zones/county/KYC205",
+            "https://api.weather.gov/zones/county/KYC011",
+            "https://api.weather.gov/zones/county/KYC197"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001938-3396085",
+                "identifier": "NWS-IDP-PROD-4001938-3396085",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:59:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T14:13:00-05:00",
+        "effective": "2020-01-11T14:13:00-05:00",
+        "onset": "2020-01-11T14:13:00-05:00",
+        "expires": "2020-01-11T14:30:00-05:00",
+        "ends": "2020-01-11T14:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 2:13PM EST until January 11 at 2:30PM EST by NWS Jackson KY",
+        "description": "At 212 PM EST, a severe thunderstorm was located over Young Springs,\nor near Frenchburg, moving northeast at 60 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nFrenchburg, Wellington, Salt Lick, Olympia, Cornwell, Rothwell,\nOlympia Springs, Yale, Denniston, Young Springs, Dan and Fagan.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T14:12:00.000-05:00...storm...245DEG...52KT...38.05,-83.58"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 230 PM EST FOR NORTHEASTERN POWELL...SOUTHEASTERN BATH...WESTERN MORGAN... MENIFEE AND SOUTHWESTERN ROWAN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJKL.SV.W.0004.000000T0000Z-200111T1930Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLSVSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T14:30:00-05:00"
+            ]
+        }
+    }
+}
