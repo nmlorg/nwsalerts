@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998456-3392788",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.75,
+                    32.99
+                ],
+                [
+                    -97.22,
+                    32.620000000000005
+                ],
+                [
+                    -97.33,
+                    32.7
+                ],
+                [
+                    -97.16,
+                    32.99
+                ],
+                [
+                    -96.75,
+                    32.99
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998456-3392788",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998456-3392788",
+        "areaDesc": "Dallas, TX; Tarrant, TX",
+        "geocode": {
+            "UGC": [
+                "TXC113",
+                "TXC439"
+            ],
+            "SAME": [
+                "048113",
+                "048439"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC113",
+            "https://api.weather.gov/zones/county/TXC439"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998445-3392779",
+                "identifier": "NWS-IDP-PROD-3998445-3392779",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:09:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T18:16:00-06:00",
+        "effective": "2020-01-10T18:16:00-06:00",
+        "onset": "2020-01-10T18:16:00-06:00",
+        "expires": "2020-01-10T18:45:00-06:00",
+        "ends": "2020-01-10T18:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Tornado Warning issued January 10 at 6:16PM CST until January 10 at 6:45PM CST by NWS Fort Worth TX",
+        "description": "At 614 PM CST, a severe thunderstorm capable of producing a tornado\nwas located near Pantego, or near Richland Hills, moving northeast\nat 35 mph. At 613 PM CST, spotters reported a funnel cloud close to\nthe 287 and 820 split near Forest Hill.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Weather spotters reported a funnel cloud.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis dangerous storm will be near...\nRichland Hills around 625 PM CST.\nArlington, Bedford and Hurst around 630 PM CST.\nFort Worth, Grand Prairie, Euless, Colleyville and North Richland\nHills around 635 PM CST.\nDFW Airport around 640 PM CST.\nIrving, Flower Mound, Grapevine, Coppell and Southlake around 645\nPM CST.\n\nOther locations impacted by this tornadic thunderstorm include\nWestlake.",
+        "instruction": "TAKE COVER NOW! If you are outdoors, in a mobile home, or in a\nvehicle, move to the closest substantial shelter now!  Get to an\ninterior room on the lowest floor of a sturdy building and avoid\nwindows.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T18:14:00.000-06:00...storm...212DEG...32KT...32.74,-97.23"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 645 PM CST FOR EASTERN TARRANT AND NORTHWESTERN DALLAS COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KFWD.TO.W.0009.000000T0000Z-200111T0045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDSVSFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:45:00-06:00"
+            ]
+        }
+    }
+}
