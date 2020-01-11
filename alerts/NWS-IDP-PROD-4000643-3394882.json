@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000643-3394882",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.26,
+                    36.18
+                ],
+                [
+                    -91.39,
+                    36.22
+                ],
+                [
+                    -91.53,
+                    36.28
+                ],
+                [
+                    -91.5,
+                    36.34
+                ],
+                [
+                    -91.35,
+                    36.290000000000006
+                ],
+                [
+                    -91.19,
+                    36.25000000000001
+                ],
+                [
+                    -91.26,
+                    36.18
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000643-3394882",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000643-3394882",
+        "areaDesc": "Sharp, AR; Fulton, AR",
+        "geocode": {
+            "UGC": [
+                "ARC135",
+                "ARC049"
+            ],
+            "SAME": [
+                "005135",
+                "005049"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC135",
+            "https://api.weather.gov/zones/county/ARC049"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000323-3394583",
+                "identifier": "NWS-IDP-PROD-4000323-3394583",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T05:09:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T07:26:00-06:00",
+        "effective": "2020-01-11T07:26:00-06:00",
+        "onset": "2020-01-11T08:03:00-06:00",
+        "expires": "2020-01-11T22:25:00-06:00",
+        "ends": "2020-01-13T06:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Warning issued January 11 at 7:26AM CST until January 13 at 6:30AM CST by NWS Little Rock AR",
+        "description": "...From the National Weather Service in Little Rock...the Flood\nWarning continues for the following river in Arkansas...\n\nBlack River At Pocahontas affecting Randolph County\n\nSpring River At Hardy affecting Fulton and Sharp Counties\n\nSpring River At Imboden affecting Lawrence and Randolph Counties\n\nEleven Point River Near Ravenden Springs affecting Randolph County\n\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 24 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.\n\nThe Flood Warning continues for\nThe Spring River At Hardy.\n* until Monday morning...Or until the warning is cancelled.\n* At  7:00 AM Saturday the stage was 9.5 feet.\n* Minor flooding is forecast.\n* Flood stage is 10.0 feet.\n* Forecast...The river will rise above flood stage by this morning and continue to\nrise to near 12.0 feet by this afternoon.\n* Impacts at 12.0 feet...Some flooding in City Park and in River Bend\nCampground. Water may be near homes along the riverbank.",
+        "instruction": "Safety message...Remember to Turn Around...Don't Drown\nDo not drive cars through flooded areas.\n\nEveryone with property or other interest along streams and rivers\nshould remain alert to changing weather forecasts. Should conditions\nchange...Look for river forecasts or Flood Warnings for use in making\ninformed decisions to protect life and property.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLZK.FL.W.0010.200111T1403Z-200113T1230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T06:30:00-06:00"
+            ]
+        }
+    }
+}

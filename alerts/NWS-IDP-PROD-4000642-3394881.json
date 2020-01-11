@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000642-3394881",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.15,
+                    36.12
+                ],
+                [
+                    -91.18,
+                    36.159999899999995
+                ],
+                [
+                    -91.26,
+                    36.17999999999999
+                ],
+                [
+                    -91.19000000000001,
+                    36.24999999999999
+                ],
+                [
+                    -91.10000000000001,
+                    36.18999999999999
+                ],
+                [
+                    -91.01,
+                    36.09999999999999
+                ],
+                [
+                    -91.15,
+                    36.12
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000642-3394881",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000642-3394881",
+        "areaDesc": "Lawrence, AR; Randolph, AR",
+        "geocode": {
+            "UGC": [
+                "ARC075",
+                "ARC121"
+            ],
+            "SAME": [
+                "005075",
+                "005121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC075",
+            "https://api.weather.gov/zones/county/ARC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998541-3392870",
+                "identifier": "NWS-IDP-PROD-3998541-3392870",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:56:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T07:26:00-06:00",
+        "effective": "2020-01-11T07:26:00-06:00",
+        "onset": "2020-01-11T08:20:00-06:00",
+        "expires": "2020-01-11T22:25:00-06:00",
+        "ends": "2020-01-14T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Warning issued January 11 at 7:26AM CST until January 14 at 12:00AM CST by NWS Little Rock AR",
+        "description": "...From the National Weather Service in Little Rock...the Flood\nWarning continues for the following river in Arkansas...\n\nBlack River At Pocahontas affecting Randolph County\n\nSpring River At Hardy affecting Fulton and Sharp Counties\n\nSpring River At Imboden affecting Lawrence and Randolph Counties\n\nEleven Point River Near Ravenden Springs affecting Randolph County\n\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 24 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.",
+        "instruction": "Safety message...Remember to Turn Around...Don't Drown\nDo not drive cars through flooded areas.\n\nEveryone with property or other interest along streams and rivers\nshould remain alert to changing weather forecasts. Should conditions\nchange...Look for river forecasts or Flood Warnings for use in making\ninformed decisions to protect life and property.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLZK.FL.W.0011.200111T1420Z-200114T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T00:00:00-06:00"
+            ]
+        }
+    }
+}
