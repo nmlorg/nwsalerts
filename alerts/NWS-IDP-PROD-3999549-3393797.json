@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999549-3393797",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.98,
+                    36.5
+                ],
+                [
+                    -90.02000000000001,
+                    35.81
+                ],
+                [
+                    -90.60000000000001,
+                    35.84
+                ],
+                [
+                    -90.36000000000001,
+                    36.5
+                ],
+                [
+                    -89.98,
+                    36.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999549-3393797",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999549-3393797",
+        "areaDesc": "Craighead, AR; Greene, AR; Dunklin, MO; Mississippi, AR; Clay, AR",
+        "geocode": {
+            "UGC": [
+                "ARC031",
+                "ARC055",
+                "MOC069",
+                "ARC093",
+                "ARC021"
+            ],
+            "SAME": [
+                "005031",
+                "005055",
+                "029069",
+                "005093",
+                "005021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC031",
+            "https://api.weather.gov/zones/county/ARC055",
+            "https://api.weather.gov/zones/county/MOC069",
+            "https://api.weather.gov/zones/county/ARC093",
+            "https://api.weather.gov/zones/county/ARC021"
+        ],
+        "references": [],
+        "sent": "2020-01-11T00:47:00-06:00",
+        "effective": "2020-01-11T00:47:00-06:00",
+        "onset": "2020-01-11T00:47:00-06:00",
+        "expires": "2020-01-11T01:30:00-06:00",
+        "ends": "2020-01-11T01:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 12:47AM CST until January 11 at 1:30AM CST by NWS Memphis TN",
+        "description": "The National Weather Service in Memphis has issued a\n\n* Severe Thunderstorm Warning for...\nEastern Greene County in eastern Arkansas...\nNortheastern Craighead County in eastern Arkansas...\nNorthwestern Mississippi County in eastern Arkansas...\nEastern Clay County in eastern Arkansas...\nDunklin County in southeastern Missouri...\n\n* Until 130 AM CST.\n\n* At 1247 AM CST, severe thunderstorms were located along a line\nextending from near Harviell to Bono, moving northeast at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nParagould, Kennett, Piggott, Manila, Lake City, Leachville,\nCampbell, Rector, Senath, Brookland, Monette, Marmaduke, Chalk\nBluff Natural Area, Oak Grove Heights, Cardwell, Hornersville,\nHolcomb, Arbyrd, St. Francis and Dell.",
+        "instruction": "A Tornado Watch remains in effect until 700 AM CST for eastern\nArkansas...and southeastern Missouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T00:47:00.000-06:00...storm...212DEG...46KT...36.65,-90.44 35.92,-90.82"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KMEG.SV.W.0002.200111T0647Z-200111T0730Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVRMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T01:30:00-06:00"
+            ]
+        }
+    }
+}
