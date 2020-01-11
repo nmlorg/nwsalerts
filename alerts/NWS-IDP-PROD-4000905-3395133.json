@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000905-3395133",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.56,
+                    29.56
+                ],
+                [
+                    -90.64,
+                    29.7
+                ],
+                [
+                    -90.42,
+                    29.82
+                ],
+                [
+                    -90.34,
+                    29.63
+                ],
+                [
+                    -90.56,
+                    29.56
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000905-3395133",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000905-3395133",
+        "areaDesc": "St. Charles, LA; Lafourche, LA",
+        "geocode": {
+            "UGC": [
+                "LAC089",
+                "LAC057"
+            ],
+            "SAME": [
+                "022089",
+                "022057"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC089",
+            "https://api.weather.gov/zones/county/LAC057"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000842-3395076",
+                "identifier": "NWS-IDP-PROD-4000842-3395076",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T08:43:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000797-3395033",
+                "identifier": "NWS-IDP-PROD-4000797-3395033",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T08:26:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:53:00-06:00",
+        "effective": "2020-01-11T08:53:00-06:00",
+        "onset": "2020-01-11T08:53:00-06:00",
+        "expires": "2020-01-11T09:03:00-06:00",
+        "ends": "2020-01-11T09:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 8:53AM CST until January 11 at 9:00AM CST by NWS New Orleans LA",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and no longer poses an immediate threat to life or property.\nTherefore, the warning will be allowed to expire.  However gusty\nwinds are still possible with this thunderstorm.\n\nA Tornado Watch remains in effect until noon CST for southeastern\nLouisiana.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T08:53:00.000-06:00...storm...254DEG...38KT...29.71,-90.42"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR SOUTHWESTERN ST. CHARLES AND NORTH CENTRAL LAFOURCHE PARISHES WILL EXPIRE AT 900 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KLIX.SV.W.0003.000000T0000Z-200111T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LIXSVSLIX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T09:00:00-06:00"
+            ]
+        }
+    }
+}

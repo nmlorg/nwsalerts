@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000900-3395126",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.24,
+                    38.04
+                ],
+                [
+                    -85.97999999999999,
+                    37.89
+                ],
+                [
+                    -86.49,
+                    37.75
+                ],
+                [
+                    -86.53999999999999,
+                    37.87
+                ],
+                [
+                    -86.24,
+                    38.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000900-3395126",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000900-3395126",
+        "areaDesc": "Breckinridge, KY; Meade, KY",
+        "geocode": {
+            "UGC": [
+                "KYC027",
+                "KYC163"
+            ],
+            "SAME": [
+                "021027",
+                "021163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC027",
+            "https://api.weather.gov/zones/county/KYC163"
+        ],
+        "references": [],
+        "sent": "2020-01-11T09:52:00-05:00",
+        "effective": "2020-01-11T09:52:00-05:00",
+        "onset": "2020-01-11T09:52:00-05:00",
+        "expires": "2020-01-11T10:15:00-05:00",
+        "ends": "2020-01-11T10:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 9:52AM EST until January 11 at 10:15AM EST by NWS Louisville KY",
+        "description": "The National Weather Service in Louisville has issued a\n\n* Severe Thunderstorm Warning for...\nSouthern Meade County in central Kentucky...\nCentral Breckinridge County in central Kentucky...\n\n* Until 1015 AM EST/915 AM CST/.\n\n* At 952 AM EST/852 AM CST/, a severe thunderstorm was located near\nHardinsburg, moving northeast at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nBrandenburg, Hardinsburg, Webster, Irvington, Ekron, Guston,\nMystic, Raymond, Grahamton and Clifton Mills.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T09:52:00.000-05:00...storm...228DEG...49KT...37.84,-86.47"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KLMK.SV.W.0004.200111T1452Z-200111T1515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKSVRLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T10:15:00-05:00"
+            ]
+        }
+    }
+}

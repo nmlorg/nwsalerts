@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000916-3395143",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.42,
+                    38.94
+                ],
+                [
+                    -93.61,
+                    38.82
+                ],
+                [
+                    -93.67999999999999,
+                    38.82
+                ],
+                [
+                    -93.61,
+                    38.9099999
+                ],
+                [
+                    -93.48,
+                    38.99
+                ],
+                [
+                    -93.42,
+                    38.94
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000916-3395143",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000916-3395143",
+        "areaDesc": "Johnson, MO; Pettis, MO",
+        "geocode": {
+            "UGC": [
+                "MOC101",
+                "MOC159"
+            ],
+            "SAME": [
+                "029101",
+                "029159"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC101",
+            "https://api.weather.gov/zones/county/MOC159"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000235-3394498",
+                "identifier": "NWS-IDP-PROD-4000235-3394498",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T04:32:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:56:00-06:00",
+        "effective": "2020-01-11T08:56:00-06:00",
+        "onset": "2020-01-11T08:55:00-06:00",
+        "expires": "2020-01-12T08:54:00-06:00",
+        "ends": "2020-01-13T01:49:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant HIll MO",
+        "headline": "Flood Warning issued January 11 at 8:55AM CST until January 13 at 1:49AM CST by NWS Kansas City/Pleasant HIll MO",
+        "description": "...The Flood Warning continues for the following rivers in\nMissouri...\n\nBlackwater River at Valley City affecting Johnson and Pettis\nCounties.\n\nBlackwater River near Blue Lick affecting Cooper and Saline\nCounties.\n\nLamine River near Otterville affecting Cooper County.\n\nMoniteau Creek near Fayette affecting Howard County.\n\nPetite Saline Creek near Boonville affecting Cooper County.\n\nThe Flood Warning continues for\nThe Blackwater River at Valley City.\n* until late Sunday night.\n* At  8:00 AM Saturday the stage was 25.7 feet.\n* Flood stage is 22.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to near 26.2 feet by this\nafternoon. The river will fall below flood stage early Sunday\nmorning.\n* At 25.0 feet...County Highway E near Valley City and Highway 23\nnear the Perry State Wildlife Area are under water.\n* At 22.0 feet...Woodlands and farm fields along the river begin to\nflood.",
+        "instruction": "Do not drive through flowing water. Nearly half of all flood\nfatalities are vehicle related. As little as 6 inches of water may\ncause you to lose control of your vehicle. Two feet of water will\ncarry most vehicles away.This product along with additional weather\nand stream information is available at www.weather.gov/kc/.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KEAX.FL.W.0001.000000T0000Z-200113T0749Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EAXFLSEAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T01:49:00-06:00"
+            ]
+        }
+    }
+}

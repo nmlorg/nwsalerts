@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000920-3395147",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.03,
+                    38.69
+                ],
+                [
+                    -93.05,
+                    38.87
+                ],
+                [
+                    -93.03999999999999,
+                    38.94
+                ],
+                [
+                    -92.97999999999999,
+                    38.94
+                ],
+                [
+                    -92.93999999999998,
+                    38.69
+                ],
+                [
+                    -93.03,
+                    38.69
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000920-3395147",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000920-3395147",
+        "areaDesc": "Cooper, MO",
+        "geocode": {
+            "UGC": [
+                "MOC053"
+            ],
+            "SAME": [
+                "029053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998528-3392857",
+                "identifier": "NWS-IDP-PROD-3998528-3392857",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:51:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:56:00-06:00",
+        "effective": "2020-01-11T08:56:00-06:00",
+        "onset": "2020-01-11T08:55:00-06:00",
+        "expires": "2020-01-12T08:54:00-06:00",
+        "ends": "2020-01-12T15:38:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant HIll MO",
+        "headline": "Flood Warning issued January 11 at 8:55AM CST until January 12 at 3:38PM CST by NWS Kansas City/Pleasant HIll MO",
+        "description": "...The Flood Warning continues for the following rivers in\nMissouri...\n\nBlackwater River at Valley City affecting Johnson and Pettis\nCounties.\n\nBlackwater River near Blue Lick affecting Cooper and Saline\nCounties.\n\nLamine River near Otterville affecting Cooper County.\n\nMoniteau Creek near Fayette affecting Howard County.\n\nPetite Saline Creek near Boonville affecting Cooper County.\n\nThe Flood Warning continues for\nThe Lamine River near Otterville.\n* until Sunday afternoon.\n* At  8:15 AM Saturday the stage was 18.7 feet.\n* Flood stage is 15.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nlate this afternoon.\n* At 18.0 feet...Some gravel roads upstream and downstream from\nOtterville are under water. In addition State Highway 135 may be\novertopped by flood waters 2 miles north of Clifton City.\n* At 15.0 feet...Low lying woodlands and fields along the river\nflood.",
+        "instruction": "Do not drive through flowing water. Nearly half of all flood\nfatalities are vehicle related. As little as 6 inches of water may\ncause you to lose control of your vehicle. Two feet of water will\ncarry most vehicles away.This product along with additional weather\nand stream information is available at www.weather.gov/kc/.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KEAX.FL.W.0003.000000T0000Z-200112T2138Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EAXFLSEAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T15:38:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000918-3395145",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.59,
+                    39.14
+                ],
+                [
+                    -92.52000000000001,
+                    39.14
+                ],
+                [
+                    -92.56000000000002,
+                    39.02
+                ],
+                [
+                    -92.62000000000002,
+                    39.03
+                ],
+                [
+                    -92.59,
+                    39.14
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000918-3395145",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000918-3395145",
+        "areaDesc": "Howard, MO",
+        "geocode": {
+            "UGC": [
+                "MOC089"
+            ],
+            "SAME": [
+                "029089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC089"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998531-3392860",
+                "identifier": "NWS-IDP-PROD-3998531-3392860",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:51:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:56:00-06:00",
+        "effective": "2020-01-11T08:56:00-06:00",
+        "onset": "2020-01-11T08:55:00-06:00",
+        "expires": "2020-01-12T08:54:00-06:00",
+        "ends": "2020-01-12T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant HIll MO",
+        "headline": "Flood Warning issued January 11 at 8:55AM CST until January 12 at 12:00PM CST by NWS Kansas City/Pleasant HIll MO",
+        "description": "...The Flood Warning continues for the following rivers in\nMissouri...\n\nBlackwater River at Valley City affecting Johnson and Pettis\nCounties.\n\nBlackwater River near Blue Lick affecting Cooper and Saline\nCounties.\n\nLamine River near Otterville affecting Cooper County.\n\nMoniteau Creek near Fayette affecting Howard County.\n\nPetite Saline Creek near Boonville affecting Cooper County.\n\nThe Flood Warning continues for\nThe Moniteau Creek near Fayette.\n* until Sunday afternoon.\n* At  8:30 AM Saturday the stage was 17.3 feet.\n* Flood stage is 16.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nthis afternoon.\n* At 16.0 feet...Low-lying fields along Moniteau Creek flood.",
+        "instruction": "Do not drive through flowing water. Nearly half of all flood\nfatalities are vehicle related. As little as 6 inches of water may\ncause you to lose control of your vehicle. Two feet of water will\ncarry most vehicles away.This product along with additional weather\nand stream information is available at www.weather.gov/kc/.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KEAX.FL.W.0004.000000T0000Z-200112T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EAXFLSEAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T12:00:00-06:00"
+            ]
+        }
+    }
+}
