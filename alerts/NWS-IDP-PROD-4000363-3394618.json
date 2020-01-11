@@ -1,0 +1,122 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000363-3394618",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.48,
+                    34.55
+                ],
+                [
+                    -89.53,
+                    34.55
+                ],
+                [
+                    -89.62,
+                    34.76
+                ],
+                [
+                    -89.38000000000001,
+                    34.89
+                ],
+                [
+                    -89.20999990000001,
+                    34.64
+                ],
+                [
+                    -89.45999990000001,
+                    34.54
+                ],
+                [
+                    -89.48,
+                    34.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000363-3394618",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000363-3394618",
+        "areaDesc": "Benton, MS; Marshall, MS",
+        "geocode": {
+            "UGC": [
+                "MSC009",
+                "MSC093"
+            ],
+            "SAME": [
+                "028009",
+                "028093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC009",
+            "https://api.weather.gov/zones/county/MSC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000356-3394612",
+                "identifier": "NWS-IDP-PROD-4000356-3394612",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T05:22:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000336-3394596",
+                "identifier": "NWS-IDP-PROD-4000336-3394596",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T05:13:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T05:29:00-06:00",
+        "effective": "2020-01-11T05:29:00-06:00",
+        "onset": "2020-01-11T05:29:00-06:00",
+        "expires": "2020-01-11T06:00:00-06:00",
+        "ends": "2020-01-11T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Tornado Warning issued January 11 at 5:29AM CST until January 11 at 6:00AM CST by NWS Memphis TN",
+        "description": "At 528 AM CST, doppler radar indicated a severe thunderstorm\nproducing a tornado was located near Wall Doxey State Park, moving\nnortheast at 55 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nHolly Springs, Wall Doxey State Park, Marianna, Potts Camp, Malone,\nWinborn, Waterford, Hudsonville, Higdon, Gilton, Lake Center, Atway,\nGalena, Mahon, Spraggins and Waites.",
+        "instruction": "TAKE COVER NOW! Move to a storm shelter or an interior room on the\nlowest floor of a sturdy building. Avoid windows. If you are\noutdoors, in a mobile home, or in a vehicle, move to the closest\nsubstantial shelter and protect yourself from flying debris.\n\nThis cluster of thunderstorms is producing tornadoes and widespread\nsignificant wind damage. Do not wait to see or hear the tornado. For\nyour protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T05:28:00.000-06:00...storm...237DEG...46KT...34.7,-89.5"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 600 AM CST FOR CENTRAL MARSHALL AND SOUTHWESTERN BENTON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMEG.TO.W.0003.000000T0000Z-200111T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T06:00:00-06:00"
+            ]
+        }
+    }
+}
