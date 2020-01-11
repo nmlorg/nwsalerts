@@ -1,0 +1,86 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001303",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.14,
+                    34.58
+                ],
+                [
+                    -87.53,
+                    34.57
+                ],
+                [
+                    -87.53,
+                    34.3
+                ],
+                [
+                    -88.17,
+                    34.32
+                ],
+                [
+                    -88.14,
+                    34.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001303",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001303",
+        "areaDesc": "Franklin",
+        "geocode": {
+            "UGC": [
+                "ALZ003"
+            ],
+            "SAME": [
+                "001059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ALZ003"
+        ],
+        "references": [],
+        "sent": "2020-01-11T10:12:00-06:00",
+        "effective": "2020-01-11T10:12:00-06:00",
+        "onset": "2020-01-11T10:12:00-06:00",
+        "expires": "2020-01-11T11:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Special Weather Statement issued January 11 at 10:12AM CST by NWS Huntsville AL",
+        "description": "At 1012 AM CST, Doppler radar was tracking strong thunderstorms along\na line extending from near Littleville to near Hackleburg. Movement\nwas northeast at 25 mph.\n\nWind gusts up to 50 mph will be possible with these storms.\n\nLocations impacted include...\nRussellville, Red Bay, Phil Campbell, Littleville, Belgreen, Vina,\nHodges, Pogo, Cedar Creek Reservoir and Atwood.",
+        "instruction": "Strong gusty winds will be capable of knocking down small tree limbs\nalong with other small unsecured items. Seek safe shelter until this\nline of storms has passed.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T10:12:00.000-06:00...storm...232DEG...38KT...34.56,-87.68 34.35,-87.83"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR FRANKLIN COUNTY UNTIL 1115 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNSPSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
