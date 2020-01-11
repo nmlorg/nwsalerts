@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002374",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -66.59,
+                    18.5
+                ],
+                [
+                    -66.59,
+                    18.42
+                ],
+                [
+                    -66.9,
+                    18.37
+                ],
+                [
+                    -66.89,
+                    18.51
+                ],
+                [
+                    -66.72,
+                    18.4899999
+                ],
+                [
+                    -66.63,
+                    18.51
+                ],
+                [
+                    -66.59,
+                    18.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002374",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002374",
+        "areaDesc": "North Central; Northwest",
+        "geocode": {
+            "UGC": [
+                "PRZ005",
+                "PRZ008"
+            ],
+            "SAME": [
+                "072013",
+                "072017",
+                "072051",
+                "072054",
+                "072091",
+                "072143",
+                "072145",
+                "072005",
+                "072027",
+                "072065",
+                "072071",
+                "072115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PRZ005",
+            "https://api.weather.gov/zones/forecast/PRZ008"
+        ],
+        "references": [],
+        "sent": "2020-01-11T16:40:00-04:00",
+        "effective": "2020-01-11T16:40:00-04:00",
+        "onset": "2020-01-11T16:40:00-04:00",
+        "expires": "2020-01-11T17:30:00-04:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS San Juan PR",
+        "headline": "Special Weather Statement issued January 11 at 4:40PM AST by NWS San Juan PR",
+        "description": "At 439 PM AST, a shower was located near Bajadero, or near Arecibo,\nmoving west at 35 mph.\n\nWinds in excess of 40 mph are possible with this shower.\n\nLocations impacted include...\nArecibo, Hatillo, Camuy, Rafael Capo, Bajadero, Rafael Gonzalez,\nSabana Hoyos, Animas, Carrizales, Corcovado and Piedra Gorda.\n\nIf outdoors, consider seeking shelter inside a sturdy structure.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T16:39:00.000-04:00...storm...083DEG...29KT...18.48,-66.68"
+            ],
+            "NWSheadline": [
+                "A SHOWER WILL AFFECT CAMUY...NORTHERN ARECIBO...HATILLO AND SOUTHEASTERN QUEBRADILLAS MUNICIPALITIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SJUSPSSJU"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
