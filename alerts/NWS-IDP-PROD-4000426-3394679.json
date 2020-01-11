@@ -1,0 +1,112 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000426-3394679",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.25,
+                    35.14
+                ],
+                [
+                    -89.3,
+                    35.21
+                ],
+                [
+                    -89.19,
+                    35.38
+                ],
+                [
+                    -89.00999999999999,
+                    35.31
+                ],
+                [
+                    -88.99999999999999,
+                    35.190000000000005
+                ],
+                [
+                    -89.25,
+                    35.14
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000426-3394679",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000426-3394679",
+        "areaDesc": "Hardeman, TN; Fayette, TN",
+        "geocode": {
+            "UGC": [
+                "TNC069",
+                "TNC047"
+            ],
+            "SAME": [
+                "047069",
+                "047047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC069",
+            "https://api.weather.gov/zones/county/TNC047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000411-3394665",
+                "identifier": "NWS-IDP-PROD-4000411-3394665",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T05:49:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000367-3394621",
+                "identifier": "NWS-IDP-PROD-4000367-3394621",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T05:36:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T05:57:00-06:00",
+        "effective": "2020-01-11T05:57:00-06:00",
+        "onset": "2020-01-11T05:57:00-06:00",
+        "expires": "2020-01-11T06:07:00-06:00",
+        "ends": "2020-01-11T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Tornado Warning issued January 11 at 5:57AM CST until January 11 at 6:00AM CST by NWS Memphis TN",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and no longer appears capable of producing a tornado.\nTherefore, the warning will be allowed to expire.\n\nA Tornado Watch remains in effect until 700 AM CST for western\nTennessee. A Tornado Watch also remains in effect until 1000 AM CST\nfor western Tennessee.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T05:57:00.000-06:00...storm...234DEG...43KT...35.3,-89.08"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR EAST CENTRAL FAYETTE AND NORTHWESTERN HARDEMAN COUNTIES WILL EXPIRE AT 600 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KMEG.TO.W.0004.000000T0000Z-200111T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T06:00:00-06:00"
+            ]
+        }
+    }
+}

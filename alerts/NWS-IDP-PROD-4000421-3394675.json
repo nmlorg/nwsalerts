@@ -1,0 +1,158 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000421-3394675",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.92,
+                    32.52
+                ],
+                [
+                    -90.69,
+                    32.61000000000001
+                ],
+                [
+                    -90.69,
+                    32.59
+                ],
+                [
+                    -90.66,
+                    32.59
+                ],
+                [
+                    -90.64999999999999,
+                    32.550000000000004
+                ],
+                [
+                    -90.63,
+                    32.540000000000006
+                ],
+                [
+                    -90.94,
+                    32.080000000000005
+                ],
+                [
+                    -90.9599999,
+                    32.10000000000001
+                ],
+                [
+                    -91.03,
+                    32.11000000000001
+                ],
+                [
+                    -91.08,
+                    32.080000000000005
+                ],
+                [
+                    -91.08,
+                    32.050000000000004
+                ],
+                [
+                    -91.14999999999999,
+                    32.080000000000005
+                ],
+                [
+                    -91.14999999999999,
+                    32.050000000000004
+                ],
+                [
+                    -91.47999999999999,
+                    32.03
+                ],
+                [
+                    -91.24,
+                    32.53
+                ],
+                [
+                    -90.92,
+                    32.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000421-3394675",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000421-3394675",
+        "areaDesc": "Issaquena, MS; Tensas, LA; Warren, MS; Madison, LA",
+        "geocode": {
+            "UGC": [
+                "MSC055",
+                "LAC107",
+                "MSC149",
+                "LAC065"
+            ],
+            "SAME": [
+                "028055",
+                "022107",
+                "028149",
+                "022065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC055",
+            "https://api.weather.gov/zones/county/LAC107",
+            "https://api.weather.gov/zones/county/MSC149",
+            "https://api.weather.gov/zones/county/LAC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000328-3394588",
+                "identifier": "NWS-IDP-PROD-4000328-3394588",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T05:10:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T05:54:00-06:00",
+        "effective": "2020-01-11T05:54:00-06:00",
+        "onset": "2020-01-11T05:54:00-06:00",
+        "expires": "2020-01-11T06:15:00-06:00",
+        "ends": "2020-01-11T06:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 5:54AM CST until January 11 at 6:15AM CST by NWS Jackson MS",
+        "description": "At 554 AM CST, severe thunderstorms were located along a line\nextending from near Holly Bluff to near Redwood, moving northeast at\n70 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nThese severe thunderstorms will remain over mainly rural areas of\nnorthern Tensas and Madison Parishes, Warren and southeastern\nIssaquena Counties, including the following locations... Mound, Delta\nand Richmond.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T05:54:00.000-06:00...storm...242DEG...62KT...32.85,-90.68 32.44,-90.85"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 615 AM CST FOR NORTHERN TENSAS AND MADISON PARISHES...WARREN AND SOUTHEASTERN ISSAQUENA COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0009.000000T0000Z-200111T1215Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T06:15:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000423-3394676",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.26,
+                    36.88
+                ],
+                [
+                    -88.35000000000001,
+                    36.95
+                ],
+                [
+                    -88.24000000000001,
+                    37.1
+                ],
+                [
+                    -88.09,
+                    36.96
+                ],
+                [
+                    -88.26,
+                    36.88
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000423-3394676",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000423-3394676",
+        "areaDesc": "Lyon, KY; Marshall, KY; Livingston, KY",
+        "geocode": {
+            "UGC": [
+                "KYC143",
+                "KYC157",
+                "KYC139"
+            ],
+            "SAME": [
+                "021143",
+                "021157",
+                "021139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC143",
+            "https://api.weather.gov/zones/county/KYC157",
+            "https://api.weather.gov/zones/county/KYC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000394-3394646",
+                "identifier": "NWS-IDP-PROD-4000394-3394646",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T05:45:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T05:55:00-06:00",
+        "effective": "2020-01-11T05:55:00-06:00",
+        "onset": "2020-01-11T05:55:00-06:00",
+        "expires": "2020-01-11T06:15:00-06:00",
+        "ends": "2020-01-11T06:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Tornado Warning issued January 11 at 5:55AM CST until January 11 at 6:15AM CST by NWS Paducah KY",
+        "description": "At 554 AM CST, a severe thunderstorm capable of producing a tornado\nwas located 7 miles southeast of Calvert City, moving northeast at 60\nmph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nLand Between The Lakes Area and Grand Rivers.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T05:54:00.000-06:00...storm...222DEG...52KT...36.99,-88.23"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 615 AM CST FOR SOUTHEASTERN LIVINGSTON...CENTRAL MARSHALL AND SOUTHWESTERN LYON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.TO.W.0001.000000T0000Z-200111T1215Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T06:15:00-06:00"
+            ]
+        }
+    }
+}
