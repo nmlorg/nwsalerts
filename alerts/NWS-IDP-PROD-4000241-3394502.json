@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000241-3394502",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.92,
+                    30.05
+                ],
+                [
+                    -92.98,
+                    30.17
+                ],
+                [
+                    -92.84,
+                    30.330000000000002
+                ],
+                [
+                    -92.66,
+                    30.1
+                ],
+                [
+                    -92.92,
+                    30.05
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000241-3394502",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000241-3394502",
+        "areaDesc": "Jefferson Davis, LA; Calcasieu, LA",
+        "geocode": {
+            "UGC": [
+                "LAC053",
+                "LAC019"
+            ],
+            "SAME": [
+                "022053",
+                "022019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC053",
+            "https://api.weather.gov/zones/county/LAC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000160-3394415",
+                "identifier": "NWS-IDP-PROD-4000160-3394415",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T04:08:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000217-3394480",
+                "identifier": "NWS-IDP-PROD-4000217-3394480",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T04:26:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000229-3394493",
+                "identifier": "NWS-IDP-PROD-4000229-3394493",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T04:28:36-06:00"
+            }
+        ],
+        "sent": "2020-01-11T04:40:00-06:00",
+        "effective": "2020-01-11T04:40:00-06:00",
+        "onset": "2020-01-11T04:40:00-06:00",
+        "expires": "2020-01-11T04:50:00-06:00",
+        "ends": "2020-01-11T04:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Tornado Warning issued January 11 at 4:40AM CST until January 11 at 4:45AM CST by NWS Lake Charles LA",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and has exited the warned area. Therefore, the warning will\nbe allowed to expire.  However gusty winds are still possible with\nthis thunderstorm.\n\nA Tornado Watch remains in effect until 800 AM CST for southwestern\nLouisiana.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T04:40:00.000-06:00...storm...240DEG...40KT...30.23,-92.68"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR SOUTHEASTERN JEFFERSON DAVIS AND EASTERN CALCASIEU PARISHES WILL EXPIRE AT 445 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KLCH.TO.W.0003.000000T0000Z-200111T1045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHSVSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T04:45:00-06:00"
+            ]
+        }
+    }
+}
