@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998800-3393110",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.85,
+                    38.38
+                ],
+                [
+                    -90.89999999999999,
+                    38.400000000000006
+                ],
+                [
+                    -90.8,
+                    38.4799999
+                ],
+                [
+                    -90.64,
+                    38.49
+                ],
+                [
+                    -90.65,
+                    38.45
+                ],
+                [
+                    -90.85,
+                    38.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998800-3393110",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998800-3393110",
+        "areaDesc": "Franklin, MO; Jefferson, MO",
+        "geocode": {
+            "UGC": [
+                "MOC071",
+                "MOC099"
+            ],
+            "SAME": [
+                "029071",
+                "029099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC071",
+            "https://api.weather.gov/zones/county/MOC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997156-3391576",
+                "identifier": "NWS-IDP-PROD-3997156-3391576",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T10:11:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T20:17:00-06:00",
+        "effective": "2020-01-10T20:17:00-06:00",
+        "onset": "2020-01-12T15:00:00-06:00",
+        "expires": "2020-01-11T20:15:00-06:00",
+        "ends": "2020-01-16T17:32:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 10 at 8:17PM CST until January 16 at 5:32PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\n\nBig River at Byrnesville\n\nMeramec River at Valley Park\n\nMeramec River near Arnold\n\nBourbeuse River at Union\n\nMeramec River near Sullivan\n\nMeramec River at Pacific\n\nMeramec River near Eureka\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Meramec River at Pacific\n* from Sunday afternoon to Thursday afternoon.\n* At  8:00 PM Friday the stage was 6.3 feet.\n* Flood stage is 15.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to rise above flood stage by Sunday afternoon\nand to crest near 18.6 feet by Tuesday morning. The river is\nforecast to fall below flood stage by late Wednesday morning.\n* Impact:  At 18.6 feet...Horneker Road begins to flood near this\nheight.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLSX.FL.W.0014.200112T2100Z-200116T2332Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T17:32:00-06:00"
+            ]
+        }
+    }
+}
