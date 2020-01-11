@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999767-3394025",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.7099999,
+                    37.86
+                ],
+                [
+                    -88.7099999,
+                    37.54
+                ],
+                [
+                    -89.04,
+                    37.54
+                ],
+                [
+                    -89.05000000000001,
+                    37.55
+                ],
+                [
+                    -89.04,
+                    37.589999999999996
+                ],
+                [
+                    -89.08000000000001,
+                    37.599999999999994
+                ],
+                [
+                    -89.15,
+                    37.699999999999996
+                ],
+                [
+                    -89.14,
+                    37.839999999999996
+                ],
+                [
+                    -88.7099999,
+                    37.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999767-3394025",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999767-3394025",
+        "areaDesc": "Johnson, IL; Williamson, IL",
+        "geocode": {
+            "UGC": [
+                "ILC087",
+                "ILC199"
+            ],
+            "SAME": [
+                "017087",
+                "017199"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC087",
+            "https://api.weather.gov/zones/county/ILC199"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999721-3393973",
+                "identifier": "NWS-IDP-PROD-3999721-3393973",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T02:19:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T02:34:00-06:00",
+        "effective": "2020-01-11T02:34:00-06:00",
+        "onset": "2020-01-11T02:34:00-06:00",
+        "expires": "2020-01-11T03:00:00-06:00",
+        "ends": "2020-01-11T03:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 2:34AM CST until January 11 at 3:00AM CST by NWS Paducah KY",
+        "description": "At 233 AM CST, severe thunderstorms were located along a line\nextending from Herrin to near Marion to 6 miles west of Goreville,\nmoving northeast at 60 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nMarion, Herrin, Carterville, Johnston City, Crainville, Cambria,\nEnergy, Goreville, Hurst, Pittsburg, Creal Springs, Lake Of Egypt\nArea, Stonefort, Bush, Whiteash, Williamson County Regional Airport,\nColp, New Burnside and Spillertown.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T02:33:00.000-06:00...storm...227DEG...54KT...37.82,-89.01 37.69,-89.01 37.54,-89.09"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 300 AM CST FOR NORTHERN JOHNSON AND WILLIAMSON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.SV.W.0004.000000T0000Z-200111T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T03:00:00-06:00"
+            ]
+        }
+    }
+}
