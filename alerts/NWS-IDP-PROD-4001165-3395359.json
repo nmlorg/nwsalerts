@@ -1,0 +1,123 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001165-3395359",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.33,
+                    32.31
+                ],
+                [
+                    -89.41,
+                    32.57
+                ],
+                [
+                    -89.39999999999999,
+                    32.57
+                ],
+                [
+                    -89.31999989999998,
+                    32.58
+                ],
+                [
+                    -89.31999989999998,
+                    32.629999999999995
+                ],
+                [
+                    -88.91999999999999,
+                    32.879999999999995
+                ],
+                [
+                    -88.91999999999999,
+                    32.559999999999995
+                ],
+                [
+                    -89.33,
+                    32.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001165-3395359",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001165-3395359",
+        "areaDesc": "Newton, MS; Scott, MS; Neshoba, MS",
+        "geocode": {
+            "UGC": [
+                "MSC101",
+                "MSC123",
+                "MSC099"
+            ],
+            "SAME": [
+                "028101",
+                "028123",
+                "028099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC101",
+            "https://api.weather.gov/zones/county/MSC123",
+            "https://api.weather.gov/zones/county/MSC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001116-3395313",
+                "identifier": "NWS-IDP-PROD-4001116-3395313",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:35:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T09:46:00-06:00",
+        "effective": "2020-01-11T09:46:00-06:00",
+        "onset": "2020-01-11T09:46:00-06:00",
+        "expires": "2020-01-11T10:15:00-06:00",
+        "ends": "2020-01-11T10:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Tornado Warning issued January 11 at 9:46AM CST until January 11 at 10:15AM CST by NWS Jackson MS",
+        "description": "At 945 AM CST, a severe thunderstorm capable of producing a tornado\nwas located over Conehatta, or near Prospect, moving northeast at 60\nmph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis dangerous storm will be near...\nStratton and Dixon around 955 AM CST.\nNeshoba and Little Rock around 1000 AM CST.\nBethsaida, House and Herbert Springs around 1005 AM CST.\nForestdale around 1015 AM CST.\n\nOther locations impacted by this tornadic thunderstorm include\nTucker, Lake and Sebastopol.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T09:45:00.000-06:00...storm...233DEG...53KT...32.5,-89.29"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 1015 AM CST FOR NORTHERN NEWTON...NORTHEASTERN SCOTT AND SOUTHERN NESHOBA COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.TO.W.0007.000000T0000Z-200111T1615Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T10:15:00-06:00"
+            ]
+        }
+    }
+}

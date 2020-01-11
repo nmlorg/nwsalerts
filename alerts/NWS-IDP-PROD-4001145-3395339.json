@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001145-3395339",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.85,
+                    38.71
+                ],
+                [
+                    -91.64,
+                    38.7299999
+                ],
+                [
+                    -91.64,
+                    38.68
+                ],
+                [
+                    -91.92,
+                    38.55
+                ],
+                [
+                    -91.98,
+                    38.64
+                ],
+                [
+                    -91.85,
+                    38.71
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001145-3395339",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001145-3395339",
+        "areaDesc": "Callaway, MO; Osage, MO",
+        "geocode": {
+            "UGC": [
+                "MOC027",
+                "MOC151"
+            ],
+            "SAME": [
+                "029027",
+                "029151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC027",
+            "https://api.weather.gov/zones/county/MOC151"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998591-3392910",
+                "identifier": "NWS-IDP-PROD-3998591-3392910",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:10:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T09:43:00-06:00",
+        "effective": "2020-01-11T09:43:00-06:00",
+        "onset": "2020-01-11T09:36:00-06:00",
+        "expires": "2020-01-12T15:43:00-06:00",
+        "ends": "2020-01-14T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 11 at 9:43AM CST until January 14 at 6:00PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\n\nMissouri River near Chamois\n\nMissouri River at Gasconade\n\nMissouri River at Hermann\n\nMissouri River at Washington\n\nMissouri River at St. Charles\n\nOsage River near Mari-Osa Campground\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Missouri River near Chamois\n* from this morning to Tuesday evening.\n* At  7:30 AM Friday the stage was 9.0 feet.\n* Flood stage is 17.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to rise above flood stage this\nmorning and to crest near 22.7 feet by after midnight tonight. The\nriver is forecast to fall below flood stage by Monday morning.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0007.200111T1536Z-200115T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T18:00:00-06:00"
+            ]
+        }
+    }
+}
