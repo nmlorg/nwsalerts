@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000788-3395025",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.8199999,
+                    35.01
+                ],
+                [
+                    -87.69,
+                    35.29
+                ],
+                [
+                    -87.75999999999999,
+                    35.64
+                ],
+                [
+                    -87.21999999999998,
+                    35.84
+                ],
+                [
+                    -87.31999989999998,
+                    35
+                ],
+                [
+                    -87.8199999,
+                    35.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000788-3395025",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000788-3395025",
+        "areaDesc": "Hickman, TN; Wayne, TN; Lewis, TN; Lawrence, TN; Perry, TN; Maury, TN",
+        "geocode": {
+            "UGC": [
+                "TNC081",
+                "TNC181",
+                "TNC101",
+                "TNC099",
+                "TNC135",
+                "TNC119"
+            ],
+            "SAME": [
+                "047081",
+                "047181",
+                "047101",
+                "047099",
+                "047135",
+                "047119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC081",
+            "https://api.weather.gov/zones/county/TNC181",
+            "https://api.weather.gov/zones/county/TNC101",
+            "https://api.weather.gov/zones/county/TNC099",
+            "https://api.weather.gov/zones/county/TNC135",
+            "https://api.weather.gov/zones/county/TNC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000735-3394975",
+                "identifier": "NWS-IDP-PROD-4000735-3394975",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T08:06:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:22:00-06:00",
+        "effective": "2020-01-11T08:22:00-06:00",
+        "onset": "2020-01-11T08:22:00-06:00",
+        "expires": "2020-01-11T08:45:00-06:00",
+        "ends": "2020-01-11T08:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 8:22AM CST until January 11 at 8:45AM CST by NWS Nashville TN",
+        "description": "At 822 AM CST, severe thunderstorms were located along a line\nextending from 7 miles northwest of Hohenwald to\nUnderwood-Petersville, moving northeast at 35 mph.\n\nHAZARD...70 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to mobile\nhomes, roofs, and outbuildings.\n\nLocations impacted include...\nLawrenceburg, Hohenwald, Loretto, Collinwood, Summertown, St. Joseph,\nEthridge, Gordonsburg, Kimmins, Henryville, Cypress Inn, Primm\nSprings, Leoma, Westpoint, Iron City and Hampshire.",
+        "instruction": "A Tornado Watch remains in effect until 100 PM CST for Middle\nTennessee.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T08:22:00.000-06:00...storm...244DEG...32KT...35.61,-87.67 34.89,-87.72"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "70 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 845 AM CST FOR LEWIS...EASTERN WAYNE...LAWRENCE...SOUTHWESTERN MAURY... SOUTHEASTERN PERRY AND SOUTHERN HICKMAN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOHX.SV.W.0006.000000T0000Z-200111T1445Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T08:45:00-06:00"
+            ]
+        }
+    }
+}

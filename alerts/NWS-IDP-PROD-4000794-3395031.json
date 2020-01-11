@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000794-3395031",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.37,
+                    35.54
+                ],
+                [
+                    -94.37,
+                    35.42
+                ],
+                [
+                    -94.42,
+                    35.42
+                ],
+                [
+                    -94.52,
+                    35.54
+                ],
+                [
+                    -94.37,
+                    35.54
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000794-3395031",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000794-3395031",
+        "areaDesc": "Crawford, AR; Sequoyah, OK",
+        "geocode": {
+            "UGC": [
+                "ARC033",
+                "OKC135"
+            ],
+            "SAME": [
+                "005033",
+                "040135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC033",
+            "https://api.weather.gov/zones/county/OKC135"
+        ],
+        "references": [],
+        "sent": "2020-01-11T08:24:00-06:00",
+        "effective": "2020-01-11T08:24:00-06:00",
+        "onset": "2020-01-11T08:24:00-06:00",
+        "expires": "2020-01-11T16:23:00-06:00",
+        "ends": "2020-01-11T22:24:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 11 at 8:24AM CST until January 11 at 10:24PM CST by NWS Tulsa OK",
+        "description": "...The National Weather Service in Tulsa has issued a Flood Warning\nfor the following rivers in Arkansas...Oklahoma...\n\nLee Creek near Van Buren affecting Crawford and Sequoyah Counties.\n\nThe National Weather Service in Tulsa has issued a\n\n* Flood Warning for\nThe Lee Creek near Van Buren\n* until this evening, or until the warning is cancelled.\n* At  7:47 AM Saturday, the stage was 402.7 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 401.0 feet.\n* Forecast...The river will continue rising to near 403.5 feet by\nthis afternoon. The river will fall below flood stage late this\nafternoon.\n* Impact...At 402.0 feet, the access road into Tailwater Park may be\nimpassable due to high water. The recreational vehicle campground\nnear Rena Road is affected by high water.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KTSA.FL.W.0010.200111T1424Z-200112T0424Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLWTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T22:24:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000798-3395034",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.78,
+                    32.93
+                ],
+                [
+                    -89.55,
+                    32.94
+                ],
+                [
+                    -89.25,
+                    33.449999999999996
+                ],
+                [
+                    -88.67,
+                    33.449999999999996
+                ],
+                [
+                    -88.78,
+                    32.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000798-3395034",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000798-3395034",
+        "areaDesc": "Winston, MS; Noxubee, MS; Oktibbeha, MS; Choctaw, MS; Attala, MS",
+        "geocode": {
+            "UGC": [
+                "MSC159",
+                "MSC103",
+                "MSC105",
+                "MSC019",
+                "MSC007"
+            ],
+            "SAME": [
+                "028159",
+                "028103",
+                "028105",
+                "028019",
+                "028007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC159",
+            "https://api.weather.gov/zones/county/MSC103",
+            "https://api.weather.gov/zones/county/MSC105",
+            "https://api.weather.gov/zones/county/MSC019",
+            "https://api.weather.gov/zones/county/MSC007"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000771-3395011",
+                "identifier": "NWS-IDP-PROD-4000771-3395011",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T08:15:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:26:00-06:00",
+        "effective": "2020-01-11T08:26:00-06:00",
+        "onset": "2020-01-11T08:26:00-06:00",
+        "expires": "2020-01-11T09:00:00-06:00",
+        "ends": "2020-01-11T09:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 8:26AM CST until January 11 at 9:00AM CST by NWS Jackson MS",
+        "description": "At 826 AM CST, severe thunderstorms were located along a line\nextending from near Maben to 6 miles northeast of Zama, moving\nnortheast at 40 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nLouisville and Mcmillan around 850 AM CST.\nMillcreek and Betheden around 900 AM CST.\n\nOther locations impacted by these severe thunderstorms include\nNoxapater, Mccool, Sturgis and Weir.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T08:26:00.000-06:00...storm...246DEG...33KT...33.5,-89.04 33.05,-89.31"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 900 AM CST FOR EASTERN CHOCTAW...WESTERN NOXUBEE...SOUTHERN OKTIBBEHA...EASTERN ATTALA AND WINSTON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0020.000000T0000Z-200111T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T09:00:00-06:00"
+            ]
+        }
+    }
+}
