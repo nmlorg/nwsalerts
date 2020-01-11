@@ -1,0 +1,130 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003108-3397223",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.94,
+                    31.3
+                ],
+                [
+                    -85.08,
+                    31.310000000000002
+                ],
+                [
+                    -84.94,
+                    31.630000000000003
+                ],
+                [
+                    -84.89999999999999,
+                    31.92
+                ],
+                [
+                    -84.70999989999999,
+                    31.92
+                ],
+                [
+                    -84.94,
+                    31.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003108-3397223",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003108-3397223",
+        "areaDesc": "Randolph, GA; Early, GA; Quitman, GA",
+        "geocode": {
+            "UGC": [
+                "GAC243",
+                "GAC099",
+                "GAC239"
+            ],
+            "SAME": [
+                "013243",
+                "013099",
+                "013239"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC243",
+            "https://api.weather.gov/zones/county/GAC099",
+            "https://api.weather.gov/zones/county/GAC239"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003050-3397175",
+                "identifier": "NWS-IDP-PROD-4003050-3397175",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T18:30:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002907-3397032",
+                "identifier": "NWS-IDP-PROD-4002907-3397032",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T17:57:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002836-3396959",
+                "identifier": "NWS-IDP-PROD-4002836-3396959",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T17:38:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T18:49:00-05:00",
+        "effective": "2020-01-11T18:49:00-05:00",
+        "onset": "2020-01-11T18:49:00-05:00",
+        "expires": "2020-01-11T19:15:00-05:00",
+        "ends": "2020-01-11T19:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 6:49PM EST until January 11 at 7:15PM EST by NWS Tallahassee FL",
+        "description": "At 649 PM EST, severe thunderstorms were located along a line\nextending from 7 miles southwest of Weston to near Columbia, moving\neast at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nCuthbert, Blakely, Bellville, Bluffton, Harrisons Mill, Springvale\nStation, Zetto, Peterson Hill, Coles, White House, Randolph Co A/p,\nRock Hill, Ferrell Crossroads, Coleman, Benevolence, Kolomoki Mounds\nSp, Suttons Corner, Springvale and Wades.",
+        "instruction": "A Tornado Watch remains in effect until 900 PM EST for southwestern\nGeorgia.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTo report severe weather contact your nearest law enforcement agency.\nThey will send your report to the National Weather Service office in\nTallahassee.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T18:49:00.000-05:00...storm...251DEG...28KT...31.89,-84.69 31.33,-85.03"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 715 PM EST FOR WESTERN RANDOLPH...NORTHWESTERN EARLY AND SOUTHEASTERN QUITMAN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTAE.SV.W.0006.000000T0000Z-200112T0015Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAESVSTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T19:15:00-05:00"
+            ]
+        }
+    }
+}
