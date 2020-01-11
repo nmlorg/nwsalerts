@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001576-3395733",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.7,
+                    40.8
+                ],
+                [
+                    -85.62,
+                    40.82
+                ],
+                [
+                    -85.41000000000001,
+                    40.69
+                ],
+                [
+                    -85.44000000000001,
+                    40.669999999999995
+                ],
+                [
+                    -85.65,
+                    40.74999999999999
+                ],
+                [
+                    -85.7,
+                    40.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001576-3395733",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001576-3395733",
+        "areaDesc": "Huntington, IN; Wells, IN; Blackford, IN; Jay, IN; Wabash, IN",
+        "geocode": {
+            "UGC": [
+                "INC069",
+                "INC179",
+                "INC009",
+                "INC075",
+                "INC169"
+            ],
+            "SAME": [
+                "018069",
+                "018179",
+                "018009",
+                "018075",
+                "018169"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC069",
+            "https://api.weather.gov/zones/county/INC179",
+            "https://api.weather.gov/zones/county/INC009",
+            "https://api.weather.gov/zones/county/INC075",
+            "https://api.weather.gov/zones/county/INC169"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000786-3395023",
+                "identifier": "NWS-IDP-PROD-4000786-3395023",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:22:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T12:29:00-05:00",
+        "effective": "2020-01-11T12:29:00-05:00",
+        "onset": "2020-01-11T16:00:00-05:00",
+        "expires": "2020-01-12T12:29:00-05:00",
+        "ends": "2020-01-13T20:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 11 at 12:29PM EST until January 13 at 8:30PM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nSalamonie River below Warren affecting Blackford...Huntington...\nJay...Wabash and Wells Counties\n\n.Recent heavy rain has resulted in a rapid rise on the river.\nAdditional runoff from the heavy rain may result in changes\nin crest height and timing. Monitor for updates.\n\nThe Flood Warning has been extended for\nThe Salamonie River below Warren\n* from this afternoon to Monday evening.\n* At 12 PM Saturday the stage was 11.7 feet and rising.\n* Minor flooding is forecast.\n* Flood stage is 12.0 feet.\n* Forecast...The river will rise above flood stage this afternoon\nand crest near 12.6 feet around  7 AM Sunday January 12 before falling\nbelow flood stage around 8 PM Sunday January 12.\n* At 12.0 feet...The river reaches flood stage with minor flooding of\nlow agricultural land and roads nearest the river.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0027.200111T2100Z-200114T0130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T20:30:00-05:00"
+            ]
+        }
+    }
+}

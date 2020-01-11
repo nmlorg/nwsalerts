@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001557-3395715",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.93,
+                    30.99
+                ],
+                [
+                    -88.89,
+                    31
+                ],
+                [
+                    -88.43,
+                    31.12
+                ],
+                [
+                    -88.41000000000001,
+                    30.740000000000002
+                ],
+                [
+                    -88.89000000000001,
+                    30.740000000000002
+                ],
+                [
+                    -88.93,
+                    30.99
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001557-3395715",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001557-3395715",
+        "areaDesc": "Stone, MS; Perry, MS; George, MS; Greene, MS",
+        "geocode": {
+            "UGC": [
+                "MSC131",
+                "MSC111",
+                "MSC039",
+                "MSC041"
+            ],
+            "SAME": [
+                "028131",
+                "028111",
+                "028039",
+                "028041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC131",
+            "https://api.weather.gov/zones/county/MSC111",
+            "https://api.weather.gov/zones/county/MSC039",
+            "https://api.weather.gov/zones/county/MSC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001529-3395690",
+                "identifier": "NWS-IDP-PROD-4001529-3395690",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T11:17:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001452-3395626",
+                "identifier": "NWS-IDP-PROD-4001452-3395626",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:55:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T11:27:00-06:00",
+        "effective": "2020-01-11T11:27:00-06:00",
+        "onset": "2020-01-11T11:27:00-06:00",
+        "expires": "2020-01-11T11:45:00-06:00",
+        "ends": "2020-01-11T11:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 11:27AM CST until January 11 at 11:45AM CST by NWS Mobile AL",
+        "description": "At 1127 AM CST, severe thunderstorms were located along a line\nextending from 7 miles south of McLain to 10 miles northwest of Wade,\nmoving east at 50 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nLucedale.",
+        "instruction": "A Tornado Watch remains in effect until 400 PM CST for southwestern\nAlabama...and southeastern Mississippi.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T11:27:00.000-06:00...storm...264DEG...45KT...31.01,-88.8 30.74,-88.71"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1145 AM CST FOR GEORGE...SOUTHEASTERN PERRY...SOUTHERN GREENE AND NORTHEASTERN STONE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.SV.W.0005.000000T0000Z-200111T1745Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSVSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T11:45:00-06:00"
+            ]
+        }
+    }
+}
