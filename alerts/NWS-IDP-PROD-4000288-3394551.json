@@ -1,0 +1,127 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000288-3394551",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.25,
+                    39.22
+                ],
+                [
+                    -89.25,
+                    39.03
+                ],
+                [
+                    -89.59,
+                    39.03
+                ],
+                [
+                    -89.59,
+                    39
+                ],
+                [
+                    -90.16,
+                    39
+                ],
+                [
+                    -90.16,
+                    39.26
+                ],
+                [
+                    -89.92999999999999,
+                    39.519999999999996
+                ],
+                [
+                    -89.52999999999999,
+                    39.519999999999996
+                ],
+                [
+                    -89.52999999999999,
+                    39.349999999999994
+                ],
+                [
+                    -89.13999999999999,
+                    39.349999999999994
+                ],
+                [
+                    -89.13999999999999,
+                    39.21999999999999
+                ],
+                [
+                    -89.25,
+                    39.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000288-3394551",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000288-3394551",
+        "areaDesc": "Jersey, IL; Macoupin, IL; Montgomery, IL",
+        "geocode": {
+            "UGC": [
+                "ILC083",
+                "ILC117",
+                "ILC135"
+            ],
+            "SAME": [
+                "017083",
+                "017117",
+                "017135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC083",
+            "https://api.weather.gov/zones/county/ILC117",
+            "https://api.weather.gov/zones/county/ILC135"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999316-3393583",
+                "identifier": "NWS-IDP-PROD-3999316-3393583",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:39:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T04:56:00-06:00",
+        "effective": "2020-01-11T04:56:00-06:00",
+        "onset": "2020-01-11T04:56:00-06:00",
+        "expires": "2020-01-11T13:45:00-06:00",
+        "ends": "2020-01-11T13:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 11 at 4:56AM CST until January 11 at 1:45PM CST by NWS St Louis MO",
+        "description": "The National Weather Service in St Louis has extended the\n\n* Flood Warning for...\nMacoupin County in southwestern Illinois...\nNortheastern Jersey County in southwestern Illinois...\nMontgomery County in south central Illinois...\n\n* Until 145 PM CST Saturday.\n\n* At 456 AM CST, Doppler radar and automated rain gauges indicated\nrain continues over areas that saw significant flooding earlier in\nthe night. The rain will cause continued flooding. Up to three\ninches of rain have already fallen.\n\n* Some locations that will experience flooding include...\nLitchfield, Hillsboro, Carlinville, Staunton, Virden, Gillespie,\nNokomis, Brighton, Girard, Mount Olive, Bunker Hill, Benld,\nRaymond, Witt, White Oak, Farmersville, Palmyra, Taylor Springs,\nCoffeen and Shipman.\n\nThis includes Interstate 55 in Illinois between exits 41 and 63.\n\nThis also includes Beaver Dam State Park and Lake Lou Yaeger.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FA.W.0005.000000T0000Z-200111T1945Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLWLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T13:45:00-06:00"
+            ]
+        }
+    }
+}

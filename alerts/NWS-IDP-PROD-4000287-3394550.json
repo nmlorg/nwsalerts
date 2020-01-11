@@ -1,0 +1,175 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000287-3394550",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.31,
+                    37.7
+                ],
+                [
+                    -91.31,
+                    37.790000000000006
+                ],
+                [
+                    -91.53,
+                    37.790000000000006
+                ],
+                [
+                    -91.53,
+                    38.21000000000001
+                ],
+                [
+                    -91.15,
+                    38.20000000000001
+                ],
+                [
+                    -90.8199999,
+                    38.43000000000001
+                ],
+                [
+                    -90.73,
+                    38.52000000000001
+                ],
+                [
+                    -90.73,
+                    38.64000000000001
+                ],
+                [
+                    -90.66000000000001,
+                    38.690000000000005
+                ],
+                [
+                    -90.59000000000002,
+                    38.68000000000001
+                ],
+                [
+                    -90.44000000000001,
+                    38.84
+                ],
+                [
+                    -90.28000000000002,
+                    38.93000000000001
+                ],
+                [
+                    -90.11000000000001,
+                    38.84
+                ],
+                [
+                    -90.20999990000001,
+                    38.720000000000006
+                ],
+                [
+                    -90.18,
+                    38.63
+                ],
+                [
+                    -90.29,
+                    38.43
+                ],
+                [
+                    -90.67,
+                    38.089999999999996
+                ],
+                [
+                    -90.65,
+                    37.739999999999995
+                ],
+                [
+                    -91.14,
+                    37.739999999999995
+                ],
+                [
+                    -91.15,
+                    37.699999999999996
+                ],
+                [
+                    -91.31,
+                    37.7
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000287-3394550",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000287-3394550",
+        "areaDesc": "Crawford, MO; Franklin, MO; Jefferson, MO; St. Louis City, MO; St. Charles, MO; St. Louis, MO; Washington, MO",
+        "geocode": {
+            "UGC": [
+                "MOC055",
+                "MOC071",
+                "MOC099",
+                "MOC510",
+                "MOC183",
+                "MOC189",
+                "MOC221"
+            ],
+            "SAME": [
+                "029055",
+                "029071",
+                "029099",
+                "029510",
+                "029183",
+                "029189",
+                "029221"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC055",
+            "https://api.weather.gov/zones/county/MOC071",
+            "https://api.weather.gov/zones/county/MOC099",
+            "https://api.weather.gov/zones/county/MOC510",
+            "https://api.weather.gov/zones/county/MOC183",
+            "https://api.weather.gov/zones/county/MOC189",
+            "https://api.weather.gov/zones/county/MOC221"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999333-3393602",
+                "identifier": "NWS-IDP-PROD-3999333-3393602",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:49:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T04:56:00-06:00",
+        "effective": "2020-01-11T04:56:00-06:00",
+        "onset": "2020-01-11T04:56:00-06:00",
+        "expires": "2020-01-11T13:45:00-06:00",
+        "ends": "2020-01-11T13:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 11 at 4:56AM CST until January 11 at 1:45PM CST by NWS St Louis MO",
+        "description": "The National Weather Service in St Louis has extended the\n\n* Flood Warning for...\nSt. Louis City in east central Missouri...\nNortheastern St. Charles County in east central Missouri...\nCrawford County in east central Missouri...\nJefferson County in east central Missouri...\nWashington County in east central Missouri...\nSoutheastern Franklin County in east central Missouri...\nSt. Louis County in east central Missouri...\n\n* Until 145 PM CST Saturday.\n\n* At 455 AM CST, Doppler radar and automated rain gauges indicated\nrain continues over areas that saw significant flooding earlier in\nthe night. The rain will cause continued flooding. Up to three\ninches of rain have already fallen.\n\n* Some locations that will experience flooding include...\nSt. Louis, St. Charles, Florissant, Chesterfield, Wildwood,\nUniversity City, Ballwin, Kirkwood, Maryland Heights, Hazelwood,\nWebster Groves, Ferguson, Arnold, Manchester, Creve Coeur,\nOverland, Clayton, Cahokia, Jennings and St. Ann.\n\nThis includes the following highways...\nInterstate 44 in Missouri between exits 203 and 218, and between\nexits 257 and 277.\nInterstate 55 in Missouri between exits 185 and 191.\nInterstate 70 in Missouri between exits 229 and 231.\n\nThis also includes Babler Memorial State Park, Washington State Park,\nScott Joplin Historic Site, Route 66 State Park, Onondaga Cave State\nPark, Castlewood State Park, Confluence State Park, Mastodon Historic\nSite, Dillard Mill Historic Site, Sandy Creek Covered Bridge Historic\nSite, First Missouri State Capitol Historic Site, Robertsville State\nPark, and Meramec State Park.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FA.W.0006.000000T0000Z-200111T1945Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLWLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T13:45:00-06:00"
+            ]
+        }
+    }
+}
