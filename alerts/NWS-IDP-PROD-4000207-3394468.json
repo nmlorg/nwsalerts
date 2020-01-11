@@ -1,0 +1,138 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000207-3394468",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.34,
+                    34.61
+                ],
+                [
+                    -90.19,
+                    34.339999999999996
+                ],
+                [
+                    -90.19,
+                    34.3
+                ],
+                [
+                    -90.16,
+                    34.279999999999994
+                ],
+                [
+                    -90.13,
+                    34.229999899999996
+                ],
+                [
+                    -90.14,
+                    34.13999999999999
+                ],
+                [
+                    -90.66,
+                    34.04999999999999
+                ],
+                [
+                    -90.66,
+                    34.11999999999999
+                ],
+                [
+                    -90.67999999999999,
+                    34.209999999999994
+                ],
+                [
+                    -90.69,
+                    34.43999999999999
+                ],
+                [
+                    -90.34,
+                    34.61
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000207-3394468",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000207-3394468",
+        "areaDesc": "Coahoma, MS; Tunica, MS; Phillips, AR; Quitman, MS",
+        "geocode": {
+            "UGC": [
+                "MSC027",
+                "MSC143",
+                "ARC107",
+                "MSC119"
+            ],
+            "SAME": [
+                "028027",
+                "028143",
+                "005107",
+                "028119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC027",
+            "https://api.weather.gov/zones/county/MSC143",
+            "https://api.weather.gov/zones/county/ARC107",
+            "https://api.weather.gov/zones/county/MSC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000128-3394378",
+                "identifier": "NWS-IDP-PROD-4000128-3394378",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T04:04:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T04:21:00-06:00",
+        "effective": "2020-01-11T04:21:00-06:00",
+        "onset": "2020-01-11T04:21:00-06:00",
+        "expires": "2020-01-11T04:45:00-06:00",
+        "ends": "2020-01-11T04:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 4:21AM CST until January 11 at 4:45AM CST by NWS Memphis TN",
+        "description": "At 421 AM CST, a severe thunderstorm was located over Jonestown, or 8\nmiles northeast of Clarksdale, moving east at 50 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nClarksdale, Marks, Lambert, Jonestown, Friars Point, Crowder, Belen,\nDublin, Darling, Kings, Dubbs, Dundee, Coahoma, Lyon, Lula, Falcon,\nMattson, Gerlach Mill, Counts and Rudyard.",
+        "instruction": "A Tornado Watch remains in effect until 700 AM CST for eastern\nArkansas...and northwestern Mississippi.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T04:21:00.000-06:00...storm...249DEG...43KT...34.28,-90.47"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 445 AM CST FOR EAST CENTRAL PHILLIPS...COAHOMA...SOUTHWESTERN TUNICA AND QUITMAN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMEG.SV.W.0016.000000T0000Z-200111T1045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T04:45:00-06:00"
+            ]
+        }
+    }
+}

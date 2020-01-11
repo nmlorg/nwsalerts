@@ -1,0 +1,80 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000209-3394470",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000209-3394470",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000209-3394470",
+        "areaDesc": "Wasatch Mountain Valleys; Northern Wasatch Front; Cache Valley/Utah Portion",
+        "geocode": {
+            "UGC": [
+                "UTZ006",
+                "UTZ002",
+                "UTZ001"
+            ],
+            "SAME": [
+                "049029",
+                "049043",
+                "049051",
+                "049057",
+                "049003",
+                "049011",
+                "049005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/UTZ006",
+            "https://api.weather.gov/zones/forecast/UTZ002",
+            "https://api.weather.gov/zones/forecast/UTZ001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998158-3392516",
+                "identifier": "NWS-IDP-PROD-3998158-3392516",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T15:00:00-07:00"
+            }
+        ],
+        "sent": "2020-01-11T03:21:00-07:00",
+        "effective": "2020-01-11T03:21:00-07:00",
+        "onset": "2020-01-11T04:00:00-07:00",
+        "expires": "2020-01-11T16:00:00-07:00",
+        "ends": "2020-01-12T10:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Salt Lake City UT",
+        "headline": "Winter Weather Advisory issued January 11 at 3:21AM MST until January 12 at 10:00AM MST by NWS Salt Lake City UT",
+        "description": "* WHAT...Snow expected. Total snow accumulations of 1 to 3 inches\nin the valleys and 2 to 5 inches on the benches and Wasatch\nMountain Valleys, with locally up to 10 inches in the Ogden\nValley.\n\n* WHERE...Wasatch Mountain Valleys, Northern Wasatch Front and\nCache Valley/Utah Portion.\n\n* WHEN...Until 10 AM MST Sunday.\n\n* IMPACTS...Plan on slippery road conditions and occasional\ndifficult travel, especially early Saturday morning north of\nOgden and again Saturday evening.",
+        "instruction": "Slow down and use caution while traveling.\n\nFor graphical depictions of the snowfall forecast, including\nOfficial NWS Forecast, High End Amount, and Low End Amount, visit\nweather.gov/slc/winter.\n\nFor winter road conditions from the Utah Department of\nTransportation, visit\nhttp://www.udottraffic.utah.gov/roadweatherforecast.aspx or dial\n511.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL 10 AM MST SUNDAY"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KSLC.WW.Y.0001.200111T1100Z-200112T1700Z/"
+            ],
+            "PIL": [
+                "SLCWSWSLC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T10:00:00-07:00"
+            ]
+        }
+    }
+}
