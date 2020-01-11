@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998647-3392965",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.9,
+                    35.94
+                ],
+                [
+                    -94.77000000000001,
+                    35.94
+                ],
+                [
+                    -94.81000000000002,
+                    35.78
+                ],
+                [
+                    -94.93000000000002,
+                    35.78
+                ],
+                [
+                    -94.9,
+                    35.94
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998647-3392965",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998647-3392965",
+        "areaDesc": "Cherokee, OK",
+        "geocode": {
+            "UGC": [
+                "OKC021"
+            ],
+            "SAME": [
+                "040021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC021"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997568-3391939",
+                "identifier": "NWS-IDP-PROD-3997568-3391939",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T13:38:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:25:00-06:00",
+        "effective": "2020-01-10T19:25:00-06:00",
+        "onset": "2020-01-11T06:00:00-06:00",
+        "expires": "2020-01-11T03:24:00-06:00",
+        "ends": "2020-01-11T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 10 at 7:25PM CST until January 11 at 12:00PM CST by NWS Tulsa OK",
+        "description": "...The Flood Warning continues for the following rivers in\nOklahoma...\n\nIllinois River near Tahlequah affecting Cherokee County.\n\nFlint Creek near Kansas affecting Cherokee and Delaware Counties.\n\n...The Flood Warning continues for the following rivers in\nOklahoma...\n\nIllinois River near Watts affecting Adair and Delaware Counties.\n\nIllinois River at Chewey affecting Adair...Cherokee and Delaware\nCounties.\n\nBaron Fork River at Eldon affecting Cherokee County.\n\nThe Flood Warning continues for\nThe Baron Fork River at Eldon.\n* from Saturday morning to Saturday afternoon, or until the warning\nis cancelled.\n* At 6:30 PM Friday, the stage was  6.93 feet.\n* Flood stage is 18.0 feet.\n* Forecast...The Baron Fork River at Eldon is expected to rise above\nflood stage Saturday morning and continue to rise to near 18.0 feet\nby Saturday morning. The river is expected to fall below flood\nstage Saturday morning.\n* Impact...At 18.0 feet, minor lowland flooding occurs.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KTSA.FL.W.0009.200111T1200Z-200111T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T12:00:00-06:00"
+            ]
+        }
+    }
+}
