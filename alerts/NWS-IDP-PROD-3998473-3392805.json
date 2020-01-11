@@ -1,0 +1,121 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998473-3392805",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.98,
+                    36.81
+                ],
+                [
+                    -93.06,
+                    37.1
+                ],
+                [
+                    -92.44,
+                    37.27
+                ],
+                [
+                    -92.58,
+                    36.85
+                ],
+                [
+                    -92.78999999999999,
+                    36.800000000000004
+                ],
+                [
+                    -92.98,
+                    36.81
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998473-3392805",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998473-3392805",
+        "areaDesc": "Christian, MO; Webster, MO; Douglas, MO; Wright, MO",
+        "geocode": {
+            "UGC": [
+                "MOC043",
+                "MOC225",
+                "MOC067",
+                "MOC229"
+            ],
+            "SAME": [
+                "029043",
+                "029225",
+                "029067",
+                "029229"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC043",
+            "https://api.weather.gov/zones/county/MOC225",
+            "https://api.weather.gov/zones/county/MOC067",
+            "https://api.weather.gov/zones/county/MOC229"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998439-3392774",
+                "identifier": "NWS-IDP-PROD-3998439-3392774",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:04:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T18:25:00-06:00",
+        "effective": "2020-01-10T18:25:00-06:00",
+        "onset": "2020-01-10T18:25:00-06:00",
+        "expires": "2020-01-10T18:45:00-06:00",
+        "ends": "2020-01-10T18:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 6:25PM CST until January 10 at 6:45PM CST by NWS Springfield MO",
+        "description": "At 624 PM CST, severe thunderstorms were located along a line\nextending from near Rogersville to 12 miles southeast of Sparta to\nnear Taneyville, moving northeast at 55 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nAva...                            Seymour...\nMansfield...                      Hartville...\nRome...                           Squires...\nElkhead...                        Goodhope...\nBruner...                         Keltner...\nDogwood...",
+        "instruction": "A Tornado Watch remains in effect until 200 AM CST for southwestern\nMissouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.\n\nContinuous cloud to ground lightning is occurring with these storms.\nMove indoors immediately. Lightning is one of nature's leading\nkillers. Remember, if you can hear thunder, you are close enough to\nbe struck by lightning.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T18:24:00.000-06:00...storm...235DEG...49KT...37.07,-93.0 36.88,-92.91 36.71,-92.95"
+            ],
+            "hailSize": [
+                0.75
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 645 PM CST FOR SOUTHERN WEBSTER...WESTERN DOUGLAS...SOUTHWESTERN WRIGHT AND EASTERN CHRISTIAN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KSGF.SV.W.0012.000000T0000Z-200111T0045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:45:00-06:00"
+            ]
+        }
+    }
+}
