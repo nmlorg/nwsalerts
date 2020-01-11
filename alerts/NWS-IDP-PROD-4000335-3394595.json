@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000335-3394595",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.7,
+                    34.95
+                ],
+                [
+                    -89.76,
+                    35.07
+                ],
+                [
+                    -89.60000000000001,
+                    35.2299999
+                ],
+                [
+                    -89.45,
+                    35.02
+                ],
+                [
+                    -89.7,
+                    34.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000335-3394595",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000335-3394595",
+        "areaDesc": "Marshall, MS; Fayette, TN; Shelby, TN",
+        "geocode": {
+            "UGC": [
+                "MSC093",
+                "TNC047",
+                "TNC157"
+            ],
+            "SAME": [
+                "028093",
+                "047047",
+                "047157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC093",
+            "https://api.weather.gov/zones/county/TNC047",
+            "https://api.weather.gov/zones/county/TNC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000305-3394570",
+                "identifier": "NWS-IDP-PROD-4000305-3394570",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T05:01:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T05:13:00-06:00",
+        "effective": "2020-01-11T05:13:00-06:00",
+        "onset": "2020-01-11T05:13:00-06:00",
+        "expires": "2020-01-11T05:30:00-06:00",
+        "ends": "2020-01-11T05:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Tornado Warning issued January 11 at 5:13AM CST until January 11 at 5:30AM CST by NWS Memphis TN",
+        "description": "At 512 AM CST, doppler radar indicated a severe thunderstorm\nproducing a tornado was located over Collierville, moving northeast\nat 55 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nCollierville, Germantown, Piperton, Rossville, Fisherville, Kirk,\nElba, Canadaville and Hickory Withe.",
+        "instruction": "TAKE COVER NOW! Move to a storm shelter or an interior room on the\nlowest floor of a sturdy building. Avoid windows. If you are\noutdoors, in a mobile home, or in a vehicle, move to the closest\nsubstantial shelter and protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T05:12:00.000-06:00...storm...231DEG...48KT...35.03,-89.68"
+            ],
+            "hailSize": [
+                0
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 530 AM CST FOR NORTHWESTERN MARSHALL...SOUTHWESTERN FAYETTE AND SOUTHEASTERN SHELBY COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMEG.TO.W.0002.000000T0000Z-200111T1130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T05:30:00-06:00"
+            ]
+        }
+    }
+}
