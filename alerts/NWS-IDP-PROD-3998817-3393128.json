@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998817-3393128",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.1,
+                    39.03
+                ],
+                [
+                    -89.05999999999999,
+                    39.03
+                ],
+                [
+                    -89.08999999999999,
+                    38.85
+                ],
+                [
+                    -89.18999999999998,
+                    38.79
+                ],
+                [
+                    -89.21999999999998,
+                    38.82
+                ],
+                [
+                    -89.1,
+                    39.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998817-3393128",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998817-3393128",
+        "areaDesc": "Fayette, IL",
+        "geocode": {
+            "UGC": [
+                "ILC051"
+            ],
+            "SAME": [
+                "017051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997061-3391507",
+                "identifier": "NWS-IDP-PROD-3997061-3391507",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T09:52:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T20:25:00-06:00",
+        "effective": "2020-01-10T20:25:00-06:00",
+        "onset": "2020-01-10T20:25:00-06:00",
+        "expires": "2020-01-11T20:25:00-06:00",
+        "ends": "2020-01-17T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 10 at 8:25PM CST until January 17 at 6:00AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in Illinois..\n\nKaskaskia River at Vandalia\n\nKaskaskia River at Carlyle TW\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Kaskaskia River at Vandalia\n* until Friday January 17.\n* At  8:00 PM Friday the stage was 18.0 feet.\n* Flood stage is 18.0 feet.\n* Major flooding is forecast.\n* The river is forecast to crest near 27.9 feet by early Sunday\nmorning, then fall below flood stage early Thursday morning.\n* Impact:  At 27.5 feet...Near this level, the left bank levee just\nsouth of the U.S. Highway 51 bridge is overtopped.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLSX.FL.W.0004.000000T0000Z-200117T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T06:00:00-06:00"
+            ]
+        }
+    }
+}
