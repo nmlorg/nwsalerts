@@ -1,0 +1,128 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000704-3394944",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.98,
+                    35.01
+                ],
+                [
+                    -87.98,
+                    35.29
+                ],
+                [
+                    -88.02000000000001,
+                    35.3
+                ],
+                [
+                    -88.01,
+                    35.349999999999994
+                ],
+                [
+                    -87.80000000000001,
+                    35.489999999999995
+                ],
+                [
+                    -87.73000000000002,
+                    35.489999999999995
+                ],
+                [
+                    -87.68000000000002,
+                    35.46999999999999
+                ],
+                [
+                    -87.43000000000002,
+                    35.26999999999999
+                ],
+                [
+                    -87.81000000000002,
+                    34.999999999999986
+                ],
+                [
+                    -87.98,
+                    35.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000704-3394944",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000704-3394944",
+        "areaDesc": "Wayne, TN; Lawrence, TN",
+        "geocode": {
+            "UGC": [
+                "TNC181",
+                "TNC099"
+            ],
+            "SAME": [
+                "047181",
+                "047099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC181",
+            "https://api.weather.gov/zones/county/TNC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000675-3394916",
+                "identifier": "NWS-IDP-PROD-4000675-3394916",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T07:37:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T07:52:00-06:00",
+        "effective": "2020-01-11T07:52:00-06:00",
+        "onset": "2020-01-11T07:52:00-06:00",
+        "expires": "2020-01-11T08:15:00-06:00",
+        "ends": "2020-01-11T08:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 7:52AM CST until January 11 at 8:15AM CST by NWS Nashville TN",
+        "description": "At 752 AM CST, a severe thunderstorm was located 8 miles east of\nOlive Hill, or 10 miles southwest of Waynesboro, moving northeast at\n45 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nWaynesboro, Collinwood, Cypress Inn and Lutts.",
+        "instruction": "A Tornado Watch remains in effect until 100 PM CST for Middle\nTennessee.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T07:52:00.000-06:00...storm...232DEG...37KT...35.22,-87.89"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 815 AM CST FOR WAYNE AND WEST CENTRAL LAWRENCE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOHX.SV.W.0003.000000T0000Z-200111T1415Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T08:15:00-06:00"
+            ]
+        }
+    }
+}
