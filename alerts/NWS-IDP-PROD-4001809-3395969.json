@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001809-3395969",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.36,
+                    37.86
+                ],
+                [
+                    -84.41,
+                    37.9099999
+                ],
+                [
+                    -84.06,
+                    38.080000000000005
+                ],
+                [
+                    -83.97,
+                    37.940000000000005
+                ],
+                [
+                    -84.36,
+                    37.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001809-3395969",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001809-3395969",
+        "areaDesc": "Clark, KY; Fayette, KY; Madison, KY",
+        "geocode": {
+            "UGC": [
+                "KYC049",
+                "KYC067",
+                "KYC151"
+            ],
+            "SAME": [
+                "021049",
+                "021067",
+                "021151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC049",
+            "https://api.weather.gov/zones/county/KYC067",
+            "https://api.weather.gov/zones/county/KYC151"
+        ],
+        "references": [],
+        "sent": "2020-01-11T13:26:00-05:00",
+        "effective": "2020-01-11T13:26:00-05:00",
+        "onset": "2020-01-11T13:26:00-05:00",
+        "expires": "2020-01-11T14:00:00-05:00",
+        "ends": "2020-01-11T14:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 1:26PM EST until January 11 at 2:00PM EST by NWS Louisville KY",
+        "description": "The National Weather Service in Louisville has issued a\n\n* Severe Thunderstorm Warning for...\nCentral Clark County in central Kentucky...\nNorth central Madison County in central Kentucky...\nSoutheastern Fayette County in central Kentucky...\n\n* Until 200 PM EST.\n\n* At 126 PM EST, a severe thunderstorm was located 9 miles southeast\nof Cadentown, moving northeast at 50 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nWinchester, Hootentown, Lyndale, Lisletown, Ruckerville, Locust\nGrove, Hunt, Thomson, Flanagan and Forest Grove.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T13:26:00.000-05:00...storm...240DEG...45KT...37.9,-84.34"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KLMK.SV.W.0019.200111T1826Z-200111T1900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKSVRLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T14:00:00-05:00"
+            ]
+        }
+    }
+}
