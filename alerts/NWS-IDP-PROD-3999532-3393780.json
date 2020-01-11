@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999532-3393780",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91,
+                    39.08
+                ],
+                [
+                    -91.65,
+                    38.4
+                ],
+                [
+                    -92.05000000000001,
+                    38.409999899999995
+                ],
+                [
+                    -91.39000000000001,
+                    39.089999999999996
+                ],
+                [
+                    -91,
+                    39.08
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999532-3393780",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999532-3393780",
+        "areaDesc": "Montgomery, MO; Gasconade, MO; Callaway, MO; Osage, MO; Lincoln, MO; Warren, MO",
+        "geocode": {
+            "UGC": [
+                "MOC139",
+                "MOC073",
+                "MOC027",
+                "MOC151",
+                "MOC113",
+                "MOC219"
+            ],
+            "SAME": [
+                "029139",
+                "029073",
+                "029027",
+                "029151",
+                "029113",
+                "029219"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC139",
+            "https://api.weather.gov/zones/county/MOC073",
+            "https://api.weather.gov/zones/county/MOC027",
+            "https://api.weather.gov/zones/county/MOC151",
+            "https://api.weather.gov/zones/county/MOC113",
+            "https://api.weather.gov/zones/county/MOC219"
+        ],
+        "references": [],
+        "sent": "2020-01-11T00:36:00-06:00",
+        "effective": "2020-01-11T00:36:00-06:00",
+        "onset": "2020-01-11T00:36:00-06:00",
+        "expires": "2020-01-11T06:30:00-06:00",
+        "ends": "2020-01-11T06:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 11 at 12:36AM CST until January 11 at 6:30AM CST by NWS St Louis MO",
+        "description": "The National Weather Service in St Louis has issued a\n\n* Flood Warning for...\nSouthwestern Lincoln County in east central Missouri...\nMontgomery County in east central Missouri...\nEast central Callaway County in central Missouri...\nNortheastern Osage County in central Missouri...\nNorthwestern Warren County in east central Missouri...\nNorthern Gasconade County in east central Missouri...\n\n* Until 630 AM CST.\n\n* At 1231 AM CST, local law enforcement reported multiple roads\nremain underwater across the warned area. Up to three inches of\nrain have already fallen across much of the area, with locally\nhigher amounts.\n\n* Some locations that will experience flooding include...\nMontgomery City, Hermann, Linn, Davis, New Florence, Jonesburg,\nHawk Point, Chamois, Bellflower, Westphalia, Buell, Big Spring,\nMount Sterling, Mineola, Gasconade, High Hill, Rhineland, Morrison,\nTruxton and McKittrick.\n\nThis includes Interstate 70 in Missouri between exits 170 and 183.\n\nThis also includes Deutschheim Historic Site.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLSX.FA.W.0008.200111T0636Z-200111T1230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLWLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T06:30:00-06:00"
+            ]
+        }
+    }
+}
