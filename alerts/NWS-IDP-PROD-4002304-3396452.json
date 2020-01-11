@@ -1,0 +1,123 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002304-3396452",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.58,
+                    34.4799999
+                ],
+                [
+                    -85.58,
+                    34.440000000000005
+                ],
+                [
+                    -85.61,
+                    34.4099999
+                ],
+                [
+                    -85.63,
+                    34.370000000000005
+                ],
+                [
+                    -85.66,
+                    34.36000000000001
+                ],
+                [
+                    -85.7099999,
+                    34.32000000000001
+                ],
+                [
+                    -85.81,
+                    34.42000000000001
+                ],
+                [
+                    -85.67,
+                    34.60000000000001
+                ],
+                [
+                    -85.5699999,
+                    34.77000000000001
+                ],
+                [
+                    -85.51,
+                    34.53000000000001
+                ],
+                [
+                    -85.58,
+                    34.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002304-3396452",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002304-3396452",
+        "areaDesc": "DeKalb, AL",
+        "geocode": {
+            "UGC": [
+                "ALC049"
+            ],
+            "SAME": [
+                "001049"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC049"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002242-3396389",
+                "identifier": "NWS-IDP-PROD-4002242-3396389",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T14:10:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T14:23:00-06:00",
+        "effective": "2020-01-11T14:23:00-06:00",
+        "onset": "2020-01-11T14:23:00-06:00",
+        "expires": "2020-01-11T14:32:00-06:00",
+        "ends": "2020-01-11T14:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Tornado Warning issued January 11 at 2:23PM CST until January 11 at 2:30PM CST by NWS Huntsville AL",
+        "description": "The storm which prompted the warning has moved out of the area.\nTherefore, the warning will be allowed to expire.\n\nA Tornado Watch remains in effect until 800 PM CST for northeastern\nAlabama.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T14:22:00.000-06:00...storm...222DEG...52KT...34.51,-85.53"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR SOUTHEASTERN DEKALB COUNTY WILL EXPIRE AT 230 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KHUN.TO.W.0006.000000T0000Z-200111T2030Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNSVSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T14:30:00-06:00"
+            ]
+        }
+    }
+}

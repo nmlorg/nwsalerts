@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002300-3396448",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.39,
+                    35.49
+                ],
+                [
+                    -94.22,
+                    35.39
+                ],
+                [
+                    -94.22,
+                    35.31
+                ],
+                [
+                    -94.53999999999999,
+                    35.31
+                ],
+                [
+                    -94.53999999999999,
+                    35.400000000000006
+                ],
+                [
+                    -94.39,
+                    35.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002300-3396448",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002300-3396448",
+        "areaDesc": "Sebastian, AR; Crawford, AR",
+        "geocode": {
+            "UGC": [
+                "ARC131",
+                "ARC033"
+            ],
+            "SAME": [
+                "005131",
+                "005033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC131",
+            "https://api.weather.gov/zones/county/ARC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001365-3395540",
+                "identifier": "NWS-IDP-PROD-4001365-3395540",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:29:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T14:22:00-06:00",
+        "effective": "2020-01-11T14:22:00-06:00",
+        "onset": "2020-01-11T14:22:00-06:00",
+        "expires": "2020-01-11T22:22:00-06:00",
+        "ends": "2020-01-12T20:34:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 11 at 2:22PM CST until January 12 at 8:34PM CST by NWS Tulsa OK",
+        "description": "...The Flood Warning continues for the following rivers in\nArkansas...\n\nArkansas River at Van Buren affecting Crawford and Sebastian\nCounties.\n\nArkansas River at Ozark Lock and Dam affecting Franklin...Johnson\nand Logan Counties.\n\nThe Flood Warning continues for\nThe Arkansas River at Van Buren.\n* until Sunday evening, or until the warning is cancelled.\n* At 2:00 PM Saturday, the stage was 22.66 feet.\n* Flood stage is 22.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The Arkansas River at Van Buren will continue rising to\nnear 23.2 feet Sunday before dawn. The river is expected to fall\nbelow flood stage early Sunday afternoon.\n* Impact...At 23.0 feet, minor lowland flooding occurs along the\nshoreline from the I-540 bridge east towards Lavaca.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KTSA.FL.W.0013.000000T0000Z-200113T0234Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T20:34:00-06:00"
+            ]
+        }
+    }
+}

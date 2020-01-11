@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002298",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.92,
+                    36.61
+                ],
+                [
+                    -84.98,
+                    36.62
+                ],
+                [
+                    -85,
+                    36.629999999999995
+                ],
+                [
+                    -85,
+                    36.669999999999995
+                ],
+                [
+                    -84.53,
+                    36.81999999999999
+                ],
+                [
+                    -84.34,
+                    36.669999999999995
+                ],
+                [
+                    -84.51,
+                    36.589999999999996
+                ],
+                [
+                    -84.92,
+                    36.61
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002298",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002298",
+        "areaDesc": "Wayne; McCreary",
+        "geocode": {
+            "UGC": [
+                "KYZ083",
+                "KYZ084"
+            ],
+            "SAME": [
+                "021231",
+                "021147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KYZ083",
+            "https://api.weather.gov/zones/forecast/KYZ084"
+        ],
+        "references": [],
+        "sent": "2020-01-11T15:22:00-05:00",
+        "effective": "2020-01-11T15:22:00-05:00",
+        "onset": "2020-01-11T15:22:00-05:00",
+        "expires": "2020-01-11T16:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Special Weather Statement issued January 11 at 3:22PM EST by NWS Jackson KY",
+        "description": "At 321 PM EST, a strong thunderstorm was located near Jamestown,\nmoving northeast at 50 mph.\n\nWinds in excess of 40 mph are possible with this storm.\n\nLocations impacted include...\nWhitley City, Blue Heron, Parmleysville, Great Meadows Campsites,\nSlavens, Marshes Siding, Burfield, Kidds Crossing, Co-\nOperative, Stearns, Rockeybranch, Pine Knot, Slickford, Griffin,\nMount Pisgah, Strunk and Sunnybrook.\n\nTorrential rainfall is also occurring with this storm, and will\ncause significant ponding of water on area roadways.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T15:21:00.000-05:00...storm...243DEG...43KT...36.49,-84.98"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT SOUTHERN WAYNE AND SOUTHERN MCCREARY COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLSPSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
