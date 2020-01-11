@@ -1,0 +1,123 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999359-3393627",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.6,
+                    30.51
+                ],
+                [
+                    -95.55999999999999,
+                    30.51
+                ],
+                [
+                    -95.90999999999998,
+                    30.17
+                ],
+                [
+                    -95.95999989999999,
+                    30.16
+                ],
+                [
+                    -96.02999999999999,
+                    30.26
+                ],
+                [
+                    -95.95999989999999,
+                    30.42
+                ],
+                [
+                    -95.81999989999998,
+                    30.62
+                ],
+                [
+                    -95.6,
+                    30.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999359-3393627",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999359-3393627",
+        "areaDesc": "Grimes, TX; Waller, TX; Montgomery, TX",
+        "geocode": {
+            "UGC": [
+                "TXC185",
+                "TXC473",
+                "TXC339"
+            ],
+            "SAME": [
+                "048185",
+                "048473",
+                "048339"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC185",
+            "https://api.weather.gov/zones/county/TXC473",
+            "https://api.weather.gov/zones/county/TXC339"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999328-3393596",
+                "identifier": "NWS-IDP-PROD-3999328-3393596",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T22:47:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T23:05:00-06:00",
+        "effective": "2020-01-10T23:05:00-06:00",
+        "onset": "2020-01-10T23:05:00-06:00",
+        "expires": "2020-01-10T23:15:00-06:00",
+        "ends": "2020-01-10T23:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Houston/Galveston TX",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 11:05PM CST until January 10 at 11:15PM CST by NWS Houston/Galveston TX",
+        "description": "At 1104 PM CST, severe thunderstorms were located along a line\nextending from 11 miles north of Montgomery to near Todd Mission,\nmoving east at 25 mph. The portion of the line with the greatest\npotential of producing a tornado has been replaced with Tornado\nWarning 002. See that warning for more details.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nMontgomery, Todd Mission, Plantersville, Richards, Dobbin and Dacus.",
+        "instruction": "A Tornado Watch remains in effect until 400 AM CST for southeastern\nTexas.\n\nA tornado watch remains in effect for the warned area. Tornadoes can\ndevelop quickly from severe thunderstorms. Although a tornado is not\nimmediately likely, if one is spotted act quickly and move to a place\nof safety inside a sturdy structure, such as a basement or small\ninterior room.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T23:04:00.000-06:00...storm...260DEG...22KT...30.56,-95.75 30.19,-95.88"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1115 PM CST FOR SOUTHEASTERN GRIMES...NORTHWESTERN MONTGOMERY AND NORTH CENTRAL WALLER COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KHGX.SV.W.0003.000000T0000Z-200111T0515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HGXSVSHGX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T23:15:00-06:00"
+            ]
+        }
+    }
+}
