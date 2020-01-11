@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998479-3392811",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -99.36,
+                    29.43
+                ],
+                [
+                    -99.06,
+                    29.85
+                ],
+                [
+                    -98.87,
+                    29.76
+                ],
+                [
+                    -99.27000000000001,
+                    29.360000000000003
+                ],
+                [
+                    -99.36,
+                    29.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998479-3392811",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998479-3392811",
+        "areaDesc": "Medina, TX; Bandera, TX",
+        "geocode": {
+            "UGC": [
+                "TXC325",
+                "TXC019"
+            ],
+            "SAME": [
+                "048325",
+                "048019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC325",
+            "https://api.weather.gov/zones/county/TXC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998429-3392763",
+                "identifier": "NWS-IDP-PROD-3998429-3392763",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:58:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998370-3392709",
+                "identifier": "NWS-IDP-PROD-3998370-3392709",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T17:42:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T18:30:00-06:00",
+        "effective": "2020-01-10T18:30:00-06:00",
+        "onset": "2020-01-10T18:30:00-06:00",
+        "expires": "2020-01-10T18:45:00-06:00",
+        "ends": "2020-01-10T18:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 6:30PM CST until January 10 at 6:45PM CST by NWS Austin/San Antonio TX",
+        "description": "At 629 PM CST, a severe thunderstorm was located near Bandera Falls,\nor near Bandera, moving northeast at 40 mph.\n\nHAZARD...Ping pong ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect wind\ndamage to roofs, siding, and trees.\n\nLocations impacted include...\nBandera, Pipe Creek, Bandera Falls, Hill Country State Natural Area,\nKronkosky State Natural Area, Lakehills and Lake Medina Shores.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T18:29:00.000-06:00...storm...221DEG...33KT...29.66,-99.03"
+            ],
+            "hailSize": [
+                1.5
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 645 PM CST FOR NORTHWESTERN MEDINA AND EASTERN BANDERA COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KEWX.SV.W.0005.000000T0000Z-200111T0045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSVSEWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:45:00-06:00"
+            ]
+        }
+    }
+}
