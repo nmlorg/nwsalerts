@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002626-3396735",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.3199999,
+                    32.92
+                ],
+                [
+                    -85.53999999999999,
+                    32.760000000000005
+                ],
+                [
+                    -85.58999999999999,
+                    32.790000000000006
+                ],
+                [
+                    -85.58999999999999,
+                    32.82000000000001
+                ],
+                [
+                    -85.55999999999999,
+                    32.97999990000001
+                ],
+                [
+                    -85.3199999,
+                    32.92
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002626-3396735",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002626-3396735",
+        "areaDesc": "Chambers, AL",
+        "geocode": {
+            "UGC": [
+                "ALC017"
+            ],
+            "SAME": [
+                "001017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002603-3396705",
+                "identifier": "NWS-IDP-PROD-4002603-3396705",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T15:27:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T15:33:00-06:00",
+        "effective": "2020-01-11T15:33:00-06:00",
+        "onset": "2020-01-11T15:33:00-06:00",
+        "expires": "2020-01-11T16:15:00-06:00",
+        "ends": "2020-01-11T16:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Tornado Warning issued January 11 at 3:33PM CST until January 11 at 4:15PM CST by NWS Birmingham AL",
+        "description": "At 333 PM CST, a severe thunderstorm capable of producing a tornado\nwas located over West Chambers, or 7 miles northeast of Camp Hill,\nmoving northeast at 55 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nLafayette, La Fayette, Trammel Crossroads, Ridge Grove and West\nChambers.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T15:33:00.000-06:00...storm...216DEG...47KT...32.85,-85.54"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 415 PM CST FOR SOUTHWESTERN CHAMBERS COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KBMX.TO.W.0007.000000T0000Z-200111T2215Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSVSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T16:15:00-06:00"
+            ]
+        }
+    }
+}

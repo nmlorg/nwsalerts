@@ -1,0 +1,119 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002631-3396737",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.55,
+                    33.11
+                ],
+                [
+                    -85.39999999999999,
+                    33.49
+                ],
+                [
+                    -85.35999999999999,
+                    33.49
+                ],
+                [
+                    -85.34999999999998,
+                    33.5
+                ],
+                [
+                    -85.29999999999998,
+                    33.4799999
+                ],
+                [
+                    -85.22999999999999,
+                    33.11
+                ],
+                [
+                    -85.55,
+                    33.11
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002631-3396737",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002631-3396737",
+        "areaDesc": "Randolph, AL",
+        "geocode": {
+            "UGC": [
+                "ALC111"
+            ],
+            "SAME": [
+                "001111"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC111"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002568-3396670",
+                "identifier": "NWS-IDP-PROD-4002568-3396670",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T15:16:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002434-3396556",
+                "identifier": "NWS-IDP-PROD-4002434-3396556",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T14:48:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T15:34:00-06:00",
+        "effective": "2020-01-11T15:34:00-06:00",
+        "onset": "2020-01-11T15:34:00-06:00",
+        "expires": "2020-01-11T16:00:00-06:00",
+        "ends": "2020-01-11T16:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 3:34PM CST until January 11 at 4:00PM CST by NWS Birmingham AL",
+        "description": "At 334 PM CST, severe thunderstorms were located along a line\nextending from near Mount Zion to near Penton, moving east at 50 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nRoanoke, Wedowee, Woodland, Crystal Lake, Graham, Dickert, Newell,\nNapoleon, Tennant, Rock Mills, Big Springs, Paran, Roanoke Municipal\nAirport and Rock Stand.",
+        "instruction": "A Tornado Watch remains in effect until 800 PM CST for east central\nAlabama.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T15:34:00.000-06:00...storm...252DEG...41KT...33.6,-85.19 33.01,-85.43"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 400 PM CST FOR EASTERN RANDOLPH COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KBMX.SV.W.0022.000000T0000Z-200111T2200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSVSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T16:00:00-06:00"
+            ]
+        }
+    }
+}
