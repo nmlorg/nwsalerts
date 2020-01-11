@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000969-3395185",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.37,
+                    38
+                ],
+                [
+                    -86.44,
+                    38.15
+                ],
+                [
+                    -86.39,
+                    38.18
+                ],
+                [
+                    -86.24,
+                    38.03
+                ],
+                [
+                    -86.37,
+                    38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000969-3395185",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000969-3395185",
+        "areaDesc": "Crawford, IN; Meade, KY",
+        "geocode": {
+            "UGC": [
+                "INC025",
+                "KYC163"
+            ],
+            "SAME": [
+                "018025",
+                "021163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC025",
+            "https://api.weather.gov/zones/county/KYC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000840-3395074",
+                "identifier": "NWS-IDP-PROD-4000840-3395074",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:43:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T10:04:00-05:00",
+        "effective": "2020-01-11T10:04:00-05:00",
+        "onset": "2020-01-11T10:04:00-05:00",
+        "expires": "2020-01-11T10:15:00-05:00",
+        "ends": "2020-01-11T10:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 10:04AM EST until January 11 at 10:15AM EST by NWS Louisville KY",
+        "description": "At 1004 AM EST, a severe thunderstorm was located 9 miles south of\nCarefree Town, moving northeast at 45 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nAlton, Wolf Creek, Lodale, Cape Sandy, Battletown and Andyville.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T10:04:00.000-05:00...storm...244DEG...41KT...38.11,-86.35"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1015 AM EST FOR SOUTHEASTERN CRAWFORD AND NORTHWESTERN MEADE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KLMK.SV.W.0003.000000T0000Z-200111T1515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKSVSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T10:15:00-05:00"
+            ]
+        }
+    }
+}
