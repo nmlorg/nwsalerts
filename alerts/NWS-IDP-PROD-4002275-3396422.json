@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002275-3396422",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.94,
+                    42.6
+                ],
+                [
+                    -82.89999999999999,
+                    42.57
+                ],
+                [
+                    -82.95999989999999,
+                    42.54
+                ],
+                [
+                    -83.08999999999999,
+                    42.62
+                ],
+                [
+                    -83.08999999999999,
+                    42.68
+                ],
+                [
+                    -82.97999999999999,
+                    42.6
+                ],
+                [
+                    -82.94,
+                    42.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002275-3396422",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002275-3396422",
+        "areaDesc": "Macomb, MI",
+        "geocode": {
+            "UGC": [
+                "MIC099"
+            ],
+            "SAME": [
+                "026099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001324-3395500",
+                "identifier": "NWS-IDP-PROD-4001324-3395500",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T11:21:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T15:15:00-05:00",
+        "effective": "2020-01-11T15:15:00-05:00",
+        "onset": "2020-01-11T15:15:00-05:00",
+        "expires": "2020-01-12T05:14:00-05:00",
+        "ends": "2020-01-12T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 11 at 3:15PM EST until January 12 at 1:00PM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nClinton River...Huron River...Kearsley Creek...Lower Rouge\nRiver...Middle Rouge River...North Branch Clinton...River Raisin...\nRouge River...Saginaw River...Shiawassee River\n\n.Rainfall across the area through 3pm has ranged basically between\n2 and 3 inches.  Up to another inch of rain or mix of rain and freezing\nrain, sleet and snow is still possible through tonight.  The forecast\ntakes into account additional rainfall expected. More or less rainfall\nwill effect the actual crests.\n\nA flood warning continues for\nClinton River in Sterling Heights and Clinton Township..\n* From now until further notice.\n* At 2 PM Saturday the stage is 17.3 feet and rising.\n* Flood stage is 16.0 feet.\n* Moderate flooding is occurring and Major flooding is forecast.\n* Forecast is to crest around 19.0 feet this evening.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KDTX.FL.W.0004.000000T0000Z-200112T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T13:00:00-05:00"
+            ]
+        }
+    }
+}

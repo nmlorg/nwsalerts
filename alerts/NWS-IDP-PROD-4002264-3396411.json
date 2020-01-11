@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002264-3396411",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.65,
+                    43.06
+                ],
+                [
+                    -83.5,
+                    43
+                ],
+                [
+                    -83.51,
+                    42.94
+                ],
+                [
+                    -83.65,
+                    43.03
+                ],
+                [
+                    -83.65,
+                    43.06
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002264-3396411",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002264-3396411",
+        "areaDesc": "Genesee, MI",
+        "geocode": {
+            "UGC": [
+                "MIC049"
+            ],
+            "SAME": [
+                "026049"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC049"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001336-3395512",
+                "identifier": "NWS-IDP-PROD-4001336-3395512",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T11:21:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T15:15:00-05:00",
+        "effective": "2020-01-11T15:15:00-05:00",
+        "onset": "2020-01-11T23:48:00-05:00",
+        "expires": "2020-01-12T05:14:00-05:00",
+        "ends": "2020-01-13T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 11 at 3:15PM EST until January 13 at 7:00PM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nClinton River...Huron River...Kearsley Creek...Lower Rouge\nRiver...Middle Rouge River...North Branch Clinton...River Raisin...\nRouge River...Saginaw River...Shiawassee River\n\n.Rainfall across the area through 3pm has ranged basically between\n2 and 3 inches.  Up to another inch of rain or mix of rain and freezing\nrain, sleet and snow is still possible through tonight.  The forecast\ntakes into account additional rainfall expected. More or less rainfall\nwill effect the actual crests.\n\nA flood warning continues for\nKearsley Creek near Davison.\n* From now until further notice.\n* At 2 PM Saturday the stage is 9.3 feet and rising.\n* Flood stage is 10.0 feet.\n* Minor flooding is forecast.\n* Forecast is to rise above flood stage by tonight...\nand crest around 10.4 feet tomorrow morning.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KDTX.FL.W.0013.200112T0448Z-200114T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T19:00:00-05:00"
+            ]
+        }
+    }
+}
