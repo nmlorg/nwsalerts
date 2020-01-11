@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000067-3394314",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.76,
+                    35.97
+                ],
+                [
+                    -90.45,
+                    35.96
+                ],
+                [
+                    -90.61,
+                    35.7
+                ],
+                [
+                    -90.92,
+                    35.71
+                ],
+                [
+                    -90.76,
+                    35.97
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000067-3394314",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000067-3394314",
+        "areaDesc": "Craighead, AR",
+        "geocode": {
+            "UGC": [
+                "ARC031"
+            ],
+            "SAME": [
+                "005031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC031"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999729-3393984",
+                "identifier": "NWS-IDP-PROD-3999729-3393984",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T02:22:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T03:48:00-06:00",
+        "effective": "2020-01-11T03:48:00-06:00",
+        "onset": "2020-01-11T03:48:00-06:00",
+        "expires": "2020-01-11T05:15:00-06:00",
+        "ends": "2020-01-11T05:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flash Flood Warning issued January 11 at 3:48AM CST until January 11 at 5:15AM CST by NWS Memphis TN",
+        "description": "At 347 AM CST, flooding continued across portions of central\nCraighead County. Around 2 inches of rain fell in a brief period of\ntime, inundating some low-lying roads, making them impassable. Light\nto moderate rain will continue through the remainder of the night\nbut floodwaters are expected to gradually recede.\n\nHAZARD...Flash flooding caused by heavy rain.\n\nSOURCE...Radar indicated.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other drainage\nand low lying areas.\n\nSome locations that will experience flooding include...\nJonesboro, Bono, Bay, Brookland, Hergett, Apt, Herman, Valley View,\nFarrville, Gilkerson, Otwell, Cary, Herndon, Goobertown, Needham and\nCraighead Forest Park.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nExcessive runoff from heavy rainfall will cause flooding of small\ncreeks and streams, urban areas, highways, streets and underpasses as\nwell as other drainage areas and low lying spots.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 515 AM CST FOR CENTRAL CRAIGHEAD COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KMEG.FF.W.0001.000000T0000Z-200111T1115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFFSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T05:15:00-06:00"
+            ]
+        }
+    }
+}
