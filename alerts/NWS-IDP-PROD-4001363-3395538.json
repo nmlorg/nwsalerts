@@ -1,0 +1,123 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001363-3395538",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.97,
+                    36.85
+                ],
+                [
+                    -86.01,
+                    36.9099999
+                ],
+                [
+                    -86.02000000000001,
+                    37.010000000000005
+                ],
+                [
+                    -86.06999990000001,
+                    37.06
+                ],
+                [
+                    -86.05000000000001,
+                    37.190000000000005
+                ],
+                [
+                    -85.78000000000002,
+                    37.43000000000001
+                ],
+                [
+                    -85.75000000000001,
+                    36.86000000000001
+                ],
+                [
+                    -85.97,
+                    36.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001363-3395538",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001363-3395538",
+        "areaDesc": "Hart, KY; Barren, KY",
+        "geocode": {
+            "UGC": [
+                "KYC099",
+                "KYC009"
+            ],
+            "SAME": [
+                "021099",
+                "021009"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC099",
+            "https://api.weather.gov/zones/county/KYC009"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001313-3395491",
+                "identifier": "NWS-IDP-PROD-4001313-3395491",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:17:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T10:28:00-06:00",
+        "effective": "2020-01-11T10:28:00-06:00",
+        "onset": "2020-01-11T10:28:00-06:00",
+        "expires": "2020-01-11T10:45:00-06:00",
+        "ends": "2020-01-11T10:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 10:28AM CST until January 11 at 10:45AM CST by NWS Louisville KY",
+        "description": "At 1028 AM CST, severe thunderstorms were from 6 miles southwest of\nMunfordville to near Glasgow to 17 miles northeast of Scottsville,\nmoving northeast at 70 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nGlasgow, Munfordville, Horse Cave, Cave City, Park City, Eighty\nEight, Rowletts, Logsdon Valley, Coral Hill, and Pritchardsville.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T10:28:00.000-06:00...storm...217DEG...66KT...37.21,-85.97 37.03,-85.92 36.91,-85.95"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1045 AM CST FOR CENTRAL HART AND BARREN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KLMK.SV.W.0012.000000T0000Z-200111T1645Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKSVSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T10:45:00-06:00"
+            ]
+        }
+    }
+}

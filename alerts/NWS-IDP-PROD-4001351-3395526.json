@@ -1,0 +1,120 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001351-3395526",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.35,
+                    31.34
+                ],
+                [
+                    -89.14999999999999,
+                    31.81
+                ],
+                [
+                    -88.94,
+                    31.83
+                ],
+                [
+                    -88.94,
+                    31.439999999999998
+                ],
+                [
+                    -89.14,
+                    31.429999999999996
+                ],
+                [
+                    -89.14,
+                    30.909999999999997
+                ],
+                [
+                    -89.34,
+                    30.909999999999997
+                ],
+                [
+                    -89.35,
+                    31.34
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001351-3395526",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001351-3395526",
+        "areaDesc": "Forrest, MS; Jones, MS",
+        "geocode": {
+            "UGC": [
+                "MSC035",
+                "MSC067"
+            ],
+            "SAME": [
+                "028035",
+                "028067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC035",
+            "https://api.weather.gov/zones/county/MSC067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001188-3395381",
+                "identifier": "NWS-IDP-PROD-4001188-3395381",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:49:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T10:26:00-06:00",
+        "effective": "2020-01-11T10:26:00-06:00",
+        "onset": "2020-01-11T10:26:00-06:00",
+        "expires": "2020-01-11T10:45:00-06:00",
+        "ends": "2020-01-11T10:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 10:26AM CST until January 11 at 10:45AM CST by NWS Jackson MS",
+        "description": "At 1025 AM CST, severe thunderstorms were located along a line\nextending from Tuckers Crossing to near Mclaurin, moving northeast at\n45 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nTuckers Crossing around 1030 AM CST.\nMill Creek and Macedonia around 1040 AM CST.\n\nOther locations impacted by these severe thunderstorms include\nCorinth.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T10:25:00.000-06:00...storm...244DEG...39KT...31.62,-89.09 31.22,-89.28"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1045 AM CST FOR FORREST AND JONES COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0028.000000T0000Z-200111T1645Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T10:45:00-06:00"
+            ]
+        }
+    }
+}
