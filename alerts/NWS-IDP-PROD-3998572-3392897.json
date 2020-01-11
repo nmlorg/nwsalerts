@@ -1,0 +1,129 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998572-3392897",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.48,
+                    37.33
+                ],
+                [
+                    -92.47,
+                    37.4
+                ],
+                [
+                    -92.44,
+                    37.65
+                ],
+                [
+                    -92.41,
+                    37.71
+                ],
+                [
+                    -92.25,
+                    37.64
+                ],
+                [
+                    -92.25,
+                    37.26
+                ],
+                [
+                    -92.44,
+                    37.22
+                ],
+                [
+                    -92.48,
+                    37.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998572-3392897",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998572-3392897",
+        "areaDesc": "Wright, MO; Laclede, MO",
+        "geocode": {
+            "UGC": [
+                "MOC229",
+                "MOC105"
+            ],
+            "SAME": [
+                "029229",
+                "029105"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC229",
+            "https://api.weather.gov/zones/county/MOC105"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998509-3392838",
+                "identifier": "NWS-IDP-PROD-3998509-3392838",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:47:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998476-3392808",
+                "identifier": "NWS-IDP-PROD-3998476-3392808",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:29:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:05:00-06:00",
+        "effective": "2020-01-10T19:05:00-06:00",
+        "onset": "2020-01-10T19:05:00-06:00",
+        "expires": "2020-01-10T19:15:00-06:00",
+        "ends": "2020-01-10T19:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 7:05PM CST until January 10 at 7:15PM CST by NWS Springfield MO",
+        "description": "At 705 PM CST, severe thunderstorms were located along a line\nextending from near Freeburg to near Dixon to 7 miles northeast of\nFort Leonard Wood to 14 miles northwest of Houston, moving east at 80\nmph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nDawson...                         Competition...\nManes...                          Lynchburg...\nGraff...                          Falcon...",
+        "instruction": "A Tornado Watch remains in effect until 200 AM CST for south central\nand southwestern Missouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T19:05:00.000-06:00...storm...270DEG...70KT...38.3,-92.03 37.92,-92.07 37.76,-92.04 37.47,-92.15"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 715 PM CST FOR NORTHEASTERN WRIGHT AND SOUTHEASTERN LACLEDE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KSGF.SV.W.0013.000000T0000Z-200111T0115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:15:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998575",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.39,
+                    33.4
+                ],
+                [
+                    -96.38,
+                    33.339999999999996
+                ],
+                [
+                    -96.3,
+                    33.349999999999994
+                ],
+                [
+                    -96.3,
+                    32.81999999999999
+                ],
+                [
+                    -96.8199999,
+                    32.78999999999999
+                ],
+                [
+                    -96.86,
+                    32.96999999999999
+                ],
+                [
+                    -96.97,
+                    33.21999999999999
+                ],
+                [
+                    -96.84,
+                    33.40999989999999
+                ],
+                [
+                    -96.39,
+                    33.4
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998575",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998575",
+        "areaDesc": "Rockwall; Denton; Collin; Dallas",
+        "geocode": {
+            "UGC": [
+                "TXZ120",
+                "TXZ103",
+                "TXZ104",
+                "TXZ119"
+            ],
+            "SAME": [
+                "048397",
+                "048121",
+                "048085",
+                "048113"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TXZ120",
+            "https://api.weather.gov/zones/forecast/TXZ103",
+            "https://api.weather.gov/zones/forecast/TXZ104",
+            "https://api.weather.gov/zones/forecast/TXZ119"
+        ],
+        "references": [],
+        "sent": "2020-01-10T19:06:00-06:00",
+        "effective": "2020-01-10T19:06:00-06:00",
+        "onset": "2020-01-10T19:06:00-06:00",
+        "expires": "2020-01-10T20:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Special Weather Statement issued January 10 at 7:06PM CST by NWS Fort Worth TX",
+        "description": "At 705 PM CST, Doppler radar was tracking strong thunderstorms along\na line extending from near Frisco to Dallas. Movement was east at 35\nmph.\n\nNickel size hail and wind gusts of 55 mph will be possible with\nthese storms.\n\nLocations impacted include...\nDallas, Plano, Garland, Mesquite, McKinney, Carrollton, Frisco,\nRichardson, Lewisville, Allen, Rowlett, Wylie, Rockwall, The Colony,\nFarmers Branch, University Park, Sachse, Addison, Highland Park and\nDallas Love Field.",
+        "instruction": "These storms may intensify, so closely monitor for additional\ninformation or possible warnings from the National Weather Service.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T19:05:00.000-06:00...storm...251DEG...29KT...33.18,-96.81 32.81,-96.74"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR ROCKWALL...SOUTHEASTERN DENTON... COLLIN AND NORTHEASTERN DALLAS COUNTIES UNTIL 800 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDSPSFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
