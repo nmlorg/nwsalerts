@@ -1,0 +1,136 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999568-3393816",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.54,
+                    30.03
+                ],
+                [
+                    -94.60000000000001,
+                    29.78
+                ],
+                [
+                    -94.75000000000001,
+                    29.450000000000003
+                ],
+                [
+                    -95.13000000000001,
+                    29.44
+                ],
+                [
+                    -94.93,
+                    29.860000000000003
+                ],
+                [
+                    -94.66000000000001,
+                    30.280000000000005
+                ],
+                [
+                    -94.60000000000001,
+                    30.110000000000003
+                ],
+                [
+                    -94.53000000000002,
+                    30.110000000000003
+                ],
+                [
+                    -94.54,
+                    30.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999568-3393816",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999568-3393816",
+        "areaDesc": "Chambers, TX; Galveston, TX; Liberty, TX; Harris, TX",
+        "geocode": {
+            "UGC": [
+                "TXC071",
+                "TXC167",
+                "TXC291",
+                "TXC201"
+            ],
+            "SAME": [
+                "048071",
+                "048167",
+                "048291",
+                "048201"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC071",
+            "https://api.weather.gov/zones/county/TXC167",
+            "https://api.weather.gov/zones/county/TXC291",
+            "https://api.weather.gov/zones/county/TXC201"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999508-3393764",
+                "identifier": "NWS-IDP-PROD-3999508-3393764",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T00:23:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999550-3393798",
+                "identifier": "NWS-IDP-PROD-3999550-3393798",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T00:48:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T01:04:00-06:00",
+        "effective": "2020-01-11T01:04:00-06:00",
+        "onset": "2020-01-11T01:04:00-06:00",
+        "expires": "2020-01-11T01:15:00-06:00",
+        "ends": "2020-01-11T01:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Houston/Galveston TX",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 1:04AM CST until January 11 at 1:15AM CST by NWS Houston/Galveston TX",
+        "description": "At 103 AM CST, severe thunderstorms were located along a line\nextending from 10 miles northwest of Ebenezer to near Warren to\nBatson to Ames to Cove to near Shoreacres, moving east at 35 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...These storms have a history of damage reports from law\nenforcement and the public.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nSoutheastern Pasadena, eastern League City, Baytown, Texas City, La\nPorte, Dickinson, Seabrook, Liberty, Beach City, Kemah, Nassau Bay,\nMont Belvieu, Taylor Lake Village, El Lago, Anahuac, Shoreacres, Old\nRiver-Winfree, Clear Lake Shores, Ames and Daisetta.",
+        "instruction": "A Tornado Watch remains in effect until 400 AM CST for southeastern\nTexas.\n\nA tornado watch remains in effect for the warned area. Tornadoes can\ndevelop quickly from severe thunderstorms. Although a tornado is not\nimmediately likely, if one is spotted act quickly and move to a place\nof safety inside a sturdy structure, such as a basement or small\ninterior room.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T01:03:00.000-06:00...storm...260DEG...32KT...31.17,-94.26 30.67,-94.43 30.25,-94.58 30.03,-94.71 29.8,-94.8 29.57,-94.92"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 115 AM CST FOR NORTHWESTERN GALVESTON...WESTERN CHAMBERS...SOUTHEASTERN LIBERTY AND SOUTHEASTERN HARRIS COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KHGX.SV.W.0007.000000T0000Z-200111T0715Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HGXSVSHGX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T01:15:00-06:00"
+            ]
+        }
+    }
+}
