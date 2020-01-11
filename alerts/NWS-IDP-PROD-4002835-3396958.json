@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002835-3396958",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.74,
+                    31
+                ],
+                [
+                    -85.17,
+                    31
+                ],
+                [
+                    -85.81,
+                    30.14
+                ],
+                [
+                    -86.12,
+                    30.27
+                ],
+                [
+                    -85.74,
+                    31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002835-3396958",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002835-3396958",
+        "areaDesc": "Washington, FL; Bay, FL; Walton, FL; Holmes, FL; Jackson, FL",
+        "geocode": {
+            "UGC": [
+                "FLC133",
+                "FLC005",
+                "FLC131",
+                "FLC059",
+                "FLC063"
+            ],
+            "SAME": [
+                "012133",
+                "012005",
+                "012131",
+                "012059",
+                "012063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC133",
+            "https://api.weather.gov/zones/county/FLC005",
+            "https://api.weather.gov/zones/county/FLC131",
+            "https://api.weather.gov/zones/county/FLC059",
+            "https://api.weather.gov/zones/county/FLC063"
+        ],
+        "references": [],
+        "sent": "2020-01-11T16:38:00-06:00",
+        "effective": "2020-01-11T16:38:00-06:00",
+        "onset": "2020-01-11T16:38:00-06:00",
+        "expires": "2020-01-11T17:45:00-06:00",
+        "ends": "2020-01-11T17:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 4:38PM CST until January 11 at 5:45PM CST by NWS Tallahassee FL",
+        "description": "The National Weather Service in Tallahassee has issued a\n\n* Severe Thunderstorm Warning for...\nWestern Jackson County in the Panhandle of Florida...\nNorthwestern Bay County in the Panhandle of Florida...\nSoutheastern Walton County in the Panhandle of Florida...\nCentral Holmes County in the Panhandle of Florida...\nWashington County in the Panhandle of Florida...\n\n* Until 545 PM CST.\n\n* At 438 PM CST, severe thunderstorms were located along a line\nextending from 9 miles southeast of Geneva to 19 miles south of\nSanta Rosa Beach, moving east at 35 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nPanama City Beach, Vernon, Chipley, Graceville, Bonifay, Bradford,\nLive Oak, Cottondale, Alford, Caryville, Wausau, Esto, Westville,\nEbro, Campbellton, Noma, Black, Whitehead Crossroads, Gulf Resort\nBeach and West Panama City.",
+        "instruction": "A Tornado Watch remains in effect until 800 PM CST for southeastern\nAlabama...and the Panhandle of Florida.\n\nRemain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T16:38:00.000-06:00...storm...259DEG...31KT...30.93,-85.79 30.1,-86.23"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KTAE.SV.W.0005.200111T2238Z-200111T2345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAESVRTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T17:45:00-06:00"
+            ]
+        }
+    }
+}
