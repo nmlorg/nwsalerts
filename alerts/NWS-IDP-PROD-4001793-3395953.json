@@ -1,0 +1,136 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001793-3395953",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.3199999,
+                    33.51
+                ],
+                [
+                    -87.27,
+                    33.51
+                ],
+                [
+                    -87.27,
+                    33.53
+                ],
+                [
+                    -87.25999999999999,
+                    33.53
+                ],
+                [
+                    -87.25999999999999,
+                    33.52
+                ],
+                [
+                    -87.24999999999999,
+                    33.52
+                ],
+                [
+                    -87.23999999999998,
+                    33.53
+                ],
+                [
+                    -87.09999999999998,
+                    33.53
+                ],
+                [
+                    -87.08999999999997,
+                    33.43
+                ],
+                [
+                    -87.25999999999998,
+                    33.32
+                ],
+                [
+                    -87.37999999999998,
+                    33.39
+                ],
+                [
+                    -87.3199999,
+                    33.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001793-3395953",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001793-3395953",
+        "areaDesc": "Jefferson, AL; Tuscaloosa, AL",
+        "geocode": {
+            "UGC": [
+                "ALC073",
+                "ALC125"
+            ],
+            "SAME": [
+                "001073",
+                "001125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC073",
+            "https://api.weather.gov/zones/county/ALC125"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001733-3395892",
+                "identifier": "NWS-IDP-PROD-4001733-3395892",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T12:08:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T12:20:00-06:00",
+        "effective": "2020-01-11T12:20:00-06:00",
+        "onset": "2020-01-11T12:20:00-06:00",
+        "expires": "2020-01-11T12:45:00-06:00",
+        "ends": "2020-01-11T12:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Tornado Warning issued January 11 at 12:20PM CST until January 11 at 12:45PM CST by NWS Birmingham AL",
+        "description": "At 1219 PM CST, a severe thunderstorm capable of producing a tornado\nwas located over Bull City, or 15 miles west of Hueytown, moving\nnortheast at 50 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nBull City and Little Shoal.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T12:19:00.000-06:00...storm...220DEG...46KT...33.43,-87.27"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 1245 PM CST FOR NORTHEASTERN TUSCALOOSA AND WEST CENTRAL JEFFERSON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KBMX.TO.W.0005.000000T0000Z-200111T1845Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSVSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T12:45:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001784-3395944",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001784-3395944",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001784-3395944",
+        "areaDesc": "Robertson, KY; Bracken, KY; Clermont, OH; Pendleton, KY",
+        "geocode": {
+            "UGC": [
+                "KYC201",
+                "KYC023",
+                "OHC025",
+                "KYC191"
+            ],
+            "SAME": [
+                "021201",
+                "021023",
+                "039025",
+                "021191"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC201",
+            "https://api.weather.gov/zones/county/KYC023",
+            "https://api.weather.gov/zones/county/OHC025",
+            "https://api.weather.gov/zones/county/KYC191"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000833-3395068",
+                "identifier": "NWS-IDP-PROD-4000833-3395068",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:39:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T13:19:00-05:00",
+        "effective": "2020-01-11T13:19:00-05:00",
+        "onset": "2020-01-11T13:19:00-05:00",
+        "expires": "2020-01-11T17:00:00-05:00",
+        "ends": "2020-01-11T17:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Severe Thunderstorm Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Severe Thunderstorm Watch issued January 11 at 1:19PM EST until January 11 at 5:00PM EST by NWS Wilmington OH",
+        "description": "SEVERE THUNDERSTORM WATCH 14 REMAINS VALID UNTIL 5 PM EST THIS\nAFTERNOON FOR THE FOLLOWING AREAS\n\nIN KENTUCKY THIS WATCH INCLUDES 3 COUNTIES\n\nIN NORTHERN KENTUCKY\n\nBRACKEN               PENDLETON             ROBERTSON\n\nIN OHIO THIS WATCH INCLUDES 1 COUNTY\n\nIN SOUTHWEST OHIO\n\nCLERMONT\n\nTHIS INCLUDES THE CITIES OF AUGUSTA, BROOKSVILLE, BUTLER,\nFALMOUTH, MILFORD, AND MOUNT OLIVET.",
+        "instruction": null,
+        "response": "Monitor",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILN.SV.A.0014.000000T0000Z-200111T2200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNWCNILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T17:00:00-05:00"
+            ]
+        }
+    }
+}
