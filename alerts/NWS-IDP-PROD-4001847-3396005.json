@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001847-3396005",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.2099999,
+                    37.89
+                ],
+                [
+                    -84.24,
+                    37.97
+                ],
+                [
+                    -84.05,
+                    38.06
+                ],
+                [
+                    -83.97,
+                    37.940000000000005
+                ],
+                [
+                    -84.2099999,
+                    37.89
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001847-3396005",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001847-3396005",
+        "areaDesc": "Clark, KY",
+        "geocode": {
+            "UGC": [
+                "KYC049"
+            ],
+            "SAME": [
+                "021049"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC049"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001809-3395969",
+                "identifier": "NWS-IDP-PROD-4001809-3395969",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:26:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T13:36:00-05:00",
+        "effective": "2020-01-11T13:36:00-05:00",
+        "onset": "2020-01-11T13:36:00-05:00",
+        "expires": "2020-01-11T14:00:00-05:00",
+        "ends": "2020-01-11T14:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 1:36PM EST until January 11 at 2:00PM EST by NWS Louisville KY",
+        "description": "At 136 PM EST, a severe thunderstorm was located over Winchester,\nmoving northeast at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nWinchester, Lyndale, Ruckerville, Hunt, Thomson, Flanagan, Forest\nGrove, Hedges, Pilot View and Haggard.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T13:36:00.000-05:00...storm...239DEG...46KT...37.97,-84.17"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 200 PM EST FOR CENTRAL CLARK COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KLMK.SV.W.0019.000000T0000Z-200111T1900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKSVSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T14:00:00-05:00"
+            ]
+        }
+    }
+}

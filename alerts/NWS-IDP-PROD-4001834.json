@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001834",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.84,
+                    37.26
+                ],
+                [
+                    -83.88000000000001,
+                    36.89
+                ],
+                [
+                    -84.49000000000001,
+                    36.88
+                ],
+                [
+                    -84.38000000000001,
+                    37.220000000000006
+                ],
+                [
+                    -83.84,
+                    37.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001834",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001834",
+        "areaDesc": "Knox; Whitley; Pulaski; Rockcastle; Laurel; McCreary; Clay",
+        "geocode": {
+            "UGC": [
+                "KYZ086",
+                "KYZ085",
+                "KYZ079",
+                "KYZ068",
+                "KYZ080",
+                "KYZ084",
+                "KYZ116"
+            ],
+            "SAME": [
+                "021121",
+                "021235",
+                "021199",
+                "021203",
+                "021125",
+                "021147",
+                "021051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KYZ086",
+            "https://api.weather.gov/zones/forecast/KYZ085",
+            "https://api.weather.gov/zones/forecast/KYZ079",
+            "https://api.weather.gov/zones/forecast/KYZ068",
+            "https://api.weather.gov/zones/forecast/KYZ080",
+            "https://api.weather.gov/zones/forecast/KYZ084",
+            "https://api.weather.gov/zones/forecast/KYZ116"
+        ],
+        "references": [],
+        "sent": "2020-01-11T13:34:00-05:00",
+        "effective": "2020-01-11T13:34:00-05:00",
+        "onset": "2020-01-11T13:34:00-05:00",
+        "expires": "2020-01-11T14:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Special Weather Statement issued January 11 at 1:34PM EST by NWS Jackson KY",
+        "description": "At 134 PM EST, radar indicated showers were located along a line\nextending from Pongo to near Greenwood. Movement was northeast at 55\nmph.\n\nWind gusts up to 50 mph are possible with these showers.\n\nLocations impacted include...\nLondon, Grace, Fariston, Pittsburg, Lake, Moore Hill, Cane Creek,\nFogertown, Mount Victory, North Corbin, Jarvis, Bush, Cranes Nest,\nHightop, Bark Camp, Byron, Gray, Holly Bay Rec. Area, East Bernstadt\nand Billows.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T13:34:00.000-05:00...storm...247DEG...48KT...37.23,-84.31 36.92,-84.42"
+            ],
+            "NWSheadline": [
+                "A LINE OF SHOWERS WILL AFFECT LAUREL...NORTHWESTERN KNOX... SOUTHEASTERN PULASKI...NORTHEASTERN MCCREARY...SOUTH CENTRAL ROCKCASTLE...NORTHWESTERN WHITLEY AND WEST CENTRAL CLAY COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLSPSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
