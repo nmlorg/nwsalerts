@@ -1,0 +1,130 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000829-3395064",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.7099999,
+                    35
+                ],
+                [
+                    -87.2099999,
+                    35
+                ],
+                [
+                    -87.2099999,
+                    34.84
+                ],
+                [
+                    -87.25,
+                    34.790000000000006
+                ],
+                [
+                    -87.28,
+                    34.78000000000001
+                ],
+                [
+                    -87.26,
+                    34.75000000000001
+                ],
+                [
+                    -87.37,
+                    34.56000000000001
+                ],
+                [
+                    -87.94,
+                    34.58000000000001
+                ],
+                [
+                    -87.7099999,
+                    35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000829-3395064",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4000829-3395064",
+        "areaDesc": "Lauderdale, AL; Colbert, AL; Lawrence, AL",
+        "geocode": {
+            "UGC": [
+                "ALC077",
+                "ALC033",
+                "ALC079"
+            ],
+            "SAME": [
+                "001077",
+                "001033",
+                "001079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC077",
+            "https://api.weather.gov/zones/county/ALC033",
+            "https://api.weather.gov/zones/county/ALC079"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000742-3394982",
+                "identifier": "NWS-IDP-PROD-4000742-3394982",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T08:07:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T08:38:00-06:00",
+        "effective": "2020-01-11T08:38:00-06:00",
+        "onset": "2020-01-11T08:38:00-06:00",
+        "expires": "2020-01-11T09:15:00-06:00",
+        "ends": "2020-01-11T09:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 8:38AM CST until January 11 at 9:15AM CST by NWS Huntsville AL",
+        "description": "At 838 AM CST, severe thunderstorms were located along a line\nextending from near Loretto to near Littleville, moving east at 25\nmph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nFlorence, Muscle Shoals, Sheffield, Tuscumbia, Rogersville, Killen,\nTown Creek, Littleville, Lexington and Leighton.",
+        "instruction": "A Tornado Watch remains in effect until 100 PM CST for north central\nand northwestern Alabama.\n\nRemain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T08:38:00.000-06:00...storm...259DEG...20KT...35.06,-87.51 34.61,-87.73"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 915 AM CST FOR LAUDERDALE...SOUTHEASTERN COLBERT AND NORTHWESTERN LAWRENCE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KHUN.SV.W.0003.000000T0000Z-200111T1515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNSVSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T09:15:00-06:00"
+            ]
+        }
+    }
+}
