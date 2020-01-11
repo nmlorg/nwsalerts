@@ -1,0 +1,112 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998538-3392867",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -99.37,
+                    28.98
+                ],
+                [
+                    -99.38000000000001,
+                    29.23
+                ],
+                [
+                    -98.81000000000002,
+                    29.61
+                ],
+                [
+                    -98.80000000000001,
+                    29.21
+                ],
+                [
+                    -99.20999990000001,
+                    28.98
+                ],
+                [
+                    -99.37,
+                    28.98
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998538-3392867",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998538-3392867",
+        "areaDesc": "Medina, TX; Frio, TX",
+        "geocode": {
+            "UGC": [
+                "TXC325",
+                "TXC163"
+            ],
+            "SAME": [
+                "048325",
+                "048163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC325",
+            "https://api.weather.gov/zones/county/TXC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998534-3392863",
+                "identifier": "NWS-IDP-PROD-3998534-3392863",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:52:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T18:54:00-06:00",
+        "effective": "2020-01-10T18:54:00-06:00",
+        "onset": "2020-01-10T18:54:00-06:00",
+        "expires": "2020-01-10T19:30:00-06:00",
+        "ends": "2020-01-10T19:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 6:54PM CST until January 10 at 7:30PM CST by NWS Austin/San Antonio TX",
+        "description": "At 654 PM CST, a severe thunderstorm was located 7 miles northwest of\nYancey, or 9 miles southwest of Hondo, moving northeast at 35 mph.\n\nHAZARD...Two inch hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect wind\ndamage to roofs, siding, and trees.\n\nLocations impacted include...\nHondo, Devine, Castroville, Lytle, Natalia, Lacoste, Cliff, Noonan,\nNew Fountain, Dunlay, Quihi, Biry, Pearson, Yancey, Bader, Rio\nMedina, Frio Town and Government Canyon State Natural Area.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T18:54:00.000-06:00...storm...228DEG...31KT...29.22,-99.21"
+            ],
+            "hailSize": [
+                2
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 730 PM CST FOR SOUTHERN MEDINA AND NORTHWESTERN FRIO COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KEWX.SV.W.0008.000000T0000Z-200111T0130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSVSEWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:30:00-06:00"
+            ]
+        }
+    }
+}
