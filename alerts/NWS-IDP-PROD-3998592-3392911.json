@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998592-3392911",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.36,
+                    38.75
+                ],
+                [
+                    -91.19,
+                    38.6599999
+                ],
+                [
+                    -91.23,
+                    38.61
+                ],
+                [
+                    -91.5,
+                    38.69
+                ],
+                [
+                    -91.5,
+                    38.72
+                ],
+                [
+                    -91.36,
+                    38.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998592-3392911",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998592-3392911",
+        "areaDesc": "Montgomery, MO; Gasconade, MO",
+        "geocode": {
+            "UGC": [
+                "MOC139",
+                "MOC073"
+            ],
+            "SAME": [
+                "029139",
+                "029073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC139",
+            "https://api.weather.gov/zones/county/MOC073"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3997027-3391484",
+                "identifier": "NWS-IDP-PROD-3997027-3391484",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T09:40:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:10:00-06:00",
+        "effective": "2020-01-10T19:10:00-06:00",
+        "onset": "2020-01-11T16:35:00-06:00",
+        "expires": "2020-01-11T19:10:00-06:00",
+        "ends": "2020-01-14T20:24:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 10 at 7:10PM CST until January 14 at 8:24PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\n\nMissouri River near Chamois\n\nMissouri River at Gasconade\n\nMissouri River at Hermann\n\nOsage River near Mari-Osa Campground\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Missouri River at Hermann\n* from Saturday afternoon to Tuesday evening.\n* At  6:30 PM Friday the stage was 14.4 feet.\n* Flood stage is 21.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to rise above flood stage by tomorrow\nafternoon and to crest near 23.2 feet by Sunday early afternoon.\nThe river is forecast to fall below flood stage by Monday early\nafternoon.\n* Impact:  At 21.0 feet...Minor flooding of cropland begins...\nparticularly just north of the Highway 19 bridge along the Loutre\nRiver.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0009.200111T2235Z-200115T0224Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T20:24:00-06:00"
+            ]
+        }
+    }
+}

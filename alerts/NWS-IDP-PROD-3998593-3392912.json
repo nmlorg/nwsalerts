@@ -1,0 +1,121 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998593-3392912",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.65,
+                    39.24
+                ],
+                [
+                    -90.55000000000001,
+                    38.84
+                ],
+                [
+                    -91.05000000000001,
+                    38.690000000000005
+                ],
+                [
+                    -91.12,
+                    38.9099999
+                ],
+                [
+                    -91.10000000000001,
+                    39.13
+                ],
+                [
+                    -90.65,
+                    39.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998593-3392912",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998593-3392912",
+        "areaDesc": "Lincoln, MO; St. Charles, MO; Calhoun, IL",
+        "geocode": {
+            "UGC": [
+                "MOC113",
+                "MOC183",
+                "ILC013"
+            ],
+            "SAME": [
+                "029113",
+                "029183",
+                "017013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC113",
+            "https://api.weather.gov/zones/county/MOC183",
+            "https://api.weather.gov/zones/county/ILC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998558-3392884",
+                "identifier": "NWS-IDP-PROD-3998558-3392884",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:01:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998486-3392819",
+                "identifier": "NWS-IDP-PROD-3998486-3392819",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:35:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998519-3392849",
+                "identifier": "NWS-IDP-PROD-3998519-3392849",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:48:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:11:00-06:00",
+        "effective": "2020-01-10T19:11:00-06:00",
+        "onset": "2020-01-10T19:11:00-06:00",
+        "expires": "2020-01-10T19:20:00-06:00",
+        "ends": "2020-01-10T19:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Tornado Warning issued January 10 at 7:11PM CST until January 10 at 7:15PM CST by NWS St Louis MO",
+        "description": "The storms which prompted the warning have weakened below severe\nlimits, and no longer appear capable of producing a tornado.\nTherefore, the warning will be allowed to expire.\n\nRemember, a Severe Thunderstorm Warning still remains in effect for\nparts of Calhoun, St. Charles, and Lincoln Counties until 8 pm.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T19:10:00.000-06:00...storm...230DEG...51KT...39.2,-90.75 39.05,-90.71 38.87,-90.76"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR SOUTH CENTRAL CALHOUN...NORTHWESTERN ST. CHARLES AND LINCOLN COUNTIES WILL EXPIRE AT 715 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KLSX.TO.W.0002.000000T0000Z-200111T0115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXSVSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:15:00-06:00"
+            ]
+        }
+    }
+}

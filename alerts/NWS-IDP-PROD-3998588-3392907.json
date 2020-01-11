@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998588-3392907",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.42,
+                    29.94
+                ],
+                [
+                    -98.47,
+                    29.91
+                ],
+                [
+                    -98.55,
+                    29.95
+                ],
+                [
+                    -98.55,
+                    29.98
+                ],
+                [
+                    -98.50999999999999,
+                    30.04
+                ],
+                [
+                    -98.42,
+                    29.94
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998588-3392907",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998588-3392907",
+        "areaDesc": "Kendall, TX",
+        "geocode": {
+            "UGC": [
+                "TXC259"
+            ],
+            "SAME": [
+                "048259"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC259"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998563-3392889",
+                "identifier": "NWS-IDP-PROD-3998563-3392889",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T19:04:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998533-3392862",
+                "identifier": "NWS-IDP-PROD-3998533-3392862",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:52:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:10:00-06:00",
+        "effective": "2020-01-10T19:10:00-06:00",
+        "onset": "2020-01-10T19:10:00-06:00",
+        "expires": "2020-01-10T19:20:00-06:00",
+        "ends": "2020-01-10T19:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Tornado Warning issued January 10 at 7:10PM CST until January 10 at 7:15PM CST by NWS Austin/San Antonio TX",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and has exited the warned area. Therefore, the warning will\nbe allowed to expire.\n\nA Severe Thunderstorm Watch remains in effect until 1000 PM CST for\nsouth central Texas.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T19:10:00.000-06:00...storm...236DEG...31KT...30.01,-98.45"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR EAST CENTRAL KENDALL COUNTY WILL EXPIRE AT 715 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KEWX.TO.W.0002.000000T0000Z-200111T0115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSVSEWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:15:00-06:00"
+            ]
+        }
+    }
+}
