@@ -1,0 +1,127 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002432-3396554",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.41,
+                    35.27
+                ],
+                [
+                    -85.3,
+                    35.540000000000006
+                ],
+                [
+                    -85.1,
+                    35.45
+                ],
+                [
+                    -85.11,
+                    35.440000000000005
+                ],
+                [
+                    -85.1,
+                    35.43000000000001
+                ],
+                [
+                    -85.08999999999999,
+                    35.440000000000005
+                ],
+                [
+                    -85.02999999999999,
+                    35.4099999
+                ],
+                [
+                    -85.31999989999998,
+                    35.2
+                ],
+                [
+                    -85.41,
+                    35.27
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002432-3396554",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002432-3396554",
+        "areaDesc": "Sequatchie, TN; Hamilton, TN; Bledsoe, TN",
+        "geocode": {
+            "UGC": [
+                "TNC153",
+                "TNC065",
+                "TNC007"
+            ],
+            "SAME": [
+                "047153",
+                "047065",
+                "047007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC153",
+            "https://api.weather.gov/zones/county/TNC065",
+            "https://api.weather.gov/zones/county/TNC007"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002370-3396514",
+                "identifier": "NWS-IDP-PROD-4002370-3396514",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T15:39:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T15:48:00-05:00",
+        "effective": "2020-01-11T15:48:00-05:00",
+        "onset": "2020-01-11T15:48:00-05:00",
+        "expires": "2020-01-11T16:15:00-05:00",
+        "ends": "2020-01-11T16:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Tornado Warning issued January 11 at 3:48PM EST until January 11 at 4:15PM EST by NWS Morristown TN",
+        "description": "At 347 PM EST/247 PM CST/, a severe thunderstorm capable of producing\na tornado was located near Dunlap, moving northeast at 70 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis tornadic thunderstorm will remain over mainly rural areas of\nsoutheastern Sequatchie, southwestern Bledsoe and north central\nHamilton Counties, including the following locations... Brayton, Sale\nCreek, Flat Top Mountain, Palio, North Chickamauga Creek Gorge and\nMowbray Mountain.",
+        "instruction": "This cluster of thunderstorms is capable of producing tornadoes and\nwidespread significant wind damage. Do not wait to see or hear the\ntornado. For your protection move to an interior room on the lowest\nfloor of a building.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T15:47:00.000-05:00...storm...216DEG...61KT...35.3,-85.3"
+            ],
+            "hailSize": [
+                0
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 415 PM EST/315 PM CST/ FOR SOUTHEASTERN SEQUATCHIE...SOUTHWESTERN BLEDSOE AND NORTH CENTRAL HAMILTON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMRX.TO.W.0001.000000T0000Z-200111T2115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXSVSMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T16:15:00-05:00"
+            ]
+        }
+    }
+}
