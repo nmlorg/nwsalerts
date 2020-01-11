@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999465-3393729",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.54,
+                    32.42
+                ],
+                [
+                    -94.66000000000001,
+                    32.5
+                ],
+                [
+                    -94.43,
+                    32.8
+                ],
+                [
+                    -94.22000000000001,
+                    32.709999999999994
+                ],
+                [
+                    -94.54,
+                    32.42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999465-3393729",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3999465-3393729",
+        "areaDesc": "Harrison, TX; Marion, TX",
+        "geocode": {
+            "UGC": [
+                "TXC203",
+                "TXC315"
+            ],
+            "SAME": [
+                "048203",
+                "048315"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC203",
+            "https://api.weather.gov/zones/county/TXC315"
+        ],
+        "references": [],
+        "sent": "2020-01-11T00:06:00-06:00",
+        "effective": "2020-01-11T00:06:00-06:00",
+        "onset": "2020-01-11T00:06:00-06:00",
+        "expires": "2020-01-11T00:30:00-06:00",
+        "ends": "2020-01-11T00:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Tornado Warning issued January 11 at 12:06AM CST until January 11 at 12:30AM CST by NWS Shreveport LA",
+        "description": "The National Weather Service in Shreveport has issued a\n\n* Tornado Warning for...\nSouth central Marion County in northeastern Texas...\nWestern Harrison County in northeastern Texas...\n\n* Until 1230 AM CST.\n\n* At 1206 AM CST, a severe thunderstorm capable of producing a\ntornado was located over Hallsville, or 11 miles west of Marshall,\nmoving northeast at 45 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* Locations impacted include...\nMarshall, Hallsville, Jefferson, Woodlawn and Nesbitt.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.\n\nTornadoes are extremely difficult to see and confirm at night. Do not\nwait to see or hear the tornado. TAKE COVER NOW!",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T00:06:00.000-06:00...storm...218DEG...40KT...32.5,-94.55"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KSHV.TO.W.0006.200111T0606Z-200111T0630Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVTORSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T00:30:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 12:30 AM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}
