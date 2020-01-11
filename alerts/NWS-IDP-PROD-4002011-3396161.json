@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002011-3396161",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.52,
+                    31.25
+                ],
+                [
+                    -87.47999999999999,
+                    31.26
+                ],
+                [
+                    -87.02999999999999,
+                    31.26
+                ],
+                [
+                    -87.22999999999999,
+                    30.650000000000002
+                ],
+                [
+                    -87.80999999999999,
+                    30.62
+                ],
+                [
+                    -87.52,
+                    31.25
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002011-3396161",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002011-3396161",
+        "areaDesc": "Escambia, FL; Santa Rosa, FL; Escambia, AL; Baldwin, AL",
+        "geocode": {
+            "UGC": [
+                "FLC033",
+                "FLC113",
+                "ALC053",
+                "ALC003"
+            ],
+            "SAME": [
+                "012033",
+                "012113",
+                "001053",
+                "001003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC033",
+            "https://api.weather.gov/zones/county/FLC113",
+            "https://api.weather.gov/zones/county/ALC053",
+            "https://api.weather.gov/zones/county/ALC003"
+        ],
+        "references": [],
+        "sent": "2020-01-11T13:10:00-06:00",
+        "effective": "2020-01-11T13:10:00-06:00",
+        "onset": "2020-01-11T13:10:00-06:00",
+        "expires": "2020-01-11T14:00:00-06:00",
+        "ends": "2020-01-11T14:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 1:10PM CST until January 11 at 2:00PM CST by NWS Mobile AL",
+        "description": "The National Weather Service in Mobile has issued a\n\n* Severe Thunderstorm Warning for...\nCentral Baldwin County in southwestern Alabama...\nWestern Escambia County in south central Alabama...\nNorthwestern Santa Rosa County in northwestern Florida...\nNorthwestern Escambia County in northwestern Florida...\n\n* Until 200 PM CST.\n\n* At 110 PM CST, severe thunderstorms were located along a line\nextending from 4 miles southeast of Uriah to 8 miles southwest of\nI65 And CR 1 to Loxley, moving northeast at 50 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nAtmore, Century, Flomaton, McCullough, Molino, Jay, Pollard, Bratt,\nI65 And CR 1, I65 And AL 113, I65 And AL 21 and Poarch Creek\nReservation.",
+        "instruction": "A Tornado Watch remains in effect until 400 PM CST for south central\nand southwestern Alabama...and northwestern Florida.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T13:10:00.000-06:00...storm...245DEG...44KT...31.27,-87.44 30.99,-87.63 30.63,-87.76"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KMOB.SV.W.0012.200111T1910Z-200111T2000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSVRMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T14:00:00-06:00"
+            ]
+        }
+    }
+}

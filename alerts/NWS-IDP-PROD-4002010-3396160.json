@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002010-3396160",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.67,
+                    41.45
+                ],
+                [
+                    -86.61,
+                    41.440000000000005
+                ],
+                [
+                    -86.73,
+                    41.300000000000004
+                ],
+                [
+                    -86.79,
+                    41.31
+                ],
+                [
+                    -86.7,
+                    41.43
+                ],
+                [
+                    -86.67,
+                    41.45
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002010-3396160",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4002010-3396160",
+        "areaDesc": "St. Joseph, IN; Starke, IN; La Porte, IN",
+        "geocode": {
+            "UGC": [
+                "INC141",
+                "INC149",
+                "INC091"
+            ],
+            "SAME": [
+                "018141",
+                "018149",
+                "018091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC141",
+            "https://api.weather.gov/zones/county/INC149",
+            "https://api.weather.gov/zones/county/INC091"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000851-3395085",
+                "identifier": "NWS-IDP-PROD-4000851-3395085",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:46:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T14:10:00-05:00",
+        "effective": "2020-01-11T14:10:00-05:00",
+        "onset": "2020-01-11T17:41:00-05:00",
+        "expires": "2020-01-12T14:09:00-05:00",
+        "ends": "2020-01-19T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 11 at 2:10PM EST until January 19 at 7:00AM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nKankakee River at Davis affecting La Porte...Starke and St. Joseph\nCounties\n\n.Runoff from heavy rainfall of 1 to 3 inches over the past 24 hours\nhas resulted in rapid rises on area rivers. Additional runoff could\nresult in changes in crest heights and timing. Monitor for updates.\n\nThe Flood Warning has been extended for\nThe Kankakee River at Davis\n* from this afternoon to Sunday January 19.\n* At 1 PM Saturday the stage was 9.1 feet and rising.\n* Moderate flooding is forecast.\n* Flood stage is 10.0 feet.\n* Forecast...The river will rise above flood stage Saturday afternoon\nand crest near 12.5 feet around 6 PM Sunday January 12 before\nfalling below flood stage around  6 AM Saturday January 18.\n* At 13.0 feet...Extensive agricultural flooding is in progress.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0002.200111T2241Z-200119T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T07:00:00-05:00"
+            ]
+        }
+    }
+}
