@@ -1,0 +1,121 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998558-3392884",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.65,
+                    39.24
+                ],
+                [
+                    -90.55000000000001,
+                    38.84
+                ],
+                [
+                    -91.05000000000001,
+                    38.690000000000005
+                ],
+                [
+                    -91.12,
+                    38.9099999
+                ],
+                [
+                    -91.10000000000001,
+                    39.13
+                ],
+                [
+                    -90.65,
+                    39.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998558-3392884",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998558-3392884",
+        "areaDesc": "Lincoln, MO; St. Charles, MO; Calhoun, IL",
+        "geocode": {
+            "UGC": [
+                "MOC113",
+                "MOC183",
+                "ILC013"
+            ],
+            "SAME": [
+                "029113",
+                "029183",
+                "017013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC113",
+            "https://api.weather.gov/zones/county/MOC183",
+            "https://api.weather.gov/zones/county/ILC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998519-3392849",
+                "identifier": "NWS-IDP-PROD-3998519-3392849",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:48:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998486-3392819",
+                "identifier": "NWS-IDP-PROD-3998486-3392819",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-10T18:35:00-06:00"
+            }
+        ],
+        "sent": "2020-01-10T19:01:00-06:00",
+        "effective": "2020-01-10T19:01:00-06:00",
+        "onset": "2020-01-10T19:01:00-06:00",
+        "expires": "2020-01-10T19:15:00-06:00",
+        "ends": "2020-01-10T19:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Tornado Warning issued January 10 at 7:01PM CST until January 10 at 7:15PM CST by NWS St Louis MO",
+        "description": "At 701 PM CST, severe thunderstorms capable of producing tornadoes\nwere located along a line extending from near Elsberry to Fountain N'\nLakes to Wentzville, moving northeast at 70 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThese dangerous storms will be near...\nElsberry and Winfield around 705 PM CST.\nHardin around 715 PM CST.\n\nOther locations impacted by these tornadic storms include Brussels,\nCave, Foristell, Golden Eagle, Batchtown, Meppen, Foley, Silex, New\nHope and Flint Hill.\n\nThis also includes Cuivre River State Park.\n\nThis includes Interstate 70 in Missouri between exits 199 and 219.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T19:01:00.000-06:00...storm...224DEG...62KT...39.12,-90.87 38.97,-90.83 38.79,-90.88"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 715 PM CST FOR SOUTH CENTRAL CALHOUN...NORTHWESTERN ST. CHARLES AND LINCOLN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KLSX.TO.W.0002.000000T0000Z-200111T0115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXSVSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T19:15:00-06:00"
+            ]
+        }
+    }
+}
