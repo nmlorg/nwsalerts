@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998431-3392765",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.87,
+                    38.3
+                ],
+                [
+                    -91.89,
+                    38.5
+                ],
+                [
+                    -91.02,
+                    39.06
+                ],
+                [
+                    -91.03,
+                    38.47
+                ],
+                [
+                    -91.87,
+                    38.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3998431-3392765",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-3998431-3392765",
+        "areaDesc": "Franklin, MO; Montgomery, MO; Gasconade, MO; Osage, MO; Lincoln, MO; Warren, MO",
+        "geocode": {
+            "UGC": [
+                "MOC071",
+                "MOC139",
+                "MOC073",
+                "MOC151",
+                "MOC113",
+                "MOC219"
+            ],
+            "SAME": [
+                "029071",
+                "029139",
+                "029073",
+                "029151",
+                "029113",
+                "029219"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC071",
+            "https://api.weather.gov/zones/county/MOC139",
+            "https://api.weather.gov/zones/county/MOC073",
+            "https://api.weather.gov/zones/county/MOC151",
+            "https://api.weather.gov/zones/county/MOC113",
+            "https://api.weather.gov/zones/county/MOC219"
+        ],
+        "references": [],
+        "sent": "2020-01-10T17:58:00-06:00",
+        "effective": "2020-01-10T17:58:00-06:00",
+        "onset": "2020-01-10T17:58:00-06:00",
+        "expires": "2020-01-10T18:45:00-06:00",
+        "ends": "2020-01-10T18:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Severe Thunderstorm Warning issued January 10 at 5:58PM CST until January 10 at 6:45PM CST by NWS St Louis MO",
+        "description": "The National Weather Service in St Louis has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Lincoln County in east central Missouri...\nSoutheastern Montgomery County in east central Missouri...\nNorthwestern Franklin County in east central Missouri...\nSoutheastern Osage County in central Missouri...\nWarren County in east central Missouri...\nGasconade County in east central Missouri...\n\n* Until 645 PM CST.\n\n* At 558 PM CST, a severe thunderstorm was located near Linn, moving\nnortheast at 65 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nWashington, Warrenton, Wright City, Hermann, New Haven, Linn,\nGerald, Davis, Marthasville, Jonesburg, Truesdale, Hawk Point,\nInnsbrook, Swiss, Mount Sterling, Treloar, Drake, Rich Fountain,\nGasconade and Berger.\n\nThis includes Interstate 70 in Missouri between exits 183 and 199.\n\nThis also includes Deutschheim Historic Site.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-10T17:58:00.000-06:00...storm...236DEG...56KT...38.46,-91.76"
+            ],
+            "hailSize": [
+                0.75
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KLSX.SV.W.0001.200110T2358Z-200111T0045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXSVRLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-10T18:45:00-06:00"
+            ]
+        }
+    }
+}
