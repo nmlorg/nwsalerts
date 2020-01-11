@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001023-3395240",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.49,
+                    35.4
+                ],
+                [
+                    -94.39,
+                    35.4
+                ],
+                [
+                    -94.42,
+                    35.229999899999996
+                ],
+                [
+                    -94.62,
+                    35.04
+                ],
+                [
+                    -94.7,
+                    35.21
+                ],
+                [
+                    -94.49,
+                    35.4
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001023-3395240",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4001023-3395240",
+        "areaDesc": "Le Flore, OK",
+        "geocode": {
+            "UGC": [
+                "OKC079"
+            ],
+            "SAME": [
+                "040079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC079"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3999625-3393873",
+                "identifier": "NWS-IDP-PROD-3999625-3393873",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T01:38:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T09:11:00-06:00",
+        "effective": "2020-01-11T09:11:00-06:00",
+        "onset": "2020-01-11T09:11:00-06:00",
+        "expires": "2020-01-11T17:10:00-06:00",
+        "ends": "2020-01-13T07:42:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 11 at 9:11AM CST until January 13 at 7:42AM CST by NWS Tulsa OK",
+        "description": "...The National Weather Service in Tulsa has issued a Flood Warning\nfor the following rivers in Oklahoma...\n\nPoteau River near Poteau affecting Le Flore County.\n\n\n...Forecast flooding changed from Minor to Moderate severity for the\nfollowing rivers in Oklahoma...\n\nPoteau River near Panama affecting Le Flore County.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KTSA.FL.W.0007.200111T1511Z-200113T1342Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLWTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T07:42:00-06:00"
+            ]
+        }
+    }
+}
