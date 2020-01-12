@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005341-3399177",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.93,
+                    42.62
+                ],
+                [
+                    -82.93,
+                    42.75
+                ],
+                [
+                    -82.85000000000001,
+                    42.74
+                ],
+                [
+                    -82.87,
+                    42.61
+                ],
+                [
+                    -82.93,
+                    42.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005341-3399177",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005341-3399177",
+        "areaDesc": "Macomb, MI",
+        "geocode": {
+            "UGC": [
+                "MIC099"
+            ],
+            "SAME": [
+                "026099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004113-3398137",
+                "identifier": "NWS-IDP-PROD-4004113-3398137",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T23:14:00-05:00"
+            }
+        ],
+        "sent": "2020-01-12T10:27:00-05:00",
+        "effective": "2020-01-12T10:27:00-05:00",
+        "onset": "2020-01-12T16:00:00-05:00",
+        "expires": "2020-01-13T00:27:00-05:00",
+        "ends": "2020-01-13T17:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 12 at 10:27AM EST until January 13 at 5:00PM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nCass River...Huron River...Kearsley Creek...North Branch\nClinton...River Raisin...Rouge River...Saginaw River...Shiawassee\nRiver\n\n.Widespread rainfall of 2 to 3 inches has caused significant\nrunoff into the rivers.  Some of the precip toward the end of\nthe storm fell in frozen state cutting back on some of the\nanticipated runoff resulting in the lowering of flood crest\non some rivers.\n\nA flood warning continues for\nNorth Branch Clinton near Mt Clemens..\n* From now until further notice.\n* At 10 AM Sunday the stage is 14.3 feet and rising.\n* Flood stage is 15.0 feet.\n* Minor flooding is forecast.\n* Forecast is to rise above flood stage by late this afternoon...\nand crest around 15.5 feet after midnight.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KDTX.FL.W.0010.200112T2100Z-200113T2200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T17:00:00-05:00"
+            ]
+        }
+    }
+}

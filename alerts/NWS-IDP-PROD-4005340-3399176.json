@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005340-3399176",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.35,
+                    42.45
+                ],
+                [
+                    -83.24,
+                    42.45
+                ],
+                [
+                    -83.22,
+                    42.34
+                ],
+                [
+                    -83.28,
+                    42.34
+                ],
+                [
+                    -83.35,
+                    42.45
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005340-3399176",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005340-3399176",
+        "areaDesc": "Wayne, MI",
+        "geocode": {
+            "UGC": [
+                "MIC163"
+            ],
+            "SAME": [
+                "026163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004105-3398129",
+                "identifier": "NWS-IDP-PROD-4004105-3398129",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T23:14:00-05:00"
+            }
+        ],
+        "sent": "2020-01-12T10:27:00-05:00",
+        "effective": "2020-01-12T10:27:00-05:00",
+        "onset": "2020-01-12T10:27:00-05:00",
+        "expires": "2020-01-13T00:27:00-05:00",
+        "ends": "2020-01-13T03:24:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 12 at 10:27AM EST until January 13 at 3:24AM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nCass River...Huron River...Kearsley Creek...North Branch\nClinton...River Raisin...Rouge River...Saginaw River...Shiawassee\nRiver\n\n.Widespread rainfall of 2 to 3 inches has caused significant\nrunoff into the rivers.  Some of the precip toward the end of\nthe storm fell in frozen state cutting back on some of the\nanticipated runoff resulting in the lowering of flood crest\non some rivers.\n\nA flood warning continues for\nRouge River in Detroit.\n* From now until further notice.\n* At 10 AM Sunday the stage is 17.2 feet and slowly falling.\n* Flood stage is 15.0 feet.\n* Minor flooding is occurring.\n* Forecast...the river crested at 17.6 feet at 5 AM Sunday\nand should fall below flood stage tonight.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KDTX.FL.W.0009.000000T0000Z-200113T0824Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T03:24:00-05:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005343-3399179",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.59,
+                    41.94
+                ],
+                [
+                    -83.60000000000001,
+                    41.989999999999995
+                ],
+                [
+                    -83.34,
+                    41.909999899999995
+                ],
+                [
+                    -83.36,
+                    41.87
+                ],
+                [
+                    -83.59,
+                    41.94
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005343-3399179",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005343-3399179",
+        "areaDesc": "Monroe, MI",
+        "geocode": {
+            "UGC": [
+                "MIC115"
+            ],
+            "SAME": [
+                "026115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC115"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004102-3398126",
+                "identifier": "NWS-IDP-PROD-4004102-3398126",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T23:14:00-05:00"
+            }
+        ],
+        "sent": "2020-01-12T10:27:00-05:00",
+        "effective": "2020-01-12T10:27:00-05:00",
+        "onset": "2020-01-13T13:00:00-05:00",
+        "expires": "2020-01-13T00:27:00-05:00",
+        "ends": "2020-01-16T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 12 at 10:27AM EST until January 16 at 1:00AM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nCass River...Huron River...Kearsley Creek...North Branch\nClinton...River Raisin...Rouge River...Saginaw River...Shiawassee\nRiver\n\n.Widespread rainfall of 2 to 3 inches has caused significant\nrunoff into the rivers.  Some of the precip toward the end of\nthe storm fell in frozen state cutting back on some of the\nanticipated runoff resulting in the lowering of flood crest\non some rivers.\n\nA flood warning continues for\nRiver Raisin at Monroe.\n* From now until further notice.\n* At 9 AM Sunday the stage is 8.0 feet and rising.\n* Flood stage is 9.0 feet.\n* Minor flooding is forecast.\n* Forecast is to rise above flood stage by Monday afternoon\nand crest around 9.1 feet Tuesday morning.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KDTX.FL.W.0008.200113T1800Z-200116T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T01:00:00-05:00"
+            ]
+        }
+    }
+}
