@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005892-3399583",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.16,
+                    38.26
+                ],
+                [
+                    -88.02,
+                    38.25
+                ],
+                [
+                    -88.13,
+                    38.04
+                ],
+                [
+                    -88.08,
+                    37.93
+                ],
+                [
+                    -88.12,
+                    37.9099999
+                ],
+                [
+                    -88.28,
+                    38.010000000000005
+                ],
+                [
+                    -88.16,
+                    38.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005892-3399583",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005892-3399583",
+        "areaDesc": "Wayne, IL; White, IL; Gallatin, IL",
+        "geocode": {
+            "UGC": [
+                "ILC191",
+                "ILC193",
+                "ILC059"
+            ],
+            "SAME": [
+                "017191",
+                "017193",
+                "017059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC191",
+            "https://api.weather.gov/zones/county/ILC193",
+            "https://api.weather.gov/zones/county/ILC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005402-3399228",
+                "identifier": "NWS-IDP-PROD-4005402-3399228",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T09:57:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T15:08:00-06:00",
+        "effective": "2020-01-12T15:08:00-06:00",
+        "onset": "2020-01-12T15:08:00-06:00",
+        "expires": "2020-01-13T19:07:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 12 at 3:08PM CST by NWS Paducah KY",
+        "description": "...Forecast Flooding Changed from Moderate to Major Severity for the\nfollowing rivers in Illinois...\n\nLittle Wabash River at Carmi\n\n.Recent heavy rainfall across the Little Wabash River basin has caused\nriver levels to rise. With additional rain forecast later this week,\nmajor flooding is now expected to develop at Carmi on Friday, with a\ncrest around 35.1 feet forecast Friday evening. Fluctuations to this\nforecast are possible so stayed tuned to updates as the week progresses.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "forecast flooding increased from Moderate to Major severity"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0005.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLWPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
