@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004748",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -74.78,
+                    42.02
+                ],
+                [
+                    -74.61,
+                    41.95
+                ],
+                [
+                    -75.0699999,
+                    41.46
+                ],
+                [
+                    -75.74,
+                    41.45
+                ],
+                [
+                    -75.2099999,
+                    42.06
+                ],
+                [
+                    -74.54,
+                    42.14
+                ],
+                [
+                    -74.78,
+                    42.02
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004748",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004748",
+        "areaDesc": "Northern Wayne; Southern Wayne; Sullivan; Pike; Susquehanna; Delaware; Lackawanna",
+        "geocode": {
+            "UGC": [
+                "PAZ040",
+                "PAZ072",
+                "NYZ062",
+                "PAZ048",
+                "PAZ039",
+                "NYZ057",
+                "PAZ044"
+            ],
+            "SAME": [
+                "042127",
+                "036105",
+                "042103",
+                "042115",
+                "036025",
+                "042069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PAZ040",
+            "https://api.weather.gov/zones/forecast/PAZ072",
+            "https://api.weather.gov/zones/forecast/NYZ062",
+            "https://api.weather.gov/zones/forecast/PAZ048",
+            "https://api.weather.gov/zones/forecast/PAZ039",
+            "https://api.weather.gov/zones/forecast/NYZ057",
+            "https://api.weather.gov/zones/forecast/PAZ044"
+        ],
+        "references": [],
+        "sent": "2020-01-12T04:52:00-05:00",
+        "effective": "2020-01-12T04:52:00-05:00",
+        "onset": "2020-01-12T04:52:00-05:00",
+        "expires": "2020-01-12T05:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Binghamton NY",
+        "headline": "Special Weather Statement issued January 12 at 4:52AM EST by NWS Binghamton NY",
+        "description": "At 452 AM EST, radar indicated showers were located along a line\nextending from near Fishs Eddy to Dickson City. Movement was east at\n30 mph.\n\nWind gusts up to 50 mph are possible with these showers.\n\nLocations impacted include...\nRockland, Scranton, Carbondale, Archbald, Blakely, Dickson City,\nOlyphant, Clarks Summit, Jessup and Honesdale.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-12T04:52:00.000-05:00...storm...264DEG...26KT...42.01,-75.17 41.48,-75.64"
+            ],
+            "NWSheadline": [
+                "A LINE OF SHOWERS WILL AFFECT SOUTHERN DELAWARE...NORTHWESTERN SULLIVAN...SOUTHEASTERN SUSQUEHANNA...NORTHEASTERN LACKAWANNA...WAYNE AND NORTH CENTRAL PIKE COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BGMSPSBGM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
