@@ -1,0 +1,91 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003697-3397762",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.49,
+                    37.55
+                ],
+                [
+                    -86.94,
+                    37.43
+                ],
+                [
+                    -87.1,
+                    37.43
+                ],
+                [
+                    -87.13,
+                    37.52
+                ],
+                [
+                    -86.9599999,
+                    37.510000000000005
+                ],
+                [
+                    -86.53,
+                    37.6599999
+                ],
+                [
+                    -86.49,
+                    37.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003697-3397762",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003697-3397762",
+        "areaDesc": "Ohio, KY",
+        "geocode": {
+            "UGC": [
+                "KYC183"
+            ],
+            "SAME": [
+                "021183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC183"
+        ],
+        "references": [],
+        "sent": "2020-01-11T21:33:00-05:00",
+        "effective": "2020-01-11T21:33:00-05:00",
+        "onset": "2020-01-11T21:33:00-05:00",
+        "expires": "2020-01-12T15:33:00-05:00",
+        "ends": "2020-01-13T09:32:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Advisory issued January 11 at 9:33PM EST until January 13 at 9:32AM EST by NWS Louisville KY",
+        "description": "...The National Weather Service in Louisville KY has issued a Flood\nAdvisory for the Rough River...\n\nRough River near Dundee\n\naffecting the following counties in Kentucky...Ohio.\n\nThe National Weather Service in Louisville KY has issued a\n* Flood Advisory for\nthe Rough River near Dundee.\n* until Monday morning.\n* At 7:45 PM Saturday the stage was 23.1 feet.\n* Flood stage is 25.0 feet.\n* Forecast...The river will rise to near 24.6 feet Sunday morning.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLMK.FL.Y.0002.200112T0233Z-200113T1432Z/"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T09:32:00-05:00"
+            ]
+        }
+    }
+}
