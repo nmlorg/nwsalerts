@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003460-3397531",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.74,
+                    36.19
+                ],
+                [
+                    -94.53,
+                    36.15
+                ],
+                [
+                    -94.53,
+                    36.07
+                ],
+                [
+                    -94.72,
+                    36.11
+                ],
+                [
+                    -94.74,
+                    36.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003460-3397531",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003460-3397531",
+        "areaDesc": "Delaware, OK; Adair, OK",
+        "geocode": {
+            "UGC": [
+                "OKC041",
+                "OKC001"
+            ],
+            "SAME": [
+                "040041",
+                "040001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC041",
+            "https://api.weather.gov/zones/county/OKC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002104-3396258",
+                "identifier": "NWS-IDP-PROD-4002104-3396258",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:36:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:39:00-06:00",
+        "effective": "2020-01-11T19:39:00-06:00",
+        "onset": "2020-01-11T19:39:00-06:00",
+        "expires": "2020-01-12T03:38:00-06:00",
+        "ends": "2020-01-12T04:35:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 11 at 7:39PM CST until January 12 at 4:35AM CST by NWS Tulsa OK",
+        "description": "...The Flood Warning continues for the following rivers in\nOklahoma...\n\nIllinois River near Watts affecting Adair and Delaware Counties.\n\nIllinois River at Chewey affecting Adair...Cherokee and Delaware\nCounties.\n\nIllinois River near Tahlequah affecting Cherokee County.\n\nThe Flood Warning continues for\nThe Illinois River near Watts.\n* until late tonight, or until the warning is cancelled.\n* At 7:30 PM Saturday, the stage was 16.72 feet.\n* Flood stage is 13.0 feet.\n* Minor flooding is occurring.\n* Forecast...The Illinois River near Watts will continue falling to\nbelow flood stage by tonight.\n* Impact...At 17.0 feet, moderate flooding occurs from the Arkansas\nborder to Fidler's Bend. Farmlands and permanent campgrounds are\naffected. A few cabins in the Fidler's Bend area may have minor\nflooding. Extreme turbulence makes the river too hazardous for\nfloating.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KTSA.FL.W.0003.000000T0000Z-200112T1035Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T04:35:00-06:00"
+            ]
+        }
+    }
+}
