@@ -1,0 +1,136 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004445-3398418",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -76.34,
+                    38.76
+                ],
+                [
+                    -76.34,
+                    38.729999899999996
+                ],
+                [
+                    -76.33,
+                    38.729999899999996
+                ],
+                [
+                    -76.33,
+                    38.72
+                ],
+                [
+                    -76.34,
+                    38.72
+                ],
+                [
+                    -76.35000000000001,
+                    38.69
+                ],
+                [
+                    -76.35000000000001,
+                    38.58
+                ],
+                [
+                    -76.53000000000002,
+                    38.55
+                ],
+                [
+                    -76.51000000000002,
+                    38.729999899999996
+                ],
+                [
+                    -76.37000000000002,
+                    38.81999999999999
+                ],
+                [
+                    -76.33000000000001,
+                    38.75999999999999
+                ],
+                [
+                    -76.34,
+                    38.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004445-3398418",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004445-3398418",
+        "areaDesc": "Chesapeake Bay from Sandy Point to North Beach MD; Chesapeake Bay from North Beach to Drum Point MD",
+        "geocode": {
+            "UGC": [
+                "ANZ532",
+                "ANZ533"
+            ],
+            "SAME": [
+                "073532",
+                "073533"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ANZ532",
+            "https://api.weather.gov/zones/forecast/ANZ533"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004424-3398398",
+                "identifier": "NWS-IDP-PROD-4004424-3398398",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T01:39:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004354-3398342",
+                "identifier": "NWS-IDP-PROD-4004354-3398342",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T01:01:00-05:00"
+            }
+        ],
+        "sent": "2020-01-12T01:52:00-05:00",
+        "effective": "2020-01-12T01:52:00-05:00",
+        "onset": "2020-01-12T01:52:00-05:00",
+        "expires": "2020-01-12T03:00:00-05:00",
+        "ends": "2020-01-12T03:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Baltimore MD/Washington DC",
+        "headline": "Special Marine Warning issued January 12 at 1:52AM EST until January 12 at 3:00AM EST by NWS Baltimore MD/Washington DC",
+        "description": "For the following areas...\nChesapeake Bay from North Beach to Drum Point MD...\nChesapeake Bay from Sandy Point to North Beach MD...\n\nAt 151 AM EST, showers were located along a line extending from near\nPoplar Island to near Chesapeake Beach to 6 nm northwest of Flag\nHarbor, moving northeast at 65 knots.\n\nHAZARD...Wind gusts 34 knots or greater.\n\nSOURCE...Radar indicated.\n\nIMPACT...Boaters in small craft could be thrown overboard by\nsuddenly higher winds and waves capsizing their vessel.\n\nLocations impacted include...\nDares Beach, Poplar Island, Knapps Narrows Bridge and Tilghman\nIsland.",
+        "instruction": "Move to safe harbor until hazardous weather passes.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-12T01:51:00.000-05:00...storm...232DEG...65KT...38.71,-76.44 38.65,-76.45 38.57,-76.54"
+            ],
+            "hailSize": [
+                0
+            ],
+            "NWSheadline": [
+                "A SPECIAL MARINE WARNING REMAINS IN EFFECT UNTIL 300 AM EST"
+            ],
+            "VTEC": [
+                "/O.CON.KLWX.MA.W.0004.000000T0000Z-200112T0800Z/"
+            ],
+            "PIL": [
+                "LWXMWSLWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T03:00:00-05:00"
+            ]
+        }
+    }
+}
