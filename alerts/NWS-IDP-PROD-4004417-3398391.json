@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004417-3398391",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.87,
+                    35.24
+                ],
+                [
+                    -78.0699999,
+                    35.18
+                ],
+                [
+                    -78.16,
+                    35.19
+                ],
+                [
+                    -78.16,
+                    35.159999899999995
+                ],
+                [
+                    -78.3,
+                    35.10999999999999
+                ],
+                [
+                    -78.36,
+                    35.18999999999999
+                ],
+                [
+                    -77.91,
+                    35.43999999999999
+                ],
+                [
+                    -77.84,
+                    35.34999999999999
+                ],
+                [
+                    -77.87,
+                    35.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004417-3398391",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004417-3398391",
+        "areaDesc": "Sampson, NC; Wayne, NC",
+        "geocode": {
+            "UGC": [
+                "NCC163",
+                "NCC191"
+            ],
+            "SAME": [
+                "037163",
+                "037191"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC163",
+            "https://api.weather.gov/zones/county/NCC191"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004400-3398376",
+                "identifier": "NWS-IDP-PROD-4004400-3398376",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T01:24:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004374-3398362",
+                "identifier": "NWS-IDP-PROD-4004374-3398362",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T01:15:00-05:00"
+            }
+        ],
+        "sent": "2020-01-12T01:36:00-05:00",
+        "effective": "2020-01-12T01:36:00-05:00",
+        "onset": "2020-01-12T01:36:00-05:00",
+        "expires": "2020-01-12T01:45:00-05:00",
+        "ends": "2020-01-12T01:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Tornado Warning issued January 12 at 1:36AM EST until January 12 at 1:45AM EST by NWS Raleigh NC",
+        "description": "The tornado threat has diminished and the Tornado Warning has been\ncancelled. However, damaging winds remain likely and a Severe\nThunderstorm Warning remains in effect for the area.\n\nA Severe Thunderstorm Watch remains in effect until 200 AM EST for\ncentral North Carolina. A Severe Thunderstorm Watch also remains in\neffect until 500 AM EST for central North Carolina.\n\nTo report severe weather, contact your nearest law enforcement\nagency. They will relay your report to the National Weather Service\nRaleigh.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-12T01:35:00.000-05:00...storm...240DEG...51KT...35.28,-78.04"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR SOUTHERN WAYNE AND NORTHEASTERN SAMPSON COUNTIES WILL EXPIRE AT 145 AM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KRAH.TO.W.0003.000000T0000Z-200112T0645Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHSVSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T01:45:00-05:00"
+            ]
+        }
+    }
+}
