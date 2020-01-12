@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003845-3397891",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003845-3397891",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003845-3397891",
+        "areaDesc": "Western Franklin; Hartford; Western Hampshire; Eastern Hampshire; Tolland; Eastern Franklin; Western Hampden; Windham; Eastern Hampden",
+        "geocode": {
+            "UGC": [
+                "MAZ002",
+                "CTZ002",
+                "MAZ008",
+                "MAZ010",
+                "CTZ003",
+                "MAZ003",
+                "MAZ009",
+                "CTZ004",
+                "MAZ011"
+            ],
+            "SAME": [
+                "025011",
+                "009003",
+                "025015",
+                "009013",
+                "025013",
+                "009015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MAZ002",
+            "https://api.weather.gov/zones/forecast/CTZ002",
+            "https://api.weather.gov/zones/forecast/MAZ008",
+            "https://api.weather.gov/zones/forecast/MAZ010",
+            "https://api.weather.gov/zones/forecast/CTZ003",
+            "https://api.weather.gov/zones/forecast/MAZ003",
+            "https://api.weather.gov/zones/forecast/MAZ009",
+            "https://api.weather.gov/zones/forecast/CTZ004",
+            "https://api.weather.gov/zones/forecast/MAZ011"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002352-3396496",
+                "identifier": "NWS-IDP-PROD-4002352-3396496",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T15:36:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001739-3395898",
+                "identifier": "NWS-IDP-PROD-4001739-3395898",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:08:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T22:08:00-05:00",
+        "effective": "2020-01-11T22:08:00-05:00",
+        "onset": "2020-01-12T01:00:00-05:00",
+        "expires": "2020-01-12T06:15:00-05:00",
+        "ends": "2020-01-12T16:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Boston/Norton MA",
+        "headline": "Wind Advisory issued January 11 at 10:08PM EST until January 12 at 4:00PM EST by NWS Boston/Norton MA",
+        "description": "* WHAT...Southwest winds 15 to 25 mph with gusts up to 50 mph\nexpected.\n\n* WHERE...In Connecticut, Tolland CT, Hartford CT and Windham CT\nCounties. In Massachusetts, Eastern Hampden MA, Eastern\nHampshire MA, Western Franklin MA, Western Hampshire MA,\nWestern Hampden MA and Eastern Franklin MA Counties.\n\n* WHEN...Until 4 PM EST Sunday.\n\n* IMPACTS...Gusty winds could blow around unsecured objects.\nTree limbs could be blown down and a few power outages may\nresult.",
+        "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY REMAINS IN EFFECT UNTIL 4 PM EST SUNDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KBOX.WI.Y.0002.200112T0600Z-200112T2100Z/"
+            ],
+            "PIL": [
+                "BOXNPWBOX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T16:00:00-05:00"
+            ]
+        }
+    }
+}
