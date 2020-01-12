@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003853-3397898",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.7,
+                    40.86
+                ],
+                [
+                    -85.37,
+                    40.97
+                ],
+                [
+                    -85.33,
+                    40.96
+                ],
+                [
+                    -85.42,
+                    40.88
+                ],
+                [
+                    -85.68,
+                    40.800000000000004
+                ],
+                [
+                    -85.7,
+                    40.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003853-3397898",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003853-3397898",
+        "areaDesc": "Huntington, IN; Allen, IN; Wabash, IN",
+        "geocode": {
+            "UGC": [
+                "INC069",
+                "INC003",
+                "INC169"
+            ],
+            "SAME": [
+                "018069",
+                "018003",
+                "018169"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC069",
+            "https://api.weather.gov/zones/county/INC003",
+            "https://api.weather.gov/zones/county/INC169"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001808-3395968",
+                "identifier": "NWS-IDP-PROD-4001808-3395968",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:26:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T22:10:00-05:00",
+        "effective": "2020-01-11T22:10:00-05:00",
+        "onset": "2020-01-11T22:10:00-05:00",
+        "expires": "2020-01-12T22:10:00-05:00",
+        "ends": "2020-01-14T04:05:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 11 at 10:10PM EST until January 14 at 4:05AM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nLittle River above Huntington affecting Allen...Huntington and\nWabash Counties\n\n.Rises on the Little River at Huntington occurred as a result of recent\nrainfall.\n\nThe Flood Warning has been extended for\nThe Little River above Huntington\n* until late Monday night.\n* At 9 PM Saturday the stage was 14.2 feet and rising.\n* Moderate flooding is forecast.\n* Flood stage is 15.0 feet.\n* Forecast...The river will rise above flood stage very early Sunday\nmorning  and crest near 16.2 feet around 12 PM Sunday January 12\nand fall below flood stage around  4 AM Monday January 13.\n* At 16.0 feet...Moderate flooding is in progress. Secondary roads\nare blocked by flood waters. People in these areas should move\nproperty to higher ground and those nearest the river may have to\nevacuate their homes.\n* This crest compares to a previous crest of 16.6 feet which occurred\non Nov 30 2011.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0030.000000T0000Z-200114T0905Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T04:05:00-05:00"
+            ]
+        }
+    }
+}

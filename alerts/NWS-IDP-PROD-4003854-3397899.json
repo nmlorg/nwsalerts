@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003854-3397899",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.17,
+                    38.81
+                ],
+                [
+                    -90.04,
+                    38.830000000000005
+                ],
+                [
+                    -90.30000000000001,
+                    38.260000000000005
+                ],
+                [
+                    -90.43,
+                    38.260000000000005
+                ],
+                [
+                    -90.24000000000001,
+                    38.7299999
+                ],
+                [
+                    -90.17,
+                    38.81
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003854-3397899",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003854-3397899",
+        "areaDesc": "St. Clair, IL; St. Louis City, MO; St. Louis, MO",
+        "geocode": {
+            "UGC": [
+                "ILC163",
+                "MOC510",
+                "MOC189"
+            ],
+            "SAME": [
+                "017163",
+                "029510",
+                "029189"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC163",
+            "https://api.weather.gov/zones/county/MOC510",
+            "https://api.weather.gov/zones/county/MOC189"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001711-3395872",
+                "identifier": "NWS-IDP-PROD-4001711-3395872",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T12:02:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T21:12:00-06:00",
+        "effective": "2020-01-11T21:12:00-06:00",
+        "onset": "2020-01-12T10:30:00-06:00",
+        "expires": "2020-01-12T21:11:00-06:00",
+        "ends": "2020-01-15T21:20:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 11 at 9:12PM CST until January 15 at 9:20PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following river in\nIllinois...Missouri...\n\nMississippi River at Grafton\n\nMississippi River at Mel Price Lock and Dam\n\nMississippi River at St. Louis\n\nMississippi River at Chester\n\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Mississippi River at St. Louis\n* from Sunday morning to Wednesday evening.\n* At  9:00 PM Saturday the stage was 26.8 feet.\n* Flood stage is 30.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to rise above flood stage by tomorrow late\nmorning and to crest near 32.6 feet by Monday morning. The river is\nforecast to fall below flood stage by Tuesday afternoon.\n* Impact:  At 32.0 feet...Flood panels at Carr Street and Poplar\nStreet are installed.  Water will reach the base of the floodgates\nat Carr Street at 35 feet, and at Poplar Street at 36.5 feet.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0028.200112T1630Z-200116T0320Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T21:20:00-06:00"
+            ]
+        }
+    }
+}
