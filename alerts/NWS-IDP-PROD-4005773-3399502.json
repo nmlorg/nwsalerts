@@ -1,0 +1,86 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005773-3399502",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -74.33,
+                    43.34
+                ],
+                [
+                    -74.24,
+                    43.39
+                ],
+                [
+                    -74.17999999999999,
+                    43.29
+                ],
+                [
+                    -74.24999999999999,
+                    43.24
+                ],
+                [
+                    -74.33,
+                    43.34
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005773-3399502",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005773-3399502",
+        "areaDesc": "Hamilton, NY",
+        "geocode": {
+            "UGC": [
+                "NYC041"
+            ],
+            "SAME": [
+                "036041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NYC041"
+        ],
+        "references": [],
+        "sent": "2020-01-12T15:07:00-05:00",
+        "effective": "2020-01-12T15:07:00-05:00",
+        "onset": "2020-01-12T15:07:00-05:00",
+        "expires": "2020-01-12T21:44:00-05:00",
+        "ends": "2020-01-12T21:44:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albany NY",
+        "headline": "Flood Warning issued January 12 at 3:07PM EST until January 12 at 9:44PM EST by NWS Albany NY",
+        "description": "The National Weather Service in Albany has issued a\n\n* Flood Warning for\nThe Sacandaga River At Hope.\n* From this afternoon until this evening.\n* At  2 PM Sunday the stage was...7.0 feet.\n* Flood stage is 7.0 feet.\n* Forecast...The river is forecast to continue to fall to below flood\nstage after 4 PM Sunday.\n* Impact...At 7.0 feet...Minor flood stage. Water overflows onto\nlowlands and approaches Route 30.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KALY.FL.W.0001.200112T2007Z-200113T0244Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ALYFLWALY"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T21:44:00-05:00"
+            ]
+        }
+    }
+}
