@@ -1,0 +1,86 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004866-3398778",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -102.35,
+                    41.36
+                ],
+                [
+                    -102.35,
+                    41.4
+                ],
+                [
+                    -101.9599999,
+                    41.3
+                ],
+                [
+                    -101.97,
+                    41.26
+                ],
+                [
+                    -102.35,
+                    41.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004866-3398778",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004866-3398778",
+        "areaDesc": "Keith, NE; Garden, NE",
+        "geocode": {
+            "UGC": [
+                "NEC101",
+                "NEC069"
+            ],
+            "SAME": [
+                "031101",
+                "031069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC101",
+            "https://api.weather.gov/zones/county/NEC069"
+        ],
+        "references": [],
+        "sent": "2020-01-12T05:30:00-06:00",
+        "effective": "2020-01-12T05:30:00-06:00",
+        "onset": "2020-01-12T05:30:00-06:00",
+        "expires": "2020-01-13T17:25:00-06:00",
+        "ends": "2020-01-13T17:25:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS North Platte NE",
+        "headline": "Flood Advisory issued January 12 at 5:30AM CST until January 13 at 5:25PM CST by NWS North Platte NE",
+        "description": "...The National Weather Service in North Platte has issued a Flood\nAdvisory for the North Platte River...\nNorth Platte River at Lewellen affecting Garden and Keith Counties\n\n.Cold weather Saturday has caused an ice jam to form on the North Platte\nriver near Lewellen. The ice jam is expected to break up sometime in the\nnext few days.\n\nThe National Weather Service in North Platte has issued a\n* Flood Advisory for\nThe North Platte River at Lewellen.\n* until Monday afternoon.\n* At  3:45 AM Sunday the stage was 8.1 feet.\n* Flood stage is 8.0 feet.\n* Forecast...The river will remain near 8.0 feet today and fall sometime\nearly this week.\n* Impact...At 8.0 feet...Minor flood stage. Overflow and high water\ntable levels may cause seepage and flooding of basements and crawl\nspaces near and along the river.",
+        "instruction": "Stay tuned for further developments by listening to NOAA Weather\nRadio, radio and television stations or online at\nwww.weather.gov/northplatte.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLBF.FL.Y.0001.200112T1130Z-200113T2325Z/"
+            ],
+            "PIL": [
+                "LBFFLSLBF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T17:25:00-06:00"
+            ]
+        }
+    }
+}
