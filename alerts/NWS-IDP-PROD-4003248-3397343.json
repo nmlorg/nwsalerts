@@ -1,0 +1,142 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003248-3397343",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.81,
+                    36.56
+                ],
+                [
+                    -85.83,
+                    36.370000000000005
+                ],
+                [
+                    -85.83,
+                    36.34
+                ],
+                [
+                    -85.84,
+                    36.34
+                ],
+                [
+                    -85.85000000000001,
+                    36.290000000000006
+                ],
+                [
+                    -85.84,
+                    36.28000000000001
+                ],
+                [
+                    -85.84,
+                    36.22999990000001
+                ],
+                [
+                    -86.3,
+                    36.21000000000001
+                ],
+                [
+                    -86.23,
+                    36.49000000000001
+                ],
+                [
+                    -86.22,
+                    36.50000000000001
+                ],
+                [
+                    -86.22,
+                    36.53000000000001
+                ],
+                [
+                    -85.81,
+                    36.56
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003248-3397343",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003248-3397343",
+        "areaDesc": "Wilson, TN; Macon, TN; Smith, TN; Trousdale, TN",
+        "geocode": {
+            "UGC": [
+                "TNC189",
+                "TNC111",
+                "TNC159",
+                "TNC169"
+            ],
+            "SAME": [
+                "047189",
+                "047111",
+                "047159",
+                "047169"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC189",
+            "https://api.weather.gov/zones/county/TNC111",
+            "https://api.weather.gov/zones/county/TNC159",
+            "https://api.weather.gov/zones/county/TNC169"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003151-3397262",
+                "identifier": "NWS-IDP-PROD-4003151-3397262",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T18:09:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T18:34:00-06:00",
+        "effective": "2020-01-11T18:34:00-06:00",
+        "onset": "2020-01-11T18:34:00-06:00",
+        "expires": "2020-01-11T18:45:00-06:00",
+        "ends": "2020-01-11T18:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 6:34PM CST until January 11 at 6:45PM CST by NWS Nashville TN",
+        "description": "At 634 PM CST, severe thunderstorms were located along a line\nextending from near Lafayette to near Carthage, moving east at 50\nmph.\n\nHAZARD...70 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to mobile\nhomes, roofs, and outbuildings.\n\nLocations impacted include...\nLafayette, Carthage, Hartsville, Red Boiling Springs, South Carthage,\nDixon Springs, Pleasant Shade and Dickerson Chapel Recreation Area.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T18:34:00.000-06:00...storm...255DEG...44KT...36.59,-85.98 36.33,-85.98"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "70 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 645 PM CST FOR NORTHERN SMITH...NORTHEASTERN WILSON...SOUTHERN MACON AND TROUSDALE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOHX.SV.W.0021.000000T0000Z-200112T0045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T18:45:00-06:00"
+            ]
+        }
+    }
+}
