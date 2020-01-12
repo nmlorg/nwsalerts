@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004797-3398710",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.37,
+                    36.55
+                ],
+                [
+                    -87.24000000000001,
+                    36.55
+                ],
+                [
+                    -87.13000000000001,
+                    36.589999999999996
+                ],
+                [
+                    -87.13000000000001,
+                    36.529999999999994
+                ],
+                [
+                    -87.24000000000001,
+                    36.519999999999996
+                ],
+                [
+                    -87.36000000000001,
+                    36.519999999999996
+                ],
+                [
+                    -87.37,
+                    36.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004797-3398710",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004797-3398710",
+        "areaDesc": "Montgomery, TN; Robertson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC125",
+                "TNC147"
+            ],
+            "SAME": [
+                "047125",
+                "047147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC125",
+            "https://api.weather.gov/zones/county/TNC147"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002848-3396972",
+                "identifier": "NWS-IDP-PROD-4002848-3396972",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T16:43:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T04:31:00-06:00",
+        "effective": "2020-01-12T04:31:00-06:00",
+        "onset": "2020-01-12T04:30:00-06:00",
+        "expires": "2020-01-12T16:30:00-06:00",
+        "ends": "2020-01-13T04:40:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued January 12 at 4:30AM CST until January 13 at 4:40AM CST by NWS Nashville TN",
+        "description": "...The flood advisory continues for the Red River...\n\nRed River At Port Royal affecting Montgomery and Robertson Counties\n\n. Rainfall from yesterday has caused rises on area waterways. Red River at Port Royal rose above Action Stage and is forecast to crest just below flood stage at 29.6 feet later this morning.\n\nThe Flood Advisory continues for\nThe Red River At Port Royal\n* Until late tonight.\n* At 3AM Sunday the stage was 26.9 feet.\n* Flood stage is 30.0 feet.\n* The river will rise to near 29.6 feet this morning.\n* At 30.0 feet...Low lying agricultural areas along the Red River from the\nKentucky State Line to Adams, past Port Royal State Park, and on the Sulpher\nFork from near Springfield to near Cedar Hill, to Port Royal State Park begin\nto flood.\n* At 17.0 feet...The public access parking lot at Port Royal State Park is\ncompletely inundated.\n* At 11.0 feet...Water begins to inundate the public access parking lot and\npicnic area at Port Royal State Park.",
+        "instruction": "Stay tuned to noaa weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0017.000000T0000Z-200113T1040Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T04:40:00-06:00"
+            ]
+        }
+    }
+}
