@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003679-3397750",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.47,
+                    40.19
+                ],
+                [
+                    -88.47,
+                    40.08
+                ],
+                [
+                    -88.53999999999999,
+                    40.01
+                ],
+                [
+                    -88.74,
+                    39.9
+                ],
+                [
+                    -88.74,
+                    40
+                ],
+                [
+                    -88.61,
+                    40.06
+                ],
+                [
+                    -88.47,
+                    40.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003679-3397750",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003679-3397750",
+        "areaDesc": "Piatt, IL",
+        "geocode": {
+            "UGC": [
+                "ILC147"
+            ],
+            "SAME": [
+                "017147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC147"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001136-3395330",
+                "identifier": "NWS-IDP-PROD-4001136-3395330",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:41:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T20:30:00-06:00",
+        "effective": "2020-01-11T20:30:00-06:00",
+        "onset": "2020-01-12T01:30:00-06:00",
+        "expires": "2020-01-12T10:30:00-06:00",
+        "ends": "2020-01-16T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lincoln IL",
+        "headline": "Flood Warning issued January 11 at 8:30PM CST until January 16 at 6:00AM CST by NWS Lincoln IL",
+        "description": "...The Flood Warning continues for the following river in Illinois...\n\nSangamon River at Monticello affecting Piatt County\nSangamon River near Oakford affecting Cass...Mason and Menard\nCounties\nSangamon River near Chandlerville affecting Cass and Mason Counties\n\n.The following forecasts are based on observed precipitation, soil\nmoisture conditions, and forecast precipitation.\n\nThe Flood Warning continues for\nThe Sangamon River at Monticello.\n* From late tonight until Thursday morning.\n* At 8 PM Saturday the stage was 12.5 feet.\n* Flood stage is 13 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by early tomorrow morning and\ncontinue to rise to near 14.6 feet by Monday afternoon.The river\nwill fall below flood stage by early Thursday morning.\n* Impact...At 13 feet...Flooding of agricultural areas begins.",
+        "instruction": "If you encounter a flooded roadway, turn around and find an alternate\nroute. Turn around, don't drown.\n\nAdditional river and weather information is available at\nwww.weather.gov/ilx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KILX.FL.W.0005.200112T0730Z-200116T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILXFLSILX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T06:00:00-06:00"
+            ]
+        }
+    }
+}

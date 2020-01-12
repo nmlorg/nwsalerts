@@ -1,0 +1,129 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003668-3397742",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.41,
+                    39.26
+                ],
+                [
+                    -84.3,
+                    39.12
+                ],
+                [
+                    -84.3199999,
+                    39.04
+                ],
+                [
+                    -84.31,
+                    39.01
+                ],
+                [
+                    -84.62,
+                    38.919999999999995
+                ],
+                [
+                    -84.67,
+                    38.989999999999995
+                ],
+                [
+                    -84.7,
+                    39.06999999999999
+                ],
+                [
+                    -84.41,
+                    39.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003668-3397742",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003668-3397742",
+        "areaDesc": "Boone, KY; Hamilton, OH; Campbell, KY; Kenton, KY",
+        "geocode": {
+            "UGC": [
+                "KYC015",
+                "OHC061",
+                "KYC037",
+                "KYC117"
+            ],
+            "SAME": [
+                "021015",
+                "039061",
+                "021037",
+                "021117"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC015",
+            "https://api.weather.gov/zones/county/OHC061",
+            "https://api.weather.gov/zones/county/KYC037",
+            "https://api.weather.gov/zones/county/KYC117"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003593-3397667",
+                "identifier": "NWS-IDP-PROD-4003593-3397667",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T21:18:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T21:28:00-05:00",
+        "effective": "2020-01-11T21:28:00-05:00",
+        "onset": "2020-01-11T21:28:00-05:00",
+        "expires": "2020-01-11T21:45:00-05:00",
+        "ends": "2020-01-11T21:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 9:28PM EST until January 11 at 9:45PM EST by NWS Wilmington OH",
+        "description": "At 927 PM EST, a severe thunderstorm was located over Florence,\nmoving northeast at 55 mph.\n\nHAZARD...70 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to mobile\nhomes, roofs, and outbuildings.\n\nLocations impacted include...\nCincinnati, Covington, Florence, Independence, Norwood, Erlanger,\nFort Thomas, Newport, Blue Ash, Reading, Madeira, Edgewood,\nAlexandria, Elsmere, Wyoming, Fort Mitchell, Villa Hills, Highland\nHeights, Taylor Mill and Bellevue.\n\nThis includes the following Interstates...\nI-71 in Ohio between mile markers 0 and 13.\nI-74 in Ohio between mile markers 18 and 19.\nI-75 in Kentucky between mile markers 177 and 191.\nI-75 in Ohio between mile markers 0 and 12.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTo report severe weather, go to our website at weather.gov/iln and\nsubmit your report via social media, when you can do so safely.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T21:27:00.000-05:00...storm...240DEG...46KT...39.01,-84.64"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "70 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 945 PM EST FOR NORTHERN KENTON...NORTHERN CAMPBELL...NORTHERN BOONE AND EASTERN HAMILTON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KILN.SV.W.0005.000000T0000Z-200112T0245Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNSVSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T21:45:00-05:00"
+            ]
+        }
+    }
+}
