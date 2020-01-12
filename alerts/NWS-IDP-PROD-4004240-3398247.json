@@ -1,0 +1,161 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004240-3398247",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.81,
+                    36.09
+                ],
+                [
+                    -78.7099999,
+                    36.010000000000005
+                ],
+                [
+                    -78.76,
+                    35.92
+                ],
+                [
+                    -78.80000000000001,
+                    35.93
+                ],
+                [
+                    -78.81999990000001,
+                    35.9
+                ],
+                [
+                    -78.91000000000001,
+                    35.86
+                ],
+                [
+                    -78.99000000000001,
+                    35.61
+                ],
+                [
+                    -78.94000000000001,
+                    35.589999999999996
+                ],
+                [
+                    -78.95999990000001,
+                    35.54
+                ],
+                [
+                    -79.13000000000001,
+                    35.63
+                ],
+                [
+                    -79.01,
+                    35.870000000000005
+                ],
+                [
+                    -78.94000000000001,
+                    36.2299999
+                ],
+                [
+                    -79.03000000000002,
+                    36.27
+                ],
+                [
+                    -79.11000000000001,
+                    36.540000000000006
+                ],
+                [
+                    -78.80000000000001,
+                    36.540000000000006
+                ],
+                [
+                    -78.81,
+                    36.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004240-3398247",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004240-3398247",
+        "areaDesc": "Person, NC; Chatham, NC; Durham, NC",
+        "geocode": {
+            "UGC": [
+                "NCC145",
+                "NCC037",
+                "NCC063"
+            ],
+            "SAME": [
+                "037145",
+                "037037",
+                "037063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC145",
+            "https://api.weather.gov/zones/county/NCC037",
+            "https://api.weather.gov/zones/county/NCC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004096-3398121",
+                "identifier": "NWS-IDP-PROD-4004096-3398121",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T23:11:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004204-3398216",
+                "identifier": "NWS-IDP-PROD-4004204-3398216",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T00:05:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004156-3398175",
+                "identifier": "NWS-IDP-PROD-4004156-3398175",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T23:40:00-05:00"
+            }
+        ],
+        "sent": "2020-01-12T00:20:00-05:00",
+        "effective": "2020-01-12T00:20:00-05:00",
+        "onset": "2020-01-12T00:20:00-05:00",
+        "expires": "2020-01-12T00:30:00-05:00",
+        "ends": "2020-01-12T00:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Severe Thunderstorm Warning issued January 12 at 12:20AM EST until January 12 at 12:30AM EST by NWS Raleigh NC",
+        "description": "The storms which prompted the warning have moved out of the area.\nTherefore, the warning will be allowed to expire.\n\nTo report severe weather, contact your nearest law enforcement\nagency. They will relay your report to the National Weather Service\nRaleigh.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-12T00:20:00.000-05:00...storm...230DEG...53KT...36.8,-78.7 36.46,-78.65 35.75,-78.83"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR PERSON...EASTERN CHATHAM AND DURHAM COUNTIES WILL EXPIRE AT 1230 AM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KRAH.SV.W.0005.000000T0000Z-200112T0530Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHSVSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T00:30:00-05:00"
+            ]
+        }
+    }
+}
