@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005399-3399225",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.39,
+                    41.31
+                ],
+                [
+                    -89.29,
+                    41.35
+                ],
+                [
+                    -89.29,
+                    41.13
+                ],
+                [
+                    -89.41000000000001,
+                    40.93
+                ],
+                [
+                    -89.52000000000001,
+                    40.93
+                ],
+                [
+                    -89.39000000000001,
+                    41.15
+                ],
+                [
+                    -89.39,
+                    41.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005399-3399225",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005399-3399225",
+        "areaDesc": "Putnam, IL; Marshall, IL",
+        "geocode": {
+            "UGC": [
+                "ILC155",
+                "ILC123"
+            ],
+            "SAME": [
+                "017155",
+                "017123"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC155",
+            "https://api.weather.gov/zones/county/ILC123"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003704-3397768",
+                "identifier": "NWS-IDP-PROD-4003704-3397768",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T20:35:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T09:55:00-06:00",
+        "effective": "2020-01-12T09:55:00-06:00",
+        "onset": "2020-01-14T03:00:00-06:00",
+        "expires": "2020-01-12T23:54:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lincoln IL",
+        "headline": "Flood Warning issued January 12 at 9:55AM CST by NWS Lincoln IL",
+        "description": "...The Flood Warning continues for the following river in Illinois...\n\nIllinois River at Henry affecting Marshall and Putnam Counties\nIllinois River at Peoria affecting Peoria...Tazewell and Woodford\nCounties\nIllinois River near Havana affecting Cass...Fulton and Mason\nCounties\nIllinois River at Beardstown affecting Brown...Cass...Morgan and\nSchuyler Counties\n\n.The following forecasts are based on observed precipitation, soil\nmoisture conditions, and forecast precipitation.\n\nThe Flood Warning continues for\nThe Illinois River at Henry.\n* From late Monday night until further notice.\n* At  945 AM Sunday the stage was 18.5 feet.\n* Flood stage is 23.0 feet.\n* Moderate flooding is forecast.\n* Forecast...Rise above flood stage by early Tuesday morning and\ncontinue to rise to near 25.0 feet by Thursday evening.\n* Impact...At 23.0 feet...Water begins to affect the marina in Henry\nalong with minor flooding of land adjacent to the river.",
+        "instruction": "If you encounter a flooded roadway, turn around and find an alternate\nroute. Turn around, don't drown.\n\nAdditional river and weather information is available at\nwww.weather.gov/ilx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KILX.FL.W.0006.200114T0900Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILXFLSILX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
