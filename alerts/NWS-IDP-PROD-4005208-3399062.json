@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005208-3399062",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.55,
+                    36.93
+                ],
+                [
+                    -90.44,
+                    36.93
+                ],
+                [
+                    -90.22,
+                    36.64
+                ],
+                [
+                    -90.35,
+                    36.5
+                ],
+                [
+                    -90.47,
+                    36.5
+                ],
+                [
+                    -90.34,
+                    36.65
+                ],
+                [
+                    -90.55,
+                    36.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005208-3399062",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005208-3399062",
+        "areaDesc": "Butler, MO",
+        "geocode": {
+            "UGC": [
+                "MOC023"
+            ],
+            "SAME": [
+                "029023"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC023"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003138-3397250",
+                "identifier": "NWS-IDP-PROD-4003138-3397250",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T18:02:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T08:57:00-06:00",
+        "effective": "2020-01-12T08:57:00-06:00",
+        "onset": "2020-01-12T08:57:00-06:00",
+        "expires": "2020-01-13T12:57:00-06:00",
+        "ends": "2020-01-13T13:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 12 at 8:57AM CST until January 13 at 1:15PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\nBlack River at Poplar Bluff\n\n.Recent heavy rainfall over the Black River basin has caused river\nlevels to rise. Minor flooding is occurring at Poplar Bluff and a\ncrest around 18.5 feet is forecast today, before levels fall below\nflood stage on Monday.\n\nThe Flood Warning continues for\nthe Black River at Poplar Bluff.\n* until Monday afternoon.\n* At  8:15 AM Sunday the stage was 18.4 feet.\n* Flood Stage is 16.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 18.5 feet by this\nafternoon. The river will fall below flood stage tomorrow morning.\n* Impact...At 18.0 Feet...U.S. Highway 60 begins to flood heading\ntoward Baskey.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0017.000000T0000Z-200113T1915Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T13:15:00-06:00"
+            ]
+        }
+    }
+}
