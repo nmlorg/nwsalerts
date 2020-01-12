@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003726-3397784",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.15,
+                    34.56
+                ],
+                [
+                    -81.03,
+                    34.43
+                ],
+                [
+                    -81.37,
+                    34.35
+                ],
+                [
+                    -81.43,
+                    34.440000000000005
+                ],
+                [
+                    -81.35000000000001,
+                    34.57000000000001
+                ],
+                [
+                    -81.15,
+                    34.56
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003726-3397784",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003726-3397784",
+        "areaDesc": "Fairfield, SC; Newberry, SC",
+        "geocode": {
+            "UGC": [
+                "SCC039",
+                "SCC071"
+            ],
+            "SAME": [
+                "045039",
+                "045071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC039",
+            "https://api.weather.gov/zones/county/SCC071"
+        ],
+        "references": [],
+        "sent": "2020-01-11T21:37:00-05:00",
+        "effective": "2020-01-11T21:37:00-05:00",
+        "onset": "2020-01-11T21:37:00-05:00",
+        "expires": "2020-01-11T22:00:00-05:00",
+        "ends": "2020-01-11T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Tornado Warning issued January 11 at 9:37PM EST until January 11 at 10:00PM EST by NWS Columbia SC",
+        "description": "The National Weather Service in Columbia has issued a\n\n* Tornado Warning for...\nNorthwestern Fairfield County in central South Carolina...\nNortheastern Newberry County in central South Carolina...\n\n* Until 1000 PM EST.\n\n* At 937 PM EST, a severe thunderstorm capable of producing a\ntornado was located near Blair, or 9 miles north of VC Summer\nNuclear Station, moving northeast at 60 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This dangerous storm will be near...\nBlackstock around 950 PM EST.\n\nOther locations impacted by this tornadic thunderstorm include\nFeasterville Fire Station, White Oak and Lebanon Fire Station.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T21:37:00.000-05:00...storm...235DEG...60KT...34.43,-81.37"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KCAE.TO.W.0001.200112T0237Z-200112T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAETORCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T22:00:00-05:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 10:00 PM EST. Take shelter now. Check media."
+            ]
+        }
+    }
+}

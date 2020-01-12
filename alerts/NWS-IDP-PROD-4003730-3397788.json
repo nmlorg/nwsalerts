@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003730-3397788",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.16,
+                    37.46
+                ],
+                [
+                    -87.03,
+                    37.42
+                ],
+                [
+                    -86.89,
+                    37.260000000000005
+                ],
+                [
+                    -86.97,
+                    37.2
+                ],
+                [
+                    -87.0699999,
+                    37.290000000000006
+                ],
+                [
+                    -87.19,
+                    37.31000000000001
+                ],
+                [
+                    -87.16,
+                    37.46
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003730-3397788",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003730-3397788",
+        "areaDesc": "Muhlenberg, KY",
+        "geocode": {
+            "UGC": [
+                "KYC177"
+            ],
+            "SAME": [
+                "021177"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC177"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002249-3396395",
+                "identifier": "NWS-IDP-PROD-4002249-3396395",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T14:12:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T20:39:00-06:00",
+        "effective": "2020-01-11T20:39:00-06:00",
+        "onset": "2020-01-12T12:45:00-06:00",
+        "expires": "2020-01-13T00:38:00-06:00",
+        "ends": "2020-01-16T03:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 11 at 8:39PM CST until January 16 at 3:00AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nKentucky...\n\nGreen River at Paradise affecting Muhlenberg County\n\n.Runoff from heavy rainfall over the last 36 hours over the Green\nRiver basin will cause minor flooding to develop on the Green River\nat Paradise. The river is forecast to rise above flood stage Sunday\nand crest near 382.7 feet Tuesday.\n\nThe Flood Warning continues for\nthe Green River at Paradise.\n* from Sunday afternoon to late Wednesday night.\n* At  8:15 PM Saturday the stage was 376.1 feet.\n* Flood Stage is 380.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by tomorrow early afternoon and\ncontinue to rise to near 382.6 feet by early Tuesday morning. The\nriver will fall below flood stage by Wednesday before midnight.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0018.200112T1845Z-200116T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T03:00:00-06:00"
+            ]
+        }
+    }
+}

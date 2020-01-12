@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003749-3397807",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.89,
+                    41.09
+                ],
+                [
+                    -88.8,
+                    41.13
+                ],
+                [
+                    -88.52,
+                    40.84
+                ],
+                [
+                    -88.61,
+                    40.790000000000006
+                ],
+                [
+                    -88.89,
+                    41.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003749-3397807",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003749-3397807",
+        "areaDesc": "Livingston, IL",
+        "geocode": {
+            "UGC": [
+                "ILC105"
+            ],
+            "SAME": [
+                "017105"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC105"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002064-3396217",
+                "identifier": "NWS-IDP-PROD-4002064-3396217",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:22:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T20:42:00-06:00",
+        "effective": "2020-01-11T20:42:00-06:00",
+        "onset": "2020-01-12T01:48:00-06:00",
+        "expires": "2020-01-12T10:42:00-06:00",
+        "ends": "2020-01-13T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 11 at 8:42PM CST until January 13 at 12:00AM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in\nIllinois...Indiana...\n\nIllinois River at Morris affecting Grundy County\nIllinois River at Ottawa affecting La Salle County\nIllinois River at La Salle affecting Bureau...La Salle and Putnam\nCounties\nKankakee River at Dunns Bridge affecting Porter County\nKankakee River near Kouts affecting Jasper and Porter Counties\nKankakee River at Shelby affecting Lake and Newton Counties\nKankakee River at Momence affecting Kankakee County\nKankakee River near Wilmington affecting Grundy...Kankakee and Will\nCounties\nFox River at Montgomery affecting Kane and Kendall Counties\nIroquois River at Rensselaer affecting Jasper County\nIroquois River near Foresman affecting Newton County\nIroquois River at Iroquois affecting Iroquois County\nIroquois River near Chebanse affecting Iroquois and Kankakee\nCounties\nSugar Creek at Milford affecting Iroquois County\nVermilion River at Pontiac affecting Livingston County\nVermilion River near Leonore affecting La Salle County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Warning continues for\nThe Vermilion River at Pontiac, or from Near Pontiac downstream to\nIL-23 near Streator.\n* from late tonight to late Sunday night.\n* At  745 PM Saturday the stage was 11.8 feet.\n* Flood stage is 14.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by early Sunday and continue to\nrise to near 14.7 feet by Sunday morning.\n* Impact...At 15.0 feet...Low-lying residences threatened between Mill\nStreet and Chautauqua Park in Pontiac. IL-116 threatened east and\nwest of Pontiac.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0011.200112T0748Z-200113T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T00:00:00-06:00"
+            ]
+        }
+    }
+}
