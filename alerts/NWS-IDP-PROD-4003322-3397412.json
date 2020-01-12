@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003322-3397412",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.42,
+                    38.94
+                ],
+                [
+                    -93.48,
+                    38.989999999999995
+                ],
+                [
+                    -92.97,
+                    39.029999999999994
+                ],
+                [
+                    -92.95,
+                    38.93999999999999
+                ],
+                [
+                    -93.23,
+                    38.92999999999999
+                ],
+                [
+                    -93.42,
+                    38.94
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003322-3397412",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003322-3397412",
+        "areaDesc": "Saline, MO; Cooper, MO",
+        "geocode": {
+            "UGC": [
+                "MOC195",
+                "MOC053"
+            ],
+            "SAME": [
+                "029195",
+                "029053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC195",
+            "https://api.weather.gov/zones/county/MOC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4000917-3395144",
+                "identifier": "NWS-IDP-PROD-4000917-3395144",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T08:56:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:00:00-06:00",
+        "effective": "2020-01-11T19:00:00-06:00",
+        "onset": "2020-01-11T19:00:00-06:00",
+        "expires": "2020-01-12T18:59:00-06:00",
+        "ends": "2020-01-16T03:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant HIll MO",
+        "headline": "Flood Warning issued January 11 at 7:00PM CST until January 16 at 3:00AM CST by NWS Kansas City/Pleasant HIll MO",
+        "description": "...The Flood Warning continues for the following rivers in\nMissouri...\n\nBig Creek at Blairstown affecting Cass...Henry and Johnson Counties.\n\nBlackwater River at Valley City affecting Johnson and Pettis\nCounties.\n\nLamine River near Otterville affecting Cooper County.\n\nSouth Grand River at Urich affecting Bates...Cass and Henry\nCounties.\n\n...The Flood Warning continues for the following rivers in\nMissouri...\n\nBlackwater River near Blue Lick affecting Cooper and Saline\nCounties.\nPetite Saline Creek near Boonville affecting Cooper County.\n\nThe Flood Warning continues for\nThe Blackwater River near Blue Lick.\n* until late Wednesday night.\n* At  6:45 PM Saturday the stage was 24.8 feet.\n* Flood stage is 24.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 26.6 feet by\nearly Monday morning. The river will fall below flood stage\nWednesday morning.\n* At 24.0 feet...Cropland and pastures along the river flood.",
+        "instruction": "Do not drive through flowing water. Nearly half of all flood\nfatalities are vehicle related. As little as 6 inches of water may\ncause you to lose control of your vehicle. Two feet of water will\ncarry most vehicles away.This product along with additional weather\nand stream information is available at www.weather.gov/kc/.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KEAX.FL.W.0002.000000T0000Z-200116T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EAXFLSEAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T03:00:00-06:00"
+            ]
+        }
+    }
+}
