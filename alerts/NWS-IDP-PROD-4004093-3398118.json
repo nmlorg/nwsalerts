@@ -1,0 +1,136 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004093-3398118",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.35,
+                    36.26
+                ],
+                [
+                    -79.86999999999999,
+                    37.22
+                ],
+                [
+                    -79.85,
+                    37.22
+                ],
+                [
+                    -79.85,
+                    37.24
+                ],
+                [
+                    -79.64999999999999,
+                    37.300000000000004
+                ],
+                [
+                    -79.58,
+                    37.03
+                ],
+                [
+                    -79.53,
+                    36.550000000000004
+                ],
+                [
+                    -79.53,
+                    36.24
+                ],
+                [
+                    -80.35,
+                    36.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004093-3398118",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004093-3398118",
+        "areaDesc": "Stokes, NC; Patrick, VA; Rockingham, NC; City of Martinsville, VA; Bedford, VA; Franklin, VA; Henry, VA; Pittsylvania, VA",
+        "geocode": {
+            "UGC": [
+                "NCC169",
+                "VAC141",
+                "NCC157",
+                "VAC690",
+                "VAC019",
+                "VAC067",
+                "VAC089",
+                "VAC143"
+            ],
+            "SAME": [
+                "037169",
+                "051141",
+                "037157",
+                "051690",
+                "051019",
+                "051067",
+                "051089",
+                "051143"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC169",
+            "https://api.weather.gov/zones/county/VAC141",
+            "https://api.weather.gov/zones/county/NCC157",
+            "https://api.weather.gov/zones/county/VAC690",
+            "https://api.weather.gov/zones/county/VAC019",
+            "https://api.weather.gov/zones/county/VAC067",
+            "https://api.weather.gov/zones/county/VAC089",
+            "https://api.weather.gov/zones/county/VAC143"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003949-3397989",
+                "identifier": "NWS-IDP-PROD-4003949-3397989",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T22:40:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T23:08:00-05:00",
+        "effective": "2020-01-11T23:08:00-05:00",
+        "onset": "2020-01-11T23:08:00-05:00",
+        "expires": "2020-01-11T23:17:00-05:00",
+        "ends": "2020-01-11T23:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Blacksburg VA",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 11:08PM EST until January 11 at 11:15PM EST by NWS Blacksburg VA",
+        "description": "The storms which prompted the warning have moved out of the area.\nTherefore, the warning will be allowed to expire.  However gusty\nwinds are still possible with these thunderstorms.\n\nA Severe Thunderstorm Watch remains in effect until 100 AM EST for\nnorth central and northwestern North Carolina...and south central,\ncentral, southwestern and west central Virginia.\n\nWhen it is safe to do so, please send your reports of hail of any\nsize, as well as reports of any wind damage, including downed trees\nor large limbs, to the National Weather Service by calling toll free\nat 1...8 6 6...2 1 5...4 3 2 4. Reports and pictures can also be\nshared on the National Weather Service Blacksburg Facebook page and\non Twitter.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T23:07:00.000-05:00...storm...325DEG...37KT...36.65,-79.5 36.22,-79.78"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR EASTERN STOKES...ROCKINGHAM...WESTERN PITTSYLVANIA...SOUTHWESTERN BEDFORD...HENRY...FRANKLIN AND SOUTHEASTERN PATRICK COUNTIES AND THE CITY OF MARTINSVILLE WILL EXPIRE AT 1115 PM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KRNK.SV.W.0008.000000T0000Z-200112T0415Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RNKSVSRNK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T23:15:00-05:00"
+            ]
+        }
+    }
+}
