@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005729-3399474",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.36,
+                    34.05
+                ],
+                [
+                    -96.34,
+                    34.08
+                ],
+                [
+                    -96.09,
+                    33.949999999999996
+                ],
+                [
+                    -95.9599999,
+                    33.88999999999999
+                ],
+                [
+                    -96.0699999,
+                    33.86999999999999
+                ],
+                [
+                    -96.26,
+                    33.96999999999999
+                ],
+                [
+                    -96.36,
+                    34.05
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005729-3399474",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005729-3399474",
+        "areaDesc": "Bryan, OK",
+        "geocode": {
+            "UGC": [
+                "OKC013"
+            ],
+            "SAME": [
+                "040013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005114-3398986",
+                "identifier": "NWS-IDP-PROD-4005114-3398986",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T08:18:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T13:30:00-06:00",
+        "effective": "2020-01-12T13:30:00-06:00",
+        "onset": "2020-01-12T13:30:00-06:00",
+        "expires": "2020-01-12T21:29:00-06:00",
+        "ends": "2020-01-13T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Flood Warning issued January 12 at 1:30PM CST until January 13 at 12:00AM CST by NWS Norman OK",
+        "description": "The Flood Warning continues for\nthe Blue River near Blue\n\n* until late tonight...or until the warning is cancelled.\n\n* At 12:30 PM Sunday the stage was 29.7 feet.\n\n* Minor flooding is occurring.\n\n* Flood stage is 28.0 feet.\n\n* Forecast...The Blue River has crested and will continue to fall.\nThe Blue River will fall below flood stage Sunday evening.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KOUN.FL.W.0002.000000T0000Z-200113T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OUNFLSOUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T00:00:00-06:00"
+            ]
+        }
+    }
+}
