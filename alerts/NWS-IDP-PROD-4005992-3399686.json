@@ -1,0 +1,82 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005992-3399686",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005992-3399686",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005992-3399686",
+        "areaDesc": "South Central Elko County; Northern Lander County and Northern Eureka County; Southwest Elko County",
+        "geocode": {
+            "UGC": [
+                "NVZ039",
+                "NVZ036",
+                "NVZ038"
+            ],
+            "SAME": [
+                "032007",
+                "032011",
+                "032015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NVZ039",
+            "https://api.weather.gov/zones/forecast/NVZ036",
+            "https://api.weather.gov/zones/forecast/NVZ038"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005158-3399026",
+                "identifier": "NWS-IDP-PROD-4005158-3399026",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T06:42:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005158-3399027",
+                "identifier": "NWS-IDP-PROD-4005158-3399027",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T06:42:00-08:00"
+            }
+        ],
+        "sent": "2020-01-12T14:10:00-08:00",
+        "effective": "2020-01-12T14:10:00-08:00",
+        "onset": "2020-01-12T16:00:00-08:00",
+        "expires": "2020-01-13T04:15:00-08:00",
+        "ends": "2020-01-14T16:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Elko NV",
+        "headline": "Winter Weather Advisory issued January 12 at 2:10PM PST until January 14 at 4:00PM PST by NWS Elko NV",
+        "description": "* WHAT...Snow expected. Total snow accumulations of 2 to 6\ninches expected. Winds gusting as high as 35 mph.\n\n* WHERE...Northern Lander County and Northern Eureka County,\nSouthwestern Elko County and South Central Elko County.\n\n* WHEN...From 4 PM this afternoon to 4 PM PST Tuesday. Heaviest\nsnow expected Monday night into Tuesday morning.\n\n* ADDITIONAL DETAILS...Travel could be very difficult. The\nhazardous conditions could impact the morning or evening\ncommute. Gusty winds could bring down tree branches.",
+        "instruction": "A Winter Weather Advisory for snow means periods of snow will\ncause primarily travel difficulties. Expect snow covered roads\nand limited visibilities, and use caution while driving.\n\nThe latest road conditions for the state you are calling from can\nbe obtained by calling 5 1 1.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL 4 PM PST TUESDAY"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KLKN.WW.Y.0002.200113T0000Z-200115T0000Z/"
+            ],
+            "PIL": [
+                "LKNWSWLKN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T16:00:00-08:00"
+            ]
+        }
+    }
+}
