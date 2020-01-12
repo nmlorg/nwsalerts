@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005978-3399668",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.37,
+                    36.55
+                ],
+                [
+                    -87.24000000000001,
+                    36.55
+                ],
+                [
+                    -87.13000000000001,
+                    36.589999999999996
+                ],
+                [
+                    -87.13000000000001,
+                    36.529999999999994
+                ],
+                [
+                    -87.24000000000001,
+                    36.519999999999996
+                ],
+                [
+                    -87.36000000000001,
+                    36.519999999999996
+                ],
+                [
+                    -87.37,
+                    36.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005978-3399668",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005978-3399668",
+        "areaDesc": "Montgomery, TN; Robertson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC125",
+                "TNC147"
+            ],
+            "SAME": [
+                "047125",
+                "047147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC125",
+            "https://api.weather.gov/zones/county/TNC147"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004797-3398710",
+                "identifier": "NWS-IDP-PROD-4004797-3398710",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T04:31:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T16:00:00-06:00",
+        "effective": "2020-01-12T16:00:00-06:00",
+        "onset": "2020-01-12T16:00:00-06:00",
+        "expires": "2020-01-13T03:59:00-06:00",
+        "ends": "2020-01-13T04:40:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued January 12 at 4:00PM CST until January 13 at 4:40AM CST by NWS Nashville TN",
+        "description": "...The Flood Advisory continues for the Red River...\n\nRed River At Port Royal affecting Montgomery and Robertson Counties\n\n. The Red River at Port Royal will fall below Action stage in the next couple\nof hours.\n\nThe Flood Advisory continues for\nThe Red River At Port Royal\n* Until this evening.\n* At 3 PM Sunday the stage was 25.8 feet.\n* Flood stage is 30.0 feet.\n* Action stage is 25.0 feet.\n* The river will continue to fall to below 25.0 feet in the next couple hours.\n* At 17.0 feet...The public access parking lot at Port Royal State Park is\ncompletely inundated.\n* At 11.0 feet...Water begins to inundate the public access parking lot and\npicnic area at Port Royal State Park.",
+        "instruction": "Stay tuned to NOAA weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0017.000000T0000Z-200113T1040Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T04:40:00-06:00"
+            ]
+        }
+    }
+}
