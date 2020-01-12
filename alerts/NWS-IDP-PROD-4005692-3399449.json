@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005692-3399449",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.25,
+                    35.39
+                ],
+                [
+                    -89.95,
+                    35.39
+                ],
+                [
+                    -90.05,
+                    35.33
+                ],
+                [
+                    -90.03999999999999,
+                    35.129999999999995
+                ],
+                [
+                    -90.08,
+                    34.909999899999995
+                ],
+                [
+                    -90.41,
+                    34.909999899999995
+                ],
+                [
+                    -90.25,
+                    35.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005692-3399449",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005692-3399449",
+        "areaDesc": "DeSoto, MS; Crittenden, AR; Shelby, TN",
+        "geocode": {
+            "UGC": [
+                "MSC033",
+                "ARC035",
+                "TNC157"
+            ],
+            "SAME": [
+                "028033",
+                "005035",
+                "047157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC033",
+            "https://api.weather.gov/zones/county/ARC035",
+            "https://api.weather.gov/zones/county/TNC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003556-3397628",
+                "identifier": "NWS-IDP-PROD-4003556-3397628",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T20:03:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T12:27:00-06:00",
+        "effective": "2020-01-12T12:27:00-06:00",
+        "onset": "2020-01-12T12:27:00-06:00",
+        "expires": "2020-01-13T12:27:00-06:00",
+        "ends": "2020-01-26T06:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Advisory issued January 12 at 12:27PM CST until January 26 at 6:30AM CST by NWS Memphis TN",
+        "description": "...The Flood Advisory continues for the Mississippi River...\nMississippi River at Memphis affecting Crittenden...DeSoto and\nShelby Counties\n\nThe Flood Advisory continues for\nthe Mississippi River at Memphis\n* until Sunday January 26.\n* At 12 PM Sunday the stage was 28.5 feet.\n* Flood stage is 34.0 feet.\n* Forecast...The river will rise to near 33.9 feet Tuesday January\n21.\n* At 34.0 feet...In Arkansas, the camp on Robinson Road right inside\nthe levee is totally flooded. Roads to industries inside the levee\nsouth of West Memphis are flooding.",
+        "instruction": "The next River Statement will be issued Monday or sooner if conditions\nwarrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.Y.0006.000000T0000Z-200126T1230Z/"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-26T06:30:00-06:00"
+            ]
+        }
+    }
+}
