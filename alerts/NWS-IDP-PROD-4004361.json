@@ -1,0 +1,127 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004361",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81,
+                    41.74
+                ],
+                [
+                    -81.01,
+                    41.35
+                ],
+                [
+                    -81.39,
+                    41.35
+                ],
+                [
+                    -81.4,
+                    41.33
+                ],
+                [
+                    -81.5699999,
+                    41.28
+                ],
+                [
+                    -81.84,
+                    41.42
+                ],
+                [
+                    -81.88000000000001,
+                    41.4799999
+                ],
+                [
+                    -81.74000000000001,
+                    41.49
+                ],
+                [
+                    -81.70999990000001,
+                    41.5
+                ],
+                [
+                    -81.62000000000002,
+                    41.55
+                ],
+                [
+                    -81.37000000000002,
+                    41.72
+                ],
+                [
+                    -81.02000000000002,
+                    41.85
+                ],
+                [
+                    -81,
+                    41.74
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004361",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004361",
+        "areaDesc": "Summit; Geauga; Cuyahoga; Lake",
+        "geocode": {
+            "UGC": [
+                "OHZ021",
+                "OHZ013",
+                "OHZ011",
+                "OHZ012"
+            ],
+            "SAME": [
+                "039153",
+                "039055",
+                "039035",
+                "039085"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/OHZ021",
+            "https://api.weather.gov/zones/forecast/OHZ013",
+            "https://api.weather.gov/zones/forecast/OHZ011",
+            "https://api.weather.gov/zones/forecast/OHZ012"
+        ],
+        "references": [],
+        "sent": "2020-01-12T01:06:00-05:00",
+        "effective": "2020-01-12T01:06:00-05:00",
+        "onset": "2020-01-12T01:06:00-05:00",
+        "expires": "2020-01-12T01:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cleveland OH",
+        "headline": "Special Weather Statement issued January 12 at 1:06AM EST by NWS Cleveland OH",
+        "description": "At 105 AM EST, radar indicated showers were located along a line\nextending from 7 miles west of Cleveland to near Lakewood to\nMacedonia. Movement was northeast at 65 mph.\n\nWind gusts up to 60 mph are possible with these showers. Damage to\ntrees, power lines, and property may occur.\n\nLocations impacted include...\nCleveland, Painesville, Willowick, Chardon, Fairport Harbor, Parma,\nLakewood, Euclid, Mentor, Cleveland Heights, Solon, Willoughby,\nTwinsburg, Eastlake, Warrensville Heights, Macedonia, South Russell,\nMadison, Middlefield and Perry.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-12T01:05:00.000-05:00...storm...238DEG...56KT...41.54,-81.83 41.46,-81.78 41.31,-81.49"
+            ],
+            "NWSheadline": [
+                "A LINE OF STRONG SHOWERS WILL AFFECT GEAUGA...CUYAHOGA...LAKE AND NORTHEASTERN SUMMIT COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CLESPSCLE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
