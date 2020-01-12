@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003268-3397361",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.28,
+                    34.81
+                ],
+                [
+                    -90.14,
+                    34.81
+                ],
+                [
+                    -90.13,
+                    34.52
+                ],
+                [
+                    -90.33,
+                    34.52
+                ],
+                [
+                    -90.33,
+                    34.75
+                ],
+                [
+                    -90.28,
+                    34.81
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003268-3397361",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003268-3397361",
+        "areaDesc": "Tate, MS; Tunica, MS",
+        "geocode": {
+            "UGC": [
+                "MSC137",
+                "MSC143"
+            ],
+            "SAME": [
+                "028137",
+                "028143"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC137",
+            "https://api.weather.gov/zones/county/MSC143"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001652-3395810",
+                "identifier": "NWS-IDP-PROD-4001652-3395810",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T11:51:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T18:39:00-06:00",
+        "effective": "2020-01-11T18:39:00-06:00",
+        "onset": "2020-01-11T18:39:00-06:00",
+        "expires": "2020-01-12T12:30:00-06:00",
+        "ends": "2020-01-12T12:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 11 at 6:39PM CST until January 12 at 12:30PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Coldwater River...Little\nTallahatchie Canal.\n\nThe Flood Warning continues for\nthe Coldwater River near Sarah\n* until Sunday January 12.\n* At 6 PM Saturday the stage was 18.3 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* Maximum forecast stage of 18.6 feet on Sunday January 12.\n* Flood stage is 18.0 feet.\n* The river rose above flood stage Saturday January 11 and will\ncontinue rising to near 18.6 feet by late Sunday January 12. The river\nwill fall below flood stage later Sunday January 12.\n* At 18.0 feet...Low-lying farm land near the river begins to flood.",
+        "instruction": "A followup Flood Statement will be issued when conditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0023.000000T0000Z-200112T1830Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T12:30:00-06:00"
+            ]
+        }
+    }
+}
