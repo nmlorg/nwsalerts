@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005137-3399004",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.4,
+                    35.7
+                ],
+                [
+                    -91.25,
+                    35.9099999
+                ],
+                [
+                    -91.15,
+                    36.120000000000005
+                ],
+                [
+                    -91.01,
+                    36.1
+                ],
+                [
+                    -91.10000000000001,
+                    35.88
+                ],
+                [
+                    -91.28000000000002,
+                    35.64
+                ],
+                [
+                    -91.4,
+                    35.7
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005137-3399004",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005137-3399004",
+        "areaDesc": "Lawrence, AR; Independence, AR; Jackson, AR",
+        "geocode": {
+            "UGC": [
+                "ARC075",
+                "ARC063",
+                "ARC067"
+            ],
+            "SAME": [
+                "005075",
+                "005063",
+                "005067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC075",
+            "https://api.weather.gov/zones/county/ARC063",
+            "https://api.weather.gov/zones/county/ARC067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003338-3397427",
+                "identifier": "NWS-IDP-PROD-4003338-3397427",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T19:05:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T08:30:00-06:00",
+        "effective": "2020-01-12T08:30:00-06:00",
+        "onset": "2020-01-12T08:30:00-06:00",
+        "expires": "2020-01-12T23:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Warning issued January 12 at 8:30AM CST by NWS Little Rock AR",
+        "description": "...From the National Weather Service in Little Rock...the Flood\nWarning continues for the following river in Arkansas...\n\nBlack River At Pocahontas affecting Randolph County\n\nBlack River At Black Rock affecting Independence...Jackson and\nLawrence Counties\n\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 24 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.\n\nThe Flood Warning continues for\nThe Black River At Black Rock.\n* until further notice...Or until the warning is cancelled.\n* At 8:00 AM Sunday the stage was 22.6 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 14.0 feet.\n* Forecast...The river will continue rising to near 23.2 feet by\nearly Monday morning.\n* Impacts at 24.0 feet...Thousands of acres of cropland and pastures\nflooded. State Highway 37 in Independence County east of Cord may\nbe flooded. Water rises into low lying streets in Powhatan. Ball\nPark and Boat Ramp Area in Black Rock floods.",
+        "instruction": "Safety message...Remember to Turn Around...Don't Drown\nDo not drive cars through flooded areas.\n\nEveryone with property or other interest along streams and rivers\nshould remain alert to changing weather forecasts. Should conditions\nchange...Look for river forecasts or Flood Warnings for use in making\ninformed decisions to protect life and property.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLZK.FL.W.0002.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
