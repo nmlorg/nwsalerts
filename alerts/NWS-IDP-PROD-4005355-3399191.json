@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005355-3399191",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.1,
+                    31.6
+                ],
+                [
+                    -88.03999999999999,
+                    31.6
+                ],
+                [
+                    -87.85999999999999,
+                    31.490000000000002
+                ],
+                [
+                    -87.91999999999999,
+                    31.14
+                ],
+                [
+                    -88.01999999999998,
+                    31.14
+                ],
+                [
+                    -87.92999999999998,
+                    31.490000000000002
+                ],
+                [
+                    -88.1,
+                    31.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005355-3399191",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005355-3399191",
+        "areaDesc": "Choctaw, AL; Washington, AL; Clarke, AL",
+        "geocode": {
+            "UGC": [
+                "ALC023",
+                "ALC129",
+                "ALC025"
+            ],
+            "SAME": [
+                "001023",
+                "001129",
+                "001025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC023",
+            "https://api.weather.gov/zones/county/ALC129",
+            "https://api.weather.gov/zones/county/ALC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003489-3397560",
+                "identifier": "NWS-IDP-PROD-4003489-3397560",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T19:47:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T09:39:00-06:00",
+        "effective": "2020-01-12T09:39:00-06:00",
+        "onset": "2020-01-12T09:39:00-06:00",
+        "expires": "2020-01-13T09:39:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued January 12 at 9:39AM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for the following rivers in Alabama...\n\nTombigbee River Near Coffeeville Dam affecting Choctaw...Clarke and\nWashington Counties.\nTombigbee River Near Leroy affecting Choctaw...Clarke and Washington\nCounties.\n\n.Recent heavy rains have caused significant rises along the river.\n\nThe Flood Warning continues for\nthe Tombigbee River Near Leroy\n* until further notice.\n* At 09AM Sunday the stage was 28.2 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 24.0 feet.\n* The river will continue to fall to a stage of 27.7 feet by Monday, January 13.\n* At 30.0 feet...Roads leading into the Powersouth power plant will begin to\nflood, along with roads along the east side of the river.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMOB.FL.W.0002.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
