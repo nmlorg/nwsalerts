@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005602-3399376",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.66,
+                    38.57
+                ],
+                [
+                    -88.55,
+                    38.58
+                ],
+                [
+                    -88.56,
+                    38.39
+                ],
+                [
+                    -88.38,
+                    38.27
+                ],
+                [
+                    -88.4599999,
+                    38.260000000000005
+                ],
+                [
+                    -88.65,
+                    38.36000000000001
+                ],
+                [
+                    -88.66,
+                    38.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005602-3399376",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005602-3399376",
+        "areaDesc": "Wayne, IL; White, IL",
+        "geocode": {
+            "UGC": [
+                "ILC191",
+                "ILC193"
+            ],
+            "SAME": [
+                "017191",
+                "017193"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC191",
+            "https://api.weather.gov/zones/county/ILC193"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005392-3399218",
+                "identifier": "NWS-IDP-PROD-4005392-3399218",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T09:53:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T11:46:00-06:00",
+        "effective": "2020-01-12T11:46:00-06:00",
+        "onset": "2020-01-12T11:46:00-06:00",
+        "expires": "2020-01-13T15:46:00-06:00",
+        "ends": "2020-01-14T10:12:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 12 at 11:46AM CST until January 14 at 10:12AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...\n\nSkillet Fork River at Wayne City\n\n.Recent heavy rainfall over the Skillet Fork River basin has caused river\nlevels to rise. Major flooding has developed at Wayne City, with a crest\nexpected around 21 feet by this evening.\n\nThe Flood Warning continues for\nthe Skillet Fork River at Wayne City.\n* until Tuesday morning.\n* At 11:00 AM Sunday the stage was 20.1 feet.\n* Flood Stage is 15.0 feet.\n* Major flooding is occurring and Major flooding is forecast.\n* Forecast...The river will continue rising to near 21.0 feet by this\nevening. The river will fall below flood stage Tuesday morning.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0003.000000T0000Z-200114T1612Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T10:12:00-06:00"
+            ]
+        }
+    }
+}
