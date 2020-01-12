@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003445-3397515",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.4599999,
+                    33.86
+                ],
+                [
+                    -82.53,
+                    34.03
+                ],
+                [
+                    -82.4599999,
+                    34.06
+                ],
+                [
+                    -82.33,
+                    34.06
+                ],
+                [
+                    -82.31,
+                    33.97
+                ],
+                [
+                    -82.26,
+                    34
+                ],
+                [
+                    -82.2099999,
+                    33.94
+                ],
+                [
+                    -82.4,
+                    33.87
+                ],
+                [
+                    -82.4599999,
+                    33.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003445-3397515",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003445-3397515",
+        "areaDesc": "Lincoln, GA; McCormick, SC",
+        "geocode": {
+            "UGC": [
+                "GAC181",
+                "SCC065"
+            ],
+            "SAME": [
+                "013181",
+                "045065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC181",
+            "https://api.weather.gov/zones/county/SCC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003367-3397451",
+                "identifier": "NWS-IDP-PROD-4003367-3397451",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T20:13:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T20:33:00-05:00",
+        "effective": "2020-01-11T20:33:00-05:00",
+        "onset": "2020-01-11T20:33:00-05:00",
+        "expires": "2020-01-11T20:45:00-05:00",
+        "ends": "2020-01-11T20:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 8:33PM EST until January 11 at 8:45PM EST by NWS Columbia SC",
+        "description": "At 833 PM EST, a severe thunderstorm was located near Troy, or 14\nmiles south of Abbeville, moving east at 45 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Trained weather spotters reported large branches down.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nMcCormick, Hickory Knob State Resort Park, Willington, Bordeaux,\nMount Carmel, Baker Creek State Park, Leroy's Ferry Recreation Area\nand Long Cane Creek Picnic Area.",
+        "instruction": "A Tornado Watch remains in effect until midnight EST for east central\nGeorgia...and central South Carolina.\n\nSevere thunderstorms can produce large capsizing waves. If on or\nnear Lake Strom Thurmond move into dock and take shelter!",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T20:33:00.000-05:00...storm...250DEG...39KT...33.97,-82.41"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 845 PM EST FOR CENTRAL LINCOLN AND NORTHWESTERN MCCORMICK COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KCAE.SV.W.0003.000000T0000Z-200112T0145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAESVSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T20:45:00-05:00"
+            ]
+        }
+    }
+}

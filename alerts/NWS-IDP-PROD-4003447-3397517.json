@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003447-3397517",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.5,
+                    37.32
+                ],
+                [
+                    -90.41,
+                    37.32
+                ],
+                [
+                    -90.4599999,
+                    37.17
+                ],
+                [
+                    -90.37,
+                    37.03
+                ],
+                [
+                    -90.42,
+                    36.99
+                ],
+                [
+                    -90.54,
+                    37.14
+                ],
+                [
+                    -90.5,
+                    37.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003447-3397517",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003447-3397517",
+        "areaDesc": "Wayne, MO",
+        "geocode": {
+            "UGC": [
+                "MOC223"
+            ],
+            "SAME": [
+                "029223"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC223"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001086-3395284",
+                "identifier": "NWS-IDP-PROD-4001086-3395284",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:24:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:35:00-06:00",
+        "effective": "2020-01-11T19:35:00-06:00",
+        "onset": "2020-01-11T19:35:00-06:00",
+        "expires": "2020-01-12T23:34:00-06:00",
+        "ends": "2020-01-14T03:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 11 at 7:35PM CST until January 14 at 3:00AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\nSt. Francis River near Patterson affecting Wayne County\n\n.Heavy rainfall over the past 36 hours will result in further rises\non the St. Francis River near Patterson, which has reached moderate\nflooding. The river is forecast to crest at 28.0 feet tomorrow morning and\nthen fall, dropping below flood stage late Monday.\n\nThe Flood Warning continues for\nthe St. Francis River near Patterson.\n* until late Monday night.\n* At  7:00 PM Saturday the stage was 25.0 feet.\n* Flood Stage is 16.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to near 28.0 feet by\ntomorrow morning. The river will fall below flood stage Monday\nbefore midnight.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0004.000000T0000Z-200114T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T03:00:00-06:00"
+            ]
+        }
+    }
+}
