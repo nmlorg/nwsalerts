@@ -1,0 +1,136 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004221-3398229",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.17,
+                    34.85
+                ],
+                [
+                    -79.19,
+                    34.89
+                ],
+                [
+                    -79.14,
+                    35.01
+                ],
+                [
+                    -78.64,
+                    35.22
+                ],
+                [
+                    -78.63,
+                    35.17
+                ],
+                [
+                    -78.64999999999999,
+                    35.120000000000005
+                ],
+                [
+                    -78.63999999999999,
+                    35.120000000000005
+                ],
+                [
+                    -78.66999999999999,
+                    35.080000000000005
+                ],
+                [
+                    -78.64999999999999,
+                    35.02
+                ],
+                [
+                    -78.94,
+                    34.940000000000005
+                ],
+                [
+                    -79.03999999999999,
+                    34.95
+                ],
+                [
+                    -79.17,
+                    34.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004221-3398229",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004221-3398229",
+        "areaDesc": "Cumberland, NC; Hoke, NC",
+        "geocode": {
+            "UGC": [
+                "NCC051",
+                "NCC093"
+            ],
+            "SAME": [
+                "037051",
+                "037093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC051",
+            "https://api.weather.gov/zones/county/NCC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004189-3398204",
+                "identifier": "NWS-IDP-PROD-4004189-3398204",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T23:56:00-05:00"
+            }
+        ],
+        "sent": "2020-01-12T00:07:00-05:00",
+        "effective": "2020-01-12T00:07:00-05:00",
+        "onset": "2020-01-12T00:07:00-05:00",
+        "expires": "2020-01-12T00:30:00-05:00",
+        "ends": "2020-01-12T00:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Tornado Warning issued January 12 at 12:07AM EST until January 12 at 12:30AM EST by NWS Raleigh NC",
+        "description": "At 1207 AM EST, a severe thunderstorm capable of producing a tornado\nwas located 7 miles north of Rex, or 8 miles east of Raeford, moving\nnortheast at 55 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis dangerous storm will be near...\nFayetteville around 1225 AM EST.\n\nOther locations impacted by this tornadic thunderstorm include\nEastover, Wade, Hope Mills, Vander and Rockfish.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-12T00:07:00.000-05:00...storm...245DEG...49KT...34.96,-79.07"
+            ],
+            "hailSize": [
+                0
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 1230 AM EST FOR CENTRAL CUMBERLAND AND SOUTHEASTERN HOKE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KRAH.TO.W.0001.000000T0000Z-200112T0530Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHSVSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T00:30:00-05:00"
+            ]
+        }
+    }
+}
