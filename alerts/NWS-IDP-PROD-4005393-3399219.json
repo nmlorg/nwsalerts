@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005393-3399219",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.23,
+                    32.77
+                ],
+                [
+                    -91.28,
+                    33.400000000000006
+                ],
+                [
+                    -91.05,
+                    33.400000000000006
+                ],
+                [
+                    -91.00999999999999,
+                    32.830000000000005
+                ],
+                [
+                    -91.00999999999999,
+                    32.77
+                ],
+                [
+                    -91.10999999999999,
+                    32.78
+                ],
+                [
+                    -91.23,
+                    32.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005393-3399219",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005393-3399219",
+        "areaDesc": "Chicot, AR; Issaquena, MS; East Carroll, LA; Washington, MS",
+        "geocode": {
+            "UGC": [
+                "ARC017",
+                "MSC055",
+                "LAC035",
+                "MSC151"
+            ],
+            "SAME": [
+                "005017",
+                "028055",
+                "022035",
+                "028151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC017",
+            "https://api.weather.gov/zones/county/MSC055",
+            "https://api.weather.gov/zones/county/LAC035",
+            "https://api.weather.gov/zones/county/MSC151"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003597-3397671",
+                "identifier": "NWS-IDP-PROD-4003597-3397671",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T20:18:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T09:54:00-06:00",
+        "effective": "2020-01-12T09:54:00-06:00",
+        "onset": "2020-01-21T12:00:00-06:00",
+        "expires": "2020-01-13T15:54:00-06:00",
+        "ends": "2020-01-27T09:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 12 at 9:54AM CST until January 27 at 9:00AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nArkansas...Mississippi...Louisiana..\n\nMississippi River Near Arkansas City affecting Chicot...Desha...\nBolivar and Washington Counties\nMississippi River Near Greenville affecting Chicot...East\nCarroll...Issaquena and Washington Counties\nMississippi River At Vicksburg affecting Madison...Tensas...\nClaiborne...Jefferson and Warren Counties/Parishes\nMississippi River At Natchez affecting Concordia...Adams and\nWilkinson Counties/Parishes\n\nThe Flood Warning continues for\nThe Mississippi River Near Greenville\n* from Tuesday January 21 to Monday January 27.\n* At  9:00 AM Sunday the stage was 43.6 feet.\n* Minor flooding is forecast.\n* Flood stage is 48.0 feet.\n* Forecast...The river will rise above flood stage Tuesday January 21\nand will continue to rise to near 49.0 feet Saturday January 25.\n* Impact...At 48.0 feet...Water begins to cover the dirt road leading\nto the Farmers Grain terminal facility which is north of the\nGreenville bridge.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nMississippi River forecasts are based on rainfall that has occurred\nand that which is forecast to occur over the next 48 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0032.200121T1800Z-200127T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-27T09:00:00-06:00"
+            ]
+        }
+    }
+}
