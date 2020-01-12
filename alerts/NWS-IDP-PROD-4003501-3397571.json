@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003501-3397571",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.56,
+                    41.63
+                ],
+                [
+                    -87.4,
+                    41.59
+                ],
+                [
+                    -87.43,
+                    41.53
+                ],
+                [
+                    -87.58000000000001,
+                    41.57
+                ],
+                [
+                    -87.56,
+                    41.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003501-3397571",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003501-3397571",
+        "areaDesc": "Lake, IN",
+        "geocode": {
+            "UGC": [
+                "INC089"
+            ],
+            "SAME": [
+                "018089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC089"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001991-3396138",
+                "identifier": "NWS-IDP-PROD-4001991-3396138",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T13:05:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:50:00-06:00",
+        "effective": "2020-01-11T19:50:00-06:00",
+        "onset": "2020-01-11T19:50:00-06:00",
+        "expires": "2020-01-12T09:50:00-06:00",
+        "ends": "2020-01-13T04:17:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 11 at 7:50PM CST until January 13 at 4:17AM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in Indiana...\nIllinois...\n\nLittle Calumet River at Munster (Hohman Avenue) affecting Lake\nCounty\nThorn Creek at Thornton affecting Cook County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Warning continues for\nThe Little Calumet River at Munster (Hohman Avenue), or from IN-912\nin Hammond downstream to confluence with Thorn Creek in South\nHolland.\n* until late Sunday night.\n* At  700 PM Saturday the stage was 12.6 feet.\n* Flood stage is 12.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 13.5 feet by\nSunday morning. The river will fall below flood stage Sunday\nevening.\n* Impact...At 12.5 feet...Most areas outside of the levee-protected\narea are inundated in Hammond and Munster.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0016.000000T0000Z-200113T1017Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T04:17:00-06:00"
+            ]
+        }
+    }
+}
