@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005555-3399347",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005555-3399347",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005555-3399347",
+        "areaDesc": "Willowick to Geneva-on-the Lake OH; Geneva-on-the-Lake to Conneaut OH; Conneaut OH to Ripley NY",
+        "geocode": {
+            "UGC": [
+                "LEZ147",
+                "LEZ148",
+                "LEZ149"
+            ],
+            "SAME": [
+                "096147",
+                "096148",
+                "096149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/LEZ147",
+            "https://api.weather.gov/zones/forecast/LEZ148",
+            "https://api.weather.gov/zones/forecast/LEZ149"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005291-3399139",
+                "identifier": "NWS-IDP-PROD-4005291-3399139",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T10:17:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005291-3399138",
+                "identifier": "NWS-IDP-PROD-4005291-3399138",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T10:17:00-05:00"
+            }
+        ],
+        "sent": "2020-01-12T12:06:00-05:00",
+        "effective": "2020-01-12T12:06:00-05:00",
+        "onset": "2020-01-12T12:06:00-05:00",
+        "expires": "2020-01-12T16:00:00-05:00",
+        "ends": "2020-01-12T16:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cleveland OH",
+        "headline": "Small Craft Advisory issued January 12 at 12:06PM EST until January 12 at 4:00PM EST by NWS Cleveland OH",
+        "description": "* WHAT...West winds 10 to 20 knots with gusts up to 25 knots and\nwaves 3 to 6 feet.\n\n* WHERE...Portions of central Lake Erie.\n\n* WHEN...Until 4 PM EST this afternoon.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+        "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 4 PM EST THIS AFTERNOON"
+            ],
+            "VTEC": [
+                "/O.CON.KCLE.SC.Y.0006.000000T0000Z-200112T2100Z/"
+            ],
+            "PIL": [
+                "CLEMWWCLE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T16:00:00-05:00"
+            ]
+        }
+    }
+}
