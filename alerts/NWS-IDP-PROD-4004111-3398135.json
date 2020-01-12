@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004111-3398135",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.23,
+                    43.13
+                ],
+                [
+                    -84.12,
+                    43.13
+                ],
+                [
+                    -84.13000000000001,
+                    43.010000000000005
+                ],
+                [
+                    -84.00000000000001,
+                    42.970000000000006
+                ],
+                [
+                    -84.00000000000001,
+                    42.93000000000001
+                ],
+                [
+                    -84.23000000000002,
+                    42.97999990000001
+                ],
+                [
+                    -84.23,
+                    43.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004111-3398135",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004111-3398135",
+        "areaDesc": "Saginaw, MI; Shiawassee, MI",
+        "geocode": {
+            "UGC": [
+                "MIC145",
+                "MIC155"
+            ],
+            "SAME": [
+                "026145",
+                "026155"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC145",
+            "https://api.weather.gov/zones/county/MIC155"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003648-3397723",
+                "identifier": "NWS-IDP-PROD-4003648-3397723",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T21:22:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T23:14:00-05:00",
+        "effective": "2020-01-11T23:14:00-05:00",
+        "onset": "2020-01-11T21:22:00-05:00",
+        "expires": "2020-01-12T11:21:00-05:00",
+        "ends": "2020-01-13T04:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 11 at 9:22PM EST until January 13 at 4:00AM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nClinton River...Huron River...Kearsley Creek...Lower Rouge\nRiver...Middle Rouge River...North Branch Clinton...River Raisin...\nRouge River...Saginaw River...Shiawassee River\n\n.Rainfall across the area through 9pm has ranged basically between\n2 and 3 inches.  Up to another half an inch of rain or mix of rain and\nfreezing rain, sleet and snow is still possible through tonight. The\nforecast takes into account additional rainfall expected. More or less\nrainfall will effect the actual crests.\n\nA flood warning continues for\nShiawassee River at Owosso.\n* From now until further notice.\n* At 8 PM Saturday the stage is 7.2 feet and rising.\n* Flood stage is 7.0 feet.\n* Minor flooding is occurring.\n* Forecast...the river is at crest and should begin\nfalling and go below flood stage on Sunday.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KDTX.FL.W.0014.000000T0000Z-200113T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T04:00:00-05:00"
+            ]
+        }
+    }
+}
