@@ -1,0 +1,120 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004155-3398174",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.53,
+                    36.24
+                ],
+                [
+                    -79.56,
+                    35.52
+                ],
+                [
+                    -79.73,
+                    35.52
+                ],
+                [
+                    -79.72,
+                    36.24
+                ],
+                [
+                    -79.53,
+                    36.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004155-3398174",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004155-3398174",
+        "areaDesc": "Guilford, NC; Randolph, NC",
+        "geocode": {
+            "UGC": [
+                "NCC081",
+                "NCC151"
+            ],
+            "SAME": [
+                "037081",
+                "037151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC081",
+            "https://api.weather.gov/zones/county/NCC151"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003962-3398001",
+                "identifier": "NWS-IDP-PROD-4003962-3398001",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T22:41:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004144-3398163",
+                "identifier": "NWS-IDP-PROD-4004144-3398163",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T23:31:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004083-3398108",
+                "identifier": "NWS-IDP-PROD-4004083-3398108",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T23:05:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004100-3398124",
+                "identifier": "NWS-IDP-PROD-4004100-3398124",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T23:13:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T23:39:00-05:00",
+        "effective": "2020-01-11T23:39:00-05:00",
+        "onset": "2020-01-11T23:39:00-05:00",
+        "expires": "2020-01-11T23:49:00-05:00",
+        "ends": "2020-01-11T23:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 11:39PM EST until January 11 at 11:45PM EST by NWS Raleigh NC",
+        "description": "The storms which prompted the warning have moved out of the area.\nTherefore, the warning will be allowed to expire.\n\nA Severe Thunderstorm Watch remains in effect until 200 AM EST for\ncentral North Carolina.\n\nTo report severe weather, contact your nearest law enforcement\nagency. They will relay your report to the National Weather Service\nRaleigh.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T23:39:00.000-05:00...storm...239DEG...53KT...36.32,-79.5 35.87,-79.43 35.32,-79.57"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR EASTERN RANDOLPH AND EASTERN GUILFORD COUNTIES WILL EXPIRE AT 1145 PM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KRAH.SV.W.0003.000000T0000Z-200112T0445Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHSVSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T23:45:00-05:00"
+            ]
+        }
+    }
+}
