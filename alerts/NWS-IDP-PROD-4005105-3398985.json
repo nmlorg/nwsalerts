@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005105-3398985",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.91,
+                    37
+                ],
+                [
+                    -94.78,
+                    36.89
+                ],
+                [
+                    -94.88,
+                    36.81
+                ],
+                [
+                    -95.1,
+                    37
+                ],
+                [
+                    -94.91,
+                    37
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005105-3398985",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005105-3398985",
+        "areaDesc": "Ottawa, OK",
+        "geocode": {
+            "UGC": [
+                "OKC115"
+            ],
+            "SAME": [
+                "040115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC115"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004451-3398424",
+                "identifier": "NWS-IDP-PROD-4004451-3398424",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T00:59:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T08:18:00-06:00",
+        "effective": "2020-01-12T08:18:00-06:00",
+        "onset": "2020-01-12T08:18:00-06:00",
+        "expires": "2020-01-12T16:17:00-06:00",
+        "ends": "2020-01-13T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 12 at 8:18AM CST until January 13 at 6:00PM CST by NWS Tulsa OK",
+        "description": "...The Flood Warning continues for the following rivers in\nOklahoma...\n\nNeosho River near Commerce affecting Ottawa County.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Monday evening"
+            ],
+            "VTEC": [
+                "/O.EXT.KTSA.FL.W.0001.000000T0000Z-200114T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T18:00:00-06:00"
+            ]
+        }
+    }
+}
