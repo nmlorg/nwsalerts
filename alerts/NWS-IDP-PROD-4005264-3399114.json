@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005264-3399114",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.44,
+                    41.35
+                ],
+                [
+                    -88.38,
+                    41.36
+                ],
+                [
+                    -88.3199999,
+                    41.33
+                ],
+                [
+                    -88.3199999,
+                    41.28
+                ],
+                [
+                    -88.38,
+                    41.26
+                ],
+                [
+                    -88.39,
+                    41.32
+                ],
+                [
+                    -88.44,
+                    41.35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005264-3399114",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005264-3399114",
+        "areaDesc": "Grundy, IL",
+        "geocode": {
+            "UGC": [
+                "ILC063"
+            ],
+            "SAME": [
+                "017063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003654-3397729",
+                "identifier": "NWS-IDP-PROD-4003654-3397729",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T20:24:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T09:07:00-06:00",
+        "effective": "2020-01-12T09:07:00-06:00",
+        "onset": "2020-01-12T09:07:00-06:00",
+        "expires": "2020-01-12T21:06:00-06:00",
+        "ends": "2020-01-13T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Advisory issued January 12 at 9:07AM CST until January 13 at 12:00AM CST by NWS Chicago IL",
+        "description": "...The Flood Advisory continues for the Mazon River...\n\nMazon River near Coal City affecting Grundy County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Advisory continues for\nThe Mazon River near Coal City, or from IL-113 west of Coal City\ndownstream to confluence with Illinois River.\n* until late tonight.\n* At  845 AM Sunday the stage was 10.8 feet.\n* Action stage is 10.0 feet.\n* Flood stage is 12.0 feet.\n* Forecast...The river will continue to fall.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.\n\nAdditional information can be found at weather.gov/chicago.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLOT.FL.Y.0006.000000T0000Z-200113T0600Z/"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T00:00:00-06:00"
+            ]
+        }
+    }
+}
