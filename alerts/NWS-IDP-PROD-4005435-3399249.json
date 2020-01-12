@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005435-3399249",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.22,
+                    38.7299999
+                ],
+                [
+                    -94.16,
+                    38.75
+                ],
+                [
+                    -93.94,
+                    38.57
+                ],
+                [
+                    -93.84,
+                    38.4
+                ],
+                [
+                    -93.91,
+                    38.4
+                ],
+                [
+                    -94.22,
+                    38.7299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005435-3399249",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005435-3399249",
+        "areaDesc": "Cass, MO; Johnson, MO; Henry, MO",
+        "geocode": {
+            "UGC": [
+                "MOC037",
+                "MOC101",
+                "MOC083"
+            ],
+            "SAME": [
+                "029037",
+                "029101",
+                "029083"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC037",
+            "https://api.weather.gov/zones/county/MOC101",
+            "https://api.weather.gov/zones/county/MOC083"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003318-3397408",
+                "identifier": "NWS-IDP-PROD-4003318-3397408",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T19:00:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T10:05:00-06:00",
+        "effective": "2020-01-12T10:05:00-06:00",
+        "onset": "2020-01-12T10:05:00-06:00",
+        "expires": "2020-01-13T09:55:00-06:00",
+        "ends": "2020-01-13T09:55:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant HIll MO",
+        "headline": "Flood Warning issued January 12 at 10:05AM CST until January 13 at 9:55AM CST by NWS Kansas City/Pleasant HIll MO",
+        "description": "...The Flood Warning is cancelled for the following rivers in\nMissouri...\n\nBlackwater River at Valley City affecting Johnson and Pettis\nCounties.\n\nLamine River near Otterville affecting Cooper County.\n\nSouth Grand River at Urich affecting Bates...Cass and Henry\nCounties.\n\n...The Flood Warning continues for the following rivers in\nMissouri...\n\nBig Creek at Blairstown affecting Cass...Henry and Johnson Counties.\n\nBlackwater River near Blue Lick affecting Cooper and Saline\nCounties.\n\nPetite Saline Creek near Boonville affecting Cooper County.\n\nThe Flood Warning continues for\nThe Big Creek at Blairstown.\n* until Monday morning.\n* At  9:00 AM Sunday the stage was 20.1 feet.\n* Flood stage is 20.0 feet.\n* Minor flooding is occurring.\n* Forecast...The river will continue to fall to below flood stage by\nlate this morning.\n* At 20.0 feet...The west bank of the creek begins to flood.",
+        "instruction": "Do not drive through flowing water. Nearly half of all flood\nfatalities are vehicle related. As little as 6 inches of water may\ncause you to lose control of your vehicle. Two feet of water will\ncarry most vehicles away.This product along with additional weather\nand stream information is available at www.weather.gov/kc/.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KEAX.FL.W.0006.000000T0000Z-200113T1555Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EAXFLSEAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T09:55:00-06:00"
+            ]
+        }
+    }
+}
