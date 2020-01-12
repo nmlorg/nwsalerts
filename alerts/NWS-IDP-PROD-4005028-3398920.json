@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005028-3398920",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.6,
+                    41.61
+                ],
+                [
+                    -87.53999999999999,
+                    41.58
+                ],
+                [
+                    -87.6,
+                    41.51
+                ],
+                [
+                    -87.66999999999999,
+                    41.54
+                ],
+                [
+                    -87.6,
+                    41.61
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005028-3398920",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005028-3398920",
+        "areaDesc": "Cook, IL",
+        "geocode": {
+            "UGC": [
+                "ILC031"
+            ],
+            "SAME": [
+                "017031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC031"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003500-3397570",
+                "identifier": "NWS-IDP-PROD-4003500-3397570",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T19:50:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T06:56:00-06:00",
+        "effective": "2020-01-12T06:56:00-06:00",
+        "onset": "2020-01-12T06:56:00-06:00",
+        "expires": "2020-01-12T13:25:00-06:00",
+        "ends": "2020-01-12T13:25:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 12 at 6:56AM CST until January 12 at 1:25PM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in Indiana...\nIllinois...\n\nLittle Calumet River at Munster (Hohman Avenue) affecting Lake\nCounty\nThorn Creek at Thornton affecting Cook County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Warning continues for\nThe Thorn Creek at Thornton, or from Near Glenwood downstream to\nconfluence with Little Calumet River.\n* until this afternoon.\n* At  630 AM Sunday the stage was 10.1 feet.\n* Flood stage is 10.0 feet.\n* Minor flooding is occurring.\n* Forecast...The river will continue to fall to below flood stage by\nlate this morning.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0018.000000T0000Z-200112T1925Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T13:25:00-06:00"
+            ]
+        }
+    }
+}
