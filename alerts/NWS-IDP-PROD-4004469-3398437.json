@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004469-3398437",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.72,
+                    36.19
+                ],
+                [
+                    -94.7099999,
+                    36.11
+                ],
+                [
+                    -94.81,
+                    36.06
+                ],
+                [
+                    -94.87,
+                    36.120000000000005
+                ],
+                [
+                    -94.72,
+                    36.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004469-3398437",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004469-3398437",
+        "areaDesc": "Delaware, OK; Cherokee, OK; Adair, OK",
+        "geocode": {
+            "UGC": [
+                "OKC041",
+                "OKC021",
+                "OKC001"
+            ],
+            "SAME": [
+                "040041",
+                "040021",
+                "040001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC041",
+            "https://api.weather.gov/zones/county/OKC021",
+            "https://api.weather.gov/zones/county/OKC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003458-3397529",
+                "identifier": "NWS-IDP-PROD-4003458-3397529",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T19:39:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T01:11:00-06:00",
+        "effective": "2020-01-12T01:11:00-06:00",
+        "onset": "2020-01-12T01:11:00-06:00",
+        "expires": "2020-01-12T09:11:00-06:00",
+        "ends": "2020-01-12T16:52:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 12 at 1:11AM CST until January 12 at 4:52PM CST by NWS Tulsa OK",
+        "description": "...The Flood Warning is cancelled for the following rivers in\nOklahoma...\n\nIllinois River near Watts affecting Adair and Delaware Counties.\n\n...The Flood Warning continues for the following rivers in\nOklahoma...\n\nIllinois River at Chewey affecting Adair...Cherokee and Delaware\nCounties.\n\nIllinois River near Tahlequah affecting Cherokee County.\n\nThe Flood Warning continues for\nThe Illinois River at Chewey.\n* until this afternoon, or until the warning is cancelled.\n* At 12:15 AM Sunday, the stage was 14.79 feet.\n* Flood stage is 12.0 feet.\n* Minor flooding is occurring but the river is falling.\n* Forecast...The Illinois River at Chewey will continue falling to\nbelow flood stage by late this morning.\n* Impact...At 15.0 feet, moderate flooding occurs from near Fidler's\nBend to near Hanging Rock. Moderate flooding of agricultural lands\nmay result in livestock issues. Travel around Hanging Rock is\nimpacted. Road access near the river is cut off to residential\nhomes southeast of Chewey Bridge. Access to Winset Hollow is cut\noff. A few cabins in the Fidler's Bend area may have minor\nflooding. Extreme turbulence makes the river too hazardous for\nfloating.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KTSA.FL.W.0004.000000T0000Z-200112T2252Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T16:52:00-06:00"
+            ]
+        }
+    }
+}
