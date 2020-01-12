@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003470-3397541",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.27,
+                    36.28
+                ],
+                [
+                    -89.08999999999999,
+                    36.33
+                ],
+                [
+                    -88.94999999999999,
+                    36.33
+                ],
+                [
+                    -88.94999999999999,
+                    36.199999999999996
+                ],
+                [
+                    -89.26999999999998,
+                    36.13999999999999
+                ],
+                [
+                    -89.27,
+                    36.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003470-3397541",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003470-3397541",
+        "areaDesc": "Dyer, TN; Obion, TN; Gibson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC045",
+                "TNC131",
+                "TNC053"
+            ],
+            "SAME": [
+                "047045",
+                "047131",
+                "047053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC045",
+            "https://api.weather.gov/zones/county/TNC131",
+            "https://api.weather.gov/zones/county/TNC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001372-3395547",
+                "identifier": "NWS-IDP-PROD-4001372-3395547",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:31:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:43:00-06:00",
+        "effective": "2020-01-11T19:43:00-06:00",
+        "onset": "2020-01-12T17:15:00-06:00",
+        "expires": "2020-01-12T19:43:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 11 at 7:43PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Loosahatchie River...Obion\nRiver...S.F. of the Forked Deer River.\n\nThe Flood Warning continues for\nthe Obion River near Obion\n* from Sunday January 12 until further notice.\n* At 7 PM Saturday the stage was 32.0 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 35.5 feet on Tuesday January 14.\n* Flood stage is 34.0 feet.\n* Forecast to rise above flood stage by Sunday January 12 and\ncontinue to rise to near 35.5 feet by Tuesday January 14.\n* At 36.0 feet...Rives is flooding. Most crop land near the river is\nflooded.",
+        "instruction": "A followup Flood Statement will be issued when conditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0013.200112T2315Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
