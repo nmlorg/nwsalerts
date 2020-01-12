@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003325-3397415",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.99,
+                    38.49
+                ],
+                [
+                    -92.02,
+                    38.49
+                ],
+                [
+                    -92.02,
+                    38.47
+                ],
+                [
+                    -92.03999999999999,
+                    38.53
+                ],
+                [
+                    -92.02,
+                    38.53
+                ],
+                [
+                    -91.99,
+                    38.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003325-3397415",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003325-3397415",
+        "areaDesc": "Osage, MO; Cole, MO",
+        "geocode": {
+            "UGC": [
+                "MOC151",
+                "MOC051"
+            ],
+            "SAME": [
+                "029151",
+                "029051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC151",
+            "https://api.weather.gov/zones/county/MOC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001825-3395987",
+                "identifier": "NWS-IDP-PROD-4001825-3395987",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T12:30:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:01:00-06:00",
+        "effective": "2020-01-11T19:01:00-06:00",
+        "onset": "2020-01-11T19:01:00-06:00",
+        "expires": "2020-01-12T19:01:00-06:00",
+        "ends": "2020-01-13T18:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 11 at 7:01PM CST until January 13 at 6:45PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following river in Missouri..\n\nOsage River near Mari-Osa Campground\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Osage River near Mari-Osa Campground\n* until Monday evening.\n* At 6 PM Saturday the stage was estimated at 22.5 feet.\n* Flood stage is 19.0 feet.\n* Moderate flooding is forecast.\n* The river is forecast to continue rising to near 23.5 feet after\nmidnight tonight, then fall below flood stage early tomorrow\nafternoon.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLSX.FL.W.0010.000000T0000Z-200114T0045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T18:45:00-06:00"
+            ]
+        }
+    }
+}
