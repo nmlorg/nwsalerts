@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005219-3399073",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.98,
+                    36.82
+                ],
+                [
+                    -90.88000000000001,
+                    36.82
+                ],
+                [
+                    -90.74000000000001,
+                    36.5
+                ],
+                [
+                    -90.84,
+                    36.5
+                ],
+                [
+                    -90.98,
+                    36.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005219-3399073",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005219-3399073",
+        "areaDesc": "Ripley, MO",
+        "geocode": {
+            "UGC": [
+                "MOC181"
+            ],
+            "SAME": [
+                "029181"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC181"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003815-3397872",
+                "identifier": "NWS-IDP-PROD-4003815-3397872",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T20:57:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T09:00:00-06:00",
+        "effective": "2020-01-12T09:00:00-06:00",
+        "onset": "2020-01-12T23:30:00-06:00",
+        "expires": "2020-01-13T12:59:00-06:00",
+        "ends": "2020-01-14T08:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 12 at 9:00AM CST until January 14 at 8:00AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\nCurrent River near Doniphan\n\n.Recent heavy rainfall over the Current River basin has caused river\nlevels to rise. Minor flooding is forecast to develop at Doniphan\nby tonight and a crest near 14.5 feet is forecast to occur on Monday.\n\nThe Flood Warning continues for\nthe Current River near Doniphan.\n* from this evening to Tuesday morning.\n* At  8:30 AM Sunday the stage was 10.8 feet.\n* Flood Stage is 13.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by tonight and continue to rise\nto near 14.5 feet by tomorrow early afternoon. The river will fall\nbelow flood stage by early Tuesday morning.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0014.200113T0530Z-200114T1400Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T08:00:00-06:00"
+            ]
+        }
+    }
+}
