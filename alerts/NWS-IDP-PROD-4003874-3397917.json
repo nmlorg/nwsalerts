@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003874-3397917",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.81,
+                    40.26
+                ],
+                [
+                    -83.7,
+                    40.15
+                ],
+                [
+                    -84.11,
+                    40.03
+                ],
+                [
+                    -84.17,
+                    40.050000000000004
+                ],
+                [
+                    -84.19,
+                    40.120000000000005
+                ],
+                [
+                    -84.11,
+                    40.190000000000005
+                ],
+                [
+                    -84.02,
+                    40.190000000000005
+                ],
+                [
+                    -84.00999999999999,
+                    40.27
+                ],
+                [
+                    -83.81,
+                    40.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003874-3397917",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003874-3397917",
+        "areaDesc": "Champaign, OH; Miami, OH",
+        "geocode": {
+            "UGC": [
+                "OHC021",
+                "OHC109"
+            ],
+            "SAME": [
+                "039021",
+                "039109"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC021",
+            "https://api.weather.gov/zones/county/OHC109"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003859-3397903",
+                "identifier": "NWS-IDP-PROD-4003859-3397903",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T22:12:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T22:18:00-05:00",
+        "effective": "2020-01-11T22:18:00-05:00",
+        "onset": "2020-01-11T22:18:00-05:00",
+        "expires": "2020-01-11T22:45:00-05:00",
+        "ends": "2020-01-11T22:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Tornado Warning issued January 11 at 10:18PM EST until January 11 at 10:45PM EST by NWS Wilmington OH",
+        "description": "At 1017 PM EST, a severe thunderstorm capable of producing a tornado\nwas located near Troy, moving northeast at 55 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nUrbana, St. Paris, Christiansburg, Fletcher, Casstown, Springhills,\nKiser Lake State Park, Millerstown, Rosewood, Lippincott, Carysville\nand Westville.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.\n\nTo report severe weather, go to our website at weather.gov/iln and\nsubmit your report via social media, when you can do so safely.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T22:17:00.000-05:00...storm...233DEG...49KT...40.09,-84.13"
+            ],
+            "hailSize": [
+                0
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 1045 PM EST FOR NORTHWESTERN CHAMPAIGN AND NORTHEASTERN MIAMI COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KILN.TO.W.0001.000000T0000Z-200112T0345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNSVSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T22:45:00-05:00"
+            ]
+        }
+    }
+}
