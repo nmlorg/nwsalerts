@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005720-3399465",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.98,
+                    41.26
+                ],
+                [
+                    -84.81,
+                    41.4
+                ],
+                [
+                    -84.78,
+                    41.39
+                ],
+                [
+                    -84.93,
+                    41.2299999
+                ],
+                [
+                    -84.98,
+                    41.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005720-3399465",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005720-3399465",
+        "areaDesc": "De Kalb, IN; Defiance, OH; Allen, IN",
+        "geocode": {
+            "UGC": [
+                "INC033",
+                "OHC039",
+                "INC003"
+            ],
+            "SAME": [
+                "018033",
+                "039039",
+                "018003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC033",
+            "https://api.weather.gov/zones/county/OHC039",
+            "https://api.weather.gov/zones/county/INC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005226-3399080",
+                "identifier": "NWS-IDP-PROD-4005226-3399080",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T10:01:00-05:00"
+            }
+        ],
+        "sent": "2020-01-12T14:07:00-05:00",
+        "effective": "2020-01-12T14:07:00-05:00",
+        "onset": "2020-01-12T14:07:00-05:00",
+        "expires": "2020-01-13T14:06:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 12 at 2:07PM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning continues for the following rivers...\n\nSaint Joseph River Ohio below Montpelier affecting Williams County\n\nSaint Joseph River Ohio NEAR Newville affecting Allen...De Kalb\nand Defiance Counties\n\n.Rises on area rivers continue during the period of runoff.\n\nThe Flood Warning continues for\nThe Saint Joseph River Ohio NEAR Newville\n* until further notice.\n* At 1 PM Sunday the stage was 13.0 feet and rising.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* Flood stage is 12.0 feet.\n* Forecast...The river will rise to a crest near 14.0 feet around  7\nPM Monday January 13 and begin falling.\n* At 14.0 feet...Significant flooding occurs on DeKalb County Road 42\nabout 3 miles northeast of Newville. Considerable agricultural and\nlow land flooding occurs along the St. Joseph River to the\nCedarville Reservoir.\n* This crest compares to a previous crest of 14.3 feet which occurred\non Feb 14 2009.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIWX.FL.W.0009.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
