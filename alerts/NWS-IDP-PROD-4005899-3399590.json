@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005899-3399590",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005899-3399590",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005899-3399590",
+        "areaDesc": "Seward; Grant; Stanton; Stevens; Morton",
+        "geocode": {
+            "UGC": [
+                "KSZ086",
+                "KSZ075",
+                "KSZ074",
+                "KSZ085",
+                "KSZ084"
+            ],
+            "SAME": [
+                "020175",
+                "020067",
+                "020187",
+                "020189",
+                "020129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/fire/KSZ086",
+            "https://api.weather.gov/zones/fire/KSZ075",
+            "https://api.weather.gov/zones/fire/KSZ074",
+            "https://api.weather.gov/zones/fire/KSZ085",
+            "https://api.weather.gov/zones/fire/KSZ084"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004803-3398716",
+                "identifier": "NWS-IDP-PROD-4004803-3398716",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T04:44:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T15:11:00-06:00",
+        "effective": "2020-01-12T15:11:00-06:00",
+        "onset": "2020-01-13T12:00:00-06:00",
+        "expires": "2020-01-13T04:15:00-06:00",
+        "ends": "2020-01-13T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Dodge City KS",
+        "headline": "Fire Weather Watch issued January 12 at 3:11PM CST until January 13 at 6:00PM CST by NWS Dodge City KS",
+        "description": "* Affected Area...In Kansas...Fire Weather Zone 074 Stanton...\nFire Weather Zone 075 Grant...Fire Weather Zone 084 Morton...\nFire Weather Zone 085 Stevens and Fire Weather Zone 086 Seward.\n\n* Winds...Southwest 20 to 30 mph with gusts of 40 mph or greater.\n\n* Relative Humidity...As low as 15 percent.\n\n* Impacts...Any fires that start will have extreme fire behavior\nand spread rapidly. Outdoor burning is not advised.",
+        "instruction": "A Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "parameters": {
+            "NWSheadline": [
+                "FIRE WEATHER WATCH REMAINS IN EFFECT MONDAY AFTERNOON FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 074...075... 084...085 AND 086"
+            ],
+            "VTEC": [
+                "/O.CON.KDDC.FW.A.0001.200113T1800Z-200114T0000Z/"
+            ],
+            "PIL": [
+                "DDCRFWDDC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T18:00:00-06:00"
+            ]
+        }
+    }
+}
