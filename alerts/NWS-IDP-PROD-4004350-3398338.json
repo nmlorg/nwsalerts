@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004350-3398338",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.58,
+                    34.96
+                ],
+                [
+                    -78.6,
+                    34.96
+                ],
+                [
+                    -78.63,
+                    34.99
+                ],
+                [
+                    -78.63,
+                    35.02
+                ],
+                [
+                    -78.39,
+                    35.1599999
+                ],
+                [
+                    -78.3199999,
+                    34.9799999
+                ],
+                [
+                    -78.58,
+                    34.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004350-3398338",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4004350-3398338",
+        "areaDesc": "Sampson, NC",
+        "geocode": {
+            "UGC": [
+                "NCC163"
+            ],
+            "SAME": [
+                "037163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004316-3398317",
+                "identifier": "NWS-IDP-PROD-4004316-3398317",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T00:52:00-05:00"
+            }
+        ],
+        "sent": "2020-01-12T00:59:00-05:00",
+        "effective": "2020-01-12T00:59:00-05:00",
+        "onset": "2020-01-12T00:59:00-05:00",
+        "expires": "2020-01-12T01:30:00-05:00",
+        "ends": "2020-01-12T01:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Tornado Warning issued January 12 at 12:59AM EST until January 12 at 1:30AM EST by NWS Raleigh NC",
+        "description": "At 1259 AM EST, a severe thunderstorm capable of producing a tornado\nwas located 11 miles west of Clinton, moving northeast at 35 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis dangerous storm will be near...\nClinton around 115 AM EST.\n\nOther locations impacted by this tornadic thunderstorm include\nSalemburg.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-12T00:59:00.000-05:00...storm...245DEG...32KT...35.02,-78.53"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 130 AM EST FOR NORTHWESTERN SAMPSON COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KRAH.TO.W.0002.000000T0000Z-200112T0630Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHSVSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T01:30:00-05:00"
+            ]
+        }
+    }
+}
