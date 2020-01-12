@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003382-3397465",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.14,
+                    35.86
+                ],
+                [
+                    -90.12,
+                    35.85
+                ],
+                [
+                    -90.12,
+                    35.79
+                ],
+                [
+                    -90.39,
+                    35.61
+                ],
+                [
+                    -90.38,
+                    35.68
+                ],
+                [
+                    -90.14,
+                    35.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003382-3397465",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003382-3397465",
+        "areaDesc": "Poinsett, AR; Mississippi, AR",
+        "geocode": {
+            "UGC": [
+                "ARC111",
+                "ARC093"
+            ],
+            "SAME": [
+                "005111",
+                "005093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC111",
+            "https://api.weather.gov/zones/county/ARC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001398-3395573",
+                "identifier": "NWS-IDP-PROD-4001398-3395573",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T10:36:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:17:00-06:00",
+        "effective": "2020-01-11T19:17:00-06:00",
+        "onset": "2020-01-12T22:00:00-06:00",
+        "expires": "2020-01-12T19:17:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 11 at 7:17PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Right Hand Chute Little River...\nSaint Francis River.\n\nThe Flood Warning continues for\nthe Right Hand Chute Little River at Rivervale\n* from Sunday January 12 until further notice.\n* At 7 PM Saturday the stage was 5.9 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 12.0 feet on Wednesday January 15.\n* Flood stage is 11.0 feet.\n* Forecast to rise above flood stage by Sunday January 12 and\ncontinue to rise to near 12.0 feet by Wednesday January 15.\n* At 12.0 feet...Evacuations may be necessary for some areas inside\nthe main levee system due to access problems. Field flooding is\nwidespread.",
+        "instruction": "A followup Flood Statement will be issued when conditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.W.0012.200113T0400Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

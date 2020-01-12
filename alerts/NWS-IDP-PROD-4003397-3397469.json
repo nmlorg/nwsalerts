@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003397-3397469",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.72,
+                    32.95
+                ],
+                [
+                    -89.64,
+                    33.080000000000005
+                ],
+                [
+                    -89.45,
+                    33.28000000000001
+                ],
+                [
+                    -89.33,
+                    33.20000000000001
+                ],
+                [
+                    -89.5,
+                    33.05000000000001
+                ],
+                [
+                    -89.58,
+                    32.930000000000014
+                ],
+                [
+                    -89.72,
+                    32.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003397-3397469",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003397-3397469",
+        "areaDesc": "Attala, MS",
+        "geocode": {
+            "UGC": [
+                "MSC007"
+            ],
+            "SAME": [
+                "028007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC007"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001887-3396032",
+                "identifier": "NWS-IDP-PROD-4001887-3396032",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T12:48:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:18:00-06:00",
+        "effective": "2020-01-11T19:18:00-06:00",
+        "onset": "2020-01-12T12:00:00-06:00",
+        "expires": "2020-01-13T01:17:00-06:00",
+        "ends": "2020-01-14T14:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 11 at 7:18PM CST until January 14 at 2:00PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in Mississippi...\n\nPearl River At Edinburg affecting Leake County\nTuscolameta Creek At Walnut Grove affecting Leake County\nPearl River Above Philadelphia affecting Neshoba County\nPearl River Near Carthage affecting Leake County\nYockanookany River Near Kosciusko affecting Attala County\nYockanookany River Near Ofahoma affecting Leake County\nPearl River At Jackson affecting Hinds and Rankin Counties\n\nThe Flood Warning continues for\nThe Yockanookany River Near Kosciusko\n* from Sunday afternoon to Tuesday afternoon.\n* At 6:45 PM Saturday the stage was 12.9 feet.\n* Minor flooding is forecast.\n* Flood stage is 15.0 feet.\n* Forecast...The river will rise above flood stage early tomorrow\nafternoon and will continue to rise to near 15.5 feet early Monday\nmorning.\n* Impact...At 15.0 feet...Water approaches the Natchez Trace Parkway\nsouth of Kosciusko. Water floods lowlands alongthe reach of the\nriver.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 48 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0036.200112T1800Z-200114T2000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T14:00:00-06:00"
+            ]
+        }
+    }
+}

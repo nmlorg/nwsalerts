@@ -1,0 +1,135 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003380-3397464",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.25,
+                    36.31
+                ],
+                [
+                    -85.28,
+                    36.07
+                ],
+                [
+                    -85.42,
+                    36.06
+                ],
+                [
+                    -85.51,
+                    36.080000000000005
+                ],
+                [
+                    -85.56,
+                    36.07000000000001
+                ],
+                [
+                    -85.58,
+                    36.06000000000001
+                ],
+                [
+                    -85.67999999999999,
+                    36.05000000000001
+                ],
+                [
+                    -85.69,
+                    36.070000000000014
+                ],
+                [
+                    -85.72,
+                    36.08000000000001
+                ],
+                [
+                    -85.67999999999999,
+                    36.280000000000015
+                ],
+                [
+                    -85.25,
+                    36.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003380-3397464",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003380-3397464",
+        "areaDesc": "Overton, TN; Putnam, TN; Jackson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC133",
+                "TNC141",
+                "TNC087"
+            ],
+            "SAME": [
+                "047133",
+                "047141",
+                "047087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC133",
+            "https://api.weather.gov/zones/county/TNC141",
+            "https://api.weather.gov/zones/county/TNC087"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003305-3397398",
+                "identifier": "NWS-IDP-PROD-4003305-3397398",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T18:55:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:15:00-06:00",
+        "effective": "2020-01-11T19:15:00-06:00",
+        "onset": "2020-01-11T19:15:00-06:00",
+        "expires": "2020-01-11T19:30:00-06:00",
+        "ends": "2020-01-11T19:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 7:15PM CST until January 11 at 7:30PM CST by NWS Nashville TN",
+        "description": "At 715 PM CST, severe thunderstorms were located along a line\nextending from 7 miles north of Baxter to 9 miles northeast of\nSmithville, moving east at 35 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nCookeville, Algood, Monterey, Baxter, Rickman and Cummins Falls State\nPark.\n\nThis includes Interstate 40 between mile markers 274 and 301.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T19:15:00.000-06:00...storm...265DEG...32KT...36.25,-85.67 36.05,-85.71"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 730 PM CST FOR SOUTHWESTERN OVERTON...SOUTHEASTERN JACKSON AND PUTNAM COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOHX.SV.W.0025.000000T0000Z-200112T0130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T19:30:00-06:00"
+            ]
+        }
+    }
+}

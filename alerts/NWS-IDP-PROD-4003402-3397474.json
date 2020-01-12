@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003402-3397474",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.78,
+                    35.7
+                ],
+                [
+                    -92.13,
+                    35.9099999
+                ],
+                [
+                    -92.25,
+                    36.11
+                ],
+                [
+                    -92.13,
+                    36.1599999
+                ],
+                [
+                    -91.97999999999999,
+                    35.9799999
+                ],
+                [
+                    -91.74,
+                    35.800000000000004
+                ],
+                [
+                    -91.78,
+                    35.7
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003402-3397474",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003402-3397474",
+        "areaDesc": "Stone, AR; Izard, AR",
+        "geocode": {
+            "UGC": [
+                "ARC137",
+                "ARC065"
+            ],
+            "SAME": [
+                "005137",
+                "005065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC137",
+            "https://api.weather.gov/zones/county/ARC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4001108-3395306",
+                "identifier": "NWS-IDP-PROD-4001108-3395306",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T09:32:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:18:00-06:00",
+        "effective": "2020-01-11T19:18:00-06:00",
+        "onset": "2020-01-12T02:05:00-06:00",
+        "expires": "2020-01-12T10:18:00-06:00",
+        "ends": "2020-01-14T10:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Warning issued January 11 at 7:18PM CST until January 14 at 10:00AM CST by NWS Little Rock AR",
+        "description": "...From the National Weather Service in Little Rock...the Flood\nWarning continues for the following river in Arkansas...\n\nWhite River At Calico Rock affecting Izard and Stone Counties\n\nWhite River At Batesville affecting Independence County\n\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 24 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.\n\nFld     Observed        Forecast 6 AM        Crest\nLocation     Stg   Stg  Day Time   Sun   Mon   Tue  Crest Time  Date\n\nUpper White River\nCalico Roc  19  15.4 Sat 06 PM  20.5  18.7  14.5   21.0 12 PM 01/12",
+        "instruction": "Safety message...Remember to Turn Around...Don't Drown\nDo not drive cars through flooded areas.\n\nEveryone with property or other interest along streams and rivers\nshould remain alert to changing weather forecasts. Should conditions\nchange...Look for river forecasts or Flood Warnings for use in making\ninformed decisions to protect life and property.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLZK.FL.W.0013.200112T0805Z-200114T1600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T10:00:00-06:00"
+            ]
+        }
+    }
+}

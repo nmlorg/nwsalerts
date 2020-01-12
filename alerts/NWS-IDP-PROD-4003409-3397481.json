@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003409-3397481",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.56,
+                    33.1599999
+                ],
+                [
+                    -97.4599999,
+                    33.050000000000004
+                ],
+                [
+                    -97.58,
+                    33.00000000000001
+                ],
+                [
+                    -97.74,
+                    33.190000000000005
+                ],
+                [
+                    -97.56,
+                    33.1599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003409-3397481",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003409-3397481",
+        "areaDesc": "Wise, TX",
+        "geocode": {
+            "UGC": [
+                "TXC497"
+            ],
+            "SAME": [
+                "048497"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC497"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4002313-3396459",
+                "identifier": "NWS-IDP-PROD-4002313-3396459",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T14:24:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:20:00-06:00",
+        "effective": "2020-01-11T19:20:00-06:00",
+        "onset": "2020-01-11T19:20:00-06:00",
+        "expires": "2020-01-12T07:19:00-06:00",
+        "ends": "2020-01-12T13:23:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Flood Warning issued January 11 at 7:20PM CST until January 12 at 1:23PM CST by NWS Fort Worth TX",
+        "description": "...The Flood Warning continues for the following areas in Texas...\n\nWest Fork Trinity River Near Boyd Affecting Wise County\n\nDenton Creek Near Justin Affecting Denton County\n\nThe Flood Warning continues for\nThe West Fork Trinity River Near Boyd.\n* At 0615 PM Saturday the stage was 17.60 feet.\n* Flood stage is 16 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* Forecast...The river has crested and will continue to recede,\nfalling below flood stage early Sunday morning.",
+        "instruction": "Do not drive cars through flooded areas.\nCaution is urged when walking near riverbanks.\nStay tuned to NOAA All Hazards Radio for the latest river forecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFWD.FL.W.0003.000000T0000Z-200112T1923Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDFLSFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T13:23:00-06:00"
+            ]
+        }
+    }
+}
