@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005143-3399010",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.84,
+                    41.15
+                ],
+                [
+                    -87.78,
+                    41.18
+                ],
+                [
+                    -87.56,
+                    41.22
+                ],
+                [
+                    -87.53,
+                    41.11
+                ],
+                [
+                    -87.8,
+                    41.06
+                ],
+                [
+                    -87.84,
+                    41.06
+                ],
+                [
+                    -87.84,
+                    41.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005143-3399010",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005143-3399010",
+        "areaDesc": "Kankakee, IL",
+        "geocode": {
+            "UGC": [
+                "ILC091"
+            ],
+            "SAME": [
+                "017091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC091"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003750-3397808",
+                "identifier": "NWS-IDP-PROD-4003750-3397808",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T20:42:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T08:33:00-06:00",
+        "effective": "2020-01-12T08:33:00-06:00",
+        "onset": "2020-01-12T08:33:00-06:00",
+        "expires": "2020-01-12T22:32:00-06:00",
+        "ends": "2020-01-14T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 12 at 8:33AM CST until January 14 at 6:00AM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in Indiana...\nIllinois...\n\nKankakee River at Dunns Bridge affecting Porter County\nKankakee River at Momence affecting Kankakee County\nKankakee River near Kouts affecting Jasper and Porter Counties\nKankakee River at Shelby affecting Lake and Newton Counties\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Warning continues for\nThe Kankakee River at Momence, or from IL/IN state line downstream\nto confluence with Iroquois River at Aroma Park.\n* until Tuesday morning.\n* At  745 AM Sunday the stage was 5.3 feet.\n* Flood stage is 5.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nearly Tuesday morning.\n* Impact...At 5.5 feet...Low-lying areas of Island Park inundated in\nMomence. Flooding of Eagle Island Road near Sun River Terrace.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0004.000000T0000Z-200114T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T06:00:00-06:00"
+            ]
+        }
+    }
+}
