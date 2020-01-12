@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005473-3399282",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.81,
+                    38.92
+                ],
+                [
+                    -90.7,
+                    38.940000000000005
+                ],
+                [
+                    -90.7,
+                    38.92
+                ],
+                [
+                    -90.8,
+                    38.9
+                ],
+                [
+                    -90.81,
+                    38.92
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005473-3399282",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005473-3399282",
+        "areaDesc": "Lincoln, MO",
+        "geocode": {
+            "UGC": [
+                "MOC113"
+            ],
+            "SAME": [
+                "029113"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC113"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004415-3398389",
+                "identifier": "NWS-IDP-PROD-4004415-3398389",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T00:33:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T10:30:00-06:00",
+        "effective": "2020-01-12T10:30:00-06:00",
+        "onset": "2020-01-12T10:30:00-06:00",
+        "expires": "2020-01-13T16:29:00-06:00",
+        "ends": "2020-01-15T04:25:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 12 at 10:30AM CST until January 15 at 4:25AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\n\nCuivre River at Old Monroe\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Cuivre River at Old Monroe\n* until late Tuesday night.\n* At  9:30 AM Sunday the stage was 29.4 feet.\n* Flood stage is 24.0 feet.\n* Moderate flooding is forecast.\n* Debris has been reported in the river. If the debris is cleared,\nthen the river stage may drop quickly.\n* The river is forecast to crest near 29.8 feet by this evening, then\nfall below flood stage tomorrow afternoon.\n* Impact:  At 29.1 feet...Streets in Old Monroe begin flooding.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0022.000000T0000Z-200115T1025Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T04:25:00-06:00"
+            ]
+        }
+    }
+}
