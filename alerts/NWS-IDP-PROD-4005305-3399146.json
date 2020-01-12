@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005305-3399146",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.05,
+                    35.46
+                ],
+                [
+                    -93.8199999,
+                    35.5
+                ],
+                [
+                    -93.47,
+                    35.42
+                ],
+                [
+                    -93.49,
+                    35.36
+                ],
+                [
+                    -93.7099999,
+                    35.31
+                ],
+                [
+                    -93.85,
+                    35.400000000000006
+                ],
+                [
+                    -94.05,
+                    35.46
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005305-3399146",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4005305-3399146",
+        "areaDesc": "Logan, AR; Franklin, AR; Johnson, AR",
+        "geocode": {
+            "UGC": [
+                "ARC083",
+                "ARC047",
+                "ARC071"
+            ],
+            "SAME": [
+                "005083",
+                "005047",
+                "005071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC083",
+            "https://api.weather.gov/zones/county/ARC047",
+            "https://api.weather.gov/zones/county/ARC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4004441-3398413",
+                "identifier": "NWS-IDP-PROD-4004441-3398413",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T00:51:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T09:19:00-06:00",
+        "effective": "2020-01-12T09:19:00-06:00",
+        "onset": "2020-01-12T09:19:00-06:00",
+        "expires": "2020-01-12T17:18:00-06:00",
+        "ends": "2020-01-12T20:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Warning issued January 12 at 9:19AM CST until January 12 at 8:15PM CST by NWS Tulsa OK",
+        "description": "...The Flood Warning continues for the following rivers in\nArkansas...\n\nArkansas River at Ozark Lock and Dam affecting Franklin...Johnson\nand Logan Counties.\n\nThe Flood Warning continues for\nThe Arkansas River at Ozark Lock and Dam.\n* until this evening, or until the warning is cancelled.\n* At  8:00 AM Sunday, the stage was 357.3 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 357.0 feet.\n* Impact...At 357.0 feet, flooding affects agricultural use lands\nalong the river downstream of the lock and dam in Franklin County.\nGas fields are also subject to flooding downstream. Equipment and\nlivestock should be moved to higher ground. North 5th Street in\nLogan County near the Six Mile Levee begins to flood and may cut\noff access to a nearby residence.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KTSA.FL.W.0014.000000T0000Z-200113T0215Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSAFLSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-12T20:15:00-06:00"
+            ]
+        }
+    }
+}
