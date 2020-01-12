@@ -1,0 +1,123 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003412-3397484",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.89,
+                    33.72
+                ],
+                [
+                    -82.88,
+                    33.909999899999995
+                ],
+                [
+                    -82.63,
+                    33.919999999999995
+                ],
+                [
+                    -82.61,
+                    33.85999999999999
+                ],
+                [
+                    -82.58,
+                    33.86999999999999
+                ],
+                [
+                    -82.5699999,
+                    33.86999999999999
+                ],
+                [
+                    -82.58,
+                    33.83999999999999
+                ],
+                [
+                    -82.6,
+                    33.82999999999999
+                ],
+                [
+                    -82.55999999999999,
+                    33.76999999999999
+                ],
+                [
+                    -82.50999999999999,
+                    33.68999999999999
+                ],
+                [
+                    -82.89,
+                    33.72
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003412-3397484",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003412-3397484",
+        "areaDesc": "Wilkes, GA",
+        "geocode": {
+            "UGC": [
+                "GAC317"
+            ],
+            "SAME": [
+                "013317"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC317"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003324-3397414",
+                "identifier": "NWS-IDP-PROD-4003324-3397414",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T20:01:00-05:00"
+            }
+        ],
+        "sent": "2020-01-11T20:21:00-05:00",
+        "effective": "2020-01-11T20:21:00-05:00",
+        "onset": "2020-01-11T20:21:00-05:00",
+        "expires": "2020-01-11T20:31:00-05:00",
+        "ends": "2020-01-11T20:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 8:21PM EST until January 11 at 8:30PM EST by NWS Peachtree City GA",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and has exited the warned area. Therefore, the warning will\nbe allowed to expire.  However heavy rain is still possible with this\nthunderstorm.\n\nA Tornado Watch remains in effect until midnight EST for east central\nGeorgia.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T20:21:00.000-05:00...storm...259DEG...34KT...33.85,-82.59"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR CENTRAL WILKES COUNTY WILL EXPIRE AT 830 PM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KFFC.SV.W.0024.000000T0000Z-200112T0130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCSVSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T20:30:00-05:00"
+            ]
+        }
+    }
+}

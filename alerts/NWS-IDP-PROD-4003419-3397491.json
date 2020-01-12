@@ -1,0 +1,130 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003419-3397491",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.48,
+                    36.62
+                ],
+                [
+                    -85.48,
+                    36.449999999999996
+                ],
+                [
+                    -85.5,
+                    36.409999899999995
+                ],
+                [
+                    -85.49,
+                    36.28999999999999
+                ],
+                [
+                    -85.50999999999999,
+                    36.279999999999994
+                ],
+                [
+                    -85.50999999999999,
+                    36.25999999999999
+                ],
+                [
+                    -85.74,
+                    36.24999999999999
+                ],
+                [
+                    -85.7099999,
+                    36.61999999999999
+                ],
+                [
+                    -85.48,
+                    36.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003419-3397491",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4003419-3397491",
+        "areaDesc": "Clay, TN; Jackson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC027",
+                "TNC087"
+            ],
+            "SAME": [
+                "047027",
+                "047087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC027",
+            "https://api.weather.gov/zones/county/TNC087"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003374-3397458",
+                "identifier": "NWS-IDP-PROD-4003374-3397458",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T19:15:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003272-3397365",
+                "identifier": "NWS-IDP-PROD-4003272-3397365",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T18:42:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4003310-3397402",
+                "identifier": "NWS-IDP-PROD-4003310-3397402",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-11T18:57:00-06:00"
+            }
+        ],
+        "sent": "2020-01-11T19:23:00-06:00",
+        "effective": "2020-01-11T19:23:00-06:00",
+        "onset": "2020-01-11T19:23:00-06:00",
+        "expires": "2020-01-11T19:33:00-06:00",
+        "ends": "2020-01-11T19:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued January 11 at 7:23PM CST until January 11 at 7:30PM CST by NWS Nashville TN",
+        "description": "The storms which prompted the warning have moved out of the area.\nTherefore, the warning will be allowed to expire.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-11T19:23:00.000-06:00...storm...265DEG...30KT...36.66,-85.53 36.24,-85.59"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR JACKSON AND CENTRAL CLAY COUNTIES WILL EXPIRE AT 730 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KOHX.SV.W.0024.000000T0000Z-200112T0130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-11T19:30:00-06:00"
+            ]
+        }
+    }
+}
