@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006359-3400025",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.0699999,
+                    40.13
+                ],
+                [
+                    -90.02,
+                    40.06
+                ],
+                [
+                    -90.16,
+                    40.02
+                ],
+                [
+                    -90.42999999999999,
+                    40.03
+                ],
+                [
+                    -90.36,
+                    40.1
+                ],
+                [
+                    -90.17,
+                    40.1
+                ],
+                [
+                    -90.0699999,
+                    40.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006359-3400025",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006359-3400025",
+        "areaDesc": "Mason, IL; Cass, IL",
+        "geocode": {
+            "UGC": [
+                "ILC125",
+                "ILC017"
+            ],
+            "SAME": [
+                "017125",
+                "017017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC125",
+            "https://api.weather.gov/zones/county/ILC017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005081-3398961",
+                "identifier": "NWS-IDP-PROD-4005081-3398961",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T07:36:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T19:45:00-06:00",
+        "effective": "2020-01-12T19:45:00-06:00",
+        "onset": "2020-01-12T19:45:00-06:00",
+        "expires": "2020-01-13T09:44:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lincoln IL",
+        "headline": "Flood Warning issued January 12 at 7:45PM CST by NWS Lincoln IL",
+        "description": "...The Flood Warning continues for the following river in Illinois...\n\nSangamon River at Monticello affecting Piatt County\nSangamon River near Oakford affecting Cass...Mason and Menard\nCounties\nSangamon River near Chandlerville affecting Cass and Mason Counties\n\n.The following forecasts are based on observed precipitation, soil\nmoisture conditions, and forecast precipitation.\n\nThe Flood Warning continues for\nThe Sangamon River near Chandlerville.\n* Until further notice.\n* At 7 PM Sunday the stage was 456.2 feet.\n* Flood stage is 456.6 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by early tomorrow morning and\ncontinue to rise to near 458.2 feet by Tuesday afternoon.\n* Impact...At 459.9 feet...Flooding begins to impact some residences\nin Chandlerville.",
+        "instruction": "If you encounter a flooded roadway, turn around and find an alternate\nroute. Turn around, don't drown.\n\nAdditional river and weather information is available at\nwww.weather.gov/ilx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILX.FL.W.0012.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILXFLSILX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
