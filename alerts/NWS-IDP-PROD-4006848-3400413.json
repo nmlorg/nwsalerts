@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006848-3400413",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.76,
+                    41.4799999
+                ],
+                [
+                    -83.48,
+                    41.71
+                ],
+                [
+                    -83.45,
+                    41.67
+                ],
+                [
+                    -83.7099999,
+                    41.47
+                ],
+                [
+                    -83.74,
+                    41.449999999999996
+                ],
+                [
+                    -83.76,
+                    41.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006848-3400413",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006848-3400413",
+        "areaDesc": "Lucas, OH; Wood, OH",
+        "geocode": {
+            "UGC": [
+                "OHC095",
+                "OHC173"
+            ],
+            "SAME": [
+                "039095",
+                "039173"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC095",
+            "https://api.weather.gov/zones/county/OHC173"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006326-3399991",
+                "identifier": "NWS-IDP-PROD-4006326-3399991",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T20:37:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T03:44:00-05:00",
+        "effective": "2020-01-13T03:44:00-05:00",
+        "onset": "2020-01-13T03:44:00-05:00",
+        "expires": "2020-01-13T11:44:00-05:00",
+        "ends": "2020-01-14T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cleveland OH",
+        "headline": "Flood Warning issued January 13 at 3:44AM EST until January 14 at 1:00AM EST by NWS Cleveland OH",
+        "description": "...The flood warning continues for the following rivers in Ohio...\n\nPortage River At Woodville\nMaumee River At Waterville\n\nThe flood warning continues for\nThe Maumee River At Waterville.\n* Until late tonight.\n* Minor flooding is forecast.\n* Flood stage is 11.0 feet.\n* The river will rise to near 12.0 feet this morning and hold nearly\nsteady through today.\n* At 12.0 feet...Flooding begins in Side Cut Metropark. The river is\nout of banks in Waterville.",
+        "instruction": "Never drive your car through flooded roadways. The water may be\ndeeper than it appears. Turn around...don't drown!\n\nStay tuned to NOAA weather radio and other local media for further\ndetails and updates.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCLE.FL.W.0009.000000T0000Z-200114T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CLEFLSCLE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T01:00:00-05:00"
+            ]
+        }
+    }
+}
