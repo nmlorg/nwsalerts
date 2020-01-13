@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007568-3401001",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.27,
+                    36.28
+                ],
+                [
+                    -89.08999999999999,
+                    36.33
+                ],
+                [
+                    -88.94999999999999,
+                    36.33
+                ],
+                [
+                    -88.94999999999999,
+                    36.199999999999996
+                ],
+                [
+                    -89.26999999999998,
+                    36.13999999999999
+                ],
+                [
+                    -89.27,
+                    36.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007568-3401001",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007568-3401001",
+        "areaDesc": "Dyer, TN; Obion, TN; Gibson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC045",
+                "TNC131",
+                "TNC053"
+            ],
+            "SAME": [
+                "047045",
+                "047131",
+                "047053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC045",
+            "https://api.weather.gov/zones/county/TNC131",
+            "https://api.weather.gov/zones/county/TNC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006322-3399989",
+                "identifier": "NWS-IDP-PROD-4006322-3399989",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T19:34:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T10:36:00-06:00",
+        "effective": "2020-01-13T10:36:00-06:00",
+        "onset": "2020-01-13T10:36:00-06:00",
+        "expires": "2020-01-14T10:36:00-06:00",
+        "ends": "2020-01-16T02:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 13 at 10:36AM CST until January 16 at 2:00AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Obion River.\n\nThe Flood Warning continues for\nthe Obion River near Obion\n* from Monday January 13 until Wednesday January 15.\n* At 10 AM Monday the stage was 33.6 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 35.0 feet on Tuesday January 14.\n* Flood stage is 34.0 feet.\n* Forecast to rise above flood stage by Monday January 13 and\ncontinue to rise to near 35.0 feet by Tuesday January 14.The river\nwill fall below flood stage by Wednesday January 15.\n* At 35.0 feet...Several secondary roads and large areas of farm land\nare flooded in northern Dyer County. Flooding is occurring around\nRives in southeast Obion County.",
+        "instruction": "A followup Flood Statement will be issued tomorrow or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.W.0013.000000T0000Z-200116T0800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T02:00:00-06:00"
+            ]
+        }
+    }
+}
