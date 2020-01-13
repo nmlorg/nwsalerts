@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006488-3400129",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.7,
+                    38.42
+                ],
+                [
+                    -87.47,
+                    38.43
+                ],
+                [
+                    -87.41,
+                    38.39
+                ],
+                [
+                    -87.41,
+                    38.36
+                ],
+                [
+                    -87.47,
+                    38.37
+                ],
+                [
+                    -87.7099999,
+                    38.39
+                ],
+                [
+                    -87.7,
+                    38.42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006488-3400129",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006488-3400129",
+        "areaDesc": "Gibson, IN",
+        "geocode": {
+            "UGC": [
+                "INC051"
+            ],
+            "SAME": [
+                "018051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005403-3399229",
+                "identifier": "NWS-IDP-PROD-4005403-3399229",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T09:59:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T20:51:00-06:00",
+        "effective": "2020-01-12T20:51:00-06:00",
+        "onset": "2020-01-12T20:51:00-06:00",
+        "expires": "2020-01-14T00:50:00-06:00",
+        "ends": "2020-01-22T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 12 at 8:51PM CST until January 22 at 12:00PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following river in Indiana...\n\nPatoka River near Princeton\n\n.Recent heavy rainfall over the Patoka River basin has caused river\nlevels to rise. Minor flooding is occurring at Princeton, and moderate\nflooding is forecast to develop on Wednesday. A crest around 21.7 feet\nis forecast next weekend.\n\nThe Flood Warning continues for\nthe Patoka River near Princeton.\n* until Wednesday January 22.\n* At  7:45 PM Sunday the stage was 19.1 feet.\n* Flood Stage is 18.0 feet.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to near 21.7 feet by\nearly Sunday morning, January 19th. The river will fall below flood stage\nWednesday, January 29th.\n* Impact...At 22.0 Feet...Flooding affects mainly farmland. Seasonal\ncamping trailers closest to the river become inundated.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0009.000000T0000Z-200122T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T12:00:00-06:00"
+            ]
+        }
+    }
+}
