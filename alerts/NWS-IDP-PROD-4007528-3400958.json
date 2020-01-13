@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007528-3400958",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.06,
+                    32.9099999
+                ],
+                [
+                    -89.9,
+                    33.14
+                ],
+                [
+                    -89.81,
+                    33.3
+                ],
+                [
+                    -89.63,
+                    33.22
+                ],
+                [
+                    -89.69,
+                    33.129999999999995
+                ],
+                [
+                    -89.87,
+                    32.849999999999994
+                ],
+                [
+                    -90.06,
+                    32.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007528-3400958",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007528-3400958",
+        "areaDesc": "Holmes, MS; Attala, MS",
+        "geocode": {
+            "UGC": [
+                "MSC051",
+                "MSC007"
+            ],
+            "SAME": [
+                "028051",
+                "028007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC051",
+            "https://api.weather.gov/zones/county/MSC007"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006181-3399865",
+                "identifier": "NWS-IDP-PROD-4006181-3399865",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T18:34:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T10:08:00-06:00",
+        "effective": "2020-01-13T10:08:00-06:00",
+        "onset": "2020-01-13T10:08:00-06:00",
+        "expires": "2020-01-14T16:07:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 13 at 10:08AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi..\n\nBig Black River At West affecting Attala and Holmes Counties\nBig Black River Near Bentonia affecting Madison and Yazoo Counties\n\nBig Black River Near Bovina affecting Hinds and Warren Counties\n\nThe Flood Warning continues for\nThe Big Black River At West\n* until further notice.\n* At  8:45 AM Monday the stage was 18.8 feet.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* Flood stage is 15.0 feet.\n* Forecast...The river will continue rising to near 20.5 feet\nWednesday morning.\n* Impact...At 21.0 feet...Extensive flooding of agricultural land.\n* Impact...At 19.0 feet...Thousands of acres of agricultural land are\nunder water.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0029.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007530-3400960",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007530-3400960",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007530-3400960",
+        "areaDesc": "Sacramento Mountains Above 7500 Feet; East Slopes Sacramento Mountains Below 7500 Feet; West Slopes Sacramento Mountains Below 7500 Feet",
+        "geocode": {
+            "UGC": [
+                "NMZ415",
+                "NMZ416",
+                "NMZ414"
+            ],
+            "SAME": [
+                "035035"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NMZ415",
+            "https://api.weather.gov/zones/forecast/NMZ416",
+            "https://api.weather.gov/zones/forecast/NMZ414"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006815-3400391",
+                "identifier": "NWS-IDP-PROD-4006815-3400391",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T01:27:00-07:00"
+            }
+        ],
+        "sent": "2020-01-13T09:09:00-07:00",
+        "effective": "2020-01-13T09:09:00-07:00",
+        "onset": "2020-01-13T10:00:00-07:00",
+        "expires": "2020-01-13T17:00:00-07:00",
+        "ends": "2020-01-13T17:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS El Paso TX/Santa Teresa NM",
+        "headline": "Wind Advisory issued January 13 at 9:09AM MST until January 13 at 5:00PM MST by NWS El Paso TX/Santa Teresa NM",
+        "description": "* WHAT... Winds of 30 to 35 mph with gusts up to 50 mph.\n\n* WHERE... The Sacramento Mountains in Otero county New Mexico.\n\n* WHEN...Winds will be the strongest from 11 AM until 2 PM.\nSustained winds will slowly diminish after 3PM, but strong\ngusts will still remain until 5 PM this evening.\n\n* IMPACTS...Gusty winds could blow around unsecured objects.\nTree limbs could be blown down. The strong winds could make\ndriving difficult especially along north/south running roads.",
+        "instruction": "A Wind Advisory means that winds of 35 mph are expected. Winds\nthis strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY REMAINS IN EFFECT UNTIL 5 PM MST THIS AFTERNOON"
+            ],
+            "VTEC": [
+                "/O.CON.KEPZ.WI.Y.0002.200113T1700Z-200114T0000Z/"
+            ],
+            "PIL": [
+                "EPZNPWEPZ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T17:00:00-07:00"
+            ]
+        }
+    }
+}
