@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007382-3400848",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.36,
+                    39.6
+                ],
+                [
+                    -87.4,
+                    39.43
+                ],
+                [
+                    -87.5699999,
+                    39.3
+                ],
+                [
+                    -87.63,
+                    39.32
+                ],
+                [
+                    -87.47,
+                    39.45
+                ],
+                [
+                    -87.41,
+                    39.6
+                ],
+                [
+                    -87.36,
+                    39.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007382-3400848",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007382-3400848",
+        "areaDesc": "Crawford, IL; Sullivan, IN; Clark, IL; Vigo, IN",
+        "geocode": {
+            "UGC": [
+                "ILC033",
+                "INC153",
+                "ILC023",
+                "INC167"
+            ],
+            "SAME": [
+                "017033",
+                "018153",
+                "017023",
+                "018167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC153",
+            "https://api.weather.gov/zones/county/ILC023",
+            "https://api.weather.gov/zones/county/INC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006591-3400206",
+                "identifier": "NWS-IDP-PROD-4006591-3400206",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T22:38:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T10:10:00-05:00",
+        "effective": "2020-01-13T10:10:00-05:00",
+        "onset": "2020-01-13T10:10:00-05:00",
+        "expires": "2020-01-14T10:08:00-05:00",
+        "ends": "2020-01-21T05:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 13 at 10:10AM EST until January 21 at 5:30AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nBig Blue River...Driftwood River...East Fork White River...Eel\nRiver...Flatrock River...Mill Creek...Sugar Creek...Wabash River...\nWhite River...Wildcat Creek...\n\n.Minor to moderate flooding continues on many waterways in central\nand southern Indiana as of Monday morning.  This is a result of\nup to about 4 inches of rain that fell late last week and the\nweekend.\n\nThe large majority of the Wabash, White, and East Fork White Rivers\nare either in flood or expected to flood, with some locations\nreaching moderate flood stage.  Crests are expected to be the\nhighest since either February or June of 2019.\n\nAs of Monday morning, flooding had ended along many of the smaller\nstreams with minor to moderate flooding occurring along the main\nstem rivers. The Wabash River was rising along the full length.  The\ncrest along the White River was near Ravenswood. The crest along the\nEast Fork White River was between Seymour and Rivervale. Flooding\nalong the lower portions of the White and Wabash River is likely to\ncontinue through the end of the month.\n\nLittle or no precipitation is in the forecast through Thursday which\nwill allow smaller rivers to continue to recede this week.\nAdditional heavy rainfall of 1 to 2 inches is possible this weekend\nwhich could exacerbate ongoing flooding.\n\nThe Flood Warning continues for\nThe Wabash River at Terre Haute.\n* until Tuesday January 21.\n* At  9:30 AM Monday the stage was 21.6 feet. This is 2.0 to 2.5 feet\nhigher than the observations from the old legacy gauge.\n* Flood stage is 16.5 feet. This is 2.5 feet higher than flood stage\nfrom the old legacy gauge.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will rise to near 22.8 feet by Tuesday afternoon then\nbegin falling. It will fall below flood stage Monday January 20.\n* At 22.5 feet...Extensive flooding behind Honey Creek Levee as a\nresult of two unrepaired levee breaks from the April 2013 flood.\nThis levee is maintained by the Honey Creek Levee Association.\nFlood waters behind the Honey Creek levee inundates most roads and\naffects a few residences and or commercial activities.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0016.000000T0000Z-200121T1030Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T05:30:00-05:00"
+            ]
+        }
+    }
+}
