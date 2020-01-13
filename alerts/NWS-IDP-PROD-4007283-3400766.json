@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007283-3400766",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.8199999,
+                    32.52
+                ],
+                [
+                    -87.9,
+                    32.25
+                ],
+                [
+                    -88.06,
+                    32.01
+                ],
+                [
+                    -88.16,
+                    32.01
+                ],
+                [
+                    -88.09,
+                    32.409999899999995
+                ],
+                [
+                    -87.9,
+                    32.529999999999994
+                ],
+                [
+                    -87.8199999,
+                    32.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007283-3400766",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007283-3400766",
+        "areaDesc": "Marengo, AL; Greene, AL; Hale, AL; Sumter, AL",
+        "geocode": {
+            "UGC": [
+                "ALC091",
+                "ALC063",
+                "ALC065",
+                "ALC119"
+            ],
+            "SAME": [
+                "001091",
+                "001063",
+                "001065",
+                "001119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC091",
+            "https://api.weather.gov/zones/county/ALC063",
+            "https://api.weather.gov/zones/county/ALC065",
+            "https://api.weather.gov/zones/county/ALC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006371-3400043",
+                "identifier": "NWS-IDP-PROD-4006371-3400043",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T19:46:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T08:37:00-06:00",
+        "effective": "2020-01-13T08:37:00-06:00",
+        "onset": "2020-01-13T18:51:00-06:00",
+        "expires": "2020-01-13T20:37:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued January 13 at 8:37AM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Tombigbee River At Bevill Lock\nand Dam...Gainesville Lock and Dam...and Demopolis Lock and Dam...\n\n.Heavy rainfall during the past 48 hours and additional rainfall\nforecast during the next 48 hours will continue to produce rises\nalong the Tombigbee River...and a Flood Warning remains in effect\nalong the river.\n\nThe Flood Warning continues for\nThe Tombigbee River At Demopolis Lock and Dam.\n* from this evening until further notice...or until the warning is\ncancelled.\n* At 8:15 AM Monday the stage was 66.6 feet.\n* Flood stage is 68 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by this evening and continue to\nrise to near 74.7 feet by Friday evening.\n* Impact...At 73 feet...some cabins and trailers along the river\nbegin to flood...as well as some secondary roads.  Widespread\nflooding of lowlands in the area will occur.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Tuesday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0012.200114T0051Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

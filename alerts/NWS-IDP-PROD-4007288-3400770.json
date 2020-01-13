@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007288-3400770",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.99,
+                    38.1599999
+                ],
+                [
+                    -87.89999999999999,
+                    38.150000000000006
+                ],
+                [
+                    -87.99,
+                    37.970000000000006
+                ],
+                [
+                    -88.00999999999999,
+                    37.81000000000001
+                ],
+                [
+                    -88.08999999999999,
+                    37.80000000000001
+                ],
+                [
+                    -88.1,
+                    37.890000000000015
+                ],
+                [
+                    -87.99,
+                    38.1599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007288-3400770",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007288-3400770",
+        "areaDesc": "Wabash, IL; White, IL; Posey, IN; Gallatin, IL; Gibson, IN",
+        "geocode": {
+            "UGC": [
+                "ILC185",
+                "ILC193",
+                "INC129",
+                "ILC059",
+                "INC051"
+            ],
+            "SAME": [
+                "017185",
+                "017193",
+                "018129",
+                "017059",
+                "018051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC185",
+            "https://api.weather.gov/zones/county/ILC193",
+            "https://api.weather.gov/zones/county/INC129",
+            "https://api.weather.gov/zones/county/ILC059",
+            "https://api.weather.gov/zones/county/INC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006578-3400195",
+                "identifier": "NWS-IDP-PROD-4006578-3400195",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T21:24:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T08:40:00-06:00",
+        "effective": "2020-01-13T08:40:00-06:00",
+        "onset": "2020-01-13T08:40:00-06:00",
+        "expires": "2020-01-14T12:39:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 13 at 8:40AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following river in\nIllinois...Indiana...\n\nWabash River at New Harmony\n\n.Recent heavy rainfall over the Wabsah River basin has caused river\nlevels to rise. Minor flooding is occurring at New Harmony and moderate\nflooding is forecast to develop later this week. A crest around 20.1\nfeet is forecast for Sunday night.\n\nThe Flood Warning continues for\nthe Wabash River at New Harmony\n* until further notice.\n* At  7:30 AM Monday the stage was 16.4 feet.\n* Flood Stage is 15.0 feet.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to near 20.1 feet by\nSunday night then begin slowly falling.\n* Impact...At 20.0 Feet...Parts of northern New Harmony begin to flood\nand sandbagging becomes necessary in town.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0008.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
