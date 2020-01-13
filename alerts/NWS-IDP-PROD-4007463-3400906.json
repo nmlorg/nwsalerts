@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007463-3400906",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.23,
+                    38.26
+                ],
+                [
+                    -91.33,
+                    38.32
+                ],
+                [
+                    -91.37,
+                    38.38
+                ],
+                [
+                    -90.94,
+                    38.4799999
+                ],
+                [
+                    -90.87,
+                    38.42
+                ],
+                [
+                    -91.23,
+                    38.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007463-3400906",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007463-3400906",
+        "areaDesc": "Franklin, MO",
+        "geocode": {
+            "UGC": [
+                "MOC071"
+            ],
+            "SAME": [
+                "029071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005332-3399168",
+                "identifier": "NWS-IDP-PROD-4005332-3399168",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T09:25:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T09:40:00-06:00",
+        "effective": "2020-01-13T09:40:00-06:00",
+        "onset": "2020-01-13T09:40:00-06:00",
+        "expires": "2020-01-14T15:39:00-06:00",
+        "ends": "2020-01-15T15:41:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 13 at 9:40AM CST until January 15 at 3:41PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\n\nBig River at Byrnesville\n\nBourbeuse River at Union\n\nMeramec River near Sullivan\n\nMeramec River at Pacific\n\nMeramec River near Eureka\n\nMeramec River at Valley Park\n\nMeramec River In Fenton\n\nMeramec River near Arnold\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Bourbeuse River at Union\n* until Wednesday afternoon.\n* At  9:00 AM Monday the stage was 19.9 feet.\n* Flood stage is 15.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to crest near 20.1 feet this afternoon,\nthen fall below flood stage tomorrow late morning.\n* Impact:  At 19.8 feet...Near this height, Missouri State Route UU is\nclosed in both directions.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0012.000000T0000Z-200115T2141Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T15:41:00-06:00"
+            ]
+        }
+    }
+}
