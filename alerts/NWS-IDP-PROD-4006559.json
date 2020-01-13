@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006559",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.35,
+                    33.03
+                ],
+                [
+                    -83.50999999999999,
+                    33.1599999
+                ],
+                [
+                    -83.14999999999999,
+                    33.54
+                ],
+                [
+                    -82.77999999999999,
+                    33.24
+                ],
+                [
+                    -83.35,
+                    33.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006559",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006559",
+        "areaDesc": "Greene; Hancock; Baldwin; Jones; Putnam",
+        "geocode": {
+            "UGC": [
+                "GAZ050",
+                "GAZ061",
+                "GAZ073",
+                "GAZ072",
+                "GAZ060"
+            ],
+            "SAME": [
+                "013133",
+                "013141",
+                "013009",
+                "013169",
+                "013237"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/GAZ050",
+            "https://api.weather.gov/zones/forecast/GAZ061",
+            "https://api.weather.gov/zones/forecast/GAZ073",
+            "https://api.weather.gov/zones/forecast/GAZ072",
+            "https://api.weather.gov/zones/forecast/GAZ060"
+        ],
+        "references": [],
+        "sent": "2020-01-12T22:07:00-05:00",
+        "effective": "2020-01-12T22:07:00-05:00",
+        "onset": "2020-01-12T22:07:00-05:00",
+        "expires": "2020-01-12T22:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Special Weather Statement issued January 12 at 10:07PM EST by NWS Peachtree City GA",
+        "description": "At 1007 PM EST...a strong thunderstorm was over Plant Harlee Branch,\nor 7 miles north of Milledgeville...moving northeast at 35 mph.\n\nHAZARD...Up to 40 mph wind...frequent cloud to ground lightning\nand heavy rain.\n\nIMPACT...Expect minor damage to tree limbs and blowing around of\nlight...unsecured objects. Heavy rain may cause temporary\nstreet flooding especially in poor drainage areas.\n\nSome locations in the path of this storm include\nMilledgeville, Eatonton, Sparta, Reynolds at Lake Oconee,\nMidway-Hardwick, Liberty, Meriwether, Ethridge, Veazey, Devereux,\nBeulah, Underwood, Allenwood, Resseaus Crossroads, Oconee Springs\nPark, Rockville, Plant Harlee Branch, Browns Crossing, Shoulderbone\nand Culverton.",
+        "instruction": "People outdoors should seek shelter immediately. If you can hear\nthunder...you are close enough to be struck by lightning. Motorists\nshould slow down and be prepared for possible loss of control due to\nhydroplaning.\n\nLAT...LON 3303 8335 3316 8351 3354 8315 3324 8278\nTIME...MOT...LOC 0307Z 233DEG 30KT 3319 8326\n\nWIND...40MPH",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-12T22:07:00.000-05:00...storm...233DEG...30KT...33.19,-83.26"
+            ],
+            "windGust": [
+                "40 MPH"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR EASTERN PUTNAM...NORTHERN BALDWIN...HANCOCK...NORTHEASTERN JONES AND SOUTHEASTERN GREENE COUNTIES UNTIL 1030 PM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCSPSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
