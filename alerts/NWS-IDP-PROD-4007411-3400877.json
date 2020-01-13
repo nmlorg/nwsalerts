@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007411-3400877",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.55,
+                    30.2
+                ],
+                [
+                    -89.64,
+                    30.18
+                ],
+                [
+                    -89.9,
+                    30.669999999999998
+                ],
+                [
+                    -89.76,
+                    30.669999999999998
+                ],
+                [
+                    -89.55,
+                    30.2
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007411-3400877",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007411-3400877",
+        "areaDesc": "Hancock, MS; Pearl River, MS; St. Tammany, LA",
+        "geocode": {
+            "UGC": [
+                "MSC045",
+                "MSC109",
+                "LAC103"
+            ],
+            "SAME": [
+                "028045",
+                "028109",
+                "022103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC045",
+            "https://api.weather.gov/zones/county/MSC109",
+            "https://api.weather.gov/zones/county/LAC103"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006400-3400067",
+                "identifier": "NWS-IDP-PROD-4006400-3400067",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T20:01:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T09:14:00-06:00",
+        "effective": "2020-01-13T09:14:00-06:00",
+        "onset": "2020-01-13T09:14:00-06:00",
+        "expires": "2020-01-14T15:14:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Flood Warning issued January 13 at 9:14AM CST by NWS New Orleans LA",
+        "description": "...Observed Flooding Changed from Minor to Minor Severity for the\nfollowing rivers in Louisiana...Mississippi...\n...Forecast Flooding Changed from Minor to Moderate Severity for the\nfollowing rivers in Louisiana...Mississippi...\nPearl River Near Pearl River affecting St. Tammany...Hancock and\nPearl River Counties/Parishes",
+        "instruction": "Forecast crests are based upon rainfall that has occurred along with\nanticipated rain for the next 24 hours. Adjustments to the forecasts\nwill be made if additional heavy rainfall occurs.\n\nDo not drive cars through flooded areas. Remember, two feet of\nrushing water can carry away most vehicles including pickups.  Turn\naround and don't drown!\n\nA followup product will be issued later. Stay tuned to NOAA Weather\nRadio, local tv and radio stations...or your cable provider, for the\nlatest information. The latest graphical hydrologic information can\nalso be found at Weather.Gov.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.CON.KLIX.FL.W.0129.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LIXFLWLIX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
