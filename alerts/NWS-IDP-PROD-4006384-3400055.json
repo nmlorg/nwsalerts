@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006384-3400055",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.01,
+                    38.01
+                ],
+                [
+                    -88.95,
+                    38.01
+                ],
+                [
+                    -88.98,
+                    37.89
+                ],
+                [
+                    -89.15,
+                    37.78
+                ],
+                [
+                    -89.15,
+                    37.84
+                ],
+                [
+                    -89.06,
+                    37.92
+                ],
+                [
+                    -89.01,
+                    38.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006384-3400055",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006384-3400055",
+        "areaDesc": "Franklin, IL; Williamson, IL",
+        "geocode": {
+            "UGC": [
+                "ILC055",
+                "ILC199"
+            ],
+            "SAME": [
+                "017055",
+                "017199"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC055",
+            "https://api.weather.gov/zones/county/ILC199"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005507-3399301",
+                "identifier": "NWS-IDP-PROD-4005507-3399301",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T10:40:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T19:50:00-06:00",
+        "effective": "2020-01-12T19:50:00-06:00",
+        "onset": "2020-01-12T19:50:00-06:00",
+        "expires": "2020-01-13T23:50:00-06:00",
+        "ends": "2020-01-16T19:12:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 12 at 7:50PM CST until January 16 at 7:12PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...\n\nBig Muddy River near Plumfield and Murphysboro\n\n.Recent heavy rainfall over the Big Muddy River basin has caused river\nlevels to rise. Minor flooding is occurring at Murphysboro, and moderate\nflooding is forecast to develop by Tuesday. At Plumfield, minor flooding\nis occurring. Crests are expected to occur Tuesday into Wednesday.\n\nThe Flood Warning continues for\nthe Big Muddy River near Plumfield.\n* until Thursday evening.\n* At  7:00 PM Sunday the stage was 20.4 feet.\n* Flood Stage is 20.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 23.1 feet by\nTuesday morning. The river will fall below flood stage Thursday\nearly afternoon.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0006.000000T0000Z-200117T0112Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T19:12:00-06:00"
+            ]
+        }
+    }
+}
