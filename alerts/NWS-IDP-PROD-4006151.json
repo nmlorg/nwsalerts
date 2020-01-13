@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006151",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.0699999,
+                    34.1
+                ],
+                [
+                    -81.42999999999999,
+                    33.940000000000005
+                ],
+                [
+                    -81.49999999999999,
+                    34.02
+                ],
+                [
+                    -81.23999999999998,
+                    34.1599999
+                ],
+                [
+                    -81.0699999,
+                    34.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006151",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006151",
+        "areaDesc": "Saluda; Lexington; Richland",
+        "geocode": {
+            "UGC": [
+                "SCZ026",
+                "SCZ027",
+                "SCZ028"
+            ],
+            "SAME": [
+                "045081",
+                "045063",
+                "045079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/SCZ026",
+            "https://api.weather.gov/zones/forecast/SCZ027",
+            "https://api.weather.gov/zones/forecast/SCZ028"
+        ],
+        "references": [],
+        "sent": "2020-01-12T19:01:00-05:00",
+        "effective": "2020-01-12T19:01:00-05:00",
+        "onset": "2020-01-12T19:01:00-05:00",
+        "expires": "2020-01-12T19:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Special Weather Statement issued January 12 at 7:01PM EST by NWS Columbia SC",
+        "description": "...Boaters on Lake Murray Should Seek Safe Harbor...\n\nAt 700 PM EST...National Weather Service doppler radar indicated a\nstrong thunderstorm near Dreher Island State Park, or 10 miles west\nof Lexington, moving northeast at 45 mph.\n\nHAZARD...gusty winds 35 to 45 mph.\n\nIMPACT...expect minor damage to tree limbs and blowing around of\nlight, unsecured objects.\n\nSome locations in the path of this storm include...\nColumbia, Irmo, Highway 6 at Lake Murray Dam, St. Andrews,\nBallentine, Harbison State Forest, Lighthouse Marina, Cedar Grove\nFire Station, South Shore Marina, Oswald Park, Lake Murray Marina,\nShull Island, Bundrick Island, Putnam's Landing, Siesta Cove Marina,\nMurray, Pine Island, Hollow Creek Public Park and Seven Oaks.",
+        "instruction": "Boaters on Lake Murray should move to shore and seek shelter. Strong,\nerratic wind gusts and lightning are possible. If you can hear\nthunder, you are close enough to be struck by lightning.\n\nPersons in campgrounds should seek shelter until this storm passes.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-12T19:00:00.000-05:00...storm...233DEG...38KT...34.02,-81.4"
+            ],
+            "NWSheadline": [
+                "Strong Thunderstorms Will Impact Portions of northwestern Lexington...west central Richland and eastern Saluda Counties Until 730 PM EST."
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAESPSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
