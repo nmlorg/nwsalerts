@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006908-3400449",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.48,
+                    30.69
+                ],
+                [
+                    -86.8199999,
+                    30.98
+                ],
+                [
+                    -86.85,
+                    30.63
+                ],
+                [
+                    -87.22999999999999,
+                    30.419999999999998
+                ],
+                [
+                    -87.55999999999999,
+                    30.299999999999997
+                ],
+                [
+                    -87.48,
+                    30.69
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006908-3400449",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006908-3400449",
+        "areaDesc": "Escambia, FL; Santa Rosa, FL; Baldwin, AL",
+        "geocode": {
+            "UGC": [
+                "FLC033",
+                "FLC113",
+                "ALC003"
+            ],
+            "SAME": [
+                "012033",
+                "012113",
+                "001003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC033",
+            "https://api.weather.gov/zones/county/FLC113",
+            "https://api.weather.gov/zones/county/ALC003"
+        ],
+        "references": [],
+        "sent": "2020-01-13T03:14:00-06:00",
+        "effective": "2020-01-13T03:14:00-06:00",
+        "onset": "2020-01-13T03:14:00-06:00",
+        "expires": "2020-01-13T06:15:00-06:00",
+        "ends": "2020-01-13T06:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Advisory issued January 13 at 3:14AM CST until January 13 at 6:15AM CST by NWS Mobile AL",
+        "description": "The National Weather Service in Mobile has issued a\n\n* Urban and Small Stream Flood Advisory for...\nSoutheastern Baldwin County in southwestern Alabama...\nCentral Santa Rosa County in northwestern Florida...\nSouth central Escambia County in northwestern Florida...\n\n* Until 615 AM CST.\n\n* At 312 AM CST, Doppler radar indicated showers and thunderstorms\nproducing heavy rainfall across the advisory area. Radar estimates\nthat 2 to 3 inches of rain has fallen across some locations from\nnear Lillian to Gonzalez to Milton. Excessive runoff from heavy\nrainfall may cause minor flooding of urban and low lying areas.\n\n* Some locations that will experience flooding include...\nFerry Pass, Brent, Ensley, Gonzalez, Pace, Milton, Goulding,\nBagdad, Lillian, Myrtle Grove, Molino, Perdido Beach, Point Baker,\nPea Ridge, Roeville and Floridatown.",
+        "instruction": "Be especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KMOB.FA.Y.0003.200113T0914Z-200113T1215Z/"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T06:15:00-06:00"
+            ]
+        }
+    }
+}
