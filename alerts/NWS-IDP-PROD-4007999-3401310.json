@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007999-3401310",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007999-3401310",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007999-3401310",
+        "areaDesc": "Escambia Coastal; Santa Rosa Coastal; Okaloosa Coastal",
+        "geocode": {
+            "UGC": [
+                "FLZ202",
+                "FLZ204",
+                "FLZ206"
+            ],
+            "SAME": [
+                "012033",
+                "012113",
+                "012091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/FLZ202",
+            "https://api.weather.gov/zones/forecast/FLZ204",
+            "https://api.weather.gov/zones/forecast/FLZ206"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007715-3401132",
+                "identifier": "NWS-IDP-PROD-4007715-3401132",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T12:03:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007715-3401131",
+                "identifier": "NWS-IDP-PROD-4007715-3401131",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T12:03:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T15:06:00-06:00",
+        "effective": "2020-01-13T15:06:00-06:00",
+        "onset": "2020-01-13T15:06:00-06:00",
+        "expires": "2020-01-13T23:00:00-06:00",
+        "ends": "2020-01-14T09:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Dense Fog Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Dense Fog Advisory issued January 13 at 3:06PM CST until January 14 at 9:00AM CST by NWS Mobile AL",
+        "description": "* WHAT...Visibility lowering to one quarter mile or less in dense\nfog.\n\n* WHERE...Escambia Coastal, Santa Rosa Coastal and Okaloosa\nCoastal Counties.\n\n* WHEN...Until 9 AM CST Tuesday.\n\n* IMPACTS...Hazardous driving conditions due to low visibility.",
+        "instruction": "If driving, slow down, use your headlights, and leave plenty of\ndistance ahead of you.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "DENSE FOG ADVISORY REMAINS IN EFFECT UNTIL 9 AM CST TUESDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.FG.Y.0003.000000T0000Z-200114T1500Z/"
+            ],
+            "PIL": [
+                "MOBNPWMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T09:00:00-06:00"
+            ]
+        }
+    }
+}
