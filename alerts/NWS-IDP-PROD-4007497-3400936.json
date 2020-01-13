@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007497-3400936",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.89,
+                    38.42
+                ],
+                [
+                    -91.64,
+                    38.6599999
+                ],
+                [
+                    -91.5,
+                    38.6599999
+                ],
+                [
+                    -91.8,
+                    38.14
+                ],
+                [
+                    -91.9599999,
+                    38.14
+                ],
+                [
+                    -91.89,
+                    38.42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007497-3400936",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007497-3400936",
+        "areaDesc": "Osage, MO",
+        "geocode": {
+            "UGC": [
+                "MOC151"
+            ],
+            "SAME": [
+                "029151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC151"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006188-3399872",
+                "identifier": "NWS-IDP-PROD-4006188-3399872",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T18:44:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T09:55:00-06:00",
+        "effective": "2020-01-13T09:55:00-06:00",
+        "onset": "2020-01-13T09:55:00-06:00",
+        "expires": "2020-01-14T15:54:00-06:00",
+        "ends": "2020-01-15T13:12:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 13 at 9:55AM CST until January 15 at 1:12PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\n\nGasconade River near Rich Fountain\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Gasconade River near Rich Fountain\n* until Wednesday afternoon.\n* At  9:30 AM Monday the stage was 19.6 feet.\n* Flood stage is 20.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to rise above flood stage by late this\nmorning and to crest near 21.2 feet by this evening. The river is\nforecast to fall below flood stage by tomorrow morning.\n* Impact:  At 21.1 feet...Private road under the State Highway 89\nbridge begins flooding near this height.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0030.000000T0000Z-200115T1912Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T13:12:00-06:00"
+            ]
+        }
+    }
+}
