@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006461-3400105",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.05,
+                    35.07
+                ],
+                [
+                    -93.27,
+                    35.05
+                ],
+                [
+                    -93.42999999999999,
+                    35.019999999999996
+                ],
+                [
+                    -93.41999999999999,
+                    35.089999999999996
+                ],
+                [
+                    -93.27999999999999,
+                    35.129999999999995
+                ],
+                [
+                    -93.12999999999998,
+                    35.13999999999999
+                ],
+                [
+                    -93.05,
+                    35.07
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006461-3400105",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006461-3400105",
+        "areaDesc": "Yell, AR",
+        "geocode": {
+            "UGC": [
+                "ARC149"
+            ],
+            "SAME": [
+                "005149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC149"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005747-3399484",
+                "identifier": "NWS-IDP-PROD-4005747-3399484",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T13:41:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T20:26:00-06:00",
+        "effective": "2020-01-12T20:26:00-06:00",
+        "onset": "2020-01-12T20:26:00-06:00",
+        "expires": "2020-01-13T11:26:00-06:00",
+        "ends": "2020-01-14T11:34:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Warning issued January 12 at 8:26PM CST until January 14 at 11:34AM CST by NWS Little Rock AR",
+        "description": "...From the National Weather Service in Little Rock...the Flood\nWarning continues for the following river in Arkansas...\n\nPetit Jean River At Danville affecting Yell County\n\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 24 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.\n\nFld     Observed        Forecast 6 AM        Crest\nLocation     Stg   Stg  Day Time   Mon   Tue   Wed  Crest Time  Date\n\nPetit Jean River\nDanville    20  22.0 Sun 08 PM  19.9  13.4  11.6     **FALLING**",
+        "instruction": "Safety message...Remember to Turn Around...Don't Drown\nDo not drive cars through flooded areas.\n\nEveryone with property or other interest along streams and rivers\nshould remain alert to changing weather forecasts. Should conditions\nchange...Look for river forecasts or Flood Warnings for use in making\ninformed decisions to protect life and property.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLZK.FL.W.0017.000000T0000Z-200114T1734Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T11:34:00-06:00"
+            ]
+        }
+    }
+}
