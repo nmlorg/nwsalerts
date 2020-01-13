@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007550-3400981",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.39,
+                    33.17
+                ],
+                [
+                    -93.35,
+                    33
+                ],
+                [
+                    -93.3199999,
+                    32.82
+                ],
+                [
+                    -93.38,
+                    32.82
+                ],
+                [
+                    -93.42999999999999,
+                    33
+                ],
+                [
+                    -93.39,
+                    33.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007550-3400981",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007550-3400981",
+        "areaDesc": "Columbia, AR; Webster, LA",
+        "geocode": {
+            "UGC": [
+                "ARC027",
+                "LAC119"
+            ],
+            "SAME": [
+                "005027",
+                "022119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC027",
+            "https://api.weather.gov/zones/county/LAC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005146-3399013",
+                "identifier": "NWS-IDP-PROD-4005146-3399013",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T08:39:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T10:20:00-06:00",
+        "effective": "2020-01-13T10:20:00-06:00",
+        "onset": "2020-01-13T10:20:00-06:00",
+        "expires": "2020-01-14T10:19:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued January 13 at 10:20AM CST by NWS Shreveport LA",
+        "description": "",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSHV.FL.W.0002.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
