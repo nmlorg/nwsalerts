@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008097",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.54,
+                    33.83
+                ],
+                [
+                    -79.59,
+                    34.01
+                ],
+                [
+                    -79.19,
+                    34.14
+                ],
+                [
+                    -79.11,
+                    33.88
+                ],
+                [
+                    -79.54,
+                    33.83
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008097",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008097",
+        "areaDesc": "Central Horry; Marion; Northern Horry; Florence",
+        "geocode": {
+            "UGC": [
+                "SCZ058",
+                "SCZ033",
+                "SCZ059",
+                "SCZ032"
+            ],
+            "SAME": [
+                "045051",
+                "045067",
+                "045041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/SCZ058",
+            "https://api.weather.gov/zones/forecast/SCZ033",
+            "https://api.weather.gov/zones/forecast/SCZ059",
+            "https://api.weather.gov/zones/forecast/SCZ032"
+        ],
+        "references": [],
+        "sent": "2020-01-13T16:42:00-05:00",
+        "effective": "2020-01-13T16:42:00-05:00",
+        "onset": "2020-01-13T16:42:00-05:00",
+        "expires": "2020-01-13T17:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Special Weather Statement issued January 13 at 4:42PM EST by NWS Wilmington NC",
+        "description": "At 442 PM EST, Doppler radar was tracking a strong thunderstorm near\nGresham, or 16 miles east of Lake City, moving east at 25 mph.\n\nWinds in excess of 40 mph will be possible with this storm.\n\nLocations impacted include...\nHorry, Pamplico, Galivants Ferry, Gresham, Poston, Brittons Neck,\nRains, Kingsburg and Aynor.",
+        "instruction": "Thunderstorms can pose a variety of threats including gusty winds,\nsmall hail, cloud to ground lightning, and localized flooding. It is\nrecommended that you remain indoors until the storm passes.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-13T16:42:00.000-05:00...storm...256DEG...22KT...33.94,-79.49"
+            ],
+            "NWSheadline": [
+                "SPECIAL WEATHER STATEMENT FOR SOUTHEASTERN FLORENCE...WEST CENTRAL HORRY AND CENTRAL MARION COUNTIES UNTIL 530 PM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMSPSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
