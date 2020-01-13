@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006476-3400120",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.62,
+                    36.62
+                ],
+                [
+                    -89.27000000000001,
+                    36.69
+                ],
+                [
+                    -89.18,
+                    36.51
+                ],
+                [
+                    -89.35000000000001,
+                    36.5
+                ],
+                [
+                    -89.35000000000001,
+                    36.4799999
+                ],
+                [
+                    -89.64000000000001,
+                    36.4799999
+                ],
+                [
+                    -89.62,
+                    36.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006476-3400120",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006476-3400120",
+        "areaDesc": "Mississippi, MO; New Madrid, MO; Fulton, KY",
+        "geocode": {
+            "UGC": [
+                "MOC133",
+                "MOC143",
+                "KYC075"
+            ],
+            "SAME": [
+                "029133",
+                "029143",
+                "021075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC133",
+            "https://api.weather.gov/zones/county/MOC143",
+            "https://api.weather.gov/zones/county/KYC075"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005563-3399350",
+                "identifier": "NWS-IDP-PROD-4005563-3399350",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T11:11:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T20:40:00-06:00",
+        "effective": "2020-01-12T20:40:00-06:00",
+        "onset": "2020-01-13T01:30:00-06:00",
+        "expires": "2020-01-14T00:39:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 12 at 8:40PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Missouri...Kentucky...\n\nMississippi River at Cape Girardeau...Thebes and New Madrid\n\n.Recent heavy rainfall over the mid Mississippi River basin has caused\nriver levels to rise. Minor flooding is occurring at Cape Girardeau and\nThebes, and moderate flooding is forecast to develop early this week.\nCrests are expected to occur on Wednesday. At New Madrid, minor flooding\nis forecast to develop by Monday morning.\n\nThe Flood Warning continues for\nthe Mississippi River at New Madrid\n* from late tonight until further notice.\n* At  8:00 PM Sunday the stage was 33.4 feet.\n* Flood Stage is 34.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by after midnight tomorrow and\ncontinue to rise to near 38.0 feet by Saturday evening.\n* Impact...At 38.0 Feet...Heavy agricultural damage begins.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0013.200113T0730Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
