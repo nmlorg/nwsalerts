@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007569-3401002",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.25,
+                    33.13
+                ],
+                [
+                    -83.17,
+                    33.14
+                ],
+                [
+                    -83.17,
+                    33.08
+                ],
+                [
+                    -83.13,
+                    33.019999999999996
+                ],
+                [
+                    -83.16,
+                    32.97
+                ],
+                [
+                    -83.24,
+                    33.04
+                ],
+                [
+                    -83.25,
+                    33.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007569-3401002",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007569-3401002",
+        "areaDesc": "Washington, GA; Baldwin, GA; Wilkinson, GA",
+        "geocode": {
+            "UGC": [
+                "GAC303",
+                "GAC009",
+                "GAC319"
+            ],
+            "SAME": [
+                "013303",
+                "013009",
+                "013319"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC303",
+            "https://api.weather.gov/zones/county/GAC009",
+            "https://api.weather.gov/zones/county/GAC319"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007428-3400894",
+                "identifier": "NWS-IDP-PROD-4007428-3400894",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T10:29:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T11:37:00-05:00",
+        "effective": "2020-01-13T11:37:00-05:00",
+        "onset": "2020-01-13T11:41:00-05:00",
+        "expires": "2020-01-14T01:36:00-05:00",
+        "ends": "2020-01-14T09:04:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 13 at 11:37AM EST until January 14 at 9:04AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nOconee River near Milledgeville affecting Baldwin...Washington and\nWilkinson Counties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0013.200113T1641Z-200114T1404Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T09:04:00-05:00"
+            ]
+        }
+    }
+}

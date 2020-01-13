@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007571-3401004",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.98,
+                    41.37
+                ],
+                [
+                    -88.79,
+                    41.37
+                ],
+                [
+                    -88.79,
+                    41.3
+                ],
+                [
+                    -88.99000000000001,
+                    41.279999999999994
+                ],
+                [
+                    -88.98,
+                    41.37
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007571-3401004",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007571-3401004",
+        "areaDesc": "La Salle, IL",
+        "geocode": {
+            "UGC": [
+                "ILC099"
+            ],
+            "SAME": [
+                "017099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006420-3400086",
+                "identifier": "NWS-IDP-PROD-4006420-3400086",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T20:10:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T10:38:00-06:00",
+        "effective": "2020-01-13T10:38:00-06:00",
+        "onset": "2020-01-13T10:38:00-06:00",
+        "expires": "2020-01-14T00:00:00-06:00",
+        "ends": "2020-01-14T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 13 at 10:38AM CST until January 14 at 12:00AM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in\nIllinois...\n\nIllinois River at Ottawa affecting La Salle County\nIllinois River at La Salle affecting Bureau...La Salle and Putnam\nCounties\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Warning continues for\nThe Illinois River at Ottawa, or from Heritage Harbor east of Ottawa\ndownstream to Starved Rock Lock and Dam.\n* until late tonight.\n* At  930 AM Monday the stage was 463.5 feet.\n* Flood stage is 463.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nthis evening.\n* Impact...At 462.5 feet...Roadway entrance to Allen Park threatened\nin Ottawa. Allen Park west boat ramp inundated in Ottawa.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0014.000000T0000Z-200114T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T00:00:00-06:00"
+            ]
+        }
+    }
+}
