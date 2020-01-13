@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006465-3400109",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.62,
+                    34.94
+                ],
+                [
+                    -92.7,
+                    34.949999999999996
+                ],
+                [
+                    -92.84,
+                    34.919999999999995
+                ],
+                [
+                    -92.88000000000001,
+                    35.01
+                ],
+                [
+                    -92.74000000000001,
+                    35.03
+                ],
+                [
+                    -92.59,
+                    35.050000000000004
+                ],
+                [
+                    -92.62,
+                    34.94
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006465-3400109",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006465-3400109",
+        "areaDesc": "Perry, AR",
+        "geocode": {
+            "UGC": [
+                "ARC105"
+            ],
+            "SAME": [
+                "005105"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC105"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005746-3399483",
+                "identifier": "NWS-IDP-PROD-4005746-3399483",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T13:41:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T20:30:00-06:00",
+        "effective": "2020-01-12T20:30:00-06:00",
+        "onset": "2020-01-12T20:30:00-06:00",
+        "expires": "2020-01-13T11:29:00-06:00",
+        "ends": "2020-01-15T02:24:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Warning issued January 12 at 8:30PM CST until January 15 at 2:24AM CST by NWS Little Rock AR",
+        "description": "...From the National Weather Service in Little Rock...the Flood\nWarning continues for the following river in Arkansas...\n\nFourche Lafave River Near Houston affecting Perry County\n\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 24 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.\n\nThe Flood Warning continues for\nThe Fourche Lafave River Near Houston.\n* until late Tuesday night...Or until the warning is cancelled.\n* At  7:30 PM Sunday the stage was 26.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 25.0 feet.\n* Forecast...The river will continue rising to near 26.2 feet late Sunday night.\nThe river will fall below flood stage by Monday evening.\n* Impacts at 25.0 feet...Agricultural lands along the Arkansas River\nand up into the Fourche LaFave begin to flood. Equipment and\nlivestock should be moved to higher ground.\n\n\nFld     Observed        Forecast 6 AM        Crest\nLocation     Stg   Stg  Day Time   Mon   Tue   Wed  Crest Time  Date\n\nFourche Lafave River\nHouston     25  26.0 Sun 07 PM  25.9  24.3  23.1   26.2 12 AM 01/13",
+        "instruction": "Safety message...Remember to Turn Around...Don't Drown\nDo not drive cars through flooded areas.\n\nEveryone with property or other interest along streams and rivers\nshould remain alert to changing weather forecasts. Should conditions\nchange...Look for river forecasts or Flood Warnings for use in making\ninformed decisions to protect life and property.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLZK.FL.W.0004.000000T0000Z-200115T0824Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T02:24:00-06:00"
+            ]
+        }
+    }
+}
