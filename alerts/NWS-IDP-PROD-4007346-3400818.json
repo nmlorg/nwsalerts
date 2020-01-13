@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007346-3400818",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.9,
+                    30.61
+                ],
+                [
+                    -85.08000000000001,
+                    30.09
+                ],
+                [
+                    -84.9,
+                    29.8
+                ],
+                [
+                    -85.05000000000001,
+                    29.720000000000002
+                ],
+                [
+                    -85.20000000000002,
+                    30.070000000000004
+                ],
+                [
+                    -84.98000000000002,
+                    30.610000000000003
+                ],
+                [
+                    -84.9,
+                    30.61
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007346-3400818",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007346-3400818",
+        "areaDesc": "Liberty, FL; Gulf, FL; Calhoun, FL; Franklin, FL",
+        "geocode": {
+            "UGC": [
+                "FLC077",
+                "FLC045",
+                "FLC013",
+                "FLC037"
+            ],
+            "SAME": [
+                "012077",
+                "012045",
+                "012013",
+                "012037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC077",
+            "https://api.weather.gov/zones/county/FLC045",
+            "https://api.weather.gov/zones/county/FLC013",
+            "https://api.weather.gov/zones/county/FLC037"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006236-3399910",
+                "identifier": "NWS-IDP-PROD-4006236-3399910",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T20:17:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T10:04:00-05:00",
+        "effective": "2020-01-13T10:04:00-05:00",
+        "onset": "2020-01-13T10:04:00-05:00",
+        "expires": "2020-01-14T10:03:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Flood Warning issued January 13 at 10:04AM EST by NWS Tallahassee FL",
+        "description": "...The Flood Warning continues for the following rivers in Florida...\nApalachicola River near Blountstown affecting Calhoun...\nFranklin...Gulf and Liberty Counties\n\nThe Flood Warning continues for\nthe Apalachicola River near Blountstown.\n* Until further notice.\n* At  8:15 AM Monday the stage was 15.2 feet.\n* Minor flooding is forecast.\n* Flood stage is 17.0 feet.\n* Impact: At 18.0 feet: Forest Road 115 in Liberty County at River\nStyx Campground will flood, isolating access to the site.",
+        "instruction": "All persons with interest along the river should monitor the latest\nforecasts, and be prepared to take necessary precautions to protect\nlife and property. Do not drive cars through flooded areas. If you\nsee flood waters: Turn around. Don't drown.\n\nFor graphical hydrologic information, please go to weather.gov and\nclick on your state. Select Rivers and Lakes AHPS under current\nconditions and click on your river point.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KTAE.FL.W.0001.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAEFLSTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
