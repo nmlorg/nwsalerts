@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007620-3401048",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.99,
+                    41.86
+                ],
+                [
+                    -83.77,
+                    41.9099999
+                ],
+                [
+                    -83.77,
+                    41.84
+                ],
+                [
+                    -83.92999999999999,
+                    41.790000000000006
+                ],
+                [
+                    -83.99,
+                    41.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007620-3401048",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007620-3401048",
+        "areaDesc": "Lenawee, MI; Monroe, MI",
+        "geocode": {
+            "UGC": [
+                "MIC091",
+                "MIC115"
+            ],
+            "SAME": [
+                "026091",
+                "026115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC091",
+            "https://api.weather.gov/zones/county/MIC115"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006968-3400502",
+                "identifier": "NWS-IDP-PROD-4006968-3400502",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T04:57:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T12:12:00-05:00",
+        "effective": "2020-01-13T12:12:00-05:00",
+        "onset": "2020-01-13T12:12:00-05:00",
+        "expires": "2020-01-14T02:12:00-05:00",
+        "ends": "2020-01-15T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 13 at 12:12PM EST until January 15 at 1:00AM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nCass River...Huron River...River Raisin...Saginaw River\n\n.Light precipitation is possible this week but not significant\nenough to effect the rivers.\n\nA flood warning continues for\nRiver Raisin at Blissfield.\n* From now until further notice.\n* At 9 AM Monday the stage is 683.3 feet and rising.\n* Flood stage is 683.0 feet.\n* Minor flooding is occurring.\n* Forecast...the river is nearing crest and should begin\nfalling and go below flood stage tomorrow evening.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KDTX.FL.W.0006.000000T0000Z-200115T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T01:00:00-05:00"
+            ]
+        }
+    }
+}
