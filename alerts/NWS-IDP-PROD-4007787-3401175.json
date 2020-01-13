@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007787-3401175",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.06,
+                    34.04
+                ],
+                [
+                    -81,
+                    33.96
+                ],
+                [
+                    -81.06,
+                    33.94
+                ],
+                [
+                    -81.11,
+                    34.01
+                ],
+                [
+                    -81.06,
+                    34.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007787-3401175",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007787-3401175",
+        "areaDesc": "Richland, SC; Lexington, SC",
+        "geocode": {
+            "UGC": [
+                "SCC079",
+                "SCC063"
+            ],
+            "SAME": [
+                "045079",
+                "045063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC079",
+            "https://api.weather.gov/zones/county/SCC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007631-3401059",
+                "identifier": "NWS-IDP-PROD-4007631-3401059",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T12:18:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T14:27:00-05:00",
+        "effective": "2020-01-13T14:27:00-05:00",
+        "onset": "2020-01-13T14:27:00-05:00",
+        "expires": "2020-01-14T14:27:00-05:00",
+        "ends": "2020-01-15T12:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Advisory issued January 13 at 2:27PM EST until January 15 at 12:15PM EST by NWS Columbia SC",
+        "description": "...The Flood Advisory continues for the Congaree River...\n\nCongaree River At Columbia affecting Lexington and Richland\nCounties\n\n.Heavy rainfall over the past 2 days combined with upstream\nreservoir releases will cause nuisance and minor flooding along\nportions of the Congaree River in and around Columbia. Additional\nrainfall amounts of up to 1 inch are expected over the next couple\nof days. Heavier rainfall amounts of up to 2 inches are expected\nin the Upstate and upper portion of the Saluda and Broad River\nbasins. This will produce high flows along the Congaree River at\nColumbia for the next several days.\n\nThe Flood Advisory continues for\nThe Congaree River At Columbia.\n* until Wednesday afternoon.\n* At  2 PM Monday the stage was 8.1 feet.\n* Flood stage is 19.0 feet.\n* Forecast...The river will rise to crest at 13.6 feet after midnight\nWednesday morning.\n* Advisory stage is 10.0 feet.\n* At 14.0 feet...Roads in low lying areas and swampland downstream\nfrom Columbia become flooded. Most of the Cayce and West Columbia\nriver walk is flooded.\n* At 13.0 feet...Flooding occurs in flood prone areas near and\ndownstream from Columbia. Flooding also occurs over much of the\nCayce and West Columbia river walk.\n* At 10.0 feet...Flooding occurs in flood prone areas near and\ndownstream from Columbia. Flooding also occurs on parts of the\nCayce and West Columbia river walk.",
+        "instruction": "A Flood Advisory means that nuisance flooding may occur nearest the\nriver when the level is below the official flood stage.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCAE.FL.Y.0004.000000T0000Z-200115T1715Z/"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T12:15:00-05:00"
+            ]
+        }
+    }
+}
