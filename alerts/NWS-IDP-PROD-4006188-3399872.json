@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006188-3399872",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.89,
+                    38.42
+                ],
+                [
+                    -91.64,
+                    38.6599999
+                ],
+                [
+                    -91.5,
+                    38.6599999
+                ],
+                [
+                    -91.8,
+                    38.14
+                ],
+                [
+                    -91.9599999,
+                    38.14
+                ],
+                [
+                    -91.89,
+                    38.42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006188-3399872",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006188-3399872",
+        "areaDesc": "Osage, MO",
+        "geocode": {
+            "UGC": [
+                "MOC151"
+            ],
+            "SAME": [
+                "029151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC151"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005447-3399255",
+                "identifier": "NWS-IDP-PROD-4005447-3399255",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T10:08:00-06:00"
+            }
+        ],
+        "sent": "2020-01-12T18:44:00-06:00",
+        "effective": "2020-01-12T18:44:00-06:00",
+        "onset": "2020-01-13T08:00:00-06:00",
+        "expires": "2020-01-13T18:43:00-06:00",
+        "ends": "2020-01-16T03:47:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 12 at 6:44PM CST until January 16 at 3:47AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following river in\nMissouri...\n\nGasconade River near Rich Fountain\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Gasconade River near Rich Fountain\n* from Monday morning to late Wednesday night.\n* At  5:30 PM Sunday the stage was 16.7 feet.\n* Flood stage is 20.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to rise above flood stage by tomorrow morning\nand to crest near 22.9 feet by Tuesday morning. The river is\nforecast to fall below flood stage by Tuesday before midnight.\n* Impact:  At 22.5 feet...Near this height, Missouri State Route K\nwest of Bay will be closed in both directions due to backwater\nalong Second Creek.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0030.200113T1400Z-200116T0947Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T03:47:00-06:00"
+            ]
+        }
+    }
+}
