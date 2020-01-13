@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007164-3400678",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -72.26,
+                    44.9
+                ],
+                [
+                    -72.17,
+                    44.9
+                ],
+                [
+                    -72.16,
+                    44.83
+                ],
+                [
+                    -72.0699999,
+                    44.78
+                ],
+                [
+                    -72.24,
+                    44.76
+                ],
+                [
+                    -72.26,
+                    44.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007164-3400678",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007164-3400678",
+        "areaDesc": "Orleans, VT",
+        "geocode": {
+            "UGC": [
+                "VTC019"
+            ],
+            "SAME": [
+                "050019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VTC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006149-3399837",
+                "identifier": "NWS-IDP-PROD-4006149-3399837",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T18:56:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T07:46:00-05:00",
+        "effective": "2020-01-13T07:46:00-05:00",
+        "onset": "2020-01-13T07:46:00-05:00",
+        "expires": "2020-01-13T21:03:00-05:00",
+        "ends": "2020-01-13T21:03:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Burlington VT",
+        "headline": "Flood Warning issued January 13 at 7:46AM EST until January 13 at 9:03PM EST by NWS Burlington VT",
+        "description": "...The Flood Warning continues for the following rivers in Vermont...\n\nBarton River Near Coventry\n\nThe Flood Warning continues for\nThe Barton River Near Coventry.\n* At  7:30 AM Monday the stage was 8.6 feet.\n* Flood stage is 8.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will eventually fall below flood stage later\nthis afternoon.\n* Impact...At 8.0 feet...Maple Street and River Road between Orleans\nand Coventry Station will flood. There will be extensive field and\nlowland flooding.",
+        "instruction": "Safety message...\n\nIf you live or travel near streams and rivers seek higher ground\nimmediately at first signs of rising water. Obey all road closure\nsigns, they are there for your safety. Do not attempt to drive\nthrough flooded areas, most flood deaths occur in automobiles. Turn\naround, don't drown!\n\nStay tuned to developments by listening to noaa weather radio, or by\nvisiting our web site at: weather.gov.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBTV.FL.W.0003.000000T0000Z-200114T0203Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BTVFLSBTV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T21:03:00-05:00"
+            ]
+        }
+    }
+}
