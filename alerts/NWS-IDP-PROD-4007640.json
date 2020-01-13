@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007640",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.85,
+                    34.32
+                ],
+                [
+                    -78.63,
+                    34.12
+                ],
+                [
+                    -78.91,
+                    33.96
+                ],
+                [
+                    -79.0699999,
+                    33.96
+                ],
+                [
+                    -79.16,
+                    34.04
+                ],
+                [
+                    -78.85,
+                    34.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007640",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007640",
+        "areaDesc": "Northern Horry; Columbus",
+        "geocode": {
+            "UGC": [
+                "SCZ059",
+                "NCZ099"
+            ],
+            "SAME": [
+                "045051",
+                "037047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/SCZ059",
+            "https://api.weather.gov/zones/forecast/NCZ099"
+        ],
+        "references": [],
+        "sent": "2020-01-13T12:23:00-05:00",
+        "effective": "2020-01-13T12:23:00-05:00",
+        "onset": "2020-01-13T12:23:00-05:00",
+        "expires": "2020-01-13T13:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Special Weather Statement issued January 13 at 12:23PM EST by NWS Wilmington NC",
+        "description": "At 1222 PM EST, Doppler radar was tracking a strong thunderstorm over\nBayboro, or 13 miles north of Conway, moving northeast at 30 mph.\n\nWinds in excess of 40 mph will be possible with this storm. Funnel\ncloud sightings are also possible as the storm has some weak\nrotation.\n\nLocations impacted include...\nTabor City, Loris, Bethel, Nakina, Mollie, Sidney, Clarendon,\nWilliams, Goretown, Bayboro, Allsbrook, Green Sea and Loris Community\nHospital.",
+        "instruction": "Thunderstorms can pose a variety of threats including gusty winds,\nsmall hail, cloud to ground lightning, and localized flooding. It is\nrecommended that you remain indoors until the storm passes.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-13T12:22:00.000-05:00...storm...228DEG...25KT...34.02,-79.02"
+            ],
+            "NWSheadline": [
+                "SPECIAL WEATHER STATEMENT FOR SOUTHWESTERN COLUMBUS AND NORTHWESTERN HORRY COUNTIES UNTIL 115 PM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMSPSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
