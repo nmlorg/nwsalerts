@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007722-3401137",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.25,
+                    33.13
+                ],
+                [
+                    -83.17,
+                    33.14
+                ],
+                [
+                    -83.17,
+                    33.08
+                ],
+                [
+                    -83.13,
+                    33.019999999999996
+                ],
+                [
+                    -83.16,
+                    32.97
+                ],
+                [
+                    -83.24,
+                    33.04
+                ],
+                [
+                    -83.25,
+                    33.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007722-3401137",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007722-3401137",
+        "areaDesc": "Washington, GA; Baldwin, GA; Wilkinson, GA",
+        "geocode": {
+            "UGC": [
+                "GAC303",
+                "GAC009",
+                "GAC319"
+            ],
+            "SAME": [
+                "013303",
+                "013009",
+                "013319"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC303",
+            "https://api.weather.gov/zones/county/GAC009",
+            "https://api.weather.gov/zones/county/GAC319"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007569-3401002",
+                "identifier": "NWS-IDP-PROD-4007569-3401002",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T11:37:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T13:18:00-05:00",
+        "effective": "2020-01-13T13:18:00-05:00",
+        "onset": "2020-01-13T13:18:00-05:00",
+        "expires": "2020-01-14T03:17:00-05:00",
+        "ends": "2020-01-14T09:04:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 13 at 1:18PM EST until January 14 at 9:04AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nOconee River near Milledgeville affecting Baldwin...Washington and\nWilkinson Counties\n\nThe Flood Warning continues for\nThe Oconee River near Milledgeville.\n* Until Tuesday morning.\n* At 1 PM Monday the stage was 22.2 feet...and rising quickly.\n* Minor flooding will continue.\n* Flood stage is 22 feet.\n* Forecast to rise to near 28.2 feet by this afternoon. The river will\nfall below flood stage by early Tuesday.\n* At 27 feet...Minor flooding continues in the woodlands and\npasture upstream and downstream from the gage located around one\nhalf mile upstream from the Georgia Highway 22 and 24 bridge. The\nparking lot and the Oconee River Greenway Park just downstream from\nthe bridge will be completely flooded with water several feet deep.\nSinclair Dam will have three to four gates open to reach this\nheight.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0013.000000T0000Z-200114T1404Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T09:04:00-05:00"
+            ]
+        }
+    }
+}
