@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007005-3400533",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.89,
+                    36
+                ],
+                [
+                    -87.83,
+                    36
+                ],
+                [
+                    -87.74,
+                    35.79
+                ],
+                [
+                    -87.78,
+                    35.6599999
+                ],
+                [
+                    -87.85,
+                    35.6599999
+                ],
+                [
+                    -87.8199999,
+                    35.79
+                ],
+                [
+                    -87.89,
+                    36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007005-3400533",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007005-3400533",
+        "areaDesc": "Perry, TN",
+        "geocode": {
+            "UGC": [
+                "TNC135"
+            ],
+            "SAME": [
+                "047135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC135"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006264-3399931",
+                "identifier": "NWS-IDP-PROD-4006264-3399931",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T19:27:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T04:24:00-06:00",
+        "effective": "2020-01-13T04:24:00-06:00",
+        "onset": "2020-01-13T04:24:00-06:00",
+        "expires": "2020-01-13T16:23:00-06:00",
+        "ends": "2020-01-15T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued January 13 at 4:24AM CST until January 15 at 12:00PM CST by NWS Nashville TN",
+        "description": "...The flood advisory continues for the Buffalo River...\n\nBuffalo River Near Lobelville affecting Perry County\n\n. Area waterways continued to run higher than normal after the recent rainfall.\nLook for the Buffalo River near Lobelville to remain above Action stage for a couple\nmore days.\n\nThe Flood Advisory continues for\nThe Buffalo River Near Lobelville\n* Until Wednesday afternoon.\n* At 3AM Monday the stage was 13.6 feet.\n* Flood stage is 14.0 feet.\n* The river will rise to near 13.8 feet this morning.\n* The river will continue to fall to near 12.4 feet by tomorrow morning.\n* At 14.0 feet...Gilmer Bridge Rd and Russell Creek Rd begin to flood. Leeper\nBottom and Qualls Bend Rd become flooded as well. Water approaches portions of\nHighway 438 south of Lobelville near Beardstown.\n* At 12.0 feet...Portions of secondary roads near Old Highway 13 are inundated.\n* At 10.0 feet...Water inundates low lying areas and agricultural land along the\nriver.",
+        "instruction": "Stay tuned to noaa weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0018.000000T0000Z-200115T1800Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T12:00:00-06:00"
+            ]
+        }
+    }
+}
