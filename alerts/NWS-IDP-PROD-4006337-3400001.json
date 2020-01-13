@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006337-3400001",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.7,
+                    43.36
+                ],
+                [
+                    -83.7,
+                    43.28
+                ],
+                [
+                    -83.91,
+                    43.38
+                ],
+                [
+                    -83.89999999999999,
+                    43.42
+                ],
+                [
+                    -83.7,
+                    43.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006337-3400001",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4006337-3400001",
+        "areaDesc": "Saginaw, MI",
+        "geocode": {
+            "UGC": [
+                "MIC145"
+            ],
+            "SAME": [
+                "026145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4005344-3399180",
+                "identifier": "NWS-IDP-PROD-4005344-3399180",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T10:27:00-05:00"
+            }
+        ],
+        "sent": "2020-01-12T20:41:00-05:00",
+        "effective": "2020-01-12T20:41:00-05:00",
+        "onset": "2020-01-12T20:41:00-05:00",
+        "expires": "2020-01-13T10:40:00-05:00",
+        "ends": "2020-01-14T20:12:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 12 at 8:41PM EST until January 14 at 8:12PM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nCass River...Huron River...North Branch Clinton...River Raisin...\nRouge River...Saginaw River\n\n.Widespread rainfall of 2 to 3 inches has caused significant\nrunoff into the rivers.  Some of the precipitation toward the\nend of the storm fell in a frozen state cutting back on some\nof the anticipated runoff resulting in the lowering of flood\ncrest on some rivers.\n\nA flood warning continues for\nCass River from Frankenmuth downstream to Bridgeport.\n* From now until further notice.\n* At 8 PM Sunday the stage is 19.0 feet and rising.\n* Flood stage is 17.0 feet.\n* Minor flooding is occurring.\n* Forecast...the river is forecast to crest near 19.2\nfeet overnight and should begin falling and go below\nflood stage Tuesday afternoon.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KDTX.FL.W.0016.000000T0000Z-200115T0112Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T20:12:00-05:00"
+            ]
+        }
+    }
+}
