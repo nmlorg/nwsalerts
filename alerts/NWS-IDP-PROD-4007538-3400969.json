@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007538-3400969",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.33,
+                    38.9099999
+                ],
+                [
+                    -90.17999999999999,
+                    38.86
+                ],
+                [
+                    -90.16999999999999,
+                    38.81
+                ],
+                [
+                    -90.71999999999998,
+                    38.59
+                ],
+                [
+                    -90.77999999999999,
+                    38.650000000000006
+                ],
+                [
+                    -90.33,
+                    38.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007538-3400969",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007538-3400969",
+        "areaDesc": "St. Charles, MO; St. Louis, MO",
+        "geocode": {
+            "UGC": [
+                "MOC183",
+                "MOC189"
+            ],
+            "SAME": [
+                "029183",
+                "029189"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC183",
+            "https://api.weather.gov/zones/county/MOC189"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006449-3400101",
+                "identifier": "NWS-IDP-PROD-4006449-3400101",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T20:14:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T10:14:00-06:00",
+        "effective": "2020-01-13T10:14:00-06:00",
+        "onset": "2020-01-13T10:14:00-06:00",
+        "expires": "2020-01-14T16:13:00-06:00",
+        "ends": "2020-01-15T07:12:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 13 at 10:14AM CST until January 15 at 7:12AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\n\nMissouri River near Chamois\n\nMissouri River at Hermann\n\nMissouri River at St. Charles\n\nMissouri River at Gasconade\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Missouri River at St. Charles\n* until Wednesday morning.\n* At 10:00 AM Monday the stage was 26.4 feet.\n* Flood stage is 25.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to continue falling to below flood stage by\nafter midnight tonight.\n* Impact:  At 25.0 feet...The right bank downstream overflows,\nflooding agricultural bottomland.  Near this stage, Missouri Route\nH at Island Road will be closed in both directions.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0025.000000T0000Z-200115T1312Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T07:12:00-06:00"
+            ]
+        }
+    }
+}
