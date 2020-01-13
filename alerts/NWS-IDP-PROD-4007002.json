@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007002",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.53,
+                    36.33
+                ],
+                [
+                    -79.16,
+                    36.54
+                ],
+                [
+                    -79.14,
+                    36.54
+                ],
+                [
+                    -79.14,
+                    36.53
+                ],
+                [
+                    -79.15,
+                    36.36
+                ],
+                [
+                    -79.48,
+                    36.25
+                ],
+                [
+                    -79.53,
+                    36.25
+                ],
+                [
+                    -79.53,
+                    36.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007002",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007002",
+        "areaDesc": "Caswell",
+        "geocode": {
+            "UGC": [
+                "NCZ006"
+            ],
+            "SAME": [
+                "037033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NCZ006"
+        ],
+        "references": [],
+        "sent": "2020-01-13T05:17:00-05:00",
+        "effective": "2020-01-13T05:17:00-05:00",
+        "onset": "2020-01-13T05:17:00-05:00",
+        "expires": "2020-01-13T05:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Blacksburg VA",
+        "headline": "Special Weather Statement issued January 13 at 5:17AM EST by NWS Blacksburg VA",
+        "description": "At 516 AM EST, a strong thunderstorm was located over Camp Springs,\nmoving northeast at 50 mph.\n\nWinds in excess of 40 mph and locally heavy rain are possible with\nthis storm.\n\nLocations impacted include...\nYanceyville...\nCamp Springs...\nJericho...\nLeasburg...\nHamer...\nSemora...\nand Topnot.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-13T05:16:00.000-05:00...storm...240DEG...45KT...36.32,-79.46"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT CENTRAL CASWELL COUNTY"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RNKSPSRNK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
