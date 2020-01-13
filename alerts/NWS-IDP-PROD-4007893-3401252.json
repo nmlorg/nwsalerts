@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007893-3401252",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.44,
+                    33.3
+                ],
+                [
+                    -84.37,
+                    33.3
+                ],
+                [
+                    -84.45,
+                    33.18
+                ],
+                [
+                    -84.47,
+                    33.1599999
+                ],
+                [
+                    -84.47,
+                    33.1599999
+                ],
+                [
+                    -84.5,
+                    33.220000000000006
+                ],
+                [
+                    -84.44,
+                    33.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007893-3401252",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007893-3401252",
+        "areaDesc": "Fayette, GA; Spalding, GA",
+        "geocode": {
+            "UGC": [
+                "GAC113",
+                "GAC255"
+            ],
+            "SAME": [
+                "013113",
+                "013255"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC113",
+            "https://api.weather.gov/zones/county/GAC255"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007457-3400901",
+                "identifier": "NWS-IDP-PROD-4007457-3400901",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T10:36:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T15:29:00-05:00",
+        "effective": "2020-01-13T15:29:00-05:00",
+        "onset": "2020-01-13T16:06:00-05:00",
+        "expires": "2020-01-14T05:29:00-05:00",
+        "ends": "2020-01-15T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 13 at 3:29PM EST until January 15 at 1:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nFlint River near Griffin Hwy. 16 affecting Fayette and Spalding\nCounties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nLittle River near Washington affecting Taliaferro and Wilkes\nCounties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0014.200113T2106Z-200115T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T01:00:00-05:00"
+            ]
+        }
+    }
+}
