@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007616-3401044",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.43,
+                    38.26
+                ],
+                [
+                    -90.30000000000001,
+                    38.26
+                ],
+                [
+                    -89.35000000000001,
+                    37.69
+                ],
+                [
+                    -89.59,
+                    37.69
+                ],
+                [
+                    -90.03,
+                    37.87
+                ],
+                [
+                    -90.43,
+                    38.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007616-3401044",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007616-3401044",
+        "areaDesc": "Randolph, IL; Jackson, IL; Ste. Genevieve, MO; Perry, MO",
+        "geocode": {
+            "UGC": [
+                "ILC157",
+                "ILC077",
+                "MOC186",
+                "MOC157"
+            ],
+            "SAME": [
+                "017157",
+                "017077",
+                "029186",
+                "029157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC157",
+            "https://api.weather.gov/zones/county/ILC077",
+            "https://api.weather.gov/zones/county/MOC186",
+            "https://api.weather.gov/zones/county/MOC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006474-3400118",
+                "identifier": "NWS-IDP-PROD-4006474-3400118",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T20:36:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T11:05:00-06:00",
+        "effective": "2020-01-13T11:05:00-06:00",
+        "onset": "2020-01-13T11:05:00-06:00",
+        "expires": "2020-01-14T17:05:00-06:00",
+        "ends": "2020-01-19T06:51:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 13 at 11:05AM CST until January 19 at 6:51AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Missouri...\n\n\nMississippi River at Grafton\n\nMississippi River at Mel Price LD\n\nMississippi River at St. Louis\n\nMississippi River at Chester\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Mississippi River at Chester\n* until Sunday morning.\n* At 10:30 AM Monday the stage was 32.0 feet.\n* Flood stage is 27.0 feet.\n* Moderate flooding is forecast.\n* The river is forecast to crest near 35.0 feet by early Wednesday\nmorning, then fall below flood stage early Saturday morning.\n* Impact:  At 35.0 feet...Ste. Genevieve flood gates are closed at\nthis level.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0005.000000T0000Z-200119T1251Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T06:51:00-06:00"
+            ]
+        }
+    }
+}

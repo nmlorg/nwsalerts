@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007617-3401045",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.33,
+                    38.9099999
+                ],
+                [
+                    -90.28,
+                    38.95
+                ],
+                [
+                    -90.03,
+                    38.830000000000005
+                ],
+                [
+                    -90.17,
+                    38.81
+                ],
+                [
+                    -90.17,
+                    38.86
+                ],
+                [
+                    -90.33,
+                    38.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007617-3401045",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4007617-3401045",
+        "areaDesc": "Madison, IL; St. Charles, MO",
+        "geocode": {
+            "UGC": [
+                "ILC119",
+                "MOC183"
+            ],
+            "SAME": [
+                "017119",
+                "029183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC119",
+            "https://api.weather.gov/zones/county/MOC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006472-3400116",
+                "identifier": "NWS-IDP-PROD-4006472-3400116",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-12T20:36:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T11:05:00-06:00",
+        "effective": "2020-01-13T11:05:00-06:00",
+        "onset": "2020-01-13T11:05:00-06:00",
+        "expires": "2020-01-14T17:05:00-06:00",
+        "ends": "2020-01-16T02:34:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 13 at 11:05AM CST until January 16 at 2:34AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Missouri...\n\n\nMississippi River at Grafton\n\nMississippi River at Mel Price LD\n\nMississippi River at St. Louis\n\nMississippi River at Chester\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Mississippi River at Mel Price LD\n* until late Wednesday night.\n* At 10:30 AM Monday the stage was 23.0 feet.\n* Flood stage is 21.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to continue falling to below flood stage by\ntomorrow evening.\n* Impact:  At 23.0 feet...Dresser Island Drive floods within a foot of\nthis level.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0027.000000T0000Z-200116T0834Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T02:34:00-06:00"
+            ]
+        }
+    }
+}
