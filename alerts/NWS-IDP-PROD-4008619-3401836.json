@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008619-3401836",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.5699999,
+                    35.38
+                ],
+                [
+                    -82.5699999,
+                    35.4099999
+                ],
+                [
+                    -82.62,
+                    35.5
+                ],
+                [
+                    -82.54,
+                    35.5
+                ],
+                [
+                    -82.5,
+                    35.4
+                ],
+                [
+                    -82.5,
+                    35.37
+                ],
+                [
+                    -82.5699999,
+                    35.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008619-3401836",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008619-3401836",
+        "areaDesc": "Henderson, NC; Buncombe, NC",
+        "geocode": {
+            "UGC": [
+                "NCC089",
+                "NCC021"
+            ],
+            "SAME": [
+                "037089",
+                "037021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC089",
+            "https://api.weather.gov/zones/county/NCC021"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007535-3400965",
+                "identifier": "NWS-IDP-PROD-4007535-3400965",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T11:12:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T22:19:00-05:00",
+        "effective": "2020-01-13T22:19:00-05:00",
+        "onset": "2020-01-13T22:19:00-05:00",
+        "expires": "2020-01-14T11:02:00-05:00",
+        "ends": "2020-01-14T11:02:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Flood Advisory issued January 13 at 10:19PM EST until January 14 at 11:02AM EST by NWS Greenville-Spartanburg SC",
+        "description": "...The Flood Advisory continues for the French Broad River...\n\n\nFrench Broad River Near Fletcher affecting Buncombe and Henderson\nCounties\n\nHeavy rain moving across the area has saturated the ground and caused\nriver levels to rise. Additional rainfall will likely cause the river\nto crest just below flood stage.\n\nThe Flood Advisory is extended for\nthe French Broad River Near Fletcher\n* until Tuesday evening.\n* At 9 PM Monday the stage was 10.4 feet.\n* Action Stage is 10.0 feet.\n* Minor Flood Stage is 13.0 feet.\n* FORECAST: The river will continue to fall.",
+        "instruction": "A Flood Advisory for a river forecast point means that nuisance\nflooding is expected to occur along the river when the river level is\nforecast to be just below or at the official  flood stage.\n\nCaution is urged when walking near river banks...keep children away\nfrom drainage areas and culverts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGSP.FL.Y.0004.000000T0000Z-200114T1602Z/"
+            ],
+            "PIL": [
+                "GSPFLSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T11:02:00-05:00"
+            ]
+        }
+    }
+}

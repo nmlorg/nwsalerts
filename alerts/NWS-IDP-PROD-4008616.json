@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008616",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.27,
+                    33.31
+                ],
+                [
+                    -84.67,
+                    33.45
+                ],
+                [
+                    -84.5,
+                    33.21
+                ],
+                [
+                    -84.52,
+                    33.11
+                ],
+                [
+                    -85.17999999999999,
+                    32.87
+                ],
+                [
+                    -85.27,
+                    33.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008616",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008616",
+        "areaDesc": "Meriwether; Heard; Troup; Coweta",
+        "geocode": {
+            "UGC": [
+                "GAZ067",
+                "GAZ052",
+                "GAZ066",
+                "GAZ053"
+            ],
+            "SAME": [
+                "013199",
+                "013149",
+                "013285",
+                "013077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/GAZ067",
+            "https://api.weather.gov/zones/forecast/GAZ052",
+            "https://api.weather.gov/zones/forecast/GAZ066",
+            "https://api.weather.gov/zones/forecast/GAZ053"
+        ],
+        "references": [],
+        "sent": "2020-01-13T22:18:00-05:00",
+        "effective": "2020-01-13T22:18:00-05:00",
+        "onset": "2020-01-13T22:18:00-05:00",
+        "expires": "2020-01-13T23:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Special Weather Statement issued January 13 at 10:18PM EST by NWS Peachtree City GA",
+        "description": "At 1018 PM EST...a strong thunderstorm was near Harrisonville, or\nnear Franklin...moving northeast at 25 mph.\n\nHAZARD...Heavy rain.\n\nIMPACT...Heavy rain may cause temporary street flooding especially\nin poor drainage areas.\n\nSome locations in the path of this storm include\nNewnan, LaGrange, Franklin, Greenville, West Point, Senoia,\nHogansville, Grantville, Luthersville, Moreland, Sharpsburg, Turin,\nHaralson, Lone Oak, Gay, East Newnan, Corinth, Mountville,\nCannonville and Louise.",
+        "instruction": "Motorists should slow down and be prepared for possible loss of\ncontrol due to hydroplaning.\n\nLAT...LON 3331 8527 3345 8467 3321 8450 3311 8452\n3287 8518\nTIME...MOT...LOC 0318Z 247DEG 20KT 3319 8505",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-13T22:18:00.000-05:00...storm...247DEG...20KT...33.19,-85.05"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR COWETA...TROUP...HEARD AND NORTHERN MERIWETHER COUNTIES UNTIL 1100 PM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCSPSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
