@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008497-3401740",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008497-3401740",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008497-3401740",
+        "areaDesc": "Northern Sangre de Cristo Mountains; Southern Sangre de Cristo Mountains; East Slopes Sangre de Cristo Mountains; Central Highlands; South Central Mountains",
+        "geocode": {
+            "UGC": [
+                "NMZ213",
+                "NMZ214",
+                "NMZ215",
+                "NMZ223",
+                "NMZ226"
+            ],
+            "SAME": [
+                "035055",
+                "035007",
+                "035033",
+                "035047",
+                "035049",
+                "035039",
+                "035057",
+                "035027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NMZ213",
+            "https://api.weather.gov/zones/forecast/NMZ214",
+            "https://api.weather.gov/zones/forecast/NMZ215",
+            "https://api.weather.gov/zones/forecast/NMZ223",
+            "https://api.weather.gov/zones/forecast/NMZ226"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4006954-3400490",
+                "identifier": "NWS-IDP-PROD-4006954-3400490",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T02:42:00-07:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008219-3401512",
+                "identifier": "NWS-IDP-PROD-4008219-3401512",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T16:38:00-07:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007580-3401012",
+                "identifier": "NWS-IDP-PROD-4007580-3401012",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T09:45:00-07:00"
+            }
+        ],
+        "sent": "2020-01-13T19:34:00-07:00",
+        "effective": "2020-01-13T19:34:00-07:00",
+        "onset": "2020-01-13T19:34:00-07:00",
+        "expires": "2020-01-13T20:45:00-07:00",
+        "ends": "2020-01-13T20:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albuquerque NM",
+        "headline": "Wind Advisory issued January 13 at 7:34PM MST until January 13 at 8:00PM MST by NWS Albuquerque NM",
+        "description": "West winds are diminishing across most of the area this evening\ntherefore the Wind Advisory will be allowed to expire. Mountain\nwaves along the east slopes of the central mountain chain tonight\nwill allow periodic wind gusts up to 40 mph to continue through\nTuesday morning.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY WILL EXPIRE AT 8 PM MST THIS EVENING"
+            ],
+            "VTEC": [
+                "/O.EXP.KABQ.WI.Y.0003.000000T0000Z-200114T0300Z/"
+            ],
+            "PIL": [
+                "ABQNPWABQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-13T20:00:00-07:00"
+            ]
+        }
+    }
+}
