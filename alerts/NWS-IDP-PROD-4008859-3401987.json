@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008859-3401987",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.34,
+                    35.84
+                ],
+                [
+                    -87.39,
+                    36
+                ],
+                [
+                    -86.9,
+                    36.17
+                ],
+                [
+                    -86.84,
+                    36.07
+                ],
+                [
+                    -86.83,
+                    35.92
+                ],
+                [
+                    -87.34,
+                    35.84
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008859-3401987",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008859-3401987",
+        "areaDesc": "Dickson, TN; Hickman, TN; Davidson, TN; Cheatham, TN; Williamson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC043",
+                "TNC081",
+                "TNC037",
+                "TNC021",
+                "TNC187"
+            ],
+            "SAME": [
+                "047043",
+                "047081",
+                "047037",
+                "047021",
+                "047187"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC043",
+            "https://api.weather.gov/zones/county/TNC081",
+            "https://api.weather.gov/zones/county/TNC037",
+            "https://api.weather.gov/zones/county/TNC021",
+            "https://api.weather.gov/zones/county/TNC187"
+        ],
+        "references": [],
+        "sent": "2020-01-14T01:13:00-06:00",
+        "effective": "2020-01-14T01:13:00-06:00",
+        "onset": "2020-01-14T01:13:00-06:00",
+        "expires": "2020-01-14T01:45:00-06:00",
+        "ends": "2020-01-14T01:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued January 14 at 1:13AM CST until January 14 at 1:45AM CST by NWS Nashville TN",
+        "description": "The National Weather Service in Nashville has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Davidson County in Middle Tennessee...\nSoutheastern Dickson County in Middle Tennessee...\nNorthwestern Williamson County in Middle Tennessee...\nSouth central Cheatham County in Middle Tennessee...\nNortheastern Hickman County in Middle Tennessee...\n\n* Until 145 AM CST.\n\n* At 113 AM CST, a severe thunderstorm was located 8 miles south of\nBurns, or 11 miles southeast of Dickson, moving east at 55 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nFranklin, Forest Hills, Belle Meade, Kingston Springs, Pegram,\nFairview, Bellevue, Bon Aqua, Bells Bend, Leipers Fork, Lyles and\nNatchez Trace At Highway 96.\n\nThis includes the following highways...\nInterstate 40 between mile markers 173 and 202.\nInterstate 840 between mile markers 1 and 14.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-14T01:13:00.000-06:00...storm...247DEG...47KT...35.93,-87.28"
+            ],
+            "hailSize": [
+                0.75
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KOHX.SV.W.0027.200114T0713Z-200114T0745Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVROHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T01:45:00-06:00"
+            ]
+        }
+    }
+}

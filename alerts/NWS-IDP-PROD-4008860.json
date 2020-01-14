@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008860",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.45,
+                    36.26
+                ],
+                [
+                    -80.45,
+                    36.28
+                ],
+                [
+                    -80.12,
+                    36.54
+                ],
+                [
+                    -80.05000000000001,
+                    36.54
+                ],
+                [
+                    -80.05000000000001,
+                    36.6
+                ],
+                [
+                    -79.95000000000002,
+                    36.68
+                ],
+                [
+                    -79.63000000000002,
+                    36.43
+                ],
+                [
+                    -80.04000000000002,
+                    36.25
+                ],
+                [
+                    -80.45,
+                    36.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008860",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008860",
+        "areaDesc": "Rockingham; Stokes; Henry",
+        "geocode": {
+            "UGC": [
+                "NCZ005",
+                "NCZ004",
+                "VAZ043"
+            ],
+            "SAME": [
+                "037157",
+                "037169",
+                "051089",
+                "051690"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NCZ005",
+            "https://api.weather.gov/zones/forecast/NCZ004",
+            "https://api.weather.gov/zones/forecast/VAZ043"
+        ],
+        "references": [],
+        "sent": "2020-01-14T02:14:00-05:00",
+        "effective": "2020-01-14T02:14:00-05:00",
+        "onset": "2020-01-14T02:14:00-05:00",
+        "expires": "2020-01-14T03:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Blacksburg VA",
+        "headline": "Special Weather Statement issued January 14 at 2:14AM EST by NWS Blacksburg VA",
+        "description": "At 214 AM EST, a strong thunderstorm was located near Germanton, or 8\nmiles north of Winston-Salem, moving northeast at 45 mph.\n\nWinds in excess of 40 mph and heavy rainfall are possible with this\nstorm.\n\nLocations impacted include...\nEden...\nWentworth...\nMayodan...\nMadison...\nWalnut Cove...\nStoneville...\nand Danbury.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-14T02:14:00.000-05:00...storm...231DEG...41KT...36.23,-80.29"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT STOKES...NORTHWESTERN ROCKINGHAM AND SOUTHWESTERN HENRY COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RNKSPSRNK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
