@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009001-3402060",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81,
+                    33.96
+                ],
+                [
+                    -80.92,
+                    33.87
+                ],
+                [
+                    -80.97,
+                    33.79
+                ],
+                [
+                    -81.06,
+                    33.94
+                ],
+                [
+                    -81,
+                    33.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009001-3402060",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009001-3402060",
+        "areaDesc": "Richland, SC; Calhoun, SC; Lexington, SC",
+        "geocode": {
+            "UGC": [
+                "SCC079",
+                "SCC017",
+                "SCC063"
+            ],
+            "SAME": [
+                "045079",
+                "045017",
+                "045063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC079",
+            "https://api.weather.gov/zones/county/SCC017",
+            "https://api.weather.gov/zones/county/SCC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008292-3401572",
+                "identifier": "NWS-IDP-PROD-4008292-3401572",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T19:53:00-05:00"
+            }
+        ],
+        "sent": "2020-01-14T04:22:00-05:00",
+        "effective": "2020-01-14T04:22:00-05:00",
+        "onset": "2020-01-14T04:22:00-05:00",
+        "expires": "2020-01-15T04:21:00-05:00",
+        "ends": "2020-01-19T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued January 14 at 4:22AM EST until January 19 at 7:00AM EST by NWS Columbia SC",
+        "description": "...The River Flood Warnings continue for the Following Rivers\nin South Carolina...\n\nNorth Fork of Edisto River at Orangeburg affecting Orangeburg County\n\nCongaree River at Carolina Eastman affecting Calhoun...Lexington\nand Richland Counties\n\nCongaree River at Congaree National Park-Gadsden affecting Calhoun\nand Richland Counties\n\n\n.Heavy rainfall has resulted in flooding along parts of the\nCongaree River and North Fork of the Edisto River.\n\nThe Flood Warning continues for the Congaree River at Carolina Eastman.\n* Until Sunday morning...or until the warning is cancelled.\n* At 4 AM Tuesday the stage was 119.1 feet.\n* Flood stage is 115 feet.\n* Moderate flooding is occurring and moderate flooding is forecast.\n* Forecast...The river at Carolina Eastman will crest around\n121.0 feet Wednesday and Thursday.\n* At 119 feet...Extensive flooding occurs in the Congaree National\nPark. Some area farmland is flooded. Minor flooding occurs at the\nCarolina Eastman Facility.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCAE.FL.W.0005.000000T0000Z-200119T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T07:00:00-05:00"
+            ]
+        }
+    }
+}

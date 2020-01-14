@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009003-3402062",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.9,
+                    33.84
+                ],
+                [
+                    -80.83000000000001,
+                    33.800000000000004
+                ],
+                [
+                    -80.85000000000001,
+                    33.77
+                ],
+                [
+                    -80.91000000000001,
+                    33.800000000000004
+                ],
+                [
+                    -80.9,
+                    33.84
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009003-3402062",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009003-3402062",
+        "areaDesc": "Richland, SC; Calhoun, SC",
+        "geocode": {
+            "UGC": [
+                "SCC079",
+                "SCC017"
+            ],
+            "SAME": [
+                "045079",
+                "045017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC079",
+            "https://api.weather.gov/zones/county/SCC017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008294-3401574",
+                "identifier": "NWS-IDP-PROD-4008294-3401574",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T19:53:00-05:00"
+            }
+        ],
+        "sent": "2020-01-14T04:22:00-05:00",
+        "effective": "2020-01-14T04:22:00-05:00",
+        "onset": "2020-01-14T04:22:00-05:00",
+        "expires": "2020-01-15T04:21:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued January 14 at 4:22AM EST by NWS Columbia SC",
+        "description": "...The River Flood Warnings continue for the Following Rivers\nin South Carolina...\n\nNorth Fork of Edisto River at Orangeburg affecting Orangeburg County\n\nCongaree River at Carolina Eastman affecting Calhoun...Lexington\nand Richland Counties\n\nCongaree River at Congaree National Park-Gadsden affecting Calhoun\nand Richland Counties\n\n\n.Heavy rainfall has resulted in flooding along parts of the\nCongaree River and North Fork of the Edisto River.\n\nThe Flood Warning Continues for the Congaree River at\nCongaree National Park-Gadsden.\n* Until further notice.\n* At 4 AM Tuesday the stage was 16.2 feet.\n* Flood stage is 15 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* Forecast...The river at Congaree National Park-Gadsden will\ncrest around 17.4 feet Thursday and Friday.\n* At 18 feet...Several homes in the Sandy Run subdivision along the\nriver become flooded. At 18 feet the river covers the Weston Lake\noverlook in the Congaree National Park. Between 18 and 18.5 feet\nthe river begins to cover sections of the elevated boardwalk.\n* At 17 feet...The access road to the Sandy Run subdivision becomes\nflooded. The lower boardwalk in the Congaree National Park becomes\nflooded by Cedar Creek.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCAE.FL.W.0006.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
