@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009378-3402388",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.79,
+                    34.32
+                ],
+                [
+                    -79.73,
+                    34.29
+                ],
+                [
+                    -79.67,
+                    34.31
+                ],
+                [
+                    -79.63,
+                    34.2299999
+                ],
+                [
+                    -79.75,
+                    34.220000000000006
+                ],
+                [
+                    -79.84,
+                    34.28000000000001
+                ],
+                [
+                    -79.79,
+                    34.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009378-3402388",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009378-3402388",
+        "areaDesc": "Florence, SC; Darlington, SC",
+        "geocode": {
+            "UGC": [
+                "SCC041",
+                "SCC031"
+            ],
+            "SAME": [
+                "045041",
+                "045031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC041",
+            "https://api.weather.gov/zones/county/SCC031"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008451-3401703",
+                "identifier": "NWS-IDP-PROD-4008451-3401703",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T21:05:00-05:00"
+            }
+        ],
+        "sent": "2020-01-14T08:54:00-05:00",
+        "effective": "2020-01-14T08:54:00-05:00",
+        "onset": "2020-01-14T17:48:00-05:00",
+        "expires": "2020-01-15T00:53:00-05:00",
+        "ends": "2020-01-19T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued January 14 at 8:54AM EST until January 19 at 1:00PM EST by NWS Wilmington NC",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nGreat Pee Dee At Pee Dee affecting Marion and Florence Counties SC\nBlack Creek At Quinby affecting Darlington and Florence Counties SC\n\n...The Flood Warning continues for the following rivers...\n\nLumber Near Lumberton affecting Robeson County NC",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning now in effect until Sunday afternoon"
+            ],
+            "VTEC": [
+                "/O.EXT.KILM.FL.W.0005.200114T2248Z-200119T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T13:00:00-05:00"
+            ]
+        }
+    }
+}
