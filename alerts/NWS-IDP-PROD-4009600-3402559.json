@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009600-3402559",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.19,
+                    31.68
+                ],
+                [
+                    -90.19,
+                    31.78
+                ],
+                [
+                    -90.25,
+                    31.93
+                ],
+                [
+                    -90.12,
+                    31.98
+                ],
+                [
+                    -90.05000000000001,
+                    31.82
+                ],
+                [
+                    -90.05000000000001,
+                    31.69
+                ],
+                [
+                    -90.19,
+                    31.68
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009600-3402559",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009600-3402559",
+        "areaDesc": "Copiah, MS; Simpson, MS",
+        "geocode": {
+            "UGC": [
+                "MSC029",
+                "MSC127"
+            ],
+            "SAME": [
+                "028029",
+                "028127"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC029",
+            "https://api.weather.gov/zones/county/MSC127"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008389-3401651",
+                "identifier": "NWS-IDP-PROD-4008389-3401651",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T19:36:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T09:21:00-06:00",
+        "effective": "2020-01-14T09:21:00-06:00",
+        "onset": "2020-01-14T09:21:00-06:00",
+        "expires": "2020-01-15T15:21:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 14 at 9:21AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi..\n\nPearl River Near Rockport affecting Copiah and Simpson Counties\nPearl River Near Monticello affecting Lawrence County\nPearl River Near Columbia affecting Marion County\n\nThe Flood Warning continues for\nThe Pearl River Near Rockport\n* until further notice.\n* At  8:30 AM Tuesday the stage was 31.6 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 25.0 feet.\n* Forecast...The river remain nearly steady today. Higher rainfall\nthan forecast upstream could push the river a little higher.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0012.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
