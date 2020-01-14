@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008514-3401750",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.54,
+                    41.36
+                ],
+                [
+                    -83.34,
+                    41.4799999
+                ],
+                [
+                    -83.34,
+                    41.43
+                ],
+                [
+                    -83.49000000000001,
+                    41.35
+                ],
+                [
+                    -83.54,
+                    41.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008514-3401750",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008514-3401750",
+        "areaDesc": "Sandusky, OH; Wood, OH",
+        "geocode": {
+            "UGC": [
+                "OHC143",
+                "OHC173"
+            ],
+            "SAME": [
+                "039143",
+                "039173"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC143",
+            "https://api.weather.gov/zones/county/OHC173"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007804-3401196",
+                "identifier": "NWS-IDP-PROD-4007804-3401196",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T14:38:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T21:42:00-05:00",
+        "effective": "2020-01-13T21:42:00-05:00",
+        "onset": "2020-01-13T21:42:00-05:00",
+        "expires": "2020-01-14T05:42:00-05:00",
+        "ends": "2020-01-15T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cleveland OH",
+        "headline": "Flood Warning issued January 13 at 9:42PM EST until January 15 at 1:00AM EST by NWS Cleveland OH",
+        "description": "...The flood warning continues for the following rivers in Ohio...\n\nMaumee River At Waterville\n\n...The flood warning continues for the following rivers in Ohio...\n\nPortage River At Woodville\n\nThe flood warning continues for\nThe Portage River At Woodville.\n* Until late Tuesday night.\n* At  9:30 PM Monday the stage was...10.7 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 9.0 feet.\n* The river will fall to below flood stage by Tuesday evening.\n* At 11.0 feet...Water over State Route 105 in Sandusky County. Water\nnear homes on Water, Bierley, and Bridge Streets in Pemberville.\nThe river floods Trail Marker Park up to Erie Street in Woodville.",
+        "instruction": "Never drive your car through flooded roadways. The water may be\ndeeper than it appears. Turn around...don't drown!\n\nStay tuned to NOAA weather radio and other local media for further\ndetails and updates.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCLE.FL.W.0002.000000T0000Z-200115T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CLEFLSCLE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T01:00:00-05:00"
+            ]
+        }
+    }
+}
