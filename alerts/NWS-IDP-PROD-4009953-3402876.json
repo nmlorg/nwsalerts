@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009953-3402876",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.9599999,
+                    32.22
+                ],
+                [
+                    -89.9599999,
+                    32.5
+                ],
+                [
+                    -89.89,
+                    32.55
+                ],
+                [
+                    -89.37,
+                    32.55
+                ],
+                [
+                    -89.37,
+                    32.22
+                ],
+                [
+                    -89.9599999,
+                    32.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009953-3402876",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009953-3402876",
+        "areaDesc": "Scott, MS; Rankin, MS",
+        "geocode": {
+            "UGC": [
+                "MSC123",
+                "MSC121"
+            ],
+            "SAME": [
+                "028123",
+                "028121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC123",
+            "https://api.weather.gov/zones/county/MSC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009822-3402769",
+                "identifier": "NWS-IDP-PROD-4009822-3402769",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T11:28:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T13:13:00-06:00",
+        "effective": "2020-01-14T13:13:00-06:00",
+        "onset": "2020-01-14T13:13:00-06:00",
+        "expires": "2020-01-14T14:30:00-06:00",
+        "ends": "2020-01-14T14:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flash Flood Warning issued January 14 at 1:13PM CST until January 14 at 2:30PM CST by NWS Jackson MS",
+        "description": "At 112 PM CST, emergency management reported ongoing flash flooding\nin parts of northern Rankin county. Other areas across eastern\nRanking and portions of Scott counties may have flooding onging as\nwell.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Emergency management.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other drainage\nand low lying areas.\n\nSome locations that will experience flooding include...\nForest, Morton, Harperville, Pelahatchie, Homewood, Leesburg, Goshen\nSprings, Pulaski, Steele, Hillsboro, Forkville, Pisgah, Branch and\nFannin.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 230 PM CST FOR NORTHEASTERN RANKIN AND SCOTT COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.FF.W.0019.000000T0000Z-200114T2030Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFFSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T14:30:00-06:00"
+            ]
+        }
+    }
+}
