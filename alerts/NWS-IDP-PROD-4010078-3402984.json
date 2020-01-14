@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010078-3402984",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.86,
+                    33.2299999
+                ],
+                [
+                    -84.83,
+                    33.18
+                ],
+                [
+                    -84.99,
+                    33.11
+                ],
+                [
+                    -85.02,
+                    33.1599999
+                ],
+                [
+                    -84.86,
+                    33.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010078-3402984",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010078-3402984",
+        "areaDesc": "Troup, GA",
+        "geocode": {
+            "UGC": [
+                "GAC285"
+            ],
+            "SAME": [
+                "013285"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC285"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009368-3402380",
+                "identifier": "NWS-IDP-PROD-4009368-3402380",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T08:47:00-05:00"
+            }
+        ],
+        "sent": "2020-01-14T15:42:00-05:00",
+        "effective": "2020-01-14T15:42:00-05:00",
+        "onset": "2020-01-14T15:42:00-05:00",
+        "expires": "2020-01-15T05:41:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 14 at 3:42PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nYellowJacket Creek near Hogansville affecting Troup County\n\nChattahoochee River near Columbus affecting Lee...Russell...\nChattahoochee and Muscogee Counties\n\nLine Creek near Senoia affecting Coweta...Fayette and Spalding\nCounties\n\nFlint River near Griffin Hwy. 16 affecting Fayette and Spalding\nCounties\n\nThe Flood Warning continues for\nThe YellowJacket Creek near Hogansville.\n* Until further notice.\n* At 3 PM Tuesday the stage was 8.4 feet...and falling.\n* Minor flooding will continue.\n* Flood stage is 8 feet.\n* At 8 feet...Minor flooding occurs of the marshy wetlands and\nwoods along the creek upstream and downstream from the stream gage\non the Hammett Road bridge.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0017.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
