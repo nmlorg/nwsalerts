@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008533-3401763",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.11,
+                    37.78
+                ],
+                [
+                    -88,
+                    37.7299999
+                ],
+                [
+                    -88,
+                    37.57
+                ],
+                [
+                    -88.18,
+                    37.53
+                ],
+                [
+                    -88.20999990000001,
+                    37.71
+                ],
+                [
+                    -88.11,
+                    37.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008533-3401763",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008533-3401763",
+        "areaDesc": "Union, KY; Gallatin, IL; Hardin, IL; Crittenden, KY",
+        "geocode": {
+            "UGC": [
+                "KYC225",
+                "ILC059",
+                "ILC069",
+                "KYC055"
+            ],
+            "SAME": [
+                "021225",
+                "017059",
+                "017069",
+                "021055"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC225",
+            "https://api.weather.gov/zones/county/ILC059",
+            "https://api.weather.gov/zones/county/ILC069",
+            "https://api.weather.gov/zones/county/KYC055"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007499-3400938",
+                "identifier": "NWS-IDP-PROD-4007499-3400938",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T09:55:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T20:50:00-06:00",
+        "effective": "2020-01-13T20:50:00-06:00",
+        "onset": "2020-01-13T20:36:00-06:00",
+        "expires": "2020-01-15T00:50:00-06:00",
+        "ends": "2020-01-20T23:08:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 13 at 8:50PM CST until January 20 at 11:08PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following river in\nIllinois...Kentucky...Indiana...\n\nOhio River at J.T. Myers Dam...Shawneetown\n\n.Heavy rainfall along the Ohio and Wabash Rivers will cause water\nlevels to rise to minor flood stage mid week. The J.T. Myers Dam\nand Shawneetown river points are forecast to crest on Saturday\nand then fall below flood stage early next week.\n\nThe Flood Warning continues for\nthe Ohio River at Shawneetown.\n* from this evening to Monday January 20.\n* At  7:30 PM Monday the stage was 33.0 feet.\n* Flood Stage is 33.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by this evening and continue to\nrise to near 35.9 feet by Saturday morning. The river will fall\nbelow flood stage by Monday afternoon, January 20th.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0016.200114T0236Z-200121T0508Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T23:08:00-06:00"
+            ]
+        }
+    }
+}
