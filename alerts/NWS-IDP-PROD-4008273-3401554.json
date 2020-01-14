@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008273-3401554",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.85,
+                    38.38
+                ],
+                [
+                    -90.89999999999999,
+                    38.400000000000006
+                ],
+                [
+                    -90.8,
+                    38.4799999
+                ],
+                [
+                    -90.64,
+                    38.49
+                ],
+                [
+                    -90.65,
+                    38.45
+                ],
+                [
+                    -90.85,
+                    38.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008273-3401554",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008273-3401554",
+        "areaDesc": "Franklin, MO; Jefferson, MO",
+        "geocode": {
+            "UGC": [
+                "MOC071",
+                "MOC099"
+            ],
+            "SAME": [
+                "029071",
+                "029099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC071",
+            "https://api.weather.gov/zones/county/MOC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007465-3400908",
+                "identifier": "NWS-IDP-PROD-4007465-3400908",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T09:40:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T18:26:00-06:00",
+        "effective": "2020-01-13T18:26:00-06:00",
+        "onset": "2020-01-13T18:26:00-06:00",
+        "expires": "2020-01-14T18:26:00-06:00",
+        "ends": "2020-01-16T12:21:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 13 at 6:26PM CST until January 16 at 12:21PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\n\nMeramec River at Pacific\n\nMeramec River near Eureka\n\nMeramec River at Valley Park\n\nMeramec River In Fenton\n\nMeramec River near Arnold\n\nBig River at Byrnesville\n\nBourbeuse River at Union\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Meramec River at Pacific\n* until Thursday afternoon.\n* At  6:00 PM Monday the stage was 18.3 feet.\n* Flood stage is 15.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to crest near 18.7 feet by tomorrow morning,\nthen fall below flood stage Wednesday morning.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0014.000000T0000Z-200116T1821Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T12:21:00-06:00"
+            ]
+        }
+    }
+}
