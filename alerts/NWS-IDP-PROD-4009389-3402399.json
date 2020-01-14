@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009389-3402399",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.74,
+                    40.84
+                ],
+                [
+                    -87.49,
+                    40.86000000000001
+                ],
+                [
+                    -87.4599999,
+                    40.77
+                ],
+                [
+                    -87.79,
+                    40.760000000000005
+                ],
+                [
+                    -87.74,
+                    40.84
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009389-3402399",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009389-3402399",
+        "areaDesc": "Iroquois, IL",
+        "geocode": {
+            "UGC": [
+                "ILC075"
+            ],
+            "SAME": [
+                "017075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC075"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008479-3401726",
+                "identifier": "NWS-IDP-PROD-4008479-3401726",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T20:24:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T08:02:00-06:00",
+        "effective": "2020-01-14T08:02:00-06:00",
+        "onset": "2020-01-14T08:02:00-06:00",
+        "expires": "2020-01-14T22:00:00-06:00",
+        "ends": "2020-01-16T08:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 14 at 8:02AM CST until January 16 at 8:00AM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in\nIllinois...Indiana...\n\nIroquois River at Iroquois affecting Iroquois County\nKankakee River at Dunns Bridge affecting Porter County\nKankakee River near Kouts affecting Jasper and Porter Counties\nKankakee River at Shelby affecting Lake and Newton Counties\nIroquois River near Foresman affecting Newton County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe Flood Warning continues for\nThe Iroquois River at Iroquois, or from Near US-41 downstream to\nconfluence with Sugar Creek at Watseka.\n* until Thursday morning.\n* At  700 AM Tuesday the stage was 19.1 feet.\n* Flood stage is 18.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will fall below flood stage early Thursday\nmorning.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0008.000000T0000Z-200116T1400Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T08:00:00-06:00"
+            ]
+        }
+    }
+}
