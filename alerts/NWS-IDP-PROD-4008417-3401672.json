@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008417-3401672",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.7,
+                    31.01
+                ],
+                [
+                    -91.67,
+                    31.3
+                ],
+                [
+                    -91.29,
+                    31.93
+                ],
+                [
+                    -91.14,
+                    31.87
+                ],
+                [
+                    -91.47,
+                    31.3
+                ],
+                [
+                    -91.53999999999999,
+                    31
+                ],
+                [
+                    -91.7,
+                    31.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008417-3401672",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008417-3401672",
+        "areaDesc": "Adams, MS; Concordia, LA; Wilkinson, MS",
+        "geocode": {
+            "UGC": [
+                "MSC001",
+                "LAC029",
+                "MSC157"
+            ],
+            "SAME": [
+                "028001",
+                "022029",
+                "028157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC001",
+            "https://api.weather.gov/zones/county/LAC029",
+            "https://api.weather.gov/zones/county/MSC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007579-3401011",
+                "identifier": "NWS-IDP-PROD-4007579-3401011",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T10:45:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T19:49:00-06:00",
+        "effective": "2020-01-13T19:49:00-06:00",
+        "onset": "2020-01-14T20:00:00-06:00",
+        "expires": "2020-01-15T01:49:00-06:00",
+        "ends": "2020-02-02T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 13 at 7:49PM CST until February 2 at 6:00PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nArkansas...Mississippi...Louisiana...\n\nMississippi River Near Arkansas City affecting Chicot...Desha...\nBolivar and Washington Counties\n\nMississippi River Near Greenville affecting Chicot...East Carroll...\nIssaquena and Washington Counties\n\nMississippi River At Vicksburg affecting Madison...Tensas...\nClaiborne...Jefferson and Warren Counties/Parishes\n\nMississippi River At Natchez affecting Concordia...Adams and\nWilkinson Counties/Parishes\n\nThe Flood Warning continues for\nThe Mississippi River At Natchez\n* from Tuesday evening to Sunday February 02.\n* At 7:00 PM Monday the stage was 47.2 feet.\n* Moderate flooding is forecast.\n* Flood stage is 48.0 feet.\n* Forecast...The river will rise above flood stage Tuesday January 14\nand will continue to rise to near 51.5 feet Wednesday January 29.\n* Impact...At 51.0 feet...Water is covering the roads in old downtown\narea of Fort Adams.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nMississippi River forecasts are based on rainfall that has occurred\nand that which is forecast to occur over the next 48 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Sunday February 02"
+            ],
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0034.200115T0200Z-200203T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-02T18:00:00-06:00"
+            ]
+        }
+    }
+}
