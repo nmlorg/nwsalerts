@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008914",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.84,
+                    36.84
+                ],
+                [
+                    -79.37,
+                    36.68000000000001
+                ],
+                [
+                    -79.42,
+                    36.800000000000004
+                ],
+                [
+                    -79.03,
+                    37.050000000000004
+                ],
+                [
+                    -79.01,
+                    37.03
+                ],
+                [
+                    -78.99000000000001,
+                    37.04
+                ],
+                [
+                    -78.84,
+                    36.84
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008914",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008914",
+        "areaDesc": "Pittsylvania; Halifax",
+        "geocode": {
+            "UGC": [
+                "VAZ044",
+                "VAZ058"
+            ],
+            "SAME": [
+                "051143",
+                "051590",
+                "051083"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/VAZ044",
+            "https://api.weather.gov/zones/forecast/VAZ058"
+        ],
+        "references": [],
+        "sent": "2020-01-14T03:40:00-05:00",
+        "effective": "2020-01-14T03:40:00-05:00",
+        "onset": "2020-01-14T03:40:00-05:00",
+        "expires": "2020-01-14T04:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Blacksburg VA",
+        "headline": "Special Weather Statement issued January 14 at 3:40AM EST by NWS Blacksburg VA",
+        "description": "At 339 AM EST, a strong thunderstorm was located near Keeling, or\nnear Chatham, moving northeast at 50 mph.\n\nWinds in excess of 30 mph and brief, locally heavy rain are possible\nwith this storm.\n\nLocations impacted include...\nChatham...\nMt Airy...\nIngram...\nNathalie...\nJava...\nCody...\nand Leda.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-14T03:39:00.000-05:00...storm...242DEG...43KT...36.77,-79.3"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT EAST CENTRAL PITTSYLVANIA AND NORTHWESTERN HALIFAX COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RNKSPSRNK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
