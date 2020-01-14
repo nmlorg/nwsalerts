@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009622-3402583",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.9599999,
+                    32.4799999
+                ],
+                [
+                    -89.9599999,
+                    32.24
+                ],
+                [
+                    -90.42999999999999,
+                    32.24
+                ],
+                [
+                    -90.42999999999999,
+                    32.4799999
+                ],
+                [
+                    -89.9599999,
+                    32.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009622-3402583",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009622-3402583",
+        "areaDesc": "Hinds, MS; Madison, MS; Rankin, MS",
+        "geocode": {
+            "UGC": [
+                "MSC049",
+                "MSC089",
+                "MSC121"
+            ],
+            "SAME": [
+                "028049",
+                "028089",
+                "028121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC049",
+            "https://api.weather.gov/zones/county/MSC089",
+            "https://api.weather.gov/zones/county/MSC121"
+        ],
+        "references": [],
+        "sent": "2020-01-14T09:39:00-06:00",
+        "effective": "2020-01-14T09:39:00-06:00",
+        "onset": "2020-01-14T09:39:00-06:00",
+        "expires": "2020-01-14T12:45:00-06:00",
+        "ends": "2020-01-14T12:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flash Flood Warning issued January 14 at 9:39AM CST until January 14 at 12:45PM CST by NWS Jackson MS",
+        "description": "The National Weather Service in Jackson has issued a\n\n* Flash Flood Warning for...\nCentral Rankin County in central Mississippi...\nNortheastern Hinds County in central Mississippi...\nSouth central Madison County in central Mississippi...\n\n* Until 1245 PM CST.\n\n* At 938 AM CST, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. One to two inches of rain have\nalready fallen. Flash flooding is ongoing or expected to begin\nshortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar indicated.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other\ndrainage and low lying areas.\n\n* Some locations that will experience flooding include...\nJackson, Clinton, Pearl, Madison, Ridgeland, Brandon, Flowood,\nRaymond and Pocahontas.\n\nAdditional rainfall amounts of 1-2 inches are possible in the warned\narea.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KJAN.FF.W.0017.200114T1539Z-200114T1845Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFFWJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T12:45:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: FLASH FLOOD WARNING this area til 12:45 PM CST. Avoid flooded areas."
+            ]
+        }
+    }
+}
