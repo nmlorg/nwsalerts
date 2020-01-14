@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009314",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.87,
+                    32.42
+                ],
+                [
+                    -90.85000000000001,
+                    32.65
+                ],
+                [
+                    -90.35000000000001,
+                    32.62
+                ],
+                [
+                    -90.39000000000001,
+                    32.43
+                ],
+                [
+                    -90.87,
+                    32.42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009314",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009314",
+        "areaDesc": "Madison; Warren; Yazoo; Issaquena; Hinds",
+        "geocode": {
+            "UGC": [
+                "MSZ043",
+                "MSZ047",
+                "MSZ042",
+                "MSZ040",
+                "MSZ048"
+            ],
+            "SAME": [
+                "028089",
+                "028149",
+                "028163",
+                "028055",
+                "028049"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MSZ043",
+            "https://api.weather.gov/zones/forecast/MSZ047",
+            "https://api.weather.gov/zones/forecast/MSZ042",
+            "https://api.weather.gov/zones/forecast/MSZ040",
+            "https://api.weather.gov/zones/forecast/MSZ048"
+        ],
+        "references": [],
+        "sent": "2020-01-14T06:35:00-06:00",
+        "effective": "2020-01-14T06:35:00-06:00",
+        "onset": "2020-01-14T06:35:00-06:00",
+        "expires": "2020-01-14T07:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Special Weather Statement issued January 14 at 6:35AM CST by NWS Jackson MS",
+        "description": "At 635 AM CST, Meteorologists were tracking a strong thunderstorm\nnear Redwood, moving east at 30 mph.\n\nWinds in excess of 40 mph will be possible with this storm.\n\nThis strong thunderstorm will be near...\nOak Ridge around 640 AM CST.\nYoungton around 650 AM CST.\nPhoenix around 655 AM CST.\nBrownsville around 710 AM CST.",
+        "instruction": "Torrential rainfall is also occurring with this storm, and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.\n\nHigh winds can bring down trees and large limbs resulting in serious\ninjury or property damage. Exercise extreme caution when outdoors\nduring such strong winds...and be especially aware of older trees.\n\nFrequent cloud to ground lightning is occurring with this storm.\nLightning can strike 10 miles away from a thunderstorm. Seek a safe\nshelter inside a building or vehicle.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-14T06:35:00.000-06:00...storm...269DEG...28KT...32.53,-90.77"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT NORTHEASTERN WARREN... SOUTHWESTERN YAZOO...NORTHWESTERN HINDS...SOUTHEASTERN ISSAQUENA AND WEST CENTRAL MADISON COUNTIES UNTIL 715 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSPSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
