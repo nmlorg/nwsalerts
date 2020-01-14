@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009366-3402378",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.44,
+                    33.6
+                ],
+                [
+                    -84.38,
+                    33.63
+                ],
+                [
+                    -84.33999999999999,
+                    33.54
+                ],
+                [
+                    -84.35,
+                    33.4
+                ],
+                [
+                    -84.42999999999999,
+                    33.4
+                ],
+                [
+                    -84.41,
+                    33.54
+                ],
+                [
+                    -84.44,
+                    33.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009366-3402378",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009366-3402378",
+        "areaDesc": "Clayton, GA; Fayette, GA; Spalding, GA",
+        "geocode": {
+            "UGC": [
+                "GAC063",
+                "GAC113",
+                "GAC255"
+            ],
+            "SAME": [
+                "013063",
+                "013113",
+                "013255"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC063",
+            "https://api.weather.gov/zones/county/GAC113",
+            "https://api.weather.gov/zones/county/GAC255"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009361-3402374",
+                "identifier": "NWS-IDP-PROD-4009361-3402374",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T08:45:00-05:00"
+            }
+        ],
+        "sent": "2020-01-14T08:47:00-05:00",
+        "effective": "2020-01-14T08:47:00-05:00",
+        "onset": "2020-01-14T08:45:00-05:00",
+        "expires": "2020-01-14T22:44:00-05:00",
+        "ends": "2020-01-15T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 14 at 8:45AM EST until January 15 at 7:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nYellowJacket Creek near Hogansville affecting Troup County\n\nFlint River near Lovejoy affecting Clayton...Fayette and Spalding\nCounties\n\nLine Creek near Senoia affecting Coweta...Fayette and Spalding\nCounties\n\nThe Flood Warning continues for\nThe Flint River near Lovejoy.\n* Until Wednesday morning.\n* At 7 AM Tuesday the stage was 12.4 feet...and steady.\n* Minor flooding will continue.\n* Flood stage is 12 feet.\n* The river will continue to fall to below flood stage after\nmidnight.\n* At 12 feet...Flood Stage is reached and minor flooding begins.\nFlooding of Rivers Edge Golf Course begins. Several holes and\nfairways will flood. Flooding of some yards begins upstream of gage\nbetween Upper Riverdale Road and Highway 138.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0020.000000T0000Z-200115T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T07:00:00-05:00"
+            ]
+        }
+    }
+}
