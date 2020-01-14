@@ -1,0 +1,121 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008791-3401948",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.8199999,
+                    33.57
+                ],
+                [
+                    -83.61,
+                    33.34
+                ],
+                [
+                    -83.9599999,
+                    33.2299999
+                ],
+                [
+                    -84.05,
+                    33.27
+                ],
+                [
+                    -84.13,
+                    33.370000000000005
+                ],
+                [
+                    -83.8199999,
+                    33.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008791-3401948",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008791-3401948",
+        "areaDesc": "Henry, GA; Jasper, GA; Newton, GA; Butts, GA",
+        "geocode": {
+            "UGC": [
+                "GAC151",
+                "GAC159",
+                "GAC217",
+                "GAC035"
+            ],
+            "SAME": [
+                "013151",
+                "013159",
+                "013217",
+                "013035"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC151",
+            "https://api.weather.gov/zones/county/GAC159",
+            "https://api.weather.gov/zones/county/GAC217",
+            "https://api.weather.gov/zones/county/GAC035"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008781-3401944",
+                "identifier": "NWS-IDP-PROD-4008781-3401944",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T00:34:00-05:00"
+            }
+        ],
+        "sent": "2020-01-14T00:45:00-05:00",
+        "effective": "2020-01-14T00:45:00-05:00",
+        "onset": "2020-01-14T00:45:00-05:00",
+        "expires": "2020-01-14T01:15:00-05:00",
+        "ends": "2020-01-14T01:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Severe Thunderstorm Warning issued January 14 at 12:45AM EST until January 14 at 1:15AM EST by NWS Peachtree City GA",
+        "description": "At 1245 AM EST, a severe thunderstorm was located over Jenkinsburg,\nor near Jackson, moving northeast at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nJackson, Monticello, Locust Grove, Flovilla, Jenkinsburg, Stewart,\nTurtle Cove, Worthville, McKibben, Starrsville, Calvin, Eudora, North\nAlcovy, Indian Springs State Park, Fincherville, Stark and Rocky\nPlains.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-14T00:45:00.000-05:00...storm...241DEG...24KT...33.33,-84.01"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 115 AM EST FOR SOUTHEASTERN HENRY...BUTTS...NORTHWESTERN JASPER AND SOUTHEASTERN NEWTON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KFFC.SV.W.0026.000000T0000Z-200114T0615Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCSVSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T01:15:00-05:00"
+            ]
+        }
+    }
+}
