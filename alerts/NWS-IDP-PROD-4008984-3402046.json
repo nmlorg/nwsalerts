@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008984-3402046",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.06,
+                    34.04
+                ],
+                [
+                    -81,
+                    33.96
+                ],
+                [
+                    -81.06,
+                    33.94
+                ],
+                [
+                    -81.11,
+                    34.01
+                ],
+                [
+                    -81.06,
+                    34.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008984-3402046",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008984-3402046",
+        "areaDesc": "Richland, SC; Lexington, SC",
+        "geocode": {
+            "UGC": [
+                "SCC079",
+                "SCC063"
+            ],
+            "SAME": [
+                "045079",
+                "045063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC079",
+            "https://api.weather.gov/zones/county/SCC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008291-3401571",
+                "identifier": "NWS-IDP-PROD-4008291-3401571",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T19:50:00-05:00"
+            }
+        ],
+        "sent": "2020-01-14T04:10:00-05:00",
+        "effective": "2020-01-14T04:10:00-05:00",
+        "onset": "2020-01-14T04:10:00-05:00",
+        "expires": "2020-01-15T04:10:00-05:00",
+        "ends": "2020-01-17T18:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Advisory issued January 14 at 4:10AM EST until January 17 at 6:00PM EST by NWS Columbia SC",
+        "description": "...River Flood Advisory Continues for Congaree River at Columbia...\n\n.Heavy rainfall and reservoir releases have resulted in elevated\nstages along the Congaree River.\n\nThe Flood Advisory Continues for the Congaree River at Columbia.\n* Through Friday.\n* At 4 AM Tuesday the stage was 13.2 feet.\n* Advisory stage is 10 feet.\n* Flood stage is 19 feet.\n* Forecast...The river at Columbia will crest around 15.3 feet\nWednesday.\n* At 14 feet...Roads in low lying areas and swampland downstream\nfrom Columbia become flooded. Most of the Cayce and West Columbia\nriver walk is flooded.",
+        "instruction": "A Flood Advisory means that nuisance flooding may occur nearest the\nriver when the level is below the official flood stage.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCAE.FL.Y.0004.000000T0000Z-200117T2300Z/"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T18:00:00-05:00"
+            ]
+        }
+    }
+}
