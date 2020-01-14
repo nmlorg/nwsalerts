@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008487-3401734",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.59,
+                    37.2299999
+                ],
+                [
+                    -89.41,
+                    37.25
+                ],
+                [
+                    -89.28999999999999,
+                    37.13
+                ],
+                [
+                    -89.45999989999999,
+                    37.09
+                ],
+                [
+                    -89.59,
+                    37.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008487-3401734",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008487-3401734",
+        "areaDesc": "Scott, MO; Alexander, IL",
+        "geocode": {
+            "UGC": [
+                "MOC201",
+                "ILC003"
+            ],
+            "SAME": [
+                "029201",
+                "017003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC201",
+            "https://api.weather.gov/zones/county/ILC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007690-3401103",
+                "identifier": "NWS-IDP-PROD-4007690-3401103",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T11:52:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T20:26:00-06:00",
+        "effective": "2020-01-13T20:26:00-06:00",
+        "onset": "2020-01-13T20:26:00-06:00",
+        "expires": "2020-01-15T00:25:00-06:00",
+        "ends": "2020-01-19T19:42:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 13 at 8:26PM CST until January 19 at 7:42PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following river in\nIllinois...Missouri...Kentucky...\n\nMississippi River at Cape Girardeau...Thebes...New Madrid\n\n.Recent heavy rainfall over the mid Mississippi River basin has caused\nriver levels to rise. Minor flooding is occurring at Cape Girardeau and\nThebes, and moderate flooding is forecast to develop early this week.\nCrests are expected to occur on Wednesday. At New Madrid, minor flooding\nis occurring and, due to floodwaters from the Ohio, the crest at New\nMadrid is forecast for Sunday.\n\nThe Flood Warning continues for\nthe Mississippi River at Thebes\n* until Sunday evening.\n* At  8:00 PM Monday the stage was 35.4 feet.\n* Flood Stage is 33.0 feet.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to near 37.5 feet by\nThursday morning. The river will fall below flood stage Sunday\nearly afternoon.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0012.000000T0000Z-200120T0142Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T19:42:00-06:00"
+            ]
+        }
+    }
+}

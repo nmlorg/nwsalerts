@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008476-3401723",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87,
+                    41.29
+                ],
+                [
+                    -86.97,
+                    41.28
+                ],
+                [
+                    -86.89,
+                    41.29
+                ],
+                [
+                    -86.87,
+                    41.21
+                ],
+                [
+                    -86.97,
+                    41.18
+                ],
+                [
+                    -87.06,
+                    41.21
+                ],
+                [
+                    -87,
+                    41.29
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008476-3401723",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008476-3401723",
+        "areaDesc": "Porter, IN",
+        "geocode": {
+            "UGC": [
+                "INC127"
+            ],
+            "SAME": [
+                "018127"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC127"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4007357-3400823",
+                "identifier": "NWS-IDP-PROD-4007357-3400823",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T09:07:00-06:00"
+            }
+        ],
+        "sent": "2020-01-13T20:24:00-06:00",
+        "effective": "2020-01-13T20:24:00-06:00",
+        "onset": "2020-01-16T00:00:00-06:00",
+        "expires": "2020-01-14T10:24:00-06:00",
+        "ends": "2020-01-18T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 13 at 8:24PM CST until January 18 at 6:00PM CST by NWS Chicago IL",
+        "description": "...The Flood Warning is cancelled for the following rivers in\nIllinois...\n\nIllinois River at Ottawa affecting La Salle County\n\n...The Flood Warning continues for the following rivers in\nIllinois and Indiana...\n\nIllinois River at La Salle affecting Bureau...La Salle and Putnam\nCounties\nIroquois River at Rensselaer affecting Jasper County\nIroquois River near Foresman affecting Newton County\nIroquois River at Iroquois affecting Iroquois County\nKankakee River at Dunns Bridge affecting Porter County\nKankakee River near Kouts affecting Jasper and Porter Counties\nKankakee River at Shelby affecting Lake and Newton Counties\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 48 hours into the future.\n\nThe Flood Warning continues for\nThe Kankakee River at Dunns Bridge, or from US-421 south of La\nCrosse downstream to IN-49 south of Kouts.\n* from late Wednesday night to Saturday evening.\n* At  800 PM Monday the stage was 9.2 feet.\n* Flood stage is 10.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by early Thursday morning and\ncontinue to rise to near 10.3 feet by early Friday morning.\n* Impact...At 10.0 feet...Flooding begins of low lying agricultural\nareas near the river.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0001.200116T0600Z-200119T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T18:00:00-06:00"
+            ]
+        }
+    }
+}
