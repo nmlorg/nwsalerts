@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008577-3401807",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.99,
+                    43.4099999
+                ],
+                [
+                    -83.86999999999999,
+                    43.650000000000006
+                ],
+                [
+                    -83.77999999999999,
+                    43.63
+                ],
+                [
+                    -83.88999999999999,
+                    43.39
+                ],
+                [
+                    -83.99,
+                    43.4099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008577-3401807",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4008577-3401807",
+        "areaDesc": "Saginaw, MI; Bay, MI",
+        "geocode": {
+            "UGC": [
+                "MIC145",
+                "MIC017"
+            ],
+            "SAME": [
+                "026145",
+                "026017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC145",
+            "https://api.weather.gov/zones/county/MIC017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008113-3401418",
+                "identifier": "NWS-IDP-PROD-4008113-3401418",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T17:11:00-05:00"
+            }
+        ],
+        "sent": "2020-01-13T22:01:00-05:00",
+        "effective": "2020-01-13T22:01:00-05:00",
+        "onset": "2020-01-13T22:01:00-05:00",
+        "expires": "2020-01-14T12:01:00-05:00",
+        "ends": "2020-01-15T04:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 13 at 10:01PM EST until January 15 at 4:00AM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nCass River...Huron River...River Raisin...Saginaw River\n\n.Light precipitation is possible this week but not significant\nenough to affect the rivers.\n\nA flood warning continues for\nSaginaw River at Saginaw.\n* From now until further notice.\n* At 8 PM Monday the stage is 18.6 feet and slowly falling.\n* Flood stage is 17.0 feet.\n* Minor flooding is occurring.\n* Forecast...the river crested at 18.7 feet Saturday evening\nand should fall below flood stage late tomorrow evening.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KDTX.FL.W.0015.000000T0000Z-200115T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T04:00:00-05:00"
+            ]
+        }
+    }
+}
