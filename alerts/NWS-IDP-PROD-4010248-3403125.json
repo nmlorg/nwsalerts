@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010248-3403125",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.25,
+                    35.39
+                ],
+                [
+                    -89.95,
+                    35.39
+                ],
+                [
+                    -90.05,
+                    35.33
+                ],
+                [
+                    -90.03999999999999,
+                    35.129999999999995
+                ],
+                [
+                    -90.08,
+                    34.909999899999995
+                ],
+                [
+                    -90.41,
+                    34.909999899999995
+                ],
+                [
+                    -90.25,
+                    35.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010248-3403125",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010248-3403125",
+        "areaDesc": "DeSoto, MS; Crittenden, AR; Shelby, TN",
+        "geocode": {
+            "UGC": [
+                "MSC033",
+                "ARC035",
+                "TNC157"
+            ],
+            "SAME": [
+                "028033",
+                "005035",
+                "047157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC033",
+            "https://api.weather.gov/zones/county/ARC035",
+            "https://api.weather.gov/zones/county/TNC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010203-3403065",
+                "identifier": "NWS-IDP-PROD-4010203-3403065",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T15:38:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T16:01:00-06:00",
+        "effective": "2020-01-14T16:01:00-06:00",
+        "onset": "2020-01-22T06:00:00-06:00",
+        "expires": "2020-01-15T16:00:00-06:00",
+        "ends": "2020-01-23T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 14 at 4:01PM CST until January 23 at 12:00PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Mississippi River at Memphis.\n\nThe Flood Warning continues for\nthe Mississippi River at Memphis\n* from Wednesday January 22 until late Wednesday January 22\nand if necessary will be extended.\n* At 3 PM Tuesday the stage was 29.3 feet and rising.\n* Minor flooding is forecast.\n* Maximum forecast stage of 34.0 feet on Wednesday January 22.\n* Flood stage is 34.0 feet.\n* At 34.0 feet...In Arkansas, the camp on Robinson Road right inside\nthe levee is totally flooded. Roads to industries inside the levee\nsouth of West Memphis are flooding.",
+        "instruction": "A followup Flood Statement will be issued when conditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.W.0029.200122T1200Z-200123T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-23T12:00:00-06:00"
+            ]
+        }
+    }
+}
