@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009791-3402738",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.5699999,
+                    38.81
+                ],
+                [
+                    -90.5699999,
+                    38.88
+                ],
+                [
+                    -90.4599999,
+                    38.99
+                ],
+                [
+                    -90.28,
+                    38.95
+                ],
+                [
+                    -90.48,
+                    38.82
+                ],
+                [
+                    -90.5699999,
+                    38.81
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009791-3402738",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009791-3402738",
+        "areaDesc": "Jersey, IL; St. Charles, MO",
+        "geocode": {
+            "UGC": [
+                "ILC083",
+                "MOC183"
+            ],
+            "SAME": [
+                "017083",
+                "029183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC083",
+            "https://api.weather.gov/zones/county/MOC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008541-3401771",
+                "identifier": "NWS-IDP-PROD-4008541-3401771",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-13T20:56:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T11:07:00-06:00",
+        "effective": "2020-01-14T11:07:00-06:00",
+        "onset": "2020-01-14T11:07:00-06:00",
+        "expires": "2020-01-15T17:07:00-06:00",
+        "ends": "2020-01-16T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 14 at 11:07AM CST until January 16 at 6:00AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Missouri...\n\n\nMississippi River...\n\nat Grafton\n\nat Mel Price Lock and Dam\n\nat Chester\n\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Mississippi River at Grafton\n* until Thursday morning.\n* At 10:30 AM Tuesday the stage was 18.6 feet.\n* Flood stage is 18.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to continue falling to below flood stage by\nafter midnight tonight.\n* Impact:  At 18.0 feet...Flood Stage.  Right bank begins to\noverflow...flooding farmland.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0023.000000T0000Z-200116T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T06:00:00-06:00"
+            ]
+        }
+    }
+}
