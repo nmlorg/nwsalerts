@@ -1,0 +1,91 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010271",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -117.22,
+                    42.51
+                ],
+                [
+                    -116.45,
+                    42.93
+                ],
+                [
+                    -115.94,
+                    42.68
+                ],
+                [
+                    -116.64,
+                    42.11
+                ],
+                [
+                    -117.22,
+                    42.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010271",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010271",
+        "areaDesc": "Southwest Highlands; Malheur County; Owyhee Mountains",
+        "geocode": {
+            "UGC": [
+                "IDZ015",
+                "ORZ063",
+                "IDZ029"
+            ],
+            "SAME": [
+                "016073",
+                "041045"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/IDZ015",
+            "https://api.weather.gov/zones/forecast/ORZ063",
+            "https://api.weather.gov/zones/forecast/IDZ029"
+        ],
+        "references": [],
+        "sent": "2020-01-14T15:24:00-07:00",
+        "effective": "2020-01-14T15:24:00-07:00",
+        "onset": "2020-01-14T15:24:00-07:00",
+        "expires": "2020-01-14T16:15:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Boise ID",
+        "headline": "Special Weather Statement issued January 14 at 3:24PM MST by NWS Boise ID",
+        "description": "At 323 PM MST, Doppler radar was tracking a line of heavy snow near\nHackberry Reservoir, or 47 miles east of Rome, moving southeast at\n30 mph.\n\nWind gusts up to 50 mph will be possible with these showers and\nquarter mile visibilities.",
+        "instruction": "When safe to do so, please relay storm reports to the National\nWeather Service in Boise via local law enforcement, or National\nWeather Service Boise Facebook and Twitter accounts.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-14T15:23:00.000-07:00...storm...296DEG...28KT...42.64,-116.72"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHWESTERN OWYHEE AND SOUTHEASTERN MALHEUR COUNTIES UNTIL 415 PM MST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BOISPSBOI"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
