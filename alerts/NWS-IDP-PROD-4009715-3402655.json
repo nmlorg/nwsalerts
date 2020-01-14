@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009715-3402655",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.25,
+                    33.64
+                ],
+                [
+                    -83.33,
+                    33.64
+                ],
+                [
+                    -83.33,
+                    33.83
+                ],
+                [
+                    -83.27,
+                    33.839999999999996
+                ],
+                [
+                    -83.25,
+                    33.64
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009715-3402655",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009715-3402655",
+        "areaDesc": "Greene, GA; Oconee, GA; Clarke, GA",
+        "geocode": {
+            "UGC": [
+                "GAC133",
+                "GAC219",
+                "GAC059"
+            ],
+            "SAME": [
+                "013133",
+                "013219",
+                "013059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC133",
+            "https://api.weather.gov/zones/county/GAC219",
+            "https://api.weather.gov/zones/county/GAC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4008994-3402053",
+                "identifier": "NWS-IDP-PROD-4008994-3402053",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T04:19:00-05:00"
+            }
+        ],
+        "sent": "2020-01-14T11:09:00-05:00",
+        "effective": "2020-01-14T11:09:00-05:00",
+        "onset": "2020-01-14T11:09:00-05:00",
+        "expires": "2020-01-15T01:07:00-05:00",
+        "ends": "2020-01-15T21:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 14 at 11:09AM EST until January 15 at 9:00PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nOconee River near Penfield affecting Clarke...Greene and Oconee\nCounties\n\nOconee River near Oconee affecting Johnson...Washington and\nWilkinson Counties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nOconee River near Oconee affecting Washington and Wilkinson\nCounties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Wednesday evening...The Flood Warning continues for The Oconee River near Penfield. * Until Wednesday evening. * At 10 AM Tuesday the stage was 14.1 feet...and rising. * Minor flooding will continue. * Flood stage is 13 feet. * The river will continue rising to near 14.3 feet by this evening. The river will fall below flood stage Wednesday afternoon. * At 15 feet...Minor flooding continues to expand into fields... woodlands and pastures...mainly on the right bank of the river"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0019.000000T0000Z-200116T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T21:00:00-05:00"
+            ]
+        }
+    }
+}
