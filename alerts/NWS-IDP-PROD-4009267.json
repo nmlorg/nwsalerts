@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009267",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.51,
+                    36.4
+                ],
+                [
+                    -77.5699999,
+                    36.57
+                ],
+                [
+                    -77.03,
+                    36.76
+                ],
+                [
+                    -76.95,
+                    36.409999899999995
+                ],
+                [
+                    -77.51,
+                    36.4
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009267",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4009267",
+        "areaDesc": "Greensville; Southampton; Northampton; Hertford",
+        "geocode": {
+            "UGC": [
+                "VAZ087",
+                "VAZ092",
+                "NCZ012",
+                "NCZ013"
+            ],
+            "SAME": [
+                "051081",
+                "051595",
+                "051175",
+                "051620",
+                "037131",
+                "037091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/VAZ087",
+            "https://api.weather.gov/zones/forecast/VAZ092",
+            "https://api.weather.gov/zones/forecast/NCZ012",
+            "https://api.weather.gov/zones/forecast/NCZ013"
+        ],
+        "references": [],
+        "sent": "2020-01-14T06:46:00-05:00",
+        "effective": "2020-01-14T06:46:00-05:00",
+        "onset": "2020-01-14T06:46:00-05:00",
+        "expires": "2020-01-14T07:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Special Weather Statement issued January 14 at 6:46AM EST by NWS Wakefield VA",
+        "description": "At 645 AM EST, a strong thunderstorm was located over Seaboard, or\nnear Dahlia, moving east at 35 mph.\n\nWind gusts up to 40 mph and small hail are possible with this storm.\n\nLocations impacted include...\nMurfreesboro, Courtland, Boykins, Dahlia, Chowan University, Conway,\nSeaboard, Newsoms, Como, Severn, Branchville, Milwaukee, Mapleton,\nBryants Corner, Pleasant Grove, Sunbeam, Gumberry, Barretts\nCrossroad, Falsons Old Tavern and Pendleton.\n\nMotorists should use extra caution in the vicinity of this storm. Be\nprepared for rapid changes in weather and road conditions. Heavy rain\ncould cause ponding of water on roads, and possible minor flooding of\nditches and poor drainage areas.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-14T06:45:00.000-05:00...storm...247DEG...35KT...36.51,-77.47"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT NORTHEASTERN NORTHAMPTON... NORTHWESTERN HERTFORD...SOUTHEASTERN GREENSVILLE AND SOUTHWESTERN SOUTHAMPTON COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQSPSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
