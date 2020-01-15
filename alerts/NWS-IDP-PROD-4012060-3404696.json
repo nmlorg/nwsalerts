@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012060-3404696",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.59,
+                    37.2299999
+                ],
+                [
+                    -89.41,
+                    37.25
+                ],
+                [
+                    -89.28999999999999,
+                    37.13
+                ],
+                [
+                    -89.45999989999999,
+                    37.09
+                ],
+                [
+                    -89.59,
+                    37.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012060-3404696",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012060-3404696",
+        "areaDesc": "Scott, MO; Alexander, IL",
+        "geocode": {
+            "UGC": [
+                "MOC201",
+                "ILC003"
+            ],
+            "SAME": [
+                "029201",
+                "017003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC201",
+            "https://api.weather.gov/zones/county/ILC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010582-3403441",
+                "identifier": "NWS-IDP-PROD-4010582-3403441",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T20:00:00-06:00"
+            }
+        ],
+        "sent": "2020-01-15T11:48:00-06:00",
+        "effective": "2020-01-15T11:48:00-06:00",
+        "onset": "2020-01-15T11:48:00-06:00",
+        "expires": "2020-01-16T15:48:00-06:00",
+        "ends": "2020-01-19T19:12:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 15 at 11:48AM CST until January 19 at 7:12PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Missouri...Kentucky...\n\nMississippi River at Cape Girardeau...Thebes and New Madrid\n\n.The Mississippi River at Cape Girardeau and Thebes are cresting\nand will start a slow fall. Both are expected to go below flood\nby the end of the weekend. New Madrid will continue to rise and then\ncrest around 38 feet on Sunday morning.\n\nThe Flood Warning continues for\nthe Mississippi River at Thebes.\n* until Sunday evening.\n* At 11:30 AM Wednesday the stage was 36.2 feet.\n* Flood Stage is 33.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river is cresting and will start to fall. It is\nforecast to go below flood stage on Sunday afternoon.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0012.000000T0000Z-200120T0112Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T19:12:00-06:00"
+            ]
+        }
+    }
+}
