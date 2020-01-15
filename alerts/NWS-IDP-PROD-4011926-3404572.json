@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011926-3404572",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.78,
+                    32
+                ],
+                [
+                    -88.83,
+                    32.08
+                ],
+                [
+                    -88.89999999999999,
+                    32.159999899999995
+                ],
+                [
+                    -88.78999999999999,
+                    32.199999999999996
+                ],
+                [
+                    -88.72999999999999,
+                    32.10999999999999
+                ],
+                [
+                    -88.67999999999999,
+                    32.04999999999999
+                ],
+                [
+                    -88.78,
+                    32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011926-3404572",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4011926-3404572",
+        "areaDesc": "Clarke, MS",
+        "geocode": {
+            "UGC": [
+                "MSC023"
+            ],
+            "SAME": [
+                "028023"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC023"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010914-3403699",
+                "identifier": "NWS-IDP-PROD-4010914-3403699",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T22:09:00-06:00"
+            }
+        ],
+        "sent": "2020-01-15T10:09:00-06:00",
+        "effective": "2020-01-15T10:09:00-06:00",
+        "onset": "2020-01-15T10:09:00-06:00",
+        "expires": "2020-01-16T16:09:00-06:00",
+        "ends": "2020-01-18T20:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 15 at 10:09AM CST until January 18 at 8:30PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nTallahala Creek At Laurel affecting Jones County\nChickasawhay River At Enterprise affecting Clarke County\n\nThe Flood Warning continues for\nThe Chickasawhay River At Enterprise\n* until Saturday evening.\n* At  9:00 AM Wednesday the stage was 27.2 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 25.0 feet.\n* Forecast...The river will continue rising to near 29.5 feet\ntomorrow evening.\n* Impact...At 30.0 feet...Water begins to cover several streets and\nroads.\n* Impact...At 25.0 feet...Water beginning to overflow banks from the\nconfluence of Chunky River and Okatibbee Creek to approximately 3\nmiles downstream.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. Rainfall amounts greater than forecast may take the rivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0047.000000T0000Z-200119T0230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T20:30:00-06:00"
+            ]
+        }
+    }
+}
