@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011862-3404530",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.76,
+                    42.5
+                ],
+                [
+                    -83.74000000000001,
+                    42.45
+                ],
+                [
+                    -83.81,
+                    42.43
+                ],
+                [
+                    -83.93,
+                    42.43
+                ],
+                [
+                    -83.76,
+                    42.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011862-3404530",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4011862-3404530",
+        "areaDesc": "Livingston, MI",
+        "geocode": {
+            "UGC": [
+                "MIC093"
+            ],
+            "SAME": [
+                "026093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010563-3403422",
+                "identifier": "NWS-IDP-PROD-4010563-3403422",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T20:41:00-05:00"
+            }
+        ],
+        "sent": "2020-01-15T10:45:00-05:00",
+        "effective": "2020-01-15T10:45:00-05:00",
+        "onset": "2020-01-15T10:45:00-05:00",
+        "expires": "2020-01-16T00:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 15 at 10:45AM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nHuron River...River Raisin...Saginaw River\n\n.A weak area of low pressure will bring light precipitation\nto Southeast Michigan today. The amount of precipitation will\nbe too light to impact the river stages.\n\nA flood warning continues for\nHuron River near Hamburg..\n* From now until further notice.\n* At 9 AM Wednesday the stage is 7.3 feet and slowly rising.\n* Flood stage is 6.5 feet.\n* Moderate flooding is occurring.\n* Forecast...the river is near crest.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KDTX.FL.W.0002.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
