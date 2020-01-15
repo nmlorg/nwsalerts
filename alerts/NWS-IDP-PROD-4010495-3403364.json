@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010495-3403364",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.13,
+                    30.35
+                ],
+                [
+                    -91.3,
+                    30.32
+                ],
+                [
+                    -91.59,
+                    30.71
+                ],
+                [
+                    -91.3,
+                    30.740000000000002
+                ],
+                [
+                    -91.13,
+                    30.35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010495-3403364",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010495-3403364",
+        "areaDesc": "East Baton Rouge, LA; West Baton Rouge, LA",
+        "geocode": {
+            "UGC": [
+                "LAC033",
+                "LAC121"
+            ],
+            "SAME": [
+                "022033",
+                "022121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC033",
+            "https://api.weather.gov/zones/county/LAC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009851-3402797",
+                "identifier": "NWS-IDP-PROD-4009851-3402797",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T11:54:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T19:10:00-06:00",
+        "effective": "2020-01-14T19:10:00-06:00",
+        "onset": "2020-01-18T12:00:00-06:00",
+        "expires": "2020-01-16T01:10:00-06:00",
+        "ends": "2020-02-03T22:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Flood Warning issued January 14 at 7:10PM CST until February 3 at 10:30PM CST by NWS New Orleans LA",
+        "description": "...The flood warning continues for the following rivers in\nLouisiana...\n\nMississippi River At Red River Landing affecting East Baton\nRouge...Pointe Coupee and West Feliciana Parishes\n\nMississippi River At Baton Rouge affecting East Baton Rouge and\nWest Baton Rouge Parishes\n\nThe Flood Warning continues for\nThe Mississippi River At Baton Rouge.\n* Until Monday February 03.\n* At  6:00 PM Tuesday the stage was 32.3 feet.\n* Moderate flooding is forecast.\n* Flood stage is 35.0 feet.\n* Forecast...Rise above flood stage by Saturday January 18 and\ncontinue to rise to near 38.0 feet by Saturday February 01. The\nriver will fall below flood stage by Monday February 03.\n* Impact...At 38.0 feet...River traffic and industrial activity on the\nriver side of the levees will be greatly affected. Navigational\nsafety regulations will be strictly enforced.\n* Impact...At 36.0 feet...River traffic and industrial activity on the\nriver side of the levees will be greatly affected. Navigational\nsafety regulations will be strictly enforced.\n* Impact...At 35.0 feet...River islands from Red River Landing\ndownstream to Baton Rouge will be inundated.",
+        "instruction": "Forecast crests are based upon rainfall that has occurred along with\nanticipated rain for the next 24 hours. Adjustments to the forecasts\nwill be made if additional heavy rainfall occurs.\n\nDo not drive cars through flooded areas. Remember, two feet of\nrushing water can carry away most vehicles including pickups.  Turn\naround and don't drown!\n\nA followup product will be issued later. Stay tuned to NOAA Weather\nRadio, local tv and radio stations...or your cable provider, for the\nlatest information. The latest graphical hydrologic information can\nalso be found at Weather.Gov.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLIX.FL.W.0003.200118T1800Z-200204T0430Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LIXFLSLIX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-03T22:30:00-06:00"
+            ]
+        }
+    }
+}
