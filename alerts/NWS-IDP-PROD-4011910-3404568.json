@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011910-3404568",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.81,
+                    33.24
+                ],
+                [
+                    -90.62,
+                    33.63
+                ],
+                [
+                    -90.75,
+                    33.88
+                ],
+                [
+                    -90.59,
+                    33.99
+                ],
+                [
+                    -90.48,
+                    33.63
+                ],
+                [
+                    -90.64,
+                    33.24
+                ],
+                [
+                    -90.81,
+                    33.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011910-3404568",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4011910-3404568",
+        "areaDesc": "Sunflower, MS",
+        "geocode": {
+            "UGC": [
+                "MSC133"
+            ],
+            "SAME": [
+                "028133"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC133"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010720-3403554",
+                "identifier": "NWS-IDP-PROD-4010720-3403554",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T20:41:00-06:00"
+            }
+        ],
+        "sent": "2020-01-15T10:05:00-06:00",
+        "effective": "2020-01-15T10:05:00-06:00",
+        "onset": "2020-01-15T10:04:00-06:00",
+        "expires": "2020-01-16T16:05:00-06:00",
+        "ends": "2020-01-19T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 15 at 10:05AM CST until January 19 at 6:00PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nYalobusha At Whaley affecting Carroll and Leflore Counties\nBig Sunflower River At Sunflower affecting Sunflower County\nBig Sunflower River Near Anguilla affecting Sharkey County\nYazoo River At Yazoo City affecting Yazoo County\n\nThe Flood Warning continues for\nThe Big Sunflower River At Sunflower\n* from this morning to Sunday evening.\n* At  9:00 AM Wednesday the stage was 21.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 21.0 feet.\n* Forecast...The river will continue rising to near 22.0 feet early\nFriday morning.\n* Impact...At 21.0 feet...Field west of river begins to flood.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. Rainfall amounts greater than forecast may take the rivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Sunday evening"
+            ],
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0042.200115T1604Z-200120T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T18:00:00-06:00"
+            ]
+        }
+    }
+}

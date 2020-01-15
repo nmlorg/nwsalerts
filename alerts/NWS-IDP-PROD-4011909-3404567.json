@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011909-3404567",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.15,
+                    33.62
+                ],
+                [
+                    -90.15,
+                    33.75
+                ],
+                [
+                    -89.89,
+                    33.83
+                ],
+                [
+                    -89.84,
+                    33.8
+                ],
+                [
+                    -90.06,
+                    33.68
+                ],
+                [
+                    -90.14,
+                    33.54
+                ],
+                [
+                    -90.15,
+                    33.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011909-3404567",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4011909-3404567",
+        "areaDesc": "Leflore, MS; Carroll, MS",
+        "geocode": {
+            "UGC": [
+                "MSC083",
+                "MSC015"
+            ],
+            "SAME": [
+                "028083",
+                "028015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC083",
+            "https://api.weather.gov/zones/county/MSC015"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010719-3403553",
+                "identifier": "NWS-IDP-PROD-4010719-3403553",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T20:41:00-06:00"
+            }
+        ],
+        "sent": "2020-01-15T10:05:00-06:00",
+        "effective": "2020-01-15T10:05:00-06:00",
+        "onset": "2020-01-15T10:05:00-06:00",
+        "expires": "2020-01-16T16:05:00-06:00",
+        "ends": "2020-01-19T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 15 at 10:05AM CST until January 19 at 12:00PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nYalobusha At Whaley affecting Carroll and Leflore Counties\nBig Sunflower River At Sunflower affecting Sunflower County\nBig Sunflower River Near Anguilla affecting Sharkey County\nYazoo River At Yazoo City affecting Yazoo County\n\nThe Flood Warning continues for\nThe Yalobusha At Whaley\n* until Sunday afternoon.\n* At  9:00 AM Wednesday the stage was 22.8 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 21.0 feet.\n* Forecast...The river will continue rising to near 23.0 feet\ntomorrow morning.\n* Impact...At 23.0 feet...Minor flooding of lowland and agricultural\nland is occurring.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. Rainfall amounts greater than forecast may take the rivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Sunday afternoon"
+            ],
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0030.000000T0000Z-200119T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T12:00:00-06:00"
+            ]
+        }
+    }
+}
