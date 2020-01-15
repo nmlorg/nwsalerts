@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010816-3403616",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.88,
+                    37.25
+                ],
+                [
+                    -88.61,
+                    37.15
+                ],
+                [
+                    -88.52,
+                    37.15
+                ],
+                [
+                    -88.36999999999999,
+                    37.07
+                ],
+                [
+                    -88.53999999999999,
+                    36.97
+                ],
+                [
+                    -88.72,
+                    37.089999999999996
+                ],
+                [
+                    -88.9,
+                    37.159999899999995
+                ],
+                [
+                    -88.88,
+                    37.25
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010816-3403616",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010816-3403616",
+        "areaDesc": "Pope, IL; McCracken, KY; Massac, IL; Livingston, KY",
+        "geocode": {
+            "UGC": [
+                "ILC151",
+                "KYC145",
+                "ILC127",
+                "KYC139"
+            ],
+            "SAME": [
+                "017151",
+                "021145",
+                "017127",
+                "021139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC151",
+            "https://api.weather.gov/zones/county/KYC145",
+            "https://api.weather.gov/zones/county/ILC127",
+            "https://api.weather.gov/zones/county/KYC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009848-3402795",
+                "identifier": "NWS-IDP-PROD-4009848-3402795",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T11:51:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T21:13:00-06:00",
+        "effective": "2020-01-14T21:13:00-06:00",
+        "onset": "2020-01-14T21:13:00-06:00",
+        "expires": "2020-01-16T01:12:00-06:00",
+        "ends": "2020-01-23T16:48:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 14 at 9:13PM CST until January 23 at 4:48PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following river in Indiana...\nKentucky...Illinois...Missouri...\n\nOhio River at J.T. Myers Dam...Shawneetown...Paducah...Olmsted Lock\nand Dam...Cairo\n\n.Recent heavy rainfall over the lower Ohio River and Wabash basins has\ncaused river levels to rise. Shawneetown has reached minor flood stage\nwhile J.T. Myers Dam will reach minor flood stage Thursday. Both locations\nare forecast to crest on Saturday and then fall below flood stage by early\nnext week. Minor flooding is occurring at Paducah while moderate\nflooding is occurring at Olmsted and Cairo. Olmsted and Cairo are forecast\nto crest over the weekend while Paducah will crest early next week.\n\nThe Flood Warning continues for\nthe Ohio River at Paducah\n* until Thursday January 23.\n* At  8:00 PM Tuesday the stage was 40.4 feet.\n* Flood Stage is 39.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 42.0 feet by\nMonday morning. The river will fall below flood stage late Thursday\nmorning, January 23rd.\n* Impact...At 43.0 Feet...Moderate flooding occurs affecting several\nsmall unprotected towns.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0010.000000T0000Z-200123T2248Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-23T16:48:00-06:00"
+            ]
+        }
+    }
+}
