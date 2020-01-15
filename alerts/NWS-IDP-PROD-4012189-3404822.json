@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012189-3404822",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -125.47,
+                    45.79
+                ],
+                [
+                    -123.94,
+                    45.82
+                ],
+                [
+                    -124.14999999999999,
+                    44.04
+                ],
+                [
+                    -125.58999999999999,
+                    44.04
+                ],
+                [
+                    -125.47,
+                    45.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012189-3404822",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012189-3404822",
+        "areaDesc": "Coastal waters from Cape Shoalwater WA to Cascade Head OR out 10 nm; Waters from Cape Shoalwater WA to Cascade Head OR from 10 to 60 nm; Waters from Cascade Head to Florence OR from 10 to 60 nm; Coastal waters from Cascade Head to Florence OR out 10 nm",
+        "geocode": {
+            "UGC": [
+                "PZZ250",
+                "PZZ270",
+                "PZZ275",
+                "PZZ255"
+            ],
+            "SAME": [
+                "057250",
+                "057270",
+                "057275",
+                "057255"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PZZ250",
+            "https://api.weather.gov/zones/forecast/PZZ270",
+            "https://api.weather.gov/zones/forecast/PZZ275",
+            "https://api.weather.gov/zones/forecast/PZZ255"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012148-3404780",
+                "identifier": "NWS-IDP-PROD-4012148-3404780",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T11:15:00-08:00"
+            }
+        ],
+        "sent": "2020-01-15T12:08:00-08:00",
+        "effective": "2020-01-15T12:08:00-08:00",
+        "onset": "2020-01-15T12:08:00-08:00",
+        "expires": "2020-01-15T12:17:00-08:00",
+        "ends": "2020-01-15T12:15:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Portland OR",
+        "headline": "Special Marine Warning issued January 15 at 12:08PM PST until January 15 at 12:15PM PST by NWS Portland OR",
+        "description": "The affected areas were...\nCoastal waters from Cape Shoalwater WA to Cascade Head OR out 10\nnm...\nCoastal waters from Cascade Head to Florence OR out 10 nm...\nWaters from Cape Shoalwater WA to Cascade Head OR from 10 to 60 nm...\nWaters from Cascade Head to Florence OR from 10 to 60 nm...\n\nThe line of thunderstorms have generally weakened but gusts to 60\nmph are still expected through this evening.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T12:07:00.000-08:00...storm...253DEG...135KT...45.44,-122.1 44.52,-121.87 43.27,-122.5"
+            ],
+            "NWSheadline": [
+                "THE SPECIAL MARINE WARNING WILL EXPIRE AT 1215 PM PST"
+            ],
+            "VTEC": [
+                "/O.EXP.KPQR.MA.W.0001.000000T0000Z-200115T2015Z/"
+            ],
+            "PIL": [
+                "PQRMWSPQR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T12:15:00-08:00"
+            ]
+        }
+    }
+}
