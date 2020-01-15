@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011811-3404474",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.84,
+                    34.55
+                ],
+                [
+                    -79.9,
+                    34.55
+                ],
+                [
+                    -80.02000000000001,
+                    34.8
+                ],
+                [
+                    -79.94000000000001,
+                    34.8
+                ],
+                [
+                    -79.84,
+                    34.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011811-3404474",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4011811-3404474",
+        "areaDesc": "Chesterfield, SC; Marlboro, SC",
+        "geocode": {
+            "UGC": [
+                "SCC025",
+                "SCC069"
+            ],
+            "SAME": [
+                "045025",
+                "045069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC025",
+            "https://api.weather.gov/zones/county/SCC069"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011466-3404179",
+                "identifier": "NWS-IDP-PROD-4011466-3404179",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T06:43:00-05:00"
+            }
+        ],
+        "sent": "2020-01-15T10:28:00-05:00",
+        "effective": "2020-01-15T10:28:00-05:00",
+        "onset": "2020-01-15T11:45:00-05:00",
+        "expires": "2020-01-16T10:28:00-05:00",
+        "ends": "2020-01-17T17:48:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued January 15 at 10:28AM EST until January 17 at 5:48PM EST by NWS Columbia SC",
+        "description": "...The Flood Warning continues for the following rivers in South\nCarolina...\n\nCongaree River At Carolina Eastman affecting Calhoun...Lexington and\nRichland Counties\n\nCongaree River At Congaree National Park-Gadsden affecting Calhoun\nand Richland Counties\n\nPee Dee River At Cheraw affecting Chesterfield and Marlboro Counties\n\n\n...The Flood Warning continues for the following rivers in South\nCarolina..\nNorth Fork Edisto River At Orangeburg affecting Orangeburg County\n\n\n.Recent heavy rainfall combined with reservoir dam releases has caused\nflooding along portions of the Pee Dee, Congaree and Edisto Rivers.\n\nThe Flood Warning extended for\nThe Pee Dee River At Cheraw.\n* until Friday afternoon...Or until the warning is cancelled.\n* At 10 AM Wednesday the stage was 29.8 feet.\n* Flood stage is 30.0 feet.\n* Minor flooding is forecast.\n* forecast...The river will rise above flood stage late this morning\nand\nCrest around 30.9 feet after midnight tomorrow.\nThe river will fall below flood stage by tomorrow afternoon.\n* At 30.0 feet...The higher bank begins to flood. Large areas of\nfarmland and river bottomland near Cheraw will be flooded. Portions\nof Riverside Park become flooded.\n* At 20.0 feet...River bottomland downstream from cheraw will begin to\nflood.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCAE.FL.W.0008.200115T1645Z-200117T2248Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T17:48:00-05:00"
+            ]
+        }
+    }
+}
