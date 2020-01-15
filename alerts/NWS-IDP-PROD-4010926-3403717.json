@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010926-3403717",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -105.11,
+                    41
+                ],
+                [
+                    -105.05,
+                    40.87
+                ],
+                [
+                    -105.36999999999999,
+                    40.769999999999996
+                ],
+                [
+                    -105.46999999999998,
+                    40.989999999999995
+                ],
+                [
+                    -105.44999999999999,
+                    40.99999999999999
+                ],
+                [
+                    -105.11,
+                    41
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010926-3403717",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010926-3403717",
+        "areaDesc": "Larimer, CO",
+        "geocode": {
+            "UGC": [
+                "COC069"
+            ],
+            "SAME": [
+                "008069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/COC069"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010882-3403677",
+                "identifier": "NWS-IDP-PROD-4010882-3403677",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T20:51:00-07:00"
+            }
+        ],
+        "sent": "2020-01-14T21:22:00-07:00",
+        "effective": "2020-01-14T21:22:00-07:00",
+        "onset": "2020-01-14T21:22:00-07:00",
+        "expires": "2020-01-14T21:32:00-07:00",
+        "ends": "2020-01-14T21:30:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Denver CO",
+        "headline": "Snow Squall Warning issued January 14 at 9:22PM MST until January 14 at 9:30PM MST by NWS Denver CO",
+        "description": "The snow squall which prompted the warning has weakened and exited\nthe area. Therefore, the snow squall warning will be allowed to\nexpire.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-14T21:22:00.000-07:00...storm...238DEG...14KT...41.04,-105.02"
+            ],
+            "NWSheadline": [
+                "THE SNOW SQUALL WARNING FOR NORTHEASTERN LARIMER COUNTY WILL EXPIRE AT 930 PM MST"
+            ],
+            "VTEC": [
+                "/O.EXP.KBOU.SQ.W.0001.000000T0000Z-200115T0430Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BOUSQWBOU"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-14T21:30:00-07:00"
+            ]
+        }
+    }
+}
