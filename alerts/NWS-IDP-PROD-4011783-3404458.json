@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011783-3404458",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.58,
+                    41.09
+                ],
+                [
+                    -86.6,
+                    41.1599999
+                ],
+                [
+                    -86.55999999999999,
+                    41.17
+                ],
+                [
+                    -86.52999999999999,
+                    41.17
+                ],
+                [
+                    -86.56999989999998,
+                    41.15
+                ],
+                [
+                    -86.54999999999998,
+                    41.08
+                ],
+                [
+                    -86.58,
+                    41.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011783-3404458",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4011783-3404458",
+        "areaDesc": "Marshall, IN; Fulton, IN; Pulaski, IN; Kosciusko, IN; Starke, IN",
+        "geocode": {
+            "UGC": [
+                "INC099",
+                "INC049",
+                "INC131",
+                "INC085",
+                "INC149"
+            ],
+            "SAME": [
+                "018099",
+                "018049",
+                "018131",
+                "018085",
+                "018149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC099",
+            "https://api.weather.gov/zones/county/INC049",
+            "https://api.weather.gov/zones/county/INC131",
+            "https://api.weather.gov/zones/county/INC085",
+            "https://api.weather.gov/zones/county/INC149"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010647-3403493",
+                "identifier": "NWS-IDP-PROD-4010647-3403493",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T21:17:00-05:00"
+            }
+        ],
+        "sent": "2020-01-15T10:17:00-05:00",
+        "effective": "2020-01-15T10:17:00-05:00",
+        "onset": "2020-01-15T10:17:00-05:00",
+        "expires": "2020-01-16T10:17:00-05:00",
+        "ends": "2020-01-17T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 15 at 10:17AM EST until January 17 at 1:00AM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nTippecanoe River near Ora affecting Fulton...Kosciusko...Marshall...\nPulaski and Starke Counties\nWabash River near Linn Grove affecting Adams and Wells Counties\nMaumee River near Defiance affecting Defiance and Henry Counties\nSaint Joseph River Ohio below Montpelier affecting Williams County\nSaint Joseph River Ohio NEAR Newville affecting Allen...De Kalb and\nDefiance Counties\nSaint Marys River near Decatur affecting Adams...Allen and Van Wert\nCounties\nTiffin River At Stryker affecting Defiance...Fulton and Williams\nCounties\n\n.Rivers will continue to gradually fall over the coming days.\n\nThe Flood Warning has been extended for\nThe Tippecanoe River near Ora\n* until late Thursday night.\n* At 9 AM Wednesday the stage was 12.2 feet and steady.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 12.0 feet.\n* Forecast...The river will fall below the 12.0 foot flood stage\naround  1 AM Thursday January 16.\n* At 12.0 feet...The river is at flood stage...significant lowland\nand rural flooding begins.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0033.000000T0000Z-200117T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T01:00:00-05:00"
+            ]
+        }
+    }
+}
