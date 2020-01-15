@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012411-3405028",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -124.58,
+                    42.99
+                ],
+                [
+                    -124.44,
+                    43.1599999
+                ],
+                [
+                    -123.99,
+                    42.92
+                ],
+                [
+                    -124.5,
+                    42.6
+                ],
+                [
+                    -124.5,
+                    42.61
+                ],
+                [
+                    -124.56,
+                    42.6599999
+                ],
+                [
+                    -124.58,
+                    42.99
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012411-3405028",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012411-3405028",
+        "areaDesc": "Curry, OR; Coos, OR",
+        "geocode": {
+            "UGC": [
+                "ORC015",
+                "ORC011"
+            ],
+            "SAME": [
+                "041015",
+                "041011"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ORC015",
+            "https://api.weather.gov/zones/county/ORC011"
+        ],
+        "references": [],
+        "sent": "2020-01-15T13:54:00-08:00",
+        "effective": "2020-01-15T13:54:00-08:00",
+        "onset": "2020-01-15T13:54:00-08:00",
+        "expires": "2020-01-15T14:30:00-08:00",
+        "ends": "2020-01-15T14:30:00-08:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Medford OR",
+        "headline": "Severe Thunderstorm Warning issued January 15 at 1:54PM PST until January 15 at 2:30PM PST by NWS Medford OR",
+        "description": "The National Weather Service in Medford has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Curry County in southwestern Oregon...\nSouthwestern Coos County in southwestern Oregon...\n\n* Until 230 PM PST.\n\n* At 152 PM PST, a severe thunderstorm was located 9 miles southwest\nof Port Orford, moving northeast at 45 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nPort Orford, Bandon, Powers, Langlois, Sixes, Cape Blanco State\nPark, Humbug Mountain State Park, Sixes River Campground, Edson\nCreek Campground and Denmark.\n\nThis includes the following highways...\nHighway 42 south in Oregon near mile marker 1.\nUS 101 in Oregon between mile markers 261 and 309.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T13:52:00.000-08:00...storm...215DEG...50KT...42.7,-124.67"
+            ],
+            "hailSize": [
+                0.75
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KMFR.SV.W.0001.200115T2154Z-200115T2230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MFRSVRMFR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T14:30:00-08:00"
+            ]
+        }
+    }
+}
