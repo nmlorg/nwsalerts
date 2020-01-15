@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010446",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -115.87,
+                    42.1
+                ],
+                [
+                    -114.91000000000001,
+                    42.870000000000005
+                ],
+                [
+                    -113.93,
+                    42.74
+                ],
+                [
+                    -114.85000000000001,
+                    42
+                ],
+                [
+                    -115.49000000000001,
+                    41.99
+                ],
+                [
+                    -115.87,
+                    42.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010446",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010446",
+        "areaDesc": "Southern Twin  Falls County; Southwest Highlands; Western Magic Valley; Upper Treasure Valley",
+        "geocode": {
+            "UGC": [
+                "IDZ030",
+                "IDZ015",
+                "IDZ016",
+                "IDZ014"
+            ],
+            "SAME": [
+                "016083",
+                "016073",
+                "016047",
+                "016053",
+                "016001",
+                "016039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/IDZ030",
+            "https://api.weather.gov/zones/forecast/IDZ015",
+            "https://api.weather.gov/zones/forecast/IDZ016",
+            "https://api.weather.gov/zones/forecast/IDZ014"
+        ],
+        "references": [],
+        "sent": "2020-01-14T17:17:00-07:00",
+        "effective": "2020-01-14T17:17:00-07:00",
+        "onset": "2020-01-14T17:17:00-07:00",
+        "expires": "2020-01-14T18:15:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Boise ID",
+        "headline": "Special Weather Statement issued January 14 at 5:17PM MST by NWS Boise ID",
+        "description": "At 516 PM MST, Doppler radar was tracking a line of heavy snow along\na line extending from near Hagerman to 6 miles northwest of Black\nStone Mountain. Movement was east at 35 mph.\n\nWind gusts up to 50 mph will be possible with these storms.\n\nStrong thunderstorms will be near...\nHagerman around 530 PM MST.\nWendell, Buhl and Castleford around 540 PM MST.\nPoison Butte, Clover Butte, Juniper Ranch and Clover Creek\nCrossing around 550 PM MST.\nJerome, Filer, Murphy Hot Springs and Middle Butte around 600 PM\nMST.\nTwin Falls, Kimberly, Eden and Hansen around 610 PM MST.",
+        "instruction": "When safe to do so, please relay storm reports to the National\nWeather Service in Boise via local law enforcement, or National\nWeather Service Boise Facebook and Twitter accounts.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-14T17:16:00.000-07:00...storm...284DEG...30KT...42.82,-115.0 42.16,-115.83"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR TWIN FALLS...JEROME... SOUTHEASTERN OWYHEE AND SOUTHEASTERN GOODING COUNTIES UNTIL 615 PM MST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BOISPSBOI"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
