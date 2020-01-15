@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010720-3403554",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.81,
+                    33.24
+                ],
+                [
+                    -90.62,
+                    33.63
+                ],
+                [
+                    -90.75,
+                    33.88
+                ],
+                [
+                    -90.59,
+                    33.99
+                ],
+                [
+                    -90.48,
+                    33.63
+                ],
+                [
+                    -90.64,
+                    33.24
+                ],
+                [
+                    -90.81,
+                    33.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010720-3403554",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010720-3403554",
+        "areaDesc": "Sunflower, MS",
+        "geocode": {
+            "UGC": [
+                "MSC133"
+            ],
+            "SAME": [
+                "028133"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC133"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009802-3402753",
+                "identifier": "NWS-IDP-PROD-4009802-3402753",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T11:13:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T20:41:00-06:00",
+        "effective": "2020-01-14T20:41:00-06:00",
+        "onset": "2020-01-16T12:00:00-06:00",
+        "expires": "2020-01-16T02:40:00-06:00",
+        "ends": "2020-01-17T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 14 at 8:41PM CST until January 17 at 6:00PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nYalobusha At Whaley affecting Carroll and Leflore Counties\nBig Sunflower River Near Anguilla affecting Sharkey County\nBig Sunflower River At Sunflower affecting Sunflower County\n\nThe Flood Warning continues for\nThe Big Sunflower River At Sunflower\n* from Thursday afternoon to Friday evening.\n* At 7:00 PM Tuesday the stage was 20.0 feet.\n* Flood stage is 21.0 feet.\n* Forecast...The river is expected to rise to near flood stage early\nThursday afternoon.\n* Impact...At 21.0 feet...Field west of river begins to flood.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0042.200116T1800Z-200118T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T18:00:00-06:00"
+            ]
+        }
+    }
+}

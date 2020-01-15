@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010716-3403550",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.56,
+                    33.32
+                ],
+                [
+                    -84.51,
+                    33.35
+                ],
+                [
+                    -84.48,
+                    33.300000000000004
+                ],
+                [
+                    -84.55,
+                    33.28
+                ],
+                [
+                    -84.56,
+                    33.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010716-3403550",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010716-3403550",
+        "areaDesc": "Fayette, GA; Coweta, GA; Spalding, GA",
+        "geocode": {
+            "UGC": [
+                "GAC113",
+                "GAC077",
+                "GAC255"
+            ],
+            "SAME": [
+                "013113",
+                "013077",
+                "013255"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC113",
+            "https://api.weather.gov/zones/county/GAC077",
+            "https://api.weather.gov/zones/county/GAC255"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010080-3402986",
+                "identifier": "NWS-IDP-PROD-4010080-3402986",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T15:42:00-05:00"
+            }
+        ],
+        "sent": "2020-01-14T21:40:00-05:00",
+        "effective": "2020-01-14T21:40:00-05:00",
+        "onset": "2020-01-14T21:40:00-05:00",
+        "expires": "2020-01-15T11:40:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 14 at 9:40PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nChattahoochee River near Columbus affecting Lee...Russell...\nChattahoochee and Muscogee Counties\n\nFlint River near Griffin Hwy. 16 affecting Fayette and Spalding\nCounties\n\nYellowJacket Creek near Hogansville affecting Troup County\n\nLine Creek near Senoia affecting Coweta...Fayette and Spalding\nCounties\n\nThe Flood Warning continues for\nThe Line Creek near Senoia.\n* Until further notice.\n* At 915 PM Tuesday the stage was 10.3 feet and falling.\n* Minor flooding is occurring, and minor flooding is expected to\ncontinue.\n* Flood stage is 10 feet.\n* At 10 feet, minor flooding of the natural flood plain occurs which\nprimarily affects agricultural and wooded areas and a small, dirt\nutility access road near the Georgia Highway 85 bridge goes\nunderwater.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0018.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
