@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011233-3403963",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.83,
+                    33.63
+                ],
+                [
+                    -82.8,
+                    33.68
+                ],
+                [
+                    -82.7,
+                    33.64
+                ],
+                [
+                    -82.60000000000001,
+                    33.67
+                ],
+                [
+                    -82.58000000000001,
+                    33.61
+                ],
+                [
+                    -82.72000000000001,
+                    33.58
+                ],
+                [
+                    -82.83,
+                    33.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011233-3403963",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4011233-3403963",
+        "areaDesc": "Taliaferro, GA; Wilkes, GA",
+        "geocode": {
+            "UGC": [
+                "GAC265",
+                "GAC317"
+            ],
+            "SAME": [
+                "013265",
+                "013317"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC265",
+            "https://api.weather.gov/zones/county/GAC317"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010680-3403523",
+                "identifier": "NWS-IDP-PROD-4010680-3403523",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T21:24:00-05:00"
+            }
+        ],
+        "sent": "2020-01-15T04:20:00-05:00",
+        "effective": "2020-01-15T04:20:00-05:00",
+        "onset": "2020-01-15T04:20:00-05:00",
+        "expires": "2020-01-15T18:20:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 15 at 4:20AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nYellowJacket Creek near Hogansville affecting Troup County\n\nLine Creek near Senoia affecting Coweta...Fayette and Spalding\nCounties\n\nFlint River near Griffin Hwy. 16 affecting Fayette and Spalding\nCounties\n\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties\n\nOconee River near Penfield affecting Clarke...Greene and Oconee\nCounties\n\nLittle River near Washington affecting Taliaferro and Wilkes\nCounties\n\nThe Flood Warning continues for\nThe Little River near Washington.\n* Until further notice.\n* At 4 AM Wednesday the stage was 20.1 feet...and\nfalling.\n* Minor flooding is occurring.\n* Flood stage is 19 feet.\n* At 21.0 feet...Minor flooding continues in the woodlands and fields\nalong the river upstream and downstream from the gage at Lundberg\nRoad.\n* This crest compares to a previous crest of 20.7 feet on Jan 1 2016.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0016.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

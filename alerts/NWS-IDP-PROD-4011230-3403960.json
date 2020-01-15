@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011230-3403960",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.72,
+                    32.9
+                ],
+                [
+                    -83.67,
+                    32.93
+                ],
+                [
+                    -83.56,
+                    32.82
+                ],
+                [
+                    -83.53,
+                    32.6599999
+                ],
+                [
+                    -83.59,
+                    32.63
+                ],
+                [
+                    -83.63000000000001,
+                    32.74
+                ],
+                [
+                    -83.72,
+                    32.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011230-3403960",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4011230-3403960",
+        "areaDesc": "Jones, GA; Twiggs, GA; Monroe, GA; Bibb, GA; Houston, GA",
+        "geocode": {
+            "UGC": [
+                "GAC169",
+                "GAC289",
+                "GAC207",
+                "GAC021",
+                "GAC153"
+            ],
+            "SAME": [
+                "013169",
+                "013289",
+                "013207",
+                "013021",
+                "013153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC169",
+            "https://api.weather.gov/zones/county/GAC289",
+            "https://api.weather.gov/zones/county/GAC207",
+            "https://api.weather.gov/zones/county/GAC021",
+            "https://api.weather.gov/zones/county/GAC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010679-3403522",
+                "identifier": "NWS-IDP-PROD-4010679-3403522",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T21:24:00-05:00"
+            }
+        ],
+        "sent": "2020-01-15T04:20:00-05:00",
+        "effective": "2020-01-15T04:20:00-05:00",
+        "onset": "2020-01-15T04:20:00-05:00",
+        "expires": "2020-01-15T18:20:00-05:00",
+        "ends": "2020-01-19T11:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 15 at 4:20AM EST until January 19 at 11:30AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nYellowJacket Creek near Hogansville affecting Troup County\n\nLine Creek near Senoia affecting Coweta...Fayette and Spalding\nCounties\n\nFlint River near Griffin Hwy. 16 affecting Fayette and Spalding\nCounties\n\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties\n\nOconee River near Penfield affecting Clarke...Greene and Oconee\nCounties\n\nLittle River near Washington affecting Taliaferro and Wilkes\nCounties\n\nThe Flood Warning continues for\nThe Ocmulgee River near Macon.\n* Until Sunday morning.\n* At 3 AM Wednesday the stage was 22.2 feet...and\nrising.\n* Minor flooding is occurring.\n* Flood stage is 18 feet.\n* The river will continue rising to near 22.8 feet by after midnight\ntomorrow. The river will fall below flood stage Sunday morning.\n* At 23 feet...Minor flooding continues to expand. Large portions\nof the Macon GreenWay Ocmulgee Heritage Trail floods north of the\nMartin Luther King Boulevard bridge. The flood waters will be up to\n3 feet deep on portions of the trail. Large portions of\nagricultural lands east of Macon and well downstream will be under\n1 to 5 feet of water.\n* This crest compares to a previous crest of 22.4 feet on Apr 2 2016.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0015.000000T0000Z-200119T1630Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T11:30:00-05:00"
+            ]
+        }
+    }
+}
