@@ -1,0 +1,85 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011183-3403932",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011183-3403932",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4011183-3403932",
+        "areaDesc": "McHenry; Kendall; Kane; Boone",
+        "geocode": {
+            "UGC": [
+                "ILZ005",
+                "ILZ020",
+                "ILZ012",
+                "ILZ004"
+            ],
+            "SAME": [
+                "017111",
+                "017093",
+                "017089",
+                "017007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ILZ005",
+            "https://api.weather.gov/zones/forecast/ILZ020",
+            "https://api.weather.gov/zones/forecast/ILZ012",
+            "https://api.weather.gov/zones/forecast/ILZ004"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010820-3403620",
+                "identifier": "NWS-IDP-PROD-4010820-3403620",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T21:14:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010058-3402975",
+                "identifier": "NWS-IDP-PROD-4010058-3402975",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T14:33:00-06:00"
+            }
+        ],
+        "sent": "2020-01-15T03:03:00-06:00",
+        "effective": "2020-01-15T03:03:00-06:00",
+        "onset": "2020-01-15T06:00:00-06:00",
+        "expires": "2020-01-15T11:15:00-06:00",
+        "ends": "2020-01-15T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Winter Weather Advisory issued January 15 at 3:03AM CST until January 15 at 12:00PM CST by NWS Chicago IL",
+        "description": "...Period of Freezing Drizzle Expected This Morning...\n\n* WHAT...Freezing drizzle expected. Total ice accumulations of a\nlight glaze to a few hundredths of an inch.\n\n* WHERE...Portions of north central and northeast Illinois,\nincluding the north and west suburbs of Chicago.\n\n* WHEN...From 6 AM to noon CST Wednesday.\n\n* IMPACTS...Very slippery sidewalks, roads and bridges are\npossible. The hazardous conditions could impact the morning\ncommute.\n\n* ADDITIONAL NOTES...Areas of fog are also expected this morning\nand some of this may cause patchy slick spots as well.",
+        "instruction": "while traveling, especially on untreated surfaces.\n\nThe latest road conditions for Illinois can be obtained on the\ninternet at www.gettingaroundillinois.com.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT FROM 6 AM THIS MORNING TO NOON CST TODAY"
+            ],
+            "HazardType": [
+                "Freezing Rain"
+            ],
+            "VTEC": [
+                "/O.CON.KLOT.WW.Y.0003.200115T1200Z-200115T1800Z/"
+            ],
+            "PIL": [
+                "LOTWSWLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T12:00:00-06:00"
+            ]
+        }
+    }
+}
