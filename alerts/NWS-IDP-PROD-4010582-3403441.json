@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010582-3403441",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.59,
+                    37.2299999
+                ],
+                [
+                    -89.41,
+                    37.25
+                ],
+                [
+                    -89.28999999999999,
+                    37.13
+                ],
+                [
+                    -89.45999989999999,
+                    37.09
+                ],
+                [
+                    -89.59,
+                    37.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010582-3403441",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010582-3403441",
+        "areaDesc": "Scott, MO; Alexander, IL",
+        "geocode": {
+            "UGC": [
+                "MOC201",
+                "ILC003"
+            ],
+            "SAME": [
+                "029201",
+                "017003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC201",
+            "https://api.weather.gov/zones/county/ILC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010509-3403378",
+                "identifier": "NWS-IDP-PROD-4010509-3403378",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T19:13:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T20:00:00-06:00",
+        "effective": "2020-01-14T20:00:00-06:00",
+        "onset": "2020-01-14T19:13:00-06:00",
+        "expires": "2020-01-15T23:12:00-06:00",
+        "ends": "2020-01-20T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 14 at 7:13PM CST until January 20 at 6:00AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following river in\nIllinois...Missouri...Kentucky...\n\nMississippi River at Cape Girardeau...Thebes...New Madrid\n\n.Recent heavy rainfall over the mid Mississippi River basin has caused\nriver levels to rise. Minor flooding is occurring at Cape Girardeau and\nThebes, and moderate flooding is forecast to develop early this week.\nCrests are expected to occur on Thursday. At New Madrid, minor flooding\nis occurring with the crest forecast for Sunday.\n\nThe Flood Warning continues for\nthe Mississippi River at Thebes\n* until Monday morning.\n* At  6:30 PM Tuesday the stage was 36.1 feet.\n* Flood Stage is 33.0 feet.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to near 37.0 feet by\nThursday morning. The river will fall below flood stage early\nMonday morning.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0012.000000T0000Z-200120T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T06:00:00-06:00"
+            ]
+        }
+    }
+}
