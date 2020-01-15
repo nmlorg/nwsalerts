@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012031-3404673",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.84,
+                    33.61
+                ],
+                [
+                    -83.78,
+                    33.58
+                ],
+                [
+                    -83.81,
+                    33.44
+                ],
+                [
+                    -83.86,
+                    33.44
+                ],
+                [
+                    -83.84,
+                    33.61
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012031-3404673",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012031-3404673",
+        "areaDesc": "Newton, GA",
+        "geocode": {
+            "UGC": [
+                "GAC217"
+            ],
+            "SAME": [
+                "013217"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC217"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011725-3404401",
+                "identifier": "NWS-IDP-PROD-4011725-3404401",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T09:51:00-05:00"
+            }
+        ],
+        "sent": "2020-01-15T12:23:00-05:00",
+        "effective": "2020-01-15T12:23:00-05:00",
+        "onset": "2020-01-15T12:23:00-05:00",
+        "expires": "2020-01-16T02:23:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 15 at 12:23PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nAlcovy River near High Point affecting Newton County\n\nThe Flood Warning continues for\nThe Alcovy River near High Point.\n* Until further notice.\n* At 12 PM Wednesday the stage was 11.4 feet and steady.\n* Minor flooding is occurring.\n* Flood stage is 11 feet.\n* At 11 feet...Flood Stage is reached. Minor flooding begins of\nwoodlands and fields near the river upstream and downstream from\nthe gage on Henderson Mill Road. The water level reaches the first\nwooden step behind an elevated private residence just upstream and\non the left bank from the bridge.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0028.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
