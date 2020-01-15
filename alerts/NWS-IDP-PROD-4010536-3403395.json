@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010536-3403395",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.3,
+                    33.26
+                ],
+                [
+                    -95.06,
+                    33.339999999999996
+                ],
+                [
+                    -94.7099999,
+                    33.3
+                ],
+                [
+                    -94.66,
+                    33.269999999999996
+                ],
+                [
+                    -94.72,
+                    33.24999999999999
+                ],
+                [
+                    -95.3,
+                    33.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010536-3403395",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010536-3403395",
+        "areaDesc": "Morris, TX; Franklin, TX; Titus, TX",
+        "geocode": {
+            "UGC": [
+                "TXC343",
+                "TXC159",
+                "TXC449"
+            ],
+            "SAME": [
+                "048343",
+                "048159",
+                "048449"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC343",
+            "https://api.weather.gov/zones/county/TXC159",
+            "https://api.weather.gov/zones/county/TXC449"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009631-3402592",
+                "identifier": "NWS-IDP-PROD-4009631-3402592",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T09:42:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T19:29:00-06:00",
+        "effective": "2020-01-14T19:29:00-06:00",
+        "onset": "2020-01-14T19:29:00-06:00",
+        "expires": "2020-01-15T19:29:00-06:00",
+        "ends": "2020-01-18T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued January 14 at 7:29PM CST until January 18 at 12:00AM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe White Oak Creek Near Talco.\n* until late Friday night...or until the warning is cancelled.\n* At  6:15 PM Tuesday The stage was 16.8 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 16.0 feet.\n* Forecast...The river will continue to fall to below flood stage by\nFriday morning.\n* Impact...at 16.0 feet...Expect minor lowland flooding of creek\nbottoms. Ranchers that may have cattle and equipment in the creek\nbottoms should move them to higher ground.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSHV.FL.W.0004.000000T0000Z-200118T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T00:00:00-06:00"
+            ]
+        }
+    }
+}
