@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010947",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -110.23,
+                    47.39
+                ],
+                [
+                    -109.8,
+                    47.13
+                ],
+                [
+                    -109.8,
+                    46.75
+                ],
+                [
+                    -111.72,
+                    46.79
+                ],
+                [
+                    -111.34,
+                    47.22
+                ],
+                [
+                    -110.23,
+                    47.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010947",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010947",
+        "areaDesc": "Fergus; Central and Southern Lewis and Clark; Judith Basin; Meagher; Cascade",
+        "geocode": {
+            "UGC": [
+                "MTZ051",
+                "MTZ014",
+                "MTZ050",
+                "MTZ054",
+                "MTZ012"
+            ],
+            "SAME": [
+                "030027",
+                "030049",
+                "030045",
+                "030059",
+                "030013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MTZ051",
+            "https://api.weather.gov/zones/forecast/MTZ014",
+            "https://api.weather.gov/zones/forecast/MTZ050",
+            "https://api.weather.gov/zones/forecast/MTZ054",
+            "https://api.weather.gov/zones/forecast/MTZ012"
+        ],
+        "references": [],
+        "sent": "2020-01-14T21:48:00-07:00",
+        "effective": "2020-01-14T21:48:00-07:00",
+        "onset": "2020-01-14T21:48:00-07:00",
+        "expires": "2020-01-14T22:30:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Great Falls MT",
+        "headline": "Special Weather Statement issued January 14 at 9:48PM MST by NWS Great Falls MT",
+        "description": "At 941 PM MST, Doppler radar was tracking a line of snow showers\nalong a line extending from 20 miles southeast of Cascade to 23\nmiles northeast of East Helena. Movement was east at 20 mph.\n\nExpect a brief period of moderate snow along with reduced visibility\ndown to a quarter of a mile. Use caution if traveling as roads may\nbecome slippery.\n\nLocations impacted include...\nStanford, Hobson, Geyser, Neihart, Raynesford, Windham, Moccasin,\nMonarch, Sluice Boxes State Park, Ackley Lake State Park, Sapphire\nVillage, Utica, Buffalo and Benchland.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-14T21:41:00.000-07:00...storm...279DEG...16KT...47.15,-111.31 46.84,-111.58"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TFXSPSTFX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
