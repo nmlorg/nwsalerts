@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011758-3404438",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.8,
+                    31.86
+                ],
+                [
+                    -91.92,
+                    31.96
+                ],
+                [
+                    -92.01,
+                    32.050000000000004
+                ],
+                [
+                    -92.02000000000001,
+                    32.120000000000005
+                ],
+                [
+                    -91.84,
+                    32.18000000000001
+                ],
+                [
+                    -91.79,
+                    31.950000000000006
+                ],
+                [
+                    -91.8,
+                    31.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011758-3404438",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4011758-3404438",
+        "areaDesc": "Franklin, LA",
+        "geocode": {
+            "UGC": [
+                "LAC041"
+            ],
+            "SAME": [
+                "022041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010596-3403454",
+                "identifier": "NWS-IDP-PROD-4010596-3403454",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T20:07:00-06:00"
+            }
+        ],
+        "sent": "2020-01-15T09:05:00-06:00",
+        "effective": "2020-01-15T09:05:00-06:00",
+        "onset": "2020-01-15T09:05:00-06:00",
+        "expires": "2020-01-16T15:04:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 15 at 9:05AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nLouisiana..\n\nBoeuf River Near Fort Necessity affecting Franklin Parish\n\nThe Flood Warning continues for\nThe Boeuf River Near Fort Necessity\n* until further notice.\n* At  8:00 AM Wednesday the stage was 49.6 feet.\n* Minor flooding is forecast.\n* Flood stage is 50.0 feet.\n* Forecast...The river will rise above flood stage this afternoon and\nwill continue to rise to near 53.0 feet early Friday morning.\n* Impact...At 50.0 feet...Widespread flooding of farm and agricultural\nland is occurring along and near the river.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. Rainfall amounts greater than forecast may take the rivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0040.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
