@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012387-3405003",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.58,
+                    36.22
+                ],
+                [
+                    -86.67,
+                    36.31
+                ],
+                [
+                    -86.34,
+                    36.400000000000006
+                ],
+                [
+                    -86.0699999,
+                    36.36000000000001
+                ],
+                [
+                    -86.13,
+                    36.290000000000006
+                ],
+                [
+                    -86.33999999999999,
+                    36.290000000000006
+                ],
+                [
+                    -86.58,
+                    36.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012387-3405003",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012387-3405003",
+        "areaDesc": "Wilson, TN; Sumner, TN; Trousdale, TN",
+        "geocode": {
+            "UGC": [
+                "TNC189",
+                "TNC165",
+                "TNC169"
+            ],
+            "SAME": [
+                "047189",
+                "047165",
+                "047169"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC189",
+            "https://api.weather.gov/zones/county/TNC165",
+            "https://api.weather.gov/zones/county/TNC169"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011309-3404004",
+                "identifier": "NWS-IDP-PROD-4011309-3404004",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T04:01:00-06:00"
+            }
+        ],
+        "sent": "2020-01-15T15:39:00-06:00",
+        "effective": "2020-01-15T15:39:00-06:00",
+        "onset": "2020-01-15T15:39:00-06:00",
+        "expires": "2020-01-15T20:06:00-06:00",
+        "ends": "2020-01-15T20:06:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued January 15 at 3:39PM CST until January 15 at 8:06PM CST by NWS Nashville TN",
+        "description": "...The Flood Advisory continues for the Cumberland River...\n\nCumberland River At Hunters Point affecting Sumner...Trousdale and Wilson\nCounties\n\n. Recent rainfall has caused the Cumberland River at Hunters Point to reach\naction stage, and it may remain at or above action stage for a few days.\n\nThe Flood Advisory continues for\nThe Cumberland River At Hunters Point\n* Until this evening.\n* At 03PM Wednesday the stage was 48.1 feet.\n* Action stage is 48.0 feet.\n* Flood stage is 52.0 feet.\n* At 50.0 feet...Agricultural land, recreation areas, boat launches, and marinas\nalong and near the river continue to be inundated including the Drakes Creek\nand Rockland areas in Hendersonville, portions of Old Hickory, Cedar Creek in\nMount Juliet, areas near Laguardo, Station Camp Creek in Gallatin, Bledsoe\nCreek State Park in Castalian Springs, and Hunters Point in Lebanon.\n* At 48.0 feet...Areas along the river begin to be inundated from Beasleys Bend\nin Wilson County downstream to Old Hickory Dam. This includes agricultural\nland adjacent to the river, recreation areas, boat launch areas, and marinas\nin Hendersonville, Old Hickory, Mount Juliet, Lauguardo, Lebanon, Gallatin,\nand Castalian Springs.",
+        "instruction": "Stay tuned to NOAA weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0024.000000T0000Z-200116T0206Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T20:06:00-06:00"
+            ]
+        }
+    }
+}
