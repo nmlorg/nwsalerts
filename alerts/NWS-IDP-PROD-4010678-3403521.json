@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010678-3403521",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.16,
+                    32.97
+                ],
+                [
+                    -83.13,
+                    33.019999999999996
+                ],
+                [
+                    -83.03999999999999,
+                    32.959999999999994
+                ],
+                [
+                    -82.97999999999999,
+                    32.879999999999995
+                ],
+                [
+                    -83.02999999999999,
+                    32.839999999999996
+                ],
+                [
+                    -83.10999999999999,
+                    32.919999999999995
+                ],
+                [
+                    -83.16,
+                    32.97
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010678-3403521",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010678-3403521",
+        "areaDesc": "Washington, GA; Wilkinson, GA",
+        "geocode": {
+            "UGC": [
+                "GAC303",
+                "GAC319"
+            ],
+            "SAME": [
+                "013303",
+                "013319"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC303",
+            "https://api.weather.gov/zones/county/GAC319"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010096-3403002",
+                "identifier": "NWS-IDP-PROD-4010096-3403002",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T15:47:00-05:00"
+            }
+        ],
+        "sent": "2020-01-14T21:24:00-05:00",
+        "effective": "2020-01-14T21:24:00-05:00",
+        "onset": "2020-01-14T21:24:00-05:00",
+        "expires": "2020-01-15T11:24:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 14 at 9:24PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties\n\nOconee River near Penfield affecting Clarke...Greene and Oconee\nCounties\n\nOconee River near Oconee affecting Johnson...Washington and\nWilkinson Counties\n\nOconee River near Oconee affecting Washington and Wilkinson\nCounties\n\nLittle River near Washington affecting Taliaferro and Wilkes\nCounties\n\nThe Flood Warning continues for\nThe Oconee River near Oconee.\n* Until further notice.\n* At 845 PM Tuesday the stage was 18.5 feet and nearly steady.\n* Minor flooding is occurring, and minor flooding is expected to\ncontinue.\n* Flood stage is 18 feet.\n* At 18 feet, minor flooding occurs in the woodlands and wetlands\nalong the river upstream and downstream from the gage located by a\ndirt boat ramp on the west side of the Avant Mine off Adams Road in\nWashington County. The water level will be at the top of the boat\nramp.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0021.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
