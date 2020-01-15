@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012433",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.59,
+                    36.65
+                ],
+                [
+                    -86.9599999,
+                    36.65
+                ],
+                [
+                    -86.53,
+                    36.979999899999996
+                ],
+                [
+                    -86.05,
+                    36.92999999999999
+                ],
+                [
+                    -86.41,
+                    36.64999999999999
+                ],
+                [
+                    -86.50999999999999,
+                    36.64999999999999
+                ],
+                [
+                    -86.55999999999999,
+                    36.62999999999999
+                ],
+                [
+                    -86.59,
+                    36.65
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012433",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012433",
+        "areaDesc": "Logan; Barren; Simpson; Allen; Warren",
+        "geocode": {
+            "UGC": [
+                "KYZ070",
+                "KYZ074",
+                "KYZ072",
+                "KYZ073",
+                "KYZ071"
+            ],
+            "SAME": [
+                "021141",
+                "021009",
+                "021213",
+                "021003",
+                "021227"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KYZ070",
+            "https://api.weather.gov/zones/forecast/KYZ074",
+            "https://api.weather.gov/zones/forecast/KYZ072",
+            "https://api.weather.gov/zones/forecast/KYZ073",
+            "https://api.weather.gov/zones/forecast/KYZ071"
+        ],
+        "references": [],
+        "sent": "2020-01-15T16:13:00-06:00",
+        "effective": "2020-01-15T16:13:00-06:00",
+        "onset": "2020-01-15T16:13:00-06:00",
+        "expires": "2020-01-15T17:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Special Weather Statement issued January 15 at 4:13PM CST by NWS Louisville KY",
+        "description": "At 412 PM CST, radar indicated showers and thunderstorms were\nlocated along a line extending from near Memphis Junction to 8 miles\nnorth of Springfield. Movement was east at 20 mph.\n\nWinds in excess of 30 mph are possible with these storms.\n\nLocations impacted include...\nBowling Green, Crestmoor, Memphis Junction, Adairville, Woodburn,\nHardcastle, Allen Springs, Black Jack, West Fork and Rich Pond.\n\nTo report severe weather, contact your nearest law enforcement\nagency. They can relay your report to the National Weather Service\noffice in Louisville.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T16:12:00.000-06:00...storm...286DEG...18KT...36.92,-86.53 36.61,-86.93"
+            ],
+            "NWSheadline": [
+                "A LINE OF SHOWERS AND THUNDERSTORMS WILL AFFECT SOUTHEASTERN LOGAN... SIMPSON...NORTHWESTERN ALLEN...SOUTHERN WARREN AND WEST CENTRAL BARREN COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKSPSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
