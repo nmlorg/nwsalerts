@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010492-3403361",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91,
+                    35.15
+                ],
+                [
+                    -90.73,
+                    35.15
+                ],
+                [
+                    -90.75,
+                    35
+                ],
+                [
+                    -90.81,
+                    34.79
+                ],
+                [
+                    -91.01,
+                    34.9099999
+                ],
+                [
+                    -91,
+                    35.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010492-3403361",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010492-3403361",
+        "areaDesc": "Lee, AR; St. Francis, AR",
+        "geocode": {
+            "UGC": [
+                "ARC077",
+                "ARC123"
+            ],
+            "SAME": [
+                "005077",
+                "005123"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC077",
+            "https://api.weather.gov/zones/county/ARC123"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009509-3402496",
+                "identifier": "NWS-IDP-PROD-4009509-3402496",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T08:49:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T19:06:00-06:00",
+        "effective": "2020-01-14T19:06:00-06:00",
+        "onset": "2020-01-15T06:00:00-06:00",
+        "expires": "2020-01-15T19:06:00-06:00",
+        "ends": "2020-01-16T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 14 at 7:06PM CST until January 16 at 6:00AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the L'anguille River...Saint Francis\nRiver.\n\nThe Flood Warning continues for\nthe L'anguille River at Palestine\n* from Wednesday January 15 until Thursday January 16.\n* At 6 PM Tuesday the stage was 24.8 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 25.0 feet on Wednesday January 15.\n* Flood stage is 25.0 feet.\n* At 25.0 feet...Flooding of large areas of agricultural land along\nthe river is occurring.",
+        "instruction": "A followup Flood Statement will be issued when conditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.W.0026.200115T1200Z-200116T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T06:00:00-06:00"
+            ]
+        }
+    }
+}
