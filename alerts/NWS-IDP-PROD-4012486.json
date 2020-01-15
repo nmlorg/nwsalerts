@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012486",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.3,
+                    36.65
+                ],
+                [
+                    -86.52,
+                    36.39
+                ],
+                [
+                    -86.67999999999999,
+                    36.52
+                ],
+                [
+                    -86.61,
+                    36.650000000000006
+                ],
+                [
+                    -86.58,
+                    36.650000000000006
+                ],
+                [
+                    -86.5699999,
+                    36.63
+                ],
+                [
+                    -86.55,
+                    36.64
+                ],
+                [
+                    -86.53999999999999,
+                    36.64
+                ],
+                [
+                    -86.50999999999999,
+                    36.65
+                ],
+                [
+                    -86.3,
+                    36.65
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012486",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012486",
+        "areaDesc": "Sumner; Robertson",
+        "geocode": {
+            "UGC": [
+                "TNZ008",
+                "TNZ007"
+            ],
+            "SAME": [
+                "047165",
+                "047147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TNZ008",
+            "https://api.weather.gov/zones/forecast/TNZ007"
+        ],
+        "references": [],
+        "sent": "2020-01-15T17:01:00-06:00",
+        "effective": "2020-01-15T17:01:00-06:00",
+        "onset": "2020-01-15T17:01:00-06:00",
+        "expires": "2020-01-15T17:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Special Weather Statement issued January 15 at 5:01PM CST by NWS Nashville TN",
+        "description": "At 501 PM CST, Doppler radar was tracking a strong thunderstorm near\nCross Plains, or 14 miles northwest of Gallatin, moving east at 25\nmph.\n\nWinds in excess of 30 mph will be possible with this storm.\n\nLocations impacted include...\nWhite House, Cross Plains, Portland, Orlinda, Mitchellville,\nCottontown, Oak Grove and Black Jack.\n\nThis includes Interstate 65 between mile markers 111 and 121.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T17:01:00.000-06:00...storm...277DEG...23KT...36.54,-86.62"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHWESTERN SUMNER AND NORTHEASTERN ROBERTSON COUNTIES UNTIL 530 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSPSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
