@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011671-3404352",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.36,
+                    39.6
+                ],
+                [
+                    -87.4,
+                    39.43
+                ],
+                [
+                    -87.5699999,
+                    39.3
+                ],
+                [
+                    -87.63,
+                    39.32
+                ],
+                [
+                    -87.47,
+                    39.45
+                ],
+                [
+                    -87.41,
+                    39.6
+                ],
+                [
+                    -87.36,
+                    39.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011671-3404352",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4011671-3404352",
+        "areaDesc": "Crawford, IL; Sullivan, IN; Clark, IL; Vigo, IN",
+        "geocode": {
+            "UGC": [
+                "ILC033",
+                "INC153",
+                "ILC023",
+                "INC167"
+            ],
+            "SAME": [
+                "017033",
+                "018153",
+                "017023",
+                "018167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC153",
+            "https://api.weather.gov/zones/county/ILC023",
+            "https://api.weather.gov/zones/county/INC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010608-3403464",
+                "identifier": "NWS-IDP-PROD-4010608-3403464",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T21:09:00-05:00"
+            }
+        ],
+        "sent": "2020-01-15T09:35:00-05:00",
+        "effective": "2020-01-15T09:35:00-05:00",
+        "onset": "2020-01-15T09:35:00-05:00",
+        "expires": "2020-01-16T09:34:00-05:00",
+        "ends": "2020-01-22T14:20:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 15 at 9:35AM EST until January 22 at 2:20PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...Wabash River...White River...\n\n.As of Wednesday morning, minor to moderate flooding either\ncontinues or is forecast on the Wabash, White, and East Fork White\nRivers in central and southern Indiana. This flooding is the result\nof up to about 4 inches of rain that fell late last week.\n\nCrests will be/are comparable to those that occurred in February\nand June of 2019.\n\nThe Wabash River is either cresting or slightly past crest from\nCovington to Terre Haute.  The crest will reach Hutsonville\nFriday.  The White River crest is between Elliston and\nNewberry.  The crest along the East Fork White River is nearing\nnearing Rivervale. Flooding along the lower portions of the White\nand Wabash River is likely to continue until the weekend of\nJanuary 25.\n\nLittle or no precipitation is in the forecast through Thursday,\nwhich will allow drainage to continue out of area rivers this week.\nAbove normal precipitation is possible this coming Friday through\nSaturday, which could exacerbate elevated water levels and lead to\nrenewed flooding on area waterways.  Precipitation is expected to\nstart off as snow then transition to rain late Friday into Friday\nnight.\n\nThe Flood Warning continues for\nThe Wabash River at Terre Haute.\n* until Wednesday January 22.\n* At  8:30 AM Wednesday the stage was 22.2 feet. This is 2.0 to 2.5\nfeet higher than the observations from the old legacy gauge.\n* Flood stage is 16.5 feet. This is 2.5 feet higher than flood stage\nfrom the old legacy gauge.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will continue to fall to below flood stage by\nWednesday January 22.\n* At 22.0 feet...Pottsville Street just northwest of Terre Haute is\nflooded.  Lowland flooding in progress with several river roads\nflooded in Clark County Illinois.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0016.000000T0000Z-200122T1920Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T14:20:00-05:00"
+            ]
+        }
+    }
+}
