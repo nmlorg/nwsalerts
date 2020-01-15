@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010530-3403389",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.28,
+                    34.9099999
+                ],
+                [
+                    -86.06,
+                    34.89
+                ],
+                [
+                    -86.37,
+                    34.42
+                ],
+                [
+                    -86.53,
+                    34.5
+                ],
+                [
+                    -86.28,
+                    34.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4010530-3403389",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4010530-3403389",
+        "areaDesc": "Madison, AL; Marshall, AL; Jackson, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089",
+                "ALC095",
+                "ALC071"
+            ],
+            "SAME": [
+                "001089",
+                "001095",
+                "001071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089",
+            "https://api.weather.gov/zones/county/ALC095",
+            "https://api.weather.gov/zones/county/ALC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4009961-3402883",
+                "identifier": "NWS-IDP-PROD-4009961-3402883",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-14T13:37:00-06:00"
+            }
+        ],
+        "sent": "2020-01-14T19:24:00-06:00",
+        "effective": "2020-01-14T19:24:00-06:00",
+        "onset": "2020-01-15T08:00:00-06:00",
+        "expires": "2020-01-15T09:23:00-06:00",
+        "ends": "2020-01-16T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued January 14 at 7:24PM CST until January 16 at 9:00PM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama...\n\nPaint Rock River NEAR Woodville affecting Jackson...Madison and\nMarshall Counties\n\nThe Flood Warning continues for\nthe Paint Rock River NEAR Woodville.\n* until Thursday evening.\n* At 7 PM Tuesday the stage was 12.9 feet and rising.\n* Flood Stage is 15.0 feet.\n* Minor Flooding is forecast.\n* Forecast...Rise above Flood Stage by tomorrow morning and crest\nnear 15.5 FEET BY early tomorrow evening. The river will fall below\nFlood Stage by late Thursday afternoon.\n* Impact...At 16.0 feet...Flood waters affect mostly bottomland along\nthe river...including low lying farm and pasturelands.\n* Flood history...This crest compares to a previous crest of 15.6 feet\non Dec 31 2019.",
+        "instruction": "Safety message...Be especially cautious at night when it is harder to\nrecognize flood dangers. If while driving you see water over a road,\nturn around, don't drown! The water depth may be too great to allow\nyour vehicle to cross. Additional information is available at\nhttp://water.weather.gov. Once there, click on the Tennessee Valley\nto view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KHUN.FL.W.0004.200115T1400Z-200117T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T21:00:00-06:00"
+            ]
+        }
+    }
+}
