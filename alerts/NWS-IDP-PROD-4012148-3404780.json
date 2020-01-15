@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012148-3404780",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -125.47,
+                    45.79
+                ],
+                [
+                    -123.94,
+                    45.82
+                ],
+                [
+                    -124.14999999999999,
+                    44.04
+                ],
+                [
+                    -125.58999999999999,
+                    44.04
+                ],
+                [
+                    -125.47,
+                    45.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012148-3404780",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012148-3404780",
+        "areaDesc": "Coastal waters from Cape Shoalwater WA to Cascade Head OR out 10 nm; Waters from Cape Shoalwater WA to Cascade Head OR from 10 to 60 nm; Waters from Cascade Head to Florence OR from 10 to 60 nm; Coastal waters from Cascade Head to Florence OR out 10 nm",
+        "geocode": {
+            "UGC": [
+                "PZZ250",
+                "PZZ270",
+                "PZZ275",
+                "PZZ255"
+            ],
+            "SAME": [
+                "057250",
+                "057270",
+                "057275",
+                "057255"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PZZ250",
+            "https://api.weather.gov/zones/forecast/PZZ270",
+            "https://api.weather.gov/zones/forecast/PZZ275",
+            "https://api.weather.gov/zones/forecast/PZZ255"
+        ],
+        "references": [],
+        "sent": "2020-01-15T11:15:00-08:00",
+        "effective": "2020-01-15T11:15:00-08:00",
+        "onset": "2020-01-15T11:15:00-08:00",
+        "expires": "2020-01-15T12:15:00-08:00",
+        "ends": "2020-01-15T12:15:00-08:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Portland OR",
+        "headline": "Special Marine Warning issued January 15 at 11:15AM PST until January 15 at 12:15PM PST by NWS Portland OR",
+        "description": "The National Weather Service in Portland has issued a\n\n* Special Marine Warning for...\nCoastal waters from Cape Shoalwater WA to Cascade Head OR out 10\nnm...\nCoastal waters from Cascade Head to Florence OR out 10 nm...\nWaters from Cape Shoalwater WA to Cascade Head OR from 10 to 60\nnm...\nWaters from Cascade Head to Florence OR from 10 to 60 nm...\n\n* Until 1215 PM PST..\n\n* At 1112 AM PST, strong thunderstorms were located over the\ncentral Oregon waters moving east to northeast at 20 knots.\n\nHAZARD...Wind gusts to 75 knots possible.\n\nSOURCE...Satellite imagery indicated.\n\nIMPACT...Boats could suffer significant structural damage in high\nwinds. Small craft could capsize in suddenly higher\nwaves.\n\n* Locations impacted include...\nYaquina Head, Heceta Head, Arch Cape, Cape Falcon, Otter Rock, Cape\nFoulweather, Depoe Bay, Stonewall Bank Buoy 50, Cape Lookout and\nCape Perpetua.",
+        "instruction": "Move to safe harbor until hazardous weather passes.\n\nBoaters should seek safe harbor immediately until these storms pass.\nWind gusts in excess of 75 knots, high waves, dangerous lightning,\nand heavy rain are possible with these storms.\n\nFrequent lightning is occurring with these storms. If caught on the\nopen water stay below deck if possible, keep away from ungrounded\nmetal objects.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T11:12:00.000-08:00...storm...253DEG...135KT...44.93,-124.59 44.01,-124.34 42.74,-124.94"
+            ],
+            "hailSize": [
+                0
+            ],
+            "windGust": [
+                "65 knots"
+            ],
+            "VTEC": [
+                "/O.NEW.KPQR.MA.W.0001.200115T1915Z-200115T2015Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PQRSMWPQR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-15T12:15:00-08:00"
+            ]
+        }
+    }
+}
