@@ -1,0 +1,86 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012951",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.18,
+                    35
+                ],
+                [
+                    -87.09,
+                    35.24
+                ],
+                [
+                    -86.83,
+                    35.2
+                ],
+                [
+                    -86.84,
+                    34.99
+                ],
+                [
+                    -87.18,
+                    35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012951",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012951",
+        "areaDesc": "Giles",
+        "geocode": {
+            "UGC": [
+                "TNZ095"
+            ],
+            "SAME": [
+                "047055"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TNZ095"
+        ],
+        "references": [],
+        "sent": "2020-01-15T21:13:00-06:00",
+        "effective": "2020-01-15T21:13:00-06:00",
+        "onset": "2020-01-15T21:13:00-06:00",
+        "expires": "2020-01-15T21:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Special Weather Statement issued January 15 at 9:13PM CST by NWS Nashville TN",
+        "description": "At 913 PM CST, Doppler radar was tracking a strong thunderstorm near\nPulaski, moving southeast at 45 mph.\n\nPea size hail and wind gusts up to 50 mph will be possible with this\nstorm.\n\nLocations impacted include...\nPulaski, Ardmore, Elkton, Goodspring, Frankewing and Prospect.\n\nThis includes Interstate 65 between mile markers 1 and 15.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T21:13:00.000-06:00...storm...285DEG...38KT...35.1,-87.05"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHERN GILES COUNTY UNTIL 945 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSPSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
