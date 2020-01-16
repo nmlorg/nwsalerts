@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014093",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.31,
+                    42.18
+                ],
+                [
+                    -76.04,
+                    42.22
+                ],
+                [
+                    -75.48,
+                    41.979999899999996
+                ],
+                [
+                    -75.48,
+                    41.959999999999994
+                ],
+                [
+                    -76,
+                    41.89999999999999
+                ],
+                [
+                    -76.7,
+                    41.87999999999999
+                ],
+                [
+                    -77.31,
+                    42.18
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014093",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4014093",
+        "areaDesc": "Tioga; Steuben; Broome; Susquehanna; Bradford; Chemung",
+        "geocode": {
+            "UGC": [
+                "NYZ055",
+                "NYZ022",
+                "NYZ056",
+                "PAZ039",
+                "PAZ038",
+                "NYZ024"
+            ],
+            "SAME": [
+                "036107",
+                "036101",
+                "036007",
+                "042115",
+                "042015",
+                "036015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ055",
+            "https://api.weather.gov/zones/forecast/NYZ022",
+            "https://api.weather.gov/zones/forecast/NYZ056",
+            "https://api.weather.gov/zones/forecast/PAZ039",
+            "https://api.weather.gov/zones/forecast/PAZ038",
+            "https://api.weather.gov/zones/forecast/NYZ024"
+        ],
+        "references": [],
+        "sent": "2020-01-16T11:02:00-05:00",
+        "effective": "2020-01-16T11:02:00-05:00",
+        "onset": "2020-01-16T11:02:00-05:00",
+        "expires": "2020-01-16T11:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Binghamton NY",
+        "headline": "Special Weather Statement issued January 16 at 11:02AM EST by NWS Binghamton NY",
+        "description": "At 1100 AM EST, a snow squall was located along a line extending from\nWest Corners to near Lockwood to Erwins. Movement was southeast at 45\nmph. In valley locations the squall will begin as rain and\nchange to snow 10 to 15 minutes after the onset.\n\nWinds in excess of 40 mph are possible with this squall.\n\nThis squall will be near...\nVestal and Johnson City around 1105 AM EST.\nBarton and Big Flats around 1110 AM EST.\nBinghamton and Owego around 1115 AM EST.\nSouthport and Windham around 1120 AM EST.\nKirkwood and Conklin around 1125 AM EST.\nChemung and Ridgebury around 1130 AM EST.\n\nUse caution if you must travel into or through snow\nsqualls. Rapid changes in visibility and potentially slick roads\nare possible and could lead to accidents.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-16T11:00:00.000-05:00...storm...298DEG...38KT...42.13,-76.1 42.12,-76.52 42.11,-77.13"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WILL AFFECT SOUTHWESTERN BROOME...CHEMUNG...TIOGA... SOUTHEASTERN STEUBEN...NORTHERN SUSQUEHANNA AND NORTHERN BRADFORD COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BGMSPSBGM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

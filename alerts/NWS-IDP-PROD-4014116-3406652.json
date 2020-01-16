@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014116-3406652",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.16,
+                    38.26
+                ],
+                [
+                    -88.02,
+                    38.25
+                ],
+                [
+                    -88.13,
+                    38.04
+                ],
+                [
+                    -88.08,
+                    37.93
+                ],
+                [
+                    -88.12,
+                    37.9099999
+                ],
+                [
+                    -88.28,
+                    38.010000000000005
+                ],
+                [
+                    -88.16,
+                    38.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014116-3406652",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4014116-3406652",
+        "areaDesc": "Wayne, IL; White, IL; Gallatin, IL",
+        "geocode": {
+            "UGC": [
+                "ILC191",
+                "ILC193",
+                "ILC059"
+            ],
+            "SAME": [
+                "017191",
+                "017193",
+                "017059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC191",
+            "https://api.weather.gov/zones/county/ILC193",
+            "https://api.weather.gov/zones/county/ILC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012602-3405209",
+                "identifier": "NWS-IDP-PROD-4012602-3405209",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T18:46:00-06:00"
+            }
+        ],
+        "sent": "2020-01-16T10:09:00-06:00",
+        "effective": "2020-01-16T10:09:00-06:00",
+        "onset": "2020-01-16T10:09:00-06:00",
+        "expires": "2020-01-17T14:10:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 16 at 10:09AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...\n\nLittle Wabash River at Carmi\n\n.The Little Wabash River at Carmi Illinois has been downgraded from\nan expected major flood to remaining in the moderate category. It will\ncrest at 34..8 feet on Sunday afternoon. After that...it will start a\nslow fall.\n\nThe Flood Warning continues for\nthe Little Wabash River at Carmi\n* until further notice.\n* At  9:30 AM Thursday the stage was 32.1 feet.\n* Flood Stage is 27.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to near 34.8 feet by\nSunday afternoon then begin a slow fall.\n* Impact...At 35.5 Feet...Businesses just downstream of IL Route 14\nand Route 1 in Carmi flood.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0005.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
