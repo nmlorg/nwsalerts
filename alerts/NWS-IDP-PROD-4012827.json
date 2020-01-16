@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012827",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.18,
+                    34.28
+                ],
+                [
+                    -88.63000000000001,
+                    34.28
+                ],
+                [
+                    -88.64000000000001,
+                    34.46
+                ],
+                [
+                    -88.15000000000002,
+                    34.53
+                ],
+                [
+                    -88.18,
+                    34.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012827",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012827",
+        "areaDesc": "Prentiss; Itawamba; Tishomingo; Lee",
+        "geocode": {
+            "UGC": [
+                "MSZ009",
+                "MSZ017",
+                "MSZ006",
+                "MSZ016"
+            ],
+            "SAME": [
+                "028117",
+                "028057",
+                "028141",
+                "028081"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MSZ009",
+            "https://api.weather.gov/zones/forecast/MSZ017",
+            "https://api.weather.gov/zones/forecast/MSZ006",
+            "https://api.weather.gov/zones/forecast/MSZ016"
+        ],
+        "references": [],
+        "sent": "2020-01-15T20:32:00-06:00",
+        "effective": "2020-01-15T20:32:00-06:00",
+        "onset": "2020-01-15T20:32:00-06:00",
+        "expires": "2020-01-15T21:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Special Weather Statement issued January 15 at 8:32PM CST by NWS Memphis TN",
+        "description": "Northern Itawamba County in northeastern Mississippi...\nSouth central Tishomingo County in northeastern Mississippi...\nNortheastern Lee County in northeastern Mississippi...\nSoutheastern Prentiss County in northeastern Mississippi...\n\nAt 831 PM CST...a strong thunderstorm producing pea size hail or\nlarger and winds at least 40 mph was located near Pratts Friendship,\nor 9 miles southeast of Baldwyn, moving east at 45 mph.\n\nVery heavy rain along with continuous cloud to ground lightning are\nalso possible with this thunderstorm.\n\nPeople in northern Itawamba...south central Tishomingo...northeastern\nLee and southeastern Prentiss Counties should monitor this storm\nclosely.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T20:31:00.000-06:00...storm...265DEG...40KT...34.38,-88.55"
+            ],
+            "NWSheadline": [
+                "A SIGNIFICANT WEATHER ADVISORY HAS BEEN ISSUED UNTIL 900 PM CST FOR"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSPSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
