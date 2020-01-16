@@ -1,0 +1,86 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012586",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.8,
+                    36.62
+                ],
+                [
+                    -85.83,
+                    36.409999899999995
+                ],
+                [
+                    -86.14999999999999,
+                    36.44
+                ],
+                [
+                    -86.06999989999998,
+                    36.629999999999995
+                ],
+                [
+                    -85.8,
+                    36.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012586",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012586",
+        "areaDesc": "Macon",
+        "geocode": {
+            "UGC": [
+                "TNZ009"
+            ],
+            "SAME": [
+                "047111"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TNZ009"
+        ],
+        "references": [],
+        "sent": "2020-01-15T18:11:00-06:00",
+        "effective": "2020-01-15T18:11:00-06:00",
+        "onset": "2020-01-15T18:11:00-06:00",
+        "expires": "2020-01-15T18:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Special Weather Statement issued January 15 at 6:11PM CST by NWS Nashville TN",
+        "description": "At 610 PM CST, Doppler radar was tracking strong thunderstorms along\na line extending from Akersville to near Hartsville. Movement was\neast at 25 mph.\n\nWinds in excess of 40 mph will be possible with these storms.\n\nLocations impacted include...\nLafayette and Red Boiling Springs.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T18:10:00.000-06:00...storm...277DEG...23KT...36.62,-86.02 36.46,-86.11"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR MACON COUNTY UNTIL 645 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSPSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
