@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013013",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.61,
+                    34.99
+                ],
+                [
+                    -86.62,
+                    34.760000000000005
+                ],
+                [
+                    -87.16000000000001,
+                    34.78000000000001
+                ],
+                [
+                    -87.16000000000001,
+                    35.00000000000001
+                ],
+                [
+                    -86.61,
+                    34.99
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013013",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4013013",
+        "areaDesc": "Limestone; Madison",
+        "geocode": {
+            "UGC": [
+                "ALZ005",
+                "ALZ006"
+            ],
+            "SAME": [
+                "001083",
+                "001089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ALZ005",
+            "https://api.weather.gov/zones/forecast/ALZ006"
+        ],
+        "references": [],
+        "sent": "2020-01-15T21:37:00-06:00",
+        "effective": "2020-01-15T21:37:00-06:00",
+        "onset": "2020-01-15T21:37:00-06:00",
+        "expires": "2020-01-15T22:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Special Weather Statement issued January 15 at 9:37PM CST by NWS Huntsville AL",
+        "description": "At 937 PM CST, Doppler radar was tracking a strong thunderstorm near\nAthens, moving east at 50 mph.\n\nPea size hail and winds up to 40 mph will be possible with this\nstorm.\n\nLocations impacted include...\nNorthwestern Huntsville, Athens, Ardmore, Harvest, Elkmont, Lester,\nCartwright, Elkwood, Mt Rozell and Toney.",
+        "instruction": "Strong gusty winds will be capable of knocking down small tree limbs\nalong with other small unsecured items. Seek safe shelter until this\nstorm has passed.\n\nVery heavy rainfall is also occurring with this storm, and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.\n\nFrequent cloud to ground lightning is occurring with this storm.\nLightning can strike several miles away from a thunderstorm. Seek a\nsafe shelter inside a building or vehicle.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T21:37:00.000-06:00...storm...273DEG...44KT...34.89,-86.97"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHWESTERN MADISON AND NORTHEASTERN LIMESTONE COUNTIES UNTIL 1000 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNSPSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
