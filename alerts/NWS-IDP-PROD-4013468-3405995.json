@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013468-3405995",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.03,
+                    32.84
+                ],
+                [
+                    -82.98,
+                    32.88
+                ],
+                [
+                    -82.92,
+                    32.79
+                ],
+                [
+                    -82.89,
+                    32.67
+                ],
+                [
+                    -82.98,
+                    32.65
+                ],
+                [
+                    -83,
+                    32.78
+                ],
+                [
+                    -83.03,
+                    32.84
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013468-3405995",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4013468-3405995",
+        "areaDesc": "Washington, GA; Wilkinson, GA; Johnson, GA",
+        "geocode": {
+            "UGC": [
+                "GAC303",
+                "GAC319",
+                "GAC167"
+            ],
+            "SAME": [
+                "013303",
+                "013319",
+                "013167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC303",
+            "https://api.weather.gov/zones/county/GAC319",
+            "https://api.weather.gov/zones/county/GAC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012636-3405234",
+                "identifier": "NWS-IDP-PROD-4012636-3405234",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T20:17:00-05:00"
+            }
+        ],
+        "sent": "2020-01-16T04:45:00-05:00",
+        "effective": "2020-01-16T04:45:00-05:00",
+        "onset": "2020-01-16T04:45:00-05:00",
+        "expires": "2020-01-16T18:45:00-05:00",
+        "ends": "2020-01-20T23:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 16 at 4:45AM EST until January 20 at 11:00PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nFlint River near Griffin Hwy. 16 affecting Fayette and Spalding\nCounties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nChattahoochee River near Columbus affecting Lee...Russell...\nChattahoochee and Muscogee Counties\n\nFlint River near Carsonville Hwy. 19 affecting Crawford...\nTalbot...Taylor and Upson Counties\n\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties\n\nOconee River near Oconee affecting Washington and Wilkinson\nCounties\n\nOconee River near Oconee affecting Johnson...Washington and\nWilkinson Counties\n\nThe Flood Warning continues for\nThe Oconee River near Oconee.\n* Until Monday evening.\n* At 4 AM Thursday the stage was 19.8 feet...and\nrising.\n* Minor flooding is occurring.\n* Flood stage is 17 feet.\n* The river will continue rising to near 20.5 feet by Saturday\nmorning. The river will fall below flood stage Monday afternoon.\n* At 21.0 feet...Moderate flooding begins. The dirt parking lot by\nthe Old Balls Ferry Road boat ramp is under one to three feet of\nwater. The end of Old Balls Ferry Road begins to flood. Flooding\ncontinues and spreads further into the woodlands near the river.\n* This crest compares to a previous crest of 20.7 feet on Dec 13 2018.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0022.000000T0000Z-200121T0400Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T23:00:00-05:00"
+            ]
+        }
+    }
+}
