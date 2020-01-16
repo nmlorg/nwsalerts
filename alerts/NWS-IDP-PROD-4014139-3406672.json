@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014139-3406672",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.52,
+                    34.09
+                ],
+                [
+                    -88.39999999999999,
+                    34.09
+                ],
+                [
+                    -88.52,
+                    33.99
+                ],
+                [
+                    -88.5699999,
+                    34.06
+                ],
+                [
+                    -88.52,
+                    34.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014139-3406672",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4014139-3406672",
+        "areaDesc": "Monroe, MS",
+        "geocode": {
+            "UGC": [
+                "MSC095"
+            ],
+            "SAME": [
+                "028095"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC095"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012730-3405324",
+                "identifier": "NWS-IDP-PROD-4012730-3405324",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T19:45:00-06:00"
+            }
+        ],
+        "sent": "2020-01-16T10:31:00-06:00",
+        "effective": "2020-01-16T10:31:00-06:00",
+        "onset": "2020-01-16T10:31:00-06:00",
+        "expires": "2020-01-17T10:31:00-06:00",
+        "ends": "2020-01-19T09:36:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 16 at 10:31AM CST until January 19 at 9:36AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Buttahatchie River...Tombigbee\nRiver.\n\nThe Flood Warning continues for\nthe Tombigbee River at Bigbee\n* until Sunday January 19.\n* At 09 AM Thursday the stage was 16.2 feet.\n* Minor flooding is occurring AND Minor flooding is forecast.\n* Maximum forecast stage of 17.8 feet on Thursday January 16.\n* Flood stage is 14.0 feet.\n* The river rose above flood stage Saturday January 11 and will\ncontinue rising to near 17.8 feet by Thursday January 16. The river\nwill fall below flood stage Sunday January 19.\n* At 18.0 feet...Water is flowing over Hood Road. The flood plain\nbetween Town Creek and the Tombigbee River is flooded.  Extensive\nagricultural flooding is occurring along Highway 6 near Bigbee.",
+        "instruction": "A followup Flood Statement will be issued tomorrow or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0009.000000T0000Z-200119T1536Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T09:36:00-06:00"
+            ]
+        }
+    }
+}
