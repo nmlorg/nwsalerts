@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014204-3406746",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -122.08,
+                    36.85
+                ],
+                [
+                    -122.59,
+                    36.75
+                ],
+                [
+                    -122.56,
+                    37.18
+                ],
+                [
+                    -122.52,
+                    37.2
+                ],
+                [
+                    -122.39999999999999,
+                    37.2
+                ],
+                [
+                    -122.3,
+                    37.120000000000005
+                ],
+                [
+                    -122.22,
+                    37.040000000000006
+                ],
+                [
+                    -122.1,
+                    36.96000000000001
+                ],
+                [
+                    -122.08,
+                    36.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014204-3406746",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4014204-3406746",
+        "areaDesc": "Waters from Pigeon Point to Point Pinos 10-60 NM; Coastal Waters from Pigeon Point to Point Pinos California out to 10 nm",
+        "geocode": {
+            "UGC": [
+                "PZZ575",
+                "PZZ560"
+            ],
+            "SAME": [
+                "057575",
+                "057560"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PZZ575",
+            "https://api.weather.gov/zones/forecast/PZZ560"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014173-3406713",
+                "identifier": "NWS-IDP-PROD-4014173-3406713",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-16T08:46:00-08:00"
+            }
+        ],
+        "sent": "2020-01-16T09:03:00-08:00",
+        "effective": "2020-01-16T09:03:00-08:00",
+        "onset": "2020-01-16T09:03:00-08:00",
+        "expires": "2020-01-16T09:15:00-08:00",
+        "ends": "2020-01-16T09:15:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS San Francisco CA",
+        "headline": "Special Marine Warning issued January 16 at 9:03AM PST until January 16 at 9:15AM PST by NWS San Francisco CA",
+        "description": "For the following areas...\nCoastal Waters from Pigeon Point to Point Pinos California out to 10\nnm...\nWaters from Pigeon Point to Point Pinos 10-60 NM...\n\nAt 901 AM PST, showers capable of producing waterspouts were located\nalong a line extending from 2 nm south of Pigeon Point, moving\nnortheast at 30 knots.\n\nHAZARD...Waterspouts and wind gusts to nearly 50 knots.\n\nSOURCE...Radar indicated.\n\nIMPACT...Waterspouts can create locally hazardous seas. Small craft\ncould be damaged in briefly higher winds and suddenly\nhigher waves.",
+        "instruction": "Move to safe harbor immediately as gusty winds and high waves are\nexpected.\n\nSeek safe shelter...mariners can expect gusty winds and increasing\nwaves.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-16T09:01:00.000-08:00...storm...247DEG...29KT...37.19,-122.33 36.91,-122.34"
+            ],
+            "hailSize": [
+                0
+            ],
+            "windGust": [
+                "49 knots"
+            ],
+            "waterspoutDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SPECIAL MARINE WARNING REMAINS IN EFFECT UNTIL 915 AM PST"
+            ],
+            "VTEC": [
+                "/O.CON.KMTR.MA.W.0001.000000T0000Z-200116T1715Z/"
+            ],
+            "PIL": [
+                "MTRMWSMTR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T09:15:00-08:00"
+            ]
+        }
+    }
+}
