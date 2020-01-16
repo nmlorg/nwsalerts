@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012699-3405293",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.4599999,
+                    37.77
+                ],
+                [
+                    -89.15,
+                    37.84
+                ],
+                [
+                    -89.15,
+                    37.78
+                ],
+                [
+                    -89.35000000000001,
+                    37.7299999
+                ],
+                [
+                    -89.41000000000001,
+                    37.6
+                ],
+                [
+                    -89.47000000000001,
+                    37.6
+                ],
+                [
+                    -89.4599999,
+                    37.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012699-3405293",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012699-3405293",
+        "areaDesc": "Jackson, IL",
+        "geocode": {
+            "UGC": [
+                "ILC077"
+            ],
+            "SAME": [
+                "017077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012019-3404661",
+                "identifier": "NWS-IDP-PROD-4012019-3404661",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T11:20:00-06:00"
+            }
+        ],
+        "sent": "2020-01-15T19:42:00-06:00",
+        "effective": "2020-01-15T19:42:00-06:00",
+        "onset": "2020-01-15T19:42:00-06:00",
+        "expires": "2020-01-16T23:41:00-06:00",
+        "ends": "2020-01-21T22:48:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 15 at 7:42PM CST until January 21 at 10:48PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following river in\nIllinois...\n\nBig Muddy River near Plumfield and Murphysboro\n\n.The Big Muddy River has begun cresting at 29.9 feet, after which it\nwill slowly fall. Plumfield is falling and is forecast to go below\nflood stage on Friday afternoon.\n\nThe Flood Warning continues for\nthe Big Muddy River near Murphysboro.\n* until Tuesday evening.\n* At  7:00 PM Wednesday the stage was 29.9 feet.\n* Flood Stage is 22.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river is cresting at 29.9 feet and then will\nbegin slowly falling.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0007.000000T0000Z-200122T0448Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T22:48:00-06:00"
+            ]
+        }
+    }
+}
