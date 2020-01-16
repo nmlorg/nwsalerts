@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013610-3406173",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013610-3406173",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4013610-3406173",
+        "areaDesc": "Northern Sacramento Valley; Central Sacramento Valley",
+        "geocode": {
+            "UGC": [
+                "CAZ015",
+                "CAZ016"
+            ],
+            "SAME": [
+                "006089",
+                "006103",
+                "006007",
+                "006011",
+                "006021",
+                "006057",
+                "006101",
+                "006115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CAZ015",
+            "https://api.weather.gov/zones/forecast/CAZ016"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011945-3404590",
+                "identifier": "NWS-IDP-PROD-4011945-3404590",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T08:25:00-08:00"
+            }
+        ],
+        "sent": "2020-01-16T03:05:00-08:00",
+        "effective": "2020-01-16T03:05:00-08:00",
+        "onset": "2020-01-16T03:05:00-08:00",
+        "expires": "2020-01-16T10:00:00-08:00",
+        "ends": "2020-01-16T10:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Sacramento CA",
+        "headline": "Wind Advisory issued January 16 at 3:05AM PST until January 16 at 10:00AM PST by NWS Sacramento CA",
+        "description": "* WHAT...Southerly winds 15 to 30 mph with gusts up to 45 mph.\n\n* WHERE...Northern and central Sacramento Valley.\n\n* WHEN...Until 10 AM PST this morning.\n\n* IMPACTS...Gusty winds could blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+        "instruction": "Use extra caution when driving, especially if operating a small\ncar or high profile vehicle. Secure outdoor objects.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY REMAINS IN EFFECT UNTIL 10 AM PST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.CON.KSTO.WI.Y.0001.000000T0000Z-200116T1800Z/"
+            ],
+            "PIL": [
+                "STONPWSTO"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T10:00:00-08:00"
+            ]
+        }
+    }
+}
