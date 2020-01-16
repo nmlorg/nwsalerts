@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014214",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -122.13,
+                    37.63
+                ],
+                [
+                    -122.08,
+                    37.46
+                ],
+                [
+                    -121.88,
+                    37.35
+                ],
+                [
+                    -122.11999999999999,
+                    36.95
+                ],
+                [
+                    -122.16999999999999,
+                    36.92
+                ],
+                [
+                    -122.33999999999999,
+                    37.02
+                ],
+                [
+                    -122.38999999999999,
+                    37.330000000000005
+                ],
+                [
+                    -122.13,
+                    37.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014214",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4014214",
+        "areaDesc": "San Francisco Bay Shoreline; Northern Monterey Bay; San Francisco Peninsula Coast; Santa Cruz Mountains; Santa Clara Valley Including San Jose",
+        "geocode": {
+            "UGC": [
+                "CAZ508",
+                "CAZ529",
+                "CAZ509",
+                "CAZ512",
+                "CAZ513"
+            ],
+            "SAME": [
+                "006001",
+                "006013",
+                "006081",
+                "006085",
+                "006087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CAZ508",
+            "https://api.weather.gov/zones/forecast/CAZ529",
+            "https://api.weather.gov/zones/forecast/CAZ509",
+            "https://api.weather.gov/zones/forecast/CAZ512",
+            "https://api.weather.gov/zones/forecast/CAZ513"
+        ],
+        "references": [],
+        "sent": "2020-01-16T09:06:00-08:00",
+        "effective": "2020-01-16T09:06:00-08:00",
+        "onset": "2020-01-16T09:06:00-08:00",
+        "expires": "2020-01-16T09:30:00-08:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS San Francisco CA",
+        "headline": "Special Weather Statement issued January 16 at 9:06AM PST by NWS San Francisco CA",
+        "description": "At 906 AM PST, Doppler radar was tracking strong thunderstorms along\na line extending from 10 miles southwest of Woodside to 12 miles\nsouthwest of Boulder Creek to 28 miles southwest of Santa Cruz.\nMovement was northeast at 45 mph.\n\nWinds in excess of 40 mph will be possible with these storms.\n\nLocations impacted include...\nSan Jose, Fremont, Hayward, Sunnyvale, Santa Clara, Redwood City,\nMountain View, Palo Alto, Cupertino, Campbell, Menlo Park, Saratoga,\nLos Gatos, Los Altos, San Carlos, East Palo Alto, Los Altos Hills,\nAtherton, Woodside and Sunol-Midtown.",
+        "instruction": "Torrential rainfall is also occurring with these storms, and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.\n\nThese storms may intensify, so be certain to monitor local radio\nstations and available television stations for additional information\nand possible warnings from the National Weather Service.\n\nTo report severe weather, contact your nearest law enforcement\nagency. They will relay your report to the National Weather Service\noffice in The San Francisco Bay Area.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-16T09:06:00.000-08:00...storm...225DEG...37KT...37.29,-122.35 37.03,-122.3 36.75,-122.47"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHWESTERN SANTA CRUZ... SOUTHEASTERN SAN MATEO AND NORTHWESTERN SANTA CLARA COUNTIES UNTIL 930 AM PST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MTRSPSMTR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
