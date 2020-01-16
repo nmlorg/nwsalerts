@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013838-3406401",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.92,
+                    33.55
+                ],
+                [
+                    -80.8199999,
+                    33.419999999999995
+                ],
+                [
+                    -80.91,
+                    33.35999999999999
+                ],
+                [
+                    -81,
+                    33.53999999999999
+                ],
+                [
+                    -80.92,
+                    33.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013838-3406401",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4013838-3406401",
+        "areaDesc": "Orangeburg, SC",
+        "geocode": {
+            "UGC": [
+                "SCC075"
+            ],
+            "SAME": [
+                "045075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC075"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012820-3405390",
+                "identifier": "NWS-IDP-PROD-4012820-3405390",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T21:29:00-05:00"
+            }
+        ],
+        "sent": "2020-01-16T09:22:00-05:00",
+        "effective": "2020-01-16T09:22:00-05:00",
+        "onset": "2020-01-16T09:22:00-05:00",
+        "expires": "2020-01-17T09:21:00-05:00",
+        "ends": "2020-01-17T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued January 16 at 9:22AM EST until January 17 at 7:00PM EST by NWS Columbia SC",
+        "description": "...The Flood Warning continues for the following rivers in South\nCarolina...\n\nCongaree River At Carolina Eastman affecting Calhoun...Lexington and\nRichland Counties\n\nCongaree River At Congaree National Park-Gadsden affecting Calhoun\nand Richland Counties\n\nNorth Fork Edisto River At Orangeburg affecting Orangeburg County\n\n.Runoff from recent rains and hydroelectric dam releases continue to\nproduce flooding along portions of the Congaree and Edisto Rivers.\n\nThe Flood Warning extended for\nThe North Fork Edisto River At Orangeburg.\n* until Friday evening...Or until the warning is cancelled.\n* At  9 AM Thursday the stage was 8.1 feet.\n* Flood stage is 8.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall...Going below flood\nstage by this evening.\n* At 8.0 feet...Some minor flooding occurs along the boardwalk at\nEdisto Gardens. Downstream from the Highway 301 bridge, some roads\noff Chiquita street near the river begin to flood.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCAE.FL.W.0004.000000T0000Z-200118T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T19:00:00-05:00"
+            ]
+        }
+    }
+}
