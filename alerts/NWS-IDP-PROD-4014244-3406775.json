@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014244-3406775",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.25,
+                    35.39
+                ],
+                [
+                    -89.95,
+                    35.39
+                ],
+                [
+                    -90.05,
+                    35.33
+                ],
+                [
+                    -90.03999999999999,
+                    35.129999999999995
+                ],
+                [
+                    -90.08,
+                    34.909999899999995
+                ],
+                [
+                    -90.41,
+                    34.909999899999995
+                ],
+                [
+                    -90.25,
+                    35.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014244-3406775",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4014244-3406775",
+        "areaDesc": "DeSoto, MS; Crittenden, AR; Shelby, TN",
+        "geocode": {
+            "UGC": [
+                "MSC033",
+                "ARC035",
+                "TNC157"
+            ],
+            "SAME": [
+                "028033",
+                "005035",
+                "047157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC033",
+            "https://api.weather.gov/zones/county/ARC035",
+            "https://api.weather.gov/zones/county/TNC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012621-3405223",
+                "identifier": "NWS-IDP-PROD-4012621-3405223",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T19:02:00-06:00"
+            }
+        ],
+        "sent": "2020-01-16T11:30:00-06:00",
+        "effective": "2020-01-16T11:30:00-06:00",
+        "onset": "2020-01-21T06:00:00-06:00",
+        "expires": "2020-01-17T11:29:00-06:00",
+        "ends": "2020-01-22T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 16 at 11:30AM CST until January 22 at 6:00PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Mississippi River.\n\nThe Flood Warning continues for\nthe Mississippi River at Memphis\n* from Tuesday January 21 until Tuesday January 21.\n* At 11 AM Thursday the stage was 30.9 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 34.0 feet on Tuesday January 21.\n* Flood stage is 34.0 feet.\n* At 34.0 feet...In Arkansas, the camp on Robinson Road right inside\nthe levee is totally flooded. Roads to industries inside the levee\nsouth of West Memphis are flooding.",
+        "instruction": "A followup Flood Statement will be issued tomorrow or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0029.200121T1200Z-200123T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T18:00:00-06:00"
+            ]
+        }
+    }
+}
