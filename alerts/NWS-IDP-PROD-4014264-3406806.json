@@ -1,0 +1,120 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014264-3406806",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.97,
+                    36.9099999
+                ],
+                [
+                    -122.14,
+                    36.85
+                ],
+                [
+                    -122.22,
+                    36.9
+                ],
+                [
+                    -122.28999999999999,
+                    36.93
+                ],
+                [
+                    -122.19999999999999,
+                    37.03
+                ],
+                [
+                    -122.11999999999999,
+                    36.9799999
+                ],
+                [
+                    -122.02999999999999,
+                    36.970000000000006
+                ],
+                [
+                    -121.97,
+                    36.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014264-3406806",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4014264-3406806",
+        "areaDesc": "Coastal Waters from Pigeon Point to Point Pinos California out to 10 nm; Monterey Bay",
+        "geocode": {
+            "UGC": [
+                "PZZ560",
+                "PZZ535"
+            ],
+            "SAME": [
+                "057560",
+                "057535"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PZZ560",
+            "https://api.weather.gov/zones/forecast/PZZ535"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014229-3406764",
+                "identifier": "NWS-IDP-PROD-4014229-3406764",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-16T09:22:00-08:00"
+            }
+        ],
+        "sent": "2020-01-16T09:37:00-08:00",
+        "effective": "2020-01-16T09:37:00-08:00",
+        "onset": "2020-01-16T09:37:00-08:00",
+        "expires": "2020-01-16T09:45:00-08:00",
+        "ends": "2020-01-16T09:45:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS San Francisco CA",
+        "headline": "Special Marine Warning issued January 16 at 9:37AM PST until January 16 at 9:45AM PST by NWS San Francisco CA",
+        "description": "For the following areas...\nCoastal Waters from Pigeon Point to Point Pinos California out to 10\nnm...\nMonterey Bay...\n\nAt 935 AM PST, a severe thunderstorm capable of producing waterspouts\nwas 3 miles west of Santa Cruz, moving east-northeast at 25 knots.\n\nHAZARD...Wind gusts to nearly 50 knots and waterspouts possible.\n\nSOURCE...Radar indicated.\n\nIMPACT...Waterspouts and strong winds can easily overturn boats and\ncreate locally hazardous seas. Small craft could be damaged\nin briefly higher winds and suddenly higher waves.",
+        "instruction": "Move to safe harbor immediately as gusty winds and high waves are\nexpected.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-16T09:35:00.000-08:00...storm...241DEG...26KT...36.89,-122.21"
+            ],
+            "hailSize": [
+                0
+            ],
+            "windGust": [
+                "49 knots"
+            ],
+            "waterspoutDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SPECIAL MARINE WARNING REMAINS IN EFFECT UNTIL 945 AM PST"
+            ],
+            "VTEC": [
+                "/O.CON.KMTR.MA.W.0002.000000T0000Z-200116T1745Z/"
+            ],
+            "PIL": [
+                "MTRMWSMTR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T09:45:00-08:00"
+            ]
+        }
+    }
+}
