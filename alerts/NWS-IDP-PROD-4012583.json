@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012583",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.83,
+                    36.4099999
+                ],
+                [
+                    -85.88,
+                    36.17
+                ],
+                [
+                    -86.27,
+                    36.38
+                ],
+                [
+                    -86.22999999999999,
+                    36.45
+                ],
+                [
+                    -85.83,
+                    36.4099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012583",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012583",
+        "areaDesc": "Trousdale; Smith",
+        "geocode": {
+            "UGC": [
+                "TNZ029",
+                "TNZ030"
+            ],
+            "SAME": [
+                "047169",
+                "047159"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TNZ029",
+            "https://api.weather.gov/zones/forecast/TNZ030"
+        ],
+        "references": [],
+        "sent": "2020-01-15T18:03:00-06:00",
+        "effective": "2020-01-15T18:03:00-06:00",
+        "onset": "2020-01-15T18:03:00-06:00",
+        "expires": "2020-01-15T18:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Special Weather Statement issued January 15 at 6:03PM CST by NWS Nashville TN",
+        "description": "At 603 PM CST, Doppler radar was tracking a strong thunderstorm over\nHartsville, moving east at 30 mph.\n\nWinds in excess of 40 mph will be possible with this storm.\n\nLocations impacted include...\nCarthage, Hartsville, Gordonsville, South Carthage, Pleasant Shade\nand Dixon Springs.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T18:03:00.000-06:00...storm...284DEG...24KT...36.39,-86.19"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHERN SMITH AND TROUSDALE COUNTIES UNTIL 630 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSPSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
