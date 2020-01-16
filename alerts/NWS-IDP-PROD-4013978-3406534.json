@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013978-3406534",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.13,
+                    32.43
+                ],
+                [
+                    -89.9599999,
+                    32.58
+                ],
+                [
+                    -89.8,
+                    32.65
+                ],
+                [
+                    -89.78,
+                    32.559999999999995
+                ],
+                [
+                    -89.89,
+                    32.49999999999999
+                ],
+                [
+                    -90.02,
+                    32.36999999999999
+                ],
+                [
+                    -90.13,
+                    32.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013978-3406534",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4013978-3406534",
+        "areaDesc": "Madison, MS; Rankin, MS",
+        "geocode": {
+            "UGC": [
+                "MSC089",
+                "MSC121"
+            ],
+            "SAME": [
+                "028089",
+                "028121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC089",
+            "https://api.weather.gov/zones/county/MSC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012695-3405289",
+                "identifier": "NWS-IDP-PROD-4012695-3405289",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T19:40:00-06:00"
+            }
+        ],
+        "sent": "2020-01-16T09:08:00-06:00",
+        "effective": "2020-01-16T09:08:00-06:00",
+        "onset": "2020-01-16T09:07:00-06:00",
+        "expires": "2020-01-17T15:07:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 16 at 9:07AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi..\n\nPearl River Near Ratliff's Ferry affecting Madison and Rankin\nCounties\n\nThe Flood Warning continues for\nThe Pearl River Near Ratliff's Ferry\n* until further notice.\n* At  8:15 AM Thursday the stage was 305.8 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 303.0 feet.\n* Forecast...The river will continue rising to near 307.0 feet early\ntomorrow afternoon.\n* Impact...At 303.0 feet...Minor overbank flooding is occurring along\nthe reach of the river.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0046.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
