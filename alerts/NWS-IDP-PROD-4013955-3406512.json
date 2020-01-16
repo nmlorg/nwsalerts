@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013955-3406512",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.15,
+                    31.37
+                ],
+                [
+                    -89.23,
+                    31.560000000000002
+                ],
+                [
+                    -89.13000000000001,
+                    31.810000000000002
+                ],
+                [
+                    -89.02000000000001,
+                    31.820000000000004
+                ],
+                [
+                    -89.11000000000001,
+                    31.560000000000002
+                ],
+                [
+                    -89.14000000000001,
+                    31.400000000000002
+                ],
+                [
+                    -89.15,
+                    31.37
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013955-3406512",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4013955-3406512",
+        "areaDesc": "Jones, MS",
+        "geocode": {
+            "UGC": [
+                "MSC067"
+            ],
+            "SAME": [
+                "028067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012629-3405227",
+                "identifier": "NWS-IDP-PROD-4012629-3405227",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T19:12:00-06:00"
+            }
+        ],
+        "sent": "2020-01-16T08:59:00-06:00",
+        "effective": "2020-01-16T08:59:00-06:00",
+        "onset": "2020-01-16T08:59:00-06:00",
+        "expires": "2020-01-17T14:57:00-06:00",
+        "ends": "2020-01-21T09:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 16 at 8:59AM CST until January 21 at 9:00AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nTallahala Creek At Laurel affecting Jones County\nChickasawhay River At Enterprise affecting Clarke County\nChickasawhay River At Shubuta affecting Clarke County\n\nThe Flood Warning continues for\nThe Tallahala Creek At Laurel\n* until Tuesday morning.\n* At  8:45 AM Thursday the stage was 15.2 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 13.0 feet.\n* Forecast...The river will continue rising to near 15.5 feet this\nafternoon.\n* Impact...At 16.0 feet...Water begins to cover Old Sandersville Road.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0041.000000T0000Z-200121T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T09:00:00-06:00"
+            ]
+        }
+    }
+}

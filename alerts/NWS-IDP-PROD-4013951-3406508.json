@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013951-3406508",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.98,
+                    41.26
+                ],
+                [
+                    -84.81,
+                    41.4
+                ],
+                [
+                    -84.78,
+                    41.39
+                ],
+                [
+                    -84.93,
+                    41.2299999
+                ],
+                [
+                    -84.98,
+                    41.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013951-3406508",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4013951-3406508",
+        "areaDesc": "De Kalb, IN; Defiance, OH; Allen, IN",
+        "geocode": {
+            "UGC": [
+                "INC033",
+                "OHC039",
+                "INC003"
+            ],
+            "SAME": [
+                "018033",
+                "039039",
+                "018003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC033",
+            "https://api.weather.gov/zones/county/OHC039",
+            "https://api.weather.gov/zones/county/INC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012850-3405424",
+                "identifier": "NWS-IDP-PROD-4012850-3405424",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T21:37:00-05:00"
+            }
+        ],
+        "sent": "2020-01-16T09:57:00-05:00",
+        "effective": "2020-01-16T09:57:00-05:00",
+        "onset": "2020-01-16T09:57:00-05:00",
+        "expires": "2020-01-17T09:57:00-05:00",
+        "ends": "2020-01-18T21:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 16 at 9:57AM EST until January 18 at 9:00PM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nSaint Joseph River Ohio NEAR Newville affecting Allen...De Kalb and\nDefiance Counties\nTiffin River At Stryker affecting Defiance...Fulton and Williams\nCounties\n\n.The rivers will continue to slowly recede over the next\nfew days as no additional rainfall is expected over the\nnext 24 hours.\n\nThe Flood Warning has been extended for\nThe Saint Joseph River Ohio NEAR Newville\n* until Saturday evening.\n* At 9 AM Thursday the stage was 13.7 feet and falling.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 12.0 feet.\n* Forecast...he river will continue to slowly fall and will fall\nbelow the 12.0 foot flood stage around  9 PM Friday January 17.\n* At 14.0 feet...Significant flooding occurs on DeKalb County Road 42\nabout 3 miles northeast of Newville. Considerable agricultural and\nlow land flooding occurs along the St. Joseph River to the\nCedarville Reservoir.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0009.000000T0000Z-200119T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T21:00:00-05:00"
+            ]
+        }
+    }
+}
