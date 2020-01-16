@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013912-3406468",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.53,
+                    38.8
+                ],
+                [
+                    -86.67,
+                    38.75
+                ],
+                [
+                    -86.73,
+                    38.69
+                ],
+                [
+                    -86.81,
+                    38.72
+                ],
+                [
+                    -86.68,
+                    38.8
+                ],
+                [
+                    -86.56,
+                    38.849999999999994
+                ],
+                [
+                    -86.53,
+                    38.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013912-3406468",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4013912-3406468",
+        "areaDesc": "Martin, IN; Lawrence, IN",
+        "geocode": {
+            "UGC": [
+                "INC101",
+                "INC093"
+            ],
+            "SAME": [
+                "018101",
+                "018093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC101",
+            "https://api.weather.gov/zones/county/INC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012717-3405311",
+                "identifier": "NWS-IDP-PROD-4012717-3405311",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T20:44:00-05:00"
+            }
+        ],
+        "sent": "2020-01-16T09:48:00-05:00",
+        "effective": "2020-01-16T09:48:00-05:00",
+        "onset": "2020-01-16T09:48:00-05:00",
+        "expires": "2020-01-17T09:48:00-05:00",
+        "ends": "2020-01-21T08:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 16 at 9:48AM EST until January 21 at 8:30AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...Wabash River...White River...\n\n.As of Thursday morning, minor to moderate flooding continues on the\nWabash, White, and East Fork White Rivers in central and southern\nIndiana.\n\nCrests will be/are comparable to those that occurred in February\nand June of 2019.\n\nThe Wabash River is cresting between Terre Haute and Riverton.\nThe White River crest is near Edwardsport.  The crest along the East\nFork White River is near Bedford. Flooding along the lower portions\nof the White and Wabash River is likely to continue until at least\nthe end of the month.\n\nApproximately an inch of rain is expected between Friday night and\nSaturday with some wintry mix Friday night will prolong flooding in\nareas already flooding and may lead to isolated renewed flooding\nalong smaller streams.\n\nThe Flood Warning continues for\nThe East Fork White River at Williams.\n* until Tuesday morning.\n* At  7:00 AM Thursday the stage was 11.4 feet.\n* Flood stage is 8.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will rise to near 11.9 feet by this evening then\nbegin falling. It will fall below flood stage Monday evening.\n* At 12.0 feet...River begins to be noticeable as water backs up in\nlocal streams.  State Road 450 closes in several locations.  Higher\ncampgrounds flood.  Most roads in the flood plain are impassable\nabove this level.  Huron-Williams Road begins to flood south of\nPort Williams Road.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0034.000000T0000Z-200121T1330Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T08:30:00-05:00"
+            ]
+        }
+    }
+}
