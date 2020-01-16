@@ -1,0 +1,116 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012595-3405203",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.59,
+                    37.69
+                ],
+                [
+                    -89.35000000000001,
+                    37.69
+                ],
+                [
+                    -89.34,
+                    37.44
+                ],
+                [
+                    -89.41,
+                    37.25
+                ],
+                [
+                    -89.59,
+                    37.2299999
+                ],
+                [
+                    -89.63000000000001,
+                    37.32
+                ],
+                [
+                    -89.59,
+                    37.69
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012595-3405203",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012595-3405203",
+        "areaDesc": "Scott, MO; Union, IL; Alexander, IL; Jackson, IL; Cape Girardeau, MO; Perry, MO",
+        "geocode": {
+            "UGC": [
+                "MOC201",
+                "ILC181",
+                "ILC003",
+                "ILC077",
+                "MOC031",
+                "MOC157"
+            ],
+            "SAME": [
+                "029201",
+                "017181",
+                "017003",
+                "017077",
+                "029031",
+                "029157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC201",
+            "https://api.weather.gov/zones/county/ILC181",
+            "https://api.weather.gov/zones/county/ILC003",
+            "https://api.weather.gov/zones/county/ILC077",
+            "https://api.weather.gov/zones/county/MOC031",
+            "https://api.weather.gov/zones/county/MOC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012059-3404695",
+                "identifier": "NWS-IDP-PROD-4012059-3404695",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T11:48:00-06:00"
+            }
+        ],
+        "sent": "2020-01-15T18:35:00-06:00",
+        "effective": "2020-01-15T18:35:00-06:00",
+        "onset": "2020-01-15T18:35:00-06:00",
+        "expires": "2020-01-16T22:35:00-06:00",
+        "ends": "2020-01-20T15:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 15 at 6:35PM CST until January 20 at 3:00PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following river in\nIllinois...Missouri...Kentucky...\n\nMississippi River at Cape Girardeau...Thebes...New Madrid\n\n.The Mississippi River at Cape Girardeau and Thebes are cresting\nand will start a slow fall. Both are expected to go below flood\nby the start of next week. New Madrid will continue to rise and then\ncrest around 38 feet on Sunday morning before slowly falling.\n\nThe Flood Warning continues for\nthe Mississippi River at Cape Girardeau\n* until Monday afternoon.\n* At  6:00 PM Wednesday the stage was 37.3 feet.\n* Flood Stage is 32.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nlate Monday morning.\n* Impact...At 38.0 Feet...The flood gate at Broadway closes.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0011.000000T0000Z-200120T2100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T15:00:00-06:00"
+            ]
+        }
+    }
+}
