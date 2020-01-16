@@ -1,0 +1,82 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012864-3405436",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012864-3405436",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012864-3405436",
+        "areaDesc": "Cortland; Southern Cayuga; Madison; Onondaga; Northern Oneida",
+        "geocode": {
+            "UGC": [
+                "NYZ044",
+                "NYZ017",
+                "NYZ036",
+                "NYZ018",
+                "NYZ009"
+            ],
+            "SAME": [
+                "036023",
+                "036011",
+                "036053",
+                "036067",
+                "036065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ044",
+            "https://api.weather.gov/zones/forecast/NYZ017",
+            "https://api.weather.gov/zones/forecast/NYZ036",
+            "https://api.weather.gov/zones/forecast/NYZ018",
+            "https://api.weather.gov/zones/forecast/NYZ009"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012154-3404786",
+                "identifier": "NWS-IDP-PROD-4012154-3404786",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T14:31:00-05:00"
+            }
+        ],
+        "sent": "2020-01-15T21:45:00-05:00",
+        "effective": "2020-01-15T21:45:00-05:00",
+        "onset": "2020-01-16T01:00:00-05:00",
+        "expires": "2020-01-16T21:45:00-05:00",
+        "ends": "2020-01-17T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Binghamton NY",
+        "headline": "Winter Weather Advisory issued January 15 at 9:45PM EST until January 17 at 1:00AM EST by NWS Binghamton NY",
+        "description": "* WHAT...Snow and blowing snow expected. Total snow\naccumulations of 3 to 6 inches. Winds gusting as high as 40\nmph. Spotty freezing rain is also possible late tonight.\n\n* WHERE...Northern Oneida, Southern Cayuga, Onondaga, Madison\nand Cortland counties.\n\n* WHEN...From 1 AM Thursday to 1 AM EST Friday.\n\n* IMPACTS...Plan on slippery road conditions. Areas of blowing\nsnow could significantly reduce visibility. The hazardous\nconditions could impact the morning and evening commute.",
+        "instruction": "Slow down and use caution while traveling.\n\nThe latest road conditions for the state you are calling from can\nbe obtained by calling 5 1 1.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT FROM 1 AM THURSDAY TO 1 AM EST FRIDAY"
+            ],
+            "HazardType": [
+                "Blowing Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KBGM.WW.Y.0004.200116T0600Z-200117T0600Z/"
+            ],
+            "PIL": [
+                "BGMWSWBGM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T01:00:00-05:00"
+            ]
+        }
+    }
+}
