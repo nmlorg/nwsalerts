@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012743-3405335",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.23,
+                    32.77
+                ],
+                [
+                    -91.28,
+                    33.400000000000006
+                ],
+                [
+                    -91.05,
+                    33.400000000000006
+                ],
+                [
+                    -91.00999999999999,
+                    32.830000000000005
+                ],
+                [
+                    -91.00999999999999,
+                    32.77
+                ],
+                [
+                    -91.10999999999999,
+                    32.78
+                ],
+                [
+                    -91.23,
+                    32.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012743-3405335",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012743-3405335",
+        "areaDesc": "Chicot, AR; Issaquena, MS; East Carroll, LA; Washington, MS",
+        "geocode": {
+            "UGC": [
+                "ARC017",
+                "MSC055",
+                "LAC035",
+                "MSC151"
+            ],
+            "SAME": [
+                "005017",
+                "028055",
+                "022035",
+                "028151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC017",
+            "https://api.weather.gov/zones/county/MSC055",
+            "https://api.weather.gov/zones/county/LAC035",
+            "https://api.weather.gov/zones/county/MSC151"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012020-3404662",
+                "identifier": "NWS-IDP-PROD-4012020-3404662",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T11:21:00-06:00"
+            }
+        ],
+        "sent": "2020-01-15T19:48:00-06:00",
+        "effective": "2020-01-15T19:48:00-06:00",
+        "onset": "2020-01-19T12:00:00-06:00",
+        "expires": "2020-01-17T01:48:00-06:00",
+        "ends": "2020-01-28T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 15 at 7:48PM CST until January 28 at 10:00PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nArkansas...Mississippi...Louisiana..\n\nMississippi River Near Arkansas City affecting Chicot...Desha...\nBolivar and Washington Counties\nMississippi River Near Greenville affecting Chicot...Issaquena\nand Washington Counties and East Carroll Parish\nMississippi River At Vicksburg affecting Madison and Tensas\nParishes and Claiborne...Jefferson and Warren Counties\nMississippi River At Natchez affecting Concordia Parish and\nAdams and Wilkinson Counties\n\nThe Flood Warning continues for\nThe Mississippi River Near Greenville\n* from Sunday afternoon to Tuesday January 28th.\n* At 7:00 PM Wednesday the stage was estimated at 46.6 feet.\n* Minor flooding is forecast.\n* Flood stage is 48 feet.\n* Forecast...The river will rise above flood stage this weekend\nand will continue to rise to a crest near 49.5 feet around Sunday\nJanuary 26th.\n* Impact...At 50 feet...Upper Lake Ferguson Road and Warfield Point\nPark are closed.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nMississippi River forecasts are based on rainfall that has occurred\nand that which is forecast to occur over the next 48 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0032.200119T1800Z-200129T0400Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-28T22:00:00-06:00"
+            ]
+        }
+    }
+}
