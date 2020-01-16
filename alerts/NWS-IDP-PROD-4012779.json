@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012779",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.2,
+                    35
+                ],
+                [
+                    -88.78,
+                    34.99
+                ],
+                [
+                    -88.78,
+                    35.1599999
+                ],
+                [
+                    -87.98,
+                    35.260000000000005
+                ],
+                [
+                    -87.98,
+                    35.010000000000005
+                ],
+                [
+                    -88.2,
+                    35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012779",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012779",
+        "areaDesc": "McNairy; Hardin",
+        "geocode": {
+            "UGC": [
+                "TNZ091",
+                "TNZ092"
+            ],
+            "SAME": [
+                "047109",
+                "047071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TNZ091",
+            "https://api.weather.gov/zones/forecast/TNZ092"
+        ],
+        "references": [],
+        "sent": "2020-01-15T20:00:00-06:00",
+        "effective": "2020-01-15T20:00:00-06:00",
+        "onset": "2020-01-15T20:00:00-06:00",
+        "expires": "2020-01-15T20:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Special Weather Statement issued January 15 at 8:00PM CST by NWS Memphis TN",
+        "description": "Southern McNairy County in western Tennessee...\nSouthern Hardin County in western Tennessee...\n\nAt 800 PM CST...a strong thunderstorm producing pea size hail or\nlarger and winds at least 40 mph was located over Big Hill Pond State\nPark, moving east at 45 mph.\n\nVery heavy rain along with continuous cloud to ground lightning are\nalso possible with this thunderstorm.\n\nPeople in southern McNairy and southern Hardin Counties should\nmonitor this storm closely.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T20:00:00.000-06:00...storm...265DEG...41KT...35.08,-88.71"
+            ],
+            "NWSheadline": [
+                "A SIGNIFICANT WEATHER ADVISORY HAS BEEN ISSUED UNTIL 845 PM CST FOR"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSPSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
