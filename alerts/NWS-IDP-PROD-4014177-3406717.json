@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014177-3406717",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.95,
+                    43.02
+                ],
+                [
+                    -84.7099999,
+                    43.14
+                ],
+                [
+                    -84.56,
+                    43.17
+                ],
+                [
+                    -84.5699999,
+                    43.1
+                ],
+                [
+                    -84.67999999999999,
+                    43.08
+                ],
+                [
+                    -84.92999999999999,
+                    42.979999899999996
+                ],
+                [
+                    -84.95,
+                    43.02
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014177-3406717",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4014177-3406717",
+        "areaDesc": "Clinton, MI",
+        "geocode": {
+            "UGC": [
+                "MIC037"
+            ],
+            "SAME": [
+                "026037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC037"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014171-3406711",
+                "identifier": "NWS-IDP-PROD-4014171-3406711",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-16T11:46:00-05:00"
+            }
+        ],
+        "sent": "2020-01-16T11:51:00-05:00",
+        "effective": "2020-01-16T11:51:00-05:00",
+        "onset": "2020-01-16T11:46:00-05:00",
+        "expires": "2020-01-17T17:46:00-05:00",
+        "ends": "2020-01-18T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Rapids MI",
+        "headline": "Flood Warning issued January 16 at 11:46AM EST until January 18 at 7:00PM EST by NWS Grand Rapids MI",
+        "description": "...The flood warning continues for the following rivers in Southwest\nLower Michigan...\n\nGrand River near Comstock Park affecting Kent County\nGrand River at Robinson Township affecting Ottawa County\nMaple River at Maple Rapids affecting Clinton County\n\n.Heavy rain last weekend continues to work through the river systems\nin West Michigan. Some locations on the Grand River remain above flood\nstage, with the crest currently moving through Grand Rapids. By Friday\nafternoon, all locations should see slowly falling water levels.\nAdditional precipitation expected this weekend should fal mostly as\nsnow, which will not have a significant effect on river levels. The\nfollowing forecast is based on observed and forecast 48 hour\nprecipitation.\n\nThe Flood Warning continues for\nthe Maple River at Maple Rapids.\n* until Saturday evening.\n* at 11:15 AM Thursday the stage was 9.1 feet.\n* Flood stage is 9.0 feet.\n* Minor Flooding is occurring and Minor Flooding is forecast.\n* Forecast, the river will continue to fall below flood stage by\ntomorrow evening.\n* Impact, at 9.0 feet...Expect minor flooding of County Line Road and\na home along County Line Road.\n* Flood history, this crest compares to a previous crest of 9.3 feet\non Nov 2 2019.",
+        "instruction": "Safety message...Motorists should not attempt to drive around\nbarricades or drive cars through flooded areas.\n\nStay tuned to further developments by listening to your local\nradio... television... or NOAA Weather Radio station for further\ninformation.\n\nAdditional weather and river information can be found on our homepage\nat www.weather.gov/grr",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGRR.FL.W.0015.000000T0000Z-200119T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GRRFLSGRR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T19:00:00-05:00"
+            ]
+        }
+    }
+}
