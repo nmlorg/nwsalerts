@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012662-3405260",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.44,
+                    33.3
+                ],
+                [
+                    -84.37,
+                    33.3
+                ],
+                [
+                    -84.45,
+                    33.18
+                ],
+                [
+                    -84.47,
+                    33.1599999
+                ],
+                [
+                    -84.47,
+                    33.1599999
+                ],
+                [
+                    -84.5,
+                    33.220000000000006
+                ],
+                [
+                    -84.44,
+                    33.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012662-3405260",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012662-3405260",
+        "areaDesc": "Fayette, GA; Spalding, GA",
+        "geocode": {
+            "UGC": [
+                "GAC113",
+                "GAC255"
+            ],
+            "SAME": [
+                "013113",
+                "013255"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC113",
+            "https://api.weather.gov/zones/county/GAC255"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011721-3404397",
+                "identifier": "NWS-IDP-PROD-4011721-3404397",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T09:49:00-05:00"
+            }
+        ],
+        "sent": "2020-01-15T20:30:00-05:00",
+        "effective": "2020-01-15T20:30:00-05:00",
+        "onset": "2020-01-15T20:30:00-05:00",
+        "expires": "2020-01-16T10:30:00-05:00",
+        "ends": "2020-01-16T11:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 15 at 8:30PM EST until January 16 at 11:30AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nChattahoochee River near Columbus affecting Lee...Russell...\nChattahoochee and Muscogee Counties\n\nFlint River near Griffin Hwy. 16 affecting Fayette and Spalding\nCounties\n\nFlint River near Carsonville Hwy. 19 affecting Crawford...\nTalbot...Taylor and Upson Counties\n\nThe Flood Warning continues for\nThe Flint River near Griffin Hwy. 16.\n* Until Thursday morning.\n* At 8 PM Wednesday the stage was 12.8 feet, and falling.\n* Minor flooding is occurring, and minor flooding is forecast to\ncontinue.\n* Flood stage is 12 feet.\n* The river will continue to fall, dropping below flood stage\nThursday morning.\n*  Between 12 and 13 feet, minor flooding occurs in the woodlands,\nfields and pastures upstream and downstream from the gage on\nGeorgia Highway 16, or Newnan Road. The backyards of homes at the\nend of Landing Way upstream from the bridge may also be partly\nflooded.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Thursday morning"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0014.000000T0000Z-200116T1630Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-16T11:30:00-05:00"
+            ]
+        }
+    }
+}
