@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012791",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.99,
+                    35.01
+                ],
+                [
+                    -87.97999999999999,
+                    35.199999999999996
+                ],
+                [
+                    -87.88999999999999,
+                    35.33
+                ],
+                [
+                    -87.31999989999998,
+                    35.18
+                ],
+                [
+                    -87.41999999999999,
+                    35
+                ],
+                [
+                    -87.99,
+                    35.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012791",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012791",
+        "areaDesc": "Wayne; Lawrence",
+        "geocode": {
+            "UGC": [
+                "TNZ093",
+                "TNZ094"
+            ],
+            "SAME": [
+                "047181",
+                "047099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TNZ093",
+            "https://api.weather.gov/zones/forecast/TNZ094"
+        ],
+        "references": [],
+        "sent": "2020-01-15T20:15:00-06:00",
+        "effective": "2020-01-15T20:15:00-06:00",
+        "onset": "2020-01-15T20:15:00-06:00",
+        "expires": "2020-01-15T20:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Special Weather Statement issued January 15 at 8:15PM CST by NWS Nashville TN",
+        "description": "At 815 PM CST, Doppler radar was tracking a cluster of strong\nthunderstorms from Waynesboro to Collinwood. Movement was east at 40\nmph.\n\nPea size hail and winds in excess of 40 mph will be possible with\nthese storms.\n\nLocations impacted include...\nLoretto, Collinwood, St. Joseph, Leoma, Westpoint, Iron City, Cypress\nInn and Lutts.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T20:15:00.000-06:00...storm...288DEG...37KT...35.25,-87.82 35.08,-87.82"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHERN WAYNE AND SOUTHWESTERN LAWRENCE COUNTIES UNTIL 845 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSPSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
