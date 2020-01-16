@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013090",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.72,
+                    34.58
+                ],
+                [
+                    -86.56,
+                    34.629999999999995
+                ],
+                [
+                    -86.3,
+                    34.989999999999995
+                ],
+                [
+                    -85.6,
+                    34.979999899999996
+                ],
+                [
+                    -85.6,
+                    34.94
+                ],
+                [
+                    -85.72,
+                    34.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4013090",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4013090",
+        "areaDesc": "Jackson; Madison; DeKalb",
+        "geocode": {
+            "UGC": [
+                "ALZ009",
+                "ALZ006",
+                "ALZ010"
+            ],
+            "SAME": [
+                "001071",
+                "001089",
+                "001049"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ALZ009",
+            "https://api.weather.gov/zones/forecast/ALZ006",
+            "https://api.weather.gov/zones/forecast/ALZ010"
+        ],
+        "references": [],
+        "sent": "2020-01-15T22:37:00-06:00",
+        "effective": "2020-01-15T22:37:00-06:00",
+        "onset": "2020-01-15T22:37:00-06:00",
+        "expires": "2020-01-15T23:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Special Weather Statement issued January 15 at 10:37PM CST by NWS Huntsville AL",
+        "description": "At 1035 PM CST, Doppler radar was tracking a strong thunderstorm 7\nmiles west of Skyline, or 14 miles northwest of Scottsboro, moving\neast at 45 mph.\n\nWinds in excess of 40 mph have been reported with this storm.  Winds\nof 41 mph were observed at the Meridianville airport at 1015 PM.\n\nLocations impacted include...\nHuntsville, Scottsboro, Bridgeport, Henagar, Stevenson, Sylvania,\nHollywood, Skyline, Gurley and Woodville.",
+        "instruction": "Strong gusty winds will be capable of knocking down small tree limbs\nalong with other small unsecured items. Seek safe shelter until this\nstorm has passed.\n\nFrequent cloud to ground lightning is occurring with this storm.\nLightning can strike several miles away from a thunderstorm. Seek a\nsafe shelter inside a building or vehicle.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-15T22:35:00.000-06:00...storm...273DEG...41KT...34.79,-86.24"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR JACKSON...NORTHEASTERN MADISON AND NORTH CENTRAL DEKALB COUNTIES UNTIL 1115 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNSPSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
