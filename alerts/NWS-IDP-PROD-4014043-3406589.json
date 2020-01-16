@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014043-3406589",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.35,
+                    45.15
+                ],
+                [
+                    -98.44999999999999,
+                    44.96
+                ],
+                [
+                    -98.51999999999998,
+                    44.92
+                ],
+                [
+                    -98.53999999999998,
+                    44.97
+                ],
+                [
+                    -98.44999999999997,
+                    45.15
+                ],
+                [
+                    -98.35,
+                    45.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4014043-3406589",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4014043-3406589",
+        "areaDesc": "Spink, SD",
+        "geocode": {
+            "UGC": [
+                "SDC115"
+            ],
+            "SAME": [
+                "046115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SDC115"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-3994920-3389755",
+                "identifier": "NWS-IDP-PROD-3994920-3389755",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-09T08:47:00-06:00"
+            }
+        ],
+        "sent": "2020-01-16T09:34:00-06:00",
+        "effective": "2020-01-16T09:34:00-06:00",
+        "onset": "2020-01-16T09:34:00-06:00",
+        "expires": "2020-01-23T16:34:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Aberdeen SD",
+        "headline": "Flood Warning issued January 16 at 9:34AM CST by NWS Aberdeen SD",
+        "description": "...The Flood Warning continues for the following rivers in South\nDakota...\nJames River At Columbia\nJames River Near Stratford\nJames River At Ashton\n\n.The following river forecasts include forecast precipitation through\nthe next 24 hours. Any additional future precipitation could affect\nthe forecasts.\n\nThe Flood Warning continues for\nThe James River At Ashton.\n* until further notice.\n* At  8:45 AM Thursday the stage was 15.7 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Flood stage is 13.0 feet.\n* Forecast...The river will remain above flood stage for the next\nseveral weeks.\n* At 16.5 feet...The water overtops the bridge 3 miles north and 1\n1/2 mile east of Ashton.",
+        "instruction": "Safety message...Flood waters can be very dangerous. Never drive\nacross a flooded road. Turn around don't drown!\n\nStay tuned for further updates by listening to NOAA weather radio...\nor your favorite local media.\n\nFor additional information...check out our web site at\nwww.weather.gov/abr then left click on the Rivers and Lakes link.\n\nThe next scheduled statement will be issued tomorrow morning.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KABR.FL.W.0078.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ABRFLSABR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
