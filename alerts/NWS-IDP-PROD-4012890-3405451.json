@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012890-3405451",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.11,
+                    32.59
+                ],
+                [
+                    -85.05,
+                    32.620000000000005
+                ],
+                [
+                    -84.9599999,
+                    32.510000000000005
+                ],
+                [
+                    -84.95,
+                    32.38
+                ],
+                [
+                    -85.02,
+                    32.38
+                ],
+                [
+                    -85.03,
+                    32.5
+                ],
+                [
+                    -85.11,
+                    32.59
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012890-3405451",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012890-3405451",
+        "areaDesc": "Chattahoochee, GA; Russell, AL; Lee, AL; Muscogee, GA",
+        "geocode": {
+            "UGC": [
+                "GAC053",
+                "ALC113",
+                "ALC081",
+                "GAC215"
+            ],
+            "SAME": [
+                "013053",
+                "001113",
+                "001081",
+                "013215"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC053",
+            "https://api.weather.gov/zones/county/ALC113",
+            "https://api.weather.gov/zones/county/ALC081",
+            "https://api.weather.gov/zones/county/GAC215"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012663-3405261",
+                "identifier": "NWS-IDP-PROD-4012663-3405261",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T20:30:00-05:00"
+            }
+        ],
+        "sent": "2020-01-15T21:52:00-05:00",
+        "effective": "2020-01-15T21:52:00-05:00",
+        "onset": "2020-01-15T21:52:00-05:00",
+        "expires": "2020-01-16T11:52:00-05:00",
+        "ends": "2020-01-17T02:20:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 15 at 9:52PM EST until January 17 at 2:20AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nChattahoochee River near Columbus affecting Lee...Russell...\nChattahoochee and Muscogee Counties\n\nThe Flood Warning continues for\nThe Chattahoochee River near Columbus.\n* From tonight until late Thursday night.\n* At 930 PM Wednesday the stage was 27 feet, and steady.\n* Minor flooding is occurring, and minor flooding is forecast to\ncontinue.\n* Flood stage is 27 feet.\n* The river is forecast to rise, reaching near 28.4 feet by early\nThursday afternoon. The river is expected to fall below flood stage\nby Thursday evening.\n* At 28 feet, minor flooding continues along the river upstream and\ndownstream from the gage on the 14th Street bridge. Portions of the\nRiver Walk in Columbus will be flooded around one foot deep and\nclosed to the public. The Phenix City Amphitheater on the Alabama\nside will begin to flood.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until late Thursday night"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0026.000000T0000Z-200117T0720Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T02:20:00-05:00"
+            ]
+        }
+    }
+}

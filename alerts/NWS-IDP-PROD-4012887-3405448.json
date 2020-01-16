@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012887-3405448",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.23,
+                    33.11
+                ],
+                [
+                    -92.36,
+                    33.2299999
+                ],
+                [
+                    -92.61,
+                    33.290000000000006
+                ],
+                [
+                    -92.47,
+                    33.38000000000001
+                ],
+                [
+                    -92.26,
+                    33.33000000000001
+                ],
+                [
+                    -92.12,
+                    33.22000000000001
+                ],
+                [
+                    -92.23,
+                    33.11
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012887-3405448",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4012887-3405448",
+        "areaDesc": "Union, AR; Bradley, AR; Calhoun, AR",
+        "geocode": {
+            "UGC": [
+                "ARC139",
+                "ARC011",
+                "ARC013"
+            ],
+            "SAME": [
+                "005139",
+                "005011",
+                "005013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC139",
+            "https://api.weather.gov/zones/county/ARC011",
+            "https://api.weather.gov/zones/county/ARC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4011833-3404501",
+                "identifier": "NWS-IDP-PROD-4011833-3404501",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T09:36:00-06:00"
+            }
+        ],
+        "sent": "2020-01-15T20:49:00-06:00",
+        "effective": "2020-01-15T20:49:00-06:00",
+        "onset": "2020-01-15T20:49:00-06:00",
+        "expires": "2020-01-16T11:49:00-06:00",
+        "ends": "2020-01-20T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Warning issued January 15 at 8:49PM CST until January 20 at 12:00AM CST by NWS Little Rock AR",
+        "description": "...From the National Weather Service in Little Rock...the Flood\nWarning continues for the following river in Arkansas...\n\nOuachita River At Thatcher L&D affecting Bradley...Calhoun and\nUnion Counties\n\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 24 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.\n\nThe Flood Warning continues for\nThe Ouachita River At Thatcher L&D.\n* until late Sunday night...Or until the warning is cancelled.\n* At  7:30 PM Wednesday the stage was 80.9 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 79.0 feet.\n* Forecast...The river will crest around 81.0 feet early Thursday\nbefore slowly falling.\n* Impacts at 80.0 feet...Minor flooding occurs at this level. Levee\ngates should be closed to prevent the river from backing into\nCalion Lake. Access to oil and gas rigs and to timber is flooded.\nThere is wide coverage of flooding in the river bottoms.\n\n\nFld     Observed        Forecast 6 AM        Crest\nLocation     Stg   Stg  Day Time   Thu   Fri   Sat  Crest Time  Date\n\nOuachita River\nThatcher L  79  80.9 Wed 07 PM  81.0  80.4  79.6   81.0 06 AM 01/16",
+        "instruction": "Safety message...Remember to Turn Around...Don't Drown\nDo not drive cars through flooded areas.\n\nEveryone with property or other interest along streams and rivers\nshould remain alert to changing weather forecasts. Should conditions\nchange...Look for river forecasts or Flood Warnings for use in making\ninformed decisions to protect life and property.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLZK.FL.W.0012.000000T0000Z-200120T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T00:00:00-06:00"
+            ]
+        }
+    }
+}
