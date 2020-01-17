@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016347-3408884",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.98,
+                    41.26
+                ],
+                [
+                    -84.81,
+                    41.4
+                ],
+                [
+                    -84.78,
+                    41.39
+                ],
+                [
+                    -84.93,
+                    41.2299999
+                ],
+                [
+                    -84.98,
+                    41.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016347-3408884",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4016347-3408884",
+        "areaDesc": "De Kalb, IN; Defiance, OH; Allen, IN",
+        "geocode": {
+            "UGC": [
+                "INC033",
+                "OHC039",
+                "INC003"
+            ],
+            "SAME": [
+                "018033",
+                "039039",
+                "018003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC033",
+            "https://api.weather.gov/zones/county/OHC039",
+            "https://api.weather.gov/zones/county/INC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4015194-3407711",
+                "identifier": "NWS-IDP-PROD-4015194-3407711",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-16T21:28:00-05:00"
+            }
+        ],
+        "sent": "2020-01-17T10:12:00-05:00",
+        "effective": "2020-01-17T10:12:00-05:00",
+        "onset": "2020-01-17T10:12:00-05:00",
+        "expires": "2020-01-18T10:11:00-05:00",
+        "ends": "2020-01-19T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 17 at 10:12AM EST until January 19 at 7:00AM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nSaint Joseph River Ohio NEAR Newville affecting Allen...De Kalb and\nDefiance Counties\nTiffin River At Stryker affecting Defiance...Fulton and Williams\nCounties\nSaint Joseph River Michigan at Three Rivers affecting Elkhart...\nBranch and St. Joseph Counties\nSaint Joseph River Michigan at South Bend affecting Elkhart...St.\nJoseph and Berrien Counties\n\n...The Flood Warning continues for the following rivers...\n\nNorth Branch Elkhart River at Cosperville affecting Noble County\n\n.Rivers continue to hold steady or gradually decline from recent\nheavy rainfall. Additional rainfall is expected over the next 24 to\n36 hours which may cause a brief plateau in river stage.\n\nThe Flood Warning has been extended for\nThe Saint Joseph River Ohio NEAR Newville\n* until Sunday morning.\n* At 9 AM Friday the stage was 12.8 feet and falling.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 12.0 feet.\n* Forecast...The river will fall below the 12.0 foot flood stage\naround  7 AM Saturday January 18.\n* At 12.0 feet...DeKalb County Road 42 about 3 miles northeast of\nNewville floods. Agricultural and low lands flood along the St.\nJoseph River to the Cedarville Reservoir.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0009.000000T0000Z-200119T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T07:00:00-05:00"
+            ]
+        }
+    }
+}
