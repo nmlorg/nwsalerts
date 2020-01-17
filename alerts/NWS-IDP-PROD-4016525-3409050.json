@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016525-3409050",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -106.8,
+                    41.56
+                ],
+                [
+                    -106.75,
+                    41.900000000000006
+                ],
+                [
+                    -105.88,
+                    42.080000000000005
+                ],
+                [
+                    -105.89,
+                    41.31
+                ],
+                [
+                    -106.8,
+                    41.56
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016525-3409050",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4016525-3409050",
+        "areaDesc": "Albany, WY; Carbon, WY",
+        "geocode": {
+            "UGC": [
+                "WYC001",
+                "WYC007"
+            ],
+            "SAME": [
+                "056001",
+                "056007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WYC001",
+            "https://api.weather.gov/zones/county/WYC007"
+        ],
+        "references": [],
+        "sent": "2020-01-17T09:26:00-07:00",
+        "effective": "2020-01-17T09:26:00-07:00",
+        "onset": "2020-01-17T09:25:00-07:00",
+        "expires": "2020-01-17T10:30:00-07:00",
+        "ends": "2020-01-17T10:30:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cheyenne WY",
+        "headline": "Snow Squall Warning issued January 17 at 9:25AM MST until January 17 at 10:30AM MST by NWS Cheyenne WY",
+        "description": "The National Weather Service in Cheyenne has issued a\n\n* Snow Squall Warning for...\nEast central Carbon County in south central Wyoming...\nSouthwestern Albany County in southeastern Wyoming...\n\n* Until 1030 AM MST.\n\n* At 925 AM MST, a dangerous snow squall was located along\nInterstate 80 between Elk Mountain and Arlington, or 39 miles east\nof Rawlins, moving east at 25 mph.\n\nHAZARD...Poor visibility in snow and blowing snow. Wind gusts\ngreater than 30 mph.\n\nSOURCE...Radar indicated and highway cameras.\n\nIMPACT...Dangerous life-threatening travel.\n\n*\n\nThis includes Interstate 80 in Wyoming between mile markers 239 and\n293.\n\nLocations impacted include...\nHanna, Medicine Bow, Rock River, Elk Mountain, Bow River Campground,\nDeep Creek Campground and Arlington.",
+        "instruction": "Reduce your speed and turn on headlights! During snow squalls, the\nvisibility may suddenly drop to near zero in whiteout conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-17T09:25:00.000-07:00...storm...269DEG...19KT...41.72,-106.47"
+            ],
+            "VTEC": [
+                "/O.NEW.KCYS.SQ.W.0005.200117T1625Z-200117T1730Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CYSSQWCYS"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T10:30:00-07:00"
+            ],
+            "CMAMtext": [
+                "Snow Squall Warning til 10:30 AM MST. Sudden whiteouts. Icy roads. Slow down! -NWS"
+            ]
+        }
+    }
+}
