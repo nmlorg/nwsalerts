@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016720-3409253",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.59,
+                    37.2299999
+                ],
+                [
+                    -89.41,
+                    37.25
+                ],
+                [
+                    -89.28999999999999,
+                    37.13
+                ],
+                [
+                    -89.45999989999999,
+                    37.09
+                ],
+                [
+                    -89.59,
+                    37.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016720-3409253",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4016720-3409253",
+        "areaDesc": "Scott, MO; Alexander, IL",
+        "geocode": {
+            "UGC": [
+                "MOC201",
+                "ILC003"
+            ],
+            "SAME": [
+                "029201",
+                "017003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC201",
+            "https://api.weather.gov/zones/county/ILC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4015077-3407605",
+                "identifier": "NWS-IDP-PROD-4015077-3407605",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-16T19:22:00-06:00"
+            }
+        ],
+        "sent": "2020-01-17T12:13:00-06:00",
+        "effective": "2020-01-17T12:13:00-06:00",
+        "onset": "2020-01-17T12:13:00-06:00",
+        "expires": "2020-01-18T16:13:00-06:00",
+        "ends": "2020-01-18T16:48:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 17 at 12:13PM CST until January 18 at 4:48PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Missouri...Kentucky...\n\nMississippi River at Cape Girardeau...Thebes and New Madrid\n\n.The river will crest at New Madrid tomorrow morning, and will continue\nto fall at Cape Girardeau and Thebes.  The river will fall below flood\nstage at all 3 sites this weekend.\n\nThe Flood Warning continues for\nthe Mississippi River at Thebes.\n* until Saturday afternoon.\n* At 12:00 PM Friday the stage was 34.8 feet.\n* Flood Stage is 33.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\ntomorrow late morning.\n* Impact...At 34.0 Feet...The town of Thebes begins to flood.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0012.000000T0000Z-200118T2248Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T16:48:00-06:00"
+            ]
+        }
+    }
+}
