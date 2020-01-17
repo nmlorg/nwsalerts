@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016711-3409239",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -104.95,
+                    41.4099999
+                ],
+                [
+                    -104.98,
+                    41.93
+                ],
+                [
+                    -104.73,
+                    41.9099999
+                ],
+                [
+                    -104.77000000000001,
+                    41.400000000000006
+                ],
+                [
+                    -104.95,
+                    41.4099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016711-3409239",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4016711-3409239",
+        "areaDesc": "Laramie, WY; Platte, WY",
+        "geocode": {
+            "UGC": [
+                "WYC021",
+                "WYC031"
+            ],
+            "SAME": [
+                "056021",
+                "056031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WYC021",
+            "https://api.weather.gov/zones/county/WYC031"
+        ],
+        "references": [],
+        "sent": "2020-01-17T11:09:00-07:00",
+        "effective": "2020-01-17T11:09:00-07:00",
+        "onset": "2020-01-17T11:06:00-07:00",
+        "expires": "2020-01-17T11:45:00-07:00",
+        "ends": "2020-01-17T11:45:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cheyenne WY",
+        "headline": "Snow Squall Warning issued January 17 at 11:06AM MST until January 17 at 11:45AM MST by NWS Cheyenne WY",
+        "description": "The National Weather Service in Cheyenne has issued a\n\n* Snow Squall Warning for...\nNorth central Laramie County in southeastern Wyoming...\nSoutheastern Platte County in southeastern Wyoming...\n\n* Until 1145 AM MST.\n\n* At 1106 AM MST, a dangerous snow squall was located near Chugwater,\nor 21 miles south of Wheatland, moving east at 35 mph.\n\nHAZARD...Poor visibility in snow and blowing snow. Wind gusts\ngreater than 30 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Dangerous life-threatening travel.\n\n*\n\nThis includes Interstate 25 in Wyoming between mile markers 30 and\n70.\n\nLocations impacted include...\nChugwater, Slater and Whitaker.",
+        "instruction": "Reduce your speed and turn on headlights! During snow squalls, the\nvisibility may suddenly drop to near zero in whiteout conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-17T11:06:00.000-07:00...storm...260DEG...32KT...41.74,-104.91"
+            ],
+            "VTEC": [
+                "/O.NEW.KCYS.SQ.W.0007.200117T1806Z-200117T1845Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CYSSQWCYS"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T11:45:00-07:00"
+            ],
+            "CMAMtext": [
+                "Snow Squall Warning til 11:45 AM MST. Sudden whiteouts. Icy roads. Slow down! -NWS"
+            ]
+        }
+    }
+}
