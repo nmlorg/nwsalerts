@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016399-3408945",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.5699999,
+                    39.3
+                ],
+                [
+                    -87.53999999999999,
+                    39.229999899999996
+                ],
+                [
+                    -87.61999999999999,
+                    39.12
+                ],
+                [
+                    -87.67999999999999,
+                    39.14
+                ],
+                [
+                    -87.61999999999999,
+                    39.22
+                ],
+                [
+                    -87.63,
+                    39.32
+                ],
+                [
+                    -87.5699999,
+                    39.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016399-3408945",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4016399-3408945",
+        "areaDesc": "Lawrence, IL; Crawford, IL; Knox, IN; Sullivan, IN",
+        "geocode": {
+            "UGC": [
+                "ILC101",
+                "ILC033",
+                "INC083",
+                "INC153"
+            ],
+            "SAME": [
+                "017101",
+                "017033",
+                "018083",
+                "018153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC101",
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4015161-3407690",
+                "identifier": "NWS-IDP-PROD-4015161-3407690",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-16T21:21:00-05:00"
+            }
+        ],
+        "sent": "2020-01-17T10:27:00-05:00",
+        "effective": "2020-01-17T10:27:00-05:00",
+        "onset": "2020-01-17T10:27:00-05:00",
+        "expires": "2020-01-18T10:26:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 17 at 10:27AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...Wabash River...White River...\n\n\n.Minor to moderate flooding continued Friday morning in central and\nsouthern Indiana. Crests will be/are comparable to those that\noccurred in February and June of 2019.\n\nThe crest on the Wabash River is at Riverton, on the White River it\nis approaching Petersburg, and on the East Fork White it is at\nShoals.  A precipitation event from Friday afternoon through Saturday\nafternoon will bring either secondary crests or at least slower falls\nto the river levels.  Flooding along the lower portions of the White\nand Wabash River is likely to continue until about the end of the\nmonth.\n\nThe Flood Warning continues for\nThe Wabash River at Hutsonville Legacy Power Plant Site.\n* until further notice.\n* There have been no observations in the last 24 hours.\n* Flood stage is 16.0 feet.\n* Minor flooding is forecast.\n* Forecast...It is forecast to crest at 22.0 feet this afternoon.\n* At 22.0 feet...River cabins become isolated.  Basement flooding\nbegins in Hutsonville.  Extensive agricultural flooding is in\nprogress.  Higher Illinois rural roads in eastern Clark and\nCrawford counties flood.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0017.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

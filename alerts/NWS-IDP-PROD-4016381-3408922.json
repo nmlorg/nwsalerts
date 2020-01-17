@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016381-3408922",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81,
+                    33.96
+                ],
+                [
+                    -80.92,
+                    33.87
+                ],
+                [
+                    -80.97,
+                    33.79
+                ],
+                [
+                    -81.06,
+                    33.94
+                ],
+                [
+                    -81,
+                    33.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016381-3408922",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4016381-3408922",
+        "areaDesc": "Richland, SC; Calhoun, SC; Lexington, SC",
+        "geocode": {
+            "UGC": [
+                "SCC079",
+                "SCC017",
+                "SCC063"
+            ],
+            "SAME": [
+                "045079",
+                "045017",
+                "045063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC079",
+            "https://api.weather.gov/zones/county/SCC017",
+            "https://api.weather.gov/zones/county/SCC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4015040-3407575",
+                "identifier": "NWS-IDP-PROD-4015040-3407575",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-16T19:59:00-05:00"
+            }
+        ],
+        "sent": "2020-01-17T10:25:00-05:00",
+        "effective": "2020-01-17T10:25:00-05:00",
+        "onset": "2020-01-17T10:25:00-05:00",
+        "expires": "2020-01-18T10:24:00-05:00",
+        "ends": "2020-01-18T15:40:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued January 17 at 10:25AM EST until January 18 at 3:40PM EST by NWS Columbia SC",
+        "description": "...The Flood Warning continues for the following rivers in South\nCarolina...\n\nCongaree River At Carolina Eastman affecting Calhoun...Lexington and\nRichland Counties\n\nCongaree River At Congaree National Park-Gadsden affecting Calhoun\nand Richland Counties\n\n.Recent rainfall and hydroelectric dam releases continues to produce\nminor flooding along portions of the Congaree River.\n\nThe Flood Warning extended for\nThe Congaree River At Carolina Eastman.\n* until Saturday afternoon...Or until the warning is cancelled.\n* At  7 AM Friday the stage was 117.1 feet.\n* Flood stage is 115.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall...Going below flood\nstage by this afternoon.\n* At 115.0 feet...Flooding occurs in low lying areas of the Carolina\nEastman Facility and at the Congaree National Park.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCAE.FL.W.0005.000000T0000Z-200118T2040Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T15:40:00-05:00"
+            ]
+        }
+    }
+}
