@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016545-3409071",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.18,
+                    31
+                ],
+                [
+                    -87.15,
+                    31
+                ],
+                [
+                    -87.28,
+                    30.9
+                ],
+                [
+                    -87.29,
+                    30.77
+                ],
+                [
+                    -87.33000000000001,
+                    30.77
+                ],
+                [
+                    -87.31000000000002,
+                    30.93
+                ],
+                [
+                    -87.18,
+                    31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016545-3409071",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4016545-3409071",
+        "areaDesc": "Escambia, FL; Escambia, AL",
+        "geocode": {
+            "UGC": [
+                "FLC033",
+                "ALC053"
+            ],
+            "SAME": [
+                "012033",
+                "001053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC033",
+            "https://api.weather.gov/zones/county/ALC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016199-3408742",
+                "identifier": "NWS-IDP-PROD-4016199-3408742",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T07:50:00-06:00"
+            }
+        ],
+        "sent": "2020-01-17T10:43:00-06:00",
+        "effective": "2020-01-17T10:43:00-06:00",
+        "onset": "2020-01-17T10:43:00-06:00",
+        "expires": "2020-01-18T10:43:00-06:00",
+        "ends": "2020-01-20T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued January 17 at 10:43AM CST until January 20 at 12:00PM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for the following rivers in Alabama...Florida...\nMississippi...\n\nTombigbee River Near Coffeeville Dam affecting Choctaw...Clarke and\nWashington Counties.\nTombigbee River Near Leroy affecting Choctaw...Clarke and Washington\nCounties.\nAlabama River Near Millers Ferry Dam affecting Dallas...Monroe and Wilcox\nCounties.\nAlabama River Near Claiborne Dam - Tailwater affecting Clarke...Monroe and\nWilcox Counties.\nEscambia River Near Century affecting Escambia County.\nLeaf Near Mclain affecting George...Greene and Perry Counties.\nChickasawhay At Leakesville affecting George...Greene and Wayne Counties.\nPascagoula At Merrill affecting George...Greene and Jackson Counties.\n\n.Recent heavy rains have caused significant rises along the river.\n\nThe Flood Warning continues for\nthe Escambia River Near Century\n* until Monday afternoon.\n* At 10AM Friday the stage was 18.4 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 17.0 feet.\n* The river will continue rising to near 18.4 feet by this afternoon. The river\nwill fall below flood stage Monday morning.\n* At 19.0 feet...Low lying pastures will flood. Cattle should be moved to higher\nground.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMOB.FL.W.0007.000000T0000Z-200120T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T12:00:00-06:00"
+            ]
+        }
+    }
+}
