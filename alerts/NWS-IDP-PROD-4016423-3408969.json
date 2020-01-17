@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016423-3408969",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.65,
+                    33.04
+                ],
+                [
+                    -80.62,
+                    33.11
+                ],
+                [
+                    -80.36,
+                    33.08
+                ],
+                [
+                    -80.36,
+                    32.75
+                ],
+                [
+                    -80.5,
+                    32.75
+                ],
+                [
+                    -80.44,
+                    33.02
+                ],
+                [
+                    -80.65,
+                    33.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016423-3408969",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4016423-3408969",
+        "areaDesc": "Dorchester, SC; Colleton, SC; Charleston, SC",
+        "geocode": {
+            "UGC": [
+                "SCC035",
+                "SCC029",
+                "SCC019"
+            ],
+            "SAME": [
+                "045035",
+                "045029",
+                "045019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC035",
+            "https://api.weather.gov/zones/county/SCC029",
+            "https://api.weather.gov/zones/county/SCC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016370-3408917",
+                "identifier": "NWS-IDP-PROD-4016370-3408917",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T10:21:00-05:00"
+            }
+        ],
+        "sent": "2020-01-17T10:34:00-05:00",
+        "effective": "2020-01-17T10:34:00-05:00",
+        "onset": "2020-01-18T15:00:00-05:00",
+        "expires": "2020-01-18T10:34:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston SC",
+        "headline": "Flood Warning issued January 17 at 10:34AM EST by NWS Charleston SC",
+        "description": "The Flood Warning continues for\nThe Edisto River near Givhans Ferry.\n* At 9 AM Friday the stage was 8.6 feet.\n* Flood stage is 10.0 feet.\n* Minor flooding is forecast.\n* Forecast, rise above flood stage by Saturday afternoon and continue\nto rise to near 10.8 feet by Monday morning. Additional rises are\npossible thereafter.\n* At 11.0 feet, Weeks Landing in Canadys is not accessible.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCHS.FL.W.0004.200118T2000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CHSFLSCHS"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
