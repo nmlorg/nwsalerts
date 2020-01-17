@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016577-3409104",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -112.17,
+                    47.83
+                ],
+                [
+                    -112.15,
+                    47.8
+                ],
+                [
+                    -112.19000000000001,
+                    47.79
+                ],
+                [
+                    -112.21000000000001,
+                    47.82
+                ],
+                [
+                    -112.17,
+                    47.83
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016577-3409104",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4016577-3409104",
+        "areaDesc": "Teton, MT",
+        "geocode": {
+            "UGC": [
+                "MTC099"
+            ],
+            "SAME": [
+                "030099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MTC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012342-3404968",
+                "identifier": "NWS-IDP-PROD-4012342-3404968",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T14:13:00-07:00"
+            }
+        ],
+        "sent": "2020-01-17T10:02:00-07:00",
+        "effective": "2020-01-17T10:02:00-07:00",
+        "onset": "2020-01-17T10:02:00-07:00",
+        "expires": "2020-01-22T14:15:00-07:00",
+        "ends": "2020-01-22T14:15:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Great Falls MT",
+        "headline": "Flood Warning issued January 17 at 10:02AM MST until January 22 at 2:15PM MST by NWS Great Falls MT",
+        "description": "The National Weather Service in Great Falls has extended the\n\n* Flood Warning for Small Streams for...\nAn Ice Jam in...\nCentral Teton County in north central Montana...\n\n* Until further notice.\n\n* A flood warning has been issued in the city of Choteau because of\nan ice jam on Spring Creek.\n\n* Some locations that will experience flooding including the city\nof Choteau.\n\nWater has been reported several inches deep on some streets in the\ncity of Choteau, resulting in some street closers. Water levels\ncontinue to rise, and some houses and business will start to become\nimpacted by flood waters.\n\nIf you need assistance because of flooding in the city of Choteau,\nyou can call the Choteau City Office at: 406 466 2510.\n\nThe flood warning will remain in effect until the ice jam breaks and\nthe impacts from flooding have diminished.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KTFX.FA.W.0001.000000T0000Z-200122T2115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TFXFLWTFX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T14:15:00-07:00"
+            ]
+        }
+    }
+}
