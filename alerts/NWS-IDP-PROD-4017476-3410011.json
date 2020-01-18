@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017476-3410011",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.56,
+                    31.84
+                ],
+                [
+                    -87.38,
+                    31.84
+                ],
+                [
+                    -87.53,
+                    31.46
+                ],
+                [
+                    -87.86,
+                    31.14
+                ],
+                [
+                    -87.97,
+                    31.14
+                ],
+                [
+                    -87.66,
+                    31.5
+                ],
+                [
+                    -87.56,
+                    31.84
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017476-3410011",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4017476-3410011",
+        "areaDesc": "Wilcox, AL; Clarke, AL; Monroe, AL",
+        "geocode": {
+            "UGC": [
+                "ALC131",
+                "ALC025",
+                "ALC099"
+            ],
+            "SAME": [
+                "001131",
+                "001025",
+                "001099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC131",
+            "https://api.weather.gov/zones/county/ALC025",
+            "https://api.weather.gov/zones/county/ALC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016544-3409070",
+                "identifier": "NWS-IDP-PROD-4016544-3409070",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T10:43:00-06:00"
+            }
+        ],
+        "sent": "2020-01-17T20:21:00-06:00",
+        "effective": "2020-01-17T20:21:00-06:00",
+        "onset": "2020-01-17T20:21:00-06:00",
+        "expires": "2020-01-18T20:20:00-06:00",
+        "ends": "2020-01-22T01:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued January 17 at 8:21PM CST until January 22 at 1:00AM CST by NWS Mobile AL",
+        "description": "...The flood warning is cancelled for the following rivers in Alabama...\n\nAlabama River Near Millers Ferry Dam affecting Dallas...Monroe and Wilcox\nCounties.\n\n...The flood warning continues for the following rivers in Alabama...Florida...\n\nAlabama River Near Claiborne Dam - Tailwater affecting Clarke...Monroe and\nWilcox Counties.\n\nEscambia River Near Century affecting Escambia County.\n\nTombigbee River Near Coffeeville Dam affecting Choctaw...Clarke and\nWashington Counties.\n\nTombigbee River Near Leroy affecting Choctaw...Clarke and Washington\nCounties.\n\n.Recent heavy rains have caused significant rises along the river.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMOB.FL.W.0009.000000T0000Z-200122T0700Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T01:00:00-06:00"
+            ]
+        }
+    }
+}
