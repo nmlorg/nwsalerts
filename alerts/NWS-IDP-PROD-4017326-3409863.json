@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017326-3409863",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.76,
+                    42.5
+                ],
+                [
+                    -83.74000000000001,
+                    42.45
+                ],
+                [
+                    -83.81,
+                    42.43
+                ],
+                [
+                    -83.93,
+                    42.43
+                ],
+                [
+                    -83.76,
+                    42.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017326-3409863",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4017326-3409863",
+        "areaDesc": "Livingston, MI",
+        "geocode": {
+            "UGC": [
+                "MIC093"
+            ],
+            "SAME": [
+                "026093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016372-3408919",
+                "identifier": "NWS-IDP-PROD-4016372-3408919",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T10:21:00-05:00"
+            }
+        ],
+        "sent": "2020-01-17T19:56:00-05:00",
+        "effective": "2020-01-17T19:56:00-05:00",
+        "onset": "2020-01-17T19:56:00-05:00",
+        "expires": "2020-01-18T09:55:00-05:00",
+        "ends": "2020-01-20T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Flood Warning issued January 17 at 7:56PM EST until January 20 at 7:00PM EST by NWS Detroit/Pontiac MI",
+        "description": "...A FLOOD WARNING CONTINUES FOR THE FOLLOWING...\n\nHuron River...Saginaw River\n\n.A period of heavy snow is expected overnight, with a transition\nto drizzle on Saturday. Warming temperatures on Saturday will allow for\nsome runoff melting snow into the rivers, before colder air returns\nSaturday night. This may slow down the fall of the rivers this weekend.\n\nA flood warning continues for\nHuron River near Hamburg..\n* From now until further notice.\n* At 7 PM Friday the stage is 7.1 feet and slowly falling.\n* Flood stage is 6.5 feet.\n* Moderate flooding is occurring.\n* Forecast...the river should fall below flood stage Monday early\nafternoon.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KDTX.FL.W.0002.000000T0000Z-200121T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXFLSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T19:00:00-05:00"
+            ]
+        }
+    }
+}
