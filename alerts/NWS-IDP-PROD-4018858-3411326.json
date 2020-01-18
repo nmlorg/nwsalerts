@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018858-3411326",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.62,
+                    34.24
+                ],
+                [
+                    -79.5,
+                    34.24
+                ],
+                [
+                    -79.45,
+                    34
+                ],
+                [
+                    -79.3199999,
+                    33.85
+                ],
+                [
+                    -79.44,
+                    33.85
+                ],
+                [
+                    -79.5699999,
+                    33.9799999
+                ],
+                [
+                    -79.62,
+                    34.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018858-3411326",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4018858-3411326",
+        "areaDesc": "Florence, SC; Marion, SC",
+        "geocode": {
+            "UGC": [
+                "SCC041",
+                "SCC067"
+            ],
+            "SAME": [
+                "045041",
+                "045067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC041",
+            "https://api.weather.gov/zones/county/SCC067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017377-3409921",
+                "identifier": "NWS-IDP-PROD-4017377-3409921",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T20:21:00-05:00"
+            }
+        ],
+        "sent": "2020-01-18T12:31:00-05:00",
+        "effective": "2020-01-18T12:31:00-05:00",
+        "onset": "2020-01-18T12:31:00-05:00",
+        "expires": "2020-01-19T04:32:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued January 18 at 12:31PM EST by NWS Wilmington NC",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nLittle Pee Dee At Galivants Ferry affecting Dillon...Horry and Marion Counties\nSC\n\n...The Flood Warning continues for the following rivers...\n\nLumber Near Lumberton affecting Robeson County NC\nGreat Pee Dee At Pee Dee affecting Marion and Florence Counties SC\n\nThe Flood Warning continues for\nThe Great Pee Dee At Pee Dee.\n* until further notice.\n* At 12:00 PM Saturday the stage was 21.78 feet.\n* Flood stage is 19.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 21.8 feet by this afternoon\nthen begin falling.\n* Impact...At 23.0 feet...Flooding will affect swamp and timberlands while also\ndisrupting logging operations. Operations will likely cease and equipment not\npreviously moved will remain trapped. Some farmland will have minor flooding\nespecially around Britton Neck.",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILM.FL.W.0004.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

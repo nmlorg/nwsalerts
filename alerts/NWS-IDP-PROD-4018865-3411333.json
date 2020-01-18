@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018865-3411333",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.36,
+                    38.75
+                ],
+                [
+                    -91.19,
+                    38.6599999
+                ],
+                [
+                    -91.23,
+                    38.61
+                ],
+                [
+                    -91.5,
+                    38.69
+                ],
+                [
+                    -91.5,
+                    38.72
+                ],
+                [
+                    -91.36,
+                    38.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018865-3411333",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4018865-3411333",
+        "areaDesc": "Montgomery, MO; Gasconade, MO",
+        "geocode": {
+            "UGC": [
+                "MOC139",
+                "MOC073"
+            ],
+            "SAME": [
+                "029139",
+                "029073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC139",
+            "https://api.weather.gov/zones/county/MOC073"
+        ],
+        "references": [],
+        "sent": "2020-01-18T11:33:00-06:00",
+        "effective": "2020-01-18T11:33:00-06:00",
+        "onset": "2020-01-18T20:00:00-06:00",
+        "expires": "2020-01-19T17:31:00-06:00",
+        "ends": "2020-01-21T08:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 18 at 11:33AM CST until January 21 at 8:00AM CST by NWS St Louis MO",
+        "description": "...The National Weather Service in St. Louis has issued a flood\nwarning for the Missouri Rivers in Missouri...\n\n\n...at Gasconade\n...at Hermann\n\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe National Weather Service in St. Louis has issued a\n\n* Flood Warning for\nthe Missouri River at Hermann\n* from this evening to Tuesday morning.\n* At 10:30 AM Saturday the stage was 20.0 feet.\n* Flood stage is 21.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to rise above flood stage by this evening and\ncrest near 21.7 feet by tomorrow morning. The river is forecast to\nfall below flood stage by early Monday morning.\n* Impact:  At 21.0 feet...Minor flooding of cropland begins...\nparticularly just north of the Highway 19 bridge along the Loutre\nRiver.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLSX.FL.W.0040.200119T0200Z-200121T1400Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLWLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T08:00:00-06:00"
+            ]
+        }
+    }
+}
