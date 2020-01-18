@@ -1,0 +1,88 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017441-3409979",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017441-3409979",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4017441-3409979",
+        "areaDesc": "Northwest Randolph; Southeast Raleigh; Southeast Fayette; Southeast Nicholas; Southeast Webster",
+        "geocode": {
+            "UGC": [
+                "WVZ525",
+                "WVZ516",
+                "WVZ518",
+                "WVZ520",
+                "WVZ522"
+            ],
+            "SAME": [
+                "054083",
+                "054081",
+                "054019",
+                "054067",
+                "054101"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/WVZ525",
+            "https://api.weather.gov/zones/forecast/WVZ516",
+            "https://api.weather.gov/zones/forecast/WVZ518",
+            "https://api.weather.gov/zones/forecast/WVZ520",
+            "https://api.weather.gov/zones/forecast/WVZ522"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016787-3409321",
+                "identifier": "NWS-IDP-PROD-4016787-3409321",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T14:05:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4015629-3408159",
+                "identifier": "NWS-IDP-PROD-4015629-3408159",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T03:11:00-05:00"
+            }
+        ],
+        "sent": "2020-01-17T21:00:00-05:00",
+        "effective": "2020-01-17T21:00:00-05:00",
+        "onset": "2020-01-18T05:00:00-05:00",
+        "expires": "2020-01-18T05:00:00-05:00",
+        "ends": "2020-01-18T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston WV",
+        "headline": "Winter Weather Advisory issued January 17 at 9:00PM EST until January 18 at 1:00PM EST by NWS Charleston WV",
+        "description": "* WHAT...Mixed precipitation expected. Total snow and sleet\naccumulations of up to half an inch and ice accumulations of\naround one tenth of an inch. Winds gusting as high as 30 mph.\n\n* WHERE...Southeast Nicholas, Southeast Webster, Southeast\nFayette, Northwest Randolph and Southeast Raleigh Counties.\n\n* WHEN...From 5 AM to 1 PM EST Saturday.\n\n* IMPACTS...Plan on slippery road conditions. A few power\noutages are possible due to ice and wind.\n\n* ADDITIONAL DETAILS...Precipitation will initially start as\nsnow or a mix before changing to a period of freezing rain\nSaturday morning. A change to rain is expected by midday.",
+        "instruction": "Slow down and use caution while traveling.\n\nAdditional information can be found at\nhttps://www.weather.gov/rlx as well as on our Facebook and\nTwitter pages.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT FROM 5 AM TO 1 PM EST SATURDAY"
+            ],
+            "HazardType": [
+                "Mixed Precipitation"
+            ],
+            "VTEC": [
+                "/O.CON.KRLX.WW.Y.0003.200118T1000Z-200118T1800Z/"
+            ],
+            "PIL": [
+                "RLXWSWRLX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T13:00:00-05:00"
+            ]
+        }
+    }
+}

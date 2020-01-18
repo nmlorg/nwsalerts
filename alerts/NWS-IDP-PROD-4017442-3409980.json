@@ -1,0 +1,82 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017442-3409980",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017442-3409980",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4017442-3409980",
+        "areaDesc": "Morgan; Tyler; Pleasants; Perry; Washington",
+        "geocode": {
+            "UGC": [
+                "OHZ067",
+                "WVZ011",
+                "WVZ010",
+                "OHZ066",
+                "OHZ076"
+            ],
+            "SAME": [
+                "039115",
+                "054095",
+                "054073",
+                "039127",
+                "039167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/OHZ067",
+            "https://api.weather.gov/zones/forecast/WVZ011",
+            "https://api.weather.gov/zones/forecast/WVZ010",
+            "https://api.weather.gov/zones/forecast/OHZ066",
+            "https://api.weather.gov/zones/forecast/OHZ076"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016786-3409320",
+                "identifier": "NWS-IDP-PROD-4016786-3409320",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T14:05:00-05:00"
+            }
+        ],
+        "sent": "2020-01-17T21:00:00-05:00",
+        "effective": "2020-01-17T21:00:00-05:00",
+        "onset": "2020-01-18T01:00:00-05:00",
+        "expires": "2020-01-18T05:00:00-05:00",
+        "ends": "2020-01-18T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston WV",
+        "headline": "Winter Weather Advisory issued January 17 at 9:00PM EST until January 18 at 10:00AM EST by NWS Charleston WV",
+        "description": "* WHAT...Mixed precipitation expected. Total snow and sleet\naccumulations of up to half an inch and ice accumulations of a\nlight glaze.\n\n* WHERE...In Ohio, Perry, Morgan and Washington Counties. In\nWest Virginia, Pleasants and Tyler Counties.\n\n* WHEN...From 1 AM to 10 AM EST Saturday.\n\n* IMPACTS...Plan on slippery road conditions.\n\n* ADDITIONAL DETAILS...Precipitation will initially start as\nsnow or a mix before changing to a period of freezing rain\nearly Saturday morning. A change to rain is expected by late\nmorning.",
+        "instruction": "Slow down and use caution while traveling.\n\nAdditional information can be found at\nhttps://www.weather.gov/rlx as well as on our Facebook and\nTwitter pages.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT FROM 1 AM TO 10 AM EST SATURDAY"
+            ],
+            "HazardType": [
+                "Mixed Precipitation"
+            ],
+            "VTEC": [
+                "/O.CON.KRLX.WW.Y.0003.200118T0600Z-200118T1500Z/"
+            ],
+            "PIL": [
+                "RLXWSWRLX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T10:00:00-05:00"
+            ]
+        }
+    }
+}
