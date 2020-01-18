@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017389-3409932",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.03,
+                    32.84
+                ],
+                [
+                    -82.98,
+                    32.88
+                ],
+                [
+                    -82.92,
+                    32.79
+                ],
+                [
+                    -82.89,
+                    32.67
+                ],
+                [
+                    -82.98,
+                    32.65
+                ],
+                [
+                    -83,
+                    32.78
+                ],
+                [
+                    -83.03,
+                    32.84
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017389-3409932",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4017389-3409932",
+        "areaDesc": "Washington, GA; Wilkinson, GA; Johnson, GA",
+        "geocode": {
+            "UGC": [
+                "GAC303",
+                "GAC319",
+                "GAC167"
+            ],
+            "SAME": [
+                "013303",
+                "013319",
+                "013167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC303",
+            "https://api.weather.gov/zones/county/GAC319",
+            "https://api.weather.gov/zones/county/GAC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017070-3409587",
+                "identifier": "NWS-IDP-PROD-4017070-3409587",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T16:19:00-05:00"
+            }
+        ],
+        "sent": "2020-01-17T20:28:00-05:00",
+        "effective": "2020-01-17T20:28:00-05:00",
+        "onset": "2020-01-17T20:28:00-05:00",
+        "expires": "2020-01-18T10:27:00-05:00",
+        "ends": "2020-01-19T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 17 at 8:28PM EST until January 19 at 7:00PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning is cancelled for the following rivers in\nGeorgia...\n\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties\n\nOcmulgee River near Hawkinsville affecting Bleckley and Pulaski\nCounties\n\nOconee River near Oconee affecting Johnson...Washington and\nWilkinson Counties\n\nThe Flood Warning continues for\nThe Oconee River near Oconee.\n* Until Sunday evening.\n* At 8 PM Friday the stage was 20.2 feet and nearly steady.\n* Minor flooding is occurring, and minor flooding is forecast to\ncontinue.\n* Flood stage is 17 feet.\n* The river will remain nearly steady around near 20.2 feet until\nearly Saturday morning, then begin falling. The river is forecast to\nfall below flood stage Sunday afternoon.\n* Between 20 and 21 feet, the water level floods the dirt parking lot\narea near the Old Balls Ferry Road boat ramp, just upstream and\nrightbank from the Georgia Highway 57 bridge. Minor flooding\ncontinues in the woodlands near the river.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Sunday evening"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0022.000000T0000Z-200120T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T19:00:00-05:00"
+            ]
+        }
+    }
+}
