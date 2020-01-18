@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019015-3411499",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.62,
+                    36.5
+                ],
+                [
+                    -94.61,
+                    37.06
+                ],
+                [
+                    -94.06,
+                    37.050000000000004
+                ],
+                [
+                    -94.05,
+                    37.290000000000006
+                ],
+                [
+                    -93.61,
+                    37.28000000000001
+                ],
+                [
+                    -93.61,
+                    36.830000000000005
+                ],
+                [
+                    -93.58,
+                    36.81
+                ],
+                [
+                    -93.59,
+                    36.5
+                ],
+                [
+                    -94.62,
+                    36.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019015-3411499",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4019015-3411499",
+        "areaDesc": "McDonald, MO; Newton, MO; Lawrence, MO; Barry, MO",
+        "geocode": {
+            "UGC": [
+                "MOC119",
+                "MOC145",
+                "MOC109",
+                "MOC009"
+            ],
+            "SAME": [
+                "029119",
+                "029145",
+                "029109",
+                "029009"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC119",
+            "https://api.weather.gov/zones/county/MOC145",
+            "https://api.weather.gov/zones/county/MOC109",
+            "https://api.weather.gov/zones/county/MOC009"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017842-3410340",
+                "identifier": "NWS-IDP-PROD-4017842-3410340",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T01:10:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018383-3410863",
+                "identifier": "NWS-IDP-PROD-4018383-3410863",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T07:54:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T12:52:00-06:00",
+        "effective": "2020-01-18T12:52:00-06:00",
+        "onset": "2020-01-18T12:52:00-06:00",
+        "expires": "2020-01-19T01:15:00-06:00",
+        "ends": "2020-01-19T01:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Flood Warning issued January 18 at 12:52PM CST until January 19 at 1:15AM CST by NWS Springfield MO",
+        "description": "The National Weather Service in Springfield has extended the\n\n* Flood Warning for...\nNewton County in southwestern Missouri...\nMcDonald County in southwestern Missouri...\nBarry County in southwestern Missouri...\nLawrence County in southwestern Missouri...\n\n* Until 115 AM CST Sunday.\n\n* At 1251 PM CST, gauge reports indicated flooding across the area.\nUp to one and a half inches of widespread rain fell yesterday and\nlast night. While no additional rain is expected, residual\nflooding will continue through this evening.\n\n* Creeks, streams, and low water crossings will be especially\nsusceptible to the dangers of flooding.\nLocations in the warning include...\nSouthern Joplin...                Neosho...\nRoaring River State Park...       Big Sugar Creek State Park...\nMonett...                         Aurora...\nMount Vernon...                   Cassville...\nSeneca...                         Marionville...\nGranby...                         Anderson...\nNoel...                           Duquesne...\nDodge...                          Shell Knob...\nPierce City...                    Goodman...\nPurdy...                          South West City...\n\nThis warning includes but is not limited to the following low water\ncrossings...\nHighway 43 at Buffalo Creek west of Anderson...\nBusiness Highway 60 just north of Neosho...\nHighway 97 at The Spring River north of Stotts City...\nRoute Y at Flat Creek just northeast of Cassville...\nand Route C just south of Mcdowell.",
+        "instruction": "In hilly terrain there are hundreds of low water crossings which are\npotentially dangerous in heavy rain. Do not attempt to cross flooded\nroads. Find an alternate route.\n\nA Flood Warning means that flooding is imminent or occurring. All\ninterested parties should take necessary precautions immediately.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSGF.FA.W.0009.000000T0000Z-200119T0715Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFFLWSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T01:15:00-06:00"
+            ]
+        }
+    }
+}
