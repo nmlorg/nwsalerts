@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017507-3410044",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.73,
+                    38.69
+                ],
+                [
+                    -86.83,
+                    38.47
+                ],
+                [
+                    -87.22,
+                    38.519999999999996
+                ],
+                [
+                    -87.23,
+                    38.559999999999995
+                ],
+                [
+                    -86.89,
+                    38.529999999999994
+                ],
+                [
+                    -86.9,
+                    38.659999899999995
+                ],
+                [
+                    -86.81,
+                    38.72
+                ],
+                [
+                    -86.73,
+                    38.69
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017507-3410044",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4017507-3410044",
+        "areaDesc": "Martin, IN; Daviess, IN; Dubois, IN; Pike, IN",
+        "geocode": {
+            "UGC": [
+                "INC101",
+                "INC027",
+                "INC037",
+                "INC125"
+            ],
+            "SAME": [
+                "018101",
+                "018027",
+                "018037",
+                "018125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC101",
+            "https://api.weather.gov/zones/county/INC027",
+            "https://api.weather.gov/zones/county/INC037",
+            "https://api.weather.gov/zones/county/INC125"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016408-3408954",
+                "identifier": "NWS-IDP-PROD-4016408-3408954",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T10:27:00-05:00"
+            }
+        ],
+        "sent": "2020-01-17T21:30:00-05:00",
+        "effective": "2020-01-17T21:30:00-05:00",
+        "onset": "2020-01-17T21:30:00-05:00",
+        "expires": "2020-01-18T21:29:00-05:00",
+        "ends": "2020-01-20T08:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 17 at 9:30PM EST until January 20 at 8:00AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...Wabash River...White River...\n\n.Minor to moderate flooding continued Friday morning in central and\nsouthern Indiana. Crests will be/are comparable to those that\noccurred in February and June of 2019.\n\nThe crest on the Wabash River is at Riverton, on the White River it\nis approaching Petersburg, and on the East Fork White it is at\nShoals.  A precipitation event through Saturday afternoon will bring\neither secondary crests or at least slower falls to the river levels.\nFlooding along the lower portions of the White and Wabash River is\nlikely to continue until about the end of the month.\n\nThe Flood Warning continues for\nThe East Fork White River at Shoals.\n* until Monday morning.\n* At  8:30 PM Friday the stage was 23.1 feet.\n* Flood stage is 20.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will continue to fall to below flood stage by Sunday\nevening.\n* At 22.5 feet...West River Road east from Shoals flooded in at least\ntwo locations.  Residential area near McBrides Bluff isolated by\nhigh water.  Low lying county roads east of McBrides Bluff also\nflooded.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0035.000000T0000Z-200120T1300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T08:00:00-05:00"
+            ]
+        }
+    }
+}
