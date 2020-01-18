@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019185-3411675",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.11,
+                    39.05
+                ],
+                [
+                    -87.95,
+                    38.919999999999995
+                ],
+                [
+                    -87.79,
+                    38.919999999999995
+                ],
+                [
+                    -87.73,
+                    38.849999999999994
+                ],
+                [
+                    -88.01,
+                    38.849999999999994
+                ],
+                [
+                    -88.15,
+                    38.959999999999994
+                ],
+                [
+                    -88.11,
+                    39.05
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019185-3411675",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4019185-3411675",
+        "areaDesc": "Jasper, IL; Crawford, IL",
+        "geocode": {
+            "UGC": [
+                "ILC079",
+                "ILC033"
+            ],
+            "SAME": [
+                "017079",
+                "017033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC079",
+            "https://api.weather.gov/zones/county/ILC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018466-3410932",
+                "identifier": "NWS-IDP-PROD-4018466-3410932",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T08:49:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T14:33:00-06:00",
+        "effective": "2020-01-18T14:33:00-06:00",
+        "onset": "2020-01-19T06:00:00-06:00",
+        "expires": "2020-01-19T04:33:00-06:00",
+        "ends": "2020-01-22T13:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lincoln IL",
+        "headline": "Flood Warning issued January 18 at 2:33PM CST until January 22 at 1:00PM CST by NWS Lincoln IL",
+        "description": "...The Flood Warning continues for the following river in Illinois...\n\nEmbarras River at Ste. Marie affecting Crawford and Jasper Counties\nEmbarras River at Lawrenceville affecting Lawrence County\n\n.The following forecasts are based on observed precipitation, soil\nmoisture conditions, and forecast precipitation.\n\nThe Flood Warning continues for\nThe Embarras River at Ste. Marie.\n* From Sunday morning until Wednesday afternoon.\n* At  145 PM Saturday the stage was 18.3 feet.\n* Flood stage is 19.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by tomorrow morning and continue\nto rise to near 19.7 feet by early Tuesday morning. The river will\nfall below flood stage by Wednesday morning.\n* Impact...At 19.0 feet...County Highway 9 floods between Ste. Marie\nand Willow Hill.",
+        "instruction": "If you encounter a flooded roadway, turn around and find an alternate\nroute. Turn around, don't drown.\n\nAdditional river and weather information is available at\nwww.weather.gov/ilx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KILX.FL.W.0014.200119T1200Z-200122T1900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILXFLSILX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T13:00:00-06:00"
+            ]
+        }
+    }
+}
