@@ -1,0 +1,73 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017293-3409830",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017293-3409830",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4017293-3409830",
+        "areaDesc": "Hartley; Dallam; Cimarron",
+        "geocode": {
+            "UGC": [
+                "TXZ006",
+                "TXZ001",
+                "OKZ001"
+            ],
+            "SAME": [
+                "048205",
+                "048111",
+                "040025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TXZ006",
+            "https://api.weather.gov/zones/forecast/TXZ001",
+            "https://api.weather.gov/zones/forecast/OKZ001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016920-3409459",
+                "identifier": "NWS-IDP-PROD-4016920-3409459",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T14:34:00-06:00"
+            }
+        ],
+        "sent": "2020-01-17T18:45:00-06:00",
+        "effective": "2020-01-17T18:45:00-06:00",
+        "onset": "2020-01-17T18:45:00-06:00",
+        "expires": "2020-01-17T19:45:00-06:00",
+        "ends": "2020-01-17T19:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Amarillo TX",
+        "headline": "Wind Advisory issued January 17 at 6:45PM CST until January 17 at 7:00PM CST by NWS Amarillo TX",
+        "description": "Sustained wind speeds and wind gusts have begun to diminish this\nevening. Therefore, the Wind Advisory will be allowed to expire at\n7 PM.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY WILL EXPIRE AT 7 PM CST THIS EVENING"
+            ],
+            "VTEC": [
+                "/O.EXP.KAMA.WI.Y.0002.000000T0000Z-200118T0100Z/"
+            ],
+            "PIL": [
+                "AMANPWAMA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-17T19:00:00-06:00"
+            ]
+        }
+    }
+}
