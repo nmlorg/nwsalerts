@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018490-3410955",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.16,
+                    38.26
+                ],
+                [
+                    -88.02,
+                    38.25
+                ],
+                [
+                    -88.13,
+                    38.04
+                ],
+                [
+                    -88.08,
+                    37.93
+                ],
+                [
+                    -88.12,
+                    37.9099999
+                ],
+                [
+                    -88.28,
+                    38.010000000000005
+                ],
+                [
+                    -88.16,
+                    38.26
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018490-3410955",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4018490-3410955",
+        "areaDesc": "Wayne, IL; White, IL; Gallatin, IL",
+        "geocode": {
+            "UGC": [
+                "ILC191",
+                "ILC193",
+                "ILC059"
+            ],
+            "SAME": [
+                "017191",
+                "017193",
+                "017059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC191",
+            "https://api.weather.gov/zones/county/ILC193",
+            "https://api.weather.gov/zones/county/ILC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017366-3409910",
+                "identifier": "NWS-IDP-PROD-4017366-3409910",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T19:11:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T08:55:00-06:00",
+        "effective": "2020-01-18T08:55:00-06:00",
+        "onset": "2020-01-18T08:55:00-06:00",
+        "expires": "2020-01-19T12:55:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 18 at 8:55AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...\nLittle Wabash River at Carmi affecting Gallatin...Wayne and White\nCounties\n\n.The Little Wabash River will continue to rise through next week,\ncresting at Carmi on Friday.\n\nThe Flood Warning continues for\nthe Little Wabash River at Carmi\n* until further notice.\n* At  8:30 AM Saturday the stage was 33.7 feet.\n* Flood Stage is 27.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to near 34.6 feet by\nFriday early afternoon then begin falling.\n* Impact...At 35.5 Feet...Businesses are affected just downstream of\nIL Route 14 and Route 1 in Carmi flood.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0005.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
