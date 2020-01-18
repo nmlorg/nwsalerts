@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018982-3411468",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.25,
+                    35.39
+                ],
+                [
+                    -89.95,
+                    35.39
+                ],
+                [
+                    -90.05,
+                    35.33
+                ],
+                [
+                    -90.03999999999999,
+                    35.129999999999995
+                ],
+                [
+                    -90.08,
+                    34.909999899999995
+                ],
+                [
+                    -90.41,
+                    34.909999899999995
+                ],
+                [
+                    -90.25,
+                    35.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018982-3411468",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4018982-3411468",
+        "areaDesc": "DeSoto, MS; Crittenden, AR; Shelby, TN",
+        "geocode": {
+            "UGC": [
+                "MSC033",
+                "ARC035",
+                "TNC157"
+            ],
+            "SAME": [
+                "028033",
+                "005035",
+                "047157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC033",
+            "https://api.weather.gov/zones/county/ARC035",
+            "https://api.weather.gov/zones/county/TNC157"
+        ],
+        "references": [],
+        "sent": "2020-01-18T12:20:00-06:00",
+        "effective": "2020-01-18T12:20:00-06:00",
+        "onset": "2020-01-18T12:20:00-06:00",
+        "expires": "2020-01-19T12:19:00-06:00",
+        "ends": "2020-01-31T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Advisory issued January 18 at 12:20PM CST until January 31 at 12:00PM CST by NWS Memphis TN",
+        "description": "...The Flood Advisory continues for the Mississippi River...\nMississippi River at Helena affecting Lee...Phillips...Coahoma and\nTunica Counties\n\n...The National Weather Service in Memphis TN has issued a Flood\nAdvisory for the Mississippi River...\n\nMississippi River at Memphis affecting Crittenden...DeSoto and\nShelby Counties\n\nThe National Weather Service in Memphis TN has issued a\n* Flood Advisory for\nthe Mississippi River at Memphis\n* until Friday, January 31.\n* At 12 PM Saturday the stage was 32.4 feet.\n* Flood stage is 34.0 feet.\n* Forecast...The river will rise through the weekend, cresting near\n33.5 feet on Tuesday, January 21. The river will begin to fall\nlate next week and continue to recede through the end of the month.\n* At 34.0 feet...In Arkansas, the camp on Robinson Road right inside\nthe levee is totally flooded. Roads to industries inside the levee\nsouth of West Memphis are flooding.",
+        "instruction": "The next River Statement will be issued [...] or sooner if conditions\nwarrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KMEG.FL.Y.0010.200118T1820Z-200131T1800Z/"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-31T12:00:00-06:00"
+            ]
+        }
+    }
+}
