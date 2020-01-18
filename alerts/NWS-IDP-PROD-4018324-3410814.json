@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018324-3410814",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.05,
+                    35.4799999
+                ],
+                [
+                    -87.86999999999999,
+                    35.4799999
+                ],
+                [
+                    -87.86999999999999,
+                    35.300000000000004
+                ],
+                [
+                    -88.05,
+                    35.300000000000004
+                ],
+                [
+                    -88.05,
+                    35.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018324-3410814",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4018324-3410814",
+        "areaDesc": "Wayne, TN; Perry, TN; Decatur, TN; Hardin, TN",
+        "geocode": {
+            "UGC": [
+                "TNC181",
+                "TNC135",
+                "TNC039",
+                "TNC071"
+            ],
+            "SAME": [
+                "047181",
+                "047135",
+                "047039",
+                "047071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC181",
+            "https://api.weather.gov/zones/county/TNC135",
+            "https://api.weather.gov/zones/county/TNC039",
+            "https://api.weather.gov/zones/county/TNC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017269-3409808",
+                "identifier": "NWS-IDP-PROD-4017269-3409808",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T18:24:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T06:32:00-06:00",
+        "effective": "2020-01-18T06:32:00-06:00",
+        "onset": "2020-01-18T06:32:00-06:00",
+        "expires": "2020-01-18T18:32:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued January 18 at 6:32AM CST by NWS Nashville TN",
+        "description": "...The Flood Advisory continues for the Tennessee River...\n\nTennessee River At Clifton affecting Decatur...Hardin...Perry and Wayne\nCounties\n\n. Upstream releases will keep the Tennessee River at Clifton above action\nstage until further notice.\n\nThe Flood Advisory continues for\nThe Tennessee River At Clifton\n* Until further notice.\n* Action stage is 364.0 feet.\n* Flood stage is 370.0 feet.\n* The river will continue to fall to near 368.3 feet by tomorrow morning.\n* At 368.0 feet...In Perry County, water reaches the low lying portions of\naccess roads in the Peters Landing area.\n* At 367.0 feet...In Wayne County, water inundates the boat launch areas and\nportions of access roads in the Beech Lake Campground on Beech Lake Road.\n* At 366.0 feet...In Hardin County, water inundates low lying agricultural areas\nand access roads in the Cobb Farm area of Nance Bend, including Senator Cobb\nRoad and Colonel Hardin Road.",
+        "instruction": "* At 365.0 feet...In Decatur County, low lying areas of the Riverstone Marina\nbecome inundated.\n* At 364.5 feet...In Decatur County, water begins to inundate portions of Scenic\nLane in the Russ Farm area and access may be limited to some houses along the\nriver.\n* At 364.0 feet...In Wayne County, in the Beech Creek area water begins to\ninundate low lying areas on the north end of Beechview Drive and the Beech\nLake Campground on Beech Lake Road. In Hardin County, water begins to inundate\nthe low lying areas of Cobb Farm in Nance Bend.Stay tuned to NOAA weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0001.000000T0000Z-000000T0000Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
