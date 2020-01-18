@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017280-3409818",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.13,
+                    30.35
+                ],
+                [
+                    -91.3,
+                    30.32
+                ],
+                [
+                    -91.59,
+                    30.71
+                ],
+                [
+                    -91.3,
+                    30.740000000000002
+                ],
+                [
+                    -91.13,
+                    30.35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017280-3409818",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4017280-3409818",
+        "areaDesc": "East Baton Rouge, LA; West Baton Rouge, LA",
+        "geocode": {
+            "UGC": [
+                "LAC033",
+                "LAC121"
+            ],
+            "SAME": [
+                "022033",
+                "022121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC033",
+            "https://api.weather.gov/zones/county/LAC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016638-3409158",
+                "identifier": "NWS-IDP-PROD-4016638-3409158",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T11:40:00-06:00"
+            }
+        ],
+        "sent": "2020-01-17T18:30:00-06:00",
+        "effective": "2020-01-17T18:30:00-06:00",
+        "onset": "2020-01-18T06:00:00-06:00",
+        "expires": "2020-01-19T00:30:00-06:00",
+        "ends": "2020-02-06T03:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Flood Warning issued January 17 at 6:30PM CST until February 6 at 3:00AM CST by NWS New Orleans LA",
+        "description": "...The flood warning continues for the following rivers in\nLouisiana...\n\nMississippi River At Red River Landing affecting East Baton\nRouge...Pointe Coupee and West Feliciana Parishes\n\nMississippi River At Baton Rouge affecting East Baton Rouge and\nWest Baton Rouge Parishes\n\nMississippi River At Donaldsonville affecting Ascension Parish\n\nThe Flood Warning continues for\nThe Mississippi River At Baton Rouge.\n* Until Thursday February 06.\n* At  6:00 PM Friday the stage was 34.5 feet.\n* Minor flooding is forecast.\n* Flood stage is 35.0 feet.\n* Forecast...Rise above flood stage Saturday January 18 and\ncontinue to rise to near 37.5 feet by Thursday January 30. The river\nwill fall below flood stage by Wednesday February 05.\n* Impact...At 36.0 feet...River traffic and industrial activity on the\nriver side of the levees will be greatly affected. Navigational\nsafety regulations will be strictly enforced.\n* Impact...At 35.0 feet...River islands from Red River Landing\ndownstream to Baton Rouge will be inundated.",
+        "instruction": "Forecast crests are based upon rainfall that has occurred along with\nanticipated rain for the next 24 hours. Adjustments to the forecasts\nwill be made if additional heavy rainfall occurs.\n\nDo not drive cars through flooded areas. Remember, two feet of\nrushing water can carry away most vehicles including pickups.  Turn\naround and don't drown!\n\nA followup product will be issued later. Stay tuned to NOAA Weather\nRadio, local tv and radio stations...or your cable provider, for the\nlatest information. The latest graphical hydrologic information can\nalso be found at Weather.Gov.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLIX.FL.W.0003.200118T1200Z-200206T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LIXFLSLIX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T03:00:00-06:00"
+            ]
+        }
+    }
+}
