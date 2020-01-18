@@ -1,0 +1,128 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018397-3410877",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.65,
+                    36.8
+                ],
+                [
+                    -93.05000000000001,
+                    36.82
+                ],
+                [
+                    -93.04,
+                    37.09
+                ],
+                [
+                    -93.06,
+                    37.09
+                ],
+                [
+                    -93.0699999,
+                    37.4799999
+                ],
+                [
+                    -92.25,
+                    37.470000000000006
+                ],
+                [
+                    -92.25,
+                    37.06000000000001
+                ],
+                [
+                    -92.09,
+                    37.05000000000001
+                ],
+                [
+                    -92.10000000000001,
+                    36.80000000000001
+                ],
+                [
+                    -92.65,
+                    36.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018397-3410877",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4018397-3410877",
+        "areaDesc": "Christian, MO; Webster, MO; Douglas, MO; Wright, MO",
+        "geocode": {
+            "UGC": [
+                "MOC043",
+                "MOC225",
+                "MOC067",
+                "MOC229"
+            ],
+            "SAME": [
+                "029043",
+                "029225",
+                "029067",
+                "029229"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC043",
+            "https://api.weather.gov/zones/county/MOC225",
+            "https://api.weather.gov/zones/county/MOC067",
+            "https://api.weather.gov/zones/county/MOC229"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017789-3410291",
+                "identifier": "NWS-IDP-PROD-4017789-3410291",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T23:39:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018316-3410806",
+                "identifier": "NWS-IDP-PROD-4018316-3410806",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T06:11:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T08:03:00-06:00",
+        "effective": "2020-01-18T08:03:00-06:00",
+        "onset": "2020-01-18T08:03:00-06:00",
+        "expires": "2020-01-18T20:30:00-06:00",
+        "ends": "2020-01-18T20:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Flood Warning issued January 18 at 8:03AM CST until January 18 at 8:30PM CST by NWS Springfield MO",
+        "description": "The National Weather Service in Springfield has extended the\n\n* Flood Warning for...\nWebster County in southwestern Missouri...\nDouglas County in southwestern Missouri...\nWright County in southwestern Missouri...\nEastern Christian County in southwestern Missouri...\n\n* Until 830 PM CST Saturday.\n\n* At 801 AM CST, the Department of Transportation reported flooding.\nUp to one and a half inches of rain fell over the past 24 hours\ncausing flooding of several streams. While no additional rainfall\nis expected, residual flooding will continue through today.\n\n* Creeks, streams, and low water crossings will be especially\nsusceptible to the dangers of flooding.\nLocations in the warning include...\nMarshfield...                     Mountain Grove...\nRogersville...                    Ava...\nSeymour...                        Mansfield...\nFordland...                       Dawson...\nNorwood...                        Hartville...\nNiangua...                        Duncan...\nDiggins...                        Elkland...\nOldfield...                       Manes...\nBrushyknob...                     Elkhead...\nGrovespring...                    Rome...\n\nThis warning includes but is not limited to the following low water\ncrossings...\nRoute U at Bryant Creek northeast of Ava...\nRoute FF at Hunter Creek east of Ava...\nRoute EE at North Fork River south of Cabool...\nGreenwood Road at The Pomme de Terre Headwaters...\nand Route Y at Cowskin Creek 3 miles west of Ava.",
+        "instruction": "In hilly terrain there are hundreds of low water crossings which are\npotentially dangerous in heavy rain. Do not attempt to cross flooded\nroads. Find an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSGF.FA.W.0006.000000T0000Z-200119T0230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFFLWSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T20:30:00-06:00"
+            ]
+        }
+    }
+}
