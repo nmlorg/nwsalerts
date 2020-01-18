@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018416-3410894",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.22,
+                    32.89
+                ],
+                [
+                    -89.15,
+                    32.9099999
+                ],
+                [
+                    -89.02000000000001,
+                    32.93
+                ],
+                [
+                    -88.93,
+                    32.92
+                ],
+                [
+                    -88.92,
+                    32.84
+                ],
+                [
+                    -89.18,
+                    32.77
+                ],
+                [
+                    -89.22,
+                    32.89
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018416-3410894",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4018416-3410894",
+        "areaDesc": "Neshoba, MS",
+        "geocode": {
+            "UGC": [
+                "MSC099"
+            ],
+            "SAME": [
+                "028099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017296-3409833",
+                "identifier": "NWS-IDP-PROD-4017296-3409833",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T18:50:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T08:32:00-06:00",
+        "effective": "2020-01-18T08:32:00-06:00",
+        "onset": "2020-01-18T08:32:00-06:00",
+        "expires": "2020-01-19T14:32:00-06:00",
+        "ends": "2020-01-21T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 18 at 8:32AM CST until January 21 at 6:00PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in Mississippi...\n\nPearl River Above Philadelphia affecting Neshoba County\nPearl River near Lena affecting Leake County\nYockanookany River Near Ofahoma affecting Leake County\nPearl River Near Ratliff's Ferry affecting Madison and Rankin Counties\nPearl River At Edinburg affecting Leake County\nPearl River Near Carthage affecting Leake County\n\nThe Flood Warning continues for\nThe Pearl River Above Philadelphia\n* until Tuesday evening.\n* At 7:45 AM Saturday the stage was 14.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 13.0 feet.\n* Forecast...The river will continue falling and will fall below\nflood stage Tuesday morning.\n* Impact...At 14.0 feet...Water begins to cover some of the Burnside\nLake Water Park roadways and camp areas.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0025.000000T0000Z-200122T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T18:00:00-06:00"
+            ]
+        }
+    }
+}
