@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018939-3411410",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.62,
+                    36.62
+                ],
+                [
+                    -89.27000000000001,
+                    36.69
+                ],
+                [
+                    -89.18,
+                    36.51
+                ],
+                [
+                    -89.35000000000001,
+                    36.5
+                ],
+                [
+                    -89.35000000000001,
+                    36.4799999
+                ],
+                [
+                    -89.64000000000001,
+                    36.4799999
+                ],
+                [
+                    -89.62,
+                    36.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018939-3411410",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4018939-3411410",
+        "areaDesc": "Mississippi, MO; New Madrid, MO; Fulton, KY",
+        "geocode": {
+            "UGC": [
+                "MOC133",
+                "MOC143",
+                "KYC075"
+            ],
+            "SAME": [
+                "029133",
+                "029143",
+                "021075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC133",
+            "https://api.weather.gov/zones/county/MOC143",
+            "https://api.weather.gov/zones/county/KYC075"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017321-3409858",
+                "identifier": "NWS-IDP-PROD-4017321-3409858",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T18:55:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T12:03:00-06:00",
+        "effective": "2020-01-18T12:03:00-06:00",
+        "onset": "2020-01-18T12:03:00-06:00",
+        "expires": "2020-01-19T16:02:00-06:00",
+        "ends": "2020-01-27T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 18 at 12:03PM CST until January 27 at 6:00PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Missouri...Kentucky...\n\nMississippi River at Cape Girardeau, Thebes and New Madrid\n\n.River levels will continue to fall at Cape Girardeau and Thebes, and\nthe river is cresting at New Madrid.\n\nThe Flood Warning continues for\nthe Mississippi River at New Madrid.\n* until Monday January 27.\n* At 11:00 AM Saturday the stage was 36.6 feet.\n* Flood Stage is 34.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 37.1 feet by this\nafternoon. The river will fall below flood stage Monday early\nafternoon.\n* Impact...At 38.0 Feet...Heavy agricultural damage begins.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0013.000000T0000Z-200128T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-27T18:00:00-06:00"
+            ]
+        }
+    }
+}
