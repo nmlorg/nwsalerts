@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018822-3411293",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.31,
+                    30.18
+                ],
+                [
+                    -88.2099999,
+                    30.2
+                ],
+                [
+                    -88.13,
+                    30.099999999999998
+                ],
+                [
+                    -88.28999999999999,
+                    30.04
+                ],
+                [
+                    -88.35999999999999,
+                    30.11
+                ],
+                [
+                    -88.31,
+                    30.18
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018822-3411293",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4018822-3411293",
+        "areaDesc": "Coastal waters from Pensacola FL to Pascagoula MS out 20 NM",
+        "geocode": {
+            "UGC": [
+                "GMZ650"
+            ],
+            "SAME": [
+                "077650"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/GMZ650"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018792-3411268",
+                "identifier": "NWS-IDP-PROD-4018792-3411268",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T10:44:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T10:58:00-06:00",
+        "effective": "2020-01-18T10:58:00-06:00",
+        "onset": "2020-01-18T10:58:00-06:00",
+        "expires": "2020-01-18T11:15:00-06:00",
+        "ends": "2020-01-18T11:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Special Marine Warning issued January 18 at 10:58AM CST until January 18 at 11:15AM CST by NWS Mobile AL",
+        "description": "For the following areas...\nCoastal waters from Pensacola FL to Pascagoula MS out 20 NM...\n\nAt 1057 AM CST, a severe thunderstorm capable of producing\nwaterspouts was located 7 nm south of Western Dauphin Island, moving\nnortheast at 15 knots.\n\nHAZARD...Waterspouts and wind gusts 34 knots or greater.\n\nSOURCE...Radar indicated.\n\nIMPACT...Waterspouts can easily overturn boats and create locally\nhazardous seas. Small craft could be damaged in briefly\nhigher winds and suddenly higher waves.\n\nThe severe thunderstorm will remain over mainly open waters.",
+        "instruction": "Move to safe harbor immediately as gusty winds and high waves are\nexpected.\n\nThunderstorms can produce sudden waterspouts. Waterspouts can easily\noverturn boats and create locally hazardous seas. Seek safe harbor\nimmediately.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-18T10:57:00.000-06:00...storm...215DEG...17KT...30.11,-88.28"
+            ],
+            "hailSize": [
+                0
+            ],
+            "waterspoutDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SPECIAL MARINE WARNING REMAINS IN EFFECT UNTIL 1115 AM CST"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.MA.W.0009.000000T0000Z-200118T1715Z/"
+            ],
+            "PIL": [
+                "MOBMWSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T11:15:00-06:00"
+            ]
+        }
+    }
+}
