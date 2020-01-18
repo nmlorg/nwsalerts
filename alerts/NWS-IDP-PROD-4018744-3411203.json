@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018744-3411203",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.01,
+                    38.01
+                ],
+                [
+                    -88.95,
+                    38.01
+                ],
+                [
+                    -88.98,
+                    37.89
+                ],
+                [
+                    -89.15,
+                    37.78
+                ],
+                [
+                    -89.15,
+                    37.84
+                ],
+                [
+                    -89.06,
+                    37.92
+                ],
+                [
+                    -89.01,
+                    38.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018744-3411203",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4018744-3411203",
+        "areaDesc": "Franklin, IL; Williamson, IL",
+        "geocode": {
+            "UGC": [
+                "ILC055",
+                "ILC199"
+            ],
+            "SAME": [
+                "017055",
+                "017199"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC055",
+            "https://api.weather.gov/zones/county/ILC199"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017458-3409995",
+                "identifier": "NWS-IDP-PROD-4017458-3409995",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T20:11:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T10:22:00-06:00",
+        "effective": "2020-01-18T10:22:00-06:00",
+        "onset": "2020-01-18T10:21:00-06:00",
+        "expires": "2020-01-19T14:20:00-06:00",
+        "ends": "2020-01-24T09:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 18 at 10:21AM CST until January 24 at 9:00AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...\n\nBig Muddy River near Plumfield affecting Franklin and Williamson\nCounties\n\n...The flood warning continues for the following rivers in\nIllinois...\nBig Muddy River near Murphysboro affecting Jackson County\n\n.The Big Muddy River will remain near flood stage at Plumfield this\nafternoon, then crest near 21.4 feet on Monday.  At Murphysboro, the\nriver will continue a slow fall.\n\nThe Flood Warning continues for\nthe Big Muddy River near Plumfield.\n* until Friday morning.\n* At  9:30 AM Saturday the stage was 20.0 feet.\n* Flood Stage is 20.0 feet.\n* Minor flooding is forecast.\n* Forecast...Remain at flood stage this afternoon then continue to\nrise to near 21.4 feet by Monday morning. The river will fall below\nflood stage by Friday morning.\n* Impact...At 20.0 Feet...Minor flooding occurs affecting mainly\nbottomland and surrounding low lying areas.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0006.000000T0000Z-200124T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-24T09:00:00-06:00"
+            ]
+        }
+    }
+}
