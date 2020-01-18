@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018484-3410949",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.29,
+                    41.72
+                ],
+                [
+                    -86.28,
+                    41.78
+                ],
+                [
+                    -86.26,
+                    41.78
+                ],
+                [
+                    -86.2099999,
+                    41.6599999
+                ],
+                [
+                    -86.24,
+                    41.6599999
+                ],
+                [
+                    -86.29,
+                    41.72
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018484-3410949",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4018484-3410949",
+        "areaDesc": "Berrien, MI; St. Joseph, IN; Elkhart, IN",
+        "geocode": {
+            "UGC": [
+                "MIC021",
+                "INC141",
+                "INC039"
+            ],
+            "SAME": [
+                "026021",
+                "018141",
+                "018039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC021",
+            "https://api.weather.gov/zones/county/INC141",
+            "https://api.weather.gov/zones/county/INC039"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017414-3409957",
+                "identifier": "NWS-IDP-PROD-4017414-3409957",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T20:42:00-05:00"
+            }
+        ],
+        "sent": "2020-01-18T09:54:00-05:00",
+        "effective": "2020-01-18T09:54:00-05:00",
+        "onset": "2020-01-18T09:54:00-05:00",
+        "expires": "2020-01-19T09:54:00-05:00",
+        "ends": "2020-01-21T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 18 at 9:54AM EST until January 21 at 7:00PM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nTiffin River At Stryker affecting Defiance...Fulton and Williams\nCounties\nSaint Joseph River Michigan at Three Rivers affecting Elkhart...\nBranch and St. Joseph Counties\nSaint Joseph River Michigan at South Bend affecting Elkhart...St.\nJoseph and Berrien Counties\n\n...The Flood Warning continues for the following rivers...\n\nNorth Branch Elkhart River at Cosperville affecting Noble County\n\n.Rivers are expected to continue to slowly drop over the next several days. Runoff from recent rainfall could cause rivers to become steady briefly\nbefore dropping once again.\n\nThe Flood Warning has been extended for\nThe Saint Joseph River Michigan at South Bend\n* until Tuesday evening.\n* At 7 AM Friday the stage was 5.7 feet and unknown.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 5.5 feet.\n* Forecast...The river will fall below the 5.5 foot flood stage\naround  7 PM Monday January 20.\n* At 5.5 feet...The river reaches flood stage with the lowest\nresidential areas beginning to flood.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0018.000000T0000Z-200122T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T19:00:00-05:00"
+            ]
+        }
+    }
+}
