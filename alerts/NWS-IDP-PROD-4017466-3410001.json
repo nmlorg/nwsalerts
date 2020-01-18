@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017466-3410001",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.28,
+                    41.28
+                ],
+                [
+                    -87.13,
+                    41.32
+                ],
+                [
+                    -87,
+                    41.29
+                ],
+                [
+                    -87.06,
+                    41.21
+                ],
+                [
+                    -87.11,
+                    41.22
+                ],
+                [
+                    -87.25,
+                    41.17
+                ],
+                [
+                    -87.28,
+                    41.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4017466-3410001",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4017466-3410001",
+        "areaDesc": "Jasper, IN; Porter, IN",
+        "geocode": {
+            "UGC": [
+                "INC073",
+                "INC127"
+            ],
+            "SAME": [
+                "018073",
+                "018127"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC073",
+            "https://api.weather.gov/zones/county/INC127"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016558-3409084",
+                "identifier": "NWS-IDP-PROD-4016558-3409084",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T10:48:00-06:00"
+            }
+        ],
+        "sent": "2020-01-17T20:20:00-06:00",
+        "effective": "2020-01-17T20:20:00-06:00",
+        "onset": "2020-01-17T20:20:00-06:00",
+        "expires": "2020-01-18T08:20:00-06:00",
+        "ends": "2020-01-18T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Advisory issued January 17 at 8:20PM CST until January 18 at 10:00PM CST by NWS Chicago IL",
+        "description": "...The Flood Advisory continues for the Kankakee River near Kouts\naffecting Jasper and Porter Counties...\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 48 hours into the future.\n\nThe Flood Advisory continues for\nThe Kankakee River near Kouts, or from IN-49 south of Kouts\ndownstream to near I-65 and De Motte.\n* until Saturday evening.\n* At  800 PM Friday the stage was 10.7 feet.\n* Action stage is 10.5 feet.\n* Flood stage is 11.0 feet.\n* Forecast...The river will rise hold steady near 10.7 this weekend.\n* Impact...At 11.0 feet...Agricultural areas begin to flood. Some\nbackwaters begin to fill drainage ditches.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.\n\nAdditional information can be found at weather.gov/chicago.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.Y.0007.000000T0000Z-200119T0400Z/"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-18T22:00:00-06:00"
+            ]
+        }
+    }
+}
