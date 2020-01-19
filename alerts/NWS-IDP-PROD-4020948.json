@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020948",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.16,
+                    29.96
+                ],
+                [
+                    -82.0699999,
+                    30.09
+                ],
+                [
+                    -81.69,
+                    30.07
+                ],
+                [
+                    -81.7099999,
+                    29.88
+                ],
+                [
+                    -82.16,
+                    29.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020948",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4020948",
+        "areaDesc": "Clay; Bradford",
+        "geocode": {
+            "UGC": [
+                "FLZ032",
+                "FLZ031"
+            ],
+            "SAME": [
+                "012019",
+                "012007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/FLZ032",
+            "https://api.weather.gov/zones/forecast/FLZ031"
+        ],
+        "references": [],
+        "sent": "2020-01-19T15:47:00-05:00",
+        "effective": "2020-01-19T15:47:00-05:00",
+        "onset": "2020-01-19T15:47:00-05:00",
+        "expires": "2020-01-19T16:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jacksonville FL",
+        "headline": "Special Weather Statement issued January 19 at 3:47PM EST by NWS Jacksonville FL",
+        "description": "* At 346 PM EST, National Weather Service meteorologists were\ntracking gusty showers near Camp Blanding, or near Starke, moving\neast at 30 mph.\n\n* Winds in excess of 40 mph possible with these showers.\n\n* Locations impacted include...\nStarke, Middleburg, Kingsley, Camp Blanding, Penney Farms, Lawtey\nand Asbury Lake.",
+        "instruction": "These winds can down small tree limbs and branches, and blow around\nunsecured small objects. Seek shelter in a safe building until the\nstorm passes.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-19T15:46:00.000-05:00...storm...278DEG...27KT...30.01,-82.06"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR EAST CENTRAL BRADFORD AND CENTRAL CLAY COUNTIES UNTIL 430 PM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JAXSPSJAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
