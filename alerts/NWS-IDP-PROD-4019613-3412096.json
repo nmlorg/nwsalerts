@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019613-3412096",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.59,
+                    32.63
+                ],
+                [
+                    -83.53,
+                    32.6599999
+                ],
+                [
+                    -83.43,
+                    32.29
+                ],
+                [
+                    -83.31999990000001,
+                    32.1
+                ],
+                [
+                    -83.37000000000002,
+                    32.06
+                ],
+                [
+                    -83.49000000000002,
+                    32.27
+                ],
+                [
+                    -83.59,
+                    32.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019613-3412096",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4019613-3412096",
+        "areaDesc": "Pulaski, GA; Bleckley, GA",
+        "geocode": {
+            "UGC": [
+                "GAC235",
+                "GAC023"
+            ],
+            "SAME": [
+                "013235",
+                "013023"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC235",
+            "https://api.weather.gov/zones/county/GAC023"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019343-3411821",
+                "identifier": "NWS-IDP-PROD-4019343-3411821",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T16:27:00-05:00"
+            }
+        ],
+        "sent": "2020-01-18T20:42:00-05:00",
+        "effective": "2020-01-18T20:42:00-05:00",
+        "onset": "2020-01-18T20:42:00-05:00",
+        "expires": "2020-01-19T10:41:00-05:00",
+        "ends": "2020-01-22T03:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 18 at 8:42PM EST until January 22 at 3:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nOconee River near Oconee affecting Johnson...Washington and\nWilkinson Counties\n\nOconee River near Dublin affecting Johnson...Laurens...Washington\nand Wilkinson Counties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nOcmulgee River near Hawkinsville affecting Bleckley and Pulaski\nCounties\n\nOcmulgee River near Abbeville affecting Dodge...Telfair and Wilcox\nCounties\n\nThe Flood Warning continues for\nThe Ocmulgee River near Hawkinsville.\n* Until late Tuesday night.\n* At 7PM Saturday the stage was 21.2 feet...and\nrising.\n* Minor flooding will continue.\n* Flood stage is 20.0 feet.\n* The river will continue rising to near 21.6 feet by tomorrow early\nafternoon. The river will fall below flood stage Tuesday before\nmidnight.\n* At 20.5 feet...Minor flooding of roads begins on the southside of\nHawkinsville...along Gooseneck Lane. With the flooding of Gooseneck\nLane...residents are cutoff from reaching their homes.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0031.000000T0000Z-200122T0800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T03:00:00-05:00"
+            ]
+        }
+    }
+}
