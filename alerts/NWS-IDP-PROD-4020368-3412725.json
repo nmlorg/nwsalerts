@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020368-3412725",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.8,
+                    38.92
+                ],
+                [
+                    -92.64,
+                    38.940000000000005
+                ],
+                [
+                    -92.5,
+                    38.92
+                ],
+                [
+                    -92.52,
+                    38.88
+                ],
+                [
+                    -92.78999999999999,
+                    38.870000000000005
+                ],
+                [
+                    -92.8,
+                    38.92
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020368-3412725",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4020368-3412725",
+        "areaDesc": "Cooper, MO",
+        "geocode": {
+            "UGC": [
+                "MOC053"
+            ],
+            "SAME": [
+                "029053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019696-3412174",
+                "identifier": "NWS-IDP-PROD-4019696-3412174",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T20:35:00-06:00"
+            }
+        ],
+        "sent": "2020-01-19T07:50:00-06:00",
+        "effective": "2020-01-19T07:50:00-06:00",
+        "onset": "2020-01-19T07:50:00-06:00",
+        "expires": "2020-01-20T07:49:00-06:00",
+        "ends": "2020-01-20T17:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant HIll MO",
+        "headline": "Flood Warning issued January 19 at 7:50AM CST until January 20 at 5:00PM CST by NWS Kansas City/Pleasant HIll MO",
+        "description": "...The Flood Warning continues for the following rivers in\nMissouri...\n\nPetite Saline Creek near Boonville affecting Cooper County.\n\nThe Flood Warning continues for\nThe Petite Saline Creek near Boonville.\n* until this afternoon.\n* At  7:30 AM Sunday the stage was 17.0 feet.\n* Flood stage is 16.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 17.0 feet by this\nafternoon. The river will fall below flood stage late this\nafternoon.\n* At 16.0 feet...Low lying woodlands and fields near the creek flood.",
+        "instruction": "Do not drive through flowing water. Nearly half of all flood\nfatalities are vehicle related. As little as 6 inches of water may\ncause you to lose control of your vehicle. Two feet of water will\ncarry most vehicles away.This product along with additional weather\nand stream information is available at www.weather.gov/kc/.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KEAX.FL.W.0008.000000T0000Z-200120T2300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EAXFLSEAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T17:00:00-06:00"
+            ]
+        }
+    }
+}
