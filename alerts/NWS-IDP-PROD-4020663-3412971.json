@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020663-3412971",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.77,
+                    30.98
+                ],
+                [
+                    -88.72,
+                    30.98
+                ],
+                [
+                    -88.7099999,
+                    30.82
+                ],
+                [
+                    -88.64,
+                    30.740000000000002
+                ],
+                [
+                    -88.68,
+                    30.740000000000002
+                ],
+                [
+                    -88.79,
+                    30.82
+                ],
+                [
+                    -88.77,
+                    30.98
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020663-3412971",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4020663-3412971",
+        "areaDesc": "George, MS; Greene, MS; Jackson, MS",
+        "geocode": {
+            "UGC": [
+                "MSC039",
+                "MSC041",
+                "MSC059"
+            ],
+            "SAME": [
+                "028039",
+                "028041",
+                "028059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC039",
+            "https://api.weather.gov/zones/county/MSC041",
+            "https://api.weather.gov/zones/county/MSC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019854-3412301",
+                "identifier": "NWS-IDP-PROD-4019854-3412301",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T21:25:00-06:00"
+            }
+        ],
+        "sent": "2020-01-19T10:20:00-06:00",
+        "effective": "2020-01-19T10:20:00-06:00",
+        "onset": "2020-01-19T10:20:00-06:00",
+        "expires": "2020-01-20T10:19:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued January 19 at 10:20AM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for the following rivers in Alabama...Florida...\n\nEscambia River Near Century affecting Escambia County.\n...The flood warning continues for the following rivers in Alabama...\nMississippi...\n\nTombigbee River Near Coffeeville Dam affecting Choctaw...Clarke and\nWashington Counties.\nTombigbee River Near Leroy affecting Choctaw...Clarke and Washington\nCounties.\nAlabama River Near Claiborne Dam - Tailwater affecting Clarke...Monroe and\nWilcox Counties.\nLeaf Near Mclain affecting George...Greene and Perry Counties.\nChickasawhay At Leakesville affecting George...Greene and Wayne Counties.\nPascagoula At Merrill affecting George...Greene and Jackson Counties.\n\n.Recent heavy rains have caused significant rises along the river.\n\nThe Flood Warning continues for\nthe Pascagoula At Merrill\n* until further notice.\n* At 9 AM Sunday the stage was 23.2 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 22 feet.\n* The river will continue rising to near 23.5 feet by Tuesday morning then begin\nfalling Wednesday morning.\n* At 23.5 feet...Water is under homes in Plum Bluff Estates. Streets of Merrill\nflood.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMOB.FL.W.0010.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020665-3412973",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.23,
+                    40.18
+                ],
+                [
+                    -90.17,
+                    40.12
+                ],
+                [
+                    -90.37,
+                    40.08
+                ],
+                [
+                    -90.4599999,
+                    39.989999999999995
+                ],
+                [
+                    -90.58,
+                    39.989999999999995
+                ],
+                [
+                    -90.42999999999999,
+                    40.14999999999999
+                ],
+                [
+                    -90.23,
+                    40.18
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020665-3412973",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4020665-3412973",
+        "areaDesc": "Morgan, IL; Brown, IL; Schuyler, IL; Cass, IL",
+        "geocode": {
+            "UGC": [
+                "ILC137",
+                "ILC009",
+                "ILC169",
+                "ILC017"
+            ],
+            "SAME": [
+                "017137",
+                "017009",
+                "017169",
+                "017017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC137",
+            "https://api.weather.gov/zones/county/ILC009",
+            "https://api.weather.gov/zones/county/ILC169",
+            "https://api.weather.gov/zones/county/ILC017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019699-3412177",
+                "identifier": "NWS-IDP-PROD-4019699-3412177",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T20:40:00-06:00"
+            }
+        ],
+        "sent": "2020-01-19T10:23:00-06:00",
+        "effective": "2020-01-19T10:23:00-06:00",
+        "onset": "2020-01-19T10:23:00-06:00",
+        "expires": "2020-01-20T00:23:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lincoln IL",
+        "headline": "Flood Warning issued January 19 at 10:23AM CST by NWS Lincoln IL",
+        "description": "...The Flood Warning continues for the following river in Illinois...\n\nIllinois River at Peoria affecting Peoria...Tazewell and Woodford\nCounties\nIllinois River near Havana affecting Cass...Fulton and Mason\nCounties\nIllinois River at Beardstown affecting Brown...Cass...Morgan and\nSchuyler Counties\n\n.The following forecasts are based on observed precipitation, soil\nmoisture conditions, and forecast precipitation.\n\nThe Flood Warning continues for\nThe Illinois River at Beardstown.\n* Until further notice.\n* At  945 AM Sunday the stage was 19.3 feet.\n* Flood stage is 14.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to near 20.0 feet by\nWednesday evening then begin falling.\n* Impact...At 20.0 feet...Seepage problems begin in the South\nBeardstown Drainage and Levee District.",
+        "instruction": "If you encounter a flooded roadway, turn around and find an alternate\nroute. Turn around, don't drown.\n\nAdditional river and weather information is available at\nwww.weather.gov/ilx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILX.FL.W.0009.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILXFLSILX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
