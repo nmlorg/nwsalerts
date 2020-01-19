@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020517-3412852",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.74,
+                    31.84
+                ],
+                [
+                    -88.75,
+                    31.93
+                ],
+                [
+                    -88.78,
+                    32
+                ],
+                [
+                    -88.68,
+                    32.05
+                ],
+                [
+                    -88.66000000000001,
+                    31.929999999999996
+                ],
+                [
+                    -88.69000000000001,
+                    31.839999999999996
+                ],
+                [
+                    -88.74,
+                    31.84
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020517-3412852",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4020517-3412852",
+        "areaDesc": "Clarke, MS",
+        "geocode": {
+            "UGC": [
+                "MSC023"
+            ],
+            "SAME": [
+                "028023"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC023"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019918-3412363",
+                "identifier": "NWS-IDP-PROD-4019918-3412363",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T22:32:00-06:00"
+            }
+        ],
+        "sent": "2020-01-19T09:23:00-06:00",
+        "effective": "2020-01-19T09:23:00-06:00",
+        "onset": "2020-01-19T09:23:00-06:00",
+        "expires": "2020-01-20T12:00:00-06:00",
+        "ends": "2020-01-20T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 19 at 9:23AM CST until January 20 at 12:00PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following river in Mississippi...\n\nChickasawhay River At Shubuta affecting Clarke County\n\nThe Flood Warning continues for\nThe Chickasawhay River At Shubuta\n* until Monday afternoon.\n* At 6:00 AM Sunday the stage was estimated at 30.5 feet.\n* Minor flooding is forecast.\n* Flood stage is 30.0 feet.\n* Forecast...The river is cresting at 30.5 feet, and will then\nbegin falling.\n* Impact...At 30.0 feet...Minor flooding over the right bank of the\nriver.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Monday afternoon"
+            ],
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0049.000000T0000Z-200120T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T12:00:00-06:00"
+            ]
+        }
+    }
+}
