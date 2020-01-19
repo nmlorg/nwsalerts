@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021087-3413314",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.25,
+                    29.85
+                ],
+                [
+                    -81.2,
+                    30.03
+                ],
+                [
+                    -80.5,
+                    29.98
+                ],
+                [
+                    -80.63,
+                    29.67
+                ],
+                [
+                    -81.25,
+                    29.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021087-3413314",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021087-3413314",
+        "areaDesc": "Coastal waters from Fernandina Beach to St. Augustine FL out 20 NM; Waters from Fernandina Beach to St. Augustine FL from 20 to 60 NM; Waters from St. Augustine to Flagler Beach FL from 20 to 60 NM; Coastal waters from St. Augustine to Flagler Beach FL out 20 NM",
+        "geocode": {
+            "UGC": [
+                "AMZ452",
+                "AMZ472",
+                "AMZ474",
+                "AMZ454"
+            ],
+            "SAME": [
+                "075452",
+                "075472",
+                "075474",
+                "075454"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AMZ452",
+            "https://api.weather.gov/zones/forecast/AMZ472",
+            "https://api.weather.gov/zones/forecast/AMZ474",
+            "https://api.weather.gov/zones/forecast/AMZ454"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021054-3413283",
+                "identifier": "NWS-IDP-PROD-4021054-3413283",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T17:35:00-05:00"
+            }
+        ],
+        "sent": "2020-01-19T18:54:00-05:00",
+        "effective": "2020-01-19T18:54:00-05:00",
+        "onset": "2020-01-19T18:54:00-05:00",
+        "expires": "2020-01-19T19:04:00-05:00",
+        "ends": "2020-01-19T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jacksonville FL",
+        "headline": "Special Marine Warning issued January 19 at 6:54PM EST until January 19 at 7:00PM EST by NWS Jacksonville FL",
+        "description": "The affected areas were...\nCoastal waters from Fernandina Beach to St. Augustine FL out 20 NM...\nCoastal waters from St. Augustine to Flagler Beach FL out 20 NM...\nWaters from Fernandina Beach to St. Augustine FL from 20 to 60 NM...\nWaters from St. Augustine to Flagler Beach FL from 20 to 60 NM...\n\nThe shower has weakened and no longer poses a significant threat to\nboaters.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-19T18:54:00.000-05:00...storm...274DEG...38KT...29.75,-80.57"
+            ],
+            "NWSheadline": [
+                "THE SPECIAL MARINE WARNING WILL EXPIRE AT 700 PM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KJAX.MA.W.0002.000000T0000Z-200120T0000Z/"
+            ],
+            "PIL": [
+                "JAXMWSJAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T19:00:00-05:00"
+            ]
+        }
+    }
+}
