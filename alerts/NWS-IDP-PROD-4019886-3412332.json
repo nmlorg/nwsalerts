@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019886-3412332",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.88,
+                    37.25
+                ],
+                [
+                    -88.61,
+                    37.15
+                ],
+                [
+                    -88.52,
+                    37.15
+                ],
+                [
+                    -88.36999999999999,
+                    37.07
+                ],
+                [
+                    -88.53999999999999,
+                    36.97
+                ],
+                [
+                    -88.72,
+                    37.089999999999996
+                ],
+                [
+                    -88.9,
+                    37.159999899999995
+                ],
+                [
+                    -88.88,
+                    37.25
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019886-3412332",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4019886-3412332",
+        "areaDesc": "Pope, IL; McCracken, KY; Massac, IL; Livingston, KY",
+        "geocode": {
+            "UGC": [
+                "ILC151",
+                "KYC145",
+                "ILC127",
+                "KYC139"
+            ],
+            "SAME": [
+                "017151",
+                "021145",
+                "017127",
+                "021139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC151",
+            "https://api.weather.gov/zones/county/KYC145",
+            "https://api.weather.gov/zones/county/ILC127",
+            "https://api.weather.gov/zones/county/KYC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018922-3411389",
+                "identifier": "NWS-IDP-PROD-4018922-3411389",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T11:56:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T21:44:00-06:00",
+        "effective": "2020-01-18T21:44:00-06:00",
+        "onset": "2020-01-18T21:44:00-06:00",
+        "expires": "2020-01-20T01:44:00-06:00",
+        "ends": "2020-01-27T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued January 18 at 9:44PM CST until January 27 at 12:00AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in Indiana...\nKentucky...Illinois...Missouri...\n\nOhio River at Shawneetown, Paducah, Olmsted Lock and Dam, and Cairo\n\n.The Ohio River will be cresting this weekend, then river levels will\nslowly fall over the next week.\n\nThe Flood Warning continues for\nthe Ohio River at Paducah\n* until Monday January 27.\n* At  9:00 PM Saturday the stage was 40.9 feet.\n* Flood Stage is 39.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 41.5 feet by\nSunday evening.\n* Impact...At 43.0 Feet...Moderate flooding occurs affecting several\nsmall unprotected towns.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0010.000000T0000Z-200127T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-27T00:00:00-06:00"
+            ]
+        }
+    }
+}
