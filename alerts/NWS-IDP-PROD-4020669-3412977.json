@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020669-3412977",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.43,
+                    38.4799999
+                ],
+                [
+                    -90.39,
+                    38.4799999
+                ],
+                [
+                    -90.3199999,
+                    38.46
+                ],
+                [
+                    -90.34,
+                    38.4099999
+                ],
+                [
+                    -90.43,
+                    38.45
+                ],
+                [
+                    -90.43,
+                    38.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020669-3412977",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4020669-3412977",
+        "areaDesc": "Jefferson, MO; St. Louis, MO",
+        "geocode": {
+            "UGC": [
+                "MOC099",
+                "MOC189"
+            ],
+            "SAME": [
+                "029099",
+                "029189"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC099",
+            "https://api.weather.gov/zones/county/MOC189"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019745-3412216",
+                "identifier": "NWS-IDP-PROD-4019745-3412216",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T20:55:00-06:00"
+            }
+        ],
+        "sent": "2020-01-19T10:27:00-06:00",
+        "effective": "2020-01-19T10:27:00-06:00",
+        "onset": "2020-01-19T22:30:00-06:00",
+        "expires": "2020-01-20T16:26:00-06:00",
+        "ends": "2020-01-23T09:36:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 19 at 10:26AM CST until January 23 at 9:36AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nMissouri...\n\nMeramec River near Sullivan\nMeramec River near Arnold\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Meramec River near Arnold\n* from this evening to Thursday morning.\n* At 10:00 AM Sunday the stage was 23.2 feet.\n* Flood stage is 24.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to rise above flood stage by tonight and to\ncrest near 25.0 feet by tomorrow evening. The river is forecast to\nfall below flood stage by Wednesday morning.\n* Impact:  At 24.7 feet...Hawkins Road south of Meramec Bottom Road\nbegins flooding.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0042.200120T0430Z-200123T1536Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-23T09:36:00-06:00"
+            ]
+        }
+    }
+}
