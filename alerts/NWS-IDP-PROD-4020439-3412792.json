@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020439-3412792",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.44,
+                    41.3
+                ],
+                [
+                    -84.4599999,
+                    41.489999999999995
+                ],
+                [
+                    -84.39,
+                    41.589999999999996
+                ],
+                [
+                    -84.29,
+                    41.589999999999996
+                ],
+                [
+                    -84.38000000000001,
+                    41.3
+                ],
+                [
+                    -84.44,
+                    41.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020439-3412792",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4020439-3412792",
+        "areaDesc": "Williams, OH; Defiance, OH; Fulton, OH",
+        "geocode": {
+            "UGC": [
+                "OHC171",
+                "OHC039",
+                "OHC051"
+            ],
+            "SAME": [
+                "039171",
+                "039039",
+                "039051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC171",
+            "https://api.weather.gov/zones/county/OHC039",
+            "https://api.weather.gov/zones/county/OHC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019783-3412242",
+                "identifier": "NWS-IDP-PROD-4019783-3412242",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T22:03:00-05:00"
+            }
+        ],
+        "sent": "2020-01-19T09:51:00-05:00",
+        "effective": "2020-01-19T09:51:00-05:00",
+        "onset": "2020-01-19T09:51:00-05:00",
+        "expires": "2020-01-20T09:50:00-05:00",
+        "ends": "2020-01-21T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 19 at 9:51AM EST until January 21 at 1:00AM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nTiffin River At Stryker affecting Defiance...Fulton and Williams\nCounties\nSaint Joseph River Michigan at Three Rivers affecting Elkhart...\nBranch and St. Joseph Counties\nSaint Joseph River Michigan at South Bend affecting Elkhart...St.\nJoseph and Berrien Counties\n\n...The Flood Warning continues for the following rivers...\n\nNorth Branch Elkhart River at Cosperville affecting Noble County\n\n.Rivers will continue a slow decline over the next few days.\n\nThe Flood Warning has been extended for\nThe Tiffin River At Stryker\n* until late Monday night.\n* At 9 AM Sunday the stage was 11.4 feet and falling.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 11.0 feet.\n* Forecast...The river will fall below the 11.0 foot flood stage\naround  1 AM Monday January 20.\n* At 11.0 feet...Flooding of lowland areas around Stryker can be\nexpected.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0013.000000T0000Z-200121T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T01:00:00-05:00"
+            ]
+        }
+    }
+}
