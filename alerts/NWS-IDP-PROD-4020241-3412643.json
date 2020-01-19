@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020241-3412643",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020241-3412643",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4020241-3412643",
+        "areaDesc": "Brown; Lewis; Knox; Adams",
+        "geocode": {
+            "UGC": [
+                "ILZ096",
+                "MOZ019",
+                "MOZ018",
+                "ILZ095"
+            ],
+            "SAME": [
+                "017009",
+                "029111",
+                "029103",
+                "017001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ILZ096",
+            "https://api.weather.gov/zones/forecast/MOZ019",
+            "https://api.weather.gov/zones/forecast/MOZ018",
+            "https://api.weather.gov/zones/forecast/ILZ095"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019342-3411820",
+                "identifier": "NWS-IDP-PROD-4019342-3411820",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T15:26:00-06:00"
+            }
+        ],
+        "sent": "2020-01-19T04:37:00-06:00",
+        "effective": "2020-01-19T04:37:00-06:00",
+        "onset": "2020-01-19T04:37:00-06:00",
+        "expires": "2020-01-19T12:00:00-06:00",
+        "ends": "2020-01-19T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Chill Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Wind Chill Advisory issued January 19 at 4:37AM CST until January 19 at 12:00PM CST by NWS St Louis MO",
+        "description": "* WHAT...Very cold wind chills expected. Wind chills as low as\n15 below zero.\n\n* WHERE...In northeast Missouri, Knox and Lewis counties. In\nwest central Illinois, Adams and Brown counties.\n\n* WHEN...Until noon CST Sunday.\n\n* IMPACTS...The cold wind chills could result in hypothermia if\nprecautions are not taken.",
+        "instruction": "A Wind Chill Advisory means that very cold air and strong winds\nwill combine to generate low wind chill values. This will result\nin frost bite and lead to hypothermia if precautions are not\ntaken. If you must venture outdoors, make sure you wear a hat and\ngloves, making sure all exposed skin is covered.",
+        "response": "Prepare",
+        "parameters": {
+            "NWSheadline": [
+                "WIND CHILL ADVISORY REMAINS IN EFFECT UNTIL NOON CST TODAY"
+            ],
+            "HazardType": [
+                "Wind Chill"
+            ],
+            "VTEC": [
+                "/O.CON.KLSX.WC.Y.0001.000000T0000Z-200119T1800Z/"
+            ],
+            "PIL": [
+                "LSXWSWLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-19T12:00:00-06:00"
+            ]
+        }
+    }
+}
