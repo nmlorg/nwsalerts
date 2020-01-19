@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021078",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -76.3,
+                    41.93
+                ],
+                [
+                    -75.00999999999999,
+                    41.8
+                ],
+                [
+                    -75.13,
+                    41.989999999999995
+                ],
+                [
+                    -76.50999999999999,
+                    42.129999999999995
+                ],
+                [
+                    -76.3,
+                    41.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021078",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021078",
+        "areaDesc": "Northern Wayne; Tioga; Broome; Sullivan; Susquehanna; Bradford; Delaware",
+        "geocode": {
+            "UGC": [
+                "PAZ040",
+                "NYZ055",
+                "NYZ056",
+                "NYZ062",
+                "PAZ039",
+                "PAZ038",
+                "NYZ057"
+            ],
+            "SAME": [
+                "042127",
+                "036107",
+                "036007",
+                "036105",
+                "042115",
+                "042015",
+                "036025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PAZ040",
+            "https://api.weather.gov/zones/forecast/NYZ055",
+            "https://api.weather.gov/zones/forecast/NYZ056",
+            "https://api.weather.gov/zones/forecast/NYZ062",
+            "https://api.weather.gov/zones/forecast/PAZ039",
+            "https://api.weather.gov/zones/forecast/PAZ038",
+            "https://api.weather.gov/zones/forecast/NYZ057"
+        ],
+        "references": [],
+        "sent": "2020-01-19T18:15:00-05:00",
+        "effective": "2020-01-19T18:15:00-05:00",
+        "onset": "2020-01-19T18:15:00-05:00",
+        "expires": "2020-01-19T19:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Binghamton NY",
+        "headline": "Special Weather Statement issued January 19 at 6:15PM EST by NWS Binghamton NY",
+        "description": "At 613 PM EST, an area of heavy snow was located along a line\nextending from Tioga Center to Fishs Eddy. Movement was southeast at\n35 mph.\n\nWinds in excess of 30 mph are possible with this area of heavy snow.\n\nLocations impacted include...\nVestal, Endicott, Kirkwood, Conklin, Owego, Susquehanna, Susquehanna\nDepot, Hallstead, Hancock and Windham.\n\nVisibilities will drop quickly to near zero in this area of heavy\nsnow.\n\nIcy roads are possible as the snow melts on the roads then quickly\nrefreezes.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-19T18:13:00.000-05:00...storm...298DEG...29KT...42.07,-76.34 41.96,-75.17"
+            ],
+            "NWSheadline": [
+                "SPEICAL WEATHER STATEMENT FOR AN AREA OF HEAVY SNOW ALONG THE NEW YORK PENNSYLVANIA BORDER NEAR BINGHAMTON"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BGMSPSBGM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
