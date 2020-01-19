@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021015",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.49,
+                    42.71
+                ],
+                [
+                    -82.8199999,
+                    44.06
+                ],
+                [
+                    -82.7,
+                    44
+                ],
+                [
+                    -82.59,
+                    43.84
+                ],
+                [
+                    -82.47,
+                    43.17
+                ],
+                [
+                    -82.42,
+                    43.06
+                ],
+                [
+                    -82.49,
+                    42.71
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021015",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021015",
+        "areaDesc": "St. Clair; Huron; Sanilac",
+        "geocode": {
+            "UGC": [
+                "MIZ063",
+                "MIZ049",
+                "MIZ055"
+            ],
+            "SAME": [
+                "026147",
+                "026063",
+                "026151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MIZ063",
+            "https://api.weather.gov/zones/forecast/MIZ049",
+            "https://api.weather.gov/zones/forecast/MIZ055"
+        ],
+        "references": [],
+        "sent": "2020-01-19T16:37:00-05:00",
+        "effective": "2020-01-19T16:37:00-05:00",
+        "onset": "2020-01-19T16:37:00-05:00",
+        "expires": "2020-01-19T18:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Detroit/Pontiac MI",
+        "headline": "Special Weather Statement issued January 19 at 4:37PM EST by NWS Detroit/Pontiac MI",
+        "description": "At 430 PM EST, moderate to heavy lake-effect snow showers were\naffecting the Lake Huron shoreline from Port Austin to Port Huron.\nGeneral movement of the embedded heavy snow bursts is to south at 20\nmph.\n\nLocations impacted include...\nPort Huron, St. Clair, Croswell, Harbor Beach, Lexington, Port\nSanilac, Port Hope, Forestville, Lakeport, Marysville, Carsonville,\nApplegate, Forester, Helena, Blaine, North Street, Birch Beach, White\nRock, Amador and Wadhams.\n\nVisibilities will drop quickly to less than a quarter of a mile in\nthe most intense snow bursts. Snowfall rates will approach an inch\nper hour.\n\nUse extra caution if you must travel into or through this dangerous\nsnow squall. Rapid changes in visibility and potentially slick roads\nare likely to lead to accidents. Consider delaying travel until the\nsquall passes your location.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-19T16:34:00.000-05:00...storm...349DEG...19KT...43.42,-82.53"
+            ],
+            "NWSheadline": [
+                "Lake-effect Snow Showers will affect Eastern Sanilac...Eastern St. Clair AND Eastern Huron Counties"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DTXSPSDTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
