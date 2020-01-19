@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019697-3412175",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.36,
+                    38.62
+                ],
+                [
+                    -89.33,
+                    38.61
+                ],
+                [
+                    -89.37,
+                    38.51
+                ],
+                [
+                    -89.42,
+                    38.489999999999995
+                ],
+                [
+                    -89.42,
+                    38.53999999999999
+                ],
+                [
+                    -89.36,
+                    38.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019697-3412175",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4019697-3412175",
+        "areaDesc": "Clinton, IL",
+        "geocode": {
+            "UGC": [
+                "ILC027"
+            ],
+            "SAME": [
+                "017027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC027"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019027-3411509",
+                "identifier": "NWS-IDP-PROD-4019027-3411509",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T13:05:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T20:39:00-06:00",
+        "effective": "2020-01-18T20:39:00-06:00",
+        "onset": "2020-01-18T20:39:00-06:00",
+        "expires": "2020-01-19T20:37:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 18 at 8:39PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...\n\nKaskaskia River at Vandalia\n\nKaskaskia River at Carlyle TW\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Kaskaskia River at Carlyle TW\n* until further notice.\n* At  8:00 PM Saturday the stage was 425.9 feet.\n* Flood stage is 423.5 feet.\n* Minor flooding is forecast.\n* The river is forecast to rise to near 425.9 feet by after midnight\ntonight. Additional rises may be possible thereafter.\n* Impact:  At 424.5 feet...Some cabins just below the dam are\ninundated.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLSX.FL.W.0001.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
