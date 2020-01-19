@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020526-3412860",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.44,
+                    38.51
+                ],
+                [
+                    -87.6,
+                    38.44
+                ],
+                [
+                    -87.72999999999999,
+                    38.409999899999995
+                ],
+                [
+                    -87.72999999999999,
+                    38.42999999999999
+                ],
+                [
+                    -87.54999999999998,
+                    38.519999999999996
+                ],
+                [
+                    -87.43999999999998,
+                    38.54
+                ],
+                [
+                    -87.44,
+                    38.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020526-3412860",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4020526-3412860",
+        "areaDesc": "Wabash, IL; Knox, IN; Gibson, IN",
+        "geocode": {
+            "UGC": [
+                "ILC185",
+                "INC083",
+                "INC051"
+            ],
+            "SAME": [
+                "017185",
+                "018083",
+                "018051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC185",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019817-3412266",
+                "identifier": "NWS-IDP-PROD-4019817-3412266",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T22:10:00-05:00"
+            }
+        ],
+        "sent": "2020-01-19T10:29:00-05:00",
+        "effective": "2020-01-19T10:29:00-05:00",
+        "onset": "2020-01-19T10:29:00-05:00",
+        "expires": "2020-01-20T10:28:00-05:00",
+        "ends": "2020-01-29T12:08:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 19 at 10:29AM EST until January 29 at 12:08PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...Eel River...Wabash River...White River...\n\n\n.Minor to moderate flooding continued Sunday morning in central and\nsouthern Indiana on the major rivers.  Crests will be/are comparable\nto those that occurred in February and June of 2019.  Minor\nflooding developed late Saturday afternoon on the Eel River that\nwill come to an end this afternoon.\n\nA mix of precipitation Friday and Saturday totaled as high as\napproximately 1.50 inches, which will slow river falls or bring\nlower secondary crests on the major rivers, and produce additional\nminor flooding on smaller ones.  Flooding has returned to Seymour on\nthe East Fork White River, and this afternoon it will return to\nSpencer on the White River.  The Driftwood River near Edinburgh will\nbe near bankfull, with a crest near flood stage Sunday morning.\n\nFlooding along the lower portions of the White and Wabash Rivers will\ncontinue until about Wednesday, January 29.\n\nLittle or no precipitation is forecast through midday Thursday.  This\nwill give area waterways several days to drain and return to near\nnormal levels.\n\nThe Flood Warning continues for\nThe White River at Hazleton.\n* until Wednesday January 29.\n* There have been no observations in the last 24 hours.\n* Flood stage is 16.0 feet.\n* Moderate flooding is forecast.\n* Forecast...It is forecast to crest at 25.5 feet this afternoon and\nwill fall below flood stage by Tuesday January 28.\n* At 26.0 feet...People in residential cabins on the riverward side of\nthe levee generally relocate.  Many local roads are completely\nimpassable.  Oil fields are inaccessible.  The remaining water\npumps are installed on the west end of Hazleton.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0358.000000T0000Z-200129T1708Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-29T12:08:00-05:00"
+            ]
+        }
+    }
+}
