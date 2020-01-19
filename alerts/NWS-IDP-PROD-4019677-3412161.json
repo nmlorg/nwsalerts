@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019677-3412161",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.67,
+                    39.77
+                ],
+                [
+                    -90.53,
+                    39.77
+                ],
+                [
+                    -90.52,
+                    39.52
+                ],
+                [
+                    -90.64,
+                    39.52
+                ],
+                [
+                    -90.67,
+                    39.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4019677-3412161",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4019677-3412161",
+        "areaDesc": "Scott, IL; Pike, IL",
+        "geocode": {
+            "UGC": [
+                "ILC171",
+                "ILC149"
+            ],
+            "SAME": [
+                "017171",
+                "017149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC171",
+            "https://api.weather.gov/zones/county/ILC149"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4018854-3411322",
+                "identifier": "NWS-IDP-PROD-4018854-3411322",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-18T11:19:00-06:00"
+            }
+        ],
+        "sent": "2020-01-18T20:31:00-06:00",
+        "effective": "2020-01-18T20:31:00-06:00",
+        "onset": "2020-01-18T20:31:00-06:00",
+        "expires": "2020-01-19T20:31:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 18 at 8:31PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...\n\n\nIllinois River at La Grange LD\n\nIllinois River at Meredosia\n\nIllinois River at Valley City\n\nIllinois River at Hardin\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Illinois River at Valley City\n* until further notice.\n* At  8:00 PM Saturday the stage was 14.9 feet.\n* Flood stage is 14.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to crest near 16.8 feet by Friday early\nafternoon.\n* Impact:  At 14.0 feet...The road to Norbut Fish and Wildlife area is\nflooded.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLSX.FL.W.0031.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
