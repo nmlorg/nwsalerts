@@ -1,0 +1,88 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021018",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.59,
+                    29.93
+                ],
+                [
+                    -81.58,
+                    30.07
+                ],
+                [
+                    -81.28999999999999,
+                    30.09
+                ],
+                [
+                    -81.20999989999999,
+                    29.86
+                ],
+                [
+                    -81.59,
+                    29.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021018",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021018",
+        "areaDesc": "Coastal St. Johns; Inland St. Johns",
+        "geocode": {
+            "UGC": [
+                "FLZ133",
+                "FLZ033"
+            ],
+            "SAME": [
+                "012109"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/FLZ133",
+            "https://api.weather.gov/zones/forecast/FLZ033"
+        ],
+        "references": [],
+        "sent": "2020-01-19T16:47:00-05:00",
+        "effective": "2020-01-19T16:47:00-05:00",
+        "onset": "2020-01-19T16:47:00-05:00",
+        "expires": "2020-01-19T17:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jacksonville FL",
+        "headline": "Special Weather Statement issued January 19 at 4:47PM EST by NWS Jacksonville FL",
+        "description": "* At 447 PM EST, National Weather Service meteorologists were\ntracking gusty showerS over World Golf Village, or 9 miles\nsoutheast of Fruit Cove, moving east at 35 mph.\n\n* Winds in excess of 40 mph possible with these showers.\n\n* Locations impacted include...\nSaint Augustine, World Golf Village, Vilano Beach, South Ponte\nVedra, Guana River State Park and Anastasia.",
+        "instruction": "These winds can down small tree limbs and branches, and blow around\nunsecured small objects. Seek shelter in a safe building until the\nstorm passes.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-19T16:47:00.000-05:00...storm...271DEG...31KT...30.0,-81.51"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR CENTRAL ST. JOHNS COUNTY UNTIL 515 PM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JAXSPSJAX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
