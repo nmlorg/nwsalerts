@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021903-3413959",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.44,
+                    38.51
+                ],
+                [
+                    -87.6,
+                    38.44
+                ],
+                [
+                    -87.72999999999999,
+                    38.409999899999995
+                ],
+                [
+                    -87.72999999999999,
+                    38.42999999999999
+                ],
+                [
+                    -87.54999999999998,
+                    38.519999999999996
+                ],
+                [
+                    -87.43999999999998,
+                    38.54
+                ],
+                [
+                    -87.44,
+                    38.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021903-3413959",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021903-3413959",
+        "areaDesc": "Wabash, IL; Knox, IN; Gibson, IN",
+        "geocode": {
+            "UGC": [
+                "ILC185",
+                "INC083",
+                "INC051"
+            ],
+            "SAME": [
+                "017185",
+                "018083",
+                "018051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC185",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021338-3413508",
+                "identifier": "NWS-IDP-PROD-4021338-3413508",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T22:15:00-05:00"
+            }
+        ],
+        "sent": "2020-01-20T10:54:00-05:00",
+        "effective": "2020-01-20T10:54:00-05:00",
+        "onset": "2020-01-20T10:54:00-05:00",
+        "expires": "2020-01-21T10:54:00-05:00",
+        "ends": "2020-01-27T14:42:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 20 at 10:54AM EST until January 27 at 2:42PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...Wabash River...White River...\n\n.Minor to moderate flooding continued Sunday night in central\nand southern Indiana on the major rivers.  Primary crests will\nbe/are comparable to those that occurred in February and June of\n2019.\n\nThe crest of the East Fork of the White River is near Seymour on\nMonday. The river at Seymour is expected to fall below flood stage\nTuesday evening.\n\nFlooding along the lower portions of the White and Wabash Rivers\nwill continue until about Wednesday, January 29.\n\nLittle or no precipitation is forecast through midday Thursday.\nThis will give area waterways several days to drain and return to\nnear normal levels.\n\nThe Flood Warning continues for\nThe White River at Hazleton.\n* until Monday January 27.\n* There have been no observations in the last 24 hours.\n* Flood stage is 16.0 feet.\n* Moderate flooding is forecast.\n* Forecast...It is forecast to crest at 24.9 feet this afternoon and\nwill fall below flood stage by Monday January 27.\n* At 25.0 feet...Extensive river flooding continues in northern Gibson\nCounty.  Numerous county roads were flooded in March 2011.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0358.000000T0000Z-200127T1942Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-27T14:42:00-05:00"
+            ]
+        }
+    }
+}
