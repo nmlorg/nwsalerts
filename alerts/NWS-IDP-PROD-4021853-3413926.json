@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021853-3413926",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.59,
+                    32.63
+                ],
+                [
+                    -83.53,
+                    32.6599999
+                ],
+                [
+                    -83.43,
+                    32.29
+                ],
+                [
+                    -83.31999990000001,
+                    32.1
+                ],
+                [
+                    -83.37000000000002,
+                    32.06
+                ],
+                [
+                    -83.49000000000002,
+                    32.27
+                ],
+                [
+                    -83.59,
+                    32.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021853-3413926",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021853-3413926",
+        "areaDesc": "Pulaski, GA; Bleckley, GA",
+        "geocode": {
+            "UGC": [
+                "GAC235",
+                "GAC023"
+            ],
+            "SAME": [
+                "013235",
+                "013023"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC235",
+            "https://api.weather.gov/zones/county/GAC023"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021489-3413631",
+                "identifier": "NWS-IDP-PROD-4021489-3413631",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T03:01:00-05:00"
+            }
+        ],
+        "sent": "2020-01-20T10:06:00-05:00",
+        "effective": "2020-01-20T10:06:00-05:00",
+        "onset": "2020-01-20T10:06:00-05:00",
+        "expires": "2020-01-21T00:06:00-05:00",
+        "ends": "2020-01-21T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 20 at 10:06AM EST until January 21 at 7:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nOcmulgee River near Hawkinsville affecting Bleckley and Pulaski\nCounties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nOcmulgee River near Abbeville affecting Dodge...Telfair and Wilcox\nCounties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0031.000000T0000Z-200121T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T07:00:00-05:00"
+            ]
+        }
+    }
+}
