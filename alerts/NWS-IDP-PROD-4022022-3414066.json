@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022022-3414066",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.29,
+                    31.93
+                ],
+                [
+                    -91.05000000000001,
+                    32.27
+                ],
+                [
+                    -91.23000000000002,
+                    32.77
+                ],
+                [
+                    -91.01000000000002,
+                    32.78
+                ],
+                [
+                    -90.86000000000001,
+                    32.26
+                ],
+                [
+                    -91.14000000000001,
+                    31.869999999999997
+                ],
+                [
+                    -91.29,
+                    31.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022022-3414066",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022022-3414066",
+        "areaDesc": "Tensas, LA; Warren, MS; Claiborne, MS; Madison, LA; Jefferson, MS",
+        "geocode": {
+            "UGC": [
+                "LAC107",
+                "MSC149",
+                "MSC021",
+                "LAC065",
+                "MSC063"
+            ],
+            "SAME": [
+                "022107",
+                "028149",
+                "028021",
+                "022065",
+                "028063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC107",
+            "https://api.weather.gov/zones/county/MSC149",
+            "https://api.weather.gov/zones/county/MSC021",
+            "https://api.weather.gov/zones/county/LAC065",
+            "https://api.weather.gov/zones/county/MSC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021181-3413389",
+                "identifier": "NWS-IDP-PROD-4021181-3413389",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T19:31:00-06:00"
+            }
+        ],
+        "sent": "2020-01-20T11:26:00-06:00",
+        "effective": "2020-01-20T11:26:00-06:00",
+        "onset": "2020-01-20T11:26:00-06:00",
+        "expires": "2020-01-21T17:26:00-06:00",
+        "ends": "2020-02-02T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 20 at 11:26AM CST until February 2 at 12:00AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nArkansas...Mississippi...Louisiana...\n\nMississippi River Near Arkansas City affecting Chicot...Desha...\nBolivar and Washington Counties\nMississippi River Near Greenville affecting Chicot...East Carroll...\nIssaquena and Washington Counties\nMississippi River At Vicksburg affecting Madison...Tensas...\nClaiborne...Jefferson and Warren Counties/Parishes\nMississippi River At Natchez affecting Concordia...Adams and\nWilkinson Counties/Parishes\n\nThe Flood Warning continues for\nThe Mississippi River At Vicksburg\n* until Sunday February 2.\n* At 11:00 AM Monday the stage was 44.2 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 43.0 feet.\n* Forecast...The river will continue rising to near 45.5 feet Monday\nJanuary 27.\n* Impact...At 45.2 feet...Vicksburg Floodwall Gate at South Street is\nclosed.\n* Impact...At 45.0 feet...Ford and Kings Subdivision at Williams\nStreet begin to flood.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nMississippi River forecasts are based on rainfall that has occurred\nand that which is forecast to occur over the next 48 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0033.000000T0000Z-200202T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-02T00:00:00-06:00"
+            ]
+        }
+    }
+}
