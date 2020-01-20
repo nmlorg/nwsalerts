@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022084-3414112",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022084-3414112",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022084-3414112",
+        "areaDesc": "Hamlin Beach to Sodus Bay NY; Sodus Bay to Mexico Bay NY",
+        "geocode": {
+            "UGC": [
+                "LOZ043",
+                "LOZ044"
+            ],
+            "SAME": [
+                "097043",
+                "097044"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/LOZ043",
+            "https://api.weather.gov/zones/forecast/LOZ044"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021689-3413802",
+                "identifier": "NWS-IDP-PROD-4021689-3413802",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T06:21:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021783-3413868",
+                "identifier": "NWS-IDP-PROD-4021783-3413868",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T09:18:00-05:00"
+            }
+        ],
+        "sent": "2020-01-20T14:45:00-05:00",
+        "effective": "2020-01-20T14:45:00-05:00",
+        "onset": "2020-01-20T14:45:00-05:00",
+        "expires": "2020-01-20T22:45:00-05:00",
+        "ends": "2020-01-21T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Buffalo NY",
+        "headline": "Small Craft Advisory issued January 20 at 2:45PM EST until January 21 at 7:00AM EST by NWS Buffalo NY",
+        "description": "* WHAT...Northwest winds 15 to 25 knots and waves 4 to 7 feet.\n\n* WHERE...The nearshore waters of Lake Ontario from Hamlin Beach\nto Mexico Bay.\n\n* WHEN...Until 7 AM EST Tuesday.\n\n* IMPACTS...Winds and/or waves will cause hazardous conditions\nthat could capsize or damage small craft.",
+        "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL 7 AM EST TUESDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KBUF.SC.Y.0010.000000T0000Z-200121T1200Z/"
+            ],
+            "PIL": [
+                "BUFMWWBUF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T07:00:00-05:00"
+            ]
+        }
+    }
+}
