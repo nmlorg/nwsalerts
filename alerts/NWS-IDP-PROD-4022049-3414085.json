@@ -1,0 +1,72 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022049-3414085",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022049-3414085",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022049-3414085",
+        "areaDesc": "Flathead/Mission Valleys; Kootenai/Cabinet Region",
+        "geocode": {
+            "UGC": [
+                "MTZ003",
+                "MTZ001"
+            ],
+            "SAME": [
+                "030029",
+                "030047",
+                "030089",
+                "030053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MTZ003",
+            "https://api.weather.gov/zones/forecast/MTZ001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021733-3413829",
+                "identifier": "NWS-IDP-PROD-4021733-3413829",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T06:05:00-07:00"
+            }
+        ],
+        "sent": "2020-01-20T10:47:00-07:00",
+        "effective": "2020-01-20T10:47:00-07:00",
+        "onset": "2020-01-20T10:47:00-07:00",
+        "expires": "2020-01-20T12:00:00-07:00",
+        "ends": "2020-01-20T11:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Dense Fog Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Missoula MT",
+        "headline": "Dense Fog Advisory issued January 20 at 10:47AM MST until January 20 at 11:00AM MST by NWS Missoula MT",
+        "description": "Although pockets of fog will linger into early afternoon,\nvisibility will continue to gradually improve.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "DENSE FOG ADVISORY WILL EXPIRE AT 11 AM MST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXP.KMSO.FG.Y.0001.000000T0000Z-200120T1800Z/"
+            ],
+            "PIL": [
+                "MSONPWMSO"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-20T11:00:00-07:00"
+            ]
+        }
+    }
+}
