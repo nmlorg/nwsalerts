@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022216-3414204",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.85,
+                    41.15
+                ],
+                [
+                    -98.75,
+                    41.1
+                ],
+                [
+                    -98.75,
+                    41.050000000000004
+                ],
+                [
+                    -98.79,
+                    41.050000000000004
+                ],
+                [
+                    -98.91000000000001,
+                    41.13
+                ],
+                [
+                    -99.08000000000001,
+                    41.28
+                ],
+                [
+                    -98.98000000000002,
+                    41.300000000000004
+                ],
+                [
+                    -98.85,
+                    41.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022216-3414204",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022216-3414204",
+        "areaDesc": "Sherman, NE",
+        "geocode": {
+            "UGC": [
+                "NEC163"
+            ],
+            "SAME": [
+                "031163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021047-3413282",
+                "identifier": "NWS-IDP-PROD-4021047-3413282",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T16:31:00-06:00"
+            }
+        ],
+        "sent": "2020-01-20T15:48:00-06:00",
+        "effective": "2020-01-20T15:48:00-06:00",
+        "onset": "2020-01-20T15:48:00-06:00",
+        "expires": "2020-01-22T16:15:00-06:00",
+        "ends": "2020-01-22T16:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Hastings NE",
+        "headline": "Flood Advisory issued January 20 at 3:48PM CST until January 22 at 4:15PM CST by NWS Hastings NE",
+        "description": "The National Weather Service in Hastings has extended the\n\n* Flood Advisory for...\nAn Ice Jam in...\nSoutheastern Sherman County in central Nebraska...\n\n* Until 415 PM CST Wednesday.\n\n* At 345 PM CST Monday, emergency management reported an ice jam on\nthe Middle Loup River causing minor flooding in low lying areas\nnear the Highway 10 and Highway 92 bridges just west and south of\nLoup City.\n\nFlooding of rural areas along the Middle Loup River in Sherman\nCounty will likely continue until the ice jam breaks up, which could\ntake several days. Those with livestock or property along the Middle\nLoup River should pay close attention to the possibility of rapidly\nchanging river levels and flooding due to ice jams.",
+        "instruction": "A Flood Advisory means river or stream flows are elevated, or ponding\nof water in areas is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGID.FA.Y.0002.000000T0000Z-200122T2215Z/"
+            ],
+            "PIL": [
+                "GIDFLSGID"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T16:15:00-06:00"
+            ]
+        }
+    }
+}
