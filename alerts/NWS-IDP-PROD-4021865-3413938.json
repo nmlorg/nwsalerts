@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021865-3413938",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.31,
+                    32.79
+                ],
+                [
+                    -82.27,
+                    32.86
+                ],
+                [
+                    -82.11,
+                    32.839999999999996
+                ],
+                [
+                    -81.92999999999999,
+                    32.809999999999995
+                ],
+                [
+                    -81.97999999999999,
+                    32.74999999999999
+                ],
+                [
+                    -82.11999999999999,
+                    32.75999999999999
+                ],
+                [
+                    -82.31,
+                    32.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021865-3413938",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021865-3413938",
+        "areaDesc": "Jenkins, GA; Burke, GA; Emanuel, GA",
+        "geocode": {
+            "UGC": [
+                "GAC165",
+                "GAC033",
+                "GAC107"
+            ],
+            "SAME": [
+                "013165",
+                "013033",
+                "013107"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC165",
+            "https://api.weather.gov/zones/county/GAC033",
+            "https://api.weather.gov/zones/county/GAC107"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021228-3413429",
+                "identifier": "NWS-IDP-PROD-4021228-3413429",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T21:09:00-05:00"
+            }
+        ],
+        "sent": "2020-01-20T10:12:00-05:00",
+        "effective": "2020-01-20T10:12:00-05:00",
+        "onset": "2020-01-20T10:12:00-05:00",
+        "expires": "2020-01-21T10:11:00-05:00",
+        "ends": "2020-01-21T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston SC",
+        "headline": "Flood Warning issued January 20 at 10:12AM EST until January 21 at 1:00PM EST by NWS Charleston SC",
+        "description": "The Flood Warning continues for\nThe Ogeechee River at Midville.\n* At 9 AM Monday the stage was 6.2 feet.\n* Flood stage is 6.0 feet.\n* Minor flooding is occurring.\n* Forecast, the river will remain nearly steady\nthen begin a slow fall.\nThe river will fall below flood stage early Tuesday morning.\n* At 6.0 feet, the access road into the River Bluff in Midville\nfloods. The lower portion of Johnson Road near Herndon is also\nflooded.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCHS.FL.W.0006.000000T0000Z-200121T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CHSFLSCHS"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T13:00:00-05:00"
+            ]
+        }
+    }
+}
