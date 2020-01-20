@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021989-3414035",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.6,
+                    41.63
+                ],
+                [
+                    -88.6,
+                    41.54
+                ],
+                [
+                    -88.78,
+                    41.339999999999996
+                ],
+                [
+                    -88.88,
+                    41.339999999999996
+                ],
+                [
+                    -88.7099999,
+                    41.56999999999999
+                ],
+                [
+                    -88.6,
+                    41.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021989-3414035",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021989-3414035",
+        "areaDesc": "La Salle, IL",
+        "geocode": {
+            "UGC": [
+                "ILC099"
+            ],
+            "SAME": [
+                "017099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021943-3413986",
+                "identifier": "NWS-IDP-PROD-4021943-3413986",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T10:20:00-06:00"
+            }
+        ],
+        "sent": "2020-01-20T10:46:00-06:00",
+        "effective": "2020-01-20T10:46:00-06:00",
+        "onset": "2020-01-20T10:46:00-06:00",
+        "expires": "2020-01-20T22:46:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 20 at 10:46AM CST by NWS Chicago IL",
+        "description": "...Forecast flooding Changed from Minor to Moderate severity for the\nfollowing rivers in Illinois...\n\nFox River at Dayton affecting La Salle County",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.\n\nIce jams may cause rapid fluctuations in water levels with little or\nno warning. During ice jam flooding, not all locations may experience\nimpacts at the same time or to the same level of severity. Movement\nof river ice may cause additional flooding into areas not currently\nexperiencing impacts. Residents near the river should remain alert\nfor possible flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.CON.KLOT.FL.W.0022.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLWLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
