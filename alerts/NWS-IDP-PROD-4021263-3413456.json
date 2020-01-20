@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021263-3413456",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.63,
+                    39.88
+                ],
+                [
+                    -90.50999999999999,
+                    39.88
+                ],
+                [
+                    -90.52999999999999,
+                    39.77
+                ],
+                [
+                    -90.66999999999999,
+                    39.77
+                ],
+                [
+                    -90.63,
+                    39.88
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021263-3413456",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021263-3413456",
+        "areaDesc": "Morgan, IL; Pike, IL",
+        "geocode": {
+            "UGC": [
+                "ILC137",
+                "ILC149"
+            ],
+            "SAME": [
+                "017137",
+                "017149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC137",
+            "https://api.weather.gov/zones/county/ILC149"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020625-3412937",
+                "identifier": "NWS-IDP-PROD-4020625-3412937",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T10:10:00-06:00"
+            }
+        ],
+        "sent": "2020-01-19T20:40:00-06:00",
+        "effective": "2020-01-19T20:40:00-06:00",
+        "onset": "2020-01-19T20:39:00-06:00",
+        "expires": "2020-01-20T20:39:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 19 at 8:39PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...\n\n\nIllinois River at Hardin\n\nIllinois River at La Grange LD\n\nIllinois River at Meredosia\n\nIllinois River at Valley City\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Illinois River at Meredosia\n* until further notice.\n* At  8:00 PM Sunday the stage was 16.9 feet.\n* Flood stage is 17.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to rise above flood stage by after midnight\ntonight and crest near 18.3 feet by early Saturday morning.\n* Impact:  At 18.0 feet...City of Meredosia plugs storm sewer outlets.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLSX.FL.W.0037.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
