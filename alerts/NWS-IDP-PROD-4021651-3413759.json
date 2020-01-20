@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021651-3413759",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.63,
+                    43
+                ],
+                [
+                    -88.56,
+                    42.9799999
+                ],
+                [
+                    -88.60000000000001,
+                    42.95
+                ],
+                [
+                    -88.65,
+                    42.940000000000005
+                ],
+                [
+                    -88.7099999,
+                    42.9799999
+                ],
+                [
+                    -88.65,
+                    42.9799999
+                ],
+                [
+                    -88.63,
+                    43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021651-3413759",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021651-3413759",
+        "areaDesc": "Jefferson, WI",
+        "geocode": {
+            "UGC": [
+                "WIC055"
+            ],
+            "SAME": [
+                "055055"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WIC055"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021387-3413546",
+                "identifier": "NWS-IDP-PROD-4021387-3413546",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T21:32:00-06:00"
+            }
+        ],
+        "sent": "2020-01-20T04:41:00-06:00",
+        "effective": "2020-01-20T04:41:00-06:00",
+        "onset": "2020-01-20T04:41:00-06:00",
+        "expires": "2020-01-20T16:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Milwaukee/Sullivan WI",
+        "headline": "Flood Warning issued January 20 at 4:41AM CST by NWS Milwaukee/Sullivan WI",
+        "description": "...The Flood Warning continues for the following rivers in\nWisconsin...\n\nBark River Near Rome affecting Jefferson County.\n\n.An ice jam will cause water to flood the lowlands along the river.\n\nThe Flood Warning continues for\nthe Bark River Near Rome.\n* Until further notice.\n* At 3:15 AM CST Monday the stage was 4.6 feet.\n* Flood stage is 4.0 feet.\n* Minor flooding is occurring. This approaches the flood of record.\n* Forecast...No forecast is available for this location.\n* Impact...At 4.7 feet, This level is the 0.2 percent chance flood\nmeaning that there is a 0.2 percent chance in any given year of\nthe river reaching this level. Floodwaters affect mainly wooded\nland and agricultural land.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Warning remains in effect"
+            ],
+            "VTEC": [
+                "/O.CON.KMKX.FL.W.0001.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MKXFLSMKX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
