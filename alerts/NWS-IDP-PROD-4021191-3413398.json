@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021191-3413398",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.36,
+                    35.4799999
+                ],
+                [
+                    -88.05,
+                    35.4799999
+                ],
+                [
+                    -88.05,
+                    35.27
+                ],
+                [
+                    -88.23,
+                    35.14
+                ],
+                [
+                    -88.23,
+                    35.01
+                ],
+                [
+                    -88.38000000000001,
+                    35.01
+                ],
+                [
+                    -88.36,
+                    35.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021191-3413398",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021191-3413398",
+        "areaDesc": "Decatur, TN; Hardin, TN",
+        "geocode": {
+            "UGC": [
+                "TNC039",
+                "TNC071"
+            ],
+            "SAME": [
+                "047039",
+                "047071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC039",
+            "https://api.weather.gov/zones/county/TNC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020790-3413081",
+                "identifier": "NWS-IDP-PROD-4020790-3413081",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T12:18:00-06:00"
+            }
+        ],
+        "sent": "2020-01-19T19:40:00-06:00",
+        "effective": "2020-01-19T19:40:00-06:00",
+        "onset": "2020-01-19T19:40:00-06:00",
+        "expires": "2020-01-20T19:40:00-06:00",
+        "ends": "2020-01-23T21:07:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 19 at 7:40PM CST until January 23 at 9:07PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for a portion of the Tennessee River.\n\nThe Flood Warning continues for\nthe Tennessee River at Savannah\n* until Wednesday January 22.\n* At 7 PM Sunday the stage was 373.2 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* Maximum forecast stage of 373.3 feet on Monday January 20.\n* Flood stage is 370.0 feet.\n* At 373.0 feet...Coffee Landing Road is under 3 ft of water at some\nplaces, and evacuation is very difficult. Chelsa Road in Crump is\nflooded at Gattis Creek. Leaning Tree Road going to the Riverview\nsettlement is flooded at Hardin Slough. Low spots along Connie Beth\nLane and Horse Creek are flooded. Wayne Jerolds River Park boat\nparking area is beginning to flood. Low spots on Emerald Lane are\nflooding north of Clover Drive.",
+        "instruction": "A followup Flood Statement will be issued when conditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.W.0184.000000T0000Z-200124T0307Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-23T21:07:00-06:00"
+            ]
+        }
+    }
+}
