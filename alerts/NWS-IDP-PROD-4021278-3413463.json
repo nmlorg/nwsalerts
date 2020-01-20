@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021278-3413463",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.52,
+                    40.93
+                ],
+                [
+                    -89.41,
+                    40.93
+                ],
+                [
+                    -89.5699999,
+                    40.62
+                ],
+                [
+                    -89.8,
+                    40.47
+                ],
+                [
+                    -89.88,
+                    40.53
+                ],
+                [
+                    -89.64999999999999,
+                    40.68
+                ],
+                [
+                    -89.52,
+                    40.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021278-3413463",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021278-3413463",
+        "areaDesc": "Peoria, IL; Woodford, IL; Tazewell, IL",
+        "geocode": {
+            "UGC": [
+                "ILC143",
+                "ILC203",
+                "ILC179"
+            ],
+            "SAME": [
+                "017143",
+                "017203",
+                "017179"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC143",
+            "https://api.weather.gov/zones/county/ILC203",
+            "https://api.weather.gov/zones/county/ILC179"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020664-3412972",
+                "identifier": "NWS-IDP-PROD-4020664-3412972",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T10:23:00-06:00"
+            }
+        ],
+        "sent": "2020-01-19T20:47:00-06:00",
+        "effective": "2020-01-19T20:47:00-06:00",
+        "onset": "2020-01-19T20:46:00-06:00",
+        "expires": "2020-01-20T10:46:00-06:00",
+        "ends": "2020-01-24T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lincoln IL",
+        "headline": "Flood Warning issued January 19 at 8:46PM CST until January 24 at 6:00AM CST by NWS Lincoln IL",
+        "description": "...The Flood Warning continues for the following river in Illinois...\n\nIllinois River at Peoria affecting Peoria...Tazewell and Woodford\nCounties\nIllinois River near Havana affecting Cass...Fulton and Mason\nCounties\nIllinois River at Beardstown affecting Brown...Cass...Morgan and\nSchuyler Counties\n\n.The following forecasts are based on observed precipitation, soil\nmoisture conditions, and forecast precipitation.\n\nThe Flood Warning continues for\nThe Illinois River at Peoria.\n* Until Friday morning.\n* At  745 PM Sunday the stage was 18.7 feet.\n* Flood stage is 18.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Impact...At 18.0 feet...Some flooding begins to bottomland not\nprotected by levees.",
+        "instruction": "If you encounter a flooded roadway, turn around and find an alternate\nroute. Turn around, don't drown.\n\nAdditional river and weather information is available at\nwww.weather.gov/ilx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KILX.FL.W.0007.000000T0000Z-200124T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILXFLSILX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-24T06:00:00-06:00"
+            ]
+        }
+    }
+}
