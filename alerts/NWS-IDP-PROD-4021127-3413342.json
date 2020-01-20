@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021127-3413342",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.64,
+                    32.56
+                ],
+                [
+                    -90.12,
+                    32.81
+                ],
+                [
+                    -90.06,
+                    32.9099999
+                ],
+                [
+                    -89.87,
+                    32.85
+                ],
+                [
+                    -89.9599999,
+                    32.72
+                ],
+                [
+                    -90.52,
+                    32.449999999999996
+                ],
+                [
+                    -90.64,
+                    32.56
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021127-3413342",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021127-3413342",
+        "areaDesc": "Madison, MS; Yazoo, MS",
+        "geocode": {
+            "UGC": [
+                "MSC089",
+                "MSC163"
+            ],
+            "SAME": [
+                "028089",
+                "028163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC089",
+            "https://api.weather.gov/zones/county/MSC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020506-3412844",
+                "identifier": "NWS-IDP-PROD-4020506-3412844",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T09:17:00-06:00"
+            }
+        ],
+        "sent": "2020-01-19T19:05:00-06:00",
+        "effective": "2020-01-19T19:05:00-06:00",
+        "onset": "2020-01-19T19:05:00-06:00",
+        "expires": "2020-01-21T01:04:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 19 at 7:05PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi..\n\nBig Black River At West affecting Attala and Holmes Counties\nBig Black River Near Bentonia affecting Madison and Yazoo Counties\nBig Black River Near Bovina affecting Hinds and Warren Counties\n\nThe Flood Warning continues for\nThe Big Black River Near Bentonia\n* until further notice.\n* At  6:00 PM Sunday the stage was 27.8 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Flood stage is 22.0 feet.\n* Forecast...The river will continue falling.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional 48 hours of\nrainfall added. Rainfall amounts greater than forecast may take the\nrivers higher.\n\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0168.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
