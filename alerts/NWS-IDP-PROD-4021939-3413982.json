@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021939-3413982",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.56,
+                    38.53
+                ],
+                [
+                    -90.56,
+                    38.550000000000004
+                ],
+                [
+                    -90.43,
+                    38.57000000000001
+                ],
+                [
+                    -90.43,
+                    38.540000000000006
+                ],
+                [
+                    -90.56,
+                    38.53
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021939-3413982",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021939-3413982",
+        "areaDesc": "Jefferson, MO; St. Louis, MO",
+        "geocode": {
+            "UGC": [
+                "MOC099",
+                "MOC189"
+            ],
+            "SAME": [
+                "029099",
+                "029189"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC099",
+            "https://api.weather.gov/zones/county/MOC189"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021326-3413497",
+                "identifier": "NWS-IDP-PROD-4021326-3413497",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T21:06:00-06:00"
+            }
+        ],
+        "sent": "2020-01-20T10:16:00-06:00",
+        "effective": "2020-01-20T10:16:00-06:00",
+        "onset": "2020-01-20T10:16:00-06:00",
+        "expires": "2020-01-21T16:15:00-06:00",
+        "ends": "2020-01-22T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 20 at 10:16AM CST until January 22 at 12:00PM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in Missouri..\n\nMeramec River at Valley Park\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Meramec River at Valley Park\n* until Wednesday afternoon.\n* At 9:30 AM Monday the stage was 16.4 feet.\n* Flood stage is 16.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to crest near 16.5 feet by this afternoon,\nthen fall below flood stage tomorrow morning.\n* Impact:  At 16.0 feet...Flood Stage.  Minor flooding begins.  Buder\nPark begins to flood.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLSX.FL.W.0047.000000T0000Z-200122T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T12:00:00-06:00"
+            ]
+        }
+    }
+}
