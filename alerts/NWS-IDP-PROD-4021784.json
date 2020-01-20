@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021784",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -111.45,
+                    42.31
+                ],
+                [
+                    -111.21000000000001,
+                    42.31
+                ],
+                [
+                    -111.19000000000001,
+                    42
+                ],
+                [
+                    -111.45000000000002,
+                    42
+                ],
+                [
+                    -111.45,
+                    42.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021784",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021784",
+        "areaDesc": "Bear River Range; Bear Lake Valley",
+        "geocode": {
+            "UGC": [
+                "IDZ060",
+                "IDZ061"
+            ],
+            "SAME": [
+                "016007",
+                "016041",
+                "016029"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/IDZ060",
+            "https://api.weather.gov/zones/forecast/IDZ061"
+        ],
+        "references": [],
+        "sent": "2020-01-20T07:18:00-07:00",
+        "effective": "2020-01-20T07:18:00-07:00",
+        "onset": "2020-01-20T07:18:00-07:00",
+        "expires": "2020-01-20T10:15:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pocatello ID",
+        "headline": "Special Weather Statement issued January 20 at 7:18AM MST by NWS Pocatello ID",
+        "description": "At 716 AM MST, observations indicated locally dense fog near Bear\nLake this morning. Motorists traveling through the Bear Lake area\nthis morning should use caution and slow down when encountering\nfog.\n\nLocations impacted include...\nBear Lake Idaho Portion, Saint Charles, Dingle, Paris, Bloomington,\nOvid and Fish Haven.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-20T07:16:00.000-07:00...storm...180DEG...0KT...42.23,-111.32"
+            ],
+            "NWSheadline": [
+                "LOCALLY DENSE FOG AROUND BEAR LAKE THIS MORNING"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PIHSPSPIH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
