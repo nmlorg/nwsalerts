@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021233-3413434",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.37,
+                    32.06
+                ],
+                [
+                    -83.3199999,
+                    32.1
+                ],
+                [
+                    -83.15,
+                    31.880000000000003
+                ],
+                [
+                    -82.99000000000001,
+                    31.810000000000002
+                ],
+                [
+                    -82.99000000000001,
+                    31.750000000000004
+                ],
+                [
+                    -83.2,
+                    31.840000000000003
+                ],
+                [
+                    -83.37,
+                    32.06
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021233-3413434",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021233-3413434",
+        "areaDesc": "Dodge, GA; Telfair, GA; Wilcox, GA",
+        "geocode": {
+            "UGC": [
+                "GAC091",
+                "GAC271",
+                "GAC315"
+            ],
+            "SAME": [
+                "013091",
+                "013271",
+                "013315"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC091",
+            "https://api.weather.gov/zones/county/GAC271",
+            "https://api.weather.gov/zones/county/GAC315"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020456-3412813",
+                "identifier": "NWS-IDP-PROD-4020456-3412813",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T10:01:00-05:00"
+            }
+        ],
+        "sent": "2020-01-19T21:10:00-05:00",
+        "effective": "2020-01-19T21:10:00-05:00",
+        "onset": "2020-01-19T21:10:00-05:00",
+        "expires": "2020-01-20T11:09:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 19 at 9:10PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nOcmulgee River near Abbeville affecting Dodge...Telfair and Wilcox\nCounties\n\nThe Flood Warning continues for\nThe Ocmulgee River near Abbeville.\n* Until further notice.\n* At 845 PM Sunday the stage was 12.4 feet...and rising.\n* Minor flooding is occurring and is forecast to continue.\n* Flood stage is 12 feet.\n* The river is forecast to continue rising to near 13.4 feet by early\nWednesday morning, and then begin falling.\n* At 13 feet...Minor flooding of lowlands adjacent to the river\ncontinue to expand into the flood plain. Flooding of the nearby\npark and parking lot at the Abbeville boat ramp also expands.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0033.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

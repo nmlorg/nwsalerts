@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021231-3413432",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.25,
+                    32.1599999
+                ],
+                [
+                    -82.17,
+                    32.17
+                ],
+                [
+                    -82.12,
+                    32.050000000000004
+                ],
+                [
+                    -82.0699999,
+                    31.900000000000006
+                ],
+                [
+                    -82.17,
+                    31.920000000000005
+                ],
+                [
+                    -82.2099999,
+                    32.040000000000006
+                ],
+                [
+                    -82.25,
+                    32.1599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021231-3413432",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021231-3413432",
+        "areaDesc": "Toombs, GA; Tattnall, GA",
+        "geocode": {
+            "UGC": [
+                "GAC279",
+                "GAC267"
+            ],
+            "SAME": [
+                "013279",
+                "013267"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC279",
+            "https://api.weather.gov/zones/county/GAC267"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020484-3412827",
+                "identifier": "NWS-IDP-PROD-4020484-3412827",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T10:06:00-05:00"
+            }
+        ],
+        "sent": "2020-01-19T21:09:00-05:00",
+        "effective": "2020-01-19T21:09:00-05:00",
+        "onset": "2020-01-19T21:09:00-05:00",
+        "expires": "2020-01-20T21:08:00-05:00",
+        "ends": "2020-01-22T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston SC",
+        "headline": "Flood Warning issued January 19 at 9:09PM EST until January 22 at 1:00PM EST by NWS Charleston SC",
+        "description": "The Flood Warning continues for\nThe Ohoopee River near Reidsville.\n* At 8 PM Sunday the stage was 11.8 feet.\n* Flood stage is 11.0 feet.\n* Minor flooding is occurring.\n* Forecast, the river is expected to drop below flood stage early\nWednesday morning.\n* At 11.0 feet, water enters the back yards of some homes in the Joy\nBluff community.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCHS.FL.W.0017.000000T0000Z-200122T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CHSFLSCHS"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T13:00:00-05:00"
+            ]
+        }
+    }
+}
