@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021947-3413990",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.1,
+                    39.03
+                ],
+                [
+                    -89.05999999999999,
+                    39.03
+                ],
+                [
+                    -89.08999999999999,
+                    38.85
+                ],
+                [
+                    -89.18999999999998,
+                    38.79
+                ],
+                [
+                    -89.21999999999998,
+                    38.82
+                ],
+                [
+                    -89.1,
+                    39.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021947-3413990",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021947-3413990",
+        "areaDesc": "Fayette, IL",
+        "geocode": {
+            "UGC": [
+                "ILC051"
+            ],
+            "SAME": [
+                "017051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021152-3413363",
+                "identifier": "NWS-IDP-PROD-4021152-3413363",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T19:16:00-06:00"
+            }
+        ],
+        "sent": "2020-01-20T10:23:00-06:00",
+        "effective": "2020-01-20T10:23:00-06:00",
+        "onset": "2020-01-20T10:23:00-06:00",
+        "expires": "2020-01-21T16:21:00-06:00",
+        "ends": "2020-01-24T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 20 at 10:23AM CST until January 24 at 12:00AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...\n\n\nKaskaskia River at Vandalia\n\n...The flood warning continues for the following rivers in Illinois...\n\nKaskaskia River at Carlyle TW\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Kaskaskia River at Vandalia\n* until late Thursday night.\n* At 10:00 AM Monday the stage was 21.5 feet.\n* Flood stage is 18.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to continue falling to below flood stage by\nWednesday evening.\n* Impact:  At 19.2 feet...State Highway J just east of County Road 206\nbegins to flood near this height.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0004.000000T0000Z-200124T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-24T00:00:00-06:00"
+            ]
+        }
+    }
+}
