@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022265-3414249",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022265-3414249",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022265-3414249",
+        "areaDesc": "Northern Humboldt Interior; Southwestern Humboldt; Southern Humboldt Interior; Del Norte Interior; Coastal Del Norte",
+        "geocode": {
+            "UGC": [
+                "CAZ105",
+                "CAZ104",
+                "CAZ106",
+                "CAZ102",
+                "CAZ101"
+            ],
+            "SAME": [
+                "006023",
+                "006015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CAZ105",
+            "https://api.weather.gov/zones/forecast/CAZ104",
+            "https://api.weather.gov/zones/forecast/CAZ106",
+            "https://api.weather.gov/zones/forecast/CAZ102",
+            "https://api.weather.gov/zones/forecast/CAZ101"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021656-3413765",
+                "identifier": "NWS-IDP-PROD-4021656-3413765",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T02:48:00-08:00"
+            }
+        ],
+        "sent": "2020-01-20T14:30:00-08:00",
+        "effective": "2020-01-20T14:30:00-08:00",
+        "onset": "2020-01-20T22:00:00-08:00",
+        "expires": "2020-01-20T22:30:00-08:00",
+        "ends": "2020-01-21T06:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Eureka CA",
+        "headline": "Wind Advisory issued January 20 at 2:30PM PST until January 21 at 6:00AM PST by NWS Eureka CA",
+        "description": "* WHAT...South winds 20 to 30 mph with gusts up to 50 mph\nexpected.\n\n* WHERE...Coastal areas of Del Norte county and the ridges and\nexposed areas of Humboldt and Del Norte counties.\n\n* WHEN...From 10 PM this evening to 6 AM PST Tuesday.\n\n* IMPACTS...Gusty winds could blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nDriving high profile vehicles of the summits of Hwy 101 and Hwy\n299 may be difficult.",
+        "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY REMAINS IN EFFECT FROM 10 PM THIS EVENING TO 6 AM PST TUESDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KEKA.WI.Y.0002.200121T0600Z-200121T1400Z/"
+            ],
+            "PIL": [
+                "EKANPWEKA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T06:00:00-08:00"
+            ]
+        }
+    }
+}
