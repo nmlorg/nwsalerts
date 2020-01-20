@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021180-3413388",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.28,
+                    33.4
+                ],
+                [
+                    -91.28,
+                    33.57
+                ],
+                [
+                    -91.08,
+                    34.13
+                ],
+                [
+                    -90.66,
+                    34.120000000000005
+                ],
+                [
+                    -91.06,
+                    33.580000000000005
+                ],
+                [
+                    -91.05,
+                    33.400000000000006
+                ],
+                [
+                    -91.28,
+                    33.4
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021180-3413388",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4021180-3413388",
+        "areaDesc": "Chicot, AR; Desha, AR; Bolivar, MS; Washington, MS",
+        "geocode": {
+            "UGC": [
+                "ARC017",
+                "ARC041",
+                "MSC011",
+                "MSC151"
+            ],
+            "SAME": [
+                "005017",
+                "005041",
+                "028011",
+                "028151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC017",
+            "https://api.weather.gov/zones/county/ARC041",
+            "https://api.weather.gov/zones/county/MSC011",
+            "https://api.weather.gov/zones/county/MSC151"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4020726-3413025",
+                "identifier": "NWS-IDP-PROD-4020726-3413025",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T11:29:00-06:00"
+            }
+        ],
+        "sent": "2020-01-19T19:31:00-06:00",
+        "effective": "2020-01-19T19:31:00-06:00",
+        "onset": "2020-01-22T06:00:00-06:00",
+        "expires": "2020-01-21T01:31:00-06:00",
+        "ends": "2020-01-29T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 19 at 7:31PM CST until January 29 at 6:00AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nArkansas...Mississippi...Louisiana..\n\nMississippi River Near Arkansas City affecting Chicot...Desha...\nBolivar and Washington Counties\n\nMississippi River Near Greenville affecting Chicot...East\nCarroll...Issaquena and Washington Counties\n\nMississippi River At Vicksburg affecting Madison...Tensas...\nClaiborne...Jefferson and Warren Counties/Parishes\n\nMississippi River At Natchez affecting Concordia...Adams and\nWilkinson Counties/Parishes\n\nThe Flood Warning continues for\nThe Mississippi River Near Arkansas City\n* from Wednesday morning to Wednesday January 29.\n* At  7:00 PM Sunday the stage was 36.5 feet.\n* Minor flooding is forecast.\n* Flood stage is 37.0 feet.\n* Forecast...The river will rise above flood stage Wednesday January\n22 and will continue to rise to near 37.5 feet Friday January 24.\n* Impact...At 37.0 feet...The low silt plain in front of arkansas city\ninside the levee system begins to flood along with widespread\nbottomland flooding at huntington point mississippi.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nMississippi River forecasts are based on rainfall that has occurred\nand that which is forecast to occur over the next 48 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0031.200122T1200Z-200129T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-29T06:00:00-06:00"
+            ]
+        }
+    }
+}
