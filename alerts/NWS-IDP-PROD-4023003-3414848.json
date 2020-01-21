@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023003-3414848",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.9,
+                    42.78
+                ],
+                [
+                    -97.95,
+                    42.82
+                ],
+                [
+                    -97.91,
+                    42.87
+                ],
+                [
+                    -97.84,
+                    42.879999999999995
+                ],
+                [
+                    -97.83,
+                    42.83
+                ],
+                [
+                    -97.88,
+                    42.809999999999995
+                ],
+                [
+                    -97.9,
+                    42.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023003-3414848",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4023003-3414848",
+        "areaDesc": "Knox, NE; Bon Homme, SD",
+        "geocode": {
+            "UGC": [
+                "NEC107",
+                "SDC009"
+            ],
+            "SAME": [
+                "031107",
+                "046009"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC107",
+            "https://api.weather.gov/zones/county/SDC009"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021834-3413911",
+                "identifier": "NWS-IDP-PROD-4021834-3413911",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T09:05:00-06:00"
+            }
+        ],
+        "sent": "2020-01-21T09:55:00-06:00",
+        "effective": "2020-01-21T09:55:00-06:00",
+        "onset": "2020-01-21T09:55:00-06:00",
+        "expires": "2020-01-28T16:53:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Sioux Falls SD",
+        "headline": "Flood Warning issued January 21 at 9:55AM CST by NWS Sioux Falls SD",
+        "description": "...The Flood Warning continues for the following rivers in\nNebraska...South Dakota...\n\nMissouri River Near Greenwood\nMissouri River At Niobrara\nMissouri River At Springfield\n\n.The following river forecasts include forecast precipitation through\ntonight. Any additional future rains could affect the crest\nforecasts.\n\nThe Flood Warning continues for\nThe Missouri River At Springfield.\n* until further notice.\n* At 09AM Tuesday the stage was 11.62 feet.\n* Flood stage is 10.00 feet.\n* At stages near 12.0 feet...Some camping areas at Springfield\nRecreational Area will be flooded.",
+        "instruction": "Safety message...Do not drive cars through flooded areas. the water\ndepth and road condition may be unsafe.\n\nAdditional information is available at\n\nhttp://water.weather.gov/ahps2/index.php?wfo=fsd\n\nStay tuned for further updates by listening to NOAA weather radio...\nor your local radio and TV stations.\n\nThe next scheduled statement will be issued tomorrow morning.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFSD.FL.W.0003.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FSDFLSFSD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

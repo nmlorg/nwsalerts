@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023001-3414846",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.59,
+                    43.04
+                ],
+                [
+                    -98.54,
+                    43.089999999999996
+                ],
+                [
+                    -98.44000000000001,
+                    42.959999999999994
+                ],
+                [
+                    -98.30000000000001,
+                    42.909999899999995
+                ],
+                [
+                    -98.31000000000002,
+                    42.85999999999999
+                ],
+                [
+                    -98.49000000000002,
+                    42.92999999999999
+                ],
+                [
+                    -98.59,
+                    43.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023001-3414846",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4023001-3414846",
+        "areaDesc": "Boyd, NE; Charles Mix, SD",
+        "geocode": {
+            "UGC": [
+                "NEC015",
+                "SDC023"
+            ],
+            "SAME": [
+                "031015",
+                "046023"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC015",
+            "https://api.weather.gov/zones/county/SDC023"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021836-3413913",
+                "identifier": "NWS-IDP-PROD-4021836-3413913",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T09:05:00-06:00"
+            }
+        ],
+        "sent": "2020-01-21T09:55:00-06:00",
+        "effective": "2020-01-21T09:55:00-06:00",
+        "onset": "2020-01-21T09:55:00-06:00",
+        "expires": "2020-01-28T16:54:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Sioux Falls SD",
+        "headline": "Flood Warning issued January 21 at 9:55AM CST by NWS Sioux Falls SD",
+        "description": "...The Flood Warning continues for the following rivers in\nNebraska...South Dakota...\n\nMissouri River Near Greenwood\nMissouri River At Niobrara\nMissouri River At Springfield\n\n.The following river forecasts include forecast precipitation through\ntonight. Any additional future rains could affect the crest\nforecasts.\n\nThe Flood Warning continues for\nThe Missouri River Near Greenwood.\n* until further notice.\n* At 09AM Tuesday the stage was 31.04 feet.\n* Flood stage is 30.00 feet.\n* At stages near 30.0 feet...Flooding begins to affect significant\namounts of agricultural land.",
+        "instruction": "Safety message...Do not drive cars through flooded areas. the water\ndepth and road condition may be unsafe.\n\nAdditional information is available at\n\nhttp://water.weather.gov/ahps2/index.php?wfo=fsd\n\nStay tuned for further updates by listening to NOAA weather radio...\nor your local radio and TV stations.\n\nThe next scheduled statement will be issued tomorrow morning.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFSD.FL.W.0004.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FSDFLSFSD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
