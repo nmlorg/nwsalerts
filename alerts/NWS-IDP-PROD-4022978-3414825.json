@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022978-3414825",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.61,
+                    39.13
+                ],
+                [
+                    -87.48,
+                    38.99
+                ],
+                [
+                    -87.5,
+                    38.86
+                ],
+                [
+                    -87.56,
+                    38.85
+                ],
+                [
+                    -87.59,
+                    38.9799999
+                ],
+                [
+                    -87.67,
+                    39.13
+                ],
+                [
+                    -87.61,
+                    39.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022978-3414825",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022978-3414825",
+        "areaDesc": "Lawrence, IL; Crawford, IL; Knox, IN; Sullivan, IN",
+        "geocode": {
+            "UGC": [
+                "ILC101",
+                "ILC033",
+                "INC083",
+                "INC153"
+            ],
+            "SAME": [
+                "017101",
+                "017033",
+                "018083",
+                "018153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC101",
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021913-3413969",
+                "identifier": "NWS-IDP-PROD-4021913-3413969",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T10:54:00-05:00"
+            }
+        ],
+        "sent": "2020-01-21T10:37:00-05:00",
+        "effective": "2020-01-21T10:37:00-05:00",
+        "onset": "2020-01-21T10:36:00-05:00",
+        "expires": "2020-01-22T10:35:00-05:00",
+        "ends": "2020-01-28T03:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 21 at 10:36AM EST until January 28 at 3:00AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...Wabash River...White River...\n\n\n.Minor to moderate flooding continues in central and southern Indiana\non the major rivers.  Primary crests will be/are comparable to those\nthat occurred in February and June of 2019.\n\nThe East Fork of the White River at Seymour is expected to fall\nbelow flood stage Tuesday afternoon or evening.\n\nFlooding along the lower portions of the White and Wabash Rivers\nwill continue into the weekend or early next week.\n\nThe Flood Warning continues for\nThe Wabash River at Riverton.\n* until Tuesday January 28.\n* At 10:00 AM Tuesday the stage was 20.5 feet.\n* Flood stage is 15.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will continue to fall to below flood stage by Monday\nafternoon.\n* At 20.7 feet...Leaverton Park at Palestine, Illinois extensively\nfloods including the campground area.  Rodeo area still dry at this\nlevel. Most if not all local unimproved roads leading to the Wabash\nRiver in the Palestine area are impassable by any land vehicle.\nExtensive backwater flooding of Minnow Slough, Sugar Creek and\nLamotte Creek in Palestine area. Numerous river cabins surrounded\nby water across the river from Merom Bluff. Backyards of a few\nresidences southeast of Palestine along East River Road flood.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0018.000000T0000Z-200128T0800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-28T03:00:00-05:00"
+            ]
+        }
+    }
+}

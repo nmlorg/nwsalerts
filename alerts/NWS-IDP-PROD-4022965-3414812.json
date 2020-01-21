@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022965-3414812",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.7,
+                    40.54
+                ],
+                [
+                    -86.88000000000001,
+                    40.4
+                ],
+                [
+                    -87.09,
+                    40.33
+                ],
+                [
+                    -87.09,
+                    40.4
+                ],
+                [
+                    -86.88000000000001,
+                    40.479999899999996
+                ],
+                [
+                    -86.73,
+                    40.559999999999995
+                ],
+                [
+                    -86.7,
+                    40.54
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022965-3414812",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022965-3414812",
+        "areaDesc": "Vermillion, IN; Warren, IN; Fountain, IN; Tippecanoe, IN; Parke, IN",
+        "geocode": {
+            "UGC": [
+                "INC165",
+                "INC171",
+                "INC045",
+                "INC157",
+                "INC121"
+            ],
+            "SAME": [
+                "018165",
+                "018171",
+                "018045",
+                "018157",
+                "018121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC165",
+            "https://api.weather.gov/zones/county/INC171",
+            "https://api.weather.gov/zones/county/INC045",
+            "https://api.weather.gov/zones/county/INC157",
+            "https://api.weather.gov/zones/county/INC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021917-3413973",
+                "identifier": "NWS-IDP-PROD-4021917-3413973",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T10:54:00-05:00"
+            }
+        ],
+        "sent": "2020-01-21T10:37:00-05:00",
+        "effective": "2020-01-21T10:37:00-05:00",
+        "onset": "2020-01-21T10:36:00-05:00",
+        "expires": "2020-01-22T10:35:00-05:00",
+        "ends": "2020-01-23T04:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 21 at 10:36AM EST until January 23 at 4:00AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...Wabash River...White River...\n\n\n.Minor to moderate flooding continues in central and southern Indiana\non the major rivers.  Primary crests will be/are comparable to those\nthat occurred in February and June of 2019.\n\nThe East Fork of the White River at Seymour is expected to fall\nbelow flood stage Tuesday afternoon or evening.\n\nFlooding along the lower portions of the White and Wabash Rivers\nwill continue into the weekend or early next week.\n\nThe Flood Warning continues for\nThe Wabash River at Lafayette.\n* until late Wednesday night.\n* At  9:30 AM Tuesday the stage was 12.1 feet.\n* Flood stage is 11.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will continue to fall to below flood stage by\nWednesday afternoon.\n* At 12.0 feet...High water affects a few low river cabins and county\nroads.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0012.000000T0000Z-200123T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-23T04:00:00-05:00"
+            ]
+        }
+    }
+}

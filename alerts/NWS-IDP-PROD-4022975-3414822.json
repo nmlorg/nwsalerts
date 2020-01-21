@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022975-3414822",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.36,
+                    39.6
+                ],
+                [
+                    -87.4,
+                    39.43
+                ],
+                [
+                    -87.5699999,
+                    39.3
+                ],
+                [
+                    -87.63,
+                    39.32
+                ],
+                [
+                    -87.47,
+                    39.45
+                ],
+                [
+                    -87.41,
+                    39.6
+                ],
+                [
+                    -87.36,
+                    39.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022975-3414822",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022975-3414822",
+        "areaDesc": "Crawford, IL; Sullivan, IN; Clark, IL; Vigo, IN",
+        "geocode": {
+            "UGC": [
+                "ILC033",
+                "INC153",
+                "ILC023",
+                "INC167"
+            ],
+            "SAME": [
+                "017033",
+                "018153",
+                "017023",
+                "018167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC153",
+            "https://api.weather.gov/zones/county/ILC023",
+            "https://api.weather.gov/zones/county/INC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021910-3413966",
+                "identifier": "NWS-IDP-PROD-4021910-3413966",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T10:54:00-05:00"
+            }
+        ],
+        "sent": "2020-01-21T10:37:00-05:00",
+        "effective": "2020-01-21T10:37:00-05:00",
+        "onset": "2020-01-21T10:36:00-05:00",
+        "expires": "2020-01-22T10:35:00-05:00",
+        "ends": "2020-01-25T09:24:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 21 at 10:36AM EST until January 25 at 9:24AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...Wabash River...White River...\n\n\n.Minor to moderate flooding continues in central and southern Indiana\non the major rivers.  Primary crests will be/are comparable to those\nthat occurred in February and June of 2019.\n\nThe East Fork of the White River at Seymour is expected to fall\nbelow flood stage Tuesday afternoon or evening.\n\nFlooding along the lower portions of the White and Wabash Rivers\nwill continue into the weekend or early next week.\n\nThe Flood Warning continues for\nThe Wabash River at Terre Haute.\n* until Saturday morning.\n* At  9:30 AM Tuesday the stage was 21.0 feet. This is 2.0 to 2.5\nfeet higher than the observations from the old legacy gauge.\n* Flood stage is 16.5 feet. This is 2.5 feet higher than flood stage\nfrom the old legacy gauge.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will continue to fall to below flood stage by Friday\nevening.\n* At 21.0 feet...The Wabash River extends to Interstate 70 Mile Marker\nNumber 4 from its west bank in the Terre Haute and West Terre Haute\narea. All lakes in this area are affected by seep water and reach\ncapacity with some minor flooding.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0016.000000T0000Z-200125T1424Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-25T09:24:00-05:00"
+            ]
+        }
+    }
+}
