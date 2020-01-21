@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023065-3414894",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -124.44,
+                    46.87
+                ],
+                [
+                    -124.22,
+                    47.229999899999996
+                ],
+                [
+                    -124.17999999999999,
+                    47.10999999999999
+                ],
+                [
+                    -124.16999999999999,
+                    46.92999999999999
+                ],
+                [
+                    -124.32,
+                    46.81999999999999
+                ],
+                [
+                    -124.44,
+                    46.87
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023065-3414894",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4023065-3414894",
+        "areaDesc": "Coastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm; Coastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm",
+        "geocode": {
+            "UGC": [
+                "PZZ156",
+                "PZZ176"
+            ],
+            "SAME": [
+                "057156",
+                "057176"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PZZ156",
+            "https://api.weather.gov/zones/forecast/PZZ176"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023005-3414850",
+                "identifier": "NWS-IDP-PROD-4023005-3414850",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-21T08:00:00-08:00"
+            }
+        ],
+        "sent": "2020-01-21T08:25:00-08:00",
+        "effective": "2020-01-21T08:25:00-08:00",
+        "onset": "2020-01-21T08:25:00-08:00",
+        "expires": "2020-01-21T08:35:00-08:00",
+        "ends": "2020-01-21T08:30:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Special Marine Warning issued January 21 at 8:25AM PST until January 21 at 8:30AM PST by NWS Seattle WA",
+        "description": "The affected areas were...\nCoastal Waters From Point Grenville To Cape Shoalwater 10 To 60 Nm...\nCoastal Waters From Point Grenville To Cape Shoalwater Out 10 Nm...\n\nThe thunderstorm has moved out of the area and no longer poses a\nsignificant threat to boaters.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-21T08:25:00.000-08:00...storm...206DEG...41KT...47.18,-124.14"
+            ],
+            "NWSheadline": [
+                "THE SPECIAL MARINE WARNING WILL EXPIRE AT 830 AM PST"
+            ],
+            "VTEC": [
+                "/O.EXP.KSEW.MA.W.0001.000000T0000Z-200121T1630Z/"
+            ],
+            "PIL": [
+                "SEWMWSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T08:30:00-08:00"
+            ]
+        }
+    }
+}

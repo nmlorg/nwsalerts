@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023064-3414893",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.49,
+                    42.29
+                ],
+                [
+                    -85.49,
+                    42.269999999999996
+                ],
+                [
+                    -85.53999999999999,
+                    42.269999999999996
+                ],
+                [
+                    -85.55999999999999,
+                    42.279999999999994
+                ],
+                [
+                    -85.55999999999999,
+                    42.28999999999999
+                ],
+                [
+                    -85.54999999999998,
+                    42.29999999999999
+                ],
+                [
+                    -85.52999999999999,
+                    42.28999999999999
+                ],
+                [
+                    -85.49,
+                    42.29
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023064-3414893",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4023064-3414893",
+        "areaDesc": "Kalamazoo, MI",
+        "geocode": {
+            "UGC": [
+                "MIC077"
+            ],
+            "SAME": [
+                "026077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022072-3414102",
+                "identifier": "NWS-IDP-PROD-4022072-3414102",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T13:35:00-05:00"
+            }
+        ],
+        "sent": "2020-01-21T11:24:00-05:00",
+        "effective": "2020-01-21T11:24:00-05:00",
+        "onset": "2020-01-21T11:24:00-05:00",
+        "expires": "2020-01-23T13:30:00-05:00",
+        "ends": "2020-01-23T13:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Rapids MI",
+        "headline": "Flood Warning issued January 21 at 11:24AM EST until January 23 at 1:30PM EST by NWS Grand Rapids MI",
+        "description": "At 1112 AM EST, emergency management reports that the ice jam\ncausing flooding along the Kalamazoo River remains in place. The ice\njam is located just downstream of the King Highway Bridge which is\nroughly 2 miles east of downtown Kalamazoo. Flooding is occurring\nalong the Kalamazoo River from the King Highway bridge east through\nSprinkle Road to Merrill Park. Residents that live on roads that\nback up to the river between the King Highway Bridge over the\nKalamazoo River and downtown Comstock should monitor conditions\nclosely as ice jams can cause rapidly fluctuating river levels.\n\nTemperatures will slowly warm over the next few days, with 40s\npossible for highs by the end of the week. A slow warm up should\naid in stopping or slowing down ice formation in the river.",
+        "instruction": "Water levels around ice jams are notoriously unpredictable, and can\nchange quickly with little or no warning. Anyone living or recreating\nnear the river should pay close attention over the next few days and\nprepare for additional changes in water levels.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "A FLOOD WARNING FOR AN ICE JAM REMAINS IN EFFECT UNTIL 130 PM EST THURSDAY FOR CENTRAL KALAMAZOO COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KGRR.FA.W.0001.000000T0000Z-200123T1830Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GRRFLSGRR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-23T13:30:00-05:00"
+            ]
+        }
+    }
+}
