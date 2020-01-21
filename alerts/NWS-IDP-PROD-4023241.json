@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023241",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -123.85,
+                    45.56
+                ],
+                [
+                    -123.97,
+                    45.6599999
+                ],
+                [
+                    -123.73,
+                    45.86
+                ],
+                [
+                    -123.52000000000001,
+                    45.75
+                ],
+                [
+                    -123.85,
+                    45.56
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023241",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4023241",
+        "areaDesc": "North Oregon Coast; Coast Range of Northwest Oregon",
+        "geocode": {
+            "UGC": [
+                "ORZ001",
+                "ORZ003"
+            ],
+            "SAME": [
+                "041007",
+                "041057",
+                "041009",
+                "041067",
+                "041071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ORZ001",
+            "https://api.weather.gov/zones/forecast/ORZ003"
+        ],
+        "references": [],
+        "sent": "2020-01-21T12:49:00-08:00",
+        "effective": "2020-01-21T12:49:00-08:00",
+        "onset": "2020-01-21T12:49:00-08:00",
+        "expires": "2020-01-21T13:15:00-08:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Portland OR",
+        "headline": "Special Weather Statement issued January 21 at 12:49PM PST by NWS Portland OR",
+        "description": "At 1249 PM PST, Doppler radar was tracking a strong thunderstorm\njust southeast of Manzanita, moving northeast at 40 mph.\n\nHalf inch hail, cloud to ground lightning, and winds in excess of 40\nmph will be possible with this storm.\n\nLocations impacted include...\nRockaway Beach, Wheeler, Nehalem, Hamlet, Mohler, Foss and\nSalmonberry.\n\nIn Oregon this includes U.S. Highway 101 between mile markers 45 and\n49.",
+        "instruction": "If threatening weather approaches your area, take shelter in a sturdy\nbuilding.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-21T12:48:00.000-08:00...storm...224DEG...34KT...45.66,-123.85"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTH CENTRAL CLATSOP AND NORTHWESTERN TILLAMOOK COUNTIES UNTIL 115 PM PST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PQRSPSPQR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
