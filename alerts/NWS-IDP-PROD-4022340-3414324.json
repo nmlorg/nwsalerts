@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022340-3414324",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.52,
+                    33
+                ],
+                [
+                    -88.61999999999999,
+                    33.07
+                ],
+                [
+                    -88.74999999999999,
+                    33.14
+                ],
+                [
+                    -88.66999999999999,
+                    33.2
+                ],
+                [
+                    -88.54999999999998,
+                    33.13
+                ],
+                [
+                    -88.44999999999999,
+                    33.04
+                ],
+                [
+                    -88.52,
+                    33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022340-3414324",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022340-3414324",
+        "areaDesc": "Noxubee, MS",
+        "geocode": {
+            "UGC": [
+                "MSC103"
+            ],
+            "SAME": [
+                "028103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC103"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021897-3413955",
+                "identifier": "NWS-IDP-PROD-4021897-3413955",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T09:50:00-06:00"
+            }
+        ],
+        "sent": "2020-01-20T18:57:00-06:00",
+        "effective": "2020-01-20T18:57:00-06:00",
+        "onset": "2020-01-20T18:57:00-06:00",
+        "expires": "2020-01-21T20:34:00-06:00",
+        "ends": "2020-01-21T20:34:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued January 20 at 6:57PM CST until January 21 at 8:34PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nNoxubee River At Macon affecting Noxubee County\n\nThe Flood Warning continues for\nThe Noxubee River At Macon\n* until Tuesday evening.\n* At 6:00 PM Monday the stage was 27.5 feet and falling.\n* Minor flooding is occurring and minor flooding is forecast.\n* Flood stage is 26 feet.\n* Forecast...The river will fall below flood stage on\nTuesday morning.\n* Impact...At 26 feet...Low land near the river is flooded.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 48 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0028.000000T0000Z-200122T0234Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T20:34:00-06:00"
+            ]
+        }
+    }
+}
