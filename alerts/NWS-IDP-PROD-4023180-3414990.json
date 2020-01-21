@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023180-3414990",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.85,
+                    41.15
+                ],
+                [
+                    -98.75,
+                    41.1
+                ],
+                [
+                    -98.75,
+                    41.050000000000004
+                ],
+                [
+                    -98.79,
+                    41.050000000000004
+                ],
+                [
+                    -98.91000000000001,
+                    41.13
+                ],
+                [
+                    -99.08000000000001,
+                    41.28
+                ],
+                [
+                    -98.98000000000002,
+                    41.300000000000004
+                ],
+                [
+                    -98.85,
+                    41.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023180-3414990",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4023180-3414990",
+        "areaDesc": "Sherman, NE",
+        "geocode": {
+            "UGC": [
+                "NEC163"
+            ],
+            "SAME": [
+                "031163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021047-3413282",
+                "identifier": "NWS-IDP-PROD-4021047-3413282",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-19T16:31:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022216-3414204",
+                "identifier": "NWS-IDP-PROD-4022216-3414204",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T15:48:00-06:00"
+            }
+        ],
+        "sent": "2020-01-21T13:35:00-06:00",
+        "effective": "2020-01-21T13:35:00-06:00",
+        "onset": "2020-01-21T13:35:00-06:00",
+        "expires": "2020-01-22T16:15:00-06:00",
+        "ends": "2020-01-22T16:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Hastings NE",
+        "headline": "Flood Advisory issued January 21 at 1:35PM CST until January 22 at 4:15PM CST by NWS Hastings NE",
+        "description": "At 127 PM CST, emergency management continued to report an ice jam\ncausing minor flooding in low lying areas along the Middle Loup\nRiver near the Highway 10 bridge south of Loup City.\n\nEmergency management reported very little change in water levels\nover the past 24 hours, but flooding remains possible until warmer\ntemperatures allow the jam to break up over the coming days. Those\nwith livestock or property in the area should pay close attention to\nchanging river levels and flooding due to ice jams.",
+        "instruction": "A Flood Advisory means river or stream flows are elevated, or ponding\nof water in urban or other areas is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLOOD ADVISORY FOR AN ICE JAM REMAINS IN EFFECT UNTIL 415 PM CST FOR SOUTHEASTERN SHERMAN COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KGID.FA.Y.0002.000000T0000Z-200122T2215Z/"
+            ],
+            "PIL": [
+                "GIDFLSGID"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T16:15:00-06:00"
+            ]
+        }
+    }
+}
