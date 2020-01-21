@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022751-3414642",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.77,
+                    32.36
+                ],
+                [
+                    -82.67999999999999,
+                    32.38
+                ],
+                [
+                    -82.58999999999999,
+                    32.2
+                ],
+                [
+                    -82.50999999999999,
+                    31.960000000000004
+                ],
+                [
+                    -82.58999999999999,
+                    31.950000000000003
+                ],
+                [
+                    -82.67999999999999,
+                    32.18
+                ],
+                [
+                    -82.77,
+                    32.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022751-3414642",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022751-3414642",
+        "areaDesc": "Treutlen, GA; Montgomery, GA; Wheeler, GA",
+        "geocode": {
+            "UGC": [
+                "GAC283",
+                "GAC209",
+                "GAC309"
+            ],
+            "SAME": [
+                "013283",
+                "013209",
+                "013309"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC283",
+            "https://api.weather.gov/zones/county/GAC209",
+            "https://api.weather.gov/zones/county/GAC309"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022378-3414354",
+                "identifier": "NWS-IDP-PROD-4022378-3414354",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T20:35:00-05:00"
+            }
+        ],
+        "sent": "2020-01-21T05:29:00-05:00",
+        "effective": "2020-01-21T05:29:00-05:00",
+        "onset": "2020-01-21T05:29:00-05:00",
+        "expires": "2020-01-21T19:29:00-05:00",
+        "ends": "2020-01-23T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 21 at 5:29AM EST until January 23 at 10:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nOcmulgee River near Abbeville affecting Dodge...Telfair and Wilcox\nCounties\n\nOconee River near Mount Vernon affecting Montgomery...Treutlen and\nWheeler Counties\n\nThe Flood Warning continues for\nThe Oconee River near Mount Vernon.\n* Until Thursday morning.\n* At 5 AM Tuesday the stage was 16.2 feet and rising slowly.\n* Minor flooding is occurring and is forecast to continue.\n* Flood stage is 16 feet.\n* The river is forecast to continue rising to near 16.4 feet by this\nevening, then fall below flood stage Thursday morning.\n* At 16 feet...Flood Stage is reached. Minor flooding begins in the\nwoodlands...pastures and natural flood plain along the river\nupstream and downstream from the gage on U.S. Highway 280. Flood\nwaters reach the top of a boat ramp by the bridge on the Wheeler\nCounty side of the River.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0034.000000T0000Z-200123T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-23T10:00:00-05:00"
+            ]
+        }
+    }
+}
