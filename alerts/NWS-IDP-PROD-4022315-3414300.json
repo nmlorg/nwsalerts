@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022315-3414300",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022315-3414300",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022315-3414300",
+        "areaDesc": "Coastal waters from Little River Inlet to Murrells Inlet SC out 20 nm; Coastal waters from Murrells Inlet to South Santee River SC out 20 nm; Coastal waters from Cape Fear NC to Little River Inlet SC out 20 nm; Coastal waters from Surf City to Cape Fear NC out 20 nm",
+        "geocode": {
+            "UGC": [
+                "AMZ254",
+                "AMZ256",
+                "AMZ252",
+                "AMZ250"
+            ],
+            "SAME": [
+                "075254",
+                "075256",
+                "075252",
+                "075250"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AMZ254",
+            "https://api.weather.gov/zones/forecast/AMZ256",
+            "https://api.weather.gov/zones/forecast/AMZ252",
+            "https://api.weather.gov/zones/forecast/AMZ250"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022096-3414132",
+                "identifier": "NWS-IDP-PROD-4022096-3414132",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T14:59:00-05:00"
+            }
+        ],
+        "sent": "2020-01-20T19:32:00-05:00",
+        "effective": "2020-01-20T19:32:00-05:00",
+        "onset": "2020-01-21T04:00:00-05:00",
+        "expires": "2020-01-21T07:45:00-05:00",
+        "ends": "2020-01-22T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Small Craft Advisory issued January 20 at 7:32PM EST until January 22 at 7:00PM EST by NWS Wilmington NC",
+        "description": "* WHAT...North winds 15 to 25 kt with gusts up to 35 kt and seas\n6 to 9 ft expected.\n\n* WHERE...Southeast North Carolina and Northeast South Carolina\ncoastal waters.\n\n* WHEN...From 4 AM Tuesday to 7 PM EST Wednesday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+        "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "SMALL CRAFT ADVISORY REMAINS IN EFFECT FROM 4 AM TUESDAY TO 7 PM EST WEDNESDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KILM.SC.Y.0007.200121T0900Z-200123T0000Z/"
+            ],
+            "PIL": [
+                "ILMMWWILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T19:00:00-05:00"
+            ]
+        }
+    }
+}
