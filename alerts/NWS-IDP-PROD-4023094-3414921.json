@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023094-3414921",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.64,
+                    39.52
+                ],
+                [
+                    -90.52,
+                    39.52
+                ],
+                [
+                    -90.47999999999999,
+                    38.9799999
+                ],
+                [
+                    -90.53999999999999,
+                    38.9099999
+                ],
+                [
+                    -90.61999999999999,
+                    39.03
+                ],
+                [
+                    -90.64,
+                    39.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023094-3414921",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4023094-3414921",
+        "areaDesc": "Jersey, IL; Greene, IL; Calhoun, IL",
+        "geocode": {
+            "UGC": [
+                "ILC083",
+                "ILC061",
+                "ILC013"
+            ],
+            "SAME": [
+                "017083",
+                "017061",
+                "017013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC083",
+            "https://api.weather.gov/zones/county/ILC061",
+            "https://api.weather.gov/zones/county/ILC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022412-3414388",
+                "identifier": "NWS-IDP-PROD-4022412-3414388",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T20:16:00-06:00"
+            }
+        ],
+        "sent": "2020-01-21T10:53:00-06:00",
+        "effective": "2020-01-21T10:53:00-06:00",
+        "onset": "2020-01-21T10:53:00-06:00",
+        "expires": "2020-01-22T16:53:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 21 at 10:53AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in Illinois..\n\nIllinois River at La Grange LD\n\nIllinois River at Meredosia\n\nIllinois River at Valley City\n\nIllinois River at Hardin\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Illinois River at Hardin\n* until further notice.\n* At 10:30 AM Tuesday the stage was 25.5 feet.\n* Flood stage is 25.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to crest near 25.7 feet by early Saturday\nmorning.\n* Impact:  At 25.0 feet...Flood Stage.  Lowland flooding of\nunprotected agricultural land begins.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLSX.FL.W.0038.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
