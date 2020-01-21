@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022356-3414335",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.56,
+                    33.03
+                ],
+                [
+                    -81.5,
+                    33.07
+                ],
+                [
+                    -81.43,
+                    32.92
+                ],
+                [
+                    -81.37,
+                    32.760000000000005
+                ],
+                [
+                    -81.45,
+                    32.7299999
+                ],
+                [
+                    -81.51,
+                    32.89
+                ],
+                [
+                    -81.56,
+                    33.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022356-3414335",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022356-3414335",
+        "areaDesc": "Allendale, SC; Screven, GA",
+        "geocode": {
+            "UGC": [
+                "SCC005",
+                "GAC251"
+            ],
+            "SAME": [
+                "045005",
+                "013251"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC005",
+            "https://api.weather.gov/zones/county/GAC251"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4021864-3413937",
+                "identifier": "NWS-IDP-PROD-4021864-3413937",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T10:12:00-05:00"
+            }
+        ],
+        "sent": "2020-01-20T20:13:00-05:00",
+        "effective": "2020-01-20T20:13:00-05:00",
+        "onset": "2020-01-20T20:13:00-05:00",
+        "expires": "2020-01-21T20:13:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston SC",
+        "headline": "Flood Warning issued January 20 at 8:13PM EST by NWS Charleston SC",
+        "description": "The Flood Warning continues for\nThe Savannah River at Burtons Ferry.\n* At 8 PM Monday the stage was 15.4 feet.\n* Flood stage is 15.0 feet.\n* Minor flooding is occurring.\n* Forecast, the river will remain nearly steady or slowly fall.\n* At 15.0 feet, flooding of some adjacent agricultural lands occurs.\nMost boat ramps along the river are unusable.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCHS.FL.W.0003.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CHSFLSCHS"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
