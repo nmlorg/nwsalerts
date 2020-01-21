@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022904-3414773",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.68,
+                    41.86
+                ],
+                [
+                    -85.64,
+                    41.97
+                ],
+                [
+                    -85.54,
+                    41.97
+                ],
+                [
+                    -85.54,
+                    41.96
+                ],
+                [
+                    -85.61,
+                    41.93
+                ],
+                [
+                    -85.66,
+                    41.839999999999996
+                ],
+                [
+                    -85.68,
+                    41.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022904-3414773",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022904-3414773",
+        "areaDesc": "St. Joseph, MI; Elkhart, IN; Branch, MI",
+        "geocode": {
+            "UGC": [
+                "MIC149",
+                "INC039",
+                "MIC023"
+            ],
+            "SAME": [
+                "026149",
+                "018039",
+                "026023"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC149",
+            "https://api.weather.gov/zones/county/INC039",
+            "https://api.weather.gov/zones/county/MIC023"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022514-3414451",
+                "identifier": "NWS-IDP-PROD-4022514-3414451",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T23:07:00-05:00"
+            }
+        ],
+        "sent": "2020-01-21T10:02:00-05:00",
+        "effective": "2020-01-21T10:02:00-05:00",
+        "onset": "2020-01-21T10:02:00-05:00",
+        "expires": "2020-01-22T10:02:00-05:00",
+        "ends": "2020-01-23T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued January 21 at 10:02AM EST until January 23 at 1:00AM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nSaint Joseph River Michigan at Three Rivers affecting Elkhart...\nBranch and St. Joseph Counties\n\n.Ice, along with high river levels will lead to minor flooding\ninto early Wednesday morning.\n\nThe Flood Warning has been extended for\nThe Saint Joseph River Michigan at Three Rivers\n* until late Wednesday night.\n* At 9 AM Tuesday the stage was 7.2 feet and rising.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 7.0 feet.\n* Forecast...The river will fall below the 7.0 foot flood stage\naround 1 AM Wednesday January 22.\n* At 7.0 feet...Expect minor flooding of the Scidmore Park picnic\nfacilities in Three Rivers.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0035.000000T0000Z-200123T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-23T01:00:00-05:00"
+            ]
+        }
+    }
+}
