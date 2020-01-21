@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023032-3414869",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.62,
+                    34.9099999
+                ],
+                [
+                    -90.22,
+                    34.9099999
+                ],
+                [
+                    -90.34,
+                    34.800000000000004
+                ],
+                [
+                    -90.51,
+                    34.50000000000001
+                ],
+                [
+                    -90.59,
+                    34.550000000000004
+                ],
+                [
+                    -90.74000000000001,
+                    34.760000000000005
+                ],
+                [
+                    -90.62,
+                    34.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023032-3414869",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4023032-3414869",
+        "areaDesc": "Lee, AR; Tunica, MS",
+        "geocode": {
+            "UGC": [
+                "ARC077",
+                "MSC143"
+            ],
+            "SAME": [
+                "005077",
+                "028143"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC077",
+            "https://api.weather.gov/zones/county/MSC143"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022436-3414406",
+                "identifier": "NWS-IDP-PROD-4022436-3414406",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T20:36:00-06:00"
+            }
+        ],
+        "sent": "2020-01-21T10:11:00-06:00",
+        "effective": "2020-01-21T10:11:00-06:00",
+        "onset": "2020-01-21T10:11:00-06:00",
+        "expires": "2020-01-22T10:11:00-06:00",
+        "ends": "2020-01-31T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued January 21 at 10:11AM CST until January 31 at 6:00AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Mississippi River.\n\nThe Flood Warning continues for\nthe Mississippi River at Tunica Riverpark\n* until Thursday, January 30.\n* At 9 AM Tuesday the stage was 44.7 feet.\n* Minor flooding is occurring.\n* Maximum forecast stage of 44.8 feet on Thursday, January 23.\n* Flood stage is 41.0 feet.\n* The river will experience a flat crest near 44.8 feet through\nThursday, then begin to fall.\n* At 45.0 feet...In Mississippi, boat launch parking lot at Charlie's\nCamp is covered. Campbell Road in is partly flooded. Northeast end\nof Betty Lane is going under. Part of Bourbon Street is flooded.\nSpoonbill Lane is going under water. Valley Lane is flooded in\nLakeview Camp. Road to houses south of Ship Island is being\ncovered.",
+        "instruction": "A followup Flood Statement will be issued this evening or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0018.000000T0000Z-200131T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-31T06:00:00-06:00"
+            ]
+        }
+    }
+}
