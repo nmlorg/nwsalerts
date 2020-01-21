@@ -1,0 +1,83 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022404-3414380",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -69.76,
+                    44.33
+                ],
+                [
+                    -69.76,
+                    44.3
+                ],
+                [
+                    -69.78,
+                    44.3
+                ],
+                [
+                    -69.78,
+                    44.33
+                ],
+                [
+                    -69.76,
+                    44.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022404-3414380",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022404-3414380",
+        "areaDesc": "Kennebec, ME",
+        "geocode": {
+            "UGC": [
+                "MEC011"
+            ],
+            "SAME": [
+                "023011"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MEC011"
+        ],
+        "references": [],
+        "sent": "2020-01-20T21:11:00-05:00",
+        "effective": "2020-01-20T21:11:00-05:00",
+        "onset": "2020-01-20T21:11:00-05:00",
+        "expires": "2020-01-21T06:15:00-05:00",
+        "ends": "2020-01-21T06:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Gray ME",
+        "headline": "Flood Advisory issued January 20 at 9:11PM EST until January 21 at 6:15AM EST by NWS Gray ME",
+        "description": "The National Weather Service in Gray Maine has issued a\n\n* Hydrologic Advisory for Rapid Rises for...\nAn Ice Jam in...\nSouthern Kennebec County in south central Maine...\n\n* Until 615 AM EST Tuesday.\n\n* At 909 PM EST, gauge reports indicated indicated ice movement on\nthe Kennebec River near Augusta.\n\n* Some locations that will experience flooding include...\nAugusta.\n\n* Tidal fluctuations may result in ice movement especially on the\nincoming tide.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KGYX.FA.Y.0002.200121T0211Z-200121T1115Z/"
+            ],
+            "PIL": [
+                "GYXFLSGYX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T06:15:00-05:00"
+            ]
+        }
+    }
+}

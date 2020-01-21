@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022401-3414377",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.79,
+                    30.09
+                ],
+                [
+                    -90.87,
+                    30.01
+                ],
+                [
+                    -91.30000000000001,
+                    30.32
+                ],
+                [
+                    -91.13000000000001,
+                    30.35
+                ],
+                [
+                    -90.79,
+                    30.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022401-3414377",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022401-3414377",
+        "areaDesc": "Ascension, LA",
+        "geocode": {
+            "UGC": [
+                "LAC005"
+            ],
+            "SAME": [
+                "022005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC005"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022008-3414052",
+                "identifier": "NWS-IDP-PROD-4022008-3414052",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-20T11:19:00-06:00"
+            }
+        ],
+        "sent": "2020-01-20T20:08:00-06:00",
+        "effective": "2020-01-20T20:08:00-06:00",
+        "onset": "2020-01-23T18:00:00-06:00",
+        "expires": "2020-01-22T02:08:00-06:00",
+        "ends": "2020-02-02T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Flood Warning issued January 20 at 8:08PM CST until February 2 at 6:00AM CST by NWS New Orleans LA",
+        "description": "...The flood warning continues for the following rivers in\nLouisiana...\n\nMississippi River At Red River Landing affecting East Baton\nRouge...Pointe Coupee and West Feliciana Parishes\n\nMississippi River At Baton Rouge affecting East Baton Rouge and\nWest Baton Rouge Parishes\n\nMississippi River At Donaldsonville affecting Ascension Parish\n\nThe Flood Warning continues for\nThe Mississippi River At Donaldsonville.\n* Until Sunday February 02.\n* At 7:00 PM Monday the stage was 26.1 feet.\n* Minor flooding is forecast.\n* Flood stage is 27.0 feet.\n* Forecast...Rise above flood stage by Thursday January 23 and\ncontinue to rise to near 27.5 feet by Thursday January 30. The\nriver will fall below flood stage by Sunday February 02.\n* Impact...At 27.0 feet...Navigation becomes difficult for smaller\nriver craft. Safety precautions for river traffic are urged.",
+        "instruction": "Forecast crests are based upon rainfall that has occurred along with\nanticipated rain for the next 24 hours. Adjustments to the forecasts\nwill be made if additional heavy rainfall occurs.\n\nDo not drive cars through flooded areas. Remember, two feet of\nrushing water can carry away most vehicles including pickups.  Turn\naround and don't drown!\n\nA followup product will be issued later. Stay tuned to NOAA Weather\nRadio, local tv and radio stations...or your cable provider, for the\nlatest information. The latest graphical hydrologic information can\nalso be found at Weather.Gov.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLIX.FL.W.0007.200124T0000Z-200202T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LIXFLSLIX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-02T06:00:00-06:00"
+            ]
+        }
+    }
+}
