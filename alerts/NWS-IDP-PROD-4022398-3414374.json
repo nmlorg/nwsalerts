@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022398-3414374",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -112.17,
+                    47.83
+                ],
+                [
+                    -112.15,
+                    47.8
+                ],
+                [
+                    -112.19000000000001,
+                    47.79
+                ],
+                [
+                    -112.21000000000001,
+                    47.82
+                ],
+                [
+                    -112.17,
+                    47.83
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4022398-3414374",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4022398-3414374",
+        "areaDesc": "Teton, MT",
+        "geocode": {
+            "UGC": [
+                "MTC099"
+            ],
+            "SAME": [
+                "030099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MTC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4016577-3409104",
+                "identifier": "NWS-IDP-PROD-4016577-3409104",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-17T10:02:00-07:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4012342-3404968",
+                "identifier": "NWS-IDP-PROD-4012342-3404968",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-15T14:13:00-07:00"
+            }
+        ],
+        "sent": "2020-01-20T19:06:00-07:00",
+        "effective": "2020-01-20T19:06:00-07:00",
+        "onset": "2020-01-20T19:06:00-07:00",
+        "expires": "2020-01-22T14:15:00-07:00",
+        "ends": "2020-01-22T14:15:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Great Falls MT",
+        "headline": "Flood Warning issued January 20 at 7:06PM MST until January 22 at 2:15PM MST by NWS Great Falls MT",
+        "description": "This Flood Warning is in effect for the portion of Spring Creek that\nflows through the City of Choteau.\n\nWater has been reported several inches deep on some streets in the\ncity of Choteau, resulting in some street closures. Water levels\ncontinue to rise, and some houses and businesses will continue to\nbe impacted by mainly basement flooding.\n\nIf you need assistance because of flooding in the City of Choteau,\nyou can call the Choteau City Office at: (406) 466-2510.\n\nThe flood warning will remain in effect until the ice jam breaks and\nthe impacts from flooding have diminished.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "A FLOOD WARNING FOR SMALL STREAMS FOR AN ICE JAM REMAINS IN EFFECT UNTIL FURTHER NOTICE FOR CENTRAL TETON COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KTFX.FA.W.0001.000000T0000Z-200122T2115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TFXFLSTFX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T14:15:00-07:00"
+            ]
+        }
+    }
+}
