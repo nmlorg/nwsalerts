@@ -1,0 +1,73 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4024064-3415721",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4024064-3415721",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4024064-3415721",
+        "areaDesc": "Coastal Broward County; Coastal Palm Beach County; Coastal Miami Dade County",
+        "geocode": {
+            "UGC": [
+                "FLZ172",
+                "FLZ168",
+                "FLZ173"
+            ],
+            "SAME": [
+                "012011",
+                "012099",
+                "012086"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/FLZ172",
+            "https://api.weather.gov/zones/forecast/FLZ168",
+            "https://api.weather.gov/zones/forecast/FLZ173"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023760-3415476",
+                "identifier": "NWS-IDP-PROD-4023760-3415476",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-22T03:15:00-05:00"
+            }
+        ],
+        "sent": "2020-01-22T09:30:00-05:00",
+        "effective": "2020-01-22T09:30:00-05:00",
+        "onset": "2020-01-22T09:30:00-05:00",
+        "expires": "2020-01-22T19:00:00-05:00",
+        "ends": "2020-01-22T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Miami FL",
+        "headline": "Wind Advisory issued January 22 at 9:30AM EST until January 22 at 7:00PM EST by NWS Miami FL",
+        "description": "* WHAT...Northwest winds 15 to 25 mph with gusts up to 35 mph.\n\n* WHERE...Coastal Broward, Coastal Palm Beach and Coastal Miami-\nDade Counties.\n\n* WHEN...Until 7 PM EST this evening.\n\n* IMPACTS...Gusty winds could blow around unsecured objects.\nTree limbs could be blown down and a few power outages may\nresult.",
+        "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY REMAINS IN EFFECT UNTIL 7 PM EST THIS EVENING"
+            ],
+            "VTEC": [
+                "/O.CON.KMFL.WI.Y.0001.000000T0000Z-200123T0000Z/"
+            ],
+            "PIL": [
+                "MFLNPWMFL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T19:00:00-05:00"
+            ]
+        }
+    }
+}
