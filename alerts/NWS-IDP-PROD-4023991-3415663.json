@@ -1,0 +1,70 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023991-3415663",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023991-3415663",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4023991-3415663",
+        "areaDesc": "Charleston; Coastal Colleton",
+        "geocode": {
+            "UGC": [
+                "SCZ050",
+                "SCZ049"
+            ],
+            "SAME": [
+                "045019",
+                "045029"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/SCZ050",
+            "https://api.weather.gov/zones/forecast/SCZ049"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023749-3415465",
+                "identifier": "NWS-IDP-PROD-4023749-3415465",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-22T03:01:00-05:00"
+            }
+        ],
+        "sent": "2020-01-22T07:32:00-05:00",
+        "effective": "2020-01-22T07:32:00-05:00",
+        "onset": "2020-01-22T07:32:00-05:00",
+        "expires": "2020-01-22T08:45:00-05:00",
+        "ends": "2020-01-22T08:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Coastal Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston SC",
+        "headline": "Coastal Flood Advisory issued January 22 at 7:32AM EST until January 22 at 8:00AM EST by NWS Charleston SC",
+        "description": "The risk for shallow coastal flooding has ended.",
+        "instruction": null,
+        "response": "Monitor",
+        "parameters": {
+            "NWSheadline": [
+                "COASTAL FLOOD ADVISORY WILL EXPIRE AT 8 AM EST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXP.KCHS.CF.Y.0001.000000T0000Z-200122T1300Z/"
+            ],
+            "PIL": [
+                "CHSCFWCHS"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-22T08:00:00-05:00"
+            ]
+        }
+    }
+}
