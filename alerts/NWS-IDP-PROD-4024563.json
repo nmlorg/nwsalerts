@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4024563",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.76,
+                    41.44
+                ],
+                [
+                    -90.75,
+                    41.47
+                ],
+                [
+                    -90.64,
+                    41.47
+                ],
+                [
+                    -90.65,
+                    41.449999999999996
+                ],
+                [
+                    -90.76,
+                    41.44
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4024563",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4024563",
+        "areaDesc": "Scott, IA; Rock Island, IL",
+        "geocode": {
+            "UGC": [
+                "IAC163",
+                "ILC161"
+            ],
+            "SAME": [
+                "019163",
+                "017161"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/IAC163",
+            "https://api.weather.gov/zones/county/ILC161"
+        ],
+        "references": [],
+        "sent": "2020-01-22T17:39:00-06:00",
+        "effective": "2020-01-22T17:39:00-06:00",
+        "onset": "2020-01-22T17:39:00-06:00",
+        "expires": "2020-01-22T20:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Quad Cities IA IL",
+        "headline": "Special Weather Statement issued January 22 at 5:39PM CST by NWS Quad Cities IA IL",
+        "description": "The Mississippi River, near the Quad Cities is experiencing rises\ndue to increased flow, and from local ice action. This is affecting\nthe low river area of Enchanted Island and Enchanted Island Road and\nSouth Concord Street on the Iowa side, just downstream of Davenport.\n\nIce action may continue to bring fluctuations to the river through\nthe weekend. Those with interests near Enchanted Island and near\nSouth Concord Street in Davenport should keep aware of any road\nclosures.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-22T17:30:00.000-06:00...storm...246DEG...1KT...41.49,-90.71"
+            ],
+            "NWSheadline": [
+                "Low Lying Flooding on Mississippi River"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "DVNSPSDVN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
