@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023457-3415221",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.37,
+                    32.06
+                ],
+                [
+                    -83.3199999,
+                    32.1
+                ],
+                [
+                    -83.15,
+                    31.880000000000003
+                ],
+                [
+                    -82.99000000000001,
+                    31.810000000000002
+                ],
+                [
+                    -82.99000000000001,
+                    31.750000000000004
+                ],
+                [
+                    -83.2,
+                    31.840000000000003
+                ],
+                [
+                    -83.37,
+                    32.06
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023457-3415221",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4023457-3415221",
+        "areaDesc": "Dodge, GA; Telfair, GA; Wilcox, GA",
+        "geocode": {
+            "UGC": [
+                "GAC091",
+                "GAC271",
+                "GAC315"
+            ],
+            "SAME": [
+                "013091",
+                "013271",
+                "013315"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC091",
+            "https://api.weather.gov/zones/county/GAC271",
+            "https://api.weather.gov/zones/county/GAC315"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023204-3415015",
+                "identifier": "NWS-IDP-PROD-4023204-3415015",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-21T15:25:00-05:00"
+            }
+        ],
+        "sent": "2020-01-21T20:11:00-05:00",
+        "effective": "2020-01-21T20:11:00-05:00",
+        "onset": "2020-01-21T20:11:00-05:00",
+        "expires": "2020-01-22T10:11:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued January 21 at 8:11PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nOcmulgee River near Abbeville affecting Dodge...Telfair and Wilcox\nCounties\n\nOconee River near Mount Vernon affecting Montgomery...Treutlen and\nWheeler Counties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0033.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
