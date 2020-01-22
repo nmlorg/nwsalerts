@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023439-3415207",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -123.75,
+                    46.9799999
+                ],
+                [
+                    -123.75,
+                    47.03
+                ],
+                [
+                    -123.8,
+                    47.050000000000004
+                ],
+                [
+                    -123.66,
+                    47.120000000000005
+                ],
+                [
+                    -123.57,
+                    47.03
+                ],
+                [
+                    -123.75,
+                    46.9799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4023439-3415207",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4023439-3415207",
+        "areaDesc": "Grays Harbor, WA",
+        "geocode": {
+            "UGC": [
+                "WAC027"
+            ],
+            "SAME": [
+                "053027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC027"
+        ],
+        "references": [],
+        "sent": "2020-01-21T16:59:00-08:00",
+        "effective": "2020-01-21T16:59:00-08:00",
+        "onset": "2020-01-21T16:59:00-08:00",
+        "expires": "2020-01-21T17:30:00-08:00",
+        "ends": "2020-01-21T17:30:00-08:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Tornado Warning issued January 21 at 4:59PM PST until January 21 at 5:30PM PST by NWS Seattle WA",
+        "description": "The National Weather Service in Seattle has issued a\n\n* Tornado Warning for...\nCentral Grays Harbor County in northwestern Washington...\n\n* Until 530 PM PST\n\n* At 458 PM PST, a severe thunderstorm capable of producing a tornado\nwas located near Aberdeen, moving northeast at 40 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught\nwithout shelter. Mobile homes will be damaged or\ndestroyed. Damage to roofs, windows, and vehicles will\noccur.  Tree damage is likely.\n\n* Locations impacted include...\nAberdeen and Montesano.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors or in\na vehicle, move to the closest substantial shelter and protect\nyourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-21T16:58:00.000-08:00...storm...238DEG...35KT...47.02,-123.73"
+            ],
+            "hailSize": [
+                0
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KSEW.TO.W.0003.200122T0059Z-200122T0130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWTORSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-21T17:30:00-08:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 5:30 PM PST. Take shelter now. Check media."
+            ]
+        }
+    }
+}
