@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025321-3416675",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.39,
+                    33.17
+                ],
+                [
+                    -93.35,
+                    33
+                ],
+                [
+                    -93.3199999,
+                    32.82
+                ],
+                [
+                    -93.38,
+                    32.82
+                ],
+                [
+                    -93.42999999999999,
+                    33
+                ],
+                [
+                    -93.39,
+                    33.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025321-3416675",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4025321-3416675",
+        "areaDesc": "Columbia, AR; Webster, LA",
+        "geocode": {
+            "UGC": [
+                "ARC027",
+                "LAC119"
+            ],
+            "SAME": [
+                "005027",
+                "022119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC027",
+            "https://api.weather.gov/zones/county/LAC119"
+        ],
+        "references": [],
+        "sent": "2020-01-23T11:11:00-06:00",
+        "effective": "2020-01-23T11:11:00-06:00",
+        "onset": "2020-01-23T11:11:00-06:00",
+        "expires": "2020-01-24T11:11:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued January 23 at 11:11AM CST by NWS Shreveport LA",
+        "description": "The National Weather Service in Shreveport has issued a\n\n* FLOOD WARNING FOR\nthe Bayou Dorcheat Near Springhill.\n* until further notice...or until the warning is cancelled.\n* AT 10:00 AM Thursday The stage was 11.0 feet.\n* Minor flooding is occurring AND Minor flooding is forecast.\n* Flood stage is 11.0 feet.\n* Forecast...The river will continue rising to near 13.0 feet by\nSunday evening then begin falling.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KSHV.FL.W.0006.200123T1711Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLWSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
