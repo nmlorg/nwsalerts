@@ -1,0 +1,84 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025561-3416847",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025561-3416847",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4025561-3416847",
+        "areaDesc": "North Oregon Coast; South Washington Coast",
+        "geocode": {
+            "UGC": [
+                "ORZ001",
+                "WAZ021"
+            ],
+            "SAME": [
+                "041007",
+                "041057",
+                "053049",
+                "053069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ORZ001",
+            "https://api.weather.gov/zones/forecast/WAZ021"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025245-3416605",
+                "identifier": "NWS-IDP-PROD-4025245-3416605",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-23T08:09:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025244-3416604",
+                "identifier": "NWS-IDP-PROD-4025244-3416604",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-23T08:09:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4024875-3416344",
+                "identifier": "NWS-IDP-PROD-4024875-3416344",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-22T23:14:00-08:00"
+            }
+        ],
+        "sent": "2020-01-23T14:42:00-08:00",
+        "effective": "2020-01-23T14:42:00-08:00",
+        "onset": "2020-01-23T14:42:00-08:00",
+        "expires": "2020-01-23T15:45:00-08:00",
+        "ends": "2020-01-23T15:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Coastal Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Portland OR",
+        "headline": "Coastal Flood Advisory issued January 23 at 2:42PM PST until January 23 at 3:00PM PST by NWS Portland OR",
+        "description": "Conditions will continue to fall over the next few hours.",
+        "instruction": null,
+        "response": "Monitor",
+        "parameters": {
+            "NWSheadline": [
+                "COASTAL FLOOD ADVISORY WILL EXPIRE AT 3 PM PST THIS AFTERNOON"
+            ],
+            "VTEC": [
+                "/O.EXP.KPQR.CF.Y.0005.000000T0000Z-200123T2300Z/"
+            ],
+            "PIL": [
+                "PQRCFWPQR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-23T15:00:00-08:00"
+            ]
+        }
+    }
+}
