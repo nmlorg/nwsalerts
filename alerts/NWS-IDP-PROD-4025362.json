@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025362",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -112.16,
+                    42.39
+                ],
+                [
+                    -112.17999999999999,
+                    42.17
+                ],
+                [
+                    -112.27,
+                    42.1599999
+                ],
+                [
+                    -112.24,
+                    42.39
+                ],
+                [
+                    -112.16,
+                    42.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025362",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4025362",
+        "areaDesc": "Marsh and Arbon Highlands; Franklin/Eastern Oneida Region",
+        "geocode": {
+            "UGC": [
+                "IDZ058",
+                "IDZ059"
+            ],
+            "SAME": [
+                "016005",
+                "016077",
+                "016029",
+                "016011",
+                "016041",
+                "016071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/IDZ058",
+            "https://api.weather.gov/zones/forecast/IDZ059"
+        ],
+        "references": [],
+        "sent": "2020-01-23T11:08:00-07:00",
+        "effective": "2020-01-23T11:08:00-07:00",
+        "onset": "2020-01-23T11:08:00-07:00",
+        "expires": "2020-01-23T13:00:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pocatello ID",
+        "headline": "Special Weather Statement issued January 23 at 11:08AM MST by NWS Pocatello ID",
+        "description": "At 1105 AM MST, spotters reported 1/2 to 1/4 mile visibility over\nMalad Summit. Individuals traveling on Interstate 15 over Malad\nSummit should use caution and slow down.\n\nLocations impacted include...\nMalad and Malad Pass.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-23T11:05:00.000-07:00...storm...180DEG...0KT...42.33,-112.18"
+            ],
+            "NWSheadline": [
+                "DENSE FOG OVER MALAD SUMMIT"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PIHSPSPIH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

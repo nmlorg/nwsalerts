@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025370-3416717",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.05,
+                    35.4799999
+                ],
+                [
+                    -87.86999999999999,
+                    35.4799999
+                ],
+                [
+                    -87.86999999999999,
+                    35.300000000000004
+                ],
+                [
+                    -88.05,
+                    35.300000000000004
+                ],
+                [
+                    -88.05,
+                    35.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025370-3416717",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4025370-3416717",
+        "areaDesc": "Wayne, TN; Perry, TN; Decatur, TN; Hardin, TN",
+        "geocode": {
+            "UGC": [
+                "TNC181",
+                "TNC135",
+                "TNC039",
+                "TNC071"
+            ],
+            "SAME": [
+                "047181",
+                "047135",
+                "047039",
+                "047071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC181",
+            "https://api.weather.gov/zones/county/TNC135",
+            "https://api.weather.gov/zones/county/TNC039",
+            "https://api.weather.gov/zones/county/TNC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025088-3416500",
+                "identifier": "NWS-IDP-PROD-4025088-3416500",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-23T06:19:00-06:00"
+            }
+        ],
+        "sent": "2020-01-23T12:10:00-06:00",
+        "effective": "2020-01-23T12:10:00-06:00",
+        "onset": "2020-01-23T12:10:00-06:00",
+        "expires": "2020-01-23T12:40:00-06:00",
+        "ends": "2020-01-23T12:20:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued January 23 at 12:10PM CST until January 23 at 12:20PM CST by NWS Nashville TN",
+        "description": "...The Flood Advisory has expired for the Tennessee River...\n\nTennessee River At Clifton affecting Decatur...Hardin...Perry and Wayne\nCounties\n\n. The river stage at Clifton has dropped below action stage and will continue to fall.\n\nThe Flood Advisory has expired for\nThe Tennessee River At Clifton\n* Action stage is 364.0 feet.\n* Flood stage is 370.0 feet.\n* The river will continue to fall to near 362.8 feet by tomorrow morning.\n* At 365.0 feet...In Decatur County, low lying areas of the Riverstone Marina\nbecome inundated.\n* At 364.5 feet...In Decatur County, water begins to inundate portions of Scenic\nLane in the Russ Farm area and access may be limited to some houses along the\nriver.\n* At 364.0 feet...In Wayne County, in the Beech Creek area water begins to\ninundate low lying areas on the north end of Beechview Drive and the Beech\nLake Campground on Beech Lake Road. In Hardin County, water begins to inundate\nthe low lying areas of Cobb Farm in Nance Bend.",
+        "instruction": "Stay tuned to NOAA weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXP.KOHX.FL.Y.0001.000000T0000Z-200123T1820Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-23T12:20:00-06:00"
+            ]
+        }
+    }
+}
