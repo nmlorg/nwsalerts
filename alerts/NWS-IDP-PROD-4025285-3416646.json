@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025285-3416646",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.36,
+                    39.6
+                ],
+                [
+                    -87.4,
+                    39.43
+                ],
+                [
+                    -87.5699999,
+                    39.3
+                ],
+                [
+                    -87.63,
+                    39.32
+                ],
+                [
+                    -87.47,
+                    39.45
+                ],
+                [
+                    -87.41,
+                    39.6
+                ],
+                [
+                    -87.36,
+                    39.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025285-3416646",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4025285-3416646",
+        "areaDesc": "Crawford, IL; Sullivan, IN; Clark, IL; Vigo, IN",
+        "geocode": {
+            "UGC": [
+                "ILC033",
+                "INC153",
+                "ILC023",
+                "INC167"
+            ],
+            "SAME": [
+                "017033",
+                "018153",
+                "017023",
+                "018167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC153",
+            "https://api.weather.gov/zones/county/ILC023",
+            "https://api.weather.gov/zones/county/INC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4024341-3415942",
+                "identifier": "NWS-IDP-PROD-4024341-3415942",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-22T13:45:00-05:00"
+            }
+        ],
+        "sent": "2020-01-23T11:48:00-05:00",
+        "effective": "2020-01-23T11:48:00-05:00",
+        "onset": "2020-01-23T11:48:00-05:00",
+        "expires": "2020-01-24T11:47:00-05:00",
+        "ends": "2020-01-29T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 23 at 11:48AM EST until January 29 at 1:00PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nWabash River...White River...\n\n\n.Minor flooding continues in western and southern Indiana on the\nWabash and White Rivers.  Moderate flooding is ongoing at Mount\nCarmel.  Primary crests are comparable to those that occurred in\nFebruary and June of 2019.\n\nFlooding along the lower portions of the White and Wabash Rivers\nwill conclude by the end of this month based on current projections.\n\nThe Flood Warning continues for\nThe Wabash River at Terre Haute.\n* until Wednesday afternoon.\n* At 10:30 AM Thursday the stage was 19.1 feet. This is 2.0 to 2.5\nfeet higher than the observations from the old legacy gauge.\n* Flood stage is 16.5 feet. This is 2.5 feet higher than flood stage\nfrom the old legacy gauge.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will continue to fall to below flood stage by late\nTuesday night.\n* At 19.5 feet...Water begins to rise in the Izaak Walton Lake.  Sheet\nflowing water begins in the wetland project between U.S. 40 and\nI-70, and during a prolonged flood event project fills about 75\npercent.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0016.000000T0000Z-200129T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-29T13:00:00-05:00"
+            ]
+        }
+    }
+}
