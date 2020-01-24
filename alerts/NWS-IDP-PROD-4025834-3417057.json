@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025834-3417057",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.36,
+                    39.6
+                ],
+                [
+                    -87.4,
+                    39.43
+                ],
+                [
+                    -87.5699999,
+                    39.3
+                ],
+                [
+                    -87.63,
+                    39.32
+                ],
+                [
+                    -87.47,
+                    39.45
+                ],
+                [
+                    -87.41,
+                    39.6
+                ],
+                [
+                    -87.36,
+                    39.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025834-3417057",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4025834-3417057",
+        "areaDesc": "Crawford, IL; Sullivan, IN; Clark, IL; Vigo, IN",
+        "geocode": {
+            "UGC": [
+                "ILC033",
+                "INC153",
+                "ILC023",
+                "INC167"
+            ],
+            "SAME": [
+                "017033",
+                "018153",
+                "017023",
+                "018167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC153",
+            "https://api.weather.gov/zones/county/ILC023",
+            "https://api.weather.gov/zones/county/INC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025285-3416646",
+                "identifier": "NWS-IDP-PROD-4025285-3416646",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-23T11:48:00-05:00"
+            }
+        ],
+        "sent": "2020-01-23T22:35:00-05:00",
+        "effective": "2020-01-23T22:35:00-05:00",
+        "onset": "2020-01-23T22:34:00-05:00",
+        "expires": "2020-01-24T22:33:00-05:00",
+        "ends": "2020-01-29T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 23 at 10:34PM EST until January 29 at 1:00PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nWabash River...White River...\n\n\n.Minor flooding continues in west central and southwest Indiana on\nthe Wabash and White Rivers.  Moderate flooding continues at Mount\nCarmel on the lower Wabash, but the river is is expected to fall to\nthe minor flood category Friday afternoon.\n\nFlooding on the White River, which is now confined to Petersburg,\nsouthward, will end early this coming week.  We expect to see minor\nrises again on the Wabash due to the current weather system moving\nthrough.  This will prolong flooding a bit longer, lasting as long as\nThursday, January 30.  Another weather system is due by the end of\nthe month.  Is is too early to tell if this will have an effect on\narea waterways.\n\nThe Flood Warning continues for\nThe Wabash River at Terre Haute.\n* until Wednesday afternoon.\n* At 9:30 PM Thursday the stage was 18.4 feet. This is 2.0 to 2.5\nfeet higher than the observations from the old legacy gauge.\n* Flood stage is 16.5 feet. This is 2.5 feet higher than flood stage\nfrom the old legacy gauge.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will continue to fall to below flood stage by late\nTuesday night.\n* At 18.5 feet...Lowest river cabins across from the Wabash Generating\nStation begin to flood. Flooding of agricultural land along U.S. 63\nnorth of Terre Haute, west bank of river and in southwest Vigo\nCounty occurs. County roads flood in southwest Vigo County. The\nwetland projects between U.S. 40 and I-70 begin to slowly fill.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0016.000000T0000Z-200129T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-29T13:00:00-05:00"
+            ]
+        }
+    }
+}
