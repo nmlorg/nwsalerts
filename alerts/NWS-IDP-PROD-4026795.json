@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026795",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.36,
+                    35.4
+                ],
+                [
+                    -80.62,
+                    35.26
+                ],
+                [
+                    -80.7099999,
+                    35.449999999999996
+                ],
+                [
+                    -80.4,
+                    35.58
+                ],
+                [
+                    -80.33000000000001,
+                    35.46
+                ],
+                [
+                    -80.36,
+                    35.4
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026795",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4026795",
+        "areaDesc": "Cabarrus; Rowan",
+        "geocode": {
+            "UGC": [
+                "NCZ072",
+                "NCZ057"
+            ],
+            "SAME": [
+                "037025",
+                "037159"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NCZ072",
+            "https://api.weather.gov/zones/forecast/NCZ057"
+        ],
+        "references": [],
+        "sent": "2020-01-24T18:11:00-05:00",
+        "effective": "2020-01-24T18:11:00-05:00",
+        "onset": "2020-01-24T18:11:00-05:00",
+        "expires": "2020-01-24T18:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Special Weather Statement issued January 24 at 6:11PM EST by NWS Greenville-Spartanburg SC",
+        "description": "At 611 PM EST, Doppler radar was tracking a thunderstorm with\ntorrential rainfall 5 miles southeast of Downtown Concord, moving\nnortheast at 30 mph.\n\nLocations to be impacted include...\nDowntown Concord, Kannapolis, West Concord, Rockwell, Mt Pleasant,\nCoddle Creek Reservoir, Harrisburg and Charlotte Motor Speedway.\n\nWind gusts up to 40 mph will be possible in these areas.",
+        "instruction": "Gusty winds can blow down trees that are dead, or that have weakened\nroot systems. Outdoor furniture and similar items can be tossed\naround if not anchored. Seek shelter indoors.\n\nTorrential rainfall may flood areas with poor drainage, such as\nditches and underpasses. Avoid these areas and do not cross flooded\nroads. Water levels of small streams may also rise rapidly. Seek\nhigher ground if threatened by flood waters.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-24T18:11:00.000-05:00...storm...240DEG...26KT...35.35,-80.54"
+            ],
+            "NWSheadline": [
+                "A THUNDERSTORM WITH TORRENTIAL RAINFALL WILL IMPACT CABARRUS AND SOUTH CENTRAL ROWAN COUNTIES UNTIL 645 PM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GSPSPSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
