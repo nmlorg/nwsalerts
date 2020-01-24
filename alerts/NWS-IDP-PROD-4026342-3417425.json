@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026342-3417425",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026342-3417425",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4026342-3417425",
+        "areaDesc": "Southeast Randolph; Southeast Fayette; Southeast Nicholas; Northwest Pocahontas; Southeast Webster",
+        "geocode": {
+            "UGC": [
+                "WVZ526",
+                "WVZ518",
+                "WVZ520",
+                "WVZ523",
+                "WVZ522"
+            ],
+            "SAME": [
+                "054083",
+                "054019",
+                "054067",
+                "054075",
+                "054101"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/WVZ526",
+            "https://api.weather.gov/zones/forecast/WVZ518",
+            "https://api.weather.gov/zones/forecast/WVZ520",
+            "https://api.weather.gov/zones/forecast/WVZ523",
+            "https://api.weather.gov/zones/forecast/WVZ522"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025941-3417142",
+                "identifier": "NWS-IDP-PROD-4025941-3417142",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-24T02:24:00-05:00"
+            }
+        ],
+        "sent": "2020-01-24T10:15:00-05:00",
+        "effective": "2020-01-24T10:15:00-05:00",
+        "onset": "2020-01-24T10:15:00-05:00",
+        "expires": "2020-01-24T22:00:00-05:00",
+        "ends": "2020-01-24T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston WV",
+        "headline": "Wind Advisory issued January 24 at 10:15AM EST until January 24 at 10:00PM EST by NWS Charleston WV",
+        "description": "* WHAT...Southeast winds 15 to 25 mph with gusts up to 50 mph.\n\n* WHERE...Southeast Fayette, Southeast Randolph, Southeast\nNicholas, Southeast Webster and Northwest Pocahontas Counties.\n\n* WHEN...Until 10 PM EST this evening.\n\n* IMPACTS...Gusty winds could blow around unsecured objects.\nTree limbs could be blown down and a few power outages may\nresult.\n\n* ADDITIONAL DETAILS...Strongest winds will be above 4000 feet in\nelevation.",
+        "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY REMAINS IN EFFECT UNTIL 10 PM EST THIS EVENING"
+            ],
+            "VTEC": [
+                "/O.CON.KRLX.WI.Y.0003.000000T0000Z-200125T0300Z/"
+            ],
+            "PIL": [
+                "RLXNPWRLX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-24T22:00:00-05:00"
+            ]
+        }
+    }
+}
