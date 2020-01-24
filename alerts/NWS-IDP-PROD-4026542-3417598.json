@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026542-3417598",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026542-3417598",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4026542-3417598",
+        "areaDesc": "Kankakee; Iroquois; Livingston; Ford",
+        "geocode": {
+            "UGC": [
+                "ILZ023",
+                "ILZ033",
+                "ILZ032",
+                "ILZ039"
+            ],
+            "SAME": [
+                "017091",
+                "017075",
+                "017105",
+                "017053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ILZ023",
+            "https://api.weather.gov/zones/forecast/ILZ033",
+            "https://api.weather.gov/zones/forecast/ILZ032",
+            "https://api.weather.gov/zones/forecast/ILZ039"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026266-3417373",
+                "identifier": "NWS-IDP-PROD-4026266-3417373",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-24T08:34:00-06:00"
+            }
+        ],
+        "sent": "2020-01-24T12:54:00-06:00",
+        "effective": "2020-01-24T12:54:00-06:00",
+        "onset": "2020-01-24T12:54:00-06:00",
+        "expires": "2020-01-24T14:00:00-06:00",
+        "ends": "2020-01-24T13:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Dense Fog Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Dense Fog Advisory issued January 24 at 12:54PM CST until January 24 at 1:00PM CST by NWS Chicago IL",
+        "description": "Note that visibilities still vary from one quarter to three\nquarters of a mile across the area, so caution is still urged this\nafternoon if you encounter locally dense fog.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "DENSE FOG ADVISORY WILL EXPIRE AT 1 PM CST THIS AFTERNOON"
+            ],
+            "VTEC": [
+                "/O.EXP.KLOT.FG.Y.0002.000000T0000Z-200124T1900Z/"
+            ],
+            "PIL": [
+                "LOTNPWLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-24T13:00:00-06:00"
+            ]
+        }
+    }
+}
