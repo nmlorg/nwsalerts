@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026625-3417663",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.4599999,
+                    35.03
+                ],
+                [
+                    -82.25,
+                    34.7299999
+                ],
+                [
+                    -82.42,
+                    34.7
+                ],
+                [
+                    -82.52,
+                    34.96
+                ],
+                [
+                    -82.4599999,
+                    35.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026625-3417663",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4026625-3417663",
+        "areaDesc": "Greenville, SC",
+        "geocode": {
+            "UGC": [
+                "SCC045"
+            ],
+            "SAME": [
+                "045045"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC045"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026519-3417578",
+                "identifier": "NWS-IDP-PROD-4026519-3417578",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-24T12:58:00-05:00"
+            }
+        ],
+        "sent": "2020-01-24T15:21:00-05:00",
+        "effective": "2020-01-24T15:21:00-05:00",
+        "onset": "2020-01-24T15:21:00-05:00",
+        "expires": "2020-01-24T18:00:00-05:00",
+        "ends": "2020-01-24T18:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Flood Advisory issued January 24 at 3:21PM EST until January 24 at 6:00PM EST by NWS Greenville-Spartanburg SC",
+        "description": "At 319 PM EST, Doppler radar indicated rain had come to an end\nacross the advised area.  Streamgages along the Reedy River were\nindicating that water levels were cresting.  River levels are\nexpected to fall later this afternoon and into the evening. Based on\nthis, the advisory will expire on schedule.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLOOD ADVISORY REMAINS IN EFFECT UNTIL 600 PM EST FOR CENTRAL GREENVILLE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KGSP.FA.Y.0014.000000T0000Z-200124T2300Z/"
+            ],
+            "PIL": [
+                "GSPFLSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-24T18:00:00-05:00"
+            ]
+        }
+    }
+}
