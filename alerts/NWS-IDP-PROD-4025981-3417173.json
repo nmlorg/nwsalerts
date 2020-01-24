@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025981-3417173",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -122.11,
+                    48.1599999
+                ],
+                [
+                    -122.23,
+                    48.17
+                ],
+                [
+                    -122.37,
+                    48.1599999
+                ],
+                [
+                    -122.4,
+                    48.260000000000005
+                ],
+                [
+                    -122.24000000000001,
+                    48.2299999
+                ],
+                [
+                    -122.14000000000001,
+                    48.24
+                ],
+                [
+                    -122.11,
+                    48.1599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025981-3417173",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4025981-3417173",
+        "areaDesc": "Snohomish, WA",
+        "geocode": {
+            "UGC": [
+                "WAC061"
+            ],
+            "SAME": [
+                "053061"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC061"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025621-3416892",
+                "identifier": "NWS-IDP-PROD-4025621-3416892",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-23T16:33:00-08:00"
+            }
+        ],
+        "sent": "2020-01-24T00:31:00-08:00",
+        "effective": "2020-01-24T00:31:00-08:00",
+        "onset": "2020-01-24T00:31:00-08:00",
+        "expires": "2020-01-24T09:29:00-08:00",
+        "ends": "2020-01-24T20:43:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued January 24 at 12:31AM PST until January 24 at 8:43PM PST by NWS Seattle WA",
+        "description": "...The Flood Warning has ended for the following rivers in\nWashington...\n\nBogachiel River Near La Push affecting Clallam County\n\n...The Flood Warning continues for the following rivers in\nWashington...\n\nSatsop River Near Satsop affecting Grays Harbor County\nStillaguamish River At Arlington affecting Snohomish County\nSkokomish River At Potlatch affecting Mason County\n\n\nShowers will continue today with flooding continuing.\n\nThe Flood Warning continues for\nThe Stillaguamish River At Arlington\n* Until this evening.\n* At 12:10 AM Friday the stage was 14.0 feet.\n* Flood stage is 14.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to rise and crest near 14.8 feet\naround 4 AM Friday. The river will fall below flood stage this\nmorning.\n* Impact...At 14.0 feet, the Stillaguamish River will locally spill\nover its banks.  Minor flooding around Silvana will occur...\nincluding over Pioneer Highway.  A stage of 14 feet on the\nStillaguamish River corresponds roughly to Phase 2 in the Snohomish\nCounty Flood program.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0022.000000T0000Z-200125T0443Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-24T20:43:00-08:00"
+            ]
+        }
+    }
+}
