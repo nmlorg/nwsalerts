@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025619-3416890",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -123.45,
+                    46.96
+                ],
+                [
+                    -123.54,
+                    46.96
+                ],
+                [
+                    -123.54,
+                    47.02
+                ],
+                [
+                    -123.54,
+                    47.080000000000005
+                ],
+                [
+                    -123.45,
+                    47.080000000000005
+                ],
+                [
+                    -123.45,
+                    47.02
+                ],
+                [
+                    -123.45,
+                    46.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025619-3416890",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4025619-3416890",
+        "areaDesc": "Grays Harbor, WA",
+        "geocode": {
+            "UGC": [
+                "WAC027"
+            ],
+            "SAME": [
+                "053027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC027"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4025558-3416844",
+                "identifier": "NWS-IDP-PROD-4025558-3416844",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-23T14:41:00-08:00"
+            }
+        ],
+        "sent": "2020-01-23T16:33:00-08:00",
+        "effective": "2020-01-23T16:33:00-08:00",
+        "onset": "2020-01-23T16:33:00-08:00",
+        "expires": "2020-01-24T01:31:00-08:00",
+        "ends": "2020-01-24T20:20:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued January 23 at 4:33PM PST until January 24 at 8:20PM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nStillaguamish River At Arlington affecting Snohomish County\nBogachiel River Near La Push affecting Clallam County\nSkokomish River At Potlatch affecting Mason County\nSatsop River Near Satsop affecting Grays Harbor County\n\n\nHeavy rainfall will continue across Western Washington through tonight, with flooding continuing.\n\nThe Flood Warning continues for\nThe Satsop River Near Satsop\n* Until Friday evening.\n* At  4:15 PM Thursday the stage was 38.4 feet.\n* Flood stage is 38.0 feet.\n* Minor flooding is forecast to continue.\n* Forecast...The river will continue to rise and crest near 38.8 feet\nearly Friday morning. The river will likely fall below flood stage Friday\nlate morning.\n* Impact...At 38.0 feet, the Satsop River will flood low pasture lands\nand some roads along the river.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KSEW.FL.W.0021.000000T0000Z-200125T0420Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-24T20:20:00-08:00"
+            ]
+        }
+    }
+}
