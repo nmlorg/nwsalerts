@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026490-3417558",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -123.45,
+                    46.96
+                ],
+                [
+                    -123.54,
+                    46.96
+                ],
+                [
+                    -123.54,
+                    47.02
+                ],
+                [
+                    -123.54,
+                    47.080000000000005
+                ],
+                [
+                    -123.45,
+                    47.080000000000005
+                ],
+                [
+                    -123.45,
+                    47.02
+                ],
+                [
+                    -123.45,
+                    46.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026490-3417558",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4026490-3417558",
+        "areaDesc": "Grays Harbor, WA",
+        "geocode": {
+            "UGC": [
+                "WAC027"
+            ],
+            "SAME": [
+                "053027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC027"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026488-3417556",
+                "identifier": "NWS-IDP-PROD-4026488-3417556",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-24T09:19:00-08:00"
+            }
+        ],
+        "sent": "2020-01-24T09:20:00-08:00",
+        "effective": "2020-01-24T09:20:00-08:00",
+        "onset": "2020-01-24T09:19:00-08:00",
+        "expires": "2020-01-24T17:18:00-08:00",
+        "ends": "2020-01-25T01:12:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued January 24 at 9:19AM PST until January 25 at 1:12AM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nSkokomish River At Potlatch affecting Mason County\nSatsop River Near Satsop affecting Grays Harbor County\n\n\nRivers coming off of the Olympics will continue to recede today.\nScattered showers will continue today with a weak storm Saturday\nmorning and a wetter one Sunday.\n\nThe Flood Warning continues for\nThe Satsop River Near Satsop\n* Until late tonight.\n* At  8:15 AM Friday the stage was 38.7 feet.\n* Flood stage is 38.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river crested at 39.5 feet at 11 PM Thursday and\nwill continue to fall to below flood stage late this afternoon.\n* Impact...At 38.0 feet, the Satsop River will flood low pasture lands\nand some roads along the river.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0021.000000T0000Z-200125T0912Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-25T01:12:00-08:00"
+            ]
+        }
+    }
+}
