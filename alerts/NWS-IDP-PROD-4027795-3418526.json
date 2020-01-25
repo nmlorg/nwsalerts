@@ -1,0 +1,117 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027795-3418526",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.79,
+                    39.49
+                ],
+                [
+                    -80.78,
+                    39.4
+                ],
+                [
+                    -80.98,
+                    39.43
+                ],
+                [
+                    -81.11,
+                    39.38
+                ],
+                [
+                    -81.23,
+                    39.38
+                ],
+                [
+                    -81.19,
+                    39.42
+                ],
+                [
+                    -80.98,
+                    39.53
+                ],
+                [
+                    -80.79,
+                    39.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027795-3418526",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4027795-3418526",
+        "areaDesc": "Pleasants, WV; Tyler, WV",
+        "geocode": {
+            "UGC": [
+                "WVC073",
+                "WVC095"
+            ],
+            "SAME": [
+                "054073",
+                "054095"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WVC073",
+            "https://api.weather.gov/zones/county/WVC095"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027304-3418133",
+                "identifier": "NWS-IDP-PROD-4027304-3418133",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-25T04:22:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027403-3418222",
+                "identifier": "NWS-IDP-PROD-4027403-3418222",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-25T06:29:00-05:00"
+            }
+        ],
+        "sent": "2020-01-25T13:08:00-05:00",
+        "effective": "2020-01-25T13:08:00-05:00",
+        "onset": "2020-01-25T13:08:00-05:00",
+        "expires": "2020-01-25T13:15:00-05:00",
+        "ends": "2020-01-25T13:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston WV",
+        "headline": "Flood Warning issued January 25 at 1:08PM EST until January 25 at 1:15PM EST by NWS Charleston WV",
+        "description": "Middle Island Creek has receded to within bankfull at Middlebourne\nand is no longer expected to pose a threat to life or property.\nPlease continue to heed any road closures.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLOOD WARNING WILL EXPIRE AT 115 PM EST FOR NORTHEASTERN PLEASANTS AND CENTRAL TYLER COUNTIES"
+            ],
+            "VTEC": [
+                "/O.EXP.KRLX.FA.W.0004.000000T0000Z-200125T1815Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RLXFLSRLX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-25T13:15:00-05:00"
+            ]
+        }
+    }
+}
