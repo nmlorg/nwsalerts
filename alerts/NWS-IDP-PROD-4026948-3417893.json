@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026948-3417893",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.1,
+                    39.03
+                ],
+                [
+                    -89.05999999999999,
+                    39.03
+                ],
+                [
+                    -89.08999999999999,
+                    38.85
+                ],
+                [
+                    -89.18999999999998,
+                    38.79
+                ],
+                [
+                    -89.21999999999998,
+                    38.82
+                ],
+                [
+                    -89.1,
+                    39.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026948-3417893",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4026948-3417893",
+        "areaDesc": "Fayette, IL",
+        "geocode": {
+            "UGC": [
+                "ILC051"
+            ],
+            "SAME": [
+                "017051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026396-3417474",
+                "identifier": "NWS-IDP-PROD-4026396-3417474",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-24T09:59:00-06:00"
+            }
+        ],
+        "sent": "2020-01-24T20:01:00-06:00",
+        "effective": "2020-01-24T20:01:00-06:00",
+        "onset": "2020-01-24T20:01:00-06:00",
+        "expires": "2020-01-26T02:01:00-06:00",
+        "ends": "2020-01-29T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued January 24 at 8:01PM CST until January 29 at 6:00AM CST by NWS St Louis MO",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...\n\nKaskaskia River at Vandalia\nKaskaskia River at Carlyle TW\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 48 hours.\n\nThe Flood Warning continues for\nthe Kaskaskia River at Vandalia\n* until Wednesday morning.\n* At  7:30 PM Friday the stage was 17.3 feet.\n* Flood stage is 18.0 feet.\n* Minor flooding is forecast.\n* The river is forecast to rise above flood stage by Saturday late\nmorning and to crest near 18.9 feet by Sunday early afternoon. The\nriver is forecast to fall below flood stage by early Tuesday\nmorning.\n* Impact:  At 18.0 feet...Flood Stage.  Minor flooding begins.\nUnprotected farmland begins to flood.",
+        "instruction": "Rainfall heavier than forecast could cause river levels to rise even\nhigher than predicted.  The National Weather Service will monitor\nthis developing situation and issue follow up statements as\nconditions or forecasts change.\n\nSafety message:  Never drive cars, trucks, or sport utility vehicles\nthrough flooded areas.  The water may be too deep to allow for safe\npassage.\n\nThis product, along with additional weather and stream information,\nis available at http://water.weather.gov/ahps2/index.php?wfo=lsx.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLSX.FL.W.0004.000000T0000Z-200129T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXFLSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-29T06:00:00-06:00"
+            ]
+        }
+    }
+}
