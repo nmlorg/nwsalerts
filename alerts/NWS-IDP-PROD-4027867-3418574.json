@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027867-3418574",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81,
+                    41.33
+                ],
+                [
+                    -80.93,
+                    41.29
+                ],
+                [
+                    -80.87,
+                    41.28
+                ],
+                [
+                    -80.92,
+                    41.24
+                ],
+                [
+                    -80.95,
+                    41.24
+                ],
+                [
+                    -81,
+                    41.25
+                ],
+                [
+                    -81,
+                    41.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027867-3418574",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4027867-3418574",
+        "areaDesc": "Trumbull, OH",
+        "geocode": {
+            "UGC": [
+                "OHC155"
+            ],
+            "SAME": [
+                "039155"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC155"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027592-3418362",
+                "identifier": "NWS-IDP-PROD-4027592-3418362",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-25T10:09:00-05:00"
+            }
+        ],
+        "sent": "2020-01-25T15:12:00-05:00",
+        "effective": "2020-01-25T15:12:00-05:00",
+        "onset": "2020-01-25T15:12:00-05:00",
+        "expires": "2020-01-25T23:12:00-05:00",
+        "ends": "2020-01-26T08:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cleveland OH",
+        "headline": "Flood Warning issued January 25 at 3:12PM EST until January 26 at 8:00AM EST by NWS Cleveland OH",
+        "description": "...The flood warning continues for the following rivers in Ohio...\n\nEagle Creek At Phalanx Station\n\nThe flood warning continues for\nThe Eagle Creek At Phalanx Station.\n* Until Sunday morning.\n* At  3:00 PM Saturday the stage was...10.1 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 9.5 feet.\n* The river will rise to near 10.9 feet by this evening. The river\nwill fall below flood stage by early Sunday.\n* At 11.0 feet...Barclay Messerly Road, McConnell East, and Knowlton\nRoads will be flooded and impassable.",
+        "instruction": "Never drive your car through flooded roadways. The water may be\ndeeper than it appears. Turn around...don't drown!\n\nStay tuned to NOAA weather radio and other local media for further\ndetails and updates.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCLE.FL.W.0012.000000T0000Z-200126T1300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CLEFLSCLE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-26T08:00:00-05:00"
+            ]
+        }
+    }
+}
