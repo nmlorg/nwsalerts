@@ -1,0 +1,115 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027443-3418251",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.17,
+                    38.96
+                ],
+                [
+                    -77.18,
+                    38.89
+                ],
+                [
+                    -77.19000000000001,
+                    38.9
+                ],
+                [
+                    -77.19000000000001,
+                    38.879999999999995
+                ],
+                [
+                    -77.18,
+                    38.879999999999995
+                ],
+                [
+                    -77.2,
+                    38.769999999999996
+                ],
+                [
+                    -77.4,
+                    38.79
+                ],
+                [
+                    -77.33000000000001,
+                    38.979999899999996
+                ],
+                [
+                    -77.17,
+                    38.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027443-3418251",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4027443-3418251",
+        "areaDesc": "City of Fairfax, VA; Fairfax, VA",
+        "geocode": {
+            "UGC": [
+                "VAC600",
+                "VAC059"
+            ],
+            "SAME": [
+                "051600",
+                "051059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC600",
+            "https://api.weather.gov/zones/county/VAC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027280-3418126",
+                "identifier": "NWS-IDP-PROD-4027280-3418126",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-25T03:53:00-05:00"
+            }
+        ],
+        "sent": "2020-01-25T07:40:00-05:00",
+        "effective": "2020-01-25T07:40:00-05:00",
+        "onset": "2020-01-25T07:40:00-05:00",
+        "expires": "2020-01-25T10:00:00-05:00",
+        "ends": "2020-01-25T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Baltimore MD/Washington DC",
+        "headline": "Flood Warning issued January 25 at 7:40AM EST until January 25 at 10:00AM EST by NWS Baltimore MD/Washington DC",
+        "description": "At 738 AM EST, stream gauges on Difficult Run and Accotink Creek\nindicate that flooding is ongoing in the warned area.\n\nSome locations that may experience flooding include...\nReston, Annandale, Springfield, Fairfax, Vienna, Falls Church,\nMantua, Pimmit Hills, Mclean, Burke, Oakton, Tysons Corner, Wolf\nTrap, Great Falls, Merrifield, I66 and I495 Interchange, West\nSpringfield, Fairfax Station, Dunn Loring and North Springfield.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "A FLOOD WARNING REMAINS IN EFFECT UNTIL 1000 AM EST FOR CENTRAL FAIRFAX COUNTY AND THE CITY OF FAIRFAX"
+            ],
+            "VTEC": [
+                "/O.CON.KLWX.FA.W.0001.000000T0000Z-200125T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LWXFLSLWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-25T10:00:00-05:00"
+            ]
+        }
+    }
+}
