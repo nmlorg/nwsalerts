@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027696-3418442",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.61,
+                    39.13
+                ],
+                [
+                    -87.48,
+                    38.99
+                ],
+                [
+                    -87.5,
+                    38.86
+                ],
+                [
+                    -87.56,
+                    38.85
+                ],
+                [
+                    -87.59,
+                    38.9799999
+                ],
+                [
+                    -87.67,
+                    39.13
+                ],
+                [
+                    -87.61,
+                    39.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027696-3418442",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4027696-3418442",
+        "areaDesc": "Lawrence, IL; Crawford, IL; Knox, IN; Sullivan, IN",
+        "geocode": {
+            "UGC": [
+                "ILC101",
+                "ILC033",
+                "INC083",
+                "INC153"
+            ],
+            "SAME": [
+                "017101",
+                "017033",
+                "018083",
+                "018153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC101",
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026563-3417614",
+                "identifier": "NWS-IDP-PROD-4026563-3417614",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-24T14:36:00-05:00"
+            }
+        ],
+        "sent": "2020-01-25T11:44:00-05:00",
+        "effective": "2020-01-25T11:44:00-05:00",
+        "onset": "2020-01-25T11:44:00-05:00",
+        "expires": "2020-01-26T11:43:00-05:00",
+        "ends": "2020-01-29T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 25 at 11:44AM EST until January 29 at 10:00PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nWabash River...White River...\n\n\n.Minor flooding continues in west central and southwest Indiana on\nthe Wabash and White Rivers.\n\nFlooding on the White River, which is now confined to Petersburg,\nsouthward, will end early this coming week.  Along the Wabash,\nflooding is expected to last as long as Thursday, January 30.\nAnother weather system is due by the end of the month.  Is is too\nearly to tell if this will have an effect on area waterways.\n\nThe Flood Warning continues for\nThe Wabash River at Riverton.\n* until Wednesday evening.\n* At 11:00 AM Saturday the stage was 19.1 feet.\n* Flood stage is 15.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will continue to fall to below flood stage by\nWednesday morning.\n* At 18.5 feet...High water surrounds elevated river cabins.  County\nroads to these cabins are impassable.  Agricultural flooding is in\nprogress.  Seep water develops behind levees.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0018.000000T0000Z-200130T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-29T22:00:00-05:00"
+            ]
+        }
+    }
+}

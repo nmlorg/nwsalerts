@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027694-3418440",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.5699999,
+                    39.3
+                ],
+                [
+                    -87.53999999999999,
+                    39.229999899999996
+                ],
+                [
+                    -87.61999999999999,
+                    39.12
+                ],
+                [
+                    -87.67999999999999,
+                    39.14
+                ],
+                [
+                    -87.61999999999999,
+                    39.22
+                ],
+                [
+                    -87.63,
+                    39.32
+                ],
+                [
+                    -87.5699999,
+                    39.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027694-3418440",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4027694-3418440",
+        "areaDesc": "Lawrence, IL; Crawford, IL; Knox, IN; Sullivan, IN",
+        "geocode": {
+            "UGC": [
+                "ILC101",
+                "ILC033",
+                "INC083",
+                "INC153"
+            ],
+            "SAME": [
+                "017101",
+                "017033",
+                "018083",
+                "018153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC101",
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026564-3417615",
+                "identifier": "NWS-IDP-PROD-4026564-3417615",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-24T14:36:00-05:00"
+            }
+        ],
+        "sent": "2020-01-25T11:44:00-05:00",
+        "effective": "2020-01-25T11:44:00-05:00",
+        "onset": "2020-01-25T11:44:00-05:00",
+        "expires": "2020-01-26T11:43:00-05:00",
+        "ends": "2020-01-29T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued January 25 at 11:44AM EST until January 29 at 1:00PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nWabash River...White River...\n\n\n.Minor flooding continues in west central and southwest Indiana on\nthe Wabash and White Rivers.\n\nFlooding on the White River, which is now confined to Petersburg,\nsouthward, will end early this coming week.  Along the Wabash,\nflooding is expected to last as long as Thursday, January 30.\nAnother weather system is due by the end of the month.  Is is too\nearly to tell if this will have an effect on area waterways.\n\nThe Flood Warning continues for\nThe Wabash River at Hutsonville Legacy Power Plant Site.\n* until Wednesday afternoon.\n* There have been no observations in the last 24 hours.\n* Flood stage is 16.0 feet.\n* Minor flooding is forecast.\n* Forecast...It is forecast to crest at 19.6 feet this afternoon and\nwill fall below flood stage by late Tuesday night.\n* At 20.0 feet...Leaverton Park in Palestine and park in Hutsonville\nbegin to flood.  Agricultural flooding spreads to higher land.\nSeep water is noticeable behind levees.  Some elevated river\ncottages are surrounded by water.  Several county or township roads\neast of Lincoln Heritage Trail between Palestine and Hutsonville in\nCrawford County Illinois are impassable.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0017.000000T0000Z-200129T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-29T13:00:00-05:00"
+            ]
+        }
+    }
+}
