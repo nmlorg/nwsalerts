@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026894-3417851",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.14,
+                    30.38
+                ],
+                [
+                    -93.03,
+                    30.31
+                ],
+                [
+                    -93.08,
+                    30.25
+                ],
+                [
+                    -93.2099999,
+                    30.19
+                ],
+                [
+                    -93.29,
+                    30.3
+                ],
+                [
+                    -93.14,
+                    30.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026894-3417851",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4026894-3417851",
+        "areaDesc": "Calcasieu, LA",
+        "geocode": {
+            "UGC": [
+                "LAC019"
+            ],
+            "SAME": [
+                "022019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026424-3417494",
+                "identifier": "NWS-IDP-PROD-4026424-3417494",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-24T10:24:00-06:00"
+            }
+        ],
+        "sent": "2020-01-24T19:24:00-06:00",
+        "effective": "2020-01-24T19:24:00-06:00",
+        "onset": "2020-01-24T19:24:00-06:00",
+        "expires": "2020-01-25T09:23:00-06:00",
+        "ends": "2020-01-27T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued January 24 at 7:24PM CST until January 27 at 6:00AM CST by NWS Lake Charles LA",
+        "description": "...The Flood Warning continues for the following rivers in\nLouisiana..\nCalcasieu River Near Glenmora\nCalcasieu River NEAR White Oak Park\n\nThe Flood Warning continues for\nThe Calcasieu River NEAR White Oak Park.\n* until Monday morning...or until the warning is cancelled.\n* At  7:10 PM Friday the stage was 1.0 feet.\n* Minor flooding is forecast.\n* Flood stage is 2.0 feet.\n* Forecast...The river will continue to fluctuate around flood stage.\n* Impact...At stages near 2.0 feet...Minor flooding of Goos Ferry\nRoad will occur.\n* Impact...At stages near 1.5 feet...Ponding of water on low spots\nalong Goos Ferry Road will occur.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLCH.FL.W.0009.000000T0000Z-200127T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHFLSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-27T06:00:00-06:00"
+            ]
+        }
+    }
+}
