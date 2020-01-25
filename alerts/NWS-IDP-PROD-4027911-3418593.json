@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027911-3418593",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -75.78,
+                    39.64
+                ],
+                [
+                    -75.78,
+                    39.7
+                ],
+                [
+                    -75.7,
+                    39.650000000000006
+                ],
+                [
+                    -75.65,
+                    39.68000000000001
+                ],
+                [
+                    -75.5699999,
+                    39.68000000000001
+                ],
+                [
+                    -75.69,
+                    39.59
+                ],
+                [
+                    -75.78,
+                    39.64
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027911-3418593",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4027911-3418593",
+        "areaDesc": "New Castle, DE",
+        "geocode": {
+            "UGC": [
+                "DEC003"
+            ],
+            "SAME": [
+                "010003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/DEC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027689-3418435",
+                "identifier": "NWS-IDP-PROD-4027689-3418435",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-25T11:31:00-05:00"
+            }
+        ],
+        "sent": "2020-01-25T15:52:00-05:00",
+        "effective": "2020-01-25T15:52:00-05:00",
+        "onset": "2020-01-25T15:52:00-05:00",
+        "expires": "2020-01-25T21:52:00-05:00",
+        "ends": "2020-01-25T23:54:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mount Holly NJ",
+        "headline": "Flood Warning issued January 25 at 3:52PM EST until January 25 at 11:54PM EST by NWS Mount Holly NJ",
+        "description": "Christina River At Coochs Bridge affecting New Castle County\n\nThe Flood Warning continues for\nThe Christina River At Coochs Bridge.\n* until this evening...Or until the warning is cancelled.\n* At  3:15 PM Saturday the stage was 12.3 feet.\n* Flood stage is 11.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by late this\nafternoon.\n* Impact...At 12.5 feet...Evacuations are possible in Duross Heights. Airport\nRoad at the New Castle Airport floods is closed. Businesses are flooded.\nFlooding increases in Newark. Flooding also increases on Barksdale Road and\ncan extend onto Casho Mill Road. Businesses on South College Avenue take on\nwater.\n* Flood history...This crest compares to a previous crest of 12.2 feet on Aug 13\n2004.",
+        "instruction": "SAFETY MESSAGE...Do not attempt to drive through flooded areas. The water may be\ndeeper than you think.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPHI.FL.W.0001.000000T0000Z-200126T0454Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PHIFLWPHI"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-25T23:54:00-05:00"
+            ]
+        }
+    }
+}
