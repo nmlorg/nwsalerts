@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027793-3418525",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -75.67,
+                    40.02
+                ],
+                [
+                    -75.61,
+                    39.93
+                ],
+                [
+                    -75.67,
+                    39.9099999
+                ],
+                [
+                    -75.74,
+                    40.010000000000005
+                ],
+                [
+                    -75.67,
+                    40.02
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027793-3418525",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4027793-3418525",
+        "areaDesc": "Chester, PA",
+        "geocode": {
+            "UGC": [
+                "PAC029"
+            ],
+            "SAME": [
+                "042029"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC029"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027690-3418436",
+                "identifier": "NWS-IDP-PROD-4027690-3418436",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-25T11:34:00-05:00"
+            }
+        ],
+        "sent": "2020-01-25T13:04:00-05:00",
+        "effective": "2020-01-25T13:04:00-05:00",
+        "onset": "2020-01-25T13:04:00-05:00",
+        "expires": "2020-01-25T21:41:00-05:00",
+        "ends": "2020-01-25T21:41:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mount Holly NJ",
+        "headline": "Flood Warning issued January 25 at 1:04PM EST until January 25 at 9:41PM EST by NWS Mount Holly NJ",
+        "description": "...The Flood Warning continues for the following rivers in Pennsylvania...\n\nEast Branch Brandywine Creek Below Downingtown affecting Chester County\n\nThe Flood Warning continues for\nThe East Branch Brandywine Creek at Downingtown.\n* At 12:45 PM Saturday the stage was 8.4 feet.\n* Flood stage is 7.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 8.5 feet by this afternoon.\nThe river will fall below flood stage late this afternoon.\n* Impact...At 9.0 feet...High water on the Brandywine sends backwater up Beaver\nCreek. Beaver Creek floods inundating parks and the Downingtown Little League\nfields.\n* Flood history...This crest compares to a previous crest of 8.3 feet on Jun 4\n2003.",
+        "instruction": "SAFETY MESSAGE...Do not attempt to drive through flooded areas. The water may be\ndeeper than you think.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPHI.FL.W.0002.000000T0000Z-200126T0241Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PHIFLSPHI"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-25T21:41:00-05:00"
+            ]
+        }
+    }
+}
