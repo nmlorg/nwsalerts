@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027930-3418609",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -75.15,
+                    40.01
+                ],
+                [
+                    -75.2099999,
+                    40
+                ],
+                [
+                    -75.26,
+                    40.08
+                ],
+                [
+                    -75.4,
+                    40.18
+                ],
+                [
+                    -75.23,
+                    40.26
+                ],
+                [
+                    -75.15,
+                    40.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027930-3418609",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4027930-3418609",
+        "areaDesc": "Philadelphia, PA; Montgomery, PA",
+        "geocode": {
+            "UGC": [
+                "PAC101",
+                "PAC091"
+            ],
+            "SAME": [
+                "042101",
+                "042091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC101",
+            "https://api.weather.gov/zones/county/PAC091"
+        ],
+        "references": [],
+        "sent": "2020-01-25T16:05:00-05:00",
+        "effective": "2020-01-25T16:05:00-05:00",
+        "onset": "2020-01-25T16:05:00-05:00",
+        "expires": "2020-01-25T20:00:00-05:00",
+        "ends": "2020-01-25T20:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mount Holly NJ",
+        "headline": "Flood Warning issued January 25 at 4:05PM EST until January 25 at 8:00PM EST by NWS Mount Holly NJ",
+        "description": "The National Weather Service in Mount Holly NJ has issued a\n\n* Flood Warning for Urban Areas and Small Streams in...\nCentral Montgomery County in southeastern Pennsylvania...\nNorthwestern Philadelphia County in southeastern Pennsylvania...\n\n* Until 800 PM EST.\n\n* At 404 PM EST, after one to two inches of rain through the early\nafternoon, reporting gauges indicate flooding at Fort Washington.\n\n* Some locations that could experience flooding include...\nPhiladelphia, Norristown, Lansdale, East Norriton, Ambler, Plymouth\nMeeting, Germantown, Chestnut Hill, North Wales, Fort Washington,\nBlue Bell, Flourtown, Spring House, Wyndmoor, Montgomeryville and\nOreland.\n\nThis includes the following highways...\nPennsylvania Turnpike between exits 333 and 339.\nNortheast Extension near exit A20.\nInterstate 76 in Pennsylvania between mile markers 339 and 340.",
+        "instruction": "Excessive runoff from heavy rainfall will cause flooding of small\ncreeks and streams, urban areas, highways, streets and underpasses as\nwell as other drainage areas and low lying spots.\n\nIn hilly terrain there are hundreds of low water crossings which are\npotentially dangerous in heavy rain. Do not attempt to cross flooded\nroads. Find an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KPHI.FA.W.0009.200125T2105Z-200126T0100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PHIFLWPHI"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-25T20:00:00-05:00"
+            ]
+        }
+    }
+}
