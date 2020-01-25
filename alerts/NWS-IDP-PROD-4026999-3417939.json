@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026999-3417939",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.5699999,
+                    35.38
+                ],
+                [
+                    -82.5,
+                    35.370000000000005
+                ],
+                [
+                    -82.54,
+                    35.290000000000006
+                ],
+                [
+                    -82.67,
+                    35.21000000000001
+                ],
+                [
+                    -82.74,
+                    35.260000000000005
+                ],
+                [
+                    -82.61,
+                    35.34
+                ],
+                [
+                    -82.5699999,
+                    35.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026999-3417939",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4026999-3417939",
+        "areaDesc": "Transylvania, NC; Henderson, NC",
+        "geocode": {
+            "UGC": [
+                "NCC175",
+                "NCC089"
+            ],
+            "SAME": [
+                "037175",
+                "037089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC175",
+            "https://api.weather.gov/zones/county/NCC089"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4026493-3417561",
+                "identifier": "NWS-IDP-PROD-4026493-3417561",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-24T12:25:00-05:00"
+            }
+        ],
+        "sent": "2020-01-24T21:41:00-05:00",
+        "effective": "2020-01-24T21:41:00-05:00",
+        "onset": "2020-01-24T21:41:00-05:00",
+        "expires": "2020-01-25T11:00:00-05:00",
+        "ends": "2020-01-25T11:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Flood Advisory issued January 24 at 9:41PM EST until January 25 at 11:00AM EST by NWS Greenville-Spartanburg SC",
+        "description": "...The Flood Advisory continues for the French Broad River...\n\n\nFrench Broad River At Blantyre affecting Henderson and Transylvania\nCounties\n\nHeavy rain that moved across the area has saturated the ground and caused\nriver levels to rise. Additional runoff will likely cause the river\nto crest just below flood stage.\n\nThe Flood Advisory is extended for\nthe French Broad River At Blantyre\n* until Saturday morning.\n* At 09 PM Friday the stage was 14.9 feet.\n* Action Stage is 15.0 feet.\n* Minor Flood Stage is 16.0 feet.\n* FORECAST: The river will rise to near 15.7 feet by Saturday\nmorning.\n* IMPACTS: At 16.0 feet: Minor Flood Stage. Farmland flooding\ncontinues on both sides of the French Broad River. Floodwaters\nbegin to impact boat access areas at Grove Bridge Rd. and Crab\nCreek Rd..\n* IMPACTS: At 15.0 feet: Action Stage.  Most farm fields may flood\nbetween the French Broad River and Brevard Rd. and between the\nFrench Broad River and Pleasant Grove Rd..",
+        "instruction": "A Flood Advisory for a river forecast point means that nuisance\nflooding is expected to occur along the river when the river level is\nforecast to be just below or at the official flood stage.\n\nCaution is urged when walking near river banks...keep children away\nfrom drainage areas and culverts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGSP.FL.Y.0005.000000T0000Z-200125T1600Z/"
+            ],
+            "PIL": [
+                "GSPFLSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-25T11:00:00-05:00"
+            ]
+        }
+    }
+}
