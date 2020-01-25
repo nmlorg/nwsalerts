@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027754-3418493",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.5699999,
+                    36.5
+                ],
+                [
+                    -89.38,
+                    36.5
+                ],
+                [
+                    -89.47999999999999,
+                    36.2299999
+                ],
+                [
+                    -89.77,
+                    36.2299999
+                ],
+                [
+                    -89.5699999,
+                    36.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027754-3418493",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4027754-3418493",
+        "areaDesc": "New Madrid, MO; Pemiscot, MO; Lake, TN",
+        "geocode": {
+            "UGC": [
+                "MOC143",
+                "MOC155",
+                "TNC095"
+            ],
+            "SAME": [
+                "029143",
+                "029155",
+                "047095"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC143",
+            "https://api.weather.gov/zones/county/MOC155",
+            "https://api.weather.gov/zones/county/TNC095"
+        ],
+        "references": [],
+        "sent": "2020-01-25T11:27:00-06:00",
+        "effective": "2020-01-25T11:27:00-06:00",
+        "onset": "2020-01-25T11:27:00-06:00",
+        "expires": "2020-01-26T11:26:00-06:00",
+        "ends": "2020-01-29T14:19:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Advisory issued January 25 at 11:27AM CST until January 29 at 2:19PM CST by NWS Memphis TN",
+        "description": "...The Flood Advisory continues for the Mississippi River...\nMississippi River at Memphis affecting Crittenden...DeSoto and\nShelby Counties\nMississippi River at Helena affecting Lee...Phillips...Coahoma and\nTunica Counties\n\n...The National Weather Service in Memphis TN has issued a Flood\nAdvisory for the Mississippi River...\n\nMississippi River at Tiptonville affecting New Madrid...Pemiscot\nand Lake Counties\n\nThe National Weather Service in Memphis TN has issued a\n* Flood Advisory for\nthe Mississippi River at Tiptonville\n* from Saturday January 25 until Wednesday January 29.\n* At 11 AM Saturday the stage was 36.7 feet.\n* Flood stage is 37.0 feet.\n* Forecast...The river will fall to near 36.0 feet Sunday January\n26.\n* At 36.0 feet...In Missouri, Most fields around Robinson Lake in\nPemiscot County are covered by flood water.",
+        "instruction": "The next River Statement will be issued Sunday or sooner if conditions\nwarrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KMEG.FL.Y.0012.200125T1727Z-200129T2019Z/"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-29T14:19:00-06:00"
+            ]
+        }
+    }
+}
