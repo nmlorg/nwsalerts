@@ -1,0 +1,119 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4028060-3418711",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -75.15,
+                    40.01
+                ],
+                [
+                    -75.2099999,
+                    40
+                ],
+                [
+                    -75.22,
+                    40.01
+                ],
+                [
+                    -75.2099999,
+                    40.01
+                ],
+                [
+                    -75.22,
+                    40.019999999999996
+                ],
+                [
+                    -75.25,
+                    40.06999999999999
+                ],
+                [
+                    -75.22,
+                    40.089999999999996
+                ],
+                [
+                    -75.19,
+                    40.06999999999999
+                ],
+                [
+                    -75.17,
+                    40.07999999999999
+                ],
+                [
+                    -75.15,
+                    40.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4028060-3418711",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4028060-3418711",
+        "areaDesc": "Philadelphia, PA",
+        "geocode": {
+            "UGC": [
+                "PAC101"
+            ],
+            "SAME": [
+                "042101"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC101"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027930-3418609",
+                "identifier": "NWS-IDP-PROD-4027930-3418609",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-25T16:05:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4028058-3418709",
+                "identifier": "NWS-IDP-PROD-4028058-3418709",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-25T19:39:00-05:00"
+            }
+        ],
+        "sent": "2020-01-25T19:40:00-05:00",
+        "effective": "2020-01-25T19:40:00-05:00",
+        "onset": "2020-01-25T19:40:00-05:00",
+        "expires": "2020-01-26T00:00:00-05:00",
+        "ends": "2020-01-26T00:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mount Holly NJ",
+        "headline": "Flood Warning issued January 25 at 7:40PM EST until January 26 at 12:00AM EST by NWS Mount Holly NJ",
+        "description": "The National Weather Service in Mount Holly NJ has extended the\n\n* Flood Warning for Urban Areas and Small Streams in...\nNorthwestern Philadelphia County in southeastern Pennsylvania...\n\n* Until midnight EST.\n\n* At 740 PM EST, after one to two inches of rain fell through this\nafternoon, reporting gages indicate flooding continues on the\nWissahickon Creek at Wissahickon.\n\n* Some locations that could experience flooding include...\nPhiladelphia, Germantown and Chestnut Hill.\n\nThis includes Interstate 76 in Pennsylvania between mile markers 339\nand 340.",
+        "instruction": "Turn around...don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPHI.FA.W.0009.000000T0000Z-200126T0500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PHIFLWPHI"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-26T00:00:00-05:00"
+            ]
+        }
+    }
+}
