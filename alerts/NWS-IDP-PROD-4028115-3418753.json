@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4028115-3418753",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.45,
+                    40.5
+                ],
+                [
+                    -81.48,
+                    40.52
+                ],
+                [
+                    -81.45,
+                    40.53
+                ],
+                [
+                    -81.42,
+                    40.57
+                ],
+                [
+                    -81.39,
+                    40.55
+                ],
+                [
+                    -81.45,
+                    40.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4028115-3418753",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4028115-3418753",
+        "areaDesc": "Tuscarawas, OH",
+        "geocode": {
+            "UGC": [
+                "OHC157"
+            ],
+            "SAME": [
+                "039157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027888-3418581",
+                "identifier": "NWS-IDP-PROD-4027888-3418581",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-25T15:38:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4027704-3418449",
+                "identifier": "NWS-IDP-PROD-4027704-3418449",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-25T11:52:00-05:00"
+            }
+        ],
+        "sent": "2020-01-25T20:54:00-05:00",
+        "effective": "2020-01-25T20:54:00-05:00",
+        "onset": "2020-01-25T20:54:00-05:00",
+        "expires": "2020-01-26T01:45:00-05:00",
+        "ends": "2020-01-26T01:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pittsburgh PA",
+        "headline": "Flood Advisory issued January 25 at 8:54PM EST until January 26 at 1:45AM EST by NWS Pittsburgh PA",
+        "description": "The National Weather Service in Pittsburgh has extended the\n\n* Flood Advisory for...\nNorth central Tuscarawas County in east central Ohio...\n\n* Until 145 AM EST.\n\n* At 848 PM EST, the river gauge was holding near 7.5 feet at Dover\nDam on the Tuscarawas River.  Minor river flooding is occurring.\nIf the river stage reaches 8 feet, water will reach several homes\njust upstream of Dover.\n\nPlease report flooding by calling 412-262-1988, posting to\nthe NWS Pittsburgh Facebook page, or using Twitter @NWSPITTSBURGH.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPBZ.FA.Y.0001.000000T0000Z-200126T0645Z/"
+            ],
+            "PIL": [
+                "PBZFLSPBZ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-26T01:45:00-05:00"
+            ]
+        }
+    }
+}
