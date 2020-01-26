@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4028704-3419163",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.6,
+                    41.63
+                ],
+                [
+                    -88.6,
+                    41.54
+                ],
+                [
+                    -88.78,
+                    41.339999999999996
+                ],
+                [
+                    -88.88,
+                    41.339999999999996
+                ],
+                [
+                    -88.7099999,
+                    41.56999999999999
+                ],
+                [
+                    -88.6,
+                    41.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4028704-3419163",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4028704-3419163",
+        "areaDesc": "La Salle, IL",
+        "geocode": {
+            "UGC": [
+                "ILC099"
+            ],
+            "SAME": [
+                "017099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4028064-3418714",
+                "identifier": "NWS-IDP-PROD-4028064-3418714",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-25T18:50:00-06:00"
+            }
+        ],
+        "sent": "2020-01-26T10:08:00-06:00",
+        "effective": "2020-01-26T10:08:00-06:00",
+        "onset": "2020-01-26T10:08:00-06:00",
+        "expires": "2020-01-26T22:09:00-06:00",
+        "ends": "2020-01-28T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Warning issued January 26 at 10:08AM CST until January 28 at 12:00AM CST by NWS Chicago IL",
+        "description": "...The Flood Warning continues for the following rivers in\nIllinois...\n\nFox River at Dayton affecting La Salle County\n\nThe Flood Warning continues for\nThe Fox River at Dayton, or from Millington downstream to confluence\nwith the Illinois River.\n* At  945 AM Sunday the stage was 12.4 feet and was ice affected.\n* Flood stage is 12.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river levels continue to slowly fall, but ice remains\nin place. Additional water level fluctuations remain possible. Ice\njams can result in rapid rises in water levels with little or no\nwarning.\n* Impact...Ice jam flooding is often very localized and may not impact\nall areas along the river at the same time or to the same level of\nseverity.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.\n\nIce jams may cause rapid fluctuations in water levels with little or\nno warning. During ice jam flooding, not all locations may experience\nimpacts at the same time or to the same level of severity. Movement\nof river ice may cause additional flooding into areas not currently\nexperiencing impacts. Residents near the river should remain alert\nfor possible flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLOT.FL.W.0022.000000T0000Z-200128T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-28T00:00:00-06:00"
+            ]
+        }
+    }
+}
