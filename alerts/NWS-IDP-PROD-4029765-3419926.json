@@ -1,0 +1,77 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4029765-3419926",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4029765-3419926",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4029765-3419926",
+        "areaDesc": "Tulare County; Eastern Kern County; Fort Tejon; Bakersfield; Southern Sierra Foothills",
+        "geocode": {
+            "UGC": [
+                "CAZ185",
+                "CAZ188",
+                "CAZ197",
+                "CAZ189",
+                "CAZ191"
+            ],
+            "SAME": [
+                "006107",
+                "006029",
+                "006031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CAZ185",
+            "https://api.weather.gov/zones/forecast/CAZ188",
+            "https://api.weather.gov/zones/forecast/CAZ197",
+            "https://api.weather.gov/zones/forecast/CAZ189",
+            "https://api.weather.gov/zones/forecast/CAZ191"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4029498-3419718",
+                "identifier": "NWS-IDP-PROD-4029498-3419718",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-27T05:47:00-08:00"
+            }
+        ],
+        "sent": "2020-01-27T09:55:00-08:00",
+        "effective": "2020-01-27T09:55:00-08:00",
+        "onset": "2020-01-27T09:55:00-08:00",
+        "expires": "2020-01-27T11:00:00-08:00",
+        "ends": "2020-01-27T10:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Dense Fog Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Hanford CA",
+        "headline": "Dense Fog Advisory issued January 27 at 9:55AM PST until January 27 at 10:00AM PST by NWS Hanford CA",
+        "description": "Visibilities across the area have improved, therefore the dense\nfog advisory will be allowed to expire. Motorists should still be\nalert for a few lingering patches of dense fog for the next hour\nor so.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "DENSE FOG ADVISORY WILL EXPIRE AT 10 AM PST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXP.KHNX.FG.Y.0020.000000T0000Z-200127T1800Z/"
+            ],
+            "PIL": [
+                "HNXNPWHNX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-27T10:00:00-08:00"
+            ]
+        }
+    }
+}
