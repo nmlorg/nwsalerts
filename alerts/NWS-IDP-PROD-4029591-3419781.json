@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4029591-3419781",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.6,
+                    32.46
+                ],
+                [
+                    -81.52,
+                    32.52
+                ],
+                [
+                    -81.39999999999999,
+                    32.27
+                ],
+                [
+                    -81.33,
+                    32.080000000000005
+                ],
+                [
+                    -81.42999999999999,
+                    32.06
+                ],
+                [
+                    -81.49999999999999,
+                    32.2299999
+                ],
+                [
+                    -81.6,
+                    32.46
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4029591-3419781",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4029591-3419781",
+        "areaDesc": "Effingham, GA; Bulloch, GA; Chatham, GA; Bryan, GA",
+        "geocode": {
+            "UGC": [
+                "GAC103",
+                "GAC031",
+                "GAC051",
+                "GAC029"
+            ],
+            "SAME": [
+                "013103",
+                "013031",
+                "013051",
+                "013029"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC103",
+            "https://api.weather.gov/zones/county/GAC031",
+            "https://api.weather.gov/zones/county/GAC051",
+            "https://api.weather.gov/zones/county/GAC029"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4029042-3419413",
+                "identifier": "NWS-IDP-PROD-4029042-3419413",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-26T20:47:00-05:00"
+            }
+        ],
+        "sent": "2020-01-27T10:21:00-05:00",
+        "effective": "2020-01-27T10:21:00-05:00",
+        "onset": "2020-01-27T13:00:00-05:00",
+        "expires": "2020-01-28T10:21:00-05:00",
+        "ends": "2020-01-29T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston SC",
+        "headline": "Flood Warning issued January 27 at 10:21AM EST until January 29 at 7:00PM EST by NWS Charleston SC",
+        "description": "The Flood Warning continues for\nThe Ogeechee River near Eden.\n* At 9 AM Monday the stage was 10.9 feet.\n* Flood stage is 11.0 feet.\n* Minor flooding is forecast.\n* Forecast, rise above flood stage this afternoon and continue to\nrise to near 11.1 feet by early Tuesday morning. The river will\nfall below flood stage by Wednesday morning.\n* At 11.0 feet, portions of Yarbrough Landing Road become impassable.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCHS.FL.W.0007.200127T1800Z-200130T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CHSFLSCHS"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-29T19:00:00-05:00"
+            ]
+        }
+    }
+}
