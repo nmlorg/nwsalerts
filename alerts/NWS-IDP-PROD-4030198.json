@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4030198",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -100.23,
+                    30.17
+                ],
+                [
+                    -100.77000000000001,
+                    29.860000000000003
+                ],
+                [
+                    -100.9,
+                    30.01
+                ],
+                [
+                    -100.54,
+                    30.290000000000003
+                ],
+                [
+                    -100.34,
+                    30.290000000000003
+                ],
+                [
+                    -100.23,
+                    30.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4030198",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4030198",
+        "areaDesc": "Edwards; Val Verde",
+        "geocode": {
+            "UGC": [
+                "TXZ184",
+                "TXZ183"
+            ],
+            "SAME": [
+                "048137",
+                "048465"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TXZ184",
+            "https://api.weather.gov/zones/forecast/TXZ183"
+        ],
+        "references": [],
+        "sent": "2020-01-27T23:54:00-06:00",
+        "effective": "2020-01-27T23:54:00-06:00",
+        "onset": "2020-01-27T23:54:00-06:00",
+        "expires": "2020-01-28T00:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Special Weather Statement issued January 27 at 11:54PM CST by NWS Austin/San Antonio TX",
+        "description": "At 1153 PM CST, Doppler radar was tracking a strong thunderstorm\nnear Loma Alta, and another strong thunderstorms in rural northwest\nEdwards County, both moving northeast at 35 mph.\n\nHalf inch hail will be possible with these storms.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-27T23:53:00.000-06:00...storm...232DEG...31KT...29.98,-100.77"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHWESTERN EDWARDS AND EAST CENTRAL VAL VERDE COUNTIES UNTIL 1245 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSPSEWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
