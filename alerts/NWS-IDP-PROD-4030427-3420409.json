@@ -1,0 +1,83 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4030427-3420409",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4030427-3420409",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4030427-3420409",
+        "areaDesc": "Wenatchee Area; Waterville Plateau",
+        "geocode": {
+            "UGC": [
+                "WAZ041",
+                "WAZ044"
+            ],
+            "SAME": [
+                "053007",
+                "053017",
+                "053025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/WAZ041",
+            "https://api.weather.gov/zones/forecast/WAZ044"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4030172-3420238",
+                "identifier": "NWS-IDP-PROD-4030172-3420238",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-27T21:22:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4029908-3420028",
+                "identifier": "NWS-IDP-PROD-4029908-3420028",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-27T14:01:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4029415-3419667",
+                "identifier": "NWS-IDP-PROD-4029415-3419667",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-27T03:16:00-08:00"
+            }
+        ],
+        "sent": "2020-01-28T04:56:00-08:00",
+        "effective": "2020-01-28T04:56:00-08:00",
+        "onset": "2020-01-28T04:56:00-08:00",
+        "expires": "2020-01-28T06:00:00-08:00",
+        "ends": "2020-01-28T05:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Spokane WA",
+        "headline": "Winter Weather Advisory issued January 28 at 4:56AM PST until January 28 at 5:00AM PST by NWS Spokane WA",
+        "description": "Precipitation will be coming to an end shortly. Additional snow\naccumulations will be very light. Therefore the winter weather\nadvisory has been allowed to expire.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY WILL EXPIRE AT 5 AM PST EARLY THIS MORNING FOR THE HIGHER ELEVATIONS AROUND WENATCHEE AND CHELAN"
+            ],
+            "VTEC": [
+                "/O.EXP.KOTX.WW.Y.0012.000000T0000Z-200128T1300Z/"
+            ],
+            "PIL": [
+                "OTXWSWOTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-28T05:00:00-08:00"
+            ]
+        }
+    }
+}
