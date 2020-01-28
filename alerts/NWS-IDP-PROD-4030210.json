@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4030210",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -99.4,
+                    30.02
+                ],
+                [
+                    -100.0699999,
+                    29.81
+                ],
+                [
+                    -100.17,
+                    29.959999999999997
+                ],
+                [
+                    -99.66,
+                    30.289999999999996
+                ],
+                [
+                    -99.5699999,
+                    30.289999999999996
+                ],
+                [
+                    -99.4,
+                    30.02
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4030210",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4030210",
+        "areaDesc": "Edwards; Kerr; Real",
+        "geocode": {
+            "UGC": [
+                "TXZ184",
+                "TXZ186",
+                "TXZ185"
+            ],
+            "SAME": [
+                "048137",
+                "048265",
+                "048385"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TXZ184",
+            "https://api.weather.gov/zones/forecast/TXZ186",
+            "https://api.weather.gov/zones/forecast/TXZ185"
+        ],
+        "references": [],
+        "sent": "2020-01-28T00:49:00-06:00",
+        "effective": "2020-01-28T00:49:00-06:00",
+        "onset": "2020-01-28T00:49:00-06:00",
+        "expires": "2020-01-28T01:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Special Weather Statement issued January 28 at 12:49AM CST by NWS Austin/San Antonio TX",
+        "description": "At 1249 AM CST, Doppler radar was tracking a strong thunderstorm 8\nmiles north of Vance, or 11 miles southeast of Rocksprings, moving\nnortheast at 50 mph.\n\nPenny size hail will be possible with this storm.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-28T00:49:00.000-06:00...storm...239DEG...43KT...29.93,-100.04"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHWESTERN KERR...EAST CENTRAL EDWARDS AND NORTHERN REAL COUNTIES UNTIL 130 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSPSEWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
