@@ -1,0 +1,85 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032051-3421552",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032051-3421552",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4032051-3421552",
+        "areaDesc": "Reno; Harper; Rice; Russell; Ellsworth; Kingman; Barton",
+        "geocode": {
+            "UGC": [
+                "KSZ067",
+                "KSZ091",
+                "KSZ050",
+                "KSZ032",
+                "KSZ048",
+                "KSZ082",
+                "KSZ047"
+            ],
+            "SAME": [
+                "020155",
+                "020077",
+                "020159",
+                "020167",
+                "020053",
+                "020095",
+                "020009"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KSZ067",
+            "https://api.weather.gov/zones/forecast/KSZ091",
+            "https://api.weather.gov/zones/forecast/KSZ050",
+            "https://api.weather.gov/zones/forecast/KSZ032",
+            "https://api.weather.gov/zones/forecast/KSZ048",
+            "https://api.weather.gov/zones/forecast/KSZ082",
+            "https://api.weather.gov/zones/forecast/KSZ047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4031868-3421442",
+                "identifier": "NWS-IDP-PROD-4031868-3421442",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-29T22:09:00-06:00"
+            }
+        ],
+        "sent": "2020-01-30T03:30:00-06:00",
+        "effective": "2020-01-30T03:30:00-06:00",
+        "onset": "2020-01-30T03:30:00-06:00",
+        "expires": "2020-01-30T10:00:00-06:00",
+        "ends": "2020-01-30T10:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Dense Fog Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wichita KS",
+        "headline": "Dense Fog Advisory issued January 30 at 3:30AM CST until January 30 at 10:00AM CST by NWS Wichita KS",
+        "description": "* WHAT...Visibility one-quarter mile or less at times.\n\n* WHERE...Russell, Barton, Ellsworth, Rice, Reno, Kingman and\nHarper Counties.\n\n* WHEN...Until 10 AM CST this morning.\n\n* IMPACTS...Hazardous driving conditions due to low visibility.\n\n* ADDITIONAL DETAILS...With temperatures in the mid and upper 20s\nroads and highways are likely to be slick, especially on\nbridges. Be careful! Accidents and slide offs occurred yesterday\nmorning.",
+        "instruction": "When driving, slow down, use your low-beam headlights and leave\nample following distance. Sidewalks and driveways are also likely\nto be slick.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "DENSE FOG ADVISORY NOW IN EFFECT UNTIL 10 AM CST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXT.KICT.FG.Y.0007.000000T0000Z-200130T1600Z/"
+            ],
+            "PIL": [
+                "ICTNPWICT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-30T10:00:00-06:00"
+            ]
+        }
+    }
+}
