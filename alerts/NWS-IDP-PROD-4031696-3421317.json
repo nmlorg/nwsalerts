@@ -1,0 +1,87 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4031696-3421317",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.6,
+                    41.63
+                ],
+                [
+                    -88.6,
+                    41.54
+                ],
+                [
+                    -88.78,
+                    41.339999999999996
+                ],
+                [
+                    -88.88,
+                    41.339999999999996
+                ],
+                [
+                    -88.7099999,
+                    41.56999999999999
+                ],
+                [
+                    -88.6,
+                    41.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4031696-3421317",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4031696-3421317",
+        "areaDesc": "La Salle, IL",
+        "geocode": {
+            "UGC": [
+                "ILC099"
+            ],
+            "SAME": [
+                "017099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC099"
+        ],
+        "references": [],
+        "sent": "2020-01-29T18:01:00-06:00",
+        "effective": "2020-01-29T18:01:00-06:00",
+        "onset": "2020-01-29T18:01:00-06:00",
+        "expires": "2020-01-30T06:01:00-06:00",
+        "ends": "2020-02-03T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Advisory issued January 29 at 6:01PM CST until February 3 at 12:00AM CST by NWS Chicago IL",
+        "description": "...The National Weather Service in Chicago has issued a Flood\nAdvisory for the Fox River...\n\nFox River at Dayton affecting La Salle County\n\nThe National Weather Service in Chicago has issued a\n* Flood Advisory for\nThe Fox River at Dayton, or from Millington downstream to confluence\nwith the Illinois River.\n* until late Sunday night.\n* At  545 PM Wednesday the stage was 11.8 feet.\n* Action stage is 11.0 feet.\n* Flood stage is 12.0 feet.\n* Forecast...The river appears to be ice affected, but is expected to\nremain just below the 12.0 foot flood stage.\n* Impact...Ice jam flooding is often very localized and may not impact\nall areas along the river at the same time or to the same level of\nseverity.",
+        "instruction": "Ice jams may cause rapid fluctuations in water levels with little or\nno warning. During ice jam flooding, not all locations may experience\nimpacts at the same time or to the same level of severity. Movement\nof river ice may cause additional flooding into areas not currently\nexperiencing impacts. Residents near the river should remain alert\nfor possible flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLOT.FL.Y.0011.200130T0001Z-200203T0600Z/"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-03T00:00:00-06:00"
+            ]
+        }
+    }
+}
