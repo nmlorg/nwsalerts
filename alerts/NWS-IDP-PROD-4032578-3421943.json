@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032578-3421943",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -105.02,
+                    39.13
+                ],
+                [
+                    -105,
+                    39.57
+                ],
+                [
+                    -104.81,
+                    39.52
+                ],
+                [
+                    -104.66,
+                    39.35
+                ],
+                [
+                    -104.39,
+                    39.13
+                ],
+                [
+                    -105.02,
+                    39.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032578-3421943",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4032578-3421943",
+        "areaDesc": "Douglas, CO; Elbert, CO",
+        "geocode": {
+            "UGC": [
+                "COC035",
+                "COC039"
+            ],
+            "SAME": [
+                "008035",
+                "008039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/COC035",
+            "https://api.weather.gov/zones/county/COC039"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032564-3421929",
+                "identifier": "NWS-IDP-PROD-4032564-3421929",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-30T18:08:00-07:00"
+            }
+        ],
+        "sent": "2020-01-30T18:35:00-07:00",
+        "effective": "2020-01-30T18:35:00-07:00",
+        "onset": "2020-01-30T18:34:00-07:00",
+        "expires": "2020-01-30T19:00:00-07:00",
+        "ends": "2020-01-30T19:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Denver CO",
+        "headline": "Snow Squall Warning issued January 30 at 6:34PM MST until January 30 at 7:00PM MST by NWS Denver CO",
+        "description": "At 634 PM MST, a dangerous snow squall was located along a line\nextending from near Louviers to 6 miles north of Black Forest, or\nalong a line extending from 18 miles south of Denver to 20 miles\nnorth of Colorado Springs, moving south at 25 mph.\n\nHAZARD...Extremely poor visibility and heavy snow.\n\nSOURCE...Radar and webcams.\n\nIMPACT...Dangerous life-threatening travel.\n\nThis includes Interstate 25 between mile markers 164 and 192.\n\nLocations impacted include...\nHighlands Ranch, Castle Rock, southwestern Parker, Elbert, Lone Tree,\nLarkspur, Perry Park, Louviers, Franktown, Castle Pines, Sedalia,\nGreenland and The Pinery.",
+        "instruction": "Consider avoiding or delaying travel until the snow squall passes\nyour location. If you must travel, use extra caution and allow extra\ntime. Rapid changes in visibility and slick road conditions may lead\nto accidents.\n\nWet roadways will quickly freeze. Black ice will cause roads, bridges\nand overpasses to become slick and dangerous. Slow down and be\nprepared for sudden loss of traction.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-30T18:34:00.000-07:00...storm...019DEG...20KT...39.48,-104.96 39.11,-104.68"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WARNING REMAINS IN EFFECT UNTIL 700 PM MST FOR EASTERN DOUGLAS AND WEST CENTRAL ELBERT COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KBOU.SQ.W.0003.000000T0000Z-200131T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BOUSQWBOU"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-30T19:00:00-07:00"
+            ]
+        }
+    }
+}
