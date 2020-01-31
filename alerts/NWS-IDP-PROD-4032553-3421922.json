@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032553-3421922",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -104.15,
+                    40.32
+                ],
+                [
+                    -105.24000000000001,
+                    40.7
+                ],
+                [
+                    -105.20999990000001,
+                    41
+                ],
+                [
+                    -104.20000000000002,
+                    41
+                ],
+                [
+                    -104.15,
+                    40.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032553-3421922",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4032553-3421922",
+        "areaDesc": "Larimer, CO; Weld, CO",
+        "geocode": {
+            "UGC": [
+                "COC069",
+                "COC123"
+            ],
+            "SAME": [
+                "008069",
+                "008123"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/COC069",
+            "https://api.weather.gov/zones/county/COC123"
+        ],
+        "references": [],
+        "sent": "2020-01-30T18:00:00-07:00",
+        "effective": "2020-01-30T18:00:00-07:00",
+        "onset": "2020-01-30T17:57:00-07:00",
+        "expires": "2020-01-30T18:45:00-07:00",
+        "ends": "2020-01-30T18:45:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Denver CO",
+        "headline": "Snow Squall Warning issued January 30 at 5:57PM MST until January 30 at 6:45PM MST by NWS Denver CO",
+        "description": "The National Weather Service in Denver Colorado has issued a\n\n* Snow Squall Warning for...\nNorthwestern Weld County in northeastern Colorado...\nNortheastern Larimer County in north central Colorado...\n\n* Until 645 PM MST.\n\n* At 557 PM MST, a dangerous snow squall was located along a line\nextending from near Grover to near Federal, or along a line\nextending from 38 miles northeast of Greeley to 20 miles northwest\nof Cheyenne, moving south at 40 mph.\n\nHAZARD...Heavy snow and blowing snow. Wind gusts up to 40 mph.\n\nSOURCE...Radar and webcams.\n\nIMPACT...Dangerous life-threatening travel.\n\n* This includes Interstate 25 between mile markers 272 and 297.\n\nLocations impacted include...\nWellington, Eaton, Severance, Ault, Pierce, Nunn, Grover, Purcell,\nCarr, Galeton, Livermore, Natural Fort, Barnesville, Rockport,\nHereford and Briggsdale.",
+        "instruction": "Consider avoiding or delaying travel until the snow squall passes\nyour location. If you must travel, use extra caution and allow extra\ntime. Rapid changes in visibility and slick road conditions may lead\nto accidents.\n\nWet roadways will quickly freeze. Black ice will cause roads, bridges\nand overpasses to become slick and dangerous. Slow down and be\nprepared for sudden loss of traction.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-30T17:57:00.000-07:00...storm...348DEG...38KT...40.84,-104.25 41.31,-105.11"
+            ],
+            "VTEC": [
+                "/O.NEW.KBOU.SQ.W.0002.200131T0057Z-200131T0145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BOUSQWBOU"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-30T18:45:00-07:00"
+            ],
+            "CMAMtext": [
+                "Snow Squall Warning til 6:45 PM MST. Sudden whiteouts. Icy roads. Slow down! -NWS"
+            ]
+        }
+    }
+}
