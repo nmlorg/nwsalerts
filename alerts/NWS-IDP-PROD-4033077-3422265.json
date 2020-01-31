@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033077-3422265",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -131.73,
+                    55.41
+                ],
+                [
+                    -131.69,
+                    55.44
+                ],
+                [
+                    -131.65,
+                    55.419999999999995
+                ],
+                [
+                    -131.70000000000002,
+                    55.39999999999999
+                ],
+                [
+                    -131.73,
+                    55.41
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033077-3422265",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4033077-3422265",
+        "areaDesc": "Southern Inner Channels",
+        "geocode": {
+            "UGC": [
+                "AKZ028"
+            ],
+            "SAME": [
+                "002130",
+                "002198",
+                "002275"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AKZ028"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032345-3421778",
+                "identifier": "NWS-IDP-PROD-4032345-3421778",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-30T09:15:00-09:00"
+            }
+        ],
+        "sent": "2020-01-31T09:09:00-09:00",
+        "effective": "2020-01-31T09:09:00-09:00",
+        "onset": "2020-01-31T09:06:00-09:00",
+        "expires": "2020-01-31T09:16:00-09:00",
+        "ends": "2020-01-31T09:15:00-09:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Juneau AK",
+        "headline": "Flood Advisory issued January 31 at 9:06AM AKST until January 31 at 9:15AM AKST by NWS Juneau AK",
+        "description": "The high water is receding, and is no longer expected to pose a\nthreat. Please continue to heed any road closures.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLOOD ADVISORY FROM RAIN AND SNOWMELT WILL EXPIRE AT 915 AM AKST FOR THE WARD LAKE RECREATION AREA IN KETCHIKAN"
+            ],
+            "VTEC": [
+                "/O.EXP.PAJK.FA.Y.0001.000000T0000Z-200131T1815Z/"
+            ],
+            "PIL": [
+                "AJKFLSAJK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-31T09:15:00-09:00"
+            ]
+        }
+    }
+}
