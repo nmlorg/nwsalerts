@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032572-3421937",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -105.25,
+                    41.42
+                ],
+                [
+                    -105.03,
+                    41.4099999
+                ],
+                [
+                    -104.5699999,
+                    41.1599999
+                ],
+                [
+                    -104.56,
+                    41
+                ],
+                [
+                    -105.26,
+                    41
+                ],
+                [
+                    -105.25,
+                    41.42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032572-3421937",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4032572-3421937",
+        "areaDesc": "Laramie, WY",
+        "geocode": {
+            "UGC": [
+                "WYC021"
+            ],
+            "SAME": [
+                "056021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WYC021"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032539-3421908",
+                "identifier": "NWS-IDP-PROD-4032539-3421908",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-30T17:50:00-07:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032532-3421901",
+                "identifier": "NWS-IDP-PROD-4032532-3421901",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-30T17:32:00-07:00"
+            }
+        ],
+        "sent": "2020-01-30T18:09:00-07:00",
+        "effective": "2020-01-30T18:09:00-07:00",
+        "onset": "2020-01-30T18:09:00-07:00",
+        "expires": "2020-01-30T18:15:00-07:00",
+        "ends": "2020-01-30T18:15:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cheyenne WY",
+        "headline": "Snow Squall Warning issued January 30 at 6:09PM MST until January 30 at 6:15PM MST by NWS Cheyenne WY",
+        "description": "At 609 PM MST, a dangerous snow squall was located along a line\nextending from near Granite Springs Reservoir to 7 miles west of\nGrover, moving south at 35 mph.\n\nHAZARD...Whiteout conditions. Zero visibility in heavy snow and\nblowing snow. Wind gusts greater than 30 mph.\n\nSOURCE...Whiteout conditions observed.\n\nIMPACT...Dangerous life-threatening travel.\n\nThis includes the following highways...\nInterstate 25 in Wyoming between mile markers 1 and 23.\nInterstate 80 in Wyoming between mile markers 338 and 374.\n\nLocations impacted include...\nCheyenne, South Greeley, Federal, Crystal Lake Reservoir, Crystal\nLake Campground, Granite Springs Reservoir, Ranchettes, Granite\nSprings Campground, Warren AFB, Frontier Park, North Cheyenne, Horse\nCreek, Warren Af Base, Fox Farm-College and South Greeley High.",
+        "instruction": "Consider avoiding or delaying travel until the snow squall passes\nyour location. If you must travel, use extra caution and allow extra\ntime. Rapid changes in visibility and slick road conditions may lead\nto accidents.\n\nThere is no safe place on a highway when a snow squall hits.\nVisibility and traction are immediately lost in whiteout conditions,\nmaking it difficult or impossible to slow down and avoid stopped\nvehicles. Delay travel or safely exit the highway before the snow\nsquall arrives.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-30T18:09:00.000-07:00...storm...353DEG...30KT...41.23,-105.18 40.85,-104.38"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WARNING REMAINS IN EFFECT UNTIL 615 PM MST FOR SOUTHWESTERN LARAMIE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KCYS.SQ.W.0008.000000T0000Z-200131T0115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CYSSQWCYS"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-30T18:15:00-07:00"
+            ]
+        }
+    }
+}
