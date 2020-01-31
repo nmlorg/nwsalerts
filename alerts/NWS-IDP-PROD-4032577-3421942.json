@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032577-3421942",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -105.23,
+                    40.77
+                ],
+                [
+                    -105.14,
+                    41
+                ],
+                [
+                    -104.91,
+                    41
+                ],
+                [
+                    -104.17,
+                    40.61
+                ],
+                [
+                    -104.15,
+                    40.32
+                ],
+                [
+                    -105.24000000000001,
+                    40.7
+                ],
+                [
+                    -105.23,
+                    40.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032577-3421942",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4032577-3421942",
+        "areaDesc": "Larimer, CO; Weld, CO",
+        "geocode": {
+            "UGC": [
+                "COC069",
+                "COC123"
+            ],
+            "SAME": [
+                "008069",
+                "008123"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/COC069",
+            "https://api.weather.gov/zones/county/COC123"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032553-3421922",
+                "identifier": "NWS-IDP-PROD-4032553-3421922",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-30T18:00:00-07:00"
+            }
+        ],
+        "sent": "2020-01-30T18:27:00-07:00",
+        "effective": "2020-01-30T18:27:00-07:00",
+        "onset": "2020-01-30T18:27:00-07:00",
+        "expires": "2020-01-30T18:45:00-07:00",
+        "ends": "2020-01-30T18:45:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Denver CO",
+        "headline": "Snow Squall Warning issued January 30 at 6:27PM MST until January 30 at 6:45PM MST by NWS Denver CO",
+        "description": "At 627 PM MST, a dangerous snow squall was located along a line\nextending from 9 miles southeast of Briggsdale to 7 miles northwest\nof Natural Fort, or along a line extending from 27 miles northwest of\nFort Morgan to 14 miles southwest of Cheyenne, moving south at 45\nmph.\n\nHAZARD...Heavy snow and blowing snow. Wind gusts up to 45 mph.\n\nSOURCE...Radar and webcams.\n\nIMPACT...Dangerous life-threatening travel.\n\nThis includes Interstate 25 between mile markers 272 and 297.\n\nLocations impacted include...\nWellington, Eaton, Severance, Ault, Pierce, Nunn, Purcell, Carr,\nGaleton, Natural Fort, Barnesville, Rockport, Briggsdale and\nLivermore.",
+        "instruction": "Consider avoiding or delaying travel until the snow squall passes\nyour location. If you must travel, use extra caution and allow extra\ntime. Rapid changes in visibility and slick road conditions may lead\nto accidents.\n\nWet roadways will quickly freeze. Black ice will cause roads, bridges\nand overpasses to become slick and dangerous. Slow down and be\nprepared for sudden loss of traction.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-30T18:27:00.000-07:00...storm...348DEG...38KT...40.55,-104.17 41.02,-105.03"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WARNING REMAINS IN EFFECT UNTIL 645 PM MST FOR NORTHWESTERN WELD AND NORTHEASTERN LARIMER COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KBOU.SQ.W.0002.000000T0000Z-200131T0145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BOUSQWBOU"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-30T18:45:00-07:00"
+            ]
+        }
+    }
+}
