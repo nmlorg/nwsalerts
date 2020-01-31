@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033069-3422259",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033069-3422259",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4033069-3422259",
+        "areaDesc": "Foggy Bottom; Western San Joaquin Valley; San Joaquin Confluence; Southern Kings County; Merced and Madera",
+        "geocode": {
+            "UGC": [
+                "CAZ183",
+                "CAZ182",
+                "CAZ180",
+                "CAZ186",
+                "CAZ181"
+            ],
+            "SAME": [
+                "006031",
+                "006019",
+                "006107",
+                "006039",
+                "006047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CAZ183",
+            "https://api.weather.gov/zones/forecast/CAZ182",
+            "https://api.weather.gov/zones/forecast/CAZ180",
+            "https://api.weather.gov/zones/forecast/CAZ186",
+            "https://api.weather.gov/zones/forecast/CAZ181"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032904-3422149",
+                "identifier": "NWS-IDP-PROD-4032904-3422149",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-31T05:45:00-08:00"
+            }
+        ],
+        "sent": "2020-01-31T09:47:00-08:00",
+        "effective": "2020-01-31T09:47:00-08:00",
+        "onset": "2020-01-31T09:47:00-08:00",
+        "expires": "2020-01-31T11:00:00-08:00",
+        "ends": "2020-01-31T10:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Dense Fog Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Hanford CA",
+        "headline": "Dense Fog Advisory issued January 31 at 9:47AM PST until January 31 at 10:00AM PST by NWS Hanford CA",
+        "description": "Visibilities across the area have largely improved, therefore the\ndense fog advisory will be allowed to expire. Motorists should\nremain alert for a few lingering patches of dense fog for the next\nhour or so, especially around the Lemoore area.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "DENSE FOG ADVISORY WILL EXPIRE AT 10 AM PST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXP.KHNX.FG.Y.0022.000000T0000Z-200131T1800Z/"
+            ],
+            "PIL": [
+                "HNXNPWHNX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-01-31T10:00:00-08:00"
+            ]
+        }
+    }
+}
