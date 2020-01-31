@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032539-3421908",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -105.25,
+                    41.6
+                ],
+                [
+                    -105.05,
+                    41.58
+                ],
+                [
+                    -104.0699999,
+                    41.089999999999996
+                ],
+                [
+                    -104.0699999,
+                    40.99999999999999
+                ],
+                [
+                    -105.26,
+                    40.99999999999999
+                ],
+                [
+                    -105.25,
+                    41.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032539-3421908",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4032539-3421908",
+        "areaDesc": "Laramie, WY",
+        "geocode": {
+            "UGC": [
+                "WYC021"
+            ],
+            "SAME": [
+                "056021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WYC021"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4032532-3421901",
+                "identifier": "NWS-IDP-PROD-4032532-3421901",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-30T17:32:00-07:00"
+            }
+        ],
+        "sent": "2020-01-30T17:50:00-07:00",
+        "effective": "2020-01-30T17:50:00-07:00",
+        "onset": "2020-01-30T17:49:00-07:00",
+        "expires": "2020-01-30T18:15:00-07:00",
+        "ends": "2020-01-30T18:15:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cheyenne WY",
+        "headline": "Snow Squall Warning issued January 30 at 5:49PM MST until January 30 at 6:15PM MST by NWS Cheyenne WY",
+        "description": "At 549 PM MST, a dangerous snow squall was located along a line\nextending from near Horse Creek to near Carpenter, moving south at 35\nmph.\n\nHAZARD...Whiteout conditions. Zero visibility in heavy snow and\nblowing snow. Wind gusts greater than 50 MPH.\n\nSOURCE...Radar and webcams.\n\nIMPACT...Dangerous life-threatening travel.\n\nThis includes the following highways...\nInterstate 25 in Wyoming between mile markers 1 and 36.\nInterstate 80 in Wyoming between mile markers 338 and 394.\n\nLocations impacted include...\nCheyenne, Burns, South Greeley, Hillsdale, Federal, Crystal Lake\nReservoir, Crystal Lake Campground, Granite Springs Reservoir, Iron\nMountain, Ranchettes, Granite Springs Campground, Warren AFB,\nFrontier Park, North Cheyenne, Whitaker, Horse Creek, Warren Af Base,\nCarpenter, Fox Farm-College and South Greeley High.",
+        "instruction": "Consider avoiding or delaying travel until the snow squall passes\nyour location. If you must travel, use extra caution and allow extra\ntime. Rapid changes in visibility and slick road conditions may lead\nto accidents.\n\nThere is no safe place on a highway when a snow squall hits.\nVisibility and traction are immediately lost in whiteout conditions,\nmaking it difficult or impossible to slow down and avoid stopped\nvehicles. Delay travel or safely exit the highway before the snow\nsquall arrives.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-01-30T17:49:00.000-07:00...storm...353DEG...30KT...41.39,-105.21 41.01,-104.4"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WARNING REMAINS IN EFFECT UNTIL 615 PM MST FOR SOUTHWESTERN LARAMIE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KCYS.SQ.W.0008.000000T0000Z-200131T0115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CYSSQWCYS"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-01-30T18:15:00-07:00"
+            ]
+        }
+    }
+}
