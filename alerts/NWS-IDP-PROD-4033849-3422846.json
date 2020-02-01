@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033849-3422846",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.9,
+                    47.8
+                ],
+                [
+                    -122.12,
+                    47.79
+                ],
+                [
+                    -122.17,
+                    47.86
+                ],
+                [
+                    -122.03,
+                    47.9099999
+                ],
+                [
+                    -122.02,
+                    47.93
+                ],
+                [
+                    -121.89999999999999,
+                    47.93
+                ],
+                [
+                    -121.9,
+                    47.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033849-3422846",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4033849-3422846",
+        "areaDesc": "Snohomish, WA",
+        "geocode": {
+            "UGC": [
+                "WAC061"
+            ],
+            "SAME": [
+                "053061"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC061"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033509-3422578",
+                "identifier": "NWS-IDP-PROD-4033509-3422578",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-31T21:46:00-08:00"
+            }
+        ],
+        "sent": "2020-02-01T04:54:00-08:00",
+        "effective": "2020-02-01T04:54:00-08:00",
+        "onset": "2020-02-01T04:54:00-08:00",
+        "expires": "2020-02-01T13:53:00-08:00",
+        "ends": "2020-02-02T19:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 1 at 4:54AM PST until February 2 at 7:00PM PST by NWS Seattle WA",
+        "description": "...The National Weather Service in Seattle has issued a flood warning\nfor the following rivers in Washington...\n\nSkagit River Near Mt. Vernon affecting Skagit County\n\n...Forecast flooding changed from Moderate to Major severity for the\nfollowing rivers in Washington...\n\nSouth Fork Nooksack River At Saxon Bridge affecting Whatcom County\nTolt River Above Carnation affecting King County\n\n...Forecast flooding changed from Minor to Moderate severity for the\nfollowing rivers in Washington...\n\nNooksack River At North Cedarville affecting Whatcom County\nSkykomish River Near Gold Bar affecting Snohomish County\nSnohomish River Near Monroe affecting Snohomish County\n\nThe second round of heavy rain has moved into the Northern\nand Central Cascades early this morning with one to two inches\nreported in the last six hours ending at 4 am. The heavy rain will\nmove south through the area later this morning.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0032.000000T0000Z-200203T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLWSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-02T19:00:00-08:00"
+            ]
+        }
+    }
+}
