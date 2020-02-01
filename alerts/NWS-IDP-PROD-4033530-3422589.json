@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033530-3422589",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.76,
+                    47.68
+                ],
+                [
+                    -121.85000000000001,
+                    47.61
+                ],
+                [
+                    -121.94000000000001,
+                    47.61
+                ],
+                [
+                    -121.96000000000001,
+                    47.67
+                ],
+                [
+                    -121.89000000000001,
+                    47.71
+                ],
+                [
+                    -121.84000000000002,
+                    47.74
+                ],
+                [
+                    -121.76,
+                    47.68
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033530-3422589",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4033530-3422589",
+        "areaDesc": "King, WA",
+        "geocode": {
+            "UGC": [
+                "WAC033"
+            ],
+            "SAME": [
+                "053033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033331-3422461",
+                "identifier": "NWS-IDP-PROD-4033331-3422461",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-31T18:05:00-08:00"
+            }
+        ],
+        "sent": "2020-01-31T22:30:00-08:00",
+        "effective": "2020-01-31T22:30:00-08:00",
+        "onset": "2020-01-31T22:30:00-08:00",
+        "expires": "2020-02-01T06:30:00-08:00",
+        "ends": "2020-02-02T05:04:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued January 31 at 10:30PM PST until February 2 at 5:04AM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nSkokomish River At Potlatch affecting Mason County\nStillaguamish River At Arlington affecting Snohomish County\nSkykomish River Near Gold Bar affecting Snohomish County\nTolt River Above Carnation affecting King County\n\n\nThe second round of heavy rain has moved into the Northern\nCascades tonight and will continue to move south through the area\nSaturday morning.\n\nThe Flood Warning continues for\nThe Tolt River Above Carnation\n* Until late Saturday night.\n* At  9:15 PM Friday the flow was 5114 cfs.\n* Flood flow is 5000 cfs.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will recede briefly back under flood stage\nthen rise and crest near 6671 cfs around 10 AM Saturday. The river\nwill fall below flood flow Saturday night.\n* Impact...At 5000 cfs, the Tolt River will flood Tolt River Rd NE and\nmany driveways. Some homes in the San Souci area could be\ninaccessible due to deep and quick flood waters. This river level\non the Tolt corresponds to a phase 3 flood in the King County flood\nsystem.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0023.000000T0000Z-200202T1304Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-02T05:04:00-08:00"
+            ]
+        }
+    }
+}
