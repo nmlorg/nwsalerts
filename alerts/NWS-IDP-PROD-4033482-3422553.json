@@ -1,0 +1,120 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033482-3422553",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.52,
+                    25.15
+                ],
+                [
+                    -81.47999999999999,
+                    25.099999999999998
+                ],
+                [
+                    -81.22999999999999,
+                    25.11
+                ],
+                [
+                    -81.27,
+                    24.79
+                ],
+                [
+                    -81.95,
+                    24.599999999999998
+                ],
+                [
+                    -82.06,
+                    25.189999999999998
+                ],
+                [
+                    -81.53,
+                    25.229999999999997
+                ],
+                [
+                    -81.52,
+                    25.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033482-3422553",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4033482-3422553",
+        "areaDesc": "Bayside and Gulf side from Craig Key to West End of Seven Mile Bridge; Gulf of Mexico from West End of Seven Mile Bridge to Halfmoon Shoal out to 5 Fathoms; Gulf waters from East Cape Sable to Chokoloskee 20 to 60 NM out and beyond 5 fathoms",
+        "geocode": {
+            "UGC": [
+                "GMZ032",
+                "GMZ035",
+                "GMZ033"
+            ],
+            "SAME": [
+                "077032",
+                "077035",
+                "077033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/GMZ032",
+            "https://api.weather.gov/zones/forecast/GMZ035",
+            "https://api.weather.gov/zones/forecast/GMZ033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033435-3422502",
+                "identifier": "NWS-IDP-PROD-4033435-3422502",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-31T23:21:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033455-3422521",
+                "identifier": "NWS-IDP-PROD-4033455-3422521",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-31T23:50:00-05:00"
+            }
+        ],
+        "sent": "2020-02-01T00:09:00-05:00",
+        "effective": "2020-02-01T00:09:00-05:00",
+        "onset": "2020-02-01T00:09:00-05:00",
+        "expires": "2020-02-01T00:19:00-05:00",
+        "ends": "2020-02-01T00:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Key West FL",
+        "headline": "Special Marine Warning issued February 1 at 12:09AM EST until February 1 at 12:15AM EST by NWS Key West FL",
+        "description": "The affected areas were...\nBay and Gulf Side from Craig Key to Halfmoon Shoal out to 5\nfathoms...\nGulf Waters from East Cape Sable to Chokoloskee 20 to 60 nm out and\nbeyond 5 fathoms...\n\nThe shower has weakened and no longer poses a significant threat to\nboaters.\n\nA Severe Thunderstorm Watch remains in effect until 300 AM EST for\nthe adjacent coastal waters.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-01T00:09:00.000-05:00...storm...269DEG...28KT...24.8,-81.32"
+            ],
+            "NWSheadline": [
+                "THE SPECIAL MARINE WARNING WILL EXPIRE AT 1215 AM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KKEY.MA.W.0013.000000T0000Z-200201T0515Z/"
+            ],
+            "PIL": [
+                "KEYMWSKEY"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-01T00:15:00-05:00"
+            ]
+        }
+    }
+}
