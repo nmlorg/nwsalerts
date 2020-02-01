@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033870-3422861",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -124.4,
+                    47.89
+                ],
+                [
+                    -124.53,
+                    47.89
+                ],
+                [
+                    -124.63,
+                    47.89
+                ],
+                [
+                    -124.67,
+                    47.95
+                ],
+                [
+                    -124.55,
+                    47.96
+                ],
+                [
+                    -124.42999999999999,
+                    47.9799999
+                ],
+                [
+                    -124.4,
+                    47.89
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033870-3422861",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4033870-3422861",
+        "areaDesc": "Clallam, WA",
+        "geocode": {
+            "UGC": [
+                "WAC009"
+            ],
+            "SAME": [
+                "053009"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC009"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033616-3422642",
+                "identifier": "NWS-IDP-PROD-4033616-3422642",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-01T00:58:00-08:00"
+            }
+        ],
+        "sent": "2020-02-01T05:29:00-08:00",
+        "effective": "2020-02-01T05:29:00-08:00",
+        "onset": "2020-02-01T05:29:00-08:00",
+        "expires": "2020-02-01T14:28:00-08:00",
+        "ends": "2020-02-01T22:28:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 1 at 5:29AM PST until February 1 at 10:28PM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nSkokomish River At Potlatch affecting Mason County\nBogachiel River Near La Push affecting Clallam County\n\nOlympic Peninsula Region\n\nThe second round of heavy rain has moved into the Olympics early\nthis morning with one to two inches reported in the last six hours\nending at 5 am. The heavy rain will move south through the area\nlater this morning.\n\nThe Flood Warning continues for\nThe Bogachiel River Near La Push\n* Until this evening.\n* At  4:30 AM Saturday the stage was 38.6 feet.\n* Flood stage is 37.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to rise and crest near 38.8 feet\naround 7 AM Saturday. The river will fall below flood stage early\nthis afternoon.\n* Impact...At 37.0 feet, the Bogachiel River will cause flooding of\nState Highway 110 near the Bogachiel bridge...closing the road.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KSEW.FL.W.0034.000000T0000Z-200202T0628Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-01T22:28:00-08:00"
+            ]
+        }
+    }
+}
