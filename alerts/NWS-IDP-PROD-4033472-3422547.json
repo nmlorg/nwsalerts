@@ -1,0 +1,132 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033472-3422547",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.12,
+                    25.63
+                ],
+                [
+                    -80.16000000000001,
+                    25.529999999999998
+                ],
+                [
+                    -80.17000000000002,
+                    25.519999999999996
+                ],
+                [
+                    -80.30000000000001,
+                    25.629999999999995
+                ],
+                [
+                    -80.36000000000001,
+                    25.719999999999995
+                ],
+                [
+                    -80.20999990000001,
+                    25.879999999999995
+                ],
+                [
+                    -80.10000000000001,
+                    25.879999999999995
+                ],
+                [
+                    -80.12,
+                    25.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033472-3422547",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4033472-3422547",
+        "areaDesc": "Miami-Dade, FL",
+        "geocode": {
+            "UGC": [
+                "FLC086"
+            ],
+            "SAME": [
+                "012086"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC086"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033454-3422520",
+                "identifier": "NWS-IDP-PROD-4033454-3422520",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-31T23:47:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033436-3422503",
+                "identifier": "NWS-IDP-PROD-4033436-3422503",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-31T23:25:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033424-3422493",
+                "identifier": "NWS-IDP-PROD-4033424-3422493",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-31T23:09:00-05:00"
+            }
+        ],
+        "sent": "2020-02-01T00:01:00-05:00",
+        "effective": "2020-02-01T00:01:00-05:00",
+        "onset": "2020-02-01T00:01:00-05:00",
+        "expires": "2020-02-01T00:45:00-05:00",
+        "ends": "2020-02-01T00:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Miami FL",
+        "headline": "Severe Thunderstorm Warning issued February 1 at 12:01AM EST until February 1 at 12:45AM EST by NWS Miami FL",
+        "description": "At 1200 AM EST, severe thunderstorms were located along a line\nextending from West Miami to 8 miles south of Key Biscayne to 13\nmiles east of Turkey Point, moving northeast at 50 mph.\n\nHAZARD...70 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to mobile\nhomes, roofs, and outbuildings.\n\nLocations impacted include...\nMiami, Hialeah, Miami Beach, Coral Gables and Key Biscayne.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTo report severe weather contact your nearest law enforcement agency.\nThey will send your report to the National Weather Service office in\nMiami. You can also share your report with NWS Miami on Facebook and\nTwitter.\n\nTorrential rainfall is occurring with these storms, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-01T00:00:00.000-05:00...storm...210DEG...45KT...25.78,-80.29 25.59,-80.11 25.45,-80.1"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "70 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1245 AM EST FOR NORTHERN MIAMI-DADE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KMFL.SV.W.0003.000000T0000Z-200201T0545Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MFLSVSMFL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-01T00:45:00-05:00"
+            ]
+        }
+    }
+}
