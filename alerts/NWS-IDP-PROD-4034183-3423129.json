@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034183-3423129",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -122.47,
+                    48.89
+                ],
+                [
+                    -122.53,
+                    48.87
+                ],
+                [
+                    -122.54,
+                    48.779999999999994
+                ],
+                [
+                    -122.63000000000001,
+                    48.75999999999999
+                ],
+                [
+                    -122.62,
+                    48.90999989999999
+                ],
+                [
+                    -122.47,
+                    48.95999999999999
+                ],
+                [
+                    -122.47,
+                    48.89
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034183-3423129",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4034183-3423129",
+        "areaDesc": "Whatcom, WA",
+        "geocode": {
+            "UGC": [
+                "WAC073"
+            ],
+            "SAME": [
+                "053073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC073"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033874-3422865",
+                "identifier": "NWS-IDP-PROD-4033874-3422865",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-01T05:35:00-08:00"
+            }
+        ],
+        "sent": "2020-02-01T12:13:00-08:00",
+        "effective": "2020-02-01T12:13:00-08:00",
+        "onset": "2020-02-01T12:13:00-08:00",
+        "expires": "2020-02-01T21:13:00-08:00",
+        "ends": "2020-02-03T02:09:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 1 at 12:13PM PST until February 3 at 2:09AM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nBogachiel River Near La Push affecting Clallam County\nSkokomish River At Potlatch affecting Mason County\nSatsop River Near Satsop affecting Grays Harbor County\nSouth Fork Nooksack River At Saxon Bridge affecting Whatcom County\nNooksack River At North Cedarville affecting Whatcom County\nNooksack River At Ferndale affecting Whatcom County\nSkagit River Near Concrete affecting Skagit County\nSkagit River Near Mt. Vernon affecting Skagit County\nNorth Fork Stillaguamish River Near Arlington affecting Snohomish\nCounty\nSouth Fork Stillaguamish River Near Granite Falls affecting\nSnohomish County\nTolt River Above Carnation affecting King County\n\n\nThe heavy steady rain has moved out of the area but showers\nwill continue throughout the day. Some rivers have crested but many\nare still rising.\n\nThe Flood Warning continues for\nThe Nooksack River At Ferndale\n* From 2 PM Saturday until late Sunday night.\n* At 11:30 AM Saturday the stage was 17.3 feet.\n* Flood stage is 18.0 feet.\n* Minor flooding is forecast.\n* Forecast...The river will rise above flood stage around 2 PM\nSaturday and crest near 19.4 feet around 4 AM Sunday. The river\nwill fall below flood stage Sunday evening.\n* Impact...At 18.0 feet, the river begins overtopping its banks within\nthe City of Ferndale flooding low-lying areas within the City and\nlow pasture lands along the river from near Ferndale downstream to\nthe mouth.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0030.000000T0000Z-200203T1009Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-03T02:09:00-08:00"
+            ]
+        }
+    }
+}
