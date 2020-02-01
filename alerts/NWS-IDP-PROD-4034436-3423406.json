@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034436-3423406",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034436-3423406",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4034436-3423406",
+        "areaDesc": "Yuma; Sherman; Cheyenne; Dundy; Kit Carson County",
+        "geocode": {
+            "UGC": [
+                "COZ252",
+                "KSZ013",
+                "KSZ001",
+                "NEZ079",
+                "COZ253"
+            ],
+            "SAME": [
+                "008125",
+                "020181",
+                "020023",
+                "031057",
+                "008063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/fire/COZ252",
+            "https://api.weather.gov/zones/fire/KSZ013",
+            "https://api.weather.gov/zones/fire/KSZ001",
+            "https://api.weather.gov/zones/fire/NEZ079",
+            "https://api.weather.gov/zones/fire/COZ253"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034161-3423117",
+                "identifier": "NWS-IDP-PROD-4034161-3423117",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-01T13:04:00-07:00"
+            }
+        ],
+        "sent": "2020-02-01T16:56:00-07:00",
+        "effective": "2020-02-01T16:56:00-07:00",
+        "onset": "2020-02-01T16:56:00-07:00",
+        "expires": "2020-02-01T18:00:00-07:00",
+        "ends": "2020-02-01T17:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Goodland KS",
+        "headline": "Red Flag Warning issued February 1 at 4:56PM MST until February 1 at 5:00PM MST by NWS Goodland KS",
+        "description": "The threat of relative humidity below 15 percent and winds\ngusting over 25 mph has ended for the day. Therefore, the Red Flag\nWarning will be allowed to expire.",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+            "NWSheadline": [
+                "RED FLAG WARNING WILL EXPIRE AT 5 PM MST /6 PM CST/ THIS AFTERNOON FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 001...013...079...252 AND 253"
+            ],
+            "VTEC": [
+                "/O.EXP.KGLD.FW.W.0001.000000T0000Z-200202T0000Z/"
+            ],
+            "PIL": [
+                "GLDRFWGLD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-01T17:00:00-07:00"
+            ]
+        }
+    }
+}
