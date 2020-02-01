@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033873-3422864",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.63,
+                    48.45
+                ],
+                [
+                    -121.85,
+                    48.4799999
+                ],
+                [
+                    -122.27,
+                    48.46
+                ],
+                [
+                    -122.27,
+                    48.53
+                ],
+                [
+                    -121.85,
+                    48.56
+                ],
+                [
+                    -121.6,
+                    48.5
+                ],
+                [
+                    -121.63,
+                    48.45
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033873-3422864",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4033873-3422864",
+        "areaDesc": "Skagit, WA",
+        "geocode": {
+            "UGC": [
+                "WAC057"
+            ],
+            "SAME": [
+                "053057"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC057"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033507-3422576",
+                "identifier": "NWS-IDP-PROD-4033507-3422576",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-31T21:46:00-08:00"
+            }
+        ],
+        "sent": "2020-02-01T05:35:00-08:00",
+        "effective": "2020-02-01T05:35:00-08:00",
+        "onset": "2020-02-01T08:15:00-08:00",
+        "expires": "2020-02-01T14:34:00-08:00",
+        "ends": "2020-02-02T14:27:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 1 at 5:35AM PST until February 2 at 2:27PM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nNooksack River At Ferndale affecting Whatcom County\nSkagit River Near Concrete affecting Skagit County\nStillaguamish River At Arlington affecting Snohomish County\n\nNorth West Region\n\nThe second round of heavy rain has moved into the Northern\nand Central Cascades early this morning with one to two inches\nreported in the last six hours ending at 5 am. The heavy rain will\nmove south through the area later this morning.\n\nThe Flood Warning continues for\nThe Skagit River Near Concrete\n* From 8 AM Saturday until Sunday afternoon.\n* At  5:15 AM Saturday the stage was 26.3 feet.\n* Flood stage is 28.0 feet.\n* Moderate flooding is forecast.\n* Forecast...The river will rise above flood stage around 8 AM\nSaturday and crest near 31.8 feet around 4 PM Saturday. The river\nwill fall below flood stage early Sunday morning.\n* Impact...At 28.0 feet, the Skagit River will flood low areas and\nsections of roads along the river from Rockport downstream to Sedro\nWoolley. This level for this location on the Skagit corresponds to\na Phase 1 flood in the Skagit County flood system.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0031.200201T1615Z-200202T2227Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-02T14:27:00-08:00"
+            ]
+        }
+    }
+}
