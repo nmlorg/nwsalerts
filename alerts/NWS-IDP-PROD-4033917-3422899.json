@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033917-3422899",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -122.11,
+                    48.1599999
+                ],
+                [
+                    -122.23,
+                    48.17
+                ],
+                [
+                    -122.37,
+                    48.1599999
+                ],
+                [
+                    -122.4,
+                    48.260000000000005
+                ],
+                [
+                    -122.24000000000001,
+                    48.2299999
+                ],
+                [
+                    -122.14000000000001,
+                    48.24
+                ],
+                [
+                    -122.11,
+                    48.1599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033917-3422899",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4033917-3422899",
+        "areaDesc": "Snohomish, WA",
+        "geocode": {
+            "UGC": [
+                "WAC061"
+            ],
+            "SAME": [
+                "053061"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC061"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033872-3422863",
+                "identifier": "NWS-IDP-PROD-4033872-3422863",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-01T05:35:00-08:00"
+            }
+        ],
+        "sent": "2020-02-01T06:35:00-08:00",
+        "effective": "2020-02-01T06:35:00-08:00",
+        "onset": "2020-02-01T06:35:00-08:00",
+        "expires": "2020-02-01T15:35:00-08:00",
+        "ends": "2020-02-02T09:18:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 1 at 6:35AM PST until February 2 at 9:18AM PST by NWS Seattle WA",
+        "description": "...Forecast flooding changed from Minor to Moderate severity for the\nfollowing rivers in Washington...\n\nStillaguamish River At Arlington affecting Snohomish County\n\nThe second round of heavy rain has moved into the Northern\nand Central Cascades early this morning with one to two inches\nreported in the last six hours ending at 6 am. The heavy rain will\nmove south through the area later this morning.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0029.000000T0000Z-200202T1718Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLWSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-02T09:18:00-08:00"
+            ]
+        }
+    }
+}
