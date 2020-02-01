@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033769-3422788",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.76,
+                    47.68
+                ],
+                [
+                    -121.85000000000001,
+                    47.61
+                ],
+                [
+                    -121.94000000000001,
+                    47.61
+                ],
+                [
+                    -121.96000000000001,
+                    47.67
+                ],
+                [
+                    -121.89000000000001,
+                    47.71
+                ],
+                [
+                    -121.84000000000002,
+                    47.74
+                ],
+                [
+                    -121.76,
+                    47.68
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033769-3422788",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4033769-3422788",
+        "areaDesc": "King, WA",
+        "geocode": {
+            "UGC": [
+                "WAC033"
+            ],
+            "SAME": [
+                "053033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033530-3422589",
+                "identifier": "NWS-IDP-PROD-4033530-3422589",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-01-31T22:30:00-08:00"
+            }
+        ],
+        "sent": "2020-02-01T03:03:00-08:00",
+        "effective": "2020-02-01T03:03:00-08:00",
+        "onset": "2020-02-01T03:03:00-08:00",
+        "expires": "2020-02-01T12:02:00-08:00",
+        "ends": "2020-02-01T23:53:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 1 at 3:03AM PST until February 1 at 11:53PM PST by NWS Seattle WA",
+        "description": "...Forecast flooding changed from Minor to Moderate severity for the\nfollowing rivers in Washington...\n\nTolt River Above Carnation affecting King County\n\nThe second round of heavy rain has moved into the Northern\nand Central Cascades early this morning. The heavy rain will move\nsouth through the area later this morning.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0023.000000T0000Z-200202T0753Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLWSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-01T23:53:00-08:00"
+            ]
+        }
+    }
+}
