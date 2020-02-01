@@ -1,0 +1,115 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033555-3422608",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.63,
+                    26.03
+                ],
+                [
+                    -79.86,
+                    26.14
+                ],
+                [
+                    -79.78,
+                    26.26
+                ],
+                [
+                    -79.55,
+                    26.23
+                ],
+                [
+                    -79.44,
+                    26.2
+                ],
+                [
+                    -79.63,
+                    26.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033555-3422608",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4033555-3422608",
+        "areaDesc": "Waters from Jupiter Inlet to Deerfield Beach FL from 20 to 60 NM; Coastal waters from Deerfield Beach to Ocean Reef FL out 20 NM; Waters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM excluding the territorial waters of Bahamas",
+        "geocode": {
+            "UGC": [
+                "AMZ670",
+                "AMZ651",
+                "AMZ671"
+            ],
+            "SAME": [
+                "075670",
+                "075651",
+                "075671"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AMZ670",
+            "https://api.weather.gov/zones/forecast/AMZ651",
+            "https://api.weather.gov/zones/forecast/AMZ671"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033538-3422596",
+                "identifier": "NWS-IDP-PROD-4033538-3422596",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-01T01:44:00-05:00"
+            }
+        ],
+        "sent": "2020-02-01T02:19:00-05:00",
+        "effective": "2020-02-01T02:19:00-05:00",
+        "onset": "2020-02-01T02:19:00-05:00",
+        "expires": "2020-02-01T02:45:00-05:00",
+        "ends": "2020-02-01T02:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Special Marine Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Miami FL",
+        "headline": "Special Marine Warning issued February 1 at 2:19AM EST until February 1 at 2:45AM EST by NWS Miami FL",
+        "description": "For the following areas...\nCoastal waters from Deerfield Beach to Ocean Reef FL out 20 NM...\nWaters from Deerfield Beach to Ocean Reef FL from 20 to 60 NM\nexcluding the territorial waters of Bahamas...\nWaters from Jupiter Inlet to Deerfield Beach FL from 20 to 60 NM...\n\nAt 218 AM EST, a severe thunderstorm capable of producing waterspouts\nwas located 20 nm east of Lauderdale-By-The-Sea, moving northeast at\n20 knots.\n\nHAZARD...Waterspouts and wind gusts to 40 knots.\n\nSOURCE...Radar indicated.\n\nIMPACT...Waterspouts can easily overturn boats and create locally\nhazardous seas. Small craft could be damaged in briefly\nhigher winds and suddenly higher waves.\n\nThe severe thunderstorm will remain over mainly open waters.",
+        "instruction": "Move to safe harbor until hazardous weather passes.\n\nReport severe weather to the Coast Guard or the National Weather\nService. You can also share your report with NWS Miami on Facebook\nand Twitter.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-01T02:18:00.000-05:00...storm...218DEG...19KT...26.15,-79.71"
+            ],
+            "hailSize": [
+                0
+            ],
+            "windGust": [
+                "40 knots"
+            ],
+            "waterspoutDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SPECIAL MARINE WARNING REMAINS IN EFFECT UNTIL 245 AM EST"
+            ],
+            "VTEC": [
+                "/O.CON.KMFL.MA.W.0014.000000T0000Z-200201T0745Z/"
+            ],
+            "PIL": [
+                "MFLMWSMFL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-01T02:45:00-05:00"
+            ]
+        }
+    }
+}
