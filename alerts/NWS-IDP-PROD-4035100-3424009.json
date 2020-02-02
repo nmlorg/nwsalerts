@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035100-3424009",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.23,
+                    33.11
+                ],
+                [
+                    -92.12,
+                    33.22
+                ],
+                [
+                    -92.10000000000001,
+                    33.15
+                ],
+                [
+                    -92.06,
+                    33
+                ],
+                [
+                    -92.10000000000001,
+                    33
+                ],
+                [
+                    -92.23,
+                    33.11
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035100-3424009",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4035100-3424009",
+        "areaDesc": "Union, AR; Ashley, AR",
+        "geocode": {
+            "UGC": [
+                "ARC139",
+                "ARC003"
+            ],
+            "SAME": [
+                "005139",
+                "005003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC139",
+            "https://api.weather.gov/zones/county/ARC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034464-3423437",
+                "identifier": "NWS-IDP-PROD-4034464-3423437",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-01T18:58:00-06:00"
+            }
+        ],
+        "sent": "2020-02-02T07:40:00-06:00",
+        "effective": "2020-02-02T07:40:00-06:00",
+        "onset": "2020-02-02T07:40:00-06:00",
+        "expires": "2020-02-03T07:39:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 2 at 7:40AM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Ouachita River At Felsenthal Lock and Dam.\n* until further notice...or until the warning is cancelled.\n* At  6:30 AM Sunday The stage was 70.3 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 70.0 feet.\n* Forecast...The river will continue rising to near 70.4 feet by this\nevening.  Additional rises remain possible thereafter.\n* Impact...at 70.0 feet...Minor lowland flooding of the Felsenthal\nNational Wildlife Refuge will continue for several days. Secondary\nroadways along the river bottom will be inundated and closed.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KSHV.FL.W.0008.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
