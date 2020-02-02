@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034457-3423430",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.62,
+                    34.24
+                ],
+                [
+                    -79.5,
+                    34.24
+                ],
+                [
+                    -79.45,
+                    34
+                ],
+                [
+                    -79.3199999,
+                    33.85
+                ],
+                [
+                    -79.44,
+                    33.85
+                ],
+                [
+                    -79.5699999,
+                    33.9799999
+                ],
+                [
+                    -79.62,
+                    34.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034457-3423430",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4034457-3423430",
+        "areaDesc": "Florence, SC; Marion, SC",
+        "geocode": {
+            "UGC": [
+                "SCC041",
+                "SCC067"
+            ],
+            "SAME": [
+                "045041",
+                "045067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC041",
+            "https://api.weather.gov/zones/county/SCC067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4033918-3422900",
+                "identifier": "NWS-IDP-PROD-4033918-3422900",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-01T09:36:00-05:00"
+            }
+        ],
+        "sent": "2020-02-01T19:53:00-05:00",
+        "effective": "2020-02-01T19:53:00-05:00",
+        "onset": "2020-02-01T19:53:00-05:00",
+        "expires": "2020-02-02T11:53:00-05:00",
+        "ends": "2020-02-06T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued February 1 at 7:53PM EST until February 6 at 1:00PM EST by NWS Wilmington NC",
+        "description": "...The Flood Warning is cancelled for the following rivers...\n\nLumber Near Lumberton affecting Robeson County NC\n\n...The Flood Warning has been extended for the following rivers...\n\nGreat Pee Dee At Pee Dee affecting Marion and Florence Counties SC",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning now in effect until Thursday afternoon"
+            ],
+            "VTEC": [
+                "/O.EXT.KILM.FL.W.0008.000000T0000Z-200206T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T13:00:00-05:00"
+            ]
+        }
+    }
+}
