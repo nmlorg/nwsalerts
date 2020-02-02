@@ -1,0 +1,82 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035682-3424542",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035682-3424542",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4035682-3424542",
+        "areaDesc": "Hamilton; Stanton; Kearny; Morton",
+        "geocode": {
+            "UGC": [
+                "KSZ061",
+                "KSZ074",
+                "KSZ062",
+                "KSZ084"
+            ],
+            "SAME": [
+                "020075",
+                "020187",
+                "020093",
+                "020129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/fire/KSZ061",
+            "https://api.weather.gov/zones/fire/KSZ074",
+            "https://api.weather.gov/zones/fire/KSZ062",
+            "https://api.weather.gov/zones/fire/KSZ084"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035165-3424054",
+                "identifier": "NWS-IDP-PROD-4035165-3424054",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-02T08:49:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034780-3423700",
+                "identifier": "NWS-IDP-PROD-4034780-3423700",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-02T02:09:00-06:00"
+            }
+        ],
+        "sent": "2020-02-02T17:50:00-06:00",
+        "effective": "2020-02-02T17:50:00-06:00",
+        "onset": "2020-02-02T17:50:00-06:00",
+        "expires": "2020-02-02T19:00:00-06:00",
+        "ends": "2020-02-02T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Dodge City KS",
+        "headline": "Red Flag Warning issued February 2 at 5:50PM CST until February 2 at 6:00PM CST by NWS Dodge City KS",
+        "description": "Southerly winds have decreased and relative humidity values were\nat 20 percent or greater. As a result the Red Flag Warning will be\nallowed to expire at 6 pm CST/5 pm MST.",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+            "NWSheadline": [
+                "RED FLAG WARNING WILL EXPIRE AT 6 PM CST /5 PM MST/ THIS EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 061...062...074 AND 084"
+            ],
+            "VTEC": [
+                "/O.EXP.KDDC.FW.W.0001.000000T0000Z-200203T0000Z/"
+            ],
+            "PIL": [
+                "DDCRFWDDC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-02T18:00:00-06:00"
+            ]
+        }
+    }
+}
