@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035245-3424108",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.75,
+                    31.15
+                ],
+                [
+                    -92.65,
+                    31.049999999999997
+                ],
+                [
+                    -92.62,
+                    30.9
+                ],
+                [
+                    -92.69,
+                    30.9
+                ],
+                [
+                    -92.78999999999999,
+                    31.13
+                ],
+                [
+                    -92.75,
+                    31.15
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035245-3424108",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4035245-3424108",
+        "areaDesc": "Rapides, LA",
+        "geocode": {
+            "UGC": [
+                "LAC079"
+            ],
+            "SAME": [
+                "022079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC079"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034483-3423452",
+                "identifier": "NWS-IDP-PROD-4034483-3423452",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-01T19:06:00-06:00"
+            }
+        ],
+        "sent": "2020-02-02T10:30:00-06:00",
+        "effective": "2020-02-02T10:30:00-06:00",
+        "onset": "2020-02-02T10:30:00-06:00",
+        "expires": "2020-02-03T06:00:00-06:00",
+        "ends": "2020-02-03T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued February 2 at 10:30AM CST until February 3 at 6:00AM CST by NWS Lake Charles LA",
+        "description": "...The Flood Warning continues for the following rivers in\nLouisiana...\n\nCalcasieu River Near Glenmora\nAtchafalaya River At Morgan City\n\nThe Flood Warning continues for\nThe Calcasieu River Near Glenmora.\n* until Monday morning...or until the warning is cancelled.\n* At  9:45 AM Sunday the stage was 12.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 12.0 feet.\n* Forecast...The river will continue to fall to below flood stage by\nafter midnight tonight.\n* Impact...At stages near 12.0 feet...When the river is falling and\nthe gauge reading is forecast to be near 12 feet, flooding of\nforested areas near the river will occur.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLCH.FL.W.0002.000000T0000Z-200203T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHFLSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-03T06:00:00-06:00"
+            ]
+        }
+    }
+}
