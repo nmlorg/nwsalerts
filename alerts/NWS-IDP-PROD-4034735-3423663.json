@@ -1,0 +1,83 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034735-3423663",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.03,
+                    47.2
+                ],
+                [
+                    -121.04,
+                    47.18
+                ],
+                [
+                    -121.12,
+                    47.21
+                ],
+                [
+                    -121.10000000000001,
+                    47.2299999
+                ],
+                [
+                    -121.03,
+                    47.2
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034735-3423663",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4034735-3423663",
+        "areaDesc": "Kittitas, WA",
+        "geocode": {
+            "UGC": [
+                "WAC037"
+            ],
+            "SAME": [
+                "053037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC037"
+        ],
+        "references": [],
+        "sent": "2020-02-01T22:04:00-08:00",
+        "effective": "2020-02-01T22:04:00-08:00",
+        "onset": "2020-02-01T22:04:00-08:00",
+        "expires": "2020-02-02T04:00:00-08:00",
+        "ends": "2020-02-02T04:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Advisory issued February 1 at 10:04PM PST until February 2 at 4:00AM PST by NWS Pendleton OR",
+        "description": "The National Weather Service in Pendleton Oregon has issued a\n\n* Flood Advisory for...\nNorthwestern Kittitas County in central Washington...\n\n* Until 400 AM PST.\n\n* At 1001 PM PST, the public reported minor flooding in the Elk\nMeadows Subdivision...about 6 miles northwest of Cle Elum. Expect\nminor flooding along the Yakima River in this vicinity through\nSunday morning. Colder air is expected to move in overnight with\nfalling snow levels and little additional precipitation is\nexpected. The river has already crested and will gradually recede\nthrough the morning hours.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KPDT.FA.Y.0002.200202T0604Z-200202T1200Z/"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-02T04:00:00-08:00"
+            ]
+        }
+    }
+}
