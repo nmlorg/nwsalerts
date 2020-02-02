@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035013-3423928",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.03,
+                    47.2
+                ],
+                [
+                    -121.04,
+                    47.18
+                ],
+                [
+                    -121.12,
+                    47.21
+                ],
+                [
+                    -121.10000000000001,
+                    47.2299999
+                ],
+                [
+                    -121.03,
+                    47.2
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035013-3423928",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4035013-3423928",
+        "areaDesc": "Kittitas, WA",
+        "geocode": {
+            "UGC": [
+                "WAC037"
+            ],
+            "SAME": [
+                "053037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC037"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4034735-3423663",
+                "identifier": "NWS-IDP-PROD-4034735-3423663",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-01T22:04:00-08:00"
+            }
+        ],
+        "sent": "2020-02-02T03:08:00-08:00",
+        "effective": "2020-02-02T03:08:00-08:00",
+        "onset": "2020-02-02T03:08:00-08:00",
+        "expires": "2020-02-02T08:00:00-08:00",
+        "ends": "2020-02-02T08:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Advisory issued February 2 at 3:08AM PST until February 2 at 8:00AM PST by NWS Pendleton OR",
+        "description": "The National Weather Service in Pendleton Oregon has extended the\n\n* Flood Advisory for...\nNorthwestern Kittitas County in central Washington...\n\n* Until 800 AM PST.\n\n* At 1001 PM PST, the public reported minor flooding in the Elk\nMeadows Subdivision...about 6 miles northwest of Cle Elum. Expect\nminor flooding along the Yakima River in this vicinity through\nSunday morning. Colder air will continue to filter in this\nmorning, lowering snow levels. The river has already crested and\nwill gradually recede through the morning hours.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPDT.FA.Y.0002.000000T0000Z-200202T1600Z/"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-02T08:00:00-08:00"
+            ]
+        }
+    }
+}
