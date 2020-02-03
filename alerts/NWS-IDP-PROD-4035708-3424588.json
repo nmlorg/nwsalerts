@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035708-3424588",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.24,
+                    29.97
+                ],
+                [
+                    -91.1,
+                    29.799999999999997
+                ],
+                [
+                    -91.13,
+                    29.389999999999997
+                ],
+                [
+                    -91.53999999999999,
+                    29.509999999999998
+                ],
+                [
+                    -91.38999999999999,
+                    29.86
+                ],
+                [
+                    -91.46999999999998,
+                    29.95
+                ],
+                [
+                    -91.24,
+                    29.97
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035708-3424588",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4035708-3424588",
+        "areaDesc": "St. Martin, LA; St. Mary, LA",
+        "geocode": {
+            "UGC": [
+                "LAC099",
+                "LAC101"
+            ],
+            "SAME": [
+                "022099",
+                "022101"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC099",
+            "https://api.weather.gov/zones/county/LAC101"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035246-3424109",
+                "identifier": "NWS-IDP-PROD-4035246-3424109",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-02T10:30:00-06:00"
+            }
+        ],
+        "sent": "2020-02-02T18:21:00-06:00",
+        "effective": "2020-02-02T18:21:00-06:00",
+        "onset": "2020-02-02T18:21:00-06:00",
+        "expires": "2020-02-03T18:21:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued February 2 at 6:21PM CST by NWS Lake Charles LA",
+        "description": "...The Flood Warning is cancelled for the following rivers in\nLouisiana...\n\nCalcasieu River Near Glenmora\n\n...The Flood Warning continues for the following rivers in\nLouisiana..\nAtchafalaya River At Morgan City\n\nThe Flood Warning continues for\nThe Atchafalaya River At Morgan City.\n* until further notice...or until the warning is cancelled.\n* At  5:00 PM Sunday the stage was 6.5 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 6.0 feet.\n* Forecast...The river will remain near 6.4 feet.\n* Impact...At stages near 7.0 feet...Buildings at the foot of Ann\nStreet on the river side of the flood wall will flood as water\novertops the Rio Oil Company dock. Buildings on the river side of\nthe Berwick floodwall will flood. River traffic restrictions will\nbe strictly enforced. In addition, backwater flooding could\npotentially impact portions areas around Lake Palourde and\nStephensville.\n* Impact...At stages near 6.0 feet...Flood stage. The city dock will\nbe under water. Water will cover the lower end of Belleview Front\nStreet in Berwick. Vessel traffic will be affected by stronger\nriver current and vessel traffic safety rules will be strictly\nenforced by the U.S. Coast Guard.\n* Impact...At stages near 5.0 feet...Floodwall gates will be closed\nto protect against higher stages. Vessel traffic will be affected\nby stronger river current and vessel traffic safety rules will be\nstrictly enforced by the U.S. Coast Guard.\n* Impact...At stages near 4.0 feet...Action stage. Water will move\nup the bank and across access roads below the city dock. Floodwall\ngates should be closed by the 5 foot stage to protect against\nhigher stages. Vessel traffic will be affected by stronger river\ncurrent and vessel traffic safety rules will be strictly enforced\nby the U.S. Coast Guard.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLCH.FL.W.0011.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHFLSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
