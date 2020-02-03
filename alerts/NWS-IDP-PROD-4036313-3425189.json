@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4036313-3425189",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -122.14,
+                    47.21
+                ],
+                [
+                    -122.19,
+                    47.24
+                ],
+                [
+                    -122.23,
+                    47.190000000000005
+                ],
+                [
+                    -122.3,
+                    47.24
+                ],
+                [
+                    -122.25999999999999,
+                    47.32
+                ],
+                [
+                    -122.13999999999999,
+                    47.32
+                ],
+                [
+                    -122.14,
+                    47.21
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4036313-3425189",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4036313-3425189",
+        "areaDesc": "King, WA; Pierce, WA",
+        "geocode": {
+            "UGC": [
+                "WAC033",
+                "WAC053"
+            ],
+            "SAME": [
+                "053033",
+                "053053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC033",
+            "https://api.weather.gov/zones/county/WAC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035942-3424785",
+                "identifier": "NWS-IDP-PROD-4035942-3424785",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-02T21:02:00-08:00"
+            }
+        ],
+        "sent": "2020-02-03T04:20:00-08:00",
+        "effective": "2020-02-03T04:20:00-08:00",
+        "onset": "2020-02-03T04:20:00-08:00",
+        "expires": "2020-02-03T13:19:00-08:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 3 at 4:20AM PST by NWS Seattle WA",
+        "description": "...The Flood Warning has ended for the following rivers in\nWashington...\n\nSnoqualmie River Near Carnation affecting King County\n\n...The Flood Warning continues for the following rivers in\nWashington...\n\nSnohomish River Near Monroe affecting Snohomish County\nSnohomish River At Snohomish affecting Snohomish County\nWhite River 10 N R Street Bridge affecting King and Pierce Counties\nSkokomish River At Potlatch affecting Mason County\n\nA few showers around early this morning. Dry conditions return for\na short time later this morning through the rest of the day. Rivers\nwill continue to recede.\n\nThe Flood Warning continues for\nThe White River 10 N R Street Bridge\n* Until further notice.\n* At  3:45 AM Monday the flow was 6131 cfs.\n* Flood flow is 6500 cfs.\n* Minor flooding is forecast.\n* Forecast...The river will rise to around 6600 cfs this morning\nand remain above flood stage into Tuesday morning.\n* Impact...At 6000 cfs, River flooding is likely to occur upstream of\nthe A Street Bridge in the City of Auburn. Flooding is likely to\noccur in the City of Pacific near Government Canal and Butte Avenue\nas well as high water along the temporary flood protection\nbarriers. This level roughly corresponds to the King County Flood\nPhase 2.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until further notice"
+            ],
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0039.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

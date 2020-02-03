@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4036310-3425186",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -123.26,
+                    47.44
+                ],
+                [
+                    -123.21000000000001,
+                    47.33
+                ],
+                [
+                    -123.17,
+                    47.36
+                ],
+                [
+                    -123.08,
+                    47.33
+                ],
+                [
+                    -123.21,
+                    47.21
+                ],
+                [
+                    -123.39999999999999,
+                    47.38
+                ],
+                [
+                    -123.26,
+                    47.44
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4036310-3425186",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4036310-3425186",
+        "areaDesc": "Mason, WA",
+        "geocode": {
+            "UGC": [
+                "WAC045"
+            ],
+            "SAME": [
+                "053045"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC045"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035943-3424786",
+                "identifier": "NWS-IDP-PROD-4035943-3424786",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-02T21:02:00-08:00"
+            }
+        ],
+        "sent": "2020-02-03T04:20:00-08:00",
+        "effective": "2020-02-03T04:20:00-08:00",
+        "onset": "2020-02-03T04:20:00-08:00",
+        "expires": "2020-02-03T13:19:00-08:00",
+        "ends": "2020-02-03T22:31:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 3 at 4:20AM PST until February 3 at 10:31PM PST by NWS Seattle WA",
+        "description": "...The Flood Warning has ended for the following rivers in\nWashington...\n\nSnoqualmie River Near Carnation affecting King County\n\n...The Flood Warning continues for the following rivers in\nWashington...\n\nSnohomish River Near Monroe affecting Snohomish County\nSnohomish River At Snohomish affecting Snohomish County\nWhite River 10 N R Street Bridge affecting King and Pierce Counties\nSkokomish River At Potlatch affecting Mason County\n\nA few showers around early this morning. Dry conditions return for\na short time later this morning through the rest of the day. Rivers\nwill continue to recede.\n\nThe Flood Warning continues for\nThe Skokomish River At Potlatch\n* Until this evening.\n* At  3:30 AM Monday the stage was 16.6 feet.\n* Flood stage is 16.5 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river has crested and will continue to fall to below\nflood stage early this afternoon.\n* Impact...At 16.5 feet, the Skokomish River will cause widespread\nflooding of pasture lands, with water flowing quickly over West\nBourgault Road and Skokomish Valley Road.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KSEW.FL.W.0019.000000T0000Z-200204T0631Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-03T22:31:00-08:00"
+            ]
+        }
+    }
+}
