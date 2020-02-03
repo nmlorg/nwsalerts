@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035945-3424788",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -122.47,
+                    48.89
+                ],
+                [
+                    -122.53,
+                    48.87
+                ],
+                [
+                    -122.54,
+                    48.779999999999994
+                ],
+                [
+                    -122.63000000000001,
+                    48.75999999999999
+                ],
+                [
+                    -122.62,
+                    48.90999989999999
+                ],
+                [
+                    -122.47,
+                    48.95999999999999
+                ],
+                [
+                    -122.47,
+                    48.89
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035945-3424788",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4035945-3424788",
+        "areaDesc": "Whatcom, WA",
+        "geocode": {
+            "UGC": [
+                "WAC073"
+            ],
+            "SAME": [
+                "053073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC073"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035508-3424352",
+                "identifier": "NWS-IDP-PROD-4035508-3424352",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-02T13:23:00-08:00"
+            }
+        ],
+        "sent": "2020-02-02T21:02:00-08:00",
+        "effective": "2020-02-02T21:02:00-08:00",
+        "onset": "2020-02-02T21:02:00-08:00",
+        "expires": "2020-02-03T05:38:00-08:00",
+        "ends": "2020-02-03T05:38:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 2 at 9:02PM PST until February 3 at 5:38AM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nNooksack River At Ferndale affecting Whatcom County\nSnohomish River Near Monroe affecting Snohomish County\nSnohomish River At Snohomish affecting Snohomish County\nSnoqualmie River Near Carnation affecting King County\nWhite River 10 N R Street Bridge affecting King and Pierce Counties\nSkokomish River At Potlatch affecting Mason County\nSkagit River Near Mt. Vernon affecting Skagit County\n\n\nA weak front crosses Western Washington tonight, but falls apart\nMonday morning. Dry conditions then return for a short time late\nMonday morning through the day. This mostly dry period will allow\nlocal rivers to continue to recede.\n\nThe Flood Warning continues for\nThe Nooksack River At Ferndale\n* Until late tonight.\n* At  8:30 PM Sunday the stage was 18.2 feet.\n* Flood stage is 18.0 feet.\n* Minor flooding is occurring.\n* Forecast...The river has crested and will continue to fall to below\nflood stage late tonight.\n* Impact...At 18.0 feet, the river begins overtopping its banks within\nthe City of Ferndale flooding low-lying areas within the City and\nlow pasture lands along the river from near Ferndale downstream to\nthe mouth.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0030.000000T0000Z-200203T1338Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-03T05:38:00-08:00"
+            ]
+        }
+    }
+}
