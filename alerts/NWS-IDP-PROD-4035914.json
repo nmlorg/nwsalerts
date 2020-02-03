@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035914",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -113.5,
+                    42.45
+                ],
+                [
+                    -113.3,
+                    42.510000000000005
+                ],
+                [
+                    -112.58,
+                    42.00000000000001
+                ],
+                [
+                    -113.02,
+                    42.00000000000001
+                ],
+                [
+                    -113.5,
+                    42.45
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035914",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4035914",
+        "areaDesc": "Southern Hills/Albion Mountains; Franklin/Eastern Oneida Region; Raft River Region",
+        "geocode": {
+            "UGC": [
+                "IDZ056",
+                "IDZ059",
+                "IDZ057"
+            ],
+            "SAME": [
+                "016031",
+                "016041",
+                "016071",
+                "016077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/IDZ056",
+            "https://api.weather.gov/zones/forecast/IDZ059",
+            "https://api.weather.gov/zones/forecast/IDZ057"
+        ],
+        "references": [],
+        "sent": "2020-02-02T21:32:00-07:00",
+        "effective": "2020-02-02T21:32:00-07:00",
+        "onset": "2020-02-02T21:32:00-07:00",
+        "expires": "2020-02-03T01:30:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pocatello ID",
+        "headline": "Special Weather Statement issued February 2 at 9:32PM MST by NWS Pocatello ID",
+        "description": "At 928 PM MST, strong northwest winds of 20 to 30 mph with gusts as\nhigh as 45 to 55 mph were noted along Interstate 86 from Idahome to\nthe Utah state line. The winds coupled with snow and blowing snow\nwill likely produce hazardous travel conditions particularly over\nSweetzer Summit. If you must travel in this area tonight, be sure to\nhave a winter survival kit handy and let someone know where you are\ngoing and when you can be expected home.\n\nLocations impacted include...\nJuniper, Sublett Reservoir, Stone, Idahome and Sweetzer Summit.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-02T21:28:00.000-07:00...storm...180DEG...0KT...42.29,-113.33"
+            ],
+            "NWSheadline": [
+                "SNOW ALONG WITH STRONG NORTHWEST WINDS ALONG INTERSTATE 86 FROM IDAHOME TO THE UTAH STATE LINE"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PIHSPSPIH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
