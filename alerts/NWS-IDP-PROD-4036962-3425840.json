@@ -1,0 +1,84 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4036962-3425840",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4036962-3425840",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4036962-3425840",
+        "areaDesc": "Southern Twin  Falls County; Southwest Highlands; Western Magic Valley; Upper Treasure Valley",
+        "geocode": {
+            "UGC": [
+                "IDZ030",
+                "IDZ015",
+                "IDZ016",
+                "IDZ014"
+            ],
+            "SAME": [
+                "016083",
+                "016073",
+                "016047",
+                "016053",
+                "016001",
+                "016039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/IDZ030",
+            "https://api.weather.gov/zones/forecast/IDZ015",
+            "https://api.weather.gov/zones/forecast/IDZ016",
+            "https://api.weather.gov/zones/forecast/IDZ014"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4036115-3424939",
+                "identifier": "NWS-IDP-PROD-4036115-3424939",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-03T02:23:00-07:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4035481-3424301",
+                "identifier": "NWS-IDP-PROD-4035481-3424301",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-02T14:09:00-07:00"
+            }
+        ],
+        "sent": "2020-02-03T16:51:00-07:00",
+        "effective": "2020-02-03T16:51:00-07:00",
+        "onset": "2020-02-03T16:51:00-07:00",
+        "expires": "2020-02-03T18:00:00-07:00",
+        "ends": "2020-02-03T17:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Boise ID",
+        "headline": "Wind Advisory issued February 3 at 4:51PM MST until February 3 at 5:00PM MST by NWS Boise ID",
+        "description": "Winds will continue to subside through this evening.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY WILL EXPIRE AT 5 PM MST THIS AFTERNOON"
+            ],
+            "VTEC": [
+                "/O.EXP.KBOI.WI.Y.0004.000000T0000Z-200204T0000Z/"
+            ],
+            "PIL": [
+                "BOINPWBOI"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-03T17:00:00-07:00"
+            ]
+        }
+    }
+}
