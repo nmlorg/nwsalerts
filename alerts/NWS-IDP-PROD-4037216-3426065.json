@@ -1,0 +1,77 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4037216-3426065",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4037216-3426065",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4037216-3426065",
+        "areaDesc": "Idaho Palouse; Coeur d'Alene Area",
+        "geocode": {
+            "UGC": [
+                "IDZ003",
+                "IDZ002"
+            ],
+            "SAME": [
+                "016009",
+                "016057",
+                "016055"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/IDZ003",
+            "https://api.weather.gov/zones/forecast/IDZ002"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4036910-3425791",
+                "identifier": "NWS-IDP-PROD-4036910-3425791",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-03T14:31:00-08:00"
+            }
+        ],
+        "sent": "2020-02-03T21:12:00-08:00",
+        "effective": "2020-02-03T21:12:00-08:00",
+        "onset": "2020-02-04T18:00:00-08:00",
+        "expires": "2020-02-04T07:00:00-08:00",
+        "ends": "2020-02-05T12:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Winter Storm Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Spokane WA",
+        "headline": "Winter Storm Watch issued February 3 at 9:12PM PST until February 5 at 12:00PM PST by NWS Spokane WA",
+        "description": "...Active Winter Weather Returns to the Area...\n\n.A Pacific storm system will bring snow to all elevations of the\nregion beginning Tuesday evening and continuing into Wednesday\nbefore snow levels rise during the afternoon and evening.\n\n* WHAT...Heavy snow possible. Total snow accumulations of 4 to 6\ninches possible.\n\n* WHERE...Coeur d'Alene, Post Falls, Hayden, Worley, Moscow,\nPlummer, Potlatch, and Genesee.\n\n* WHEN...From Tuesday evening through Wednesday morning.\n\n* IMPACTS...Travel could be very difficult. The hazardous\nconditions will impact the Wednesday morning commute.",
+        "instruction": "Monitor the latest forecasts for updates on this situation.",
+        "response": "Prepare",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER STORM WATCH REMAINS IN EFFECT FROM TUESDAY EVENING THROUGH WEDNESDAY MORNING"
+            ],
+            "HazardType": [
+                "Heavy Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KOTX.WS.A.0004.200205T0200Z-200205T2000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OTXWSWOTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-05T12:00:00-08:00"
+            ]
+        }
+    }
+}
