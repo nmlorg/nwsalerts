@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038205-3426967",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.28,
+                    34.9099999
+                ],
+                [
+                    -86.06,
+                    34.89
+                ],
+                [
+                    -86.37,
+                    34.42
+                ],
+                [
+                    -86.53,
+                    34.5
+                ],
+                [
+                    -86.28,
+                    34.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038205-3426967",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4038205-3426967",
+        "areaDesc": "Madison, AL; Marshall, AL; Jackson, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089",
+                "ALC095",
+                "ALC071"
+            ],
+            "SAME": [
+                "001089",
+                "001095",
+                "001071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089",
+            "https://api.weather.gov/zones/county/ALC095",
+            "https://api.weather.gov/zones/county/ALC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4037637-3426440",
+                "identifier": "NWS-IDP-PROD-4037637-3426440",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-04T09:14:00-06:00"
+            }
+        ],
+        "sent": "2020-02-04T19:05:00-06:00",
+        "effective": "2020-02-04T19:05:00-06:00",
+        "onset": "2020-02-06T17:04:00-06:00",
+        "expires": "2020-02-05T09:05:00-06:00",
+        "ends": "2020-02-08T07:20:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 4 at 7:05PM CST until February 8 at 7:20AM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama...\n\nPaint Rock River NEAR Woodville affecting Jackson...Madison and\nMarshall Counties\n\nThe Flood Warning continues for\nthe Paint Rock River NEAR Woodville.\n* until Saturday morning.\n* At 6 PM Tuesday the stage was 4.5 feet and steady.\n* Flood Stage is 15.0 feet.\n* Minor Flooding is forecast.\n* Forecast...Rise above Flood Stage by late Thursday afternoon and\ncrest near 16.0 FEET BY Friday morning. The river will fall below\nFlood Stage by early Saturday morning.\n* Impact...At 16.0 feet...Flood waters affect mostly bottomland along\nthe river...including low lying farm and pasturelands.\n* Flood history...This crest compares to a previous crest of 15.6 feet\non Dec 31 2019.",
+        "instruction": "Safety message...Be especially cautious at night when it is harder to\nrecognize flood dangers. If while driving you see water over a road,\nturn around, don't drown! The water depth may be too great to allow\nyour vehicle to cross. Additional information is available at\nhttp://water.weather.gov. Once there, click on the Tennessee Valley\nto view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KHUN.FL.W.0006.200206T2304Z-200208T1320Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T07:20:00-06:00"
+            ]
+        }
+    }
+}
