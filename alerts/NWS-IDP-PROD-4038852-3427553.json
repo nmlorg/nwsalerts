@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038852-3427553",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.53,
+                    32.76
+                ],
+                [
+                    -89.56,
+                    32.85
+                ],
+                [
+                    -89.39,
+                    32.93
+                ],
+                [
+                    -89.3199999,
+                    32.93
+                ],
+                [
+                    -89.3199999,
+                    32.76
+                ],
+                [
+                    -89.53,
+                    32.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038852-3427553",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4038852-3427553",
+        "areaDesc": "Leake, MS",
+        "geocode": {
+            "UGC": [
+                "MSC079"
+            ],
+            "SAME": [
+                "028079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC079"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038834-3427532",
+                "identifier": "NWS-IDP-PROD-4038834-3427532",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T04:52:00-06:00"
+            }
+        ],
+        "sent": "2020-02-05T05:00:00-06:00",
+        "effective": "2020-02-05T05:00:00-06:00",
+        "onset": "2020-02-05T05:00:00-06:00",
+        "expires": "2020-02-05T06:00:00-06:00",
+        "ends": "2020-02-05T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Tornado Warning issued February 5 at 5:00AM CST until February 5 at 6:00AM CST by NWS Jackson MS",
+        "description": "At 500 AM CST, a severe thunderstorm capable of producing a tornado\nwas located near Renfroe, or near Carthage, moving northeast at 30\nmph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis dangerous storm will be near...\nRenfroe around 505 AM CST.\nEdinburg around 515 AM CST.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-05T05:00:00.000-06:00...storm...239DEG...25KT...32.81,-89.47"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 600 AM CST FOR NORTHEASTERN LEAKE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.TO.W.0009.000000T0000Z-200205T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-05T06:00:00-06:00"
+            ]
+        }
+    }
+}
