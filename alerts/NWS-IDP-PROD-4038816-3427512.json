@@ -1,0 +1,118 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038816-3427512",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.64,
+                    32.68
+                ],
+                [
+                    -89.65,
+                    32.8
+                ],
+                [
+                    -89.39,
+                    32.93
+                ],
+                [
+                    -89.3199999,
+                    32.93
+                ],
+                [
+                    -89.3199999,
+                    32.72
+                ],
+                [
+                    -89.64,
+                    32.68
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038816-3427512",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4038816-3427512",
+        "areaDesc": "Leake, MS",
+        "geocode": {
+            "UGC": [
+                "MSC079"
+            ],
+            "SAME": [
+                "028079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC079"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038781-3427463",
+                "identifier": "NWS-IDP-PROD-4038781-3427463",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T04:29:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038789-3427477",
+                "identifier": "NWS-IDP-PROD-4038789-3427477",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T04:39:00-06:00"
+            }
+        ],
+        "sent": "2020-02-05T04:49:00-06:00",
+        "effective": "2020-02-05T04:49:00-06:00",
+        "onset": "2020-02-05T04:49:00-06:00",
+        "expires": "2020-02-05T05:15:00-06:00",
+        "ends": "2020-02-05T05:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued February 5 at 4:49AM CST until February 5 at 5:15AM CST by NWS Jackson MS",
+        "description": "At 448 AM CST, a severe thunderstorm was located over Carthage,\nmoving northeast at 35 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nThis severe storm will be near...\nRenfroe around 505 AM CST.\nEdinburg around 510 AM CST.\n\nOther locations impacted by this severe thunderstorm include\nRedwater.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-05T04:48:00.000-06:00...storm...243DEG...32KT...32.74,-89.57"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 515 AM CST FOR CENTRAL LEAKE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0032.000000T0000Z-200205T1115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-05T05:15:00-06:00"
+            ]
+        }
+    }
+}
