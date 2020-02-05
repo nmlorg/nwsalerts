@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038514-3427216",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.87,
+                    36.12
+                ],
+                [
+                    -94.81,
+                    36.059999999999995
+                ],
+                [
+                    -94.87,
+                    35.76
+                ],
+                [
+                    -94.9599999,
+                    35.76
+                ],
+                [
+                    -94.9599999,
+                    36.03
+                ],
+                [
+                    -94.87,
+                    36.12
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038514-3427216",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4038514-3427216",
+        "areaDesc": "Cherokee, OK",
+        "geocode": {
+            "UGC": [
+                "OKC021"
+            ],
+            "SAME": [
+                "040021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OKC021"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038201-3426963",
+                "identifier": "NWS-IDP-PROD-4038201-3426963",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-04T19:02:00-06:00"
+            }
+        ],
+        "sent": "2020-02-05T01:06:00-06:00",
+        "effective": "2020-02-05T01:06:00-06:00",
+        "onset": "2020-02-05T01:06:00-06:00",
+        "expires": "2020-02-05T09:05:00-06:00",
+        "ends": "2020-02-08T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Advisory issued February 5 at 1:06AM CST until February 8 at 6:00AM CST by NWS Tulsa OK",
+        "description": "...The Flood Advisory continues for the following rivers in\nOklahoma...\n\nIllinois River at Chewey affecting Adair...Cherokee and Delaware\nCounties\nIllinois River near Tahlequah affecting Cherokee County\n\nThe Flood Advisory continues for\nThe Illinois River near Tahlequah\n* until Saturday morning, or until the advisory is cancelled.\n* At 12:30 AM Wednesday, the stage was 7.2 feet.\n* Action stage is 9.0 feet.\n* Flood stage is 11.0 feet.\n* Forecast...The river will rise to near 10.2 feet by this evening,\nwhich is below flood stage.\n* Impact...At 11.0 feet, minor flooding occurs from near Hanging Rock\ndownstream towards Tahlequah. Floating the river is too hazardous\ndue to strong turbulence.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KTSA.FL.Y.0007.000000T0000Z-200208T1200Z/"
+            ],
+            "PIL": [
+                "TSAFLSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T06:00:00-06:00"
+            ]
+        }
+    }
+}
