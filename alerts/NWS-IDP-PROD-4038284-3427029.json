@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038284-3427029",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.4,
+                    35.7
+                ],
+                [
+                    -91.25,
+                    35.9099999
+                ],
+                [
+                    -91.15,
+                    36.120000000000005
+                ],
+                [
+                    -91.01,
+                    36.1
+                ],
+                [
+                    -91.10000000000001,
+                    35.88
+                ],
+                [
+                    -91.28000000000002,
+                    35.64
+                ],
+                [
+                    -91.4,
+                    35.7
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038284-3427029",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4038284-3427029",
+        "areaDesc": "Lawrence, AR; Independence, AR; Jackson, AR",
+        "geocode": {
+            "UGC": [
+                "ARC075",
+                "ARC063",
+                "ARC067"
+            ],
+            "SAME": [
+                "005075",
+                "005063",
+                "005067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC075",
+            "https://api.weather.gov/zones/county/ARC063",
+            "https://api.weather.gov/zones/county/ARC067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4037707-3426491",
+                "identifier": "NWS-IDP-PROD-4037707-3426491",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-04T10:25:00-06:00"
+            }
+        ],
+        "sent": "2020-02-04T20:27:00-06:00",
+        "effective": "2020-02-04T20:27:00-06:00",
+        "onset": "2020-02-04T20:24:00-06:00",
+        "expires": "2020-02-05T11:27:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Warning issued February 4 at 8:27PM CST by NWS Little Rock AR",
+        "description": "...From the National Weather Service in Little Rock...the Flood\nWarning continues for the following river in Arkansas...\n\nBlack River At Black Rock affecting Independence...Jackson and\nLawrence Counties\n\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 24 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.\n\nThe Flood Warning continues for\nThe Black River At Black Rock.\n* from this evening until further notice...Or until the warning is\ncancelled.\n* At 8:00 PM Tuesday the stage was 14.2 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 14.0 feet.\n* Forecast...The river will continue rising to near 18.5 feet by\nThursday early afternoon.\n* Impacts at 17.0 feet...Low lying cultivated land and pastures in\nLawrence, Jackson, and Independence counties flood.\n\n\nFld     Observed        Forecast 6 AM        Crest\nLocation     Stg   Stg  Day Time   Wed   Thu   Fri  Crest Time  Date\n\nBlack River\nBlack Rock  14  14.2 Tue 08 PM  15.9  18.3  18.1   18.5 12 PM 02/06",
+        "instruction": "Safety message...Remember to Turn Around...Don't Drown\nDo not drive cars through flooded areas.\n\nEveryone with property or other interest along streams and rivers\nshould remain alert to changing weather forecasts. Should conditions\nchange...Look for river forecasts or Flood Warnings for use in making\ninformed decisions to protect life and property.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLZK.FL.W.0022.200205T0224Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
