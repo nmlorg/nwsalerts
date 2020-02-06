@@ -1,0 +1,126 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041326-3429755",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.33,
+                    34.62
+                ],
+                [
+                    -84.38,
+                    34.4
+                ],
+                [
+                    -84.58,
+                    34.409999899999995
+                ],
+                [
+                    -84.61,
+                    34.409999899999995
+                ],
+                [
+                    -84.58,
+                    34.53999999999999
+                ],
+                [
+                    -84.63,
+                    34.63999999999999
+                ],
+                [
+                    -84.39999999999999,
+                    34.729999899999996
+                ],
+                [
+                    -84.33,
+                    34.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041326-3429755",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041326-3429755",
+        "areaDesc": "Gilmer, GA; Pickens, GA",
+        "geocode": {
+            "UGC": [
+                "GAC123",
+                "GAC227"
+            ],
+            "SAME": [
+                "013123",
+                "013227"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC123",
+            "https://api.weather.gov/zones/county/GAC227"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041294-3429727",
+                "identifier": "NWS-IDP-PROD-4041294-3429727",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T05:52:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041259-3429696",
+                "identifier": "NWS-IDP-PROD-4041259-3429696",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T05:39:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041240-3429678",
+                "identifier": "NWS-IDP-PROD-4041240-3429678",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T05:26:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T06:05:00-05:00",
+        "effective": "2020-02-06T06:05:00-05:00",
+        "onset": "2020-02-06T06:05:00-05:00",
+        "expires": "2020-02-06T06:15:00-05:00",
+        "ends": "2020-02-06T06:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Severe Thunderstorm Warning issued February 6 at 6:05AM EST until February 6 at 6:15AM EST by NWS Peachtree City GA",
+        "description": "The storms which prompted the warning have weakened below severe\nlimits, and no longer pose an immediate threat to life or property.\nTherefore, the warning will be allowed to expire.  However heavy\nrain and gusty winds are still possible with these thunderstorms.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-06T06:05:00.000-05:00...storm...250DEG...35KT...34.66,-84.42 34.6,-84.38 34.46,-84.44"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR SOUTHWESTERN GILMER AND CENTRAL PICKENS COUNTIES WILL EXPIRE AT 615 AM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KFFC.SV.W.0028.000000T0000Z-200206T1115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCSVSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T06:15:00-05:00"
+            ]
+        }
+    }
+}
