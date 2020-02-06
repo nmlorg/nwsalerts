@@ -1,0 +1,115 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042935-3431304",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.53,
+                    30.89
+                ],
+                [
+                    -83.78,
+                    30.66
+                ],
+                [
+                    -84.08,
+                    30.68
+                ],
+                [
+                    -84.09,
+                    30.71
+                ],
+                [
+                    -83.97,
+                    31.03
+                ],
+                [
+                    -83.53,
+                    30.89
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042935-3431304",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4042935-3431304",
+        "areaDesc": "Thomas, GA; Brooks, GA",
+        "geocode": {
+            "UGC": [
+                "GAC275",
+                "GAC027"
+            ],
+            "SAME": [
+                "013275",
+                "013027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC275",
+            "https://api.weather.gov/zones/county/GAC027"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042884-3431248",
+                "identifier": "NWS-IDP-PROD-4042884-3431248",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T15:43:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T15:57:00-05:00",
+        "effective": "2020-02-06T15:57:00-05:00",
+        "onset": "2020-02-06T15:57:00-05:00",
+        "expires": "2020-02-06T16:30:00-05:00",
+        "ends": "2020-02-06T16:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Severe Thunderstorm Warning issued February 6 at 3:57PM EST until February 6 at 4:30PM EST by NWS Tallahassee FL",
+        "description": "At 356 PM EST, a severe thunderstorm was located 10 miles south of\nThomasville, moving northeast at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nThomasville, Boston, Pavo, Barwick, Dixie, Thomasville Municipal A/P,\nGrooverville, Dillon, Everett, Patten, Eason, Oaklawn, Merrillville,\nPidcock, Hollis, Newark, Pasco and Metcalf.",
+        "instruction": "A Tornado Watch remains in effect until 800 PM EST for Big Bend of\nFlorida...and south central and southwestern Georgia.\n\nRemain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-06T15:56:00.000-05:00...storm...210DEG...46KT...30.69,-83.98"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 430 PM EST FOR THOMAS AND WEST CENTRAL BROOKS COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KTAE.SV.W.0022.000000T0000Z-200206T2130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAESVSTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T21:30:00+00:00"
+            ]
+        }
+    }
+}
