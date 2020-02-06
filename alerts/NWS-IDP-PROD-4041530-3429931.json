@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041530-3429931",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.89,
+                    34.7299999
+                ],
+                [
+                    -84.85,
+                    34.99
+                ],
+                [
+                    -84.75,
+                    34.99
+                ],
+                [
+                    -84.8,
+                    34.9099999
+                ],
+                [
+                    -84.83,
+                    34.720000000000006
+                ],
+                [
+                    -84.89,
+                    34.7299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041530-3429931",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041530-3429931",
+        "areaDesc": "Whitfield, GA; Murray, GA",
+        "geocode": {
+            "UGC": [
+                "GAC313",
+                "GAC213"
+            ],
+            "SAME": [
+                "013313",
+                "013213"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC313",
+            "https://api.weather.gov/zones/county/GAC213"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041433-3429847",
+                "identifier": "NWS-IDP-PROD-4041433-3429847",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T07:16:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T08:11:00-05:00",
+        "effective": "2020-02-06T08:11:00-05:00",
+        "onset": "2020-02-06T08:11:00-05:00",
+        "expires": "2020-02-06T22:10:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 8:11AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nConasauga River near Eton affecting Murray and Whitfield Counties\n\nThe Flood Warning continues for\nThe Conasauga River near Eton.\n* Until further notice.\n* At 8 AM Thursday the stage was 12.3 feet...and rising.\n* Minor flooding will continue.\n* Flood stage is 12 feet.\n* The river will continue rising to near 16.6 feet by early Friday\nthen begin falling.\n* At 16 feet...Minor flooding expands further into the woodlands...\npasture and fields along the river...upstream and downstream from\nthe gage on Georgia Highway 286 or Dawnville Road.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0038.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
