@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041153-3429595",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.43,
+                    32.2299999
+                ],
+                [
+                    -88.91000000000001,
+                    32.220000000000006
+                ],
+                [
+                    -88.92000000000002,
+                    32.580000000000005
+                ],
+                [
+                    -88.37000000000002,
+                    32.75000000000001
+                ],
+                [
+                    -88.43,
+                    32.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041153-3429595",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041153-3429595",
+        "areaDesc": "Lauderdale, MS; Kemper, MS",
+        "geocode": {
+            "UGC": [
+                "MSC075",
+                "MSC069"
+            ],
+            "SAME": [
+                "028075",
+                "028069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC075",
+            "https://api.weather.gov/zones/county/MSC069"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040764-3429215",
+                "identifier": "NWS-IDP-PROD-4040764-3429215",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T00:54:00-06:00"
+            }
+        ],
+        "sent": "2020-02-06T03:50:00-06:00",
+        "effective": "2020-02-06T03:50:00-06:00",
+        "onset": "2020-02-06T03:50:00-06:00",
+        "expires": "2020-02-06T04:00:00-06:00",
+        "ends": "2020-02-06T04:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flash Flood Warning issued February 6 at 3:50AM CST until February 6 at 4:00AM CST by NWS Jackson MS",
+        "description": "The heavy rain has ended. Flooding is no longer expected to pose a\nthreat. Please continue to heed any remaining road closures.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLASH FLOOD WARNING FOR SOUTHEASTERN KEMPER AND LAUDERDALE COUNTIES WILL EXPIRE AT 400 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KJAN.FF.W.0030.000000T0000Z-200206T1000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFFSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T04:00:00-06:00"
+            ]
+        }
+    }
+}
