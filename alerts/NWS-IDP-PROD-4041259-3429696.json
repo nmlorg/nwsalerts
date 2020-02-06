@@ -1,0 +1,137 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041259-3429696",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.42,
+                    34.76
+                ],
+                [
+                    -84.33,
+                    34.62
+                ],
+                [
+                    -84.38,
+                    34.4
+                ],
+                [
+                    -84.58,
+                    34.4
+                ],
+                [
+                    -84.58,
+                    34.409999899999995
+                ],
+                [
+                    -84.73,
+                    34.409999899999995
+                ],
+                [
+                    -84.73,
+                    34.4
+                ],
+                [
+                    -84.78,
+                    34.4
+                ],
+                [
+                    -84.73,
+                    34.67
+                ],
+                [
+                    -84.42,
+                    34.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041259-3429696",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041259-3429696",
+        "areaDesc": "Murray, GA; Gordon, GA; Gilmer, GA; Pickens, GA",
+        "geocode": {
+            "UGC": [
+                "GAC213",
+                "GAC129",
+                "GAC123",
+                "GAC227"
+            ],
+            "SAME": [
+                "013213",
+                "013129",
+                "013123",
+                "013227"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC213",
+            "https://api.weather.gov/zones/county/GAC129",
+            "https://api.weather.gov/zones/county/GAC123",
+            "https://api.weather.gov/zones/county/GAC227"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041240-3429678",
+                "identifier": "NWS-IDP-PROD-4041240-3429678",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T05:26:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T05:39:00-05:00",
+        "effective": "2020-02-06T05:39:00-05:00",
+        "onset": "2020-02-06T05:39:00-05:00",
+        "expires": "2020-02-06T06:15:00-05:00",
+        "ends": "2020-02-06T06:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Severe Thunderstorm Warning issued February 6 at 5:39AM EST until February 6 at 6:15AM EST by NWS Peachtree City GA",
+        "description": "At 539 AM EST, severe thunderstorms were located along a line\nextending from near Carters to near Fairmount, moving east at 45 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nJasper, Ellijay, East Ellijay, Talking Rock, Fairmount, Ranger,\nSequoyah Lake, Carters, Talona, Tails Creek, Cartecay, Blaine, Lake\nTamarack, Talmadge, Oakman, Tate, Roy, Hinton and Roundtop.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.\n\nTorrential rainfall is occurring with these storms, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-06T05:39:00.000-05:00...storm...255DEG...40KT...34.63,-84.72 34.44,-84.76"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 615 AM EST FOR SOUTHWESTERN GILMER...SOUTHEASTERN MURRAY...EASTERN GORDON AND PICKENS COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KFFC.SV.W.0028.000000T0000Z-200206T1115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCSVSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T06:15:00-05:00"
+            ]
+        }
+    }
+}
