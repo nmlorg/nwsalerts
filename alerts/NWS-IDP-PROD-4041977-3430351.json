@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041977-3430351",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.8199999,
+                    36.14
+                ],
+                [
+                    -84.73,
+                    36.2
+                ],
+                [
+                    -84.4599999,
+                    35.940000000000005
+                ],
+                [
+                    -84.55,
+                    35.89000000000001
+                ],
+                [
+                    -84.8199999,
+                    36.14
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041977-3430351",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041977-3430351",
+        "areaDesc": "Roane, TN; Morgan, TN",
+        "geocode": {
+            "UGC": [
+                "TNC145",
+                "TNC129"
+            ],
+            "SAME": [
+                "047145",
+                "047129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC145",
+            "https://api.weather.gov/zones/county/TNC129"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041487-3429892",
+                "identifier": "NWS-IDP-PROD-4041487-3429892",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T07:45:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T10:55:00-05:00",
+        "effective": "2020-02-06T10:55:00-05:00",
+        "onset": "2020-02-06T10:55:00-05:00",
+        "expires": "2020-02-07T04:46:00-05:00",
+        "ends": "2020-02-07T04:46:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Flood Warning issued February 6 at 10:55AM EST until February 7 at 4:46AM EST by NWS Morristown TN",
+        "description": "...The Flood Warning is extended for the following rivers ...\n\nSouth Chickamauga Creek Near Chickamauga TN affecting Catoosa and\nHamilton Counties\nEmory River At Oakdale TN affecting Morgan and Roane Counties\nLittle Pigeon River Above Sevierville TN affecting Sevier County",
+        "instruction": "Most deaths in floods occur in automobiles. If you come to a closed\nor flooded road, Turn Around! Don't Drown! For more details, stay\ntuned to NOAA Weather Radio or commercial television or radio\nstations that carry weather information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMRX.FL.W.0012.000000T0000Z-200207T0946Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXFLSMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T04:46:00-05:00"
+            ]
+        }
+    }
+}
