@@ -1,0 +1,134 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041564-3429963",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.6,
+                    34.21
+                ],
+                [
+                    -83.5699999,
+                    34.01
+                ],
+                [
+                    -83.8,
+                    33.93
+                ],
+                [
+                    -83.81,
+                    33.95
+                ],
+                [
+                    -83.83,
+                    33.970000000000006
+                ],
+                [
+                    -83.83,
+                    33.9799999
+                ],
+                [
+                    -83.87,
+                    34
+                ],
+                [
+                    -83.8199999,
+                    34.13
+                ],
+                [
+                    -83.77,
+                    34.1599999
+                ],
+                [
+                    -83.6,
+                    34.21
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041564-3429963",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041564-3429963",
+        "areaDesc": "Jackson, GA; Barrow, GA",
+        "geocode": {
+            "UGC": [
+                "GAC157",
+                "GAC013"
+            ],
+            "SAME": [
+                "013157",
+                "013013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC157",
+            "https://api.weather.gov/zones/county/GAC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041538-3429939",
+                "identifier": "NWS-IDP-PROD-4041538-3429939",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T08:16:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041549-3429950",
+                "identifier": "NWS-IDP-PROD-4041549-3429950",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T08:28:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T08:37:00-05:00",
+        "effective": "2020-02-06T08:37:00-05:00",
+        "onset": "2020-02-06T08:37:00-05:00",
+        "expires": "2020-02-06T08:45:00-05:00",
+        "ends": "2020-02-06T08:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Tornado Warning issued February 6 at 8:37AM EST until February 6 at 8:45AM EST by NWS Peachtree City GA",
+        "description": "At 836 AM EST, a severe thunderstorm capable of producing a tornado\nwas located over Auburn, or 7 miles northwest of Winder, moving\nnortheast at 55 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nWinder, Jefferson, Braselton, Auburn, Arcade, Hoschton, Pendergrass,\nCarl, Talmo, Fort Yargo State Park, County Line, Thompsons Mill,\nChateau Elan and Russell.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-06T08:36:00.000-05:00...storm...232DEG...47KT...34.04,-83.84"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 845 AM EST FOR BARROW AND SOUTHWESTERN JACKSON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KFFC.TO.W.0006.000000T0000Z-200206T1345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCSVSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T08:45:00-05:00"
+            ]
+        }
+    }
+}
