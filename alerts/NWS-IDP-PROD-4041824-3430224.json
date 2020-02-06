@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041824-3430224",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.65,
+                    34.72
+                ],
+                [
+                    -78.52000000000001,
+                    34.659999899999995
+                ],
+                [
+                    -78.38000000000001,
+                    34.559999999999995
+                ],
+                [
+                    -78.47000000000001,
+                    34.49999999999999
+                ],
+                [
+                    -78.59000000000002,
+                    34.589999999999996
+                ],
+                [
+                    -78.72000000000001,
+                    34.65
+                ],
+                [
+                    -78.65,
+                    34.72
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041824-3430224",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041824-3430224",
+        "areaDesc": "Bladen, NC",
+        "geocode": {
+            "UGC": [
+                "NCC017"
+            ],
+            "SAME": [
+                "037017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040225-3428760",
+                "identifier": "NWS-IDP-PROD-4040225-3428760",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T20:07:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T10:16:00-05:00",
+        "effective": "2020-02-06T10:16:00-05:00",
+        "onset": "2020-02-08T16:00:00-05:00",
+        "expires": "2020-02-07T02:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued February 6 at 10:16AM EST by NWS Wilmington NC",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nCape Fear At William O Huske Lock And Dam 3 affecting Bladen County NC\nCape Fear At Elizabethtown affecting Bladen County NC\nLumber Near Lumberton affecting Robeson County NC\nBlack Creek At Quinby affecting Darlington and Florence Counties SC\n\n...The Flood Warning continues for the following rivers...\n\nCape Fear At Hazard Services Test Point  affecting Bladen County NC",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning now in effect until further notice"
+            ],
+            "VTEC": [
+                "/O.EXT.KILM.FL.W.0012.200208T2100Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
