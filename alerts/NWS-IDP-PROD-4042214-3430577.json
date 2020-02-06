@@ -1,0 +1,74 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042214-3430577",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042214-3430577",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4042214-3430577",
+        "areaDesc": "Inland Lee; Coastal Charlotte; Coastal Lee; Inland Charlotte",
+        "geocode": {
+            "UGC": [
+                "FLZ265",
+                "FLZ162",
+                "FLZ165",
+                "FLZ262"
+            ],
+            "SAME": [
+                "012071",
+                "012015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/FLZ265",
+            "https://api.weather.gov/zones/forecast/FLZ162",
+            "https://api.weather.gov/zones/forecast/FLZ165",
+            "https://api.weather.gov/zones/forecast/FLZ262"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041015-3429478",
+                "identifier": "NWS-IDP-PROD-4041015-3429478",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T03:59:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T12:01:00-05:00",
+        "effective": "2020-02-06T12:01:00-05:00",
+        "onset": "2020-02-06T13:00:00-05:00",
+        "expires": "2020-02-07T07:00:00-05:00",
+        "ends": "2020-02-07T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Lake Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tampa Bay Ruskin FL",
+        "headline": "Lake Wind Advisory issued February 6 at 12:01PM EST until February 7 at 7:00AM EST by NWS Tampa Bay Ruskin FL",
+        "description": "* WHAT...Southwest winds 15 to 25 mph with gusts up to 35 mph\nexpected.\n\n* WHERE...Coastal Charlotte, Coastal Lee, Inland Charlotte and\nInland Lee Counties.\n\n* WHEN...From 1 PM this afternoon to 7 AM EST Friday.\n\n* IMPACTS...Strong winds and rough waves on area lakes will\ncreate hazardous conditions for small craft.",
+        "instruction": "Boaters on area lakes should use extra caution since strong winds\nand rough waves can overturn small craft.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "LAKE WIND ADVISORY REMAINS IN EFFECT UNTIL 7 AM EST FRIDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KTBW.LW.Y.0001.200206T1800Z-200207T1200Z/"
+            ],
+            "PIL": [
+                "TBWNPWTBW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T12:00:00+00:00"
+            ]
+        }
+    }
+}

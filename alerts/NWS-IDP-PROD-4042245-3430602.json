@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042245-3430602",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.61,
+                    34.3
+                ],
+                [
+                    -83.56,
+                    34.339999999999996
+                ],
+                [
+                    -83.36,
+                    34.269999999999996
+                ],
+                [
+                    -83.35,
+                    34.26
+                ],
+                [
+                    -83.55,
+                    34.26
+                ],
+                [
+                    -83.61,
+                    34.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042245-3430602",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4042245-3430602",
+        "areaDesc": "Banks, GA",
+        "geocode": {
+            "UGC": [
+                "GAC011"
+            ],
+            "SAME": [
+                "013011"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC011"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042242-3430599",
+                "identifier": "NWS-IDP-PROD-4042242-3430599",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T12:13:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T12:14:00-05:00",
+        "effective": "2020-02-06T12:14:00-05:00",
+        "onset": "2020-02-06T12:13:00-05:00",
+        "expires": "2020-02-07T02:13:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 12:13PM EST by NWS Peachtree City GA",
+        "description": "...The National Weather Service in Peachtree City has issued a Flood\nWarning for the following rivers in Georgia...\n\nGrove Creek near Banks Crossing affecting Banks County\n\n\n.Recent heavy rainfall has caused significant runoff into streams and\nrivers which will cause flooding in some areas.\n\nThe National Weather Service in Peachtree City has issued a\n* Flood Warning for\nThe Grove Creek near Banks Crossing.\n* From this afternoon until further notice.\n* At 12 PM Thursday the stage was 14.7 feet...and rising.\n* Flood stage is 15 feet.\n* At 15 feet...Flood Stage is reached. Minor flooding begins\nof woodlands and fields near the creek upstream and downstream\nfrom the gage on U.S. Highway 441.",
+        "instruction": "All persons with interests along the river should monitor the latest\nforecasts...and be prepared to take necessary precautions to protect\nlife and property.\n\nThe latest stage data was furnished in cooperation with the United\nStates Geological Survey.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.COR.KFFC.FL.W.0060.200206T1713Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLWFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

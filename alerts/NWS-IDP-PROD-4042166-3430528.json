@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042166-3430528",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.25,
+                    34.1
+                ],
+                [
+                    -84.2,
+                    34.1
+                ],
+                [
+                    -84.25,
+                    34.04
+                ],
+                [
+                    -84.3,
+                    34.019999999999996
+                ],
+                [
+                    -84.33,
+                    34.04
+                ],
+                [
+                    -84.27,
+                    34.07
+                ],
+                [
+                    -84.25,
+                    34.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042166-3430528",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4042166-3430528",
+        "areaDesc": "Fulton, GA; Forsyth, GA",
+        "geocode": {
+            "UGC": [
+                "GAC121",
+                "GAC117"
+            ],
+            "SAME": [
+                "013121",
+                "013117"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC121",
+            "https://api.weather.gov/zones/county/GAC117"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041324-3429754",
+                "identifier": "NWS-IDP-PROD-4041324-3429754",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T06:04:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T11:47:00-05:00",
+        "effective": "2020-02-06T11:47:00-05:00",
+        "onset": "2020-02-06T11:47:00-05:00",
+        "expires": "2020-02-07T01:46:00-05:00",
+        "ends": "2020-02-09T03:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 11:47AM EST until February 9 at 3:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nBig Creek near Alpharetta affecting Forsyth and Fulton Counties\n\nThe Flood Warning continues for\nThe Big Creek near Alpharetta.\n* Until late Saturday night.\n* At 10 AM Thursday the stage was 7.7 feet...and rising.\n* Minor flooding will continue.\n* Flood stage is 7 feet.\n* The river will continue rising to near 9.5 feet by early Friday\nafternoon. The river will fall below flood stage Saturday evening.\n* At 10 feet...Minor flooding expands along the creek from near\nCumming to Alpharetta and Roswell. Backyards of homes off Seale\nDrive and Gunter Court and portions of the Golf of Georgia are\nunder a foot of water. The Big Creek Greenway experiences\nsignificant flooding up to 4 feet deep with closure of the paths.\nThis especially occurs upstream and downstream from the gage on\nKimball Bridge Road and Rock Mill Park. A large portion of the YMCA\nCampground off Preston Ridge Road will be under a two feet of\nwater.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0036.000000T0000Z-200209T0800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T08:00:00+00:00"
+            ]
+        }
+    }
+}
