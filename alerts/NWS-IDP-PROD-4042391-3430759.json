@@ -1,0 +1,109 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042391-3430759",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -159.44,
+                    22.23
+                ],
+                [
+                    -159.43,
+                    22.21
+                ],
+                [
+                    -159.43,
+                    22.04
+                ],
+                [
+                    -159.58,
+                    22.04
+                ],
+                [
+                    -159.66999990000002,
+                    22.18
+                ],
+                [
+                    -159.56000000000003,
+                    22.23
+                ],
+                [
+                    -159.50000000000003,
+                    22.21
+                ],
+                [
+                    -159.49000000000004,
+                    22.23
+                ],
+                [
+                    -159.44,
+                    22.23
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042391-3430759",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4042391-3430759",
+        "areaDesc": "Kauai, HI",
+        "geocode": {
+            "UGC": [
+                "HIC007"
+            ],
+            "SAME": [
+                "015007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/HIC007"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041850-3430247",
+                "identifier": "NWS-IDP-PROD-4041850-3430247",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T05:20:00-10:00"
+            }
+        ],
+        "sent": "2020-02-06T08:03:00-10:00",
+        "effective": "2020-02-06T08:03:00-10:00",
+        "onset": "2020-02-06T08:03:00-10:00",
+        "expires": "2020-02-06T11:15:00-10:00",
+        "ends": "2020-02-06T11:15:00-10:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Honolulu HI",
+        "headline": "Flash Flood Warning issued February 6 at 8:03AM HST until February 6 at 11:15AM HST by NWS Honolulu HI",
+        "description": "The National Weather Service in Honolulu has extended the\n\n* Flash Flood Warning for...\nThe island of Kauai in Kauai County\n\n* Until 1115 AM HST.\n\n* At 801 AM HST, the Hanalei River Gage continues to be well above\nthreshold levels. Flooding is observed along Kuhio Highway near\nthe Hanalei Bridge and the road is closed. Rainfall continues in\nthe area, which will help to keep the water levels high over the\nnext several hours. High water levels are also expected in\nHanakapiai Stream, Kawaikoi Stream, and the Wainiha River.\n\nHAZARD...Flash flooding caused by heavy rain.\n\nSOURCE...Emergency management.\n\nIMPACT...Flooding in drainages, streams, rivers, roads,\nproperties, and other low-lying areas. Public road\nclosures possible in some areas. Landslides are possible\nin steep terrain.\n\n* Some locations that will experience flooding include...\nPrinceville, Wainiha, North Fork Wailua Trails, Hanalei and Na Pali\nState Park.",
+        "instruction": "A Flash Flood Warning means that flooding is imminent or occurring\nwithin the warned area.\n\nStay away from streams, rivers, drainage ditches, and culverts, even\nif they are currently dry.\n\nDo not cross fast flowing water in your vehicle, or on foot. Turn\naround, don't drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.PHFO.FF.W.0005.000000T0000Z-200206T2115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HFOFFWHFO"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T21:15:00+00:00"
+            ]
+        }
+    }
+}
