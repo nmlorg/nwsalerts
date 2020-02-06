@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041307-3429740",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.83,
+                    36.79
+                ],
+                [
+                    -83.89,
+                    36.81
+                ],
+                [
+                    -84.0699999,
+                    36.7
+                ],
+                [
+                    -84.0699999,
+                    36.800000000000004
+                ],
+                [
+                    -83.89,
+                    36.93000000000001
+                ],
+                [
+                    -83.74,
+                    36.85000000000001
+                ],
+                [
+                    -83.83,
+                    36.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041307-3429740",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041307-3429740",
+        "areaDesc": "Knox, KY",
+        "geocode": {
+            "UGC": [
+                "KYC121"
+            ],
+            "SAME": [
+                "021121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040420-3428938",
+                "identifier": "NWS-IDP-PROD-4040420-3428938",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T21:45:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T05:54:00-05:00",
+        "effective": "2020-02-06T05:54:00-05:00",
+        "onset": "2020-02-06T06:16:00-05:00",
+        "expires": "2020-02-06T17:53:00-05:00",
+        "ends": "2020-02-08T04:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Warning issued February 6 at 5:54AM EST until February 8 at 4:00AM EST by NWS Jackson KY",
+        "description": "...Forecast Flooding Changed from Minor to Moderate Severity for\nthe following rivers in Kentucky...\n\nThe Cumberland River at Pineville\nThe Cumberland River at Barbourville\nThe Cumberland River at Williamsburg\n\n* The Flood Warning continues for\nthe Cumberland River at Barbourville\n* until late Friday night.\n* At 5:30 AM Thursday the stage was 26.4 feet.\n* Flood stage is 27.0 feet.\n* Moderate flooding is forecast.\n* The river will rise above flood stage this morning and continue to\nrise to near 37.6 feet after midnight tonight. The river will\nfall below flood stage early Saturday morning.\n* At 38.5 feet...Homes begin flooding in Apple Grove, Sharp Gap and\nSmokey.",
+        "instruction": "A Flood Warning means that flooding is occurring or is imminent.\n\nContinue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by noon today.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from minor to moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KJKL.FL.W.0002.200206T1116Z-200208T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFLWJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T04:00:00-05:00"
+            ]
+        }
+    }
+}
