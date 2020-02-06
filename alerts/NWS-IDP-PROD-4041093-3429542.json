@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041093-3429542",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.8,
+                    31.18
+                ],
+                [
+                    -86.75999999999999,
+                    31.11
+                ],
+                [
+                    -87.08999999999999,
+                    31.03
+                ],
+                [
+                    -87.11999999999999,
+                    31.07
+                ],
+                [
+                    -86.8,
+                    31.18
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041093-3429542",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041093-3429542",
+        "areaDesc": "Escambia, AL; Covington, AL",
+        "geocode": {
+            "UGC": [
+                "ALC053",
+                "ALC039"
+            ],
+            "SAME": [
+                "001053",
+                "001039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC053",
+            "https://api.weather.gov/zones/county/ALC039"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040243-3428777",
+                "identifier": "NWS-IDP-PROD-4040243-3428777",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T19:12:00-06:00"
+            }
+        ],
+        "sent": "2020-02-06T03:26:00-06:00",
+        "effective": "2020-02-06T03:26:00-06:00",
+        "onset": "2020-02-09T12:00:00-06:00",
+        "expires": "2020-02-07T03:26:00-06:00",
+        "ends": "2020-02-10T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued February 6 at 3:26AM CST until February 10 at 6:00AM CST by NWS Mobile AL",
+        "description": "...The flood warning is cancelled for the following rivers in Alabama...\n\nMurder Creek At Brewton affecting Escambia County.\n...The flood warning continues for the following rivers in Alabama...Florida...\n\nConecuh River At Brewton affecting Covington and Escambia Counties.\nEscambia River Near Century affecting Escambia County.\nBlackwater River Near Baker affecting Covington...Escambia...Okaloosa and Santa\nRosa Counties.\nBig Coldwater Creek Near Milton affecting Okaloosa and Santa Rosa Counties.\nShoal River Near Crestview affecting Okaloosa County.\n\n.Recent heavy rains have caused significant rises along the river.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMOB.FL.W.0022.200209T1800Z-200210T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T06:00:00-06:00"
+            ]
+        }
+    }
+}

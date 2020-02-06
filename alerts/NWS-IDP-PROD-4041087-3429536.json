@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041087-3429536",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    35.03
+                ],
+                [
+                    -85.33,
+                    35.02
+                ],
+                [
+                    -85.45,
+                    34.84
+                ],
+                [
+                    -85.49000000000001,
+                    34.71
+                ],
+                [
+                    -85.56,
+                    34.7299999
+                ],
+                [
+                    -85.53,
+                    34.870000000000005
+                ],
+                [
+                    -85.39,
+                    35.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041087-3429536",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041087-3429536",
+        "areaDesc": "Dade, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC083",
+                "TNC065"
+            ],
+            "SAME": [
+                "013083",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC083",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040566-3429052",
+                "identifier": "NWS-IDP-PROD-4040566-3429052",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T23:02:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T04:23:00-05:00",
+        "effective": "2020-02-06T04:23:00-05:00",
+        "onset": "2020-02-06T04:23:00-05:00",
+        "expires": "2020-02-06T18:24:00-05:00",
+        "ends": "2020-02-07T15:50:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 4:23AM EST until February 7 at 3:50PM EST by NWS Peachtree City GA",
+        "description": "...Observed and Forecast Flooding Changed from Minor to Moderate Severity\nfor the following rivers in Georgia...\n\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\n.Recent heavy rainfall has caused significant runoff into streams and\nrivers which will cause flooding in some areas.\n\nThe Flood Warning continues for\nThe Lookout Creek near New England.\n* Until Friday afternoon.\n* At 4 AM Thursday the stage was 16.1 feet...and rising.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* Flood stage is 12.0 feet.\n* The river will continue to rise near 17.5 feet then fall to below\nflood stage by tomorrow afternoon.\n* At 17.0 feet...Moderate flooding begins. Several small buildings\nnear the New England hang gliding recreation park begin to flood.\nSeveral roads in Dade county will be closed including Sells Lane...\nMason Road...and Creek Road. The water will be several feet deep on\nportions of these roads. Also moderate flooding will begin\ndownstream as the creek crosses the Tennessee border into the\nTiftona area. Several roads near the creek will be flooded and\nclosed.",
+        "instruction": "All persons with interests along the river should monitor the latest\nforecasts...and be prepared to take necessary precautions to protect\nlife and property.\n\nThe latest stage data was furnished in cooperation with the United\nStates Geological Survey.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0035.000000T0000Z-200207T2050Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLWFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T15:50:00-05:00"
+            ]
+        }
+    }
+}
