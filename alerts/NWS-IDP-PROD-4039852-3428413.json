@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039852-3428413",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.28,
+                    34.9099999
+                ],
+                [
+                    -86.06,
+                    34.89
+                ],
+                [
+                    -86.37,
+                    34.42
+                ],
+                [
+                    -86.53,
+                    34.5
+                ],
+                [
+                    -86.28,
+                    34.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039852-3428413",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4039852-3428413",
+        "areaDesc": "Madison, AL; Marshall, AL; Jackson, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089",
+                "ALC095",
+                "ALC071"
+            ],
+            "SAME": [
+                "001089",
+                "001095",
+                "001071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089",
+            "https://api.weather.gov/zones/county/ALC095",
+            "https://api.weather.gov/zones/county/ALC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039274-3427922",
+                "identifier": "NWS-IDP-PROD-4039274-3427922",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T10:58:00-06:00"
+            }
+        ],
+        "sent": "2020-02-05T15:39:00-06:00",
+        "effective": "2020-02-05T15:39:00-06:00",
+        "onset": "2020-02-06T05:27:00-06:00",
+        "expires": "2020-02-06T05:39:00-06:00",
+        "ends": "2020-02-10T16:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 5 at 3:39PM CST until February 10 at 4:30PM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama...\n\nPaint Rock River NEAR Woodville affecting Jackson...Madison and\nMarshall Counties\n\nThe Flood Warning continues for\nthe Paint Rock River NEAR Woodville.\n* until Monday afternoon.\n* At 3 PM Wednesday the stage was 11.2 feet and rising.\n* Flood Stage is 15.0 feet.\n* Minor Flooding is forecast.\n* Forecast...Rise above Flood Stage by by daybreak tomorrow and crest\nnear 17.5 FEET BY early Saturday afternoon. The river will fall\nbelow Flood Stage by late Monday morning.\n* Impact...At 19.0 feet...Water is covering Alabama State Route 65\nabout two miles north of U.S. Highway 72. Several County Roads in\nPaint Rock Valley are flooded...including Jackson County Road 20.\n* Flood history...This crest compares to a previous crest of 17.5 feet\non Dec 24 2019.",
+        "instruction": "Safety message...Do not attempt to drive through a flooded road. The\ndepth of water is not always obvious. As little as two feet of water\nwill carry most cars away. Also, the road bed may be washed out under\nthe water, and you could be stranded or trapped. Additional\ninformation is available at http://water.weather.gov. Once there,\nclick on the Tennessee Valley to view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KHUN.FL.W.0006.200206T1127Z-200210T2230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T16:30:00-06:00"
+            ]
+        }
+    }
+}
