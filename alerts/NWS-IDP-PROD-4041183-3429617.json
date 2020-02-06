@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041183-3429617",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.51,
+                    35.17
+                ],
+                [
+                    -86.5,
+                    35.09
+                ],
+                [
+                    -86.83,
+                    35.03
+                ],
+                [
+                    -86.83,
+                    35.13
+                ],
+                [
+                    -86.51,
+                    35.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041183-3429617",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041183-3429617",
+        "areaDesc": "Franklin, TN; Lincoln, TN",
+        "geocode": {
+            "UGC": [
+                "TNC051",
+                "TNC103"
+            ],
+            "SAME": [
+                "047051",
+                "047103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC051",
+            "https://api.weather.gov/zones/county/TNC103"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040769-3429218",
+                "identifier": "NWS-IDP-PROD-4040769-3429218",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T00:56:00-06:00"
+            }
+        ],
+        "sent": "2020-02-06T04:05:00-06:00",
+        "effective": "2020-02-06T04:05:00-06:00",
+        "onset": "2020-02-06T04:05:00-06:00",
+        "expires": "2020-02-06T18:04:00-06:00",
+        "ends": "2020-02-07T09:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 6 at 4:05AM CST until February 7 at 9:15AM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in\nTennessee...\n\nElk River above Fayetteville affecting Franklin and Lincoln Counties\n\nThe Flood Warning continues for\nthe Elk River above Fayetteville.\n* until Friday morning.\n* At 3 AM Thursday the stage was 22.0 feet and rising.\n* Flood Stage is 17.5 feet.\n* Moderate Flooding is occurring and Moderate Flooding is forecast.\n* Recent activity...The maximum river stage in the 24 hours ending at\n3 AM Thursday was 22.0 feet.\n* Forecast...The river will continue rising to near 23.5 feet by\nearly this afternoon. The river will fall below Flood Stage by\ndaybreak tomorrow.\n* Impact...At 21.0 feet...Flood waters reach residential areas in low\nlying areas of Fayetteville.\n* Flood history...This crest compares to a previous crest of 21.6 feet\non Mar 10 2019.",
+        "instruction": "Safety message...Do not attempt to drive through a flooded road. The\ndepth of water is not always obvious. As little as two feet of water\nwill carry most cars away. Also, the road bed may be washed out under\nthe water, and you could be stranded or trapped. Additional\ninformation is available at http://water.weather.gov. Once there,\nclick on the Tennessee Valley to view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KHUN.FL.W.0009.000000T0000Z-200207T1515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T09:15:00-06:00"
+            ]
+        }
+    }
+}

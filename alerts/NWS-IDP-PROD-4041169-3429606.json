@@ -1,0 +1,83 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041169-3429606",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041169-3429606",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041169-3429606",
+        "areaDesc": "Central Yampa River Basin; Central Colorado River Basin",
+        "geocode": {
+            "UGC": [
+                "COZ002",
+                "COZ008"
+            ],
+            "SAME": [
+                "008081",
+                "008103",
+                "008107",
+                "008037",
+                "008045",
+                "008097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/COZ002",
+            "https://api.weather.gov/zones/forecast/COZ008"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038711-3427387",
+                "identifier": "NWS-IDP-PROD-4038711-3427387",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T02:19:00-07:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040108-3428656",
+                "identifier": "NWS-IDP-PROD-4040108-3428656",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T16:59:00-07:00"
+            }
+        ],
+        "sent": "2020-02-06T03:02:00-07:00",
+        "effective": "2020-02-06T03:02:00-07:00",
+        "onset": "2020-02-06T03:02:00-07:00",
+        "expires": "2020-02-06T17:00:00-07:00",
+        "ends": "2020-02-07T17:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Winter Weather Advisory issued February 6 at 3:02AM MST until February 7 at 5:00PM MST by NWS Grand Junction CO",
+        "description": "* WHAT...Snow expected. Total snow accumulations of 5 to 10\ninches with locally higher amounts. Winds gusting as high as\n35 mph.\n\n* WHERE...Central Yampa River Basin and Central Colorado River\nBasin.\n\n* WHEN...Through 5 PM MST Friday.\n\n* IMPACTS...Travel will be difficult at times. A detailed map of\nthe snowfall can be found at: www.weather.gov/gjt/winter.",
+        "instruction": "Slow down and use caution while traveling.\n\nThe latest road conditions for the state you are calling from can\nbe obtained by calling 5 1 1.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL 5 PM MST FRIDAY"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KGJT.WW.Y.0006.000000T0000Z-200208T0000Z/"
+            ],
+            "PIL": [
+                "GJTWSWGJT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T17:00:00-07:00"
+            ]
+        }
+    }
+}
