@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040638",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.35,
+                    30.69
+                ],
+                [
+                    -90.36,
+                    30.69
+                ],
+                [
+                    -90.5699999,
+                    30.650000000000002
+                ],
+                [
+                    -90.5699999,
+                    30.570000000000004
+                ],
+                [
+                    -90.83,
+                    30.370000000000005
+                ],
+                [
+                    -91.05,
+                    30.510000000000005
+                ],
+                [
+                    -90.78,
+                    30.950000000000006
+                ],
+                [
+                    -90.35,
+                    30.69
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040638",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040638",
+        "areaDesc": "St. Helena; East Feliciana; Northern Tangipahoa; East Baton Rouge; Livingston",
+        "geocode": {
+            "UGC": [
+                "LAZ037",
+                "LAZ036",
+                "LAZ071",
+                "LAZ048",
+                "LAZ050"
+            ],
+            "SAME": [
+                "022091",
+                "022037",
+                "022105",
+                "022033",
+                "022063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/LAZ037",
+            "https://api.weather.gov/zones/forecast/LAZ036",
+            "https://api.weather.gov/zones/forecast/LAZ071",
+            "https://api.weather.gov/zones/forecast/LAZ048",
+            "https://api.weather.gov/zones/forecast/LAZ050"
+        ],
+        "references": [],
+        "sent": "2020-02-05T23:22:00-06:00",
+        "effective": "2020-02-05T23:22:00-06:00",
+        "onset": "2020-02-05T23:22:00-06:00",
+        "expires": "2020-02-05T23:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Special Weather Statement issued February 5 at 11:22PM CST by NWS New Orleans LA",
+        "description": "At 1122 PM CST, a strong thunderstorm was located near Livingston, or\n10 miles northeast of Denham Springs, moving northeast at 65 mph.\n\nWinds in excess of 40 mph and pea size hail are possible with this\nstorm.\n\nLocations impacted include...\nDenham Springs, Greensburg, Amite, Walker, Amite City, Livingston,\nRoseland, Montpelier, Watson, Darlington and Greenwell Spring.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-05T23:22:00.000-06:00...storm...220DEG...55KT...30.57,-90.81"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT ST. HELENA...NORTHERN LIVINGSTON...EAST CENTRAL EAST FELICIANA...WEST CENTRAL TANGIPAHOA AND NORTHEASTERN EAST BATON ROUGE PARISHES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LIXSPSLIX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

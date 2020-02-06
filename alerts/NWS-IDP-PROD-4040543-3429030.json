@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040543-3429030",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.29,
+                    32.28
+                ],
+                [
+                    -86.31,
+                    32.300000000000004
+                ],
+                [
+                    -86.4,
+                    32.32000000000001
+                ],
+                [
+                    -86.4,
+                    32.36000000000001
+                ],
+                [
+                    -86.30000000000001,
+                    32.31000000000001
+                ],
+                [
+                    -86.27000000000001,
+                    32.28000000000001
+                ],
+                [
+                    -86.29,
+                    32.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040543-3429030",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040543-3429030",
+        "areaDesc": "Montgomery, AL",
+        "geocode": {
+            "UGC": [
+                "ALC101"
+            ],
+            "SAME": [
+                "001101"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC101"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040184-3428725",
+                "identifier": "NWS-IDP-PROD-4040184-3428725",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T18:43:00-06:00"
+            }
+        ],
+        "sent": "2020-02-05T21:41:00-06:00",
+        "effective": "2020-02-05T21:41:00-06:00",
+        "onset": "2020-02-06T17:15:00-06:00",
+        "expires": "2020-02-06T09:40:00-06:00",
+        "ends": "2020-02-08T12:48:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 5 at 9:41PM CST until February 8 at 12:48PM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Catoma Creek Near The U.S. 331\nHighway Bridge...\n\n.Additional heavy rainfall across the Catoma Creek basin, added to\nthe rain that has already fallen, will continue to lead to\nsignificant rises. A Flood Warning remains in effect for Catoma\nCreek at trhe U.S. Highway 331 Bridge.\n\nThe Flood Warning continues for\nThe Catoma Creek Near The U.S. 331 Highway Bridge.\n* from Thursday afternoon to Saturday afternoon...or until the\nWarning is cancelled.\n* AT  9:00 PM Wednesday the stage was 5.3 feet.\n* Minor flooding is forecast.\n* Flood stage is 20.0 feet.\n* Forecast...Rise above flood stage by tomorrow afternoon  and\ncontinue to rise to near 22.1 feet by Friday morning. The river\nwill fall below flood stage by early Saturday morning.\n* Impact...At 20.0 feet...Flooding of agricultural lands in the\nvicinity of the U.S. 331 Highway Bridge occurs.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Thursday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0016.200206T2315Z-200208T1848Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T18:48:00+00:00"
+            ]
+        }
+    }
+}
