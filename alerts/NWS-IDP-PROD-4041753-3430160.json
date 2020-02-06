@@ -1,0 +1,134 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041753-3430160",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.2,
+                    33.9799999
+                ],
+                [
+                    -83.25,
+                    34.040000000000006
+                ],
+                [
+                    -83.17,
+                    34.150000000000006
+                ],
+                [
+                    -83.05,
+                    34.13
+                ],
+                [
+                    -83.05,
+                    34.120000000000005
+                ],
+                [
+                    -83.03,
+                    34.11000000000001
+                ],
+                [
+                    -83.04,
+                    34.10000000000001
+                ],
+                [
+                    -83.02000000000001,
+                    34.09000000000001
+                ],
+                [
+                    -83.03000000000002,
+                    34.05000000000001
+                ],
+                [
+                    -83.2,
+                    33.9799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041753-3430160",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041753-3430160",
+        "areaDesc": "Madison, GA; Oglethorpe, GA",
+        "geocode": {
+            "UGC": [
+                "GAC195",
+                "GAC221"
+            ],
+            "SAME": [
+                "013195",
+                "013221"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC195",
+            "https://api.weather.gov/zones/county/GAC221"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041664-3430057",
+                "identifier": "NWS-IDP-PROD-4041664-3430057",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T09:44:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041696-3430087",
+                "identifier": "NWS-IDP-PROD-4041696-3430087",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T09:55:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T10:02:00-05:00",
+        "effective": "2020-02-06T10:02:00-05:00",
+        "onset": "2020-02-06T10:02:00-05:00",
+        "expires": "2020-02-06T10:15:00-05:00",
+        "ends": "2020-02-06T10:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Tornado Warning issued February 6 at 10:02AM EST until February 6 at 10:15AM EST by NWS Peachtree City GA",
+        "description": "At 1002 AM EST, a severe thunderstorm capable of producing a tornado\nwas located over Colbert, or 7 miles south of Danielsville, moving\nnortheast at 55 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nComer, Colbert, Carlton, Smithonia and Paoli.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-06T10:02:00.000-05:00...storm...231DEG...50KT...34.02,-83.2"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 1015 AM EST FOR NORTH CENTRAL OGLETHORPE AND SOUTHEASTERN MADISON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KFFC.TO.W.0007.000000T0000Z-200206T1515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCSVSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T10:15:00-05:00"
+            ]
+        }
+    }
+}
