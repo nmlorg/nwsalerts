@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041440-3429850",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.4599999,
+                    36.8
+                ],
+                [
+                    -83.7,
+                    36.68
+                ],
+                [
+                    -83.83,
+                    36.79
+                ],
+                [
+                    -83.74,
+                    36.85
+                ],
+                [
+                    -83.66,
+                    36.800000000000004
+                ],
+                [
+                    -83.5,
+                    36.88
+                ],
+                [
+                    -83.4599999,
+                    36.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041440-3429850",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041440-3429850",
+        "areaDesc": "Bell, KY",
+        "geocode": {
+            "UGC": [
+                "KYC013"
+            ],
+            "SAME": [
+                "021013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041309-3429742",
+                "identifier": "NWS-IDP-PROD-4041309-3429742",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T05:54:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T07:21:00-05:00",
+        "effective": "2020-02-06T07:21:00-05:00",
+        "onset": "2020-02-06T07:21:00-05:00",
+        "expires": "2020-02-06T19:20:00-05:00",
+        "ends": "2020-02-07T19:47:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Warning issued February 6 at 7:21AM EST until February 7 at 7:47PM EST by NWS Jackson KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe Cumberland River at Pineville\n\nThe Flood Warning continues for\nThe Cumberland River at Pineville.\n* At 6:30 AM Thursday the stage was 1009 feet.\n* Flood stage is 1002 feet.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* The river will continue rising to near 1014 feet by this\nevening. The river will fall below flood stage early Friday\nafternoon.\n* At 1013 feet...Flooding threatens US 25 E, Stewart branch Road and\nWallsend.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by noon today.\n\nA Flood Warning means that flooding is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJKL.FL.W.0005.000000T0000Z-200208T0047Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T19:47:00-05:00"
+            ]
+        }
+    }
+}
