@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041861-3430254",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.47,
+                    31.33
+                ],
+                [
+                    -85.6,
+                    31.319999999999997
+                ],
+                [
+                    -85.66,
+                    31.199999999999996
+                ],
+                [
+                    -85.75,
+                    31.199999999999996
+                ],
+                [
+                    -85.66,
+                    31.369999999999997
+                ],
+                [
+                    -85.53,
+                    31.4
+                ],
+                [
+                    -85.47,
+                    31.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041861-3430254",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041861-3430254",
+        "areaDesc": "Dale, AL",
+        "geocode": {
+            "UGC": [
+                "ALC045"
+            ],
+            "SAME": [
+                "001045"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC045"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041512-3429915",
+                "identifier": "NWS-IDP-PROD-4041512-3429915",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T07:58:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T10:24:00-05:00",
+        "effective": "2020-02-06T10:24:00-05:00",
+        "onset": "2020-02-07T13:00:00-05:00",
+        "expires": "2020-02-07T10:23:00-05:00",
+        "ends": "2020-02-08T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Flood Warning issued February 6 at 10:24AM EST until February 8 at 1:00AM EST by NWS Tallahassee FL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama...\n\nChoctawhatchee River near Newton (SR 134) affecting Dale County\n\nThe Flood Warning continues for\nthe Choctawhatchee River near Newton (SR 134).\n* From Friday afternoon, or until the warning is cancelled.\n* At  8:30 AM Thursday the stage was 8.4 feet.\n* Minor flooding is forecast.\n* Flood stage is 19.0 feet.\n* Forecast: The river is expected to rise to near flood stage\ntomorrow early afternoon.\n* Impact: At 19.0 feet: Minor flooding will begin to affect farmland\nin low lying areas near the Choctawhatchee River.",
+        "instruction": "All persons with interest along the river should monitor the latest\nforecasts, and be prepared to take necessary precautions to protect\nlife and property. Do not drive cars through flooded areas. If you\nsee flood waters: Turn around. Don't drown.\n\nFor graphical hydrologic information, please go to weather.gov and\nclick on your state. Select Rivers and Lakes AHPS under current\nconditions and click on your river point.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KTAE.FL.W.0005.200207T1800Z-200208T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAEFLSTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T01:00:00-05:00"
+            ]
+        }
+    }
+}
