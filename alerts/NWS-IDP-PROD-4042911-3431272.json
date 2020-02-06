@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042911-3431272",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -117.81,
+                    45.65
+                ],
+                [
+                    -117.81,
+                    45.4
+                ],
+                [
+                    -117.72,
+                    45.18
+                ],
+                [
+                    -117.92,
+                    45.1
+                ],
+                [
+                    -118.06,
+                    45.14
+                ],
+                [
+                    -118.06,
+                    45.29
+                ],
+                [
+                    -118.13,
+                    45.31
+                ],
+                [
+                    -118.1,
+                    45.370000000000005
+                ],
+                [
+                    -118.00999999999999,
+                    45.63
+                ],
+                [
+                    -117.81,
+                    45.65
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042911-3431272",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4042911-3431272",
+        "areaDesc": "Union, OR",
+        "geocode": {
+            "UGC": [
+                "ORC061"
+            ],
+            "SAME": [
+                "041061"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ORC061"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042543-3430906",
+                "identifier": "NWS-IDP-PROD-4042543-3430906",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T11:01:00-08:00"
+            }
+        ],
+        "sent": "2020-02-06T12:51:00-08:00",
+        "effective": "2020-02-06T12:51:00-08:00",
+        "onset": "2020-02-06T12:51:00-08:00",
+        "expires": "2020-02-07T11:00:00-08:00",
+        "ends": "2020-02-07T11:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Advisory issued February 6 at 12:51PM PST until February 7 at 11:00AM PST by NWS Pendleton OR",
+        "description": "Rain and snow melt will cause areas of minor flooding across the\nGrande Ronde Valley through Friday.  Snow and ice may block storm\ndrains and culverts causing water to back up in yards and streets,\nespecially in areas of poor drainage. Check storm drains and\nculverts near you and clear as needed.\n\nSome locations that will experience flooding include...\nLa Grande, Union, Elgin, Island City, Cove, Imbler and Summerville.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLOOD ADVISORY FOR RAIN AND SNOWMELT FOR MINOR FLOODING IN POOR DRAINAGE AREAS REMAINS IN EFFECT UNTIL 1100 AM PST FOR CENTRAL UNION COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KPDT.FA.Y.0003.000000T0000Z-200207T1900Z/"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T19:00:00+00:00"
+            ]
+        }
+    }
+}
