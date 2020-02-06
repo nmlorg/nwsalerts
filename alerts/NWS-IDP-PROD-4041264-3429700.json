@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041264-3429700",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.76,
+                    33.22
+                ],
+                [
+                    -85.83,
+                    33.32
+                ],
+                [
+                    -85.37,
+                    33.83
+                ],
+                [
+                    -85.30000000000001,
+                    33.47
+                ],
+                [
+                    -85.76,
+                    33.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041264-3429700",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041264-3429700",
+        "areaDesc": "Clay, AL; Randolph, AL; Cleburne, AL",
+        "geocode": {
+            "UGC": [
+                "ALC027",
+                "ALC111",
+                "ALC029"
+            ],
+            "SAME": [
+                "001027",
+                "001111",
+                "001029"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC027",
+            "https://api.weather.gov/zones/county/ALC111",
+            "https://api.weather.gov/zones/county/ALC029"
+        ],
+        "references": [],
+        "sent": "2020-02-06T04:41:00-06:00",
+        "effective": "2020-02-06T04:41:00-06:00",
+        "onset": "2020-02-06T04:41:00-06:00",
+        "expires": "2020-02-06T05:30:00-06:00",
+        "ends": "2020-02-06T05:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Tornado Warning issued February 6 at 4:41AM CST until February 6 at 5:30AM CST by NWS Birmingham AL",
+        "description": "The National Weather Service in Birmingham has issued a\n\n* Tornado Warning for...\nNorthwestern Randolph County in east central Alabama...\nSoutheastern Cleburne County in east central Alabama...\nNortheastern Clay County in east central Alabama...\n\n* Until 530 AM CST.\n\n* At 441 AM CST, a severe thunderstorm capable of producing a tornado\nwas located over Lineville, moving northeast at 65 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* Locations impacted include...\nLineville, Ashland, Ranburne, Fruithurst, Muscadine, Morrison Cross\nRoads, Barfield, Abernathy, Fosters Cross Roads, Delta, Corinth,\nHollis Crossroads, Newell, Ofelia, Trickem, Lake Cleburne, I 20\nWelcome Center, Micaville and Graham.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-06T04:41:00.000-06:00...storm...225DEG...54KT...33.31,-85.73"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KBMX.TO.W.0015.200206T1041Z-200206T1130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXTORBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T05:30:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 5:30 AM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}
