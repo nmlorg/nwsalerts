@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041580-3429978",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.02,
+                    33.87
+                ],
+                [
+                    -83.95,
+                    33.87
+                ],
+                [
+                    -83.94,
+                    33.76
+                ],
+                [
+                    -83.97,
+                    33.729999899999996
+                ],
+                [
+                    -84.01,
+                    33.76
+                ],
+                [
+                    -84.02,
+                    33.87
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041580-3429978",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041580-3429978",
+        "areaDesc": "Gwinnett, GA",
+        "geocode": {
+            "UGC": [
+                "GAC135"
+            ],
+            "SAME": [
+                "013135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC135"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041500-3429906",
+                "identifier": "NWS-IDP-PROD-4041500-3429906",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T07:51:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T08:50:00-05:00",
+        "effective": "2020-02-06T08:50:00-05:00",
+        "onset": "2020-02-06T08:50:00-05:00",
+        "expires": "2020-02-06T22:50:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 8:50AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nNo Business Creek near Snellville  affecting Gwinnett County\n\nBig Haynes Creek near Snellville  affecting Gwinnett County\n\nThe Flood Warning continues for\nThe Big Haynes Creek near Snellville .\n* Until further notice.\n* At 830 AM Thursday the stage was 10.5 feet...and rising.\n* Minor flooding will continue.\n* Flood stage is 10 feet.\n* At 10 feet...Flood stage is reached. Minor flooding will occur in\nthe woodlands and pastures near the creek upstream and downstream\nfrom the gage on Lenora Road. Some outbuildings near the creek\nupstream and on the left bank from the bridge may begin to flood.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0040.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
