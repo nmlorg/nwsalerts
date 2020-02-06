@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042917-3431277",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -118.8,
+                    45.85
+                ],
+                [
+                    -118.08,
+                    45.88
+                ],
+                [
+                    -118.03,
+                    45.53
+                ],
+                [
+                    -118.81,
+                    45.52
+                ],
+                [
+                    -118.8,
+                    45.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042917-3431277",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4042917-3431277",
+        "areaDesc": "Umatilla, OR",
+        "geocode": {
+            "UGC": [
+                "ORC059"
+            ],
+            "SAME": [
+                "041059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ORC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042078-3430439",
+                "identifier": "NWS-IDP-PROD-4042078-3430439",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T08:20:00-08:00"
+            }
+        ],
+        "sent": "2020-02-06T12:53:00-08:00",
+        "effective": "2020-02-06T12:53:00-08:00",
+        "onset": "2020-02-06T12:53:00-08:00",
+        "expires": "2020-02-07T00:53:00-08:00",
+        "ends": "2020-02-08T01:10:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Warning issued February 6 at 12:53PM PST until February 8 at 1:10AM PST by NWS Pendleton OR",
+        "description": "...The Flood Warning continues for the following rivers in Oregon...\n\nUmatilla River near Gibbon affecting Umatilla County\nUmatilla River at Pendleton affecting Umatilla County\n\nThe Flood Warning continues for\nThe Umatilla River near Gibbon.\n* until late Friday night.\n* At12:15 PM Thursday, the stage was 11.9 feet.\n* Flood stage is 7.0 feet.\n* Moderate to major flooding is occurring.\n* Forecast...The river will continue to rise to around 12.5 feet\ntonight and then begin to drop late tonight and Friday.",
+        "instruction": "Turn around, don't drown. Never drive cars...trucks or sport utility\nvehicles through flooded areas. The water may be too deep to allow\nfor safe passage. As little as one foot of water on the road can move\nmost vehicles off the road.\n\n\nAdditional information is available at:\nweather.gov/Pendleton",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPDT.FL.W.0001.000000T0000Z-200208T0910Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T09:10:00+00:00"
+            ]
+        }
+    }
+}
