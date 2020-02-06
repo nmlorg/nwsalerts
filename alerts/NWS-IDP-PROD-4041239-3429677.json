@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041239-3429677",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.49,
+                    34.76
+                ],
+                [
+                    -86.38,
+                    34.75
+                ],
+                [
+                    -86.39,
+                    34.61
+                ],
+                [
+                    -86.47,
+                    34.47
+                ],
+                [
+                    -86.55,
+                    34.54
+                ],
+                [
+                    -86.49,
+                    34.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041239-3429677",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041239-3429677",
+        "areaDesc": "Madison, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089"
+            ],
+            "SAME": [
+                "001089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040300-3428828",
+                "identifier": "NWS-IDP-PROD-4040300-3428828",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T19:37:00-06:00"
+            }
+        ],
+        "sent": "2020-02-06T04:25:00-06:00",
+        "effective": "2020-02-06T04:25:00-06:00",
+        "onset": "2020-02-06T04:25:00-06:00",
+        "expires": "2020-02-06T18:24:00-06:00",
+        "ends": "2020-02-07T19:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 6 at 4:25AM CST until February 7 at 7:00PM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama...\n\nFlint River at Brownsboro affecting Madison County\n\nThe Flood Warning continues for\nthe Flint River at Brownsboro.\n* until Friday evening.\n* At 3 AM Thursday the stage was 19.3 feet and rising.\n* Flood Stage is 17.0 feet.\n* Moderate Flooding is occurring and Moderate Flooding is forecast.\n* Recent activity...The maximum river stage in the 24 hours ending at\n3 AM Thursday was 19.3 feet.\n* Forecast...The river will continue rising to near 20.0 feet by\nearly this afternoon. The river will fall below Flood Stage early\ntomorrow afternoon.\n* Impact...At 20.0 feet...Backwater on a nearby tributary added to\nfloodwaters from the Flint River both reach a small bridge on\nBrownsboro Road.\n* Flood history...This crest compares to a previous crest of 20.3 feet\non Dec 1 2019.",
+        "instruction": "Safety message...Do not attempt to drive through a flooded road. The\ndepth of water is not always obvious. As little as two feet of water\nwill carry most cars away. Also, the road bed may be washed out under\nthe water, and you could be stranded or trapped. Additional\ninformation is available at http://water.weather.gov. Once there,\nclick on the Tennessee Valley to view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KHUN.FL.W.0007.000000T0000Z-200208T0100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T19:00:00-06:00"
+            ]
+        }
+    }
+}
