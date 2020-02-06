@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042349-3430707",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.12,
+                    36.9099999
+                ],
+                [
+                    -83.4599999,
+                    36.800000000000004
+                ],
+                [
+                    -83.5,
+                    36.870000000000005
+                ],
+                [
+                    -83.17,
+                    37.00000000000001
+                ],
+                [
+                    -83.12,
+                    36.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042349-3430707",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4042349-3430707",
+        "areaDesc": "Harlan, KY",
+        "geocode": {
+            "UGC": [
+                "KYC095"
+            ],
+            "SAME": [
+                "021095"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC095"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041528-3429929",
+                "identifier": "NWS-IDP-PROD-4041528-3429929",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T08:08:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T12:53:00-05:00",
+        "effective": "2020-02-06T12:53:00-05:00",
+        "onset": "2020-02-06T12:53:00-05:00",
+        "expires": "2020-02-07T00:53:00-05:00",
+        "ends": "2020-02-07T09:11:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Warning issued February 6 at 12:53PM EST until February 7 at 9:11AM EST by NWS Jackson KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe Cumberland River at Baxter\nThe Cumberland River at Pineville\nThe Cumberland River at Barbourville\nThe Cumberland River at Williamsburg\n\nThe Flood Warning continues for\nThe Cumberland River at Baxter.\n* Flood stage is 16.0 feet.\n* Forecast...The river is forecast to have a maximum value of 25.5\nfeet this afternoon. The river is expected to drop below flood\nearly Friday morning.\n* At 25.0 feet...The old water plant building is flooded.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 6 PM EST.\n\nA Flood Warning means that flooding is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJKL.FL.W.0004.000000T0000Z-200207T1411Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T14:11:00+00:00"
+            ]
+        }
+    }
+}
