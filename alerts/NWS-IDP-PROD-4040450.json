@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040450",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.08,
+                    31.33
+                ],
+                [
+                    -90.03999999999999,
+                    31.33
+                ],
+                [
+                    -90.03999999999999,
+                    31.31
+                ],
+                [
+                    -90.39999999999999,
+                    31.02
+                ],
+                [
+                    -90.52,
+                    31.099999999999998
+                ],
+                [
+                    -90.33,
+                    31.349999999999998
+                ],
+                [
+                    -90.11,
+                    31.349999999999998
+                ],
+                [
+                    -90.08,
+                    31.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040450",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040450",
+        "areaDesc": "Walthall; Pike",
+        "geocode": {
+            "UGC": [
+                "MSZ071",
+                "MSZ070"
+            ],
+            "SAME": [
+                "028147",
+                "028113"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MSZ071",
+            "https://api.weather.gov/zones/forecast/MSZ070"
+        ],
+        "references": [],
+        "sent": "2020-02-05T21:01:00-06:00",
+        "effective": "2020-02-05T21:01:00-06:00",
+        "onset": "2020-02-05T21:01:00-06:00",
+        "expires": "2020-02-05T21:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Special Weather Statement issued February 5 at 9:01PM CST by NWS New Orleans LA",
+        "description": "At 901 PM CST, a strong thunderstorm was located near Magnolia, or 8\nmiles southeast of Mccomb, moving northeast at 55 mph.\n\nWinds in excess of 30 mph and pea size hail are possible with this\nstorm.\n\nLocations impacted include...\nMagnolia.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-05T21:01:00.000-06:00...storm...219DEG...48KT...31.15,-90.39"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT NORTHWESTERN WALTHALL AND CENTRAL PIKE COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LIXSPSLIX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
