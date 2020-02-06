@@ -1,0 +1,112 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040411-3428930",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.12,
+                    36.22
+                ],
+                [
+                    -86.35000000000001,
+                    35.4
+                ],
+                [
+                    -86.73,
+                    35.36
+                ],
+                [
+                    -87.3199999,
+                    35.58
+                ],
+                [
+                    -86.9,
+                    36.22
+                ],
+                [
+                    -86.12,
+                    36.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040411-3428930",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040411-3428930",
+        "areaDesc": "Davidson, TN; Rutherford, TN; Wilson, TN; Bedford, TN; Maury, TN; Marshall, TN; Williamson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC037",
+                "TNC149",
+                "TNC189",
+                "TNC003",
+                "TNC119",
+                "TNC117",
+                "TNC187"
+            ],
+            "SAME": [
+                "047037",
+                "047149",
+                "047189",
+                "047003",
+                "047119",
+                "047117",
+                "047187"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC037",
+            "https://api.weather.gov/zones/county/TNC149",
+            "https://api.weather.gov/zones/county/TNC189",
+            "https://api.weather.gov/zones/county/TNC003",
+            "https://api.weather.gov/zones/county/TNC119",
+            "https://api.weather.gov/zones/county/TNC117",
+            "https://api.weather.gov/zones/county/TNC187"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040135-3428683",
+                "identifier": "NWS-IDP-PROD-4040135-3428683",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T18:07:00-06:00"
+            }
+        ],
+        "sent": "2020-02-05T20:29:00-06:00",
+        "effective": "2020-02-05T20:29:00-06:00",
+        "onset": "2020-02-05T20:29:00-06:00",
+        "expires": "2020-02-06T00:00:00-06:00",
+        "ends": "2020-02-06T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued February 5 at 8:29PM CST until February 6 at 12:00AM CST by NWS Nashville TN",
+        "description": "The National Weather Service in Nashville has extended the\n\n* Flood Advisory for...\nDavidson County in Middle Tennessee...\nMarshall County in Middle Tennessee...\nRutherford County in Middle Tennessee...\nMaury County in Middle Tennessee...\nWilliamson County in Middle Tennessee...\nCentral Wilson County in Middle Tennessee...\nBedford County in Middle Tennessee...\n\n* Until midnight CST.\n\n* At 828 PM CST, Doppler radar indicated heavy rain due to\nthunderstorms. This will cause flooding in the advisory area.\n\n* Some locations that will experience flooding include...\nMurfreesboro, Franklin, Columbia, Lebanon, Shelbyville, Lewisburg,\nNashville, Smyrna, Brentwood, La Vergne, Spring Hill, Mount Juliet,\nNolensville, Forest Hills, Mount Pleasant, Oak Hill, Belle Meade,\nThompson's Station, Watertown and Hermitage.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KOHX.FA.Y.0007.000000T0000Z-200206T0600Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T00:00:00-06:00"
+            ]
+        }
+    }
+}
