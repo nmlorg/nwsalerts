@@ -1,0 +1,128 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041626-3430019",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82,
+                    35.27
+                ],
+                [
+                    -81.97,
+                    35.260000000000005
+                ],
+                [
+                    -81.9599999,
+                    35.24
+                ],
+                [
+                    -81.99,
+                    35.1
+                ],
+                [
+                    -82.05,
+                    35.01
+                ],
+                [
+                    -82.22,
+                    34.96
+                ],
+                [
+                    -82.22,
+                    35.19
+                ],
+                [
+                    -82.26,
+                    35.199999999999996
+                ],
+                [
+                    -82.03,
+                    35.309999999999995
+                ],
+                [
+                    -82,
+                    35.27
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041626-3430019",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4041626-3430019",
+        "areaDesc": "Spartanburg, SC; Polk, NC",
+        "geocode": {
+            "UGC": [
+                "SCC083",
+                "NCC149"
+            ],
+            "SAME": [
+                "045083",
+                "037149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC083",
+            "https://api.weather.gov/zones/county/NCC149"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041591-3429988",
+                "identifier": "NWS-IDP-PROD-4041591-3429988",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T09:01:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T09:25:00-05:00",
+        "effective": "2020-02-06T09:25:00-05:00",
+        "onset": "2020-02-06T09:25:00-05:00",
+        "expires": "2020-02-06T09:45:00-05:00",
+        "ends": "2020-02-06T09:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Severe Thunderstorm Warning issued February 6 at 9:25AM EST until February 6 at 9:45AM EST by NWS Greenville-Spartanburg SC",
+        "description": "At 925 AM EST, severe thunderstorms were located along a line\nextending from 6 miles east of Columbus to 10 miles north of\nGreenville Downtown, moving northeast at 35 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to trees and power lines.\n\nLocations impacted include...\nLandrum, Inman, Tryon, Campobello, Lake Bowen, Green Creek,\nFingerville and Gowensville.",
+        "instruction": "Scattered trees and power lines will be blown down in the warned\narea. Seek shelter inside an interior room.\n\nThese storms are also producing extremely heavy rainfall. Flooding of\ndrainage ditches and low lying areas may occur. Small streams will\nrise rapidly. Do not drive through areas where water is flowing over\nthe road.\n\nPlease report damaging winds, hail, or flooding to the National\nWeather Service Greenville-Spartanburg by calling toll free, 1, 800,\n2 6 7, 8 1 0 1, or by posting on our Facebook page, or Tweet it using\nhashtag nwsgsp. Your message should describe the event and the\nspecific location where it occurred.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-06T09:25:00.000-05:00...storm...242DEG...31KT...35.25,-82.09 34.99,-82.34"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 945 AM EST FOR SOUTHEASTERN POLK AND NORTHWESTERN SPARTANBURG COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KGSP.SV.W.0023.000000T0000Z-200206T1445Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GSPSVSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T09:45:00-05:00"
+            ]
+        }
+    }
+}
