@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040238-3428772",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.9599999,
+                    30.91
+                ],
+                [
+                    -86.94,
+                    30.88
+                ],
+                [
+                    -87,
+                    30.81
+                ],
+                [
+                    -86.9599999,
+                    30.68
+                ],
+                [
+                    -86.97,
+                    30.68
+                ],
+                [
+                    -87.03999999999999,
+                    30.8
+                ],
+                [
+                    -86.9599999,
+                    30.91
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040238-3428772",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040238-3428772",
+        "areaDesc": "Santa Rosa, FL; Okaloosa, FL",
+        "geocode": {
+            "UGC": [
+                "FLC113",
+                "FLC091"
+            ],
+            "SAME": [
+                "012113",
+                "012091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC113",
+            "https://api.weather.gov/zones/county/FLC091"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040020-3428575",
+                "identifier": "NWS-IDP-PROD-4040020-3428575",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T17:19:00-06:00"
+            }
+        ],
+        "sent": "2020-02-05T19:12:00-06:00",
+        "effective": "2020-02-05T19:12:00-06:00",
+        "onset": "2020-02-06T06:40:00-06:00",
+        "expires": "2020-02-06T19:12:00-06:00",
+        "ends": "2020-02-08T13:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued February 5 at 7:12PM CST until February 8 at 1:00PM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for the following rivers in Alabama...Florida...\n\nTombigbee River Near Coffeeville Dam affecting Choctaw...Clarke and Washington\nCounties.\n\nAlabama River Near Millers Ferry Dam affecting Dallas...Monroe and Wilcox\nCounties.\n\nAlabama River Near Claiborne Dam - Tailwater affecting Clarke...Monroe and\nWilcox Counties.\n\nEscambia River Near Century affecting Escambia County.\n\nBlackwater River Near Baker affecting Covington...Escambia...Okaloosa and Santa\nRosa Counties.\n\nBig Coldwater Creek Near Milton affecting Okaloosa and Santa Rosa Counties.\n\nShoal River Near Crestview affecting Okaloosa County.\n\nMurder Creek At Brewton affecting Escambia County.\n\nTombigbee River Near Leroy affecting Choctaw...Clarke and Washington\nCounties.\n\nConecuh River At Brewton affecting Covington and Escambia Counties.\n\n.Recent heavy rains have caused significant rises along the river.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMOB.FL.W.0017.200206T1240Z-200208T1900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T13:00:00-06:00"
+            ]
+        }
+    }
+}

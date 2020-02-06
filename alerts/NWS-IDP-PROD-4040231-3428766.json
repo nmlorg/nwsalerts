@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040231-3428766",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.8199999,
+                    32.52
+                ],
+                [
+                    -87.9,
+                    32.25
+                ],
+                [
+                    -88.06,
+                    32.01
+                ],
+                [
+                    -88.16,
+                    32.01
+                ],
+                [
+                    -88.09,
+                    32.409999899999995
+                ],
+                [
+                    -87.9,
+                    32.529999999999994
+                ],
+                [
+                    -87.8199999,
+                    32.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040231-3428766",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040231-3428766",
+        "areaDesc": "Marengo, AL; Greene, AL; Hale, AL; Sumter, AL",
+        "geocode": {
+            "UGC": [
+                "ALC091",
+                "ALC063",
+                "ALC065",
+                "ALC119"
+            ],
+            "SAME": [
+                "001091",
+                "001063",
+                "001065",
+                "001119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC091",
+            "https://api.weather.gov/zones/county/ALC063",
+            "https://api.weather.gov/zones/county/ALC065",
+            "https://api.weather.gov/zones/county/ALC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039109-3427772",
+                "identifier": "NWS-IDP-PROD-4039109-3427772",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T09:21:00-06:00"
+            }
+        ],
+        "sent": "2020-02-05T19:09:00-06:00",
+        "effective": "2020-02-05T19:09:00-06:00",
+        "onset": "2020-02-09T18:00:00-06:00",
+        "expires": "2020-02-06T07:09:00-06:00",
+        "ends": "2020-02-11T01:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 5 at 7:09PM CST until February 11 at 1:30AM CST by NWS Birmingham AL",
+        "description": "...The Flood Warning continues for the portions of the Tombigbee\nRiver...\n\n.Heavy rainfall that has already occurred, along with additional\nrain expected over the next 24 hours, will continue to lead to\nsignificant rises on the Tombigbee River. A Flood Warning remains in\neffect for the Tombigbee at Bevill Lock and Dam, and at Demopolis.\n\nThe Flood Warning continues for\nThe Tombigbee River At Demopolis Lock and Dam.\n* from Sunday evening to late Monday night...or until the warning is\ncancelled.\n* At  6:15 PM Wednesday the stage was 39.5 feet.\n* Flood stage is 68.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by Sunday evening and continue to\nrise to near 68.2 feet by Monday morning. The river will fall below\nflood stage by early Monday afternoon.\n* Impact...At 68.0 feet...Flooding of lowlands in the area occurs and\ncattle should be moved to higher ground.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Thursday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0018.200210T0000Z-200211T0730Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T01:30:00-06:00"
+            ]
+        }
+    }
+}

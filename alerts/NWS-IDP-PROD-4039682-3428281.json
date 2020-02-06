@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039682-3428281",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039682-3428281",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4039682-3428281",
+        "areaDesc": "Western Plymouth; Northern Bristol",
+        "geocode": {
+            "UGC": [
+                "MAZ018",
+                "MAZ017"
+            ],
+            "SAME": [
+                "025023",
+                "025005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MAZ018",
+            "https://api.weather.gov/zones/forecast/MAZ017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4038599-3427291",
+                "identifier": "NWS-IDP-PROD-4038599-3427291",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T03:35:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039093-3427761",
+                "identifier": "NWS-IDP-PROD-4039093-3427761",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T10:15:00-05:00"
+            }
+        ],
+        "sent": "2020-02-05T15:33:00-05:00",
+        "effective": "2020-02-05T15:33:00-05:00",
+        "onset": "2020-02-06T01:00:00-05:00",
+        "expires": "2020-02-05T23:45:00-05:00",
+        "ends": "2020-02-06T09:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Boston/Norton MA",
+        "headline": "Winter Weather Advisory issued February 5 at 3:33PM EST until February 6 at 9:00AM EST by NWS Boston/Norton MA",
+        "description": "* WHAT...Mixed precipitation expected. Total snow accumulations\nof up to one inch and ice accumulations of a light glaze.\n\n* WHERE...Western Plymouth MA and Northern Bristol MA Counties.\n\n* WHEN...From 1 AM to 9 AM EST Thursday.\n\n* IMPACTS...Plan on slippery road conditions. The hazardous\nconditions could impact the morning commute.",
+        "instruction": "Slow down and use caution while traveling.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT FROM 1 AM TO 9 AM EST THURSDAY"
+            ],
+            "HazardType": [
+                "Mixed Precipitation"
+            ],
+            "VTEC": [
+                "/O.CON.KBOX.WW.Y.0003.200206T0600Z-200206T1400Z/"
+            ],
+            "PIL": [
+                "BOXWSWBOX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T09:00:00-05:00"
+            ]
+        }
+    }
+}

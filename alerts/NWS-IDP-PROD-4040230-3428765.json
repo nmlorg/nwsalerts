@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040230-3428765",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.27,
+                    33.21
+                ],
+                [
+                    -88.16,
+                    33.07
+                ],
+                [
+                    -88.13,
+                    32.87
+                ],
+                [
+                    -88.22,
+                    32.849999999999994
+                ],
+                [
+                    -88.25,
+                    33.00999999999999
+                ],
+                [
+                    -88.3199999,
+                    33.19999999999999
+                ],
+                [
+                    -88.27,
+                    33.21
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040230-3428765",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040230-3428765",
+        "areaDesc": "Pickens, AL; Marengo, AL; Greene, AL; Hale, AL; Sumter, AL",
+        "geocode": {
+            "UGC": [
+                "ALC107",
+                "ALC091",
+                "ALC063",
+                "ALC065",
+                "ALC119"
+            ],
+            "SAME": [
+                "001107",
+                "001091",
+                "001063",
+                "001065",
+                "001119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC107",
+            "https://api.weather.gov/zones/county/ALC091",
+            "https://api.weather.gov/zones/county/ALC063",
+            "https://api.weather.gov/zones/county/ALC065",
+            "https://api.weather.gov/zones/county/ALC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039114-3427777",
+                "identifier": "NWS-IDP-PROD-4039114-3427777",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T09:26:00-06:00"
+            }
+        ],
+        "sent": "2020-02-05T19:09:00-06:00",
+        "effective": "2020-02-05T19:09:00-06:00",
+        "onset": "2020-02-06T17:42:00-06:00",
+        "expires": "2020-02-06T07:09:00-06:00",
+        "ends": "2020-02-09T18:40:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 5 at 7:09PM CST until February 9 at 6:40PM CST by NWS Birmingham AL",
+        "description": "...The Flood Warning continues for the portions of the Tombigbee\nRiver...\n\n.Heavy rainfall that has already occurred, along with additional\nrain expected over the next 24 hours, will continue to lead to\nsignificant rises on the Tombigbee River. A Flood Warning remains in\neffect for the Tombigbee at Bevill Lock and Dam, and at Demopolis.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Thursday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0015.200206T2342Z-200210T0040Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T18:40:00-06:00"
+            ]
+        }
+    }
+}

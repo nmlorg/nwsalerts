@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040228-3428763",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.79,
+                    34.32
+                ],
+                [
+                    -79.73,
+                    34.29
+                ],
+                [
+                    -79.67,
+                    34.31
+                ],
+                [
+                    -79.63,
+                    34.2299999
+                ],
+                [
+                    -79.75,
+                    34.220000000000006
+                ],
+                [
+                    -79.84,
+                    34.28000000000001
+                ],
+                [
+                    -79.79,
+                    34.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040228-3428763",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040228-3428763",
+        "areaDesc": "Florence, SC; Darlington, SC",
+        "geocode": {
+            "UGC": [
+                "SCC041",
+                "SCC031"
+            ],
+            "SAME": [
+                "045041",
+                "045031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC041",
+            "https://api.weather.gov/zones/county/SCC031"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040218-3428757",
+                "identifier": "NWS-IDP-PROD-4040218-3428757",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T20:04:00-05:00"
+            }
+        ],
+        "sent": "2020-02-05T20:07:00-05:00",
+        "effective": "2020-02-05T20:07:00-05:00",
+        "onset": "2020-02-07T12:24:00-05:00",
+        "expires": "2020-02-06T12:06:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued February 5 at 8:07PM EST by NWS Wilmington NC",
+        "description": "...The Flood Warning continues for the following rivers...\n\nCape Fear At William O Huske Lock And Dam 3 affecting Bladen County NC\nCape Fear At Elizabethtown affecting Bladen County NC\nLumber Near Lumberton affecting Robeson County NC\nGreat Pee Dee At Pee Dee affecting Marion and Florence Counties SC\nBlack Creek At Quinby affecting Darlington and Florence Counties SC\n\nThe Flood Warning continues for\nThe Black Creek At Quinby.\n* from Friday afternoon until further notice.\n* At  7:00 PM Wednesday the stage was 6.89 feet.\n* Flood stage is 10.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by early Friday afternoon and continue to\nrise to near 12.8 feet by Saturday evening.\n* Impact...At 13.0 feet...Floodwaters spill over into all yards of residences on\nCreekside Drive, Crooked Creek Drive and East Black Creek Road. The creek\nspills over its banks off Highway 327 in the Country Club of South Carolina.\nFloodwaters affect some yards of residences in the Country Club of South\nCarolina.",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILM.FL.W.0014.200207T1724Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

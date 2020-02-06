@@ -1,0 +1,91 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040263-3428796",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.5699999,
+                    36.6
+                ],
+                [
+                    -84.36,
+                    36.81
+                ],
+                [
+                    -84.05,
+                    36.760000000000005
+                ],
+                [
+                    -84.22,
+                    36.59
+                ],
+                [
+                    -84.5699999,
+                    36.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040263-3428796",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040263-3428796",
+        "areaDesc": "Whitley, KY; McCreary, KY",
+        "geocode": {
+            "UGC": [
+                "KYC235",
+                "KYC147"
+            ],
+            "SAME": [
+                "021235",
+                "021147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC235",
+            "https://api.weather.gov/zones/county/KYC147"
+        ],
+        "references": [],
+        "sent": "2020-02-05T20:22:00-05:00",
+        "effective": "2020-02-05T20:22:00-05:00",
+        "onset": "2020-02-05T20:22:00-05:00",
+        "expires": "2020-02-06T00:15:00-05:00",
+        "ends": "2020-02-06T00:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flash Flood Warning issued February 5 at 8:22PM EST until February 6 at 12:15AM EST by NWS Jackson KY",
+        "description": "The National Weather Service in JACKSON KY has issued a\n\n* Flash Flood Warning for...\nSoutheastern McCreary County in south central Kentucky...\nSouthwestern Whitley County in south central Kentucky...\n\n* Until 1215 AM EST.\n\n* At 822 PM EST, Doppler radar indicated heavy rain across the warned\narea. Up to three inches of rain have already fallen. Flash\nflooding is expected to begin shortly.\n\n* Some locations that will experience flooding include...\nWilliamsburg, Bon, Ayers, Duckrun, Emlyn, Zion Hill, Redbird,\nJellico Creek, Pine Knot, Suttons Mill, Yaden and Krupp.\n\nAdditional rainfall amounts of 1 to 2 inches are possible in the\nwarned area.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KJKL.FF.W.0001.200206T0122Z-200206T0515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFFWJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T00:15:00-05:00"
+            ],
+            "CMAMtext": [
+                "NWS: FLASH FLOOD WARNING this area til 12:15 AM EST. Avoid flooded areas."
+            ]
+        }
+    }
+}

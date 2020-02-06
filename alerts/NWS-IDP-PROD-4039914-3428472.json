@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039914-3428472",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.08,
+                    47.22
+                ],
+                [
+                    -121.1,
+                    47.159999899999995
+                ],
+                [
+                    -121.32,
+                    47.26
+                ],
+                [
+                    -121.27,
+                    47.309999999999995
+                ],
+                [
+                    -121.08,
+                    47.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039914-3428472",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4039914-3428472",
+        "areaDesc": "Kittitas, WA",
+        "geocode": {
+            "UGC": [
+                "WAC037"
+            ],
+            "SAME": [
+                "053037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC037"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039874-3428431",
+                "identifier": "NWS-IDP-PROD-4039874-3428431",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T13:56:00-08:00"
+            }
+        ],
+        "sent": "2020-02-05T14:23:00-08:00",
+        "effective": "2020-02-05T14:23:00-08:00",
+        "onset": "2020-02-05T14:23:00-08:00",
+        "expires": "2020-02-07T13:45:00-08:00",
+        "ends": "2020-02-07T13:45:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Warning issued February 5 at 2:23PM PST until February 7 at 1:45PM PST by NWS Pendleton OR",
+        "description": "Periods of heavy rain are expected through Thursday and will combine\nwith snow melt to cause flooding along the Yakima River as well as\nother smaller streams, especially in the Elk Meadows Subdivision, 6\nmiles northwest of Cle Elum. Several roads in this area are expected\nto be flooded with limited access.\n\nAdditional rainfall amounts of 2 to 4 inches are expected through\nThursday.\n\nWater levels will be rising through Thursday with flooding expected\nto be seen by midday Thursday. The water levels are expected to peak\nlate Thursday night and early Friday. Snow levels will be lowering\non Friday to around 4000 feet and then down to 2000 feet on\nSaturday.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "A FLOOD WARNING FOR RAIN AND SNOWMELT REMAINS IN EFFECT UNTIL 145 PM PST FOR WEST CENTRAL KITTITAS COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KPDT.FA.W.0001.000000T0000Z-200207T2145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T13:45:00-08:00"
+            ]
+        }
+    }
+}

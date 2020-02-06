@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040349",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.13,
+                    30.35
+                ],
+                [
+                    -91.28,
+                    30.48
+                ],
+                [
+                    -90.87,
+                    30.92
+                ],
+                [
+                    -90.64,
+                    30.740000000000002
+                ],
+                [
+                    -91.13,
+                    30.35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040349",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040349",
+        "areaDesc": "St. Helena; East Feliciana; West Baton Rouge; East Baton Rouge; Livingston",
+        "geocode": {
+            "UGC": [
+                "LAZ037",
+                "LAZ036",
+                "LAZ047",
+                "LAZ048",
+                "LAZ050"
+            ],
+            "SAME": [
+                "022091",
+                "022037",
+                "022121",
+                "022033",
+                "022063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/LAZ037",
+            "https://api.weather.gov/zones/forecast/LAZ036",
+            "https://api.weather.gov/zones/forecast/LAZ047",
+            "https://api.weather.gov/zones/forecast/LAZ048",
+            "https://api.weather.gov/zones/forecast/LAZ050"
+        ],
+        "references": [],
+        "sent": "2020-02-05T20:04:00-06:00",
+        "effective": "2020-02-05T20:04:00-06:00",
+        "onset": "2020-02-05T20:04:00-06:00",
+        "expires": "2020-02-05T20:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Special Weather Statement issued February 5 at 8:04PM CST by NWS New Orleans LA",
+        "description": "At 804 PM CST, a strong thunderstorm was located over Baton Rouge,\nmoving northeast at 55 mph.\n\nWinds in excess of 30 mph and pea size hail are possible with this\nstorm.\n\nLocations impacted include...\nBaton Rouge, Zachary, Baker, Denham Springs, Port Allen, Oak Hills\nPlace, Westminster, Merrydale, Inniswold, Watson, Pride, Gardere,\nBrownfields, Greenwell Spring and Baton Rouge Airport.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-05T20:04:00.000-06:00...storm...223DEG...48KT...30.48,-91.15"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT EAST CENTRAL WEST BATON ROUGE... SOUTHERN ST. HELENA...NORTHWESTERN LIVINGSTON...SOUTHEASTERN EAST FELICIANA AND EAST BATON ROUGE PARISHES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LIXSPSLIX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

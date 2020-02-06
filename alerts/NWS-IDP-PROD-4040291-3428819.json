@@ -1,0 +1,83 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040291-3428819",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040291-3428819",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040291-3428819",
+        "areaDesc": "Southwest Big Horn Basin; Southeast Big Horn Basin; North Big Horn Basin",
+        "geocode": {
+            "UGC": [
+                "WYZ005",
+                "WYZ006",
+                "WYZ004"
+            ],
+            "SAME": [
+                "056017",
+                "056043",
+                "056003",
+                "056029"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/WYZ005",
+            "https://api.weather.gov/zones/forecast/WYZ006",
+            "https://api.weather.gov/zones/forecast/WYZ004"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039917-3428477",
+                "identifier": "NWS-IDP-PROD-4039917-3428477",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T15:24:00-07:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039917-3428476",
+                "identifier": "NWS-IDP-PROD-4039917-3428476",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T15:24:00-07:00"
+            }
+        ],
+        "sent": "2020-02-05T18:35:00-07:00",
+        "effective": "2020-02-05T18:35:00-07:00",
+        "onset": "2020-02-05T23:00:00-07:00",
+        "expires": "2020-02-06T05:00:00-07:00",
+        "ends": "2020-02-07T11:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Riverton WY",
+        "headline": "Winter Weather Advisory issued February 5 at 6:35PM MST until February 7 at 11:00AM MST by NWS Riverton WY",
+        "description": "...Another round of snow and wind will impact western and\nnorthern Wyoming through Friday...\n\n.A series of weather systems will be moving into northwest\nWyoming producing another round of significant snow. The snow\nwill begin first in northwest Wyoming before spreading across\nwestern and northern Wyoming. Moderate to heavy snow will continue\nthrough Friday, with the heaviest snowfall Thursday afternoon and\nnight.\n\nIn addition, strong winds along with blowing and drifting snow\nwill occur across southern and east central Wyoming through\nFriday. The strongest winds will likely occur Friday.\n\n* WHAT...Snow expected. Total snow accumulations of 4 to 6\ninches.\n\n* WHERE...North Big Horn Basin, Southwest Big Horn Basin and\nSoutheast Big Horn Basin.\n\n* WHEN...From 11 PM this evening to 11 AM MST Friday.\n\n* IMPACTS...Travel could be very difficult. The hazardous\nconditions could impact the morning or evening commute.",
+        "instruction": "Slow down and use caution while traveling.\n\nThe latest road conditions for the state you are calling from can\nbe obtained by calling 5 1 1.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT FROM 11 PM THIS EVENING TO 11 AM MST FRIDAY"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KRIW.WW.Y.0007.200206T0600Z-200207T1800Z/"
+            ],
+            "PIL": [
+                "RIWWSWRIW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T11:00:00-07:00"
+            ]
+        }
+    }
+}

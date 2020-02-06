@@ -1,0 +1,141 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040348-3428873",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.03,
+                    35.75
+                ],
+                [
+                    -85.05,
+                    35.77
+                ],
+                [
+                    -85.25,
+                    35.77
+                ],
+                [
+                    -85.53,
+                    35.790000000000006
+                ],
+                [
+                    -85.67,
+                    36.120000000000005
+                ],
+                [
+                    -85.4,
+                    36.220000000000006
+                ],
+                [
+                    -85.33000000000001,
+                    36.220000000000006
+                ],
+                [
+                    -85.31999990000001,
+                    36.2
+                ],
+                [
+                    -85.28000000000002,
+                    36.18
+                ],
+                [
+                    -85.03000000000002,
+                    35.76
+                ],
+                [
+                    -85.03,
+                    35.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040348-3428873",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040348-3428873",
+        "areaDesc": "Putnam, TN; Cumberland, TN; Van Buren, TN; White, TN",
+        "geocode": {
+            "UGC": [
+                "TNC141",
+                "TNC035",
+                "TNC175",
+                "TNC185"
+            ],
+            "SAME": [
+                "047141",
+                "047035",
+                "047175",
+                "047185"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC141",
+            "https://api.weather.gov/zones/county/TNC035",
+            "https://api.weather.gov/zones/county/TNC175",
+            "https://api.weather.gov/zones/county/TNC185"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040277-3428805",
+                "identifier": "NWS-IDP-PROD-4040277-3428805",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T19:32:00-06:00"
+            }
+        ],
+        "sent": "2020-02-05T20:02:00-06:00",
+        "effective": "2020-02-05T20:02:00-06:00",
+        "onset": "2020-02-05T20:02:00-06:00",
+        "expires": "2020-02-05T20:15:00-06:00",
+        "ends": "2020-02-05T20:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued February 5 at 8:02PM CST until February 5 at 8:15PM CST by NWS Nashville TN",
+        "description": "At 801 PM CST, a severe thunderstorm was located near Sparta, moving\neast at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nCookeville, Sparta, Algood, Monterey, Pleasant Hill, Doyle, Hamptons\nCrossroads, Bakers Crossroads, Indian Rock Lake, Virgin Falls State\nNatural Area and Burgess Falls State Park.\n\nThis includes Interstate 40 between mile markers 281 and 305.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-05T20:01:00.000-06:00...storm...249DEG...46KT...36.0,-85.41"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 815 PM CST FOR SOUTHWESTERN CUMBERLAND...NORTHEASTERN VAN BUREN...WHITE AND CENTRAL PUTNAM COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOHX.SV.W.0030.000000T0000Z-200206T0215Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-05T20:15:00-06:00"
+            ]
+        }
+    }
+}

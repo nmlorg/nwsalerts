@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040321-3428847",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -122.6,
+                    46.46
+                ],
+                [
+                    -122.78,
+                    46.42
+                ],
+                [
+                    -122.9,
+                    46.39
+                ],
+                [
+                    -123,
+                    46.39
+                ],
+                [
+                    -122.8,
+                    46.5
+                ],
+                [
+                    -122.6,
+                    46.55
+                ],
+                [
+                    -122.6,
+                    46.46
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4040321-3428847",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4040321-3428847",
+        "areaDesc": "Lewis, WA",
+        "geocode": {
+            "UGC": [
+                "WAC041"
+            ],
+            "SAME": [
+                "053041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4039770-3428346",
+                "identifier": "NWS-IDP-PROD-4039770-3428346",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-05T13:03:00-08:00"
+            }
+        ],
+        "sent": "2020-02-05T17:52:00-08:00",
+        "effective": "2020-02-05T17:52:00-08:00",
+        "onset": "2020-02-05T21:59:00-08:00",
+        "expires": "2020-02-06T02:52:00-08:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 5 at 5:52PM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nTolt River Above Carnation affecting King County\nSnoqualmie River Near Snoqualmie Falls affecting King County\nSnoqualmie River Near Carnation affecting King County\nCowlitz River Below Mayfield Dam affecting Lewis County\n\n\nThe forecast has 2 to 5 inches of rain tonight for the central and\nsouthern Cascades through Friday on top of the 2 to 5 inches that\nhave fallen so far this storm. Here is an update to the river\nforecasts.\n\nThe Flood Warning continues for\nThe Cowlitz River Below Mayfield Dam\n* From 10 PM Wednesday until further notice.\n* At  4:30 PM Wednesday the flow was 23252 cfs.\n* Flood flow is 25000 cfs.\n* Minor flooding is forecast.\n* Forecast...The river will rise above flood flow around 10 PM\nWednesday and then rise to near 26500 cfs around 10 PM Thursday.\n* Impact...At 25000 cfs, the Cowlitz River will flood the reach from\nMayfield Dam downstream through Toledo. Flood waters will inundate\nsome farmlands and several roads...mainly near Toledo.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0045.200206T0559Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
