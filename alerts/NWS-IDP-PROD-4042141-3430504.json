@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042141-3430504",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.77,
+                    35.38
+                ],
+                [
+                    -80.72,
+                    35.4799999
+                ],
+                [
+                    -80.42999999999999,
+                    35.5
+                ],
+                [
+                    -80.49,
+                    35.36
+                ],
+                [
+                    -80.77,
+                    35.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042141-3430504",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4042141-3430504",
+        "areaDesc": "Cabarrus, NC",
+        "geocode": {
+            "UGC": [
+                "NCC025"
+            ],
+            "SAME": [
+                "037025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042113-3430472",
+                "identifier": "NWS-IDP-PROD-4042113-3430472",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T11:28:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T11:39:00-05:00",
+        "effective": "2020-02-06T11:39:00-05:00",
+        "onset": "2020-02-06T11:39:00-05:00",
+        "expires": "2020-02-06T12:00:00-05:00",
+        "ends": "2020-02-06T12:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Tornado Warning issued February 6 at 11:39AM EST until February 6 at 12:00PM EST by NWS Greenville-Spartanburg SC",
+        "description": "At 1139 AM EST, a severe thunderstorm capable of producing a tornado\nwas located 5 miles west of Downtown Concord, or near West Concord,\nmoving east at 35 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis dangerous storm will be near...\nDowntown Concord and West Concord around 1150 AM EST.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.\n\nPlease report damaging winds, hail, or flooding to the National\nWeather Service Greenville-Spartanburg by calling toll free, 1, 800,\n2 6 7, 8 1 0 1, or by posting on our Facebook page, or Tweet it using\nhashtag nwsgsp. Your message should describe the event and the\nspecific location where it occurred.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-06T11:39:00.000-05:00...storm...272DEG...32KT...35.41,-80.7"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL NOON EST FOR NORTHWESTERN CABARRUS COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KGSP.TO.W.0017.000000T0000Z-200206T1700Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GSPSVSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T17:00:00+00:00"
+            ]
+        }
+    }
+}

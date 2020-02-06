@@ -1,0 +1,112 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042126-3430489",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.93,
+                    35.21
+                ],
+                [
+                    -80.9,
+                    35.33
+                ],
+                [
+                    -80.56,
+                    35.5
+                ],
+                [
+                    -80.3199999,
+                    35.5
+                ],
+                [
+                    -80.5,
+                    35.22
+                ],
+                [
+                    -80.93,
+                    35.21
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042126-3430489",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4042126-3430489",
+        "areaDesc": "Mecklenburg, NC; Cabarrus, NC",
+        "geocode": {
+            "UGC": [
+                "NCC119",
+                "NCC025"
+            ],
+            "SAME": [
+                "037119",
+                "037025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC119",
+            "https://api.weather.gov/zones/county/NCC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042095-3430456",
+                "identifier": "NWS-IDP-PROD-4042095-3430456",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T11:22:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T11:33:00-05:00",
+        "effective": "2020-02-06T11:33:00-05:00",
+        "onset": "2020-02-06T11:33:00-05:00",
+        "expires": "2020-02-06T12:00:00-05:00",
+        "ends": "2020-02-06T12:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Tornado Warning issued February 6 at 11:33AM EST until February 6 at 12:00PM EST by NWS Greenville-Spartanburg SC",
+        "description": "At 1131 AM EST, a severe thunderstorm capable of producing a tornado\nwas located 4 miles northwest of Uptown Charlotte, or over Northwest\nCharlotte, moving east at 45 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis dangerous storm will be near...\nHidden Valley, East Charlotte and Northeast Charlotte around 1140\nAM EST.\nHarrisburg, Charlotte Motor Speedway, University City, West\nConcord and Reedy Creek Park around 1150 AM EST.\nDowntown Concord, Mt Pleasant and Midland around 1200 PM EST.\n\nOther locations impacted by this dangerous storm include Croft.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.\n\nPlease report damaging winds, hail, or flooding to the National\nWeather Service Greenville-Spartanburg by calling toll free, 1, 800,\n2 6 7, 8 1 0 1, or by posting on our Facebook page, or Tweet it using\nhashtag nwsgsp. Your message should describe the event and the\nspecific location where it occurred.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-06T11:31:00.000-05:00...storm...258DEG...39KT...35.27,-80.9"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL NOON EST FOR CABARRUS AND CENTRAL MECKLENBURG COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KGSP.TO.W.0016.000000T0000Z-200206T1700Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GSPSVSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T17:00:00+00:00"
+            ]
+        }
+    }
+}

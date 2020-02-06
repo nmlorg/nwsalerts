@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042133-3430496",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.75,
+                    30.76
+                ],
+                [
+                    -85.55,
+                    30.610000000000003
+                ],
+                [
+                    -86.03,
+                    30.410000000000004
+                ],
+                [
+                    -86.11,
+                    30.520000000000003
+                ],
+                [
+                    -85.75,
+                    30.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042133-3430496",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4042133-3430496",
+        "areaDesc": "Washington, FL; Walton, FL",
+        "geocode": {
+            "UGC": [
+                "FLC133",
+                "FLC131"
+            ],
+            "SAME": [
+                "012133",
+                "012131"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC133",
+            "https://api.weather.gov/zones/county/FLC131"
+        ],
+        "references": [],
+        "sent": "2020-02-06T10:36:00-06:00",
+        "effective": "2020-02-06T10:36:00-06:00",
+        "onset": "2020-02-06T10:36:00-06:00",
+        "expires": "2020-02-06T11:15:00-06:00",
+        "ends": "2020-02-06T11:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Severe Thunderstorm Warning issued February 6 at 10:36AM CST until February 6 at 11:15AM CST by NWS Tallahassee FL",
+        "description": "The National Weather Service in Tallahassee has issued a\n\n* Severe Thunderstorm Warning for...\nSoutheastern Walton County in the Panhandle of Florida...\nCentral Washington County in the Panhandle of Florida...\n\n* Until 1115 AM CST.\n\n* At 1036 AM CST, a severe thunderstorm was located 16 miles\nsoutheast of De Funiak Springs, moving northeast at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nVernon, Live Oak, Wausau, Hinsons Crossroads, Red Bay, Whitehead\nCrossroads, Bruce, Holmes Valley, Millers Ferry, Five Points,\nSmyrna, Spring Hollow and Sylvania.",
+        "instruction": "A Tornado Watch remains in effect until noon CST for the Panhandle of\nFlorida.\n\nRemain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-06T10:36:00.000-06:00...storm...230DEG...25KT...30.51,-86.0"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KTAE.SV.W.0013.200206T1636Z-200206T1715Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAESVRTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-06T17:15:00+00:00"
+            ]
+        }
+    }
+}
