@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044595-3432852",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.85,
+                    35.49
+                ],
+                [
+                    -78.66999999999999,
+                    35.370000000000005
+                ],
+                [
+                    -78.64999999999999,
+                    35.25000000000001
+                ],
+                [
+                    -78.75999999999999,
+                    35.260000000000005
+                ],
+                [
+                    -78.77,
+                    35.32000000000001
+                ],
+                [
+                    -78.92,
+                    35.43000000000001
+                ],
+                [
+                    -78.85,
+                    35.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044595-3432852",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4044595-3432852",
+        "areaDesc": "Harnett, NC",
+        "geocode": {
+            "UGC": [
+                "NCC085"
+            ],
+            "SAME": [
+                "037085"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC085"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044088-3432373",
+                "identifier": "NWS-IDP-PROD-4044088-3432373",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T22:29:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T03:22:00-05:00",
+        "effective": "2020-02-07T03:22:00-05:00",
+        "onset": "2020-02-07T03:20:00-05:00",
+        "expires": "2020-02-07T15:21:00-05:00",
+        "ends": "2020-02-09T03:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 7 at 3:22AM EST until February 9 at 3:00AM EST by NWS Raleigh NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nCape Fear River At Lillington affecting Harnett County\n\nThe Flood Warning continues for\nthe Cape Fear River At Lillington.\n* until late Saturday night, or until the warning is cancelled.\n* At  3:01 AM Friday the stage was 14.3 feet.\n* Flood stage is 14.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 18.8 feet by this\nevening. The river will fall below flood stage tomorrow afternoon.\n* Impact...At 19.0 feet, The storm drains on the north bank are\ninundated and water reaches the water treatment plant. Homes on\nRiverside Hills Drive are flooded.\n* Impact...At 17.0 feet, Water threatens homes upstream on Riverside\nHills Drive.\n* Impact...At 14.0 feet, Minor flood stage - the boat launch ramp and\nwooden deck at Mermaid Point Restaurant are flooded.\n* Impact...At 13.0 feet, Action stage. The river is at bankfull.",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KRAH.FL.W.0011.200207T0820Z-200209T0800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T08:00:00+00:00"
+            ]
+        }
+    }
+}
