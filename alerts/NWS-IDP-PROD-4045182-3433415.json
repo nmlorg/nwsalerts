@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045182-3433415",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.77,
+                    34.04
+                ],
+                [
+                    -83.75,
+                    34.1
+                ],
+                [
+                    -83.55,
+                    34.06
+                ],
+                [
+                    -83.47,
+                    34
+                ],
+                [
+                    -83.52,
+                    33.95
+                ],
+                [
+                    -83.63,
+                    34.02
+                ],
+                [
+                    -83.77,
+                    34.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045182-3433415",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045182-3433415",
+        "areaDesc": "Jackson, GA; Barrow, GA",
+        "geocode": {
+            "UGC": [
+                "GAC157",
+                "GAC013"
+            ],
+            "SAME": [
+                "013157",
+                "013013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC157",
+            "https://api.weather.gov/zones/county/GAC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044569-3432818",
+                "identifier": "NWS-IDP-PROD-4044569-3432818",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T03:01:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T07:15:00-05:00",
+        "effective": "2020-02-07T07:15:00-05:00",
+        "onset": "2020-02-07T07:15:00-05:00",
+        "expires": "2020-02-07T21:15:00-05:00",
+        "ends": "2020-02-08T04:32:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 7:15AM EST until February 8 at 4:32AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nMiddle Oconee River near Arcade affecting Barrow and Jackson\nCounties\n\nOconee River near Penfield affecting Clarke...Greene and Oconee\nCounties\n\nBig Creek near Alpharetta affecting Forsyth and Fulton Counties\n\nThe Flood Warning continues for\nThe Middle Oconee River near Arcade.\n* Until late tonight.\n* At 7 AM Friday the stage was 22.6 feet...and rising.\n* Moderate flooding is occurring and forecast.\n* Flood stage is 16 feet.\n* The river will rise to about 23.0 feet then fall below flood stage\ntonight.\n* At 23 feet...Significant flooding expands into the woodlands...\nfields and pasture upstream and downstream from the gage at Georgia\nHighway 82. A house just downstream will be surrounded with water\nand begin to flood. Flooding begins on low portions of Bismarck\nCircle Road upstream from the gage.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until late tonight"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0080.000000T0000Z-200208T0932Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T09:32:00+00:00"
+            ]
+        }
+    }
+}
