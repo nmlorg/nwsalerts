@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044415-3432675",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.29,
+                    37.47
+                ],
+                [
+                    -83.18,
+                    37.26
+                ],
+                [
+                    -83.04,
+                    37.19
+                ],
+                [
+                    -83.08000000000001,
+                    37.11
+                ],
+                [
+                    -83.26000000000002,
+                    37.19
+                ],
+                [
+                    -83.38000000000002,
+                    37.419999999999995
+                ],
+                [
+                    -83.29,
+                    37.47
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044415-3432675",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4044415-3432675",
+        "areaDesc": "Perry, KY",
+        "geocode": {
+            "UGC": [
+                "KYC193"
+            ],
+            "SAME": [
+                "021193"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC193"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043855-3432173",
+                "identifier": "NWS-IDP-PROD-4043855-3432173",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T21:35:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T01:14:00-05:00",
+        "effective": "2020-02-07T01:14:00-05:00",
+        "onset": "2020-02-07T01:14:00-05:00",
+        "expires": "2020-02-07T13:12:00-05:00",
+        "ends": "2020-02-07T15:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Warning issued February 7 at 1:14AM EST until February 7 at 3:00PM EST by NWS Jackson KY",
+        "description": "...The Flood Warning is cancelled for the following rivers\nin Kentucky...\n\nThe Cumberland River at Baxter\n\n...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe Cumberland River at Pineville\nThe Levisa Fork Big Sandy River at Pikeville\n\n...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe North Fork Kentucky River at Hazard\n\nThe Flood Warning continues for\nThe North Fork Kentucky River at Hazard.\n* at 12:30 AM Friday the stage was 24.3 feet.\n* Flood stage is 20.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river crested at 26 feet and is now falling. The river\nwill continue to fall to below flood stage Friday morning.\n* At 25.0 feet...Flooding begins in some basements.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 11 am Friday.\n\nA Flood Warning means that flooding is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJKL.FL.W.0007.000000T0000Z-200207T2000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T20:00:00+00:00"
+            ]
+        }
+    }
+}

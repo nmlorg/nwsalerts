@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044417-3432677",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.4599999,
+                    36.8
+                ],
+                [
+                    -83.7,
+                    36.68
+                ],
+                [
+                    -83.83,
+                    36.79
+                ],
+                [
+                    -83.74,
+                    36.85
+                ],
+                [
+                    -83.66,
+                    36.800000000000004
+                ],
+                [
+                    -83.5,
+                    36.88
+                ],
+                [
+                    -83.4599999,
+                    36.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044417-3432677",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4044417-3432677",
+        "areaDesc": "Bell, KY",
+        "geocode": {
+            "UGC": [
+                "KYC013"
+            ],
+            "SAME": [
+                "021013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044009-3432299",
+                "identifier": "NWS-IDP-PROD-4044009-3432299",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T22:12:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T01:14:00-05:00",
+        "effective": "2020-02-07T01:14:00-05:00",
+        "onset": "2020-02-07T01:14:00-05:00",
+        "expires": "2020-02-07T13:12:00-05:00",
+        "ends": "2020-02-07T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Warning issued February 7 at 1:14AM EST until February 7 at 10:00PM EST by NWS Jackson KY",
+        "description": "...The Flood Warning is cancelled for the following rivers\nin Kentucky...\n\nThe Cumberland River at Baxter\n\n...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe Cumberland River at Pineville\nThe Levisa Fork Big Sandy River at Pikeville\n\n...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe North Fork Kentucky River at Hazard\n\nThe Flood Warning continues for\nThe Cumberland River at Pineville.\n* at 12:30 AM Friday the stage was 1018 feet.\n* Flood stage is 1002 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river crested just above major flood stage at 1019.06 feet.\nThe river is now falling and will continue to fall to below flood stage\nby late Friday afternoon.\n* At 1018 feet...Homes begin flooding along Fourmile Road.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 11 am Friday.\n\nA Flood Warning means that flooding is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJKL.FL.W.0005.000000T0000Z-200208T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T03:00:00+00:00"
+            ]
+        }
+    }
+}
