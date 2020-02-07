@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045220-3433453",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.51,
+                    35.17
+                ],
+                [
+                    -86.5,
+                    35.09
+                ],
+                [
+                    -86.83,
+                    35.03
+                ],
+                [
+                    -86.83,
+                    35.13
+                ],
+                [
+                    -86.51,
+                    35.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045220-3433453",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045220-3433453",
+        "areaDesc": "Franklin, TN; Lincoln, TN",
+        "geocode": {
+            "UGC": [
+                "TNC051",
+                "TNC103"
+            ],
+            "SAME": [
+                "047051",
+                "047103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC051",
+            "https://api.weather.gov/zones/county/TNC103"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045177-3433410",
+                "identifier": "NWS-IDP-PROD-4045177-3433410",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T06:13:00-06:00"
+            }
+        ],
+        "sent": "2020-02-07T06:44:00-06:00",
+        "effective": "2020-02-07T06:44:00-06:00",
+        "onset": "2020-02-07T06:44:00-06:00",
+        "expires": "2020-02-07T20:43:00-06:00",
+        "ends": "2020-02-07T23:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 7 at 6:44AM CST until February 7 at 11:00PM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in\nTennessee...\n\nElk River above Fayetteville affecting Franklin and Lincoln Counties\n\nThe Flood Warning continues for\nthe Elk River above Fayetteville.\n* until this evening.\n* At 6 AM Friday the stage was 20.1 feet and falling.\n* Flood Stage is 17.5 feet.\n* Minor Flooding is occurring and Minor Flooding is forecast.\n* Recent activity...The maximum river stage in the 24 hours ending at\n6 AM Friday was 24.2 feet.\n* Forecast...The river will continue to fall to below Flood Stage by\nlate this afternoon.\n* Impact...At 20.7 feet...Flood waters reach the City Pumping Station\nin Fayetteville.\n* Flood history...This crest compares to a previous crest of 20.4 feet\non Feb 21 2019.",
+        "instruction": "Safety message...Do not attempt to drive through a flooded road. The\ndepth of water is not always obvious. As little as two feet of water\nwill carry most cars away. Also, the road bed may be washed out under\nthe water, and you could be stranded or trapped. Additional\ninformation is available at http://water.weather.gov. Once there,\nclick on the Tennessee Valley to view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KHUN.FL.W.0009.000000T0000Z-200208T0500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T05:00:00+00:00"
+            ]
+        }
+    }
+}

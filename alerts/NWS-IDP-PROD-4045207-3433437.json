@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045207-3433437",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.88,
+                    47.24
+                ],
+                [
+                    -122.11999999999999,
+                    47.2299999
+                ],
+                [
+                    -122.30999999999999,
+                    47.2299999
+                ],
+                [
+                    -122.37999999999998,
+                    47.53
+                ],
+                [
+                    -122.07999999999998,
+                    47.53
+                ],
+                [
+                    -121.91999999999999,
+                    47.53
+                ],
+                [
+                    -121.88,
+                    47.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045207-3433437",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045207-3433437",
+        "areaDesc": "King, WA",
+        "geocode": {
+            "UGC": [
+                "WAC033"
+            ],
+            "SAME": [
+                "053033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043906-3432223",
+                "identifier": "NWS-IDP-PROD-4043906-3432223",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T18:47:00-08:00"
+            }
+        ],
+        "sent": "2020-02-07T04:41:00-08:00",
+        "effective": "2020-02-07T04:41:00-08:00",
+        "onset": "2020-02-07T04:41:00-08:00",
+        "expires": "2020-02-07T13:40:00-08:00",
+        "ends": "2020-02-08T09:25:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 7 at 4:41AM PST until February 8 at 9:25AM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nGreen River Near Auburn affecting King County\n\nDoppler radar and automated rain gauges indicated another one\nto two inches of rain in the foothills and Cascades up to a\nhalf inch of rain in the lowlands. The rain overnight and this\nmorning will keep the rivers running high today.\n\nThe Flood Warning continues for\nThe Green River Near Auburn\n* From 12 AM Thursday until Saturday morning.\n* At  3:45 AM Friday the flow was 6809 cfs.\n* Flood flow is 9000 cfs.\n* Minor flooding is forecast.\n* Forecast...the flow will increase this morning cresting near\n9750 cfs late morning. The river will recede below flood stage\ntonight or early Saturday morning.\n* Impact...At 9000 cfs, the Green River will flood low areas of the\nmiddle Green River valley with water over SE Green Valley Rd.  Some\nbackwater inundation is possible in lower Mill Creek basin between\nAuburn and Kent. A flow of 9000 cfs feet on the Green River\ncorresponds to a phase 3 flood in the King County flood system.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0048.000000T0000Z-200208T1725Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T17:25:00+00:00"
+            ]
+        }
+    }
+}
