@@ -1,0 +1,77 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044312-3432581",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044312-3432581",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4044312-3432581",
+        "areaDesc": "North Coast; Admiralty Inlet Area; Central Coast",
+        "geocode": {
+            "UGC": [
+                "WAZ516",
+                "WAZ510",
+                "WAZ517"
+            ],
+            "SAME": [
+                "053009",
+                "053031",
+                "053029",
+                "053027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/WAZ516",
+            "https://api.weather.gov/zones/forecast/WAZ510",
+            "https://api.weather.gov/zones/forecast/WAZ517"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043015-3431359",
+                "identifier": "NWS-IDP-PROD-4043015-3431359",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T13:09:00-08:00"
+            }
+        ],
+        "sent": "2020-02-06T21:29:00-08:00",
+        "effective": "2020-02-06T21:29:00-08:00",
+        "onset": "2020-02-07T16:00:00-08:00",
+        "expires": "2020-02-07T05:00:00-08:00",
+        "ends": "2020-02-08T10:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "High Wind Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "High Wind Watch issued February 6 at 9:29PM PST until February 8 at 10:00AM PST by NWS Seattle WA",
+        "description": "* WHAT...West winds 30 to 40 mph with gusts up to 60 mph\npossible.\n\n* WHERE...Admiralty Inlet Area, North Coast and Central Coast.\n\n* WHEN...From Friday afternoon through Saturday morning.\n\n* IMPACTS...Damaging winds could blow down trees and power\nlines. Widespread power outages are possible. Travel could be\ndifficult, especially for high profile vehicles.\n\n* ADDITIONAL DETAILS...Widespread west winds are expected along\nthe coast. For the east entrance of the Strait of Juan de Fuca\nand Island County, expect a rapid increase in west winds to\narrive during the overnight hours Friday night.",
+        "instruction": "Monitor the latest forecasts and warnings for updates on this\nsituation. Fasten loose objects or shelter objects in a safe\nlocation prior to the onset of winds.",
+        "response": "Prepare",
+        "parameters": {
+            "NWSheadline": [
+                "HIGH WIND WATCH REMAINS IN EFFECT FROM FRIDAY AFTERNOON THROUGH SATURDAY MORNING"
+            ],
+            "VTEC": [
+                "/O.CON.KSEW.HW.A.0005.200208T0000Z-200208T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWNPWSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T18:00:00+00:00"
+            ]
+        }
+    }
+}
