@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045652-3433850",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.85,
+                    32.29
+                ],
+                [
+                    -83.8,
+                    32.25
+                ],
+                [
+                    -83.86999999999999,
+                    32.18
+                ],
+                [
+                    -83.91,
+                    32.1
+                ],
+                [
+                    -83.97999999999999,
+                    32.1
+                ],
+                [
+                    -83.93999999999998,
+                    32.2
+                ],
+                [
+                    -83.85,
+                    32.29
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045652-3433850",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045652-3433850",
+        "areaDesc": "Dooly, GA",
+        "geocode": {
+            "UGC": [
+                "GAC093"
+            ],
+            "SAME": [
+                "013093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044959-3433192",
+                "identifier": "NWS-IDP-PROD-4044959-3433192",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T05:16:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T10:26:00-05:00",
+        "effective": "2020-02-07T10:26:00-05:00",
+        "onset": "2020-02-07T10:26:00-05:00",
+        "expires": "2020-02-08T00:26:00-05:00",
+        "ends": "2020-02-08T08:53:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 10:26AM EST until February 8 at 8:53AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nFlint River near Lovejoy affecting Clayton...Fayette and Spalding\nCounties\n\nFlint River near Griffin Hwy. 16 affecting Fayette and Spalding\nCounties\n\nFlint River near Carsonville Hwy. 19 affecting Crawford...\nTalbot...Taylor and Upson Counties\n\nTurkey Creek near Byromville affecting Dooly County\n\nLine Creek near Senoia affecting Coweta...Fayette and Spalding\nCounties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0099.000000T0000Z-200208T1353Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T08:53:00-05:00"
+            ]
+        }
+    }
+}
