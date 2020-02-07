@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045174-3433406",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -120.69,
+                    46.75
+                ],
+                [
+                    -120.6,
+                    46.68
+                ],
+                [
+                    -120.53,
+                    46.65
+                ],
+                [
+                    -120.52,
+                    46.61
+                ],
+                [
+                    -120.64999999999999,
+                    46.63
+                ],
+                [
+                    -120.71999999999998,
+                    46.7
+                ],
+                [
+                    -120.69,
+                    46.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045174-3433406",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045174-3433406",
+        "areaDesc": "Yakima, WA",
+        "geocode": {
+            "UGC": [
+                "WAC077"
+            ],
+            "SAME": [
+                "053077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044802-3433049",
+                "identifier": "NWS-IDP-PROD-4044802-3433049",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T01:11:00-08:00"
+            }
+        ],
+        "sent": "2020-02-07T04:12:00-08:00",
+        "effective": "2020-02-07T04:12:00-08:00",
+        "onset": "2020-02-07T06:41:00-08:00",
+        "expires": "2020-02-07T16:12:00-08:00",
+        "ends": "2020-02-08T09:33:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Warning issued February 7 at 4:12AM PST until February 8 at 9:33AM PST by NWS Pendleton OR",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...Oregon...\n\nWalla Walla River near Touchet affecting Walla Walla County\nGrande Ronde River near Perry affecting Union County\nNaches River near Cliffdell affecting Yakima County\nNaches River near Naches affecting Yakima County\nUmatilla River near Gibbon affecting Umatilla County\nUmatilla River at Pendleton affecting Umatilla County\n\nThe Flood Warning continues for\nThe Naches River near Naches.\n* until Saturday morning...Or until the warning is cancelled.\n* until Saturday morning.\n* At12:45 AM Friday, the stage was 17.3 feet.\n* Flood stage is 17.8 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by this morning and continue to\nrise to near 18.3 feet by late this afternoon. The river will fall\nbelow flood stage by early tomorrow.",
+        "instruction": "Turn around, don't drown. Never drive cars...trucks or sport utility\nvehicles through flooded areas. The water may be too deep to allow\nfor safe passage. As little as one foot of water on the road can move\nmost vehicles off the road.\n\n\nAdditional information is available at:\nweather.gov/Pendleton",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPDT.FL.W.0006.200207T1441Z-200208T1733Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T17:33:00+00:00"
+            ]
+        }
+    }
+}
