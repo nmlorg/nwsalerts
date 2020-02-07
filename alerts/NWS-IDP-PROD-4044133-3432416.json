@@ -1,0 +1,85 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044133-3432416",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044133-3432416",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4044133-3432416",
+        "areaDesc": "Southeast Raleigh; Southeast Randolph; Southeast Fayette; Southeast Nicholas; Northwest Pocahontas; Southeast Webster",
+        "geocode": {
+            "UGC": [
+                "WVZ516",
+                "WVZ526",
+                "WVZ518",
+                "WVZ520",
+                "WVZ523",
+                "WVZ522"
+            ],
+            "SAME": [
+                "054081",
+                "054083",
+                "054019",
+                "054067",
+                "054075",
+                "054101"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/WVZ516",
+            "https://api.weather.gov/zones/forecast/WVZ526",
+            "https://api.weather.gov/zones/forecast/WVZ518",
+            "https://api.weather.gov/zones/forecast/WVZ520",
+            "https://api.weather.gov/zones/forecast/WVZ523",
+            "https://api.weather.gov/zones/forecast/WVZ522"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043473-3431796",
+                "identifier": "NWS-IDP-PROD-4043473-3431796",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T19:24:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T22:45:00-05:00",
+        "effective": "2020-02-06T22:45:00-05:00",
+        "onset": "2020-02-07T04:00:00-05:00",
+        "expires": "2020-02-07T06:45:00-05:00",
+        "ends": "2020-02-07T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston WV",
+        "headline": "Winter Weather Advisory issued February 6 at 10:45PM EST until February 7 at 7:00PM EST by NWS Charleston WV",
+        "description": "* WHAT...Heavy wet snow expected. Total snow accumulations of 3\nto 6 inches with the greatest amounts across the highest\nmountain ridges of northeast West Virginia. Winds gusting as\nhigh as 40 mph in the afternoon.\n\n* WHERE...Portions of northeast and southeast West Virginia.\n\n* WHEN...From 4 AM to 7 PM EST Friday. Rain will change to snow\nafter 4 AM. The heaviest snow is expected between 6 AM and 9\nAM.\n\n* IMPACTS...Travel could be very difficult. The hazardous\nconditions may impact the morning or evening commute.\n\n* ADDITIONAL DETAILS...Snowfall rates up to an inch per hour are\npossible between 6 AM and 9 AM across northeast West Virginia.\nIsolated power outages are possible in the afternoon as winds\nbecome gusty.",
+        "instruction": "Slow down and use caution while traveling.\n\nAdditional information can be found at\nhttps://www.weather.gov/rlx as well as on our Facebook and\nTwitter pages.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT FROM 4 AM TO 7 PM EST FRIDAY"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KRLX.WW.Y.0004.200207T0900Z-200208T0000Z/"
+            ],
+            "PIL": [
+                "RLXWSWRLX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T00:00:00+00:00"
+            ]
+        }
+    }
+}
