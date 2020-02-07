@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043704-3432031",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.77,
+                    33.1599999
+                ],
+                [
+                    -83.66,
+                    33.17
+                ],
+                [
+                    -83.67999999999999,
+                    33.1
+                ],
+                [
+                    -83.67999999999999,
+                    33.03
+                ],
+                [
+                    -83.72,
+                    33.02
+                ],
+                [
+                    -83.76,
+                    33.1
+                ],
+                [
+                    -83.77,
+                    33.1599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043704-3432031",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043704-3432031",
+        "areaDesc": "Jones, GA",
+        "geocode": {
+            "UGC": [
+                "GAC169"
+            ],
+            "SAME": [
+                "013169"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC169"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043342-3431671",
+                "identifier": "NWS-IDP-PROD-4043342-3431671",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T18:17:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T21:02:00-05:00",
+        "effective": "2020-02-06T21:02:00-05:00",
+        "onset": "2020-02-06T21:02:00-05:00",
+        "expires": "2020-02-07T09:24:00-05:00",
+        "ends": "2020-02-07T09:24:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 9:02PM EST until February 7 at 9:24AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nFalling Creek near East Juliette  affecting Jones County\n\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nLittle River near Newborn affecting Morgan and Newton Counties\n\nLittle River near Eatonton affecting Putnam County\n\nThe Flood Warning continues for\nThe Falling Creek near East Juliette .\n* Until Friday morning.\n* At 7 PM Thursday the stage was 13.7 feet, and rising.\n* Minor flooding is occurring and is forecast to continue.\n* Flood stage is 13 feet.\n* The river will continue rising to near 14.8 feet by late tonight. The\nriver will fall below flood stage early Friday morning.\n* At 15 feet, minor flooding expands into the woodlands and\nnatural flood plain along the creek in the Piedmont National\nWildlife Refuge upstream and downstream from the gage on Round\nOak-Juliette Road. The rapid flow increases around 50 percent from\nthe flood stage level.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0096.000000T0000Z-200207T1424Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T14:24:00+00:00"
+            ]
+        }
+    }
+}
