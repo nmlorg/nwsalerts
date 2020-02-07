@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043607-3431930",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.09,
+                    35.79
+                ],
+                [
+                    -81.0699999,
+                    35.75
+                ],
+                [
+                    -81.12,
+                    35.75
+                ],
+                [
+                    -81.14,
+                    35.8
+                ],
+                [
+                    -81.09,
+                    35.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043607-3431930",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043607-3431930",
+        "areaDesc": "Alexander, NC; Iredell, NC; Catawba, NC",
+        "geocode": {
+            "UGC": [
+                "NCC003",
+                "NCC097",
+                "NCC035"
+            ],
+            "SAME": [
+                "037003",
+                "037097",
+                "037035"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC003",
+            "https://api.weather.gov/zones/county/NCC097",
+            "https://api.weather.gov/zones/county/NCC035"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043449-3431774",
+                "identifier": "NWS-IDP-PROD-4043449-3431774",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T19:13:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T20:32:00-05:00",
+        "effective": "2020-02-06T20:32:00-05:00",
+        "onset": "2020-02-06T20:32:00-05:00",
+        "expires": "2020-02-07T07:00:00-05:00",
+        "ends": "2020-02-07T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Flood Warning issued February 6 at 8:32PM EST until February 7 at 7:00AM EST by NWS Greenville-Spartanburg SC",
+        "description": "At 827 PM EST, the latest pool elevation for Lookout Shoals Lake is\n103.83 feet and rising. Duke Energy projects the lake will rise to\n105 feet. 104 feet is Moderate Flood Stage. Lake floodwaters are\napproaching some homes in the Carpenters Cove community; electricity\nshutoff is imminent. Impacted residents, especially in the\nCarpenters Cove community, should be completing preparations to\nevacuate and heeding guidance from Catawba County Emergency\nManagement.\n\nDrivers are encouraged to heed any barricades and avoid all flooded\nareas. For more information on lake levels or dam releases, people\nare encouraged to visit http://lakes.duke-energy.com or call 1-800-\n829-5253.\n\nResidents along Lookout Shoals Lake should contact Catawba County\nEmergency Management to update their contact information using the\nfollowing direct link to their Community Alert System web page at:\nwww.catawbacountync.gov/online-services/community-alert-system/",
+        "instruction": "Boaters, fishermen, kayakers, swimmers, and other lake users are\nencouraged to exercise caution during elevated lake levels and\ndownstream releases. Avoid areas along the stream below dams\nreleasing water.\n\nOnly when it is safe to do so, please report floodwaters or\nlandslides flowing over roads or threatening property to the\nNational Weather Service by calling toll-free, 1, 800, 2 6 7, 8 1 0\n1, by posting on our Facebook page, or via Twitter using hashtag\nNWSGSP. Your message should describe the event and the specific\nlocation where it occurred, including roadways, nearby cross\nstreets, stream names and other landmarks.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "A FLOOD WARNING REMAINS IN EFFECT UNTIL 700 AM EST FOR NORTH CENTRAL CATAWBA...SOUTH CENTRAL ALEXANDER AND WEST CENTRAL IREDELL COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KGSP.FA.W.0010.000000T0000Z-200207T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GSPFLSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T12:00:00+00:00"
+            ]
+        }
+    }
+}
