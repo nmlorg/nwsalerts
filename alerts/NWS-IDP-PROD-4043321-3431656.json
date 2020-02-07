@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043321-3431656",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.2,
+                    35
+                ],
+                [
+                    -85.09,
+                    34.99
+                ],
+                [
+                    -85.09,
+                    34.9
+                ],
+                [
+                    -85.10000000000001,
+                    34.86
+                ],
+                [
+                    -85.15,
+                    34.87
+                ],
+                [
+                    -85.15,
+                    34.94
+                ],
+                [
+                    -85.2,
+                    35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043321-3431656",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043321-3431656",
+        "areaDesc": "Catoosa, GA",
+        "geocode": {
+            "UGC": [
+                "GAC047"
+            ],
+            "SAME": [
+                "013047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041699-3430090",
+                "identifier": "NWS-IDP-PROD-4041699-3430090",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T09:56:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T18:04:00-05:00",
+        "effective": "2020-02-06T18:04:00-05:00",
+        "onset": "2020-02-06T18:04:00-05:00",
+        "expires": "2020-02-07T08:04:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 6:04PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nSouth Chickamauga Creek near Ringgold affecting Catoosa County\n\nThe Flood Warning continues for\nThe South Chickamauga Creek near Ringgold.\n* Until further notice.\n* At 5 PM Thursday the stage was 20.8 feet, and rising.\n* Minor flooding is occurring.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0049.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
