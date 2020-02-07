@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044960-3433193",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.3,
+                    32.8
+                ],
+                [
+                    -84.2099999,
+                    32.75
+                ],
+                [
+                    -83.98,
+                    32.57
+                ],
+                [
+                    -84.05,
+                    32.53
+                ],
+                [
+                    -84.14999999999999,
+                    32.65
+                ],
+                [
+                    -84.36999999999999,
+                    32.76
+                ],
+                [
+                    -84.3,
+                    32.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044960-3433193",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4044960-3433193",
+        "areaDesc": "Crawford, GA; Upson, GA; Taylor, GA; Talbot, GA",
+        "geocode": {
+            "UGC": [
+                "GAC079",
+                "GAC293",
+                "GAC269",
+                "GAC263"
+            ],
+            "SAME": [
+                "013079",
+                "013293",
+                "013269",
+                "013263"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC079",
+            "https://api.weather.gov/zones/county/GAC293",
+            "https://api.weather.gov/zones/county/GAC269",
+            "https://api.weather.gov/zones/county/GAC263"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044035-3432325",
+                "identifier": "NWS-IDP-PROD-4044035-3432325",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T22:18:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T05:16:00-05:00",
+        "effective": "2020-02-07T05:16:00-05:00",
+        "onset": "2020-02-07T05:16:00-05:00",
+        "expires": "2020-02-07T19:16:00-05:00",
+        "ends": "2020-02-10T16:31:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 5:16AM EST until February 10 at 4:31PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nSuwanee Creek near Suwanee affecting Gwinnett County\n\nSweetwater Creek near Austell affecting Cobb and Douglas Counties\n\nFlint River near Lovejoy affecting Clayton...Fayette and Spalding\nCounties\n\nFlint River near Griffin Hwy. 16 affecting Fayette and Spalding\nCounties\n\nFlint River near Molena affecting Meriwether and Pike Counties\n\nLine Creek near Senoia affecting Coweta...Fayette and Spalding\nCounties\n\nFlint River near Carsonville Hwy. 19 affecting Crawford...\nTalbot...Taylor and Upson Counties\n\nTurkey Creek near Byromville affecting Dooly County\n\nThe Flood Warning continues for\nThe Flint River near Carsonville Hwy. 19.\n* Until Monday afternoon.\n* At 5 AM Friday the stage was 21.5 feet...and rising.\n* Minor flooding is occurring and forecast.\n* Flood stage is 18 feet.\n* The river will continue rising to near 24.7 feet early tomorrow\nmorning then fall below flood stage midday Monday.\n* At 25 feet...Moderate flooding begins. Access Road to boat ramp\nand parking lot to boat ramp flood. In addition...flooding of most\nof the land at the bend of the river upstream develops.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0095.000000T0000Z-200210T2131Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T21:31:00+00:00"
+            ]
+        }
+    }
+}

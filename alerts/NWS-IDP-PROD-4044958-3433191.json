@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044958-3433191",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.44,
+                    33.3
+                ],
+                [
+                    -84.37,
+                    33.3
+                ],
+                [
+                    -84.45,
+                    33.18
+                ],
+                [
+                    -84.47,
+                    33.1599999
+                ],
+                [
+                    -84.47,
+                    33.1599999
+                ],
+                [
+                    -84.5,
+                    33.220000000000006
+                ],
+                [
+                    -84.44,
+                    33.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044958-3433191",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4044958-3433191",
+        "areaDesc": "Fayette, GA; Spalding, GA",
+        "geocode": {
+            "UGC": [
+                "GAC113",
+                "GAC255"
+            ],
+            "SAME": [
+                "013113",
+                "013255"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC113",
+            "https://api.weather.gov/zones/county/GAC255"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044046-3432336",
+                "identifier": "NWS-IDP-PROD-4044046-3432336",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T22:18:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T05:16:00-05:00",
+        "effective": "2020-02-07T05:16:00-05:00",
+        "onset": "2020-02-07T05:16:00-05:00",
+        "expires": "2020-02-07T19:16:00-05:00",
+        "ends": "2020-02-09T08:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 5:16AM EST until February 9 at 8:30AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nSuwanee Creek near Suwanee affecting Gwinnett County\n\nSweetwater Creek near Austell affecting Cobb and Douglas Counties\n\nFlint River near Lovejoy affecting Clayton...Fayette and Spalding\nCounties\n\nFlint River near Griffin Hwy. 16 affecting Fayette and Spalding\nCounties\n\nFlint River near Molena affecting Meriwether and Pike Counties\n\nLine Creek near Senoia affecting Coweta...Fayette and Spalding\nCounties\n\nFlint River near Carsonville Hwy. 19 affecting Crawford...\nTalbot...Taylor and Upson Counties\n\nTurkey Creek near Byromville affecting Dooly County",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0093.000000T0000Z-200209T1330Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T13:30:00+00:00"
+            ]
+        }
+    }
+}
