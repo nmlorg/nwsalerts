@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046587-3434715",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -118.36,
+                    46.09
+                ],
+                [
+                    -118.35,
+                    46.06
+                ],
+                [
+                    -118.39999999999999,
+                    46.04
+                ],
+                [
+                    -118.52,
+                    46.01
+                ],
+                [
+                    -118.53999999999999,
+                    46.059999999999995
+                ],
+                [
+                    -118.46,
+                    46.08
+                ],
+                [
+                    -118.36,
+                    46.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046587-3434715",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046587-3434715",
+        "areaDesc": "Walla Walla, WA",
+        "geocode": {
+            "UGC": [
+                "WAC071"
+            ],
+            "SAME": [
+                "053071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046073-3434237",
+                "identifier": "NWS-IDP-PROD-4046073-3434237",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T10:25:00-08:00"
+            }
+        ],
+        "sent": "2020-02-07T14:22:00-08:00",
+        "effective": "2020-02-07T14:22:00-08:00",
+        "onset": "2020-02-07T14:22:00-08:00",
+        "expires": "2020-02-08T10:30:00-08:00",
+        "ends": "2020-02-08T10:30:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Warning issued February 7 at 2:22PM PST until February 8 at 10:30AM PST by NWS Pendleton OR",
+        "description": "At 214 PM PST, the high flows on Mill Creek continue to cause\nflooding in areas west of Walla Walla.  The high flows are expected\nto continue overnight and into Saturday until water levels on Mill\nCreek recede.\n\nSome locations that will experience flooding include...\nWalla Walla, College Place and Garrett.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "A FLOOD WARNING FOR URBAN AREAS AND SMALL STREAMS FOR RAIN AND SNOWMELT REMAINS IN EFFECT UNTIL 1030 AM PST FOR SOUTH CENTRAL WALLA WALLA COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KPDT.FA.W.0007.000000T0000Z-200208T1830Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T10:30:00-08:00"
+            ]
+        }
+    }
+}
