@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045589-3433784",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -98.33,
+                    44.63
+                ],
+                [
+                    -98.2099999,
+                    44.63
+                ],
+                [
+                    -98.1,
+                    44.49
+                ],
+                [
+                    -98.1,
+                    44.2
+                ],
+                [
+                    -98.22,
+                    44.2
+                ],
+                [
+                    -98.24,
+                    44.470000000000006
+                ],
+                [
+                    -98.33,
+                    44.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045589-3433784",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045589-3433784",
+        "areaDesc": "Beadle, SD",
+        "geocode": {
+            "UGC": [
+                "SDC005"
+            ],
+            "SAME": [
+                "046005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SDC005"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041996-3430366",
+                "identifier": "NWS-IDP-PROD-4041996-3430366",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T10:01:00-06:00"
+            }
+        ],
+        "sent": "2020-02-07T09:07:00-06:00",
+        "effective": "2020-02-07T09:07:00-06:00",
+        "onset": "2020-02-07T09:06:00-06:00",
+        "expires": "2020-02-10T06:00:00-06:00",
+        "ends": "2020-02-10T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Sioux Falls SD",
+        "headline": "Flood Warning issued February 7 at 9:06AM CST until February 10 at 6:00AM CST by NWS Sioux Falls SD",
+        "description": "...The Flood Warning continues for the following rivers in South\nDakota...\n\nJames River At Huron\n...The Flood Warning continues for the following rivers in South\nDakota...\nJames River Near Forestburg\nJames River At Mitchell\n\n.The following river forecasts include forecast precipitation through\ntonight. Any additional future rains could affect the crest\nforecasts.\n\nThe Flood Warning continues for\nThe James River At Huron.\n* until Monday morning.\n* At 08AM Friday the stage was 11.07 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 11.00 feet.\n* Forecast...The river will rise to 11.1 feet by Friday February 07.\n* At stages near 11.0 feet...Significant amounts of rural areas will\nexperience flooding.",
+        "instruction": "Safety message...Do not drive cars through flooded areas. the water\ndepth and road condition may be unsafe.\n\nAdditional information is available at\n\nhttp://water.weather.gov/ahps2/index.php?wfo=fsd\n\nStay tuned for further updates by listening to NOAA weather radio...\nor your local radio and TV stations.\n\nThe next scheduled statement will be issued tomorrow morning.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFSD.FL.W.0078.000000T0000Z-200210T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FSDFLSFSD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T06:00:00-06:00"
+            ]
+        }
+    }
+}
