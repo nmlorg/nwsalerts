@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043656-3431981",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.95,
+                    33.79
+                ],
+                [
+                    -83.87,
+                    33.79
+                ],
+                [
+                    -83.9,
+                    33.68
+                ],
+                [
+                    -83.93,
+                    33.72
+                ],
+                [
+                    -83.95,
+                    33.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043656-3431981",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043656-3431981",
+        "areaDesc": "Newton, GA; Rockdale, GA",
+        "geocode": {
+            "UGC": [
+                "GAC217",
+                "GAC247"
+            ],
+            "SAME": [
+                "013217",
+                "013247"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC217",
+            "https://api.weather.gov/zones/county/GAC247"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043221-3431562",
+                "identifier": "NWS-IDP-PROD-4043221-3431562",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T17:21:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T20:48:00-05:00",
+        "effective": "2020-02-06T20:48:00-05:00",
+        "onset": "2020-02-06T20:48:00-05:00",
+        "expires": "2020-02-07T10:48:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 8:48PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nAlcovy River near Lawrenceville affecting Gwinnett and Walton\nCounties\n\nYellow River near East Lithonia affecting De Kalb and Rockdale\nCounties\n\nYellow River near Conyers below Milstead affecting Newton and\nRockdale Counties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nLittle Haynes Creek near Milstead affecting Newton and Rockdale\nCounties\n\nThe Flood Warning continues for\nThe Little Haynes Creek near Milstead.\n* Until further notice.\n* At 7 PM Thursday the stage was 10.6 feet, and rising.\n* Minor flooding is occurring.\n* Flood stage is 10 feet.\n* At 10 feet, flood stage is reached. Minor flooding begins in the\nwoodlands and fields along the creek upstream and downstream from\nthe gage on Dial Mill Road. Some low lying portions of residential\nbackyards on River Ridge Trail will begin to flood.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0089.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

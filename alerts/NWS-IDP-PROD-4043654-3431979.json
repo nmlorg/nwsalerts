@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043654-3431979",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.99,
+                    33.6599999
+                ],
+                [
+                    -83.94999999999999,
+                    33.71
+                ],
+                [
+                    -83.86999999999999,
+                    33.59
+                ],
+                [
+                    -83.92999999999999,
+                    33.56
+                ],
+                [
+                    -83.99,
+                    33.6599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043654-3431979",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043654-3431979",
+        "areaDesc": "Newton, GA; Rockdale, GA",
+        "geocode": {
+            "UGC": [
+                "GAC217",
+                "GAC247"
+            ],
+            "SAME": [
+                "013217",
+                "013247"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC217",
+            "https://api.weather.gov/zones/county/GAC247"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042831-3431195",
+                "identifier": "NWS-IDP-PROD-4042831-3431195",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T15:30:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T20:48:00-05:00",
+        "effective": "2020-02-06T20:48:00-05:00",
+        "onset": "2020-02-06T20:42:00-05:00",
+        "expires": "2020-02-07T10:48:00-05:00",
+        "ends": "2020-02-08T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 8:48PM EST until February 8 at 1:00PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nAlcovy River near Lawrenceville affecting Gwinnett and Walton\nCounties\n\nYellow River near East Lithonia affecting De Kalb and Rockdale\nCounties\n\nYellow River near Conyers below Milstead affecting Newton and\nRockdale Counties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nLittle Haynes Creek near Milstead affecting Newton and Rockdale\nCounties\n\nThe Flood Warning continues for\nThe Yellow River near Conyers below Milstead.\n* From this evening until Saturday afternoon.\n* At 7 PM Thursday the stage was 10.8 feet, and rising.\n* Minor flooding is forecast.\n* Flood stage is 11 feet.\n* The river is forecast to rise above flood stage by this evening\nand continue to rise to near 14.4 feet by early Friday afternoon\nbefore beginning to fall. The river will fall below flood stage\nby Saturday morning.\n* At 13 feet, minor flooding continues to expand into the woodlands,\nfields and pasture along the river upstream and downstream from the\ngage on Gees Mill Road in Rockdale County. Most of Sockwell Road by\nthe river in Newton County will be flooded with up to 4 feet of water.\nMinor flooding also occurs in Newton County in the Riverside Estates\nTravel and Trailer Park. Any trailers near the river may need to be\nmoved to higher ground. A playground by the river will begin to flood.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0076.200207T0142Z-200208T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T18:00:00+00:00"
+            ]
+        }
+    }
+}
