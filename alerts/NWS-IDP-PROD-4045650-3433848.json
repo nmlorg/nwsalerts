@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045650-3433848",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.29,
+                    35.54
+                ],
+                [
+                    -78.34,
+                    35.479999899999996
+                ],
+                [
+                    -78.29,
+                    35.44
+                ],
+                [
+                    -78.33000000000001,
+                    35.409999899999995
+                ],
+                [
+                    -78.42000000000002,
+                    35.47
+                ],
+                [
+                    -78.35000000000002,
+                    35.56
+                ],
+                [
+                    -78.29,
+                    35.54
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045650-3433848",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045650-3433848",
+        "areaDesc": "Johnston, NC",
+        "geocode": {
+            "UGC": [
+                "NCC101"
+            ],
+            "SAME": [
+                "037101"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC101"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044631-3432888",
+                "identifier": "NWS-IDP-PROD-4044631-3432888",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T03:35:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T10:25:00-05:00",
+        "effective": "2020-02-07T10:25:00-05:00",
+        "onset": "2020-02-07T10:25:00-05:00",
+        "expires": "2020-02-07T22:24:00-05:00",
+        "ends": "2020-02-10T01:21:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 7 at 10:25AM EST until February 10 at 1:21AM EST by NWS Raleigh NC",
+        "description": "...The National Weather Service in Raleigh has issued a\nFlood Warning for the following rivers in North Carolina...\nNeuse River Near Goldsboro affecting Wayne County\n\n...Forecast flooding changed from Moderate to Major severity for the\nfollowing rivers in North Carolina...\nNeuse River At Smithfield affecting Johnston County",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Moderate to Major severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KRAH.FL.W.0009.000000T0000Z-200210T0621Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLWRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T01:21:00-05:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045635-3433833",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.9,
+                    33.75
+                ],
+                [
+                    -84.9,
+                    33.81
+                ],
+                [
+                    -84.74000000000001,
+                    33.85
+                ],
+                [
+                    -84.7,
+                    33.85
+                ],
+                [
+                    -84.69,
+                    33.79
+                ],
+                [
+                    -84.9,
+                    33.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045635-3433833",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045635-3433833",
+        "areaDesc": "Cobb, GA; Paulding, GA",
+        "geocode": {
+            "UGC": [
+                "GAC067",
+                "GAC223"
+            ],
+            "SAME": [
+                "013067",
+                "013223"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC067",
+            "https://api.weather.gov/zones/county/GAC223"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044422-3432684",
+                "identifier": "NWS-IDP-PROD-4044422-3432684",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T01:15:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T10:19:00-05:00",
+        "effective": "2020-02-07T10:19:00-05:00",
+        "onset": "2020-02-07T10:19:00-05:00",
+        "expires": "2020-02-08T00:18:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 10:19AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nSweetwater Creek near Austell affecting Cobb and Douglas Counties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nSweetwater Creek near Powder Springs affecting Cobb and Paulding\nCounties\n\nThe Flood Warning continues for\nThe Sweetwater Creek near Powder Springs.\n* Until further notice.\n* At 9 AM Friday the stage was 13.3 feet...and falling.\n* Minor flooding will continue.\n* Flood stage is 13 feet.\n* At 13 feet...Flood stage is reached. Minor flooding will occur in\nthe woodlands...fields and pastures of the natural flood plain\nupstream and downstream from the gage at Brownsville Road.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0107.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
