@@ -1,0 +1,69 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044721-3432964",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044721-3432964",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4044721-3432964",
+        "areaDesc": "Southern Litchfield; Northern Litchfield",
+        "geocode": {
+            "UGC": [
+                "CTZ013",
+                "CTZ001"
+            ],
+            "SAME": [
+                "009005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CTZ013",
+            "https://api.weather.gov/zones/forecast/CTZ001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042752-3431105",
+                "identifier": "NWS-IDP-PROD-4042752-3431105",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T15:17:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T03:51:00-05:00",
+        "effective": "2020-02-07T03:51:00-05:00",
+        "onset": "2020-02-07T13:00:00-05:00",
+        "expires": "2020-02-07T12:00:00-05:00",
+        "ends": "2020-02-07T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albany NY",
+        "headline": "Wind Advisory issued February 7 at 3:51AM EST until February 7 at 10:00PM EST by NWS Albany NY",
+        "description": "* WHAT...West winds 15 to 25 mph with gusts up to 50 mph\nexpected.\n\n* WHERE...Litchfield County Connecticut.\n\n* WHEN...From 1 PM this afternoon to 10 PM EST this evening.\n\n* IMPACTS...Gusty winds could blow around unsecured objects.\nTree limbs could be blown down and a few power outages may\nresult.",
+        "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY REMAINS IN EFFECT FROM 1 PM THIS AFTERNOON TO 10 PM EST THIS EVENING"
+            ],
+            "VTEC": [
+                "/O.CON.KALY.WI.Y.0003.200207T1800Z-200208T0300Z/"
+            ],
+            "PIL": [
+                "ALYNPWALY"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T03:00:00+00:00"
+            ]
+        }
+    }
+}
