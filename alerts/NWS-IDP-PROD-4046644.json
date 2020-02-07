@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046644",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -67.64,
+                    45.42
+                ],
+                [
+                    -69.42,
+                    45.370000000000005
+                ],
+                [
+                    -68.81,
+                    46.38
+                ],
+                [
+                    -67.81,
+                    46.35
+                ],
+                [
+                    -67.8199999,
+                    45.690000000000005
+                ],
+                [
+                    -67.64,
+                    45.42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046644",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046644",
+        "areaDesc": "Southern Piscataquis; Northern Penobscot; Central Piscataquis; Central Penobscot; Southeast Aroostook; Northern Piscataquis; Northern Washington",
+        "geocode": {
+            "UGC": [
+                "MEZ031",
+                "MEZ005",
+                "MEZ010",
+                "MEZ011",
+                "MEZ006",
+                "MEZ004",
+                "MEZ032"
+            ],
+            "SAME": [
+                "023021",
+                "023019",
+                "023003",
+                "023029"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MEZ031",
+            "https://api.weather.gov/zones/forecast/MEZ005",
+            "https://api.weather.gov/zones/forecast/MEZ010",
+            "https://api.weather.gov/zones/forecast/MEZ011",
+            "https://api.weather.gov/zones/forecast/MEZ006",
+            "https://api.weather.gov/zones/forecast/MEZ004",
+            "https://api.weather.gov/zones/forecast/MEZ032"
+        ],
+        "references": [],
+        "sent": "2020-02-07T18:00:00-05:00",
+        "effective": "2020-02-07T18:00:00-05:00",
+        "onset": "2020-02-07T18:00:00-05:00",
+        "expires": "2020-02-07T19:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Caribou ME",
+        "headline": "Special Weather Statement issued February 7 at 6:00PM EST by NWS Caribou ME",
+        "description": "At 558 PM EST...An area of heavy snow was moving across northern\nMaine.  The snow will be mixed with sleet and freezing rain in\nspots.\n\nLocations impacted include...\nHoulton, Millinocket, Patten, Danforth, Mount Katahdin, East\nMillinocket, Medway, Hodgdon, Sherman, Island Falls, Smyrna,\nSpringfield, Amity, Topsfield, Mount Chase, Haynesville, South Branch\nPond, Dudley Township, White Cap Mountain and Ebeemee.\n\nThis includes the following highways...\nInterstate 95 between mile markers 229 and 303.\nUS Highway 1 between Topsfield and Monticello.\nState Highway 11 between West Seboeis and Knowles Corner.\n\n* Winds in excess of 25 mph are possible with this area of heavy\nsnow.\n\n* Visibilities will drop quickly to less than a quarter mile in\nthis area of heavy snow.\n\n* Sudden and brief snowfall rates of 1 to 2 inches per hour are\npossible in this area of heavy snow.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-07T17:58:00.000-05:00...storm...227DEG...39KT...45.87,-68.61"
+            ],
+            "NWSheadline": [
+                "An area of heavy snow will affect northwestern Washington...east central Piscataquis...southeastern Aroostook and northeastern Penobscot Counties"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CARSPSCAR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

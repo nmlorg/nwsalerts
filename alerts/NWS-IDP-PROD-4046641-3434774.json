@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046641-3434774",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.66,
+                    37.57
+                ],
+                [
+                    -83.61999999999999,
+                    37.4799999
+                ],
+                [
+                    -83.63,
+                    37.34
+                ],
+                [
+                    -83.75,
+                    37.32
+                ],
+                [
+                    -83.73,
+                    37.45
+                ],
+                [
+                    -83.73,
+                    37.5
+                ],
+                [
+                    -83.66,
+                    37.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046641-3434774",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046641-3434774",
+        "areaDesc": "Owsley, KY",
+        "geocode": {
+            "UGC": [
+                "KYC189"
+            ],
+            "SAME": [
+                "021189"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC189"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045763-3433944",
+                "identifier": "NWS-IDP-PROD-4045763-3433944",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T10:58:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T17:56:00-05:00",
+        "effective": "2020-02-07T17:56:00-05:00",
+        "onset": "2020-02-07T17:56:00-05:00",
+        "expires": "2020-02-08T05:57:00-05:00",
+        "ends": "2020-02-08T07:40:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Warning issued February 7 at 5:56PM EST until February 8 at 7:40AM EST by NWS Jackson KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe South Fork Kentucky River at Booneville\nThe Kentucky River at Heidelberg\n\nThe Flood Warning continues for\nThe South Fork Kentucky River at Booneville.\n* at  5:00 PM Friday the stage was 30.3 feet.\n* Flood stage is 27.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nafter midnight tomorrow.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 11 PM.\n\nA Flood Warning means that flooding is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJKL.FL.W.0009.000000T0000Z-200208T1240Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T07:40:00-05:00"
+            ]
+        }
+    }
+}
