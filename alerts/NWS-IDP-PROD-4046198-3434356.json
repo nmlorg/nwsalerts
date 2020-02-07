@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046198-3434356",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.85,
+                    34.5
+                ],
+                [
+                    -80.63,
+                    34.32
+                ],
+                [
+                    -80.75,
+                    34.28
+                ],
+                [
+                    -80.98,
+                    34.47
+                ],
+                [
+                    -80.85,
+                    34.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046198-3434356",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046198-3434356",
+        "areaDesc": "Kershaw, SC; Fairfield, SC; Lancaster, SC",
+        "geocode": {
+            "UGC": [
+                "SCC055",
+                "SCC039",
+                "SCC057"
+            ],
+            "SAME": [
+                "045055",
+                "045039",
+                "045057"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC055",
+            "https://api.weather.gov/zones/county/SCC039",
+            "https://api.weather.gov/zones/county/SCC057"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045561-3433760",
+                "identifier": "NWS-IDP-PROD-4045561-3433760",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T09:59:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T14:46:00-05:00",
+        "effective": "2020-02-07T14:46:00-05:00",
+        "onset": "2020-02-07T14:46:00-05:00",
+        "expires": "2020-02-08T14:46:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued February 7 at 2:46PM EST by NWS Columbia SC",
+        "description": "...The National Weather Service in Columbia has issued a flood\nwarning for the following rivers in Georgia...South Carolina...\n\nSavannah River at Augusta At Savannah River at Augusta affecting\nRichmond and Aiken Counties\n\n...Forecast flooding changed from Moderate to Major severity for the\nfollowing rivers in South Carolina...\n\nWateree River At Lake Wateree affecting Fairfield...Kershaw and\nLancaster Counties\n\n..Heavy rainfall in upstream river basins combined with hydroelectric\ndam releases will produce flooding along all area rivers.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Moderate to Major severity"
+            ],
+            "VTEC": [
+                "/O.CON.KCAE.FL.W.0020.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLWCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
