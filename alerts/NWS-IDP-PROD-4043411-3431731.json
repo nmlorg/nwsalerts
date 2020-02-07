@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043411-3431731",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.66,
+                    35.53
+                ],
+                [
+                    -86.64,
+                    35.620000000000005
+                ],
+                [
+                    -86.45,
+                    35.53
+                ],
+                [
+                    -86.25,
+                    35.49
+                ],
+                [
+                    -86.25,
+                    35.43
+                ],
+                [
+                    -86.48,
+                    35.42
+                ],
+                [
+                    -86.66,
+                    35.53
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043411-3431731",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043411-3431731",
+        "areaDesc": "Bedford, TN; Marshall, TN",
+        "geocode": {
+            "UGC": [
+                "TNC003",
+                "TNC117"
+            ],
+            "SAME": [
+                "047003",
+                "047117"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC003",
+            "https://api.weather.gov/zones/county/TNC117"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041717-3430118",
+                "identifier": "NWS-IDP-PROD-4041717-3430118",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T08:56:00-06:00"
+            }
+        ],
+        "sent": "2020-02-06T17:58:00-06:00",
+        "effective": "2020-02-06T17:58:00-06:00",
+        "onset": "2020-02-06T17:58:00-06:00",
+        "expires": "2020-02-07T05:58:00-06:00",
+        "ends": "2020-02-07T07:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued February 6 at 5:58PM CST until February 7 at 7:30AM CST by NWS Nashville TN",
+        "description": "...The Flood Advisory continues for the Duck River...\n\nDuck River Near Shelbyville affecting Bedford and Marshall Counties\n\n. The Duck River Near Shelbyville will remain above action stage through tonight.\n\nThe Flood Advisory continues for\nThe Duck River Near Shelbyville\n* Until Friday morning.\n* At 5 PM Thursday the stage was 23.1 feet.\n* Action stage is 21.0 feet.\n* Flood stage is 25.0 feet.\n* The river will rise near flood stage overnight, then fall again by daybreak.\n* At 25.0 feet...Areas along the river from Normandy Dam to near Henry Horton\nState Park begin to be flooded, including agricultural land and access points.\nIn Shelbyville, water begins to approach properties adjacent to the river on S\nCannon Blvd between the Hwy 64-Lewis Ave junction and the bridge, and\nFisherman's Park and River Bottom Park are both flooded.\n* At 23.0 feet...Water continues to impact low lying areas along the river,\nagriculutral land, and access points including the Dement Bridge boat ramp,\nthe Three Forks Bridge canoe and kayak access point, the Mullins Mill Bridge\naccess point, and River Botttom Park and Fisherman's Park in Shelbyville.\n* At 21.0 feet...Low lying areas along the river from Normandy Dam to Henry\nHorton State Park, agriculutral land, and access points begin to be inundated.\nThis includes the Dement Bridge boat ramp, the Three Forks Bridge canoe and\nkayak access point, the Mullins Mill Bridge access point, and River Botttom\nPark and Fisherman's Park in Shelbyville.",
+        "instruction": "Stay tuned to NOAA weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0040.000000T0000Z-200207T1330Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T13:30:00+00:00"
+            ]
+        }
+    }
+}
