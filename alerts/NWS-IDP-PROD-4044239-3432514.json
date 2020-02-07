@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044239-3432514",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.59,
+                    35.24
+                ],
+                [
+                    -81.56,
+                    35.18
+                ],
+                [
+                    -81.52,
+                    35.089999999999996
+                ],
+                [
+                    -81.61,
+                    35.06999999999999
+                ],
+                [
+                    -81.67,
+                    35.159999899999995
+                ],
+                [
+                    -81.59,
+                    35.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044239-3432514",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4044239-3432514",
+        "areaDesc": "Cherokee, SC; York, SC",
+        "geocode": {
+            "UGC": [
+                "SCC021",
+                "SCC091"
+            ],
+            "SAME": [
+                "045021",
+                "045091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC021",
+            "https://api.weather.gov/zones/county/SCC091"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042766-3431111",
+                "identifier": "NWS-IDP-PROD-4042766-3431111",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T15:18:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T23:45:00-05:00",
+        "effective": "2020-02-06T23:45:00-05:00",
+        "onset": "2020-02-06T23:45:00-05:00",
+        "expires": "2020-02-07T23:45:00-05:00",
+        "ends": "2020-02-08T08:20:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Flood Warning issued February 6 at 11:45PM EST until February 8 at 8:20AM EST by NWS Greenville-Spartanburg SC",
+        "description": "...Forecast flooding changed from Minor to Record severity for the\nBroad River in SC Near Blacksburg affecting Cherokee and York Counties...\n\nThe Flood Warning continues for the Broad River near Blacksburg.\n* At 11:15 PM Thursday the stage was 23.1 feet\n* Minor Flood Stage is 16.0 feet.\n* Record flooding is occurring.\n* FORECAST: the river will hover just above 23 feet overnight.\nThe river will fall below Minor Flood Stage Friday evening.\n* Impact...At 22.0 feet...The Broad River is at levels similar to\nthose that occurred in September 2004 due to Hurricane Frances.\n* Impact...At 20.0 feet...Floodwaters may be impacting access to\nthe Cherokee Falls powerhouse and inundating residential yards\nadjacent to the river.  Also, several secondary roads near the\nriver may be inundated.",
+        "instruction": "Please report high water...flooding and landslides to the National\nWeather Service Greenville-Spartanburg by calling toll free...1...8 0\n0...2 6 7...8 1 0 1...or by posting on our Facebook page...or tweet\nit using hashtag nwsgsp. Your message should describe the event and\nthe specific location where it occurred.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGSP.FL.W.0014.000000T0000Z-200208T1320Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GSPFLWGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T13:20:00+00:00"
+            ]
+        }
+    }
+}
