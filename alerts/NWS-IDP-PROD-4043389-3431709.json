@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043389-3431709",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.09,
+                    34
+                ],
+                [
+                    -85.05,
+                    34.08
+                ],
+                [
+                    -84.98,
+                    34.08
+                ],
+                [
+                    -85.02000000000001,
+                    33.989999999999995
+                ],
+                [
+                    -85.11000000000001,
+                    33.94
+                ],
+                [
+                    -85.15000000000002,
+                    33.979999899999996
+                ],
+                [
+                    -85.09,
+                    34
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043389-3431709",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043389-3431709",
+        "areaDesc": "Polk, GA",
+        "geocode": {
+            "UGC": [
+                "GAC233"
+            ],
+            "SAME": [
+                "013233"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC233"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041926-3430310",
+                "identifier": "NWS-IDP-PROD-4041926-3430310",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T10:41:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T18:36:00-05:00",
+        "effective": "2020-02-06T18:36:00-05:00",
+        "onset": "2020-02-06T18:36:00-05:00",
+        "expires": "2020-02-07T01:11:00-05:00",
+        "ends": "2020-02-07T01:11:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 6:36PM EST until February 7 at 1:11AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nEuharlee Creek near Rockmart affecting Polk County\n\nThe Flood Warning continues for\nThe Euharlee Creek near Rockmart.\n* Until late tonight.\n* At 5 PM Thursday the stage was 10 feet, and falling.\n* Minor flooding is occurring.\n* Flood stage is 9 feet.\n* The river will continue to fall to below flood stage by this\nevening.\n* At 10 feet, Minor flooding continues and expands along the creek\nupstream and downstream from the gage on Church Street. Portions of\nthe Wayside Park will be under 1 to 3 feet of water. Most of the\nsidewalks on the Silver Comet Trail will be flooded. The water\nreaches the top of The Silver Comet Trail foot bridge just\ndownstream from West Elm Street.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0053.000000T0000Z-200207T0611Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T06:11:00+00:00"
+            ]
+        }
+    }
+}

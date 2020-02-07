@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043392-3431712",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.2,
+                    37.6599999
+                ],
+                [
+                    -82.29,
+                    37.57
+                ],
+                [
+                    -82.44000000000001,
+                    37.75
+                ],
+                [
+                    -82.27000000000001,
+                    37.75
+                ],
+                [
+                    -82.2,
+                    37.6599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043392-3431712",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043392-3431712",
+        "areaDesc": "Martin, KY; Mingo, WV; Pike, KY",
+        "geocode": {
+            "UGC": [
+                "KYC159",
+                "WVC059",
+                "KYC195"
+            ],
+            "SAME": [
+                "021159",
+                "054059",
+                "021195"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC159",
+            "https://api.weather.gov/zones/county/WVC059",
+            "https://api.weather.gov/zones/county/KYC195"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042298-3430658",
+                "identifier": "NWS-IDP-PROD-4042298-3430658",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T12:42:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T18:41:00-05:00",
+        "effective": "2020-02-06T18:41:00-05:00",
+        "onset": "2020-02-06T18:41:00-05:00",
+        "expires": "2020-02-07T06:45:00-05:00",
+        "ends": "2020-02-07T20:39:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston WV",
+        "headline": "Flood Warning issued February 6 at 6:41PM EST until February 7 at 8:39PM EST by NWS Charleston WV",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...West Virginia...\n\nTug Fork River At Williamson affecting Pike, Mingo and Martin\nCounties.\n\nFor the Tug Fork River...Minor flooding is forecast.\n\nThe Flood Warning continues for\nthe Tug Fork River At Williamson.\n* Until Friday evening.\n* At 12:00 PM EST Thursday the stage was 15.5 feet.\n* Flood stage is 27.0 feet.\n* Minor flooding is forecast.\n* Forecast...The river is expected to rise above flood stage late\nthis evening to a crest of 28.5 feet tomorrow morning. It will\nthen fall below flood stage early tomorrow afternoon.\n* Impact...At 29.5 feet, Railroad yard in Williamson, WV affected.\n* Flood History...This crest compares to a previous crest of 28.7\nfeet on 04/09/1987.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nPlease report Severe Weather to the National Weather Service by\ncalling toll free, 800 401 9535, when you can do so safely. You may\nalso report severe weather by posting your report to the Charleston\nWest Virginia National Weather Service Facebook Page, or by using\nthe Twitter Hashtag, NWSRLX.\n\nAdditional information is available at www.weather.gov/rlx.\n\nThe next statement will be issued Friday morning at 645 AM EST.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Warning remains in effect"
+            ],
+            "VTEC": [
+                "/O.CON.KRLX.FL.W.0001.000000T0000Z-200208T0139Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RLXFLSRLX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T01:39:00+00:00"
+            ]
+        }
+    }
+}
