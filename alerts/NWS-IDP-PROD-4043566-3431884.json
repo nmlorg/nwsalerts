@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043566-3431884",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.08,
+                    34.19
+                ],
+                [
+                    -82.95,
+                    34.07
+                ],
+                [
+                    -82.85000000000001,
+                    34.01
+                ],
+                [
+                    -82.86000000000001,
+                    33.96
+                ],
+                [
+                    -83.00000000000001,
+                    34.02
+                ],
+                [
+                    -83.12000000000002,
+                    34.14
+                ],
+                [
+                    -83.08,
+                    34.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043566-3431884",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043566-3431884",
+        "areaDesc": "Elbert, GA; Madison, GA; Oglethorpe, GA",
+        "geocode": {
+            "UGC": [
+                "GAC105",
+                "GAC195",
+                "GAC221"
+            ],
+            "SAME": [
+                "013105",
+                "013195",
+                "013221"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC105",
+            "https://api.weather.gov/zones/county/GAC195",
+            "https://api.weather.gov/zones/county/GAC221"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043127-3431472",
+                "identifier": "NWS-IDP-PROD-4043127-3431472",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T16:40:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T20:15:00-05:00",
+        "effective": "2020-02-06T20:15:00-05:00",
+        "onset": "2020-02-06T20:15:00-05:00",
+        "expires": "2020-02-07T10:13:00-05:00",
+        "ends": "2020-02-07T22:04:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 8:15PM EST until February 7 at 10:04PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nBroad River near Carlton affecting Elbert...Madison and Oglethorpe\nCounties\n\nThe Flood Warning continues for\nThe Broad River near Carlton.\n* Until Friday evening.\n* At 745 PM Thursday the stage was 21.7 feet, and rising.\n* Minor flooding is occurring, and minor flooding is forecast to\ncontinue.\n* Flood stage is 15 feet.\n* The river will continue rising, reaching near 24 feet by after\nmidnight early Friday morning. The river is expected to fall below\nflood stage Friday afternoon.\n* At 21 feet, minor flooding expands further into the woodlands and\nfields along the river. A sand dredge operation on the left bank\nnear the gage will be flooded out. Large portions of Roy Wood Road\nand the Broad River Outpost for Canoes and Kayaks location will be\nunder several feet of water. Flooding expands over the yard behind\nan assisted living home off of Roy Wood Road.\n\nAt 24 feet, minor flooding expands even further into the woodlands\nand fields along the river. A sand dredge operation on the left bank\nnear the gage will be completely under water. Large portions of Roy\nWood Road and the Broad River Outpost for Canoes and Kayaks location\nwill be under several feet of water. Flooding expands up the\nbackyard of an assisted living home off of Roy Wood Road.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Friday evening"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0081.000000T0000Z-200208T0304Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T03:04:00+00:00"
+            ]
+        }
+    }
+}
