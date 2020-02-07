@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046347-3434497",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.75,
+                    32.9099999
+                ],
+                [
+                    -82.72,
+                    33.1
+                ],
+                [
+                    -82.48,
+                    32.940000000000005
+                ],
+                [
+                    -82.53,
+                    32.900000000000006
+                ],
+                [
+                    -82.75,
+                    32.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046347-3434497",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046347-3434497",
+        "areaDesc": "Washington, GA; Jefferson, GA",
+        "geocode": {
+            "UGC": [
+                "GAC303",
+                "GAC163"
+            ],
+            "SAME": [
+                "013303",
+                "013163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC303",
+            "https://api.weather.gov/zones/county/GAC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045798-3433976",
+                "identifier": "NWS-IDP-PROD-4045798-3433976",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T11:07:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T15:33:00-05:00",
+        "effective": "2020-02-07T15:33:00-05:00",
+        "onset": "2020-02-07T15:33:00-05:00",
+        "expires": "2020-02-08T05:32:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 3:33PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nLittle River near Washington affecting Taliaferro and Wilkes\nCounties\n\nWilliamson Swamp Creek near Davisboro affecting Jefferson and\nWashington Counties\n\nThe Flood Warning continues for\nThe Williamson Swamp Creek near Davisboro.\n* Until further notice.\n* At 02PM Friday the stage was 10.2 feet...and rising.\n* Minor flooding will continue.\n* Flood stage is 10 feet.\n* At 10 feet...Flood stage is reached. Minor flooding beings in the\nwoodlands and swamp along the creek upstream and downstream from\nthe gage on Georgia Highway 231 or South Main Street.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0117.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
