@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043540-3431861",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    34.59
+                ],
+                [
+                    -85.31,
+                    34.59
+                ],
+                [
+                    -85.26,
+                    34.53
+                ],
+                [
+                    -85.38000000000001,
+                    34.370000000000005
+                ],
+                [
+                    -85.44000000000001,
+                    34.400000000000006
+                ],
+                [
+                    -85.33000000000001,
+                    34.53000000000001
+                ],
+                [
+                    -85.39,
+                    34.59
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043540-3431861",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043540-3431861",
+        "areaDesc": "Chattooga, GA",
+        "geocode": {
+            "UGC": [
+                "GAC055"
+            ],
+            "SAME": [
+                "013055"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC055"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4042550-3430912",
+                "identifier": "NWS-IDP-PROD-4042550-3430912",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T14:06:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T20:05:00-05:00",
+        "effective": "2020-02-06T20:05:00-05:00",
+        "onset": "2020-02-06T20:05:00-05:00",
+        "expires": "2020-02-07T10:04:00-05:00",
+        "ends": "2020-02-07T22:21:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 6 at 8:05PM EST until February 7 at 10:21PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nChattooga River near Summerville affecting Chattooga County\n\nThe Flood Warning continues for\nThe Chattooga River near Summerville.\n* Until Friday evening.\n* At 745 PM Thursday the stage was 18.6 feet, and rising.\n* Moderate flooding is occurring, and moderate flooding is forecast\nto continue.\n* Flood stage is 14 feet.\n* The river will continue rising, reaching near 19.1 feet after\nmidnight early Friday morning. The river is expected to fall below\nflood stage Friday afternoon.\n* At 19 feet, significant flooding expands further into the woodlands\nand fields along the river upstream and downstream from the gage on\nRome Boulevard. In Trion, portions of the parking lot at Mount\nVernon Mills, yards of homes on First and Second Streets near the\nlevee, and athletic fields off Dalton Street are flooded with two\nfeet of water. The water reaches the personnel office foundation at\nMount Vernon Mills. Also, near Lyerly, portions of Lyerly Dam Road\nnear the river are flooded with two feet of water.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Friday evening"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0045.000000T0000Z-200208T0321Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T03:21:00+00:00"
+            ]
+        }
+    }
+}
