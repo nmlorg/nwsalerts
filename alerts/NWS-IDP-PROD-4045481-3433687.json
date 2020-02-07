@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045481-3433687",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.28,
+                    36.07
+                ],
+                [
+                    -83.24,
+                    36.11
+                ],
+                [
+                    -83.0699999,
+                    35.96
+                ],
+                [
+                    -82.9,
+                    35.95
+                ],
+                [
+                    -82.9599999,
+                    35.89
+                ],
+                [
+                    -83.12,
+                    35.92
+                ],
+                [
+                    -83.28,
+                    36.07
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045481-3433687",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045481-3433687",
+        "areaDesc": "Cocke, TN; Jefferson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC029",
+                "TNC089"
+            ],
+            "SAME": [
+                "047029",
+                "047089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC029",
+            "https://api.weather.gov/zones/county/TNC089"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043880-3432199",
+                "identifier": "NWS-IDP-PROD-4043880-3432199",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T21:38:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T09:39:00-05:00",
+        "effective": "2020-02-07T09:39:00-05:00",
+        "onset": "2020-02-07T09:39:00-05:00",
+        "expires": "2020-02-08T05:38:00-05:00",
+        "ends": "2020-02-08T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Flood Warning issued February 7 at 9:39AM EST until February 8 at 1:00PM EST by NWS Morristown TN",
+        "description": "...The Flood Warning is extended for the following rivers ...\n\nFrench Broad River Near Newport TN affecting Cocke and Jefferson\nCounties\nClinch River At Cleveland VA affecting Russell...Scott and Wise\nCounties\nClinch River Near Speers Ferry VA affecting Hancock and Scott\nCounties\nClinch River Above Tazewell TN affecting Claiborne...Grainger and\nHancock Counties\nNorth Fork Holston River Near Gate City VA affecting Hawkins...\nSullivan and Scott Counties\nPigeon River At Newport TN affecting Cocke County\nPowell River Near Jonesville VA affecting Hancock and Lee Counties\nPowell River Near Arthur TN affecting Claiborne and Union Counties\nSequatchie River Near Whitwell TN affecting Bledsoe...Marion and\nSequatchie Counties",
+        "instruction": "Most deaths in floods occur in automobiles. If you come to a closed\nor flooded road, Turn Around! Don't Drown! For more details, stay\ntuned to NOAA Weather Radio or commercial television or radio\nstations that carry weather information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMRX.FL.W.0013.000000T0000Z-200208T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXFLSMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T13:00:00-05:00"
+            ]
+        }
+    }
+}
