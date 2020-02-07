@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046223-3434384",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.65,
+                    34.85
+                ],
+                [
+                    -87.62,
+                    34.71
+                ],
+                [
+                    -87.88000000000001,
+                    34.6599999
+                ],
+                [
+                    -88.11000000000001,
+                    34.7299999
+                ],
+                [
+                    -88.20000000000002,
+                    35
+                ],
+                [
+                    -87.65,
+                    34.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046223-3434384",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046223-3434384",
+        "areaDesc": "Lauderdale, AL; Colbert, AL",
+        "geocode": {
+            "UGC": [
+                "ALC077",
+                "ALC033"
+            ],
+            "SAME": [
+                "001077",
+                "001033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC077",
+            "https://api.weather.gov/zones/county/ALC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044433-3432693",
+                "identifier": "NWS-IDP-PROD-4044433-3432693",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T00:21:00-06:00"
+            }
+        ],
+        "sent": "2020-02-07T13:54:00-06:00",
+        "effective": "2020-02-07T13:54:00-06:00",
+        "onset": "2020-02-07T13:54:00-06:00",
+        "expires": "2020-02-08T03:53:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 7 at 1:54PM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama\nbased on forecasts from the Tennessee Valley Authority...\n\nTennessee River AT Florence affecting Colbert and Lauderdale\nCounties\n\nThe Flood Warning continues for\nThe Tennessee River AT Florence.\n* Until further notice.\n* At 1 PM Friday the stage was 20.4 feet.\n* Flood Stage is 18.0 feet.\n* Minor Flooding is occurring and Minor Flooding is forecast by the\nTennessee Valley Authority.\n* Recent Activity...The maximum river stage in the 24 hours ending at\n1 PM Friday was 20.6 feet.\n* Forecast from the Tennessee Valley Authority...The river will\ncontinue rising to near 21.6 feet by early Monday afternoon.\nAdditional rises may be possible thereafter.\n* Impact...At 21.5 feet...Water covers the parking lot of the Marina\nat McFarland Park...with extensive flooding occurring at the soccer\nfields and golf course within the park. Water is also beginning to\ncover the road that goes underneath U.S. Highways 43 and 72 at the\nnew playground.\n* Flood history...This crest compares to a previous crest of 21.5 feet\non Jul 12 2013.",
+        "instruction": "Safety message...\n\nDo not attempt to drive through a flooded road. The depth of water is\nnot always obvious. As little as two feet of water will carry most\ncars away. Also, the road bed may be washed out under the water, and\nyou could be stranded or trapped.\n\nInterests along the Tennessee River should remain alert to rapidly\nchanging river conditions, and stay tuned for later forecast updates\nfrom the Tennessee Valley Authority and the National Weather Service\nforecast office in Huntsville.\n\nAdditional information is available at http://water.weather.gov. Once\nthere, click on the Tennessee Valley to view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KHUN.FL.W.0010.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
