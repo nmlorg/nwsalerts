@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044110-3432392",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.48,
+                    37.32
+                ],
+                [
+                    -82.66000000000001,
+                    37.54
+                ],
+                [
+                    -82.56000000000002,
+                    37.6
+                ],
+                [
+                    -82.36000000000001,
+                    37.370000000000005
+                ],
+                [
+                    -82.48,
+                    37.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044110-3432392",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4044110-3432392",
+        "areaDesc": "Pike, KY",
+        "geocode": {
+            "UGC": [
+                "KYC195"
+            ],
+            "SAME": [
+                "021195"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC195"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043345-3431674",
+                "identifier": "NWS-IDP-PROD-4043345-3431674",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T18:18:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T22:36:00-05:00",
+        "effective": "2020-02-06T22:36:00-05:00",
+        "onset": "2020-02-06T22:36:00-05:00",
+        "expires": "2020-02-07T10:35:00-05:00",
+        "ends": "2020-02-07T15:19:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Warning issued February 6 at 10:36PM EST until February 7 at 3:19PM EST by NWS Jackson KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe Levisa Fork Big Sandy River at Pikeville\n\nThe Flood Warning continues for\nThe Levisa Fork Big Sandy River at Pikeville.\n* at 10:00 PM Thursday the stage was 37.4 feet.\n* Flood stage is 35.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river is cresting at 37.4 feet. The river will\nfall below flood stage by late morning.\n* At 38.0 feet...Lower flood gate of Pikeville is deployed. Coal Run\nVillage Park is inundated. Red Creek Road is flooded and Mobile\nHome Park is threatened. .",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 11 am.\n\nA Flood Warning means that flooding is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJKL.FL.W.0011.000000T0000Z-200207T2019Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T20:19:00+00:00"
+            ]
+        }
+    }
+}
