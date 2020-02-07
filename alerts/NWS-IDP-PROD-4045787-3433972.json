@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045787-3433972",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.12,
+                    36.1
+                ],
+                [
+                    -76.95,
+                    36.1
+                ],
+                [
+                    -76.84,
+                    35.95
+                ],
+                [
+                    -76.93,
+                    35.93
+                ],
+                [
+                    -77.12,
+                    36.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045787-3433972",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045787-3433972",
+        "areaDesc": "Bertie, NC",
+        "geocode": {
+            "UGC": [
+                "NCC015"
+            ],
+            "SAME": [
+                "037015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC015"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045563-3433762",
+                "identifier": "NWS-IDP-PROD-4045563-3433762",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T09:59:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T11:04:00-05:00",
+        "effective": "2020-02-07T11:04:00-05:00",
+        "onset": "2020-02-07T11:04:00-05:00",
+        "expires": "2020-02-07T23:04:00-05:00",
+        "ends": "2020-02-11T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 7 at 11:04AM EST until February 11 at 1:00AM EST by NWS Wakefield VA",
+        "description": "...Forecast flooding changed from Minor to Moderate severity for the\nfollowing rivers in North Carolina...\nCashie River Near Windsor affecting Bertie County\n\nFor the Lower Roanoke Basin...including Windsor...Minor flooding is\noccurring... with Moderate flooding forecast.",
+        "instruction": "Please use extreme caution if venturing near riverbanks. Move to\nhigher ground immediately should rising water threaten your safety.\n\nGraphical forecast information is available on the internet at\nwww.weather.gov/akq.  Click on the Rivers and Lakes icon beneath the\npoint and click forecast map.\n\nStay tuned to NOAA Weather radio for further updates...",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KAKQ.FL.W.0003.000000T0000Z-200211T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLWAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T01:00:00-05:00"
+            ]
+        }
+    }
+}

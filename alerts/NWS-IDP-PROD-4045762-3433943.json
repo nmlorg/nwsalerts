@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045762-3433943",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.85,
+                    37.69
+                ],
+                [
+                    -83.66,
+                    37.57
+                ],
+                [
+                    -83.72999999999999,
+                    37.5
+                ],
+                [
+                    -83.91999999999999,
+                    37.63
+                ],
+                [
+                    -83.85,
+                    37.69
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045762-3433943",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045762-3433943",
+        "areaDesc": "Lee, KY",
+        "geocode": {
+            "UGC": [
+                "KYC129"
+            ],
+            "SAME": [
+                "021129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC129"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045088-3433332",
+                "identifier": "NWS-IDP-PROD-4045088-3433332",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T06:15:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T10:58:00-05:00",
+        "effective": "2020-02-07T10:58:00-05:00",
+        "onset": "2020-02-07T10:58:00-05:00",
+        "expires": "2020-02-07T22:57:00-05:00",
+        "ends": "2020-02-09T05:17:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Warning issued February 7 at 10:58AM EST until February 9 at 5:17AM EST by NWS Jackson KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe Kentucky River at Heidelberg\nThe Kentucky River near Ravenna\n\n...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe South Fork Kentucky River at Booneville\n\nThe Flood Warning continues for\nThe Kentucky River at Heidelberg.\n* at  9:45 AM Friday the stage was 21.3 feet.\n* Flood stage is 20.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 21.8 feet by\nafter midnight tomorrow. The river will fall below flood stage\ntomorrow late evening.\n* At 20.0 feet...Low lying areas flood.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 6 PM.\n\nA Flood Warning means that flooding is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJKL.FL.W.0010.000000T0000Z-200209T1017Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T05:17:00-05:00"
+            ]
+        }
+    }
+}

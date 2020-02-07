@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045705-3433901",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.65,
+                    35.25
+                ],
+                [
+                    -78.76,
+                    35.11
+                ],
+                [
+                    -78.75,
+                    34.85
+                ],
+                [
+                    -78.86,
+                    34.85
+                ],
+                [
+                    -78.9,
+                    35.14
+                ],
+                [
+                    -78.76,
+                    35.26
+                ],
+                [
+                    -78.65,
+                    35.25
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045705-3433901",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045705-3433901",
+        "areaDesc": "Cumberland, NC",
+        "geocode": {
+            "UGC": [
+                "NCC051"
+            ],
+            "SAME": [
+                "037051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045196-3433430",
+                "identifier": "NWS-IDP-PROD-4045196-3433430",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T07:30:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T10:40:00-05:00",
+        "effective": "2020-02-07T10:40:00-05:00",
+        "onset": "2020-02-07T12:09:00-05:00",
+        "expires": "2020-02-07T22:39:00-05:00",
+        "ends": "2020-02-10T11:48:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 7 at 10:40AM EST until February 10 at 11:48AM EST by NWS Raleigh NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nDeep River At Moncure affecting Chatham and Lee Counties\n\nCape Fear River At Lillington affecting Harnett County\n\nCape Fear River At Fayetteville affecting Cumberland County\n\nThe Flood Warning continues for\nthe Cape Fear River At Fayetteville.\n* until Monday morning, or until the warning is cancelled.\n* At 10:00 AM Friday the stage was 32.9 feet.\n* Flood stage is 35.0 feet.\n* Minor flooding is forecast.\n* Forecast...The river will rise above flood stage by this afternoon\nand continue to rise to near 45.2 feet by tomorrow morning. The\nriver will fall below flood stage by Sunday before midnight.\n* Impact...At 35.0 feet, Flood stage. The boat ramp and lower parking\nlot at Riverside Bait and Tackle off Person Street are flooded. The\nstage and lower seating area at the Cape Fear amphitheater are\nflooded.\n* Impact...At 32.0 feet, Action Stage. Banks begin to overflow.",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KRAH.FL.W.0012.200207T1709Z-200210T1648Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T11:48:00-05:00"
+            ]
+        }
+    }
+}

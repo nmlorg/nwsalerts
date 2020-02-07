@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045747-3433929",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.53,
+                    36.24
+                ],
+                [
+                    -79.34,
+                    36.13
+                ],
+                [
+                    -79.18,
+                    35.900000000000006
+                ],
+                [
+                    -79.30000000000001,
+                    35.85000000000001
+                ],
+                [
+                    -79.44000000000001,
+                    36.040000000000006
+                ],
+                [
+                    -79.54,
+                    36.13000000000001
+                ],
+                [
+                    -79.53,
+                    36.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045747-3433929",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045747-3433929",
+        "areaDesc": "Alamance, NC",
+        "geocode": {
+            "UGC": [
+                "NCC001"
+            ],
+            "SAME": [
+                "037001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044579-3432833",
+                "identifier": "NWS-IDP-PROD-4044579-3432833",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T03:10:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T10:53:00-05:00",
+        "effective": "2020-02-07T10:53:00-05:00",
+        "onset": "2020-02-07T10:53:00-05:00",
+        "expires": "2020-02-07T22:53:00-05:00",
+        "ends": "2020-02-08T11:10:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 7 at 10:53AM EST until February 8 at 11:10AM EST by NWS Raleigh NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nHaw River At Haw River affecting Alamance County\n\n...The Flood Warning continues for the following rivers in North\nCarolina...\n\nHaw River Near Bynum affecting Chatham County\n\nThe Flood Warning continues for\nthe Haw River At Haw River.\n* At 10:30 AM Friday the stage was 23.5 feet.\n* Flood stage is 18.0 feet.\n* Moderate flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\ntonight.\n* Impact...At 23.0 feet, Moderate flood stage. Flooding reaches the\nbase of the water treatment plant building.\n* Impact...At 20.0 feet, There is significant overflow on the right\nbank opposite the water treatment plant.\n* Impact...At 18.0 feet, Overflow begins on both banks at the water\ntreatment plant.",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KRAH.FL.W.0002.000000T0000Z-200208T1610Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T11:10:00-05:00"
+            ]
+        }
+    }
+}
