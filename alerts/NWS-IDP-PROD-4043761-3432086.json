@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043761-3432086",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.95,
+                    36.54
+                ],
+                [
+                    -83.02,
+                    36.58
+                ],
+                [
+                    -82.52,
+                    36.83
+                ],
+                [
+                    -82.45,
+                    36.76
+                ],
+                [
+                    -82.95,
+                    36.54
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043761-3432086",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043761-3432086",
+        "areaDesc": "Hancock, TN; Scott, VA",
+        "geocode": {
+            "UGC": [
+                "TNC067",
+                "VAC169"
+            ],
+            "SAME": [
+                "047067",
+                "051169"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC067",
+            "https://api.weather.gov/zones/county/VAC169"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043183-3431527",
+                "identifier": "NWS-IDP-PROD-4043183-3431527",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T17:06:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T21:19:00-05:00",
+        "effective": "2020-02-06T21:19:00-05:00",
+        "onset": "2020-02-06T21:19:00-05:00",
+        "expires": "2020-02-07T17:20:00-05:00",
+        "ends": "2020-02-09T07:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Flood Warning issued February 6 at 9:19PM EST until February 9 at 7:15AM EST by NWS Morristown TN",
+        "description": "...The Flood Warning is extended for the following rivers ...\n\nClinch River At Cleveland VA affecting Russell...Scott and Wise\nCounties\nClinch River Near Speers Ferry VA affecting Hancock and Scott\nCounties\nClinch River Above Tazewell TN affecting Claiborne...Grainger and\nHancock Counties",
+        "instruction": "Most deaths in floods occur in automobiles. If you come to a closed\nor flooded road, Turn Around! Don't Drown! For more details, stay\ntuned to NOAA Weather Radio or commercial television or radio\nstations that carry weather information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMRX.FL.W.0008.000000T0000Z-200209T1215Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXFLSMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T12:15:00+00:00"
+            ]
+        }
+    }
+}
