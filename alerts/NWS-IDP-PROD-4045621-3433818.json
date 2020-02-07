@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045621-3433818",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.84,
+                    33.59
+                ],
+                [
+                    -84.78,
+                    33.550000000000004
+                ],
+                [
+                    -84.79,
+                    33.50000000000001
+                ],
+                [
+                    -84.98,
+                    33.40999990000001
+                ],
+                [
+                    -85.05,
+                    33.44000000000001
+                ],
+                [
+                    -84.92999999999999,
+                    33.500000000000014
+                ],
+                [
+                    -84.84,
+                    33.59
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045621-3433818",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045621-3433818",
+        "areaDesc": "Heard, GA; Carroll, GA; Coweta, GA",
+        "geocode": {
+            "UGC": [
+                "GAC149",
+                "GAC045",
+                "GAC077"
+            ],
+            "SAME": [
+                "013149",
+                "013045",
+                "013077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC149",
+            "https://api.weather.gov/zones/county/GAC045",
+            "https://api.weather.gov/zones/county/GAC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045431-3433642",
+                "identifier": "NWS-IDP-PROD-4045431-3433642",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T09:23:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T10:14:00-05:00",
+        "effective": "2020-02-07T10:14:00-05:00",
+        "onset": "2020-02-07T10:14:00-05:00",
+        "expires": "2020-02-08T00:14:00-05:00",
+        "ends": "2020-02-08T03:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 10:14AM EST until February 8 at 3:15AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nSuwanee Creek near Suwanee affecting Gwinnett County\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nBig Creek near Alpharetta affecting Forsyth and Fulton Counties\n\nChattahoochee River near Whitesburg affecting Carroll...Coweta and\nHeard Counties\n\nThe Flood Warning continues for\nThe Chattahoochee River near Whitesburg.\n* Until late tonight.\n* At 9 AM Friday the stage was 17.5 feet...and nearly steady.\n* Minor flooding will continue.\n* Flood stage is 17 feet.\n* The river will continue rising to near 17.6 feet by this afternoon.\nThe river will fall below flood stage tonight.\n* At 17 feet...Flood Stage is reached. Minor flooding begins in the\nwoodlands and fields along the river upstream and downstream from\nthe gage on U.S. Highway 27 or Georgia Highway 16. Flood waters\nreach the top of the boat ramp at Riverside Park next to the\nbridge. The playground at a day use area on the west side of the\nChattahoochee Bend State Park will begin to flood.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0091.000000T0000Z-200208T0815Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T03:15:00-05:00"
+            ]
+        }
+    }
+}
