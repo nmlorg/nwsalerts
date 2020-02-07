@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045494-3433701",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.99,
+                    33.13
+                ],
+                [
+                    -87.1,
+                    32.92
+                ],
+                [
+                    -87.19,
+                    32.81
+                ],
+                [
+                    -87.28,
+                    32.81
+                ],
+                [
+                    -87.19,
+                    32.940000000000005
+                ],
+                [
+                    -87.03999999999999,
+                    33.14000000000001
+                ],
+                [
+                    -86.99,
+                    33.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045494-3433701",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045494-3433701",
+        "areaDesc": "Bibb, AL; Perry, AL; Dallas, AL",
+        "geocode": {
+            "UGC": [
+                "ALC007",
+                "ALC105",
+                "ALC047"
+            ],
+            "SAME": [
+                "001007",
+                "001105",
+                "001047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC007",
+            "https://api.weather.gov/zones/county/ALC105",
+            "https://api.weather.gov/zones/county/ALC047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043670-3431997",
+                "identifier": "NWS-IDP-PROD-4043670-3431997",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T19:54:00-06:00"
+            }
+        ],
+        "sent": "2020-02-07T08:41:00-06:00",
+        "effective": "2020-02-07T08:41:00-06:00",
+        "onset": "2020-02-07T08:41:00-06:00",
+        "expires": "2020-02-07T20:40:00-06:00",
+        "ends": "2020-02-08T15:18:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 7 at 8:41AM CST until February 8 at 3:18PM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Cahaba River Near Cahaba\nHeights...at Centreville...at Suttle...and at Marion Junction...\n\n.The upper Cahaba River is now falling...but levels continue to rise\nalong the lower portions of the river.  A flood warning remains in\neffect along the river.\n\nThe Flood Warning continues for\nThe Cahaba River At Centreville.\n* until Saturday afternoon...or until the Warning is cancelled.\n* AT 8:15 AM Friday the stage was 25.5 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 23 feet.\n* Forecast...The river was nearing crest and will begin to fall by\nthis evening. The river will fall below flood stage by early\nSaturday.\n* Impact...At 23 feet...Pasture lands begin to flood in the\nCentreville area.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Saturday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0026.000000T0000Z-200208T2118Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T15:18:00-06:00"
+            ]
+        }
+    }
+}
