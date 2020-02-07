@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045131-3433364",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.5,
+                    48.11
+                ],
+                [
+                    -121.66,
+                    46.79
+                ],
+                [
+                    -122.28,
+                    46.8
+                ],
+                [
+                    -122.23,
+                    47.26
+                ],
+                [
+                    -122.23,
+                    47.61
+                ],
+                [
+                    -122.15,
+                    48.06
+                ],
+                [
+                    -121.5,
+                    48.11
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045131-3433364",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045131-3433364",
+        "areaDesc": "King, WA; Snohomish, WA; Pierce, WA",
+        "geocode": {
+            "UGC": [
+                "WAC033",
+                "WAC061",
+                "WAC053"
+            ],
+            "SAME": [
+                "053033",
+                "053061",
+                "053053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC033",
+            "https://api.weather.gov/zones/county/WAC061",
+            "https://api.weather.gov/zones/county/WAC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043583-3431907",
+                "identifier": "NWS-IDP-PROD-4043583-3431907",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T17:25:00-08:00"
+            }
+        ],
+        "sent": "2020-02-07T03:37:00-08:00",
+        "effective": "2020-02-07T03:37:00-08:00",
+        "onset": "2020-02-07T03:37:00-08:00",
+        "expires": "2020-02-07T11:30:00-08:00",
+        "ends": "2020-02-07T11:30:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 7 at 3:37AM PST until February 7 at 11:30AM PST by NWS Seattle WA",
+        "description": "The National Weather Service in Seattle has extended the\n\n* Flood Warning for Urban Areas and Small Streams in...\nSouthwestern Snohomish County in west central Washington...\nCentral King County in west central Washington...\nCentral Pierce County in west central Washington...\n\n* Until 1130 AM PST Friday\n\n* At 333 AM PST, Doppler radar and automated rain gauges indicated\nanother one to two inches of rain in the foothills and up to a\nhalf inch of rain in the lowlands. The rain overnight combined\nwith additional rain will keep small streams running high as well\nas keep the threat of urban flooding going through the morning\nhours.\n\n* Some locations that will experience flooding include...\nBellevue, Everett, Kent, Auburn, Marysville, Puyallup, North Bend,\nGold Bar, Carnation, Index, Renton, Redmond, Kirkland, Sammamish,\nBothell, Issaquah, Lake Stevens, Maple Valley, Covington and Bonney\nLake.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FA.W.0002.000000T0000Z-200207T1930Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLWSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T19:30:00+00:00"
+            ]
+        }
+    }
+}
