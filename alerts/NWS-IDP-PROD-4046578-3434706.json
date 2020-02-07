@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046578-3434706",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -117.43,
+                    45.9099999
+                ],
+                [
+                    -117.45,
+                    45.95
+                ],
+                [
+                    -117.39,
+                    45.99
+                ],
+                [
+                    -117.31,
+                    46.050000000000004
+                ],
+                [
+                    -117.27,
+                    46.02
+                ],
+                [
+                    -117.43,
+                    45.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046578-3434706",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046578-3434706",
+        "areaDesc": "Asotin, WA; Wallowa, OR",
+        "geocode": {
+            "UGC": [
+                "WAC003",
+                "ORC063"
+            ],
+            "SAME": [
+                "053003",
+                "041063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC003",
+            "https://api.weather.gov/zones/county/ORC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046284-3434446",
+                "identifier": "NWS-IDP-PROD-4046284-3434446",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T12:19:00-08:00"
+            }
+        ],
+        "sent": "2020-02-07T14:11:00-08:00",
+        "effective": "2020-02-07T14:11:00-08:00",
+        "onset": "2020-02-07T14:11:00-08:00",
+        "expires": "2020-02-08T02:11:00-08:00",
+        "ends": "2020-02-10T01:48:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Warning issued February 7 at 2:11PM PST until February 10 at 1:48AM PST by NWS Pendleton OR",
+        "description": "...The Flood Warning continues for the following rivers in Oregon...\nWashington...\n\nGrande Ronde River near Perry affecting Union County\nGrande Ronde River at Troy affecting Wallowa and Asotin Counties\n\nThe Flood Warning continues for\nThe Grande Ronde River at Troy.\n* until late Sunday night.\n* At 2:00 PM Friday, the stage was 11.5 feet.\n* Flood stage is 10.0 feet.\n* Moderate flooding is occurring and Major flooding is forecast.\n* Forecast...The river will continue rising to near 12.1 feet by\nearly tomorrow. The river will fall below flood stage Sunday\nevening.",
+        "instruction": "Turn around, don't drown. Never drive cars...trucks or sport utility\nvehicles through flooded areas. The water may be too deep to allow\nfor safe passage. As little as one foot of water on the road can move\nmost vehicles off the road.\n\n\nAdditional information is available at:\nweather.gov/Pendleton",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPDT.FL.W.0005.000000T0000Z-200210T0948Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T01:48:00-08:00"
+            ]
+        }
+    }
+}
