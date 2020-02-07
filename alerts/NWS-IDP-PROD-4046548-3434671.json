@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046548-3434671",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -122.37,
+                    46.76
+                ],
+                [
+                    -122.66000000000001,
+                    46.87
+                ],
+                [
+                    -122.84000000000002,
+                    47.089999999999996
+                ],
+                [
+                    -122.59000000000002,
+                    47.129999999999995
+                ],
+                [
+                    -122.49000000000002,
+                    46.979999899999996
+                ],
+                [
+                    -122.22000000000003,
+                    46.87
+                ],
+                [
+                    -122.37,
+                    46.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046548-3434671",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046548-3434671",
+        "areaDesc": "Thurston, WA; Pierce, WA",
+        "geocode": {
+            "UGC": [
+                "WAC067",
+                "WAC053"
+            ],
+            "SAME": [
+                "053067",
+                "053053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC067",
+            "https://api.weather.gov/zones/county/WAC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046027-3434199",
+                "identifier": "NWS-IDP-PROD-4046027-3434199",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T09:55:00-08:00"
+            }
+        ],
+        "sent": "2020-02-07T13:57:00-08:00",
+        "effective": "2020-02-07T13:57:00-08:00",
+        "onset": "2020-02-07T13:57:00-08:00",
+        "expires": "2020-02-07T22:56:00-08:00",
+        "ends": "2020-02-08T05:31:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 7 at 1:57PM PST until February 8 at 5:31AM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nCedar River Near Landsburg affecting King County\nCedar River At Renton affecting King County\nNisqually River At McKenna affecting Pierce and Thurston Counties\nGreen River Near Auburn affecting King County\n\nRiver basins continue to drain. Dam operators continue to make\nregulation adjustments as they manage inflow and flood pools in the\nreservoirs. Here are some updated river forecasts.\n\nThe Flood Warning continues for\nThe Nisqually River At McKenna\n* Until late tonight.\n* At  1:30 PM Friday the stage was 11.9 feet.\n* Flood stage is 10.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river crested at 12.1 feet at 9 AM Friday and will\ncontinue to fall to below flood stage tonight.\n* Impact...At 10.0 feet, the Nisqually River will flood at the lower\nend near the mouth.  High tide levels on Puget Sound may increase\nthe amount of flooding.  The Nisqually River will also spill over\nits banks between La Grande and McKenna.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0057.000000T0000Z-200208T1331Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T05:31:00-08:00"
+            ]
+        }
+    }
+}
