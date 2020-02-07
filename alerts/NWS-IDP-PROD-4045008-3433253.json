@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045008-3433253",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.89,
+                    34.7299999
+                ],
+                [
+                    -84.83,
+                    34.720000000000006
+                ],
+                [
+                    -84.88,
+                    34.63
+                ],
+                [
+                    -84.94999999999999,
+                    34.63
+                ],
+                [
+                    -84.96999999999998,
+                    34.71
+                ],
+                [
+                    -84.89,
+                    34.7299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045008-3433253",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045008-3433253",
+        "areaDesc": "Whitfield, GA; Murray, GA; Gordon, GA",
+        "geocode": {
+            "UGC": [
+                "GAC313",
+                "GAC213",
+                "GAC129"
+            ],
+            "SAME": [
+                "013313",
+                "013213",
+                "013129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC313",
+            "https://api.weather.gov/zones/county/GAC213",
+            "https://api.weather.gov/zones/county/GAC129"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043776-3432100",
+                "identifier": "NWS-IDP-PROD-4043776-3432100",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T21:22:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T05:42:00-05:00",
+        "effective": "2020-02-07T05:42:00-05:00",
+        "onset": "2020-02-07T05:42:00-05:00",
+        "expires": "2020-02-07T19:41:00-05:00",
+        "ends": "2020-02-10T02:53:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 5:42AM EST until February 10 at 2:53AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\nSouth Chickamauga Creek near Ringgold affecting Catoosa County\n\nWest Chickamauga Creek near Fort Oglethorpe affecting Catoosa and\nHamilton Counties\n\nConasauga River near Eton affecting Murray and Whitfield Counties\n\nCoahulla Creek near Keiths Mill near Dalton affecting Whitfield\nCounty\n\nConasauga River near Tilton affecting Gordon...Murray and\nWhitfield Counties\n\nThe Flood Warning continues for\nThe Conasauga River near Tilton.\n* Until late Sunday night.\n* At 515 AM Friday the stage was 19.1 feet...and rising.\n* Minor flooding is occurring and forecast.\n* Flood stage is 18 feet.\n* The river will continue rising to near 22.8 feet by tomorrow early\nafternoon then fall below flood stage Sunday evening.\n* At 24 feet...Moderate flooding begins. Significant flooding\nexpands into the woodlands...fields and pastures along the river\nupstream and downstream from the Brackett Ridge Road bridge.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0044.000000T0000Z-200210T0753Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T07:53:00+00:00"
+            ]
+        }
+    }
+}
