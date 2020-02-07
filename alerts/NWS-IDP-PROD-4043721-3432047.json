@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043721-3432047",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.99,
+                    36.17
+                ],
+                [
+                    -81.05,
+                    36.24
+                ],
+                [
+                    -80.75,
+                    36.32
+                ],
+                [
+                    -80.45,
+                    36.31
+                ],
+                [
+                    -80.45,
+                    36.22
+                ],
+                [
+                    -80.73,
+                    36.22
+                ],
+                [
+                    -80.99,
+                    36.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043721-3432047",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043721-3432047",
+        "areaDesc": "Yadkin, NC; Surry, NC",
+        "geocode": {
+            "UGC": [
+                "NCC197",
+                "NCC171"
+            ],
+            "SAME": [
+                "037197",
+                "037171"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC197",
+            "https://api.weather.gov/zones/county/NCC171"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043029-3431371",
+                "identifier": "NWS-IDP-PROD-4043029-3431371",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T16:14:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T21:09:00-05:00",
+        "effective": "2020-02-06T21:09:00-05:00",
+        "onset": "2020-02-06T21:09:00-05:00",
+        "expires": "2020-02-07T05:09:00-05:00",
+        "ends": "2020-02-07T18:12:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Blacksburg VA",
+        "headline": "Flood Warning issued February 6 at 9:09PM EST until February 7 at 6:12PM EST by NWS Blacksburg VA",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nYadkin River At Elkin affecting Surry and Yadkin Counties\n\n...Two to locally three and a half inches of rain have fallen\nacross the Yadkin River basin since midnight. Runoff from this\nrainfall continues to accumulate in the Yadkin River, and will\nresult in minor flooding of the river in the community of Elkin...\n\nThe Flood Warning continues for\nthe Yadkin River At Elkin.\n* until Friday evening.\n* at 8:00 PM Thursday the stage was 20.0 feet.\n* Flood stage is 18.0 feet.\n* Minor flooding is forecast.\n* The Yadkin River will continue rising to near 20.6 feet by after\nmidnight Friday. The river will fall below flood stage by around\nsunrise Friday morning.\n* Impact...at 18.5 feet...Rockford Road near Rockford floods.\n* Flood history...this crest compares to a previous crest of 21.0\nfeet on Oct 11 2018.",
+        "instruction": "Do not drive through flooded areas...the water may be much deeper\nthan you think.\n\nGraphical forecast information is available on the internet at\nhttp://www.weather.gov/rnk (lower case). Click on 'rivers & lakes'.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KRNK.FL.W.0001.000000T0000Z-200207T2312Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RNKFLSRNK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T23:12:00+00:00"
+            ]
+        }
+    }
+}
