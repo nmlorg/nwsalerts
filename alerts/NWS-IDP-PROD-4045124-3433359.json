@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045124-3433359",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.12,
+                    36.1
+                ],
+                [
+                    -76.95,
+                    36.1
+                ],
+                [
+                    -76.84,
+                    35.95
+                ],
+                [
+                    -76.93,
+                    35.93
+                ],
+                [
+                    -77.12,
+                    36.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045124-3433359",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045124-3433359",
+        "areaDesc": "Bertie, NC",
+        "geocode": {
+            "UGC": [
+                "NCC015"
+            ],
+            "SAME": [
+                "037015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC015"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4044015-3432305",
+                "identifier": "NWS-IDP-PROD-4044015-3432305",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T22:13:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T06:32:00-05:00",
+        "effective": "2020-02-07T06:32:00-05:00",
+        "onset": "2020-02-07T09:34:00-05:00",
+        "expires": "2020-02-07T18:32:00-05:00",
+        "ends": "2020-02-10T21:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 7 at 6:32AM EST until February 10 at 9:00PM EST by NWS Wakefield VA",
+        "description": "...The Flood Warning continues for the following rivers in\nVirginia...North Carolina...\n\nAppomattox River Above Farmville affecting Amelia...Cumberland and\nPrince Edward Counties\n\nMeherrin River At Lawrenceville affecting Brunswick County\n\nCashie River Near Windsor affecting Bertie County\n\n\nFor the Appomattox Basin...including Farmville...Minor flooding is\nforecast.For the Chowan Basin...including Lawrenceville...Minor\nflooding is forecast.For the Lower Roanoke Basin...including\nWindsor...Minor flooding is forecast.\n\nThe Flood Warning continues for...\nThe Cashie River Near Windsor\n* from this morning to Monday evening...or until the warning is\ncancelled.\n* At 06:15 AM Friday the stage was 7.8 feet.\n* Minor flooding is forecast.\n* Flood stage is 8.0 feet.\n* Forecast...The river will continue rising to near 9.8 feet by\ntomorrow early afternoon. The river will fall below flood stage\nMonday afternoon.\n* At 10.0 feet...Livermon Park and Zoo are inundated.  Portions of\nKing St, Granville St, Queen St, Rascoe St and Camden St are\nflooded.\nThis river level is comparable to a previous crest of 9.8 feet on Feb\n6 2016.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KAKQ.FL.W.0003.200207T1434Z-200211T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T02:00:00+00:00"
+            ]
+        }
+    }
+}

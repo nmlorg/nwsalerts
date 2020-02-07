@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045123-3433358",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.02,
+                    36.83
+                ],
+                [
+                    -77.56,
+                    36.76
+                ],
+                [
+                    -77.5699999,
+                    36.659999899999995
+                ],
+                [
+                    -77.83,
+                    36.67999999999999
+                ],
+                [
+                    -77.92999999999999,
+                    36.659999899999995
+                ],
+                [
+                    -78.02999999999999,
+                    36.72
+                ],
+                [
+                    -78.02,
+                    36.83
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045123-3433358",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045123-3433358",
+        "areaDesc": "Brunswick, VA",
+        "geocode": {
+            "UGC": [
+                "VAC025"
+            ],
+            "SAME": [
+                "051025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043711-3432036",
+                "identifier": "NWS-IDP-PROD-4043711-3432036",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T21:05:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T06:32:00-05:00",
+        "effective": "2020-02-07T06:32:00-05:00",
+        "onset": "2020-02-07T06:29:00-05:00",
+        "expires": "2020-02-07T18:32:00-05:00",
+        "ends": "2020-02-10T05:46:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 7 at 6:32AM EST until February 10 at 5:46AM EST by NWS Wakefield VA",
+        "description": "...The Flood Warning continues for the following rivers in\nVirginia...North Carolina...\n\nAppomattox River Above Farmville affecting Amelia...Cumberland and\nPrince Edward Counties\n\nMeherrin River At Lawrenceville affecting Brunswick County\n\nCashie River Near Windsor affecting Bertie County\n\n\nFor the Appomattox Basin...including Farmville...Minor flooding is\nforecast.For the Chowan Basin...including Lawrenceville...Minor\nflooding is forecast.For the Lower Roanoke Basin...including\nWindsor...Minor flooding is forecast.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Warning has been extended until late Sunday night...The Flood Warning continues for"
+            ],
+            "VTEC": [
+                "/O.EXT.KAKQ.FL.W.0001.200207T1129Z-200210T1046Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T10:46:00+00:00"
+            ]
+        }
+    }
+}

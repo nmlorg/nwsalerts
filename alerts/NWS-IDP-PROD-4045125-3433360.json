@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045125-3433360",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.43,
+                    37.39
+                ],
+                [
+                    -78.34,
+                    37.36
+                ],
+                [
+                    -78.12,
+                    37.519999999999996
+                ],
+                [
+                    -78.17,
+                    37.339999999999996
+                ],
+                [
+                    -78.39,
+                    37.209999999999994
+                ],
+                [
+                    -78.51,
+                    37.28999999999999
+                ],
+                [
+                    -78.43,
+                    37.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045125-3433360",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045125-3433360",
+        "areaDesc": "Cumberland, VA; Amelia, VA; Prince Edward, VA",
+        "geocode": {
+            "UGC": [
+                "VAC049",
+                "VAC007",
+                "VAC147"
+            ],
+            "SAME": [
+                "051049",
+                "051007",
+                "051147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC049",
+            "https://api.weather.gov/zones/county/VAC007",
+            "https://api.weather.gov/zones/county/VAC147"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043924-3432245",
+                "identifier": "NWS-IDP-PROD-4043924-3432245",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T21:52:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T06:32:00-05:00",
+        "effective": "2020-02-07T06:32:00-05:00",
+        "onset": "2020-02-07T06:32:00-05:00",
+        "expires": "2020-02-07T18:32:00-05:00",
+        "ends": "2020-02-08T15:43:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 7 at 6:32AM EST until February 8 at 3:43PM EST by NWS Wakefield VA",
+        "description": "...The Flood Warning continues for the following rivers in\nVirginia...North Carolina...\n\nAppomattox River Above Farmville affecting Amelia...Cumberland and\nPrince Edward Counties\n\nMeherrin River At Lawrenceville affecting Brunswick County\n\nCashie River Near Windsor affecting Bertie County\n\n\nFor the Appomattox Basin...including Farmville...Minor flooding is\nforecast.For the Chowan Basin...including Lawrenceville...Minor\nflooding is forecast.For the Lower Roanoke Basin...including\nWindsor...Minor flooding is forecast.\n\nThe Flood Warning continues for...\nThe Appomattox River Above Farmville\n* until Saturday afternoon...or until the warning is cancelled.\n* At 06:20 AM Friday the stage was 14.4 feet.\n* Minor flooding is forecast.\n* Flood stage is 16.0 feet.\n* Forecast...The river will continue rising to near 17.0 feet by\nafter midnight tomorrow. The river will fall below flood stage\ntomorrow late morning.\n* At 18.0 feet...River Rd downstream of the gage near the railroad\nbridge begins to flood.\nThis river level is comparable to a previous crest of 17.0 feet on\nJul 12 2013.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KAKQ.FL.W.0002.000000T0000Z-200208T2043Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T20:43:00+00:00"
+            ]
+        }
+    }
+}
