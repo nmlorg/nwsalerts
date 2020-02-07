@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045416-3433627",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.49,
+                    34.76
+                ],
+                [
+                    -86.38,
+                    34.75
+                ],
+                [
+                    -86.39,
+                    34.61
+                ],
+                [
+                    -86.47,
+                    34.47
+                ],
+                [
+                    -86.55,
+                    34.54
+                ],
+                [
+                    -86.49,
+                    34.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045416-3433627",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4045416-3433627",
+        "areaDesc": "Madison, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089"
+            ],
+            "SAME": [
+                "001089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043917-3432239",
+                "identifier": "NWS-IDP-PROD-4043917-3432239",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T20:49:00-06:00"
+            }
+        ],
+        "sent": "2020-02-07T08:15:00-06:00",
+        "effective": "2020-02-07T08:15:00-06:00",
+        "onset": "2020-02-07T08:15:00-06:00",
+        "expires": "2020-02-07T22:15:00-06:00",
+        "ends": "2020-02-07T22:17:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 7 at 8:15AM CST until February 7 at 10:17PM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama...\n\nFlint River at Brownsboro affecting Madison County\n\nThe Flood Warning continues for\nthe Flint River at Brownsboro.\n* until this evening.\n* At 7 AM Friday the stage was 18.8 feet and falling.\n* Flood Stage is 17.0 feet.\n* Minor Flooding is occurring and Minor Flooding is forecast.\n* Recent activity...The maximum river stage in the 24 hours ending at\n7 AM Friday was 22.2 feet.\n* Forecast...The river will continue to fall to below Flood Stage by\nlate this afternoon.\n* Impact...At 19.0 feet...Water begins to flood yards on the\ndownstream side of the Brownsboro Road bridge.\n* Flood history...This crest compares to a previous crest of 18.4 feet\non Dec 23 2019.",
+        "instruction": "Safety message...Do not attempt to drive through a flooded road. The\ndepth of water is not always obvious. As little as two feet of water\nwill carry most cars away. Also, the road bed may be washed out under\nthe water, and you could be stranded or trapped. Additional\ninformation is available at http://water.weather.gov. Once there,\nclick on the Tennessee Valley to view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KHUN.FL.W.0007.000000T0000Z-200208T0417Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T22:17:00-06:00"
+            ]
+        }
+    }
+}
