@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046301-3434462",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.56,
+                    33.4
+                ],
+                [
+                    -83.5,
+                    33.43
+                ],
+                [
+                    -83.4,
+                    33.33
+                ],
+                [
+                    -83.37,
+                    33.25
+                ],
+                [
+                    -83.44,
+                    33.2299999
+                ],
+                [
+                    -83.47,
+                    33.31
+                ],
+                [
+                    -83.56,
+                    33.4
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046301-3434462",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046301-3434462",
+        "areaDesc": "Putnam, GA",
+        "geocode": {
+            "UGC": [
+                "GAC237"
+            ],
+            "SAME": [
+                "013237"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC237"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045358-3433574",
+                "identifier": "NWS-IDP-PROD-4045358-3433574",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T08:49:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T15:24:00-05:00",
+        "effective": "2020-02-07T15:24:00-05:00",
+        "onset": "2020-02-07T15:24:00-05:00",
+        "expires": "2020-02-08T01:47:00-05:00",
+        "ends": "2020-02-08T01:47:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 3:24PM EST until February 8 at 1:47AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nLittle River near Eatonton affecting Putnam County\n\nBroad River near Carlton affecting Elbert...Madison and Oglethorpe\nCounties\n\nMiddle Oconee River near Arcade affecting Barrow and Jackson\nCounties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0113.000000T0000Z-200208T0647Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T01:47:00-05:00"
+            ]
+        }
+    }
+}
