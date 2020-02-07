@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043840-3432158",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043840-3432158",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043840-3432158",
+        "areaDesc": "Coastal waters from Little River Inlet to Murrells Inlet SC out 20 nm; Coastal waters from Murrells Inlet to South Santee River SC out 20 nm; Coastal waters from Cape Fear NC to Little River Inlet SC out 20 nm; Coastal waters from Surf City to Cape Fear NC out 20 nm",
+        "geocode": {
+            "UGC": [
+                "AMZ254",
+                "AMZ256",
+                "AMZ252",
+                "AMZ250"
+            ],
+            "SAME": [
+                "075254",
+                "075256",
+                "075252",
+                "075250"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AMZ254",
+            "https://api.weather.gov/zones/forecast/AMZ256",
+            "https://api.weather.gov/zones/forecast/AMZ252",
+            "https://api.weather.gov/zones/forecast/AMZ250"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043073-3431420",
+                "identifier": "NWS-IDP-PROD-4043073-3431420",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T16:27:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T21:34:00-05:00",
+        "effective": "2020-02-06T21:34:00-05:00",
+        "onset": "2020-02-06T21:34:00-05:00",
+        "expires": "2020-02-07T01:00:00-05:00",
+        "ends": "2020-02-07T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Tornado Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Tornado Watch issued February 6 at 9:34PM EST until February 7 at 1:00AM EST by NWS Wilmington NC",
+        "description": "TORNADO WATCH 31 REMAINS VALID UNTIL 1 AM EST FRIDAY FOR THE\nFOLLOWING AREAS\n\nTHIS WATCH INCLUDES THE FOLLOWING ADJACENT COASTAL WATERS\n\nCOASTAL WATERS FROM SURF CITY TO CAPE FEAR NC OUT 20 NM\nCOASTAL WATERS FROM CAPE FEAR NC TO LITTLE RIVER INLET SC OUT\n20 NM\nCOASTAL WATERS FROM LITTLE RIVER INLET TO MURRELLS INLET SC OUT\n20 NM\nCOASTAL WATERS FROM MURRELLS INLET TO SOUTH SANTEE RIVER SC OUT\n20 NM",
+        "instruction": null,
+        "response": "Monitor",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILM.TO.A.0031.000000T0000Z-200207T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMWCNILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-07T06:00:00+00:00"
+            ]
+        }
+    }
+}
