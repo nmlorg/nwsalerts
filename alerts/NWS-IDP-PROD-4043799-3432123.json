@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043799-3432123",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.16,
+                    34.67
+                ],
+                [
+                    -79.03,
+                    34.68
+                ],
+                [
+                    -78.91,
+                    34.57
+                ],
+                [
+                    -78.99,
+                    34.52
+                ],
+                [
+                    -79.08,
+                    34.59
+                ],
+                [
+                    -79.14999999999999,
+                    34.580000000000005
+                ],
+                [
+                    -79.16,
+                    34.67
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4043799-3432123",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4043799-3432123",
+        "areaDesc": "Robeson, NC",
+        "geocode": {
+            "UGC": [
+                "NCC155"
+            ],
+            "SAME": [
+                "037155"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC155"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4041823-3430223",
+                "identifier": "NWS-IDP-PROD-4041823-3430223",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-06T10:16:00-05:00"
+            }
+        ],
+        "sent": "2020-02-06T21:27:00-05:00",
+        "effective": "2020-02-06T21:27:00-05:00",
+        "onset": "2020-02-06T21:27:00-05:00",
+        "expires": "2020-02-07T13:27:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued February 6 at 9:27PM EST by NWS Wilmington NC",
+        "description": "...The National Weather Service in Wilmington NC has issued a Flood Warning for\nthe following rivers in North Carolina...South Carolina...\n\nCape Fear At Lock And Dam 1 affecting Bladen County\nLittle Pee Dee At Galivants Ferry affecting Dillon...Horry and Marion Counties\n\n...Forecast flooding changed from Minor to Moderate severity for the following\nrivers in North Carolina...\nLumber Near Lumberton affecting Robeson County",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.CON.KILM.FL.W.0013.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLWILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
