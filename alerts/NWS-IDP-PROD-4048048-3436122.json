@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048048-3436122",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.63,
+                    35.28
+                ],
+                [
+                    -77.47999999999999,
+                    35.36
+                ],
+                [
+                    -77.42999999999999,
+                    35.33
+                ],
+                [
+                    -77.49999999999999,
+                    35.22
+                ],
+                [
+                    -77.60999999999999,
+                    35.21
+                ],
+                [
+                    -77.83999999999999,
+                    35.2
+                ],
+                [
+                    -77.82999999999998,
+                    35.260000000000005
+                ],
+                [
+                    -77.63,
+                    35.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048048-3436122",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048048-3436122",
+        "areaDesc": "Lenoir, NC",
+        "geocode": {
+            "UGC": [
+                "NCC107"
+            ],
+            "SAME": [
+                "037107"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC107"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047063-3435215",
+                "identifier": "NWS-IDP-PROD-4047063-3435215",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T21:07:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T09:39:00-05:00",
+        "effective": "2020-02-08T09:39:00-05:00",
+        "onset": "2020-02-10T01:00:00-05:00",
+        "expires": "2020-02-09T09:39:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Newport/Morehead City NC",
+        "headline": "Flood Warning issued February 8 at 9:39AM EST by NWS Newport/Morehead City NC",
+        "description": "...The Flood Warning is extended for the following rivers in North\nCarolina...\n\nNeuse River At Kinston affecting Lenoir County\n\nThe Flood Warning extended for\nThe Neuse River At Kinston.\n* from late Sunday night until further notice.\n* At  9 AM Saturday the stage was 13.3 feet.\n* Minor flooding is forecast.\n* Flood stage is 14.0 feet.\n* Forecast...Rise above flood stage by early Monday morning and\ncontinue to rise to near 16.6 feet by Thursday morning. Additional\nrises are possible thereafter.\n* Impact...At 16.0 feet...Flooding of the campground at the Nature\nCenter is expected. Water encroaches onto other properties along\nthe south side of the river.",
+        "instruction": "Do not drive vehicles through flooded areas. Most flood deaths occur\nin automobiles when people try to drive through flooded areas.\n\nStay tuned to developments by listening to NOAA Weather Radio...local\nradio...media or cable TV.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMHX.FL.W.0041.200210T0600Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MHXFLSMHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
