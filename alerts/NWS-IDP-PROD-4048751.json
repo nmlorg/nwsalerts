@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048751",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -114.17,
+                    46.59
+                ],
+                [
+                    -114.12,
+                    46.74
+                ],
+                [
+                    -113.89,
+                    46.67
+                ],
+                [
+                    -113.91,
+                    46.5
+                ],
+                [
+                    -114.17,
+                    46.59
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048751",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048751",
+        "areaDesc": "Missoula/Bitterroot Valleys; Bitterroot/Sapphire Mountains",
+        "geocode": {
+            "UGC": [
+                "MTZ005",
+                "MTZ006"
+            ],
+            "SAME": [
+                "030063",
+                "030081",
+                "030039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MTZ005",
+            "https://api.weather.gov/zones/forecast/MTZ006"
+        ],
+        "references": [],
+        "sent": "2020-02-08T15:53:00-07:00",
+        "effective": "2020-02-08T15:53:00-07:00",
+        "onset": "2020-02-08T15:53:00-07:00",
+        "expires": "2020-02-08T16:30:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Missoula MT",
+        "headline": "Special Weather Statement issued February 8 at 3:53PM MST by NWS Missoula MT",
+        "description": "At 353 PM MST, Doppler radar was tracking an intense snow shower over\nFlorence, or 14 miles south of Missoula, moving southeast at 30 mph.\n\nVisibility one-half mile or less will be possible.\n\nLocations impacted include...\nFlorence.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-08T15:53:00.000-07:00...storm...306DEG...24KT...46.67,-114.1"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTH CENTRAL MISSOULA AND NORTH CENTRAL RAVALLI COUNTIES UNTIL 430 PM MST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MSOSPSMSO"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
