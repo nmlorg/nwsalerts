@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047251-3435365",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.85,
+                    35.49
+                ],
+                [
+                    -78.66999999999999,
+                    35.370000000000005
+                ],
+                [
+                    -78.64999999999999,
+                    35.25000000000001
+                ],
+                [
+                    -78.75999999999999,
+                    35.260000000000005
+                ],
+                [
+                    -78.77,
+                    35.32000000000001
+                ],
+                [
+                    -78.92,
+                    35.43000000000001
+                ],
+                [
+                    -78.85,
+                    35.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047251-3435365",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047251-3435365",
+        "areaDesc": "Harnett, NC",
+        "geocode": {
+            "UGC": [
+                "NCC085"
+            ],
+            "SAME": [
+                "037085"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC085"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045703-3433899",
+                "identifier": "NWS-IDP-PROD-4045703-3433899",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T10:40:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T22:37:00-05:00",
+        "effective": "2020-02-07T22:37:00-05:00",
+        "onset": "2020-02-07T22:37:00-05:00",
+        "expires": "2020-02-08T10:37:00-05:00",
+        "ends": "2020-02-08T16:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 7 at 10:37PM EST until February 8 at 4:30PM EST by NWS Raleigh NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nCape Fear River At Lillington affecting Harnett County\nCape Fear River At Fayetteville affecting Cumberland County\n\nThe Flood Warning continues for the Cape Fear River At Lillington.\n* At 10:16 PM Friday the stage was 14.9 feet.\n* Flood stage is 14.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* The river will continue to fall to below flood stage by early tomorrow.\n* At 14.0 feet, Minor flood stage - the boat launch ramp and\nwooden deck at Mermaid Point Restaurant are flooded.",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KRAH.FL.W.0011.000000T0000Z-200208T2130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T16:30:00-05:00"
+            ]
+        }
+    }
+}
