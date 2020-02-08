@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046904-3435065",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.72,
+                    32.9
+                ],
+                [
+                    -83.67,
+                    32.93
+                ],
+                [
+                    -83.56,
+                    32.82
+                ],
+                [
+                    -83.53,
+                    32.6599999
+                ],
+                [
+                    -83.59,
+                    32.63
+                ],
+                [
+                    -83.63000000000001,
+                    32.74
+                ],
+                [
+                    -83.72,
+                    32.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046904-3435065",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046904-3435065",
+        "areaDesc": "Jones, GA; Twiggs, GA; Monroe, GA; Bibb, GA; Houston, GA",
+        "geocode": {
+            "UGC": [
+                "GAC169",
+                "GAC289",
+                "GAC207",
+                "GAC021",
+                "GAC153"
+            ],
+            "SAME": [
+                "013169",
+                "013289",
+                "013207",
+                "013021",
+                "013153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC169",
+            "https://api.weather.gov/zones/county/GAC289",
+            "https://api.weather.gov/zones/county/GAC207",
+            "https://api.weather.gov/zones/county/GAC021",
+            "https://api.weather.gov/zones/county/GAC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046287-3434449",
+                "identifier": "NWS-IDP-PROD-4046287-3434449",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T15:19:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T20:12:00-05:00",
+        "effective": "2020-02-07T20:12:00-05:00",
+        "onset": "2020-02-07T20:12:00-05:00",
+        "expires": "2020-02-08T10:12:00-05:00",
+        "ends": "2020-02-12T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 8:12PM EST until February 12 at 7:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nYellow River near Conyers below Milstead affecting Newton and\nRockdale Counties\n\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties\n\nTucsawhatchee Creek near Hawkinsville affecting Pulaski County\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nTowaliga River near Juliette affecting Monroe County\n\nOcmulgee River near Dames Ferry affecting Jones and Monroe\nCounties\n\nThe Flood Warning continues for\nThe Ocmulgee River near Macon.\n* Until Wednesday morning.\n* At 7 PM Friday the stage was 25.1 feet...and rising.\n* Minor flooding is occurring and is forecast to continue.\n* Flood stage is 18 feet.\n* The river will continue rising to near 25.6 feet by Saturday\nmorning. The river will fall below flood stage early Wednesday\nmorning.\n* At 25 feet, Minor flooding expands further into the woodlands\nand over the Macon GreenWay Ocmulgee Heritage Trail north of the\nMartin Luther King Boulevard bridge. The flood waters will be up\nto 5 feet deep on portions of the trail. Large portions of\nagricultural lands just east and south of Macon will be under 1\nto 7 feet of water.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0100.000000T0000Z-200212T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T07:00:00-05:00"
+            ]
+        }
+    }
+}
