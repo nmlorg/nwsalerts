@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048130",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -108.07,
+                    45.95
+                ],
+                [
+                    -108.50999999999999,
+                    45.45
+                ],
+                [
+                    -109.41,
+                    45.56
+                ],
+                [
+                    -108.84,
+                    46.11
+                ],
+                [
+                    -108.07,
+                    45.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048130",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048130",
+        "areaDesc": "Northeastern Yellowstone; Northern Stillwater; Southern Big Horn; Southwestern Yellowstone; Northern Carbon",
+        "geocode": {
+            "UGC": [
+                "MTZ173",
+                "MTZ034",
+                "MTZ138",
+                "MTZ235",
+                "MTZ170"
+            ],
+            "SAME": [
+                "030111",
+                "030095",
+                "030003",
+                "030009"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MTZ173",
+            "https://api.weather.gov/zones/forecast/MTZ034",
+            "https://api.weather.gov/zones/forecast/MTZ138",
+            "https://api.weather.gov/zones/forecast/MTZ235",
+            "https://api.weather.gov/zones/forecast/MTZ170"
+        ],
+        "references": [],
+        "sent": "2020-02-08T08:19:00-07:00",
+        "effective": "2020-02-08T08:19:00-07:00",
+        "onset": "2020-02-08T08:19:00-07:00",
+        "expires": "2020-02-08T09:00:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Billings MT",
+        "headline": "Special Weather Statement issued February 8 at 8:19AM MST by NWS Billings MT",
+        "description": "At 814 AM MST, a narrow band of moderate to heavy snow was moving\nacross the area extending from Broadview to Absarokee, and moving\nsoutheast at 35 mph. This will affect the I-90 corridor from\nColumbus to Billings through at least 9 am this morning.\n\nExpect rapidly changing road conditions with under a quarter of a\nmile visibility in blowing and drifting snow possible for a brief\ntime. A quick half inch to inch of snowfall is possible.\n\nLocations impacted include...\nBillings, Columbus, Laurel, Lockwood, Huntley, Billings Heights,\nWorden, Billings West End, Ballantine, Pryor, Molt, Silesia, Acton\nand Park City.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-08T08:14:00.000-07:00...storm...297DEG...68KT...46.05,-108.53 45.52,-108.93"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BYZSPSBYZ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
