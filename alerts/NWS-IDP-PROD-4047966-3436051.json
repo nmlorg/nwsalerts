@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047966-3436051",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.23,
+                    36.4799999
+                ],
+                [
+                    -79.2,
+                    36.63
+                ],
+                [
+                    -79.02,
+                    36.720000000000006
+                ],
+                [
+                    -78.97999999999999,
+                    36.60000000000001
+                ],
+                [
+                    -79.10999999999999,
+                    36.56000000000001
+                ],
+                [
+                    -79.23,
+                    36.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047966-3436051",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047966-3436051",
+        "areaDesc": "Halifax, VA",
+        "geocode": {
+            "UGC": [
+                "VAC083"
+            ],
+            "SAME": [
+                "051083"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC083"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047719-3435819",
+                "identifier": "NWS-IDP-PROD-4047719-3435819",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T05:20:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T08:56:00-05:00",
+        "effective": "2020-02-08T08:56:00-05:00",
+        "onset": "2020-02-08T08:56:00-05:00",
+        "expires": "2020-02-08T20:55:00-05:00",
+        "ends": "2020-02-10T09:40:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Blacksburg VA",
+        "headline": "Flood Warning issued February 8 at 8:56AM EST until February 10 at 9:40AM EST by NWS Blacksburg VA",
+        "description": "...Observed Flooding Changed from Minor to\nModerate Severity for the following rivers in Virginia...\n...Forecast Flooding Changed from Minor to\nModerate Severity for the following rivers in Virginia...\nDan River at Paces affecting Halifax County\n\naffecting the following counties in Virginia...Halifax\n\nThe Dan River at Paces has risen to 29 feet at 8am, which\nis moderate flood stage. The Dan River is expected to crest\nat Paces this afternoon at 29.6 feet.\n\n* until Monday morning\n* At 07AM Saturday the stage was 29.0 feet.\n* Flood Stage is 22.0 feet.\n* Moderate flooding is occurring AND Moderate flooding is forecast.\n* The river will continue rising to near 29.6 feet late this afternoon.\n* The river will fall below flood stage Sunday evening.\n* Impact...at 30.0 feet...Water begins to top the Highway 658\nbridge across the Dan River.\n* Flood history...this crest compares to a previous crest of 29.1\nfeet on Apr 26 2017.",
+        "instruction": "Do not drive through flooded areas...the water may be much deeper\nthan you think.\n\nListen to noaa weather radio or your favorite media outlet for later\nstatements or warnings.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KRNK.FL.W.0004.000000T0000Z-200210T1440Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RNKFLWRNK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T09:40:00-05:00"
+            ]
+        }
+    }
+}
