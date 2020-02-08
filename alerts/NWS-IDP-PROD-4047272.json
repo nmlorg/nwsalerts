@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047272",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.52,
+                    41.81
+                ],
+                [
+                    -80.52,
+                    41.400000000000006
+                ],
+                [
+                    -81.38,
+                    41.440000000000005
+                ],
+                [
+                    -81.7099999,
+                    41.50000000000001
+                ],
+                [
+                    -81.5,
+                    41.620000000000005
+                ],
+                [
+                    -81.41,
+                    41.7
+                ],
+                [
+                    -81.28999999999999,
+                    41.760000000000005
+                ],
+                [
+                    -80.52,
+                    41.81
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047272",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047272",
+        "areaDesc": "Ashtabula Inland; Geauga; Cuyahoga; Lake; Trumbull",
+        "geocode": {
+            "UGC": [
+                "OHZ014",
+                "OHZ013",
+                "OHZ011",
+                "OHZ012",
+                "OHZ023"
+            ],
+            "SAME": [
+                "039007",
+                "039055",
+                "039035",
+                "039085",
+                "039155"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/OHZ014",
+            "https://api.weather.gov/zones/forecast/OHZ013",
+            "https://api.weather.gov/zones/forecast/OHZ011",
+            "https://api.weather.gov/zones/forecast/OHZ012",
+            "https://api.weather.gov/zones/forecast/OHZ023"
+        ],
+        "references": [],
+        "sent": "2020-02-07T22:45:00-05:00",
+        "effective": "2020-02-07T22:45:00-05:00",
+        "onset": "2020-02-07T22:45:00-05:00",
+        "expires": "2020-02-07T23:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cleveland OH",
+        "headline": "Special Weather Statement issued February 7 at 10:45PM EST by NWS Cleveland OH",
+        "description": "At 1043 PM EST, radar indicated an heavy band of lake effect snow\nalong a line extending from near Euclid to near Chardon to 7 miles\nnorthwest of Orwell, moving southeast at 20 mph.\n\nHAZARDS INCLUDE...\nVisibility rapidly dropping to less than a quarter of a mile...\nOne inch of rapid snow accumulation...\n\nLocations impacted include...\nCleveland, Painesville, Willowick, Chardon, Fairport Harbor, Euclid,\nMentor, Cleveland Heights, Willoughby, Eastlake, Geneva, South\nRussell, Madison, Middlefield, Kinsman, North Bloomfield, Perry,\nOrwell, Burton and Andover.\n\nUse extra caution if you must travel into or through this snow\nsquall. Rapid changes in visibility and potentially slick roads are\nlikely to lead to accidents. Consider delaying travel until the\nsquall passes your location.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-07T22:43:00.000-05:00...storm...293DEG...16KT...41.62,-81.55 41.61,-81.27 41.61,-80.97"
+            ],
+            "NWSheadline": [
+                "An heavy band of lake effect snow will affect northern Trumbull...Geauga... northeastern Cuyahoga...Lake and Ashtabula Counties Until 1145 PM EST."
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CLESPSCLE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
