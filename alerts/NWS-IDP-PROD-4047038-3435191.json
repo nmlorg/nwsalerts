@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047038-3435191",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    35.03
+                ],
+                [
+                    -85.33,
+                    35.02
+                ],
+                [
+                    -85.45,
+                    34.84
+                ],
+                [
+                    -85.49000000000001,
+                    34.71
+                ],
+                [
+                    -85.56,
+                    34.7299999
+                ],
+                [
+                    -85.53,
+                    34.870000000000005
+                ],
+                [
+                    -85.39,
+                    35.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047038-3435191",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047038-3435191",
+        "areaDesc": "Dade, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC083",
+                "TNC065"
+            ],
+            "SAME": [
+                "013083",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC083",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045841-3434018",
+                "identifier": "NWS-IDP-PROD-4045841-3434018",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T11:23:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T20:56:00-05:00",
+        "effective": "2020-02-07T20:56:00-05:00",
+        "onset": "2020-02-07T20:56:00-05:00",
+        "expires": "2020-02-08T06:09:00-05:00",
+        "ends": "2020-02-08T06:09:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 8:56PM EST until February 8 at 6:09AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nWest Chickamauga Creek near Fort Oglethorpe affecting Catoosa and\nHamilton Counties\n\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\nThe Flood Warning continues for\nThe Lookout Creek near New England.\n* Until Saturday morning.\n* At 8 PM Friday the stage was 14.5 feet...and falling.\n* Minor flooding is occurring is forecast to continue.\n* Flood stage is 12 feet.\n* The river will continue to fall to below flood stage by early\nSaturday morning.\n* At 13 feet...Minor flooding expands along Sells Lane in Trenton...\nMason Road near Rising Fawn...and Creek Road near New England.\nAll these roads will be closed. Also minor flooding expands much\nfurther downstream as the creek crosses the Tennessee border into\nthe Tiftona area.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0035.000000T0000Z-200208T1109Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T06:09:00-05:00"
+            ]
+        }
+    }
+}
