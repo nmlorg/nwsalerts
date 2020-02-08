@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048451-3436469",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.1,
+                    35.67
+                ],
+                [
+                    -79.0699999,
+                    35.63
+                ],
+                [
+                    -79.03999999999999,
+                    35.59
+                ],
+                [
+                    -79.35,
+                    35.46
+                ],
+                [
+                    -79.39,
+                    35.54
+                ],
+                [
+                    -79.1,
+                    35.67
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048451-3436469",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048451-3436469",
+        "areaDesc": "Chatham, NC; Lee, NC",
+        "geocode": {
+            "UGC": [
+                "NCC037",
+                "NCC105"
+            ],
+            "SAME": [
+                "037037",
+                "037105"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC037",
+            "https://api.weather.gov/zones/county/NCC105"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048348-3436377",
+                "identifier": "NWS-IDP-PROD-4048348-3436377",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T13:03:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T14:38:00-05:00",
+        "effective": "2020-02-08T14:38:00-05:00",
+        "onset": "2020-02-08T14:38:00-05:00",
+        "expires": "2020-02-09T02:37:00-05:00",
+        "ends": "2020-02-10T04:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 8 at 2:38PM EST until February 10 at 4:00AM EST by NWS Raleigh NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nDeep River At Moncure affecting Chatham and Lee Counties\n\nCape Fear River At Fayetteville affecting Cumberland County\n\nLittle River At Manchester affecting Cumberland County\n\nThe Flood Warning continues for\nthe Deep River At Moncure.\n* At  1:45 PM Saturday the stage was 9.9 feet.\n* Flood stage is 9.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 10.2 feet this\nevening. The river will fall below flood stage tomorrow afternoon.\n* Impact...At 9.0 feet, Minor flood stage. Flooding is likely upstream\nof the gage site along North Plank Road just south of highway 421\nin Lee county, and on R Jordan Road north of highway 421 in Chatham\ncounty. At the gage site, flooding reaches the base of the river\ngage housing, but is confined to woods and pasture immediately\nadjacent to the river.",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KRAH.FL.W.0019.000000T0000Z-200210T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T04:00:00-05:00"
+            ]
+        }
+    }
+}
