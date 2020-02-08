@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048467-3436485",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.06,
+                    34.04
+                ],
+                [
+                    -81,
+                    33.96
+                ],
+                [
+                    -81.06,
+                    33.94
+                ],
+                [
+                    -81.11,
+                    34.01
+                ],
+                [
+                    -81.06,
+                    34.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048467-3436485",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048467-3436485",
+        "areaDesc": "Richland, SC; Lexington, SC",
+        "geocode": {
+            "UGC": [
+                "SCC079",
+                "SCC063"
+            ],
+            "SAME": [
+                "045079",
+                "045063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC079",
+            "https://api.weather.gov/zones/county/SCC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047452-3435578",
+                "identifier": "NWS-IDP-PROD-4047452-3435578",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T01:46:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T14:46:00-05:00",
+        "effective": "2020-02-08T14:46:00-05:00",
+        "onset": "2020-02-08T14:46:00-05:00",
+        "expires": "2020-02-09T14:46:00-05:00",
+        "ends": "2020-02-11T15:04:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued February 8 at 2:46PM EST until February 11 at 3:04PM EST by NWS Columbia SC",
+        "description": "...The Flood Warning continues for the following river in South\nCarolina...\n\nCongaree River At Columbia affecting Lexington and Richland Counties\n\n\n.Heavy rainfall in upstream river basins combined with hydroelectric\ndam releases will produce flooding along the Congaree River through\nthe weekend and into early next week.\n\nThe Flood Warning is extended for\nThe Congaree River At Columbia.\n* until Monday afternoon, or until the warning is cancelled.\n* At 1 PM Saturday the stage was 27.5 feet.\n* Flood stage is 19.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will continue rising to a crest near\n28.8 feet late this evening around midnight. The river will fall\nbelow flood stage by Monday afternoon.\n* At 28 feet...Flooding begins in low-lying areas of the Riverland\nPark subdivision in Cayce.\n* At 24 feet...Flooding also occurs in the Cayce Quarry.\n* At 21 feet...Extensive swampland and large areas of farmland and\npasture land downstream from Columbia are flooded. Flood waters\ncover the Cayce and West Columbia river walk.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCAE.FL.W.0017.000000T0000Z-200211T2004Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T15:04:00-05:00"
+            ]
+        }
+    }
+}
