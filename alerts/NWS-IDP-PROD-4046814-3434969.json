@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046814-3434969",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -120.29,
+                    46.92
+                ],
+                [
+                    -120.28,
+                    46.65
+                ],
+                [
+                    -120.07000000000001,
+                    46.449999999999996
+                ],
+                [
+                    -120.43,
+                    46.26
+                ],
+                [
+                    -120.77000000000001,
+                    46.53
+                ],
+                [
+                    -120.80000000000001,
+                    46.9099999
+                ],
+                [
+                    -120.29,
+                    46.92
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046814-3434969",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046814-3434969",
+        "areaDesc": "Yakima, WA",
+        "geocode": {
+            "UGC": [
+                "WAC077"
+            ],
+            "SAME": [
+                "053077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046571-3434699",
+                "identifier": "NWS-IDP-PROD-4046571-3434699",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T14:09:00-08:00"
+            }
+        ],
+        "sent": "2020-02-07T16:42:00-08:00",
+        "effective": "2020-02-07T16:42:00-08:00",
+        "onset": "2020-02-07T21:37:00-08:00",
+        "expires": "2020-02-08T04:41:00-08:00",
+        "ends": "2020-02-08T19:14:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Warning issued February 7 at 4:42PM PST until February 8 at 7:14PM PST by NWS Pendleton OR",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nNaches River near Cliffdell affecting Yakima County\nNaches River near Naches affecting Yakima County\nYakima River near Parker affecting Yakima County\n\nThe Flood Warning continues for\nThe Yakima River near Parker.\n* from this evening to Saturday evening\n* At 4:00 PM Friday, the stage was 9.5 feet.\n* Flood stage is 10.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by tonight and continue to rise\nto near 10.3 feet by early tomorrow. The river will fall below\nflood stage by Saturday afternoon.",
+        "instruction": "Turn around, don't drown. Never drive cars...trucks or sport utility\nvehicles through flooded areas. The water may be too deep to allow\nfor safe passage. As little as one foot of water on the road can move\nmost vehicles off the road.\n\n\nAdditional information is available at:\nweather.gov/Pendleton",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPDT.FL.W.0008.200208T0537Z-200209T0314Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T19:14:00-08:00"
+            ]
+        }
+    }
+}
