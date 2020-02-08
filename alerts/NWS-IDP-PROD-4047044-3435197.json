@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047044-3435197",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.27,
+                    35.09
+                ],
+                [
+                    -85.22,
+                    35.11000000000001
+                ],
+                [
+                    -85.08,
+                    34.92000000000001
+                ],
+                [
+                    -85.17,
+                    34.89000000000001
+                ],
+                [
+                    -85.27,
+                    35.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047044-3435197",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047044-3435197",
+        "areaDesc": "Catoosa, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC047",
+                "TNC065"
+            ],
+            "SAME": [
+                "013047",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC047",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4045427-3433638",
+                "identifier": "NWS-IDP-PROD-4045427-3433638",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T09:22:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T21:00:00-05:00",
+        "effective": "2020-02-07T21:00:00-05:00",
+        "onset": "2020-02-07T21:00:00-05:00",
+        "expires": "2020-02-08T16:59:00-05:00",
+        "ends": "2020-02-09T12:27:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Flood Warning issued February 7 at 9:00PM EST until February 9 at 12:27PM EST by NWS Morristown TN",
+        "description": "...The Flood Warning is extended for the following rivers ...\n\nFrench Broad River Near Newport TN affecting Cocke and Jefferson\nCounties\nClinch River At Cleveland VA affecting Russell...Scott and Wise\nCounties\nClinch River Near Speers Ferry VA affecting Hancock and Scott\nCounties\nClinch River Above Tazewell TN affecting Claiborne...Grainger and\nHancock Counties\nSouth Chickamauga Creek Near Chickamauga TN affecting Catoosa and\nHamilton Counties\nNorth Fork Holston River Near Gate City VA affecting Hawkins...\nSullivan and Scott Counties\nPigeon River At Newport TN affecting Cocke County\nPowell River Near Arthur TN affecting Claiborne and Union Counties",
+        "instruction": "Most deaths in floods occur in automobiles. If you come to a closed\nor flooded road, Turn Around! Don't Drown! For more details, stay\ntuned to NOAA Weather Radio or commercial television or radio\nstations that carry weather information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMRX.FL.W.0006.000000T0000Z-200209T1727Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXFLSMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T12:27:00-05:00"
+            ]
+        }
+    }
+}
