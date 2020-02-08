@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048364-3436392",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.18,
+                    35.9
+                ],
+                [
+                    -79.11000000000001,
+                    35.82
+                ],
+                [
+                    -79.05000000000001,
+                    35.76
+                ],
+                [
+                    -79.16000000000001,
+                    35.69
+                ],
+                [
+                    -79.30000000000001,
+                    35.849999999999994
+                ],
+                [
+                    -79.18,
+                    35.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048364-3436392",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048364-3436392",
+        "areaDesc": "Chatham, NC",
+        "geocode": {
+            "UGC": [
+                "NCC037"
+            ],
+            "SAME": [
+                "037037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC037"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047515-3435642",
+                "identifier": "NWS-IDP-PROD-4047515-3435642",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T03:04:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T13:16:00-05:00",
+        "effective": "2020-02-08T13:16:00-05:00",
+        "onset": "2020-02-08T13:16:00-05:00",
+        "expires": "2020-02-09T01:15:00-05:00",
+        "ends": "2020-02-09T03:03:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 8 at 1:16PM EST until February 9 at 3:03AM EST by NWS Raleigh NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nHaw River Near Bynum affecting Chatham County\n\nThe Flood Warning continues for\nthe Haw River Near Bynum.\n* At  1:01 PM Saturday the stage was 11.5 feet.\n* Flood stage is 11.0 feet.\n* Minor flooding is occurring.\n* Forecast...The river will continue to fall to below flood stage by\nlate this afternoon.\n* Impact...At 11.0 feet, The river widens up to 400 feet across. It\nfloods pasturelands on the right bank and woodlands on the left.",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KRAH.FL.W.0005.000000T0000Z-200209T0803Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T03:03:00-05:00"
+            ]
+        }
+    }
+}
