@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047295-3435411",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.6,
+                    35.97
+                ],
+                [
+                    -77.61,
+                    35.93
+                ],
+                [
+                    -77.8,
+                    35.94
+                ],
+                [
+                    -77.86,
+                    35.879999999999995
+                ],
+                [
+                    -77.9,
+                    35.909999899999995
+                ],
+                [
+                    -77.80000000000001,
+                    35.989999999999995
+                ],
+                [
+                    -77.6,
+                    35.97
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047295-3435411",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047295-3435411",
+        "areaDesc": "Edgecombe, NC",
+        "geocode": {
+            "UGC": [
+                "NCC065"
+            ],
+            "SAME": [
+                "037065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046857-3435013",
+                "identifier": "NWS-IDP-PROD-4046857-3435013",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T20:00:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T23:02:00-05:00",
+        "effective": "2020-02-07T23:02:00-05:00",
+        "onset": "2020-02-08T01:00:00-05:00",
+        "expires": "2020-02-08T11:01:00-05:00",
+        "ends": "2020-02-09T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 7 at 11:02PM EST until February 9 at 10:00PM EST by NWS Raleigh NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nRocky River Near Norwood affecting Anson and Stanly Counties\nTar River At Louisburg affecting Franklin County\nTar River At Tarboro affecting Edgecombe County\nTar River At Rocky Mount affecting Edgecombe County\n\nThe Flood Warning continues for the Tar River At Rocky Mount.\n* until Sunday evening, or until the warning is cancelled.\n* At 10:15 PM Friday the stage was 20.9 feet.\n* Flood stage is 21.0 feet.\n* Minor flooding is forecast.\n* The river will rise above flood stage by after midnight\ntomorrow and continue to rise to near 21.8 feet by tomorrow early\nafternoon.The river will fall below flood stage by late Sunday morning.\n* At 23.0 feet, Several streets west of business US301 are\nflooded, including E Ridge Street and Melton Drive.\n* At 21.0 feet, Flood stage. Flooding reaches Melton Drive\nand E Ridge Street.",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KRAH.FL.W.0018.200208T0600Z-200210T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T22:00:00-05:00"
+            ]
+        }
+    }
+}
