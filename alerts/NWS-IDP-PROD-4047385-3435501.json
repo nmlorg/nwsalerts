@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047385-3435501",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.99,
+                    36.13
+                ],
+                [
+                    -86.97,
+                    36.25
+                ],
+                [
+                    -86.78,
+                    36.24
+                ],
+                [
+                    -86.67,
+                    36.31
+                ],
+                [
+                    -86.58,
+                    36.22
+                ],
+                [
+                    -86.77,
+                    36.12
+                ],
+                [
+                    -86.99,
+                    36.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047385-3435501",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047385-3435501",
+        "areaDesc": "Davidson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC037"
+            ],
+            "SAME": [
+                "047037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC037"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046605-3434735",
+                "identifier": "NWS-IDP-PROD-4046605-3434735",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T16:36:00-06:00"
+            }
+        ],
+        "sent": "2020-02-07T23:49:00-06:00",
+        "effective": "2020-02-07T23:49:00-06:00",
+        "onset": "2020-02-07T23:49:00-06:00",
+        "expires": "2020-02-08T08:39:00-06:00",
+        "ends": "2020-02-08T08:39:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued February 7 at 11:49PM CST until February 8 at 8:39AM CST by NWS Nashville TN",
+        "description": "...The Flood Advisory continues for the Cumberland River...\n\nCumberland River At Hunters Point affecting Sumner...Trousdale and Wilson\nCounties\nCumberland River Near Edenwold affecting Davidson County\nCumberland River At Omohundro Water Plant affecting Davidson County\nCumberland River At Nashville affecting Davidson County\n\n. Water levels remain elevated along the Cumberland River. High water will\ncontinue at most locations for the next few days.\n\nThe Flood Advisory continues for\nThe Cumberland River Near Edenwold\n* Until Saturday morning.\n* At 11PM Friday the stage was 43.2 feet.\n* Action stage is 42.0 feet.\n* Flood stage is 49.0 feet.\n* At 45.0 feet...Inundation of low lying areas along the river continues,\naffecting portions of Moss Wright Park on Mansker Creek and industrial\nproperty along Dry Creek. Water begins to inundate the athletic fields at Pope\nJohn Paul II High School, agricultural areas, and Riverside Golf Center.\n* At 42.0 feet...Low lying areas along the river from Old Hickory Dam to near\nthe Hermitage Golf Course begin to be inunudated, and water backs up Mansker\nCreek affecting portions of Moss Wright Park.",
+        "instruction": "Stay tuned to NOAA weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0048.000000T0000Z-200208T1439Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T08:39:00-06:00"
+            ]
+        }
+    }
+}
