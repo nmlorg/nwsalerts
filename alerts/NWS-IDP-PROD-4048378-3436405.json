@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048378-3436405",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.23,
+                    32.77
+                ],
+                [
+                    -91.28,
+                    33.400000000000006
+                ],
+                [
+                    -91.05,
+                    33.400000000000006
+                ],
+                [
+                    -91.00999999999999,
+                    32.830000000000005
+                ],
+                [
+                    -91.00999999999999,
+                    32.77
+                ],
+                [
+                    -91.10999999999999,
+                    32.78
+                ],
+                [
+                    -91.23,
+                    32.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048378-3436405",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048378-3436405",
+        "areaDesc": "Chicot, AR; Issaquena, MS; East Carroll, LA; Washington, MS",
+        "geocode": {
+            "UGC": [
+                "ARC017",
+                "MSC055",
+                "LAC035",
+                "MSC151"
+            ],
+            "SAME": [
+                "005017",
+                "028055",
+                "022035",
+                "028151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC017",
+            "https://api.weather.gov/zones/county/MSC055",
+            "https://api.weather.gov/zones/county/LAC035",
+            "https://api.weather.gov/zones/county/MSC151"
+        ],
+        "references": [],
+        "sent": "2020-02-08T12:25:00-06:00",
+        "effective": "2020-02-08T12:25:00-06:00",
+        "onset": "2020-02-24T18:00:00-06:00",
+        "expires": "2020-02-09T18:25:00-06:00",
+        "ends": "2020-02-26T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued February 8 at 12:25PM CST until February 26 at 12:00PM CST by NWS Jackson MS",
+        "description": "...The National Weather Service in Jackson has issued a Flood Warning\nfor the following rivers in Arkansas...Louisiana...Mississippi...\n\nMississippi River Near Greenville affecting Chicot...East\nCarroll...Issaquena and Washington Counties\n\nThe National Weather Service in Jackson has issued a\n\n* Flood Warning for\nThe Mississippi River Near Greenville\n* from Monday February 24 to Wednesday February 26.\n* At 6:00 AM Saturday the stage was 45.1 feet.\n* Flood stage is 48.0 feet.\n* Forecast...The river will continue to slowly fall through Monday and\nthen begin rising again, cresting near 48 feet around February 25th.\n* Impact...At 48.0 feet...Water begins to cover the dirt road leading\nto the Farmers Grain terminal facility which is north of the\nGreenville bridge.\n* Impact...At 45.0 feet...Lower Lake Ferguson Road is closed. Warfield\nPoint Park is closed.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional  48 hours\nof rainfall added. Rainfall amounts greater than forecast may take\nthe rivers higher.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KJAN.FL.W.0069.200225T0000Z-200226T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLWJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-26T12:00:00-06:00"
+            ]
+        }
+    }
+}
