@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047069-3435221",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.91,
+                    32.8
+                ],
+                [
+                    -83.86,
+                    32.839999999999996
+                ],
+                [
+                    -83.74,
+                    32.739999999999995
+                ],
+                [
+                    -83.58,
+                    32.69
+                ],
+                [
+                    -83.55,
+                    32.629999999999995
+                ],
+                [
+                    -83.78999999999999,
+                    32.69
+                ],
+                [
+                    -83.91,
+                    32.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047069-3435221",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047069-3435221",
+        "areaDesc": "Crawford, GA; Peach, GA; Bibb, GA; Houston, GA",
+        "geocode": {
+            "UGC": [
+                "GAC079",
+                "GAC225",
+                "GAC021",
+                "GAC153"
+            ],
+            "SAME": [
+                "013079",
+                "013225",
+                "013021",
+                "013153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC079",
+            "https://api.weather.gov/zones/county/GAC225",
+            "https://api.weather.gov/zones/county/GAC021",
+            "https://api.weather.gov/zones/county/GAC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046288-3434450",
+                "identifier": "NWS-IDP-PROD-4046288-3434450",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T15:19:00-05:00"
+            }
+        ],
+        "sent": "2020-02-07T21:12:00-05:00",
+        "effective": "2020-02-07T21:12:00-05:00",
+        "onset": "2020-02-07T21:12:00-05:00",
+        "expires": "2020-02-08T11:11:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 7 at 9:12PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nLittle River near Eatonton affecting Putnam County\n\nMiddle Oconee River near Arcade affecting Barrow and Jackson\nCounties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nAlcovy River near High Point affecting Newton County\n\nBig Haynes Creek near Milstead  affecting Newton and Rockdale\nCounties\n\nYellow River near Rocky Plains affecting Newton County\n\nEcheconnee Creek near Byron affecting Bibb...Crawford...Houston\nand Peach Counties\n\nLittle River near Washington affecting Taliaferro and Wilkes\nCounties\n\nThe Flood Warning continues for\nThe Echeconnee Creek near Byron.\n* Until further notice.\n* At 8 PM Friday the stage was 15.8 feet...and rising.\n* Minor flooding is occurring.\n* Flood stage is 15 feet.\n* At 15 feet...Flood stage is reached. Minor flooding of woodlands\noccurs upstream and downstream from the gage on Houston Road.\nPortions of creek access roads and low lying areas will begin to\nflood.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0116.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
