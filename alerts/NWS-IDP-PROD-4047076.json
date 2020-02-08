@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047076",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.63,
+                    40.9
+                ],
+                [
+                    -79.77,
+                    40.65
+                ],
+                [
+                    -80.52,
+                    40.93
+                ],
+                [
+                    -80.52,
+                    41.07
+                ],
+                [
+                    -80.49,
+                    41.12
+                ],
+                [
+                    -79.63,
+                    40.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047076",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047076",
+        "areaDesc": "Beaver; Butler; Lawrence; Armstrong; Allegheny",
+        "geocode": {
+            "UGC": [
+                "PAZ020",
+                "PAZ014",
+                "PAZ013",
+                "PAZ022",
+                "PAZ021"
+            ],
+            "SAME": [
+                "042007",
+                "042019",
+                "042073",
+                "042005",
+                "042003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PAZ020",
+            "https://api.weather.gov/zones/forecast/PAZ014",
+            "https://api.weather.gov/zones/forecast/PAZ013",
+            "https://api.weather.gov/zones/forecast/PAZ022",
+            "https://api.weather.gov/zones/forecast/PAZ021"
+        ],
+        "references": [],
+        "sent": "2020-02-07T21:14:00-05:00",
+        "effective": "2020-02-07T21:14:00-05:00",
+        "onset": "2020-02-07T21:14:00-05:00",
+        "expires": "2020-02-07T22:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pittsburgh PA",
+        "headline": "Special Weather Statement issued February 7 at 9:14PM EST by NWS Pittsburgh PA",
+        "description": "At 913 PM EST, a snow shower cluster was located near Oakwood, or\nnear New Castle, moving east at 35 mph.  This cluster will generate\na rapid inch of snow accumulation and briefly drop visibility to\nnear zero.\n\nLocations impacted include...\nNew Castle...                     Butler...\nEllwood City...                   Homeacre-Lyndora...\nShanor-Northvue...                Meridian...\nZelienople...                     Meadowood...\nOak Hills...                      Oakwood...\nSarver...                         Evans City...\n\nThis includes the following highways...\nInterstate 79 in Pennsylvania between mile markers 87 and 104.\nInterstate 376 in Pennsylvania between mile markers 7 and 14.\n\nVisibility will drop quickly to near zero in this snow shower.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-07T21:13:00.000-05:00...storm...292DEG...31KT...41.01,-80.44"
+            ],
+            "NWSheadline": [
+                "A SNOW SHOWER CLUSTER WILL AFFECT NORTHEASTERN BEAVER...LAWRENCE... SOUTHERN BUTLER...NORTHEASTERN ALLEGHENY AND WEST CENTRAL ARMSTRONG COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PBZSPSPBZ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
