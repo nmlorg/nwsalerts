@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047504-3435629",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.85,
+                    36.95
+                ],
+                [
+                    -78.8199999,
+                    37.03
+                ],
+                [
+                    -78.72,
+                    37.02
+                ],
+                [
+                    -78.66,
+                    36.900000000000006
+                ],
+                [
+                    -78.63,
+                    36.800000000000004
+                ],
+                [
+                    -78.69999999999999,
+                    36.800000000000004
+                ],
+                [
+                    -78.85,
+                    36.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047504-3435629",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047504-3435629",
+        "areaDesc": "Charlotte, VA; Halifax, VA",
+        "geocode": {
+            "UGC": [
+                "VAC037",
+                "VAC083"
+            ],
+            "SAME": [
+                "051037",
+                "051083"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC037",
+            "https://api.weather.gov/zones/county/VAC083"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047108-3435259",
+                "identifier": "NWS-IDP-PROD-4047108-3435259",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T21:27:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T03:00:00-05:00",
+        "effective": "2020-02-08T03:00:00-05:00",
+        "onset": "2020-02-08T03:00:00-05:00",
+        "expires": "2020-02-08T11:00:00-05:00",
+        "ends": "2020-02-10T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Blacksburg VA",
+        "headline": "Flood Warning issued February 8 at 3:00AM EST until February 10 at 7:00AM EST by NWS Blacksburg VA",
+        "description": "...The Flood Warning is cancelled for the following rivers\nin Virginia...\n\nNew River at Allisonia affecting Pulaski and Wythe Counties\nNew River at Radford affecting City of Radford...Montgomery and\nPulaski Counties\nRoanoke (Staunton) River at Brookneal affecting Campbell...\nCharlotte and Halifax Counties\n\n...The Flood Warning continues for the following rivers in\nVirginia...North Carolina..\nRoanoke (Staunton) River at Randolph affecting Charlotte and\nHalifax Counties\nDan River Near Wentworth affecting Rockingham County\nDan River near Danville affecting Caswell...Rockingham...City of\nDanville and Pittsylvania Counties\nDan River at Paces affecting Halifax County\nDan River at South Boston affecting Halifax County\n\n\nRainfall runoff continues to impact area rivers.\n\nThe Dan River has experienced exceptional rises from Wentworth,\nNorth Carolina, downstream to South Boston, Virginia.  The Dan River has\ncrested at Wentworth, North Carolina, and has dropped below moderate flooding into minor flooding, however, rises will continue downstream\ninto Virginia, into the day Saturday, with South Boston not cresting until early Sunday morning.  The crest which occurred at Wentworth, North Carolina (28.39 feet, unofficially) ranks second to the all time record flood (31.6 feet), the result of Hurricane Agnes June 22, 1972.\n\nthe Flood Warning continues for\nthe Roanoke (Staunton) River at Randolph.\n* until Monday morning.\n* at 1AM Saturday the stage was 27.0 feet.\n\n* Flood stage is 24.0 feet.\n* The river will continue rising to near 27.6 feet by this morning.\nThe river will fall below flood stage tomorrow evening.\n* Flood history...this crest compares to a previous crest of 26.9\nfeet on Jan 27 2010.",
+        "instruction": "Do not drive through flooded areas...the water may be much deeper\nthan you think.\n\nGraphical forecast information is available on the internet at\nhttp://www.weather.gov/rnk (lower case). Click on 'rivers & lakes'.\n\n\nThe next scheduled statement will be issued by noon.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KRNK.FL.W.0009.000000T0000Z-200210T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RNKFLSRNK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T07:00:00-05:00"
+            ]
+        }
+    }
+}
