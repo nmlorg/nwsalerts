@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047927-3436016",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.06,
+                    31.31
+                ],
+                [
+                    -85.05,
+                    31.18
+                ],
+                [
+                    -84.89,
+                    30.83
+                ],
+                [
+                    -84.97,
+                    30.819999999999997
+                ],
+                [
+                    -85.12,
+                    31.129999999999995
+                ],
+                [
+                    -85.13000000000001,
+                    31.309999999999995
+                ],
+                [
+                    -85.06,
+                    31.31
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047927-3436016",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047927-3436016",
+        "areaDesc": "Early, GA; Houston, AL; Seminole, GA; Jackson, FL",
+        "geocode": {
+            "UGC": [
+                "GAC099",
+                "ALC069",
+                "GAC253",
+                "FLC063"
+            ],
+            "SAME": [
+                "013099",
+                "001069",
+                "013253",
+                "012063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC099",
+            "https://api.weather.gov/zones/county/ALC069",
+            "https://api.weather.gov/zones/county/GAC253",
+            "https://api.weather.gov/zones/county/FLC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046858-3435014",
+                "identifier": "NWS-IDP-PROD-4046858-3435014",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T20:05:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T08:13:00-05:00",
+        "effective": "2020-02-08T08:13:00-05:00",
+        "onset": "2020-02-08T08:13:00-05:00",
+        "expires": "2020-02-09T08:12:00-05:00",
+        "ends": "2020-02-11T07:46:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Flood Warning issued February 8 at 8:13AM EST until February 11 at 7:46AM EST by NWS Tallahassee FL",
+        "description": "...The Flood Warning continues for the following rivers in Florida...\nGeorgia...\n\nChoctawhatchee River near Caryville (US 90) affecting Holmes and\nWashington Counties\nChoctawhatchee River near Bruce (SR 20) affecting Walton and\nWashington Counties\nKinchafoonee Creek near 11 E Of Dawson At Pinewood Rd In Lee County\naffecting Lee County\n...The Flood Warning continues for the following rivers in Alabama...\nFlorida...Georgia...\nChattahoochee River at Columbia L&D affecting Houston...Jackson...\nEarly and Seminole Counties\nMuckalee Creek near Leesburg (SR 195) affecting Lee County\nFlint River at Bainbridge (US 27) affecting Decatur County\nApalachicola River near Blountstown affecting Calhoun...\nFranklin...Gulf and Liberty Counties\n\nThe Flood Warning continues for\nthe Chattahoochee River at Columbia L&D.\n* Until Tuesday morning.\n* At  7:00 AM Saturday the stage was 106.0 feet.\n* Minor flooding is forecast.\n* Flood stage is 106.0 feet.\n* Impact: At 108.0 feet: Low lying areas begin to flood along Omussee\nCreek in Houston County from Lizard Landing Camp to the\nChattahoochee River.",
+        "instruction": "All persons with interest along the river should monitor the latest\nforecasts, and be prepared to take necessary precautions to protect\nlife and property. Do not drive cars through flooded areas. If you\nsee flood waters: Turn around. Don't drown.\n\nFor graphical hydrologic information, please go to weather.gov and\nclick on your state. Select Rivers and Lakes AHPS under current\nconditions and click on your river point.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KTAE.FL.W.0011.000000T0000Z-200211T1246Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAEFLSTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T07:46:00-05:00"
+            ]
+        }
+    }
+}
