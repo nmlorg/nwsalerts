@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048469-3436487",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -118.38,
+                    46.03
+                ],
+                [
+                    -118.36999999999999,
+                    46.01
+                ],
+                [
+                    -118.75999999999999,
+                    46.01
+                ],
+                [
+                    -118.92999999999999,
+                    46.05
+                ],
+                [
+                    -118.89999999999999,
+                    46.08
+                ],
+                [
+                    -118.49999999999999,
+                    46.059999999999995
+                ],
+                [
+                    -118.38,
+                    46.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048469-3436487",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048469-3436487",
+        "areaDesc": "Walla Walla, WA",
+        "geocode": {
+            "UGC": [
+                "WAC071"
+            ],
+            "SAME": [
+                "053071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048116-3436172",
+                "identifier": "NWS-IDP-PROD-4048116-3436172",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T07:15:00-08:00"
+            }
+        ],
+        "sent": "2020-02-08T11:49:00-08:00",
+        "effective": "2020-02-08T11:49:00-08:00",
+        "onset": "2020-02-08T11:49:00-08:00",
+        "expires": "2020-02-08T23:49:00-08:00",
+        "ends": "2020-02-10T16:44:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Warning issued February 8 at 11:49AM PST until February 10 at 4:44PM PST by NWS Pendleton OR",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...Oregon...\n\nWalla Walla River near Touchet affecting Walla Walla County\nUmatilla River near Gibbon affecting Umatilla County\nYakima River near Parker affecting Yakima County\n\nThe Flood Warning continues for\nThe Walla Walla River near Touchet.\n* until Monday afternoon.\n* At 11:30 AM Saturday, the stage was 18.3 feet.\n* Flood stage is 13.0 feet.\n* Major flooding is occurring and Major flooding is forecast.\n* Forecast...The river is slowly falling and will continue to fall\nto below flood stage by late Monday morning.",
+        "instruction": "Turn around, don't drown. Never drive cars...trucks or sport utility\nvehicles through flooded areas. The water may be too deep to allow\nfor safe passage. As little as one foot of water on the road can move\nmost vehicles off the road.\n\n\nAdditional information is available at:\nweather.gov/Pendleton",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPDT.FL.W.0003.000000T0000Z-200211T0044Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T16:44:00-08:00"
+            ]
+        }
+    }
+}
