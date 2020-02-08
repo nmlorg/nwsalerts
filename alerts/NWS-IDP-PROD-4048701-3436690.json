@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048701-3436690",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.16,
+                    37.46
+                ],
+                [
+                    -87.03,
+                    37.42
+                ],
+                [
+                    -86.89,
+                    37.260000000000005
+                ],
+                [
+                    -86.97,
+                    37.2
+                ],
+                [
+                    -87.0699999,
+                    37.290000000000006
+                ],
+                [
+                    -87.19,
+                    37.31000000000001
+                ],
+                [
+                    -87.16,
+                    37.46
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048701-3436690",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048701-3436690",
+        "areaDesc": "Muhlenberg, KY",
+        "geocode": {
+            "UGC": [
+                "KYC177"
+            ],
+            "SAME": [
+                "021177"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC177"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048178-3436227",
+                "identifier": "NWS-IDP-PROD-4048178-3436227",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T09:55:00-06:00"
+            }
+        ],
+        "sent": "2020-02-08T16:14:00-06:00",
+        "effective": "2020-02-08T16:14:00-06:00",
+        "onset": "2020-02-08T16:14:00-06:00",
+        "expires": "2020-02-09T20:14:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued February 8 at 4:14PM CST by NWS Paducah KY",
+        "description": "...Forecast Flooding Changed from Minor to Moderate Severity for the\nfollowing rivers in Kentucky...\n\nGreen River at Paradise\n\n.Heavy rainfall over the last five days combined with back water\nflooding from the Ohio River has caused the Green River at Paradise\nto rise into moderate flood stage. The river is forecast to remain\nsteady at 386.0 feet through this evening then begin to fall slowly.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0021.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLWPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
