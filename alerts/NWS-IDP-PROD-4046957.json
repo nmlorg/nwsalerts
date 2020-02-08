@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046957",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.7,
+                    39.93
+                ],
+                [
+                    -80.47,
+                    39.78
+                ],
+                [
+                    -80.91,
+                    40.11
+                ],
+                [
+                    -80.39,
+                    40.22
+                ],
+                [
+                    -79.7,
+                    39.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046957",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4046957",
+        "areaDesc": "Marshall; Fayette; Brooke; Washington; Ohio; Belmont; Greene",
+        "geocode": {
+            "UGC": [
+                "WVZ004",
+                "PAZ075",
+                "WVZ002",
+                "PAZ029",
+                "WVZ003",
+                "OHZ059",
+                "PAZ031"
+            ],
+            "SAME": [
+                "054051",
+                "042051",
+                "054009",
+                "042125",
+                "054069",
+                "039013",
+                "042059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/WVZ004",
+            "https://api.weather.gov/zones/forecast/PAZ075",
+            "https://api.weather.gov/zones/forecast/WVZ002",
+            "https://api.weather.gov/zones/forecast/PAZ029",
+            "https://api.weather.gov/zones/forecast/WVZ003",
+            "https://api.weather.gov/zones/forecast/OHZ059",
+            "https://api.weather.gov/zones/forecast/PAZ031"
+        ],
+        "references": [],
+        "sent": "2020-02-07T20:26:00-05:00",
+        "effective": "2020-02-07T20:26:00-05:00",
+        "onset": "2020-02-07T20:26:00-05:00",
+        "expires": "2020-02-07T21:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pittsburgh PA",
+        "headline": "Special Weather Statement issued February 7 at 8:26PM EST by NWS Pittsburgh PA",
+        "description": "At 825 PM EST, heavy snow showers were located along a line\nextending from 7 miles southwest of Wolfdale to near Martins Ferry.\nMovement was southeast at 35 mph.\n\nLocations impacted include...\nWheeling...                       Washington...\nMartins Ferry...                  Bellaire...\nWaynesburg...                     Warwood...\nBethlehem...                      West Liberty...\nTriadelphia...                    Clearview...\nValley Grove...                   Brownsville...\n\nThis includes the following highways...\nInterstate 70 in Ohio between mile markers 220 and 225.\nInterstate 70 in West Virginia between mile markers 0 and 14.\nInterstate 70 in Pennsylvania between mile markers 0 and 15.\nInterstate 79 in Pennsylvania between mile markers 11 and 32.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-07T20:25:00.000-05:00...storm...298DEG...30KT...40.14,-80.41 40.09,-80.76"
+            ],
+            "NWSheadline": [
+                "AN AREA OF SNOW SHOWERS WILL AFFECT NORTHEASTERN BELMONT...SOUTHERN WASHINGTON...CENTRAL GREENE...WEST CENTRAL FAYETTE...OHIO... NORTHEASTERN MARSHALL AND SOUTHEASTERN BROOKE COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PBZSPSPBZ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
