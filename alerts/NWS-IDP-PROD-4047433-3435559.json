@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047433-3435559",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -117.84,
+                    45.22
+                ],
+                [
+                    -118.29,
+                    45.26
+                ],
+                [
+                    -117.98,
+                    45.62
+                ],
+                [
+                    -117.8,
+                    45.54
+                ],
+                [
+                    -117.78999999999999,
+                    45.42
+                ],
+                [
+                    -117.84,
+                    45.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047433-3435559",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047433-3435559",
+        "areaDesc": "Union, OR",
+        "geocode": {
+            "UGC": [
+                "ORC061"
+            ],
+            "SAME": [
+                "041061"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ORC061"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047265-3435381",
+                "identifier": "NWS-IDP-PROD-4047265-3435381",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T19:42:00-08:00"
+            }
+        ],
+        "sent": "2020-02-07T22:21:00-08:00",
+        "effective": "2020-02-07T22:21:00-08:00",
+        "onset": "2020-02-07T22:21:00-08:00",
+        "expires": "2020-02-08T10:21:00-08:00",
+        "ends": "2020-02-08T19:26:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Warning issued February 7 at 10:21PM PST until February 8 at 7:26PM PST by NWS Pendleton OR",
+        "description": "...The Flood Warning continues for the following rivers in Oregon...\nWashington...\n\nGrande Ronde River near Perry affecting Union County\nNaches River near Cliffdell affecting Yakima County\nNaches River near Naches affecting Yakima County\nUmatilla River at Pendleton affecting Umatilla County\nYakima River near Parker affecting Yakima County\nWalla Walla River near Touchet affecting Walla Walla County\nGrande Ronde River at Troy affecting Wallowa and Asotin Counties\nUmatilla River near Gibbon affecting Umatilla County\n\nThe Flood Warning continues for\nThe Grande Ronde River near Perry.\n* until Saturday evening.\n* At 9:15 PM Friday, the stage was 7.1 feet.\n* Flood stage is 6.6 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\ntomorrow early afternoon.",
+        "instruction": "Turn around, don't drown. Never drive cars...trucks or sport utility\nvehicles through flooded areas. The water may be too deep to allow\nfor safe passage. As little as one foot of water on the road can move\nmost vehicles off the road.\n\nAdditional information is available at:\nweather.gov/Pendleton",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPDT.FL.W.0004.000000T0000Z-200209T0326Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T19:26:00-08:00"
+            ]
+        }
+    }
+}

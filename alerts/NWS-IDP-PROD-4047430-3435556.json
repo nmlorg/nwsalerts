@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047430-3435556",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -120.69,
+                    46.75
+                ],
+                [
+                    -120.6,
+                    46.68
+                ],
+                [
+                    -120.53,
+                    46.65
+                ],
+                [
+                    -120.52,
+                    46.61
+                ],
+                [
+                    -120.64999999999999,
+                    46.63
+                ],
+                [
+                    -120.71999999999998,
+                    46.7
+                ],
+                [
+                    -120.69,
+                    46.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047430-3435556",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047430-3435556",
+        "areaDesc": "Yakima, WA",
+        "geocode": {
+            "UGC": [
+                "WAC077"
+            ],
+            "SAME": [
+                "053077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047278-3435393",
+                "identifier": "NWS-IDP-PROD-4047278-3435393",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T19:50:00-08:00"
+            }
+        ],
+        "sent": "2020-02-07T22:21:00-08:00",
+        "effective": "2020-02-07T22:21:00-08:00",
+        "onset": "2020-02-07T22:21:00-08:00",
+        "expires": "2020-02-08T10:21:00-08:00",
+        "ends": "2020-02-08T12:31:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Warning issued February 7 at 10:21PM PST until February 8 at 12:31PM PST by NWS Pendleton OR",
+        "description": "...The Flood Warning continues for the following rivers in Oregon...\nWashington...\n\nGrande Ronde River near Perry affecting Union County\nNaches River near Cliffdell affecting Yakima County\nNaches River near Naches affecting Yakima County\nUmatilla River at Pendleton affecting Umatilla County\nYakima River near Parker affecting Yakima County\nWalla Walla River near Touchet affecting Walla Walla County\nGrande Ronde River at Troy affecting Wallowa and Asotin Counties\nUmatilla River near Gibbon affecting Umatilla County\n\nThe Flood Warning continues for\nThe Naches River near Naches.\n* until Saturday afternoon.\n* At 8:45 PM Friday, the stage was 18.3 feet.\n* Flood stage is 17.8 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\ntomorrow morning.",
+        "instruction": "Turn around, don't drown. Never drive cars...trucks or sport utility\nvehicles through flooded areas. The water may be too deep to allow\nfor safe passage. As little as one foot of water on the road can move\nmost vehicles off the road.\n\nAdditional information is available at:\nweather.gov/Pendleton",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPDT.FL.W.0006.000000T0000Z-200208T2031Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T12:31:00-08:00"
+            ]
+        }
+    }
+}

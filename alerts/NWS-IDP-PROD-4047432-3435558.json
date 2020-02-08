@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047432-3435558",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -120.29,
+                    46.92
+                ],
+                [
+                    -120.28,
+                    46.65
+                ],
+                [
+                    -120.07000000000001,
+                    46.449999999999996
+                ],
+                [
+                    -120.43,
+                    46.26
+                ],
+                [
+                    -120.77000000000001,
+                    46.53
+                ],
+                [
+                    -120.80000000000001,
+                    46.9099999
+                ],
+                [
+                    -120.29,
+                    46.92
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047432-3435558",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4047432-3435558",
+        "areaDesc": "Yakima, WA",
+        "geocode": {
+            "UGC": [
+                "WAC077"
+            ],
+            "SAME": [
+                "053077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047280-3435395",
+                "identifier": "NWS-IDP-PROD-4047280-3435395",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T19:50:00-08:00"
+            }
+        ],
+        "sent": "2020-02-07T22:21:00-08:00",
+        "effective": "2020-02-07T22:21:00-08:00",
+        "onset": "2020-02-07T22:21:00-08:00",
+        "expires": "2020-02-08T10:21:00-08:00",
+        "ends": "2020-02-08T20:54:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pendleton OR",
+        "headline": "Flood Warning issued February 7 at 10:21PM PST until February 8 at 8:54PM PST by NWS Pendleton OR",
+        "description": "...The Flood Warning continues for the following rivers in Oregon...\nWashington...\n\nGrande Ronde River near Perry affecting Union County\nNaches River near Cliffdell affecting Yakima County\nNaches River near Naches affecting Yakima County\nUmatilla River at Pendleton affecting Umatilla County\nYakima River near Parker affecting Yakima County\nWalla Walla River near Touchet affecting Walla Walla County\nGrande Ronde River at Troy affecting Wallowa and Asotin Counties\nUmatilla River near Gibbon affecting Umatilla County\n\nThe Flood Warning continues for\nThe Yakima River near Parker.\n* until Saturday evening.\n* At 9:00 PM Friday, the stage was 10.1 feet.\n* Flood stage is 10.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 10.3 feet by\nearly tomorrow. The river will fall below flood stage tomorrow\nearly afternoon.",
+        "instruction": "Turn around, don't drown. Never drive cars...trucks or sport utility\nvehicles through flooded areas. The water may be too deep to allow\nfor safe passage. As little as one foot of water on the road can move\nmost vehicles off the road.\n\nAdditional information is available at:\nweather.gov/Pendleton",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPDT.FL.W.0008.000000T0000Z-200209T0454Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PDTFLSPDT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T20:54:00-08:00"
+            ]
+        }
+    }
+}
