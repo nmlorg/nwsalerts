@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048129-3436184",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.31,
+                    32.4799999
+                ],
+                [
+                    -86.3,
+                    32.36
+                ],
+                [
+                    -86.38,
+                    32.39
+                ],
+                [
+                    -86.53999999999999,
+                    32.32
+                ],
+                [
+                    -86.60999999999999,
+                    32.37
+                ],
+                [
+                    -86.35999999999999,
+                    32.449999999999996
+                ],
+                [
+                    -86.31,
+                    32.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048129-3436184",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048129-3436184",
+        "areaDesc": "Lowndes, AL; Montgomery, AL; Elmore, AL; Dallas, AL; Autauga, AL",
+        "geocode": {
+            "UGC": [
+                "ALC085",
+                "ALC101",
+                "ALC051",
+                "ALC047",
+                "ALC001"
+            ],
+            "SAME": [
+                "001085",
+                "001101",
+                "001051",
+                "001047",
+                "001001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC085",
+            "https://api.weather.gov/zones/county/ALC101",
+            "https://api.weather.gov/zones/county/ALC051",
+            "https://api.weather.gov/zones/county/ALC047",
+            "https://api.weather.gov/zones/county/ALC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4046942-3435101",
+                "identifier": "NWS-IDP-PROD-4046942-3435101",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T19:24:00-06:00"
+            }
+        ],
+        "sent": "2020-02-08T09:18:00-06:00",
+        "effective": "2020-02-08T09:18:00-06:00",
+        "onset": "2020-02-08T09:18:00-06:00",
+        "expires": "2020-02-08T21:18:00-06:00",
+        "ends": "2020-02-10T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 8 at 9:18AM CST until February 10 at 6:00AM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Alabama River At Montgomery...\n\n.Recent heavy rainfall continues to produce rises on the Alabama\nRiver, and the Flood Warning at Montgomery remains in effect.\n\nThe Flood Warning continues for\nThe Alabama River At Montgomery.\n* until Monday morning...or until the Warning is cancelled.\n* AT  8:00 AM Saturday the stage was 35.3 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 35 feet.\n* Forecast...The river will continue rising to near 35.8 feet by this\nevening. The river will fall below flood stage tomorrow evening .\n* Impact...At 35 feet...Extensive flooding of low lands in the area\noccurs.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Sunday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0031.000000T0000Z-200210T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T06:00:00-06:00"
+            ]
+        }
+    }
+}
