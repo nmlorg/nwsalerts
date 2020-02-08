@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048088-3436148",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.44,
+                    36.58
+                ],
+                [
+                    -83.37,
+                    36.51
+                ],
+                [
+                    -83.60000000000001,
+                    36.489999999999995
+                ],
+                [
+                    -83.81999990000001,
+                    36.37
+                ],
+                [
+                    -83.88000000000001,
+                    36.43
+                ],
+                [
+                    -83.65,
+                    36.57
+                ],
+                [
+                    -83.44,
+                    36.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048088-3436148",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048088-3436148",
+        "areaDesc": "Union, TN; Claiborne, TN",
+        "geocode": {
+            "UGC": [
+                "TNC173",
+                "TNC025"
+            ],
+            "SAME": [
+                "047173",
+                "047025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC173",
+            "https://api.weather.gov/zones/county/TNC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4047050-3435203",
+                "identifier": "NWS-IDP-PROD-4047050-3435203",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-07T21:00:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T10:01:00-05:00",
+        "effective": "2020-02-08T10:01:00-05:00",
+        "onset": "2020-02-08T10:01:00-05:00",
+        "expires": "2020-02-08T20:34:00-05:00",
+        "ends": "2020-02-08T20:34:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Flood Warning issued February 8 at 10:01AM EST until February 8 at 8:34PM EST by NWS Morristown TN",
+        "description": "...The Flood Warning is cancelled for the following rivers ...\n\nNorth Fork Holston River Near Gate City VA affecting Hawkins...\nSullivan and Scott Counties\n\n...The Flood Warning is extended for the following rivers ...\n\nClinch River Near Speers Ferry VA affecting Hancock and Scott\nCounties\nClinch River Above Tazewell TN affecting Claiborne...Grainger and\nHancock Counties\nSouth Chickamauga Creek Near Chickamauga TN affecting Catoosa and\nHamilton Counties\nPowell River Near Arthur TN affecting Claiborne and Union Counties\nSequatchie River Near Whitwell TN affecting Bledsoe...Marion and\nSequatchie Counties",
+        "instruction": "Most deaths in floods occur in automobiles. If you come to a closed\nor flooded road, Turn Around! Don't Drown! For more details, stay\ntuned to NOAA Weather Radio or commercial television or radio\nstations that carry weather information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMRX.FL.W.0011.000000T0000Z-200209T0134Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXFLSMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T20:34:00-05:00"
+            ]
+        }
+    }
+}
