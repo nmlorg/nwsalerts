@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048359-3436388",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.26,
+                    34.92
+                ],
+                [
+                    -85.23,
+                    35
+                ],
+                [
+                    -85.16000000000001,
+                    34.99
+                ],
+                [
+                    -85.24000000000001,
+                    34.86
+                ],
+                [
+                    -85.26,
+                    34.92
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048359-3436388",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048359-3436388",
+        "areaDesc": "Catoosa, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC047",
+                "TNC065"
+            ],
+            "SAME": [
+                "013047",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC047",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048061-3436129",
+                "identifier": "NWS-IDP-PROD-4048061-3436129",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T09:45:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T13:10:00-05:00",
+        "effective": "2020-02-08T13:10:00-05:00",
+        "onset": "2020-02-08T13:10:00-05:00",
+        "expires": "2020-02-09T01:51:00-05:00",
+        "ends": "2020-02-09T01:51:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 8 at 1:10PM EST until February 9 at 1:51AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nWest Chickamauga Creek near Fort Oglethorpe affecting Catoosa and\nHamilton Counties\n\nCoahulla Creek near Keiths Mill near Dalton affecting Whitfield\nCounty\n\nConasauga River near Sloan Bridge near Dalton affecting Gordon...\nMurray and Whitfield Counties\n\nThe Flood Warning continues for\nThe West Chickamauga Creek near Fort Oglethorpe.\n* Until late tonight.\n* At 1 PM Saturday the stage was 11.4 feet...and falling.\n* Minor flooding will continue.\n* Flood stage is 11 feet.\n* The river will continue to fall to below flood stage by this\nevening.\n* At 11 feet...Flood Stage is reached. Minor flooding begins of\nwoodlands and fields near the creek upstream and downstream from\nthe gage on the Georgia Highway 146 or Cloud Springs Road bridge.\nMinor flooding of the creek can also be expected further downstream\nas it crosses the Tennessee border into the south East Ridge area.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0043.000000T0000Z-200209T0651Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T01:51:00-05:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048356-3436385",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.81,
+                    36.17
+                ],
+                [
+                    -77.66,
+                    36.1599999
+                ],
+                [
+                    -77.49,
+                    36.080000000000005
+                ],
+                [
+                    -77.53999999999999,
+                    36.03000000000001
+                ],
+                [
+                    -77.66999999999999,
+                    36.10000000000001
+                ],
+                [
+                    -77.82999999999998,
+                    36.11000000000001
+                ],
+                [
+                    -77.81,
+                    36.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048356-3436385",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048356-3436385",
+        "areaDesc": "Edgecombe, NC; Halifax, NC; Nash, NC",
+        "geocode": {
+            "UGC": [
+                "NCC065",
+                "NCC083",
+                "NCC127"
+            ],
+            "SAME": [
+                "037065",
+                "037083",
+                "037127"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC065",
+            "https://api.weather.gov/zones/county/NCC083",
+            "https://api.weather.gov/zones/county/NCC127"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048353-3436382",
+                "identifier": "NWS-IDP-PROD-4048353-3436382",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T13:07:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T13:09:00-05:00",
+        "effective": "2020-02-08T13:09:00-05:00",
+        "onset": "2020-02-08T13:09:00-05:00",
+        "expires": "2020-02-09T01:10:00-05:00",
+        "ends": "2020-02-10T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 8 at 1:09PM EST until February 10 at 7:00AM EST by NWS Raleigh NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nFishing Creek At Enfield affecting Edgecombe...Halifax and Nash\nCounties\n\nThe Flood Warning continues for\nthe Fishing Creek At Enfield.\n* At  1:00 PM Saturday the stage was 16.7 feet.\n* Flood stage is 16.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to 16.8 feet\nthis afternoon, and then begin falling. It will drop below\nflood stage on Sunday evening.\n* Impact...At 16.0 feet, Minor overflow occurs on both banks.",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KRAH.FL.W.0017.000000T0000Z-200210T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T07:00:00-05:00"
+            ]
+        }
+    }
+}
