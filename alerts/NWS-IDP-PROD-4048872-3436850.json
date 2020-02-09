@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048872-3436850",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.0699999,
+                    35.38
+                ],
+                [
+                    -77.92999999999999,
+                    35.330000000000005
+                ],
+                [
+                    -77.91,
+                    35.28000000000001
+                ],
+                [
+                    -77.95,
+                    35.25000000000001
+                ],
+                [
+                    -77.97,
+                    35.300000000000004
+                ],
+                [
+                    -78.1,
+                    35.34
+                ],
+                [
+                    -78.0699999,
+                    35.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048872-3436850",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048872-3436850",
+        "areaDesc": "Wayne, NC",
+        "geocode": {
+            "UGC": [
+                "NCC191"
+            ],
+            "SAME": [
+                "037191"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC191"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048336-3436366",
+                "identifier": "NWS-IDP-PROD-4048336-3436366",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T12:52:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T19:53:00-05:00",
+        "effective": "2020-02-08T19:53:00-05:00",
+        "onset": "2020-02-09T05:00:00-05:00",
+        "expires": "2020-02-09T07:52:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 8 at 7:53PM EST by NWS Raleigh NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nLittle River At Manchester affecting Cumberland County\nNeuse River At Smithfield affecting Johnston County\nNeuse River Near Goldsboro affecting Wayne County\n\nThe Flood Warning continues for the Neuse River Near Goldsboro.\n* from late tonight until further notice, or until the warning is\ncancelled.\n* At  7:15 PM Saturday the stage was 16.8 feet.\n* Flood stage is 18.0 feet.\n* Moderate flooding is forecast.\n* The river will rise above flood stage by early tomorrow\nand continue to rise to near 21.7 feet by Wednesday evening.\n* Impact...At 19.5 feet, Ferry Bridge Road begins to flood.\n* Impact...At 18.0 feet, Minor flood stage. Water overflows the banks\nat the SR1915 bridge and upstream of the US117 bridge.",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KRAH.FL.W.0013.200209T1000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
