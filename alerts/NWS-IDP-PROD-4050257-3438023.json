@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050257-3438023",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.76,
+                    37.21
+                ],
+                [
+                    -78.02000000000001,
+                    37.43
+                ],
+                [
+                    -78.14000000000001,
+                    37.42
+                ],
+                [
+                    -78.12000000000002,
+                    37.510000000000005
+                ],
+                [
+                    -77.91000000000003,
+                    37.52
+                ],
+                [
+                    -77.67000000000003,
+                    37.330000000000005
+                ],
+                [
+                    -77.76,
+                    37.21
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050257-3438023",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050257-3438023",
+        "areaDesc": "Powhatan, VA; Amelia, VA; Chesterfield, VA",
+        "geocode": {
+            "UGC": [
+                "VAC145",
+                "VAC007",
+                "VAC041"
+            ],
+            "SAME": [
+                "051145",
+                "051007",
+                "051041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC145",
+            "https://api.weather.gov/zones/county/VAC007",
+            "https://api.weather.gov/zones/county/VAC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050155-3437936",
+                "identifier": "NWS-IDP-PROD-4050155-3437936",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T13:40:00-05:00"
+            }
+        ],
+        "sent": "2020-02-09T15:17:00-05:00",
+        "effective": "2020-02-09T15:17:00-05:00",
+        "onset": "2020-02-10T10:00:00-05:00",
+        "expires": "2020-02-10T03:16:00-05:00",
+        "ends": "2020-02-11T23:12:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 9 at 3:17PM EST until February 11 at 11:12PM EST by NWS Wakefield VA",
+        "description": "...The Flood Warning is cancelled for the following rivers in\nVirginia...\n\nMeherrin River At Lawrenceville affecting Brunswick County\n\n...The Flood Warning continues for the following rivers in\nVirginia...\n\nJames River At Richmond Westham affecting Chesterfield...City of\nRichmond and Henrico Counties\n\nAppomattox River At Mattoax affecting Amelia...Chesterfield and\nPowhatan Counties\n\n...The Flood Warning continues for the following rivers in\nVirginia...North Carolina..\n\nNottoway River Near Stony Creek affecting Sussex County\n\nCashie River Near Windsor affecting Bertie County\n\n\nFor the Lower James Basin...including Richmond Westham...Minor\nflooding is occurring and is expected to continue.For the Appomattox\nBasin...including Mattoax...Minor flooding is forecast.For the Chowan\nBasin...including Lawrenceville...Stony Creek...Minor flooding is\nforecast.For the Lower Roanoke Basin...including Windsor...Minor\nflooding is occurring and is expected to continue.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Warning has been extended until Tuesday evening...The Flood Warning continues for"
+            ],
+            "VTEC": [
+                "/O.EXT.KAKQ.FL.W.0008.200210T1500Z-200212T0412Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T23:12:00-05:00"
+            ]
+        }
+    }
+}
