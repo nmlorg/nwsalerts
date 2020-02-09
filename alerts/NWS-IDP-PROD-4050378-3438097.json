@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050378-3438097",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.0699999,
+                    36.7
+                ],
+                [
+                    -84.37,
+                    36.720000000000006
+                ],
+                [
+                    -84.43,
+                    36.970000000000006
+                ],
+                [
+                    -84.29,
+                    36.9799999
+                ],
+                [
+                    -84.26,
+                    36.81
+                ],
+                [
+                    -84.0699999,
+                    36.800000000000004
+                ],
+                [
+                    -84.0699999,
+                    36.7
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050378-3438097",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050378-3438097",
+        "areaDesc": "Whitley, KY",
+        "geocode": {
+            "UGC": [
+                "KYC235"
+            ],
+            "SAME": [
+                "021235"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC235"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049987-3437775",
+                "identifier": "NWS-IDP-PROD-4049987-3437775",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T11:24:00-05:00"
+            }
+        ],
+        "sent": "2020-02-09T16:09:00-05:00",
+        "effective": "2020-02-09T16:09:00-05:00",
+        "onset": "2020-02-09T16:09:00-05:00",
+        "expires": "2020-02-10T04:08:00-05:00",
+        "ends": "2020-02-12T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Warning issued February 9 at 4:09PM EST until February 12 at 1:00PM EST by NWS Jackson KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe Cumberland River at Williamsburg\n\nThe Flood Warning continues for\nThe Cumberland River at Williamsburg.\n* at 3:00 PM Sunday the stage was 32.0 feet.\n* Flood stage is 21.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river will fall below 27.5 feet by Monday afternoon.\nThe river will continue to slowly fall through Wednesdsay, but will\nremain in minor flood stage into the middle of the week.\n* At 25.0 feet...Low lying areas along George Hayes Road flood.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 11 am in the morning.\n\nA Flood Warning means that flooding is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJKL.FL.W.0003.000000T0000Z-200212T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T13:00:00-05:00"
+            ]
+        }
+    }
+}
