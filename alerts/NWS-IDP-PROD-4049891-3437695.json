@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049891-3437695",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.09,
+                    36.87
+                ],
+                [
+                    -77.2,
+                    36.82
+                ],
+                [
+                    -77.28,
+                    36.92
+                ],
+                [
+                    -77.53,
+                    36.800000000000004
+                ],
+                [
+                    -77.52,
+                    36.93000000000001
+                ],
+                [
+                    -77.24,
+                    37.07000000000001
+                ],
+                [
+                    -77.09,
+                    36.87
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049891-3437695",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4049891-3437695",
+        "areaDesc": "Sussex, VA",
+        "geocode": {
+            "UGC": [
+                "VAC183"
+            ],
+            "SAME": [
+                "051183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049421-3437309",
+                "identifier": "NWS-IDP-PROD-4049421-3437309",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T03:59:00-05:00"
+            }
+        ],
+        "sent": "2020-02-09T10:34:00-05:00",
+        "effective": "2020-02-09T10:34:00-05:00",
+        "onset": "2020-02-09T10:34:00-05:00",
+        "expires": "2020-02-09T22:34:00-05:00",
+        "ends": "2020-02-10T04:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 9 at 10:34AM EST until February 10 at 4:00AM EST by NWS Wakefield VA",
+        "description": "...The Flood Warning continues for the following rivers in\nVirginia...North Carolina...\n\nJames River At Richmond Locks affecting City of Richmond and Henrico\nCounties\n\nJames River At Richmond Westham affecting Chesterfield...City of\nRichmond and Henrico Counties\n\nMeherrin River At Lawrenceville affecting Brunswick County\n\nNottoway River Near Stony Creek affecting Sussex County\n\nCashie River Near Windsor affecting Bertie County\n\n\nFor the Lower James Basin...including Richmond Locks...Richmond\nWestham...Minor flooding is occurring and is expected to continue.For\nthe Chowan Basin...including Lawrenceville...Stony Creek...Minor\nflooding is occurring and is expected to continue.For the Lower\nRoanoke Basin...including Windsor...Minor flooding is occurring and\nis expected to continue.\n\nThe Flood Warning continues for...\nThe Nottoway River Near Stony Creek\n* until late tonight...or until the warning is cancelled.\n* At 09:30 AM Sunday the stage was 14.8 feet.\n* Minor flooding is forecast.\n* Flood stage is 15.0 feet.\n* Forecast...The river will continue rising to near 15.2 feet by this\nevening. The river will fall below flood stage tonight.\n* At 16.0 feet...Lowlands on the righthandside upstream of the gage\nbegin to flood.\nThis river level is comparable to a previous crest of 15.1 feet on\nNov 16 2018.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KAKQ.FL.W.0004.000000T0000Z-200210T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T04:00:00-05:00"
+            ]
+        }
+    }
+}
