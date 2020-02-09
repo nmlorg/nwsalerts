@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049820-3437644",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.48,
+                    35.01
+                ],
+                [
+                    -77.54,
+                    35
+                ],
+                [
+                    -77.55000000000001,
+                    35.04
+                ],
+                [
+                    -77.42000000000002,
+                    35.12
+                ],
+                [
+                    -77.38000000000001,
+                    35.11
+                ],
+                [
+                    -77.48,
+                    35.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049820-3437644",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4049820-3437644",
+        "areaDesc": "Jones, NC",
+        "geocode": {
+            "UGC": [
+                "NCC103"
+            ],
+            "SAME": [
+                "037103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC103"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049816-3437640",
+                "identifier": "NWS-IDP-PROD-4049816-3437640",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T09:55:00-05:00"
+            }
+        ],
+        "sent": "2020-02-09T09:59:00-05:00",
+        "effective": "2020-02-09T09:59:00-05:00",
+        "onset": "2020-02-09T09:59:00-05:00",
+        "expires": "2020-02-10T09:58:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Newport/Morehead City NC",
+        "headline": "Flood Warning issued February 9 at 9:59AM EST by NWS Newport/Morehead City NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\nTrent River At West of Trenton affecting Jones County\n\nThe Flood Warning continues for\nThe Trent River At West of Trenton.\n* until further notice.\n* At  9 AM Sunday the stage was 14.3 feet.\n* Minor flooding is occurring.\n* The river is expected to crest within the next 24 hrs and decrease water level.\n* Flood stage is 14.0 feet.\n* Impact...At 14.0 feet...Farmland and fields are flooded along the\nriver. Water inundates the Trent River Campground.",
+        "instruction": "Do not drive vehicles through flooded areas. Most flood deaths occur\nin automobiles when people try to drive through flooded areas.\n\nStay tuned to developments by listening to NOAA Weather Radio...local\nradio...media or cable TV.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMHX.FL.W.0046.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MHXFLSMHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
