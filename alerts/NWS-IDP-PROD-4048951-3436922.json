@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048951-3436922",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.93,
+                    32.17
+                ],
+                [
+                    -90.78,
+                    32.24
+                ],
+                [
+                    -90.64,
+                    32.56
+                ],
+                [
+                    -90.52,
+                    32.45
+                ],
+                [
+                    -90.64999999999999,
+                    32.18
+                ],
+                [
+                    -91.02,
+                    32.04
+                ],
+                [
+                    -90.93,
+                    32.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048951-3436922",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048951-3436922",
+        "areaDesc": "Hinds, MS; Warren, MS",
+        "geocode": {
+            "UGC": [
+                "MSC049",
+                "MSC149"
+            ],
+            "SAME": [
+                "028049",
+                "028149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC049",
+            "https://api.weather.gov/zones/county/MSC149"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048344-3436374",
+                "identifier": "NWS-IDP-PROD-4048344-3436374",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T12:00:00-06:00"
+            }
+        ],
+        "sent": "2020-02-08T19:29:00-06:00",
+        "effective": "2020-02-08T19:29:00-06:00",
+        "onset": "2020-02-11T06:00:00-06:00",
+        "expires": "2020-02-10T01:29:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued February 8 at 7:29PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in Mississippi...\n\nBig Black River At West affecting Attala and Holmes Counties\nBig Black River Near Bentonia affecting Madison and Yazoo Counties\nBig Black River Near Bovina affecting Hinds and Warren Counties\n\nThe Flood Warning continues for\nThe Big Black River Near Bovina\n* from Tuesday morning until further notice.\n* At 7:15 PM Saturday the stage was 26.5 feet.\n* Minor flooding is forecast.\n* Flood stage is 28.0 feet.\n* Forecast...The river will rise above flood stage Tuesday morning\nand will continue to rise to near 31.0 feet Sunday evening\nFebruary 16th.\n* Impact...At 28.0 feet...Low-lying agricultural land near the river\nbegins to flood.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional  48 hours\nof rainfall added. Rainfall amounts greater than forecast may take\nthe rivers higher.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0067.200211T1200Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
