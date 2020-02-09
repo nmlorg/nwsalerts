@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049031-3436996",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.45,
+                    38.01
+                ],
+                [
+                    -87.2099999,
+                    37.9
+                ],
+                [
+                    -87.28,
+                    37.8
+                ],
+                [
+                    -87.45,
+                    37.87
+                ],
+                [
+                    -87.45,
+                    38.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049031-3436996",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4049031-3436996",
+        "areaDesc": "Daviess, KY; Vanderburgh, IN; Henderson, KY; Spencer, IN; Warrick, IN",
+        "geocode": {
+            "UGC": [
+                "KYC059",
+                "INC163",
+                "KYC101",
+                "INC147",
+                "INC173"
+            ],
+            "SAME": [
+                "021059",
+                "018163",
+                "021101",
+                "018147",
+                "018173"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC059",
+            "https://api.weather.gov/zones/county/INC163",
+            "https://api.weather.gov/zones/county/KYC101",
+            "https://api.weather.gov/zones/county/INC147",
+            "https://api.weather.gov/zones/county/INC173"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048240-3436275",
+                "identifier": "NWS-IDP-PROD-4048240-3436275",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T10:34:00-06:00"
+            }
+        ],
+        "sent": "2020-02-08T20:13:00-06:00",
+        "effective": "2020-02-08T20:13:00-06:00",
+        "onset": "2020-02-11T14:15:00-06:00",
+        "expires": "2020-02-10T00:12:00-06:00",
+        "ends": "2020-02-17T05:27:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued February 8 at 8:13PM CST until February 17 at 5:27AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in Indiana...\nKentucky...Illinois and Missouri...\n\nOhio River at Newburgh Dam...Mount Vernon...J.T. Myers Dam...\nShawneetown...Paducah...Olmsted Lock and Dam and Cairo\n\n.Heavy rainfall over the last week combined with additional\nrainfall over the next 72 hours will cause flooding to develop or\nworsen along the lower Ohio River. Minor flooding is forecast from\nNewburgh Dam to Paducah, and moderate flooding is expected at\nOlmsted Lock and Dam and Cairo.\n\nThe Flood Warning continues for\nthe Ohio River at Newburgh Dam\n* from Tuesday afternoon to Monday February 17.\n* At  7:00 PM Saturday the stage was 30.1 feet.\n* Flood Stage is 38.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage Tuesday afternoon and crest near\n42.2 feet early Friday morning. The river will fall below flood\nstage by Monday, February 17.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0025.200211T2015Z-200217T1127Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T05:27:00-06:00"
+            ]
+        }
+    }
+}
