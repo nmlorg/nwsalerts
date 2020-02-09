@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049950-3437751",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.56,
+                    31.84
+                ],
+                [
+                    -87.38,
+                    31.84
+                ],
+                [
+                    -87.53,
+                    31.46
+                ],
+                [
+                    -87.86,
+                    31.14
+                ],
+                [
+                    -87.97,
+                    31.14
+                ],
+                [
+                    -87.66,
+                    31.5
+                ],
+                [
+                    -87.56,
+                    31.84
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049950-3437751",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4049950-3437751",
+        "areaDesc": "Wilcox, AL; Clarke, AL; Monroe, AL",
+        "geocode": {
+            "UGC": [
+                "ALC131",
+                "ALC025",
+                "ALC099"
+            ],
+            "SAME": [
+                "001131",
+                "001025",
+                "001099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC131",
+            "https://api.weather.gov/zones/county/ALC025",
+            "https://api.weather.gov/zones/county/ALC099"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049089-3437046",
+                "identifier": "NWS-IDP-PROD-4049089-3437046",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T20:41:00-06:00"
+            }
+        ],
+        "sent": "2020-02-09T10:03:00-06:00",
+        "effective": "2020-02-09T10:03:00-06:00",
+        "onset": "2020-02-09T10:03:00-06:00",
+        "expires": "2020-02-10T10:03:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued February 9 at 10:03AM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for the following rivers in Alabama...Florida...\nMississippi...\n\nEscambia River Near Century affecting Escambia County.\n\nPascagoula At Merrill affecting George...Greene and Jackson Counties.\n\nTombigbee River Near Coffeeville Dam affecting Choctaw...Clarke and\nWashington Counties.\n\nTombigbee River Near Leroy affecting Choctaw...Clarke and Washington\nCounties.\n\nAlabama River Near Millers Ferry Dam affecting Dallas...Monroe and Wilcox\nCounties.\n\nAlabama River Near Claiborne Dam - Tailwater affecting Clarke...Monroe and\nWilcox Counties.\n\nLeaf Near Mclain affecting George...Greene and Perry Counties.\nChickasawhay At Leakesville affecting George...Greene and Wayne Counties.\n\n.Recent heavy rains have caused significant rises along the river.\n\nThe Flood Warning continues for\nthe Alabama River Near Claiborne Dam - Tailwater\n* From late this morning until further notice.\n* At 9 AM Sunday the stage was 42.0 feet.\n* No flooding is occurring and Minor flooding is forecast.\n* Flood stage is 42.0 feet.\n* Forecast to rise above flood stage by late this morning and continue to rise\nnear 47.4 feet by early Thursday morning.\n* At 49.0 feet...Recreational areas around the Lock and Dam begin to flood.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMOB.FL.W.0021.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
