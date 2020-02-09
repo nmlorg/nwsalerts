@@ -1,0 +1,116 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048813-3436795",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -104.69,
+                    41.57
+                ],
+                [
+                    -106.17999999999999,
+                    41.21
+                ],
+                [
+                    -106.24999999999999,
+                    41.31
+                ],
+                [
+                    -106.20999989999999,
+                    41.53
+                ],
+                [
+                    -104.88999999999999,
+                    42
+                ],
+                [
+                    -104.73999999999998,
+                    41.81
+                ],
+                [
+                    -104.69,
+                    41.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048813-3436795",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048813-3436795",
+        "areaDesc": "Laramie, WY; Albany, WY; Carbon, WY; Platte, WY",
+        "geocode": {
+            "UGC": [
+                "WYC021",
+                "WYC001",
+                "WYC007",
+                "WYC031"
+            ],
+            "SAME": [
+                "056021",
+                "056001",
+                "056007",
+                "056031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WYC021",
+            "https://api.weather.gov/zones/county/WYC001",
+            "https://api.weather.gov/zones/county/WYC007",
+            "https://api.weather.gov/zones/county/WYC031"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048775-3436755",
+                "identifier": "NWS-IDP-PROD-4048775-3436755",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T16:30:00-07:00"
+            }
+        ],
+        "sent": "2020-02-08T16:55:00-07:00",
+        "effective": "2020-02-08T16:55:00-07:00",
+        "onset": "2020-02-08T16:54:00-07:00",
+        "expires": "2020-02-08T17:15:00-07:00",
+        "ends": "2020-02-08T17:15:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cheyenne WY",
+        "headline": "Snow Squall Warning issued February 8 at 4:54PM MST until February 8 at 5:15PM MST by NWS Cheyenne WY",
+        "description": "At 454 PM MST, a dangerous snow squall was located along a line\nextending from 11 miles north of Iron Mountain to near Bow River\nCampground, moving southeast at 25 mph.\n\nHAZARD...Whiteout conditions. Zero visibility in snow and blowing\nsnow. Wind gusts greater than 30 mph.\n\nSOURCE...Radar and webcams. Whiteout conditions are occurring along\nInterstate 80with visibility below 1/4 mile.\n\nIMPACT...Dangerous life-threatening travel.\n\nThis includes the following highways...\nInterstate 25 in Wyoming between mile markers 38 and 74.\nInterstate 80 in Wyoming between mile markers 278 and 309.\n\nLocations impacted include...\nAlbany, Chugwater, Centennial, Iron Mountain, Nash Fork Campground,\nBosler, Baldy Peak, Bordeaux, Libby Creek Campground, Slater and\nNorth Fork Campground.",
+        "instruction": "Reduce your speed and turn on headlights! During snow squalls, the\nvisibility may suddenly drop to near zero in whiteout conditions.\n\nSerious injuries and deaths may result from people exiting their\nvehicles during a snow squall. Drivers may not be able to see you or\nto stop! If stopped on the roadway or involved in an accident,\nquickly exit your vehicle move as far away from the roadway as\npossible ONLY when it is safe to do so. Do not stand along or near\nthe roadway, since approaching vehicles may be unable to maintain\ncontrol.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-08T16:54:00.000-07:00...storm...330DEG...20KT...41.71,-105.26 41.45,-106.42"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WARNING REMAINS IN EFFECT UNTIL 515 PM MST FOR EAST CENTRAL CARBON...SOUTHERN ALBANY...NORTHWESTERN LARAMIE AND SOUTHERN PLATTE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KCYS.SQ.W.0010.000000T0000Z-200209T0015Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CYSSQWCYS"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T17:15:00-07:00"
+            ]
+        }
+    }
+}
