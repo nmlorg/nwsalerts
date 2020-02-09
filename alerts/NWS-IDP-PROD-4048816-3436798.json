@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048816-3436798",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.23,
+                    36.4799999
+                ],
+                [
+                    -79.2,
+                    36.63
+                ],
+                [
+                    -79.02,
+                    36.720000000000006
+                ],
+                [
+                    -78.97999999999999,
+                    36.60000000000001
+                ],
+                [
+                    -79.10999999999999,
+                    36.56000000000001
+                ],
+                [
+                    -79.23,
+                    36.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048816-3436798",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048816-3436798",
+        "areaDesc": "Halifax, VA",
+        "geocode": {
+            "UGC": [
+                "VAC083"
+            ],
+            "SAME": [
+                "051083"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC083"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048457-3436475",
+                "identifier": "NWS-IDP-PROD-4048457-3436475",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T14:39:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T19:00:00-05:00",
+        "effective": "2020-02-08T19:00:00-05:00",
+        "onset": "2020-02-08T19:00:00-05:00",
+        "expires": "2020-02-09T02:59:00-05:00",
+        "ends": "2020-02-10T09:40:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Blacksburg VA",
+        "headline": "Flood Warning issued February 8 at 7:00PM EST until February 10 at 9:40AM EST by NWS Blacksburg VA",
+        "description": "...The Flood Warning continues for the following rivers in\nVirginia...North Carolina...\nRoanoke (Staunton) River at Randolph affecting Charlotte and\nHalifax Counties.\nDan River near Danville affecting Caswell...Rockingham...City of\nDanville and Pittsylvania Counties.\nDan River at Paces affecting Halifax County.\nDan River at South Boston affecting Halifax County.\n\nModerate flooding continues along the Dan River from Danville\nto South Boston. The Dan River has crested at Danville and is\nbeginning to crest at Paces.\n\nMinor flooding continues at Randolph along the Roanoke\nRiver. The river has crested here, and is now slowly\nfalling.\n\nThe Flood Warning continues for\nthe Dan River at Paces.\n* until Monday morning.\n* at 5PM Saturday the river level was 29.7 feet, and it appear\nto be cresting.\n\n* Flood stage is 22.0 feet.\n* The river will begin falling overnight and continue to fall\nto below flood stage late Sunday night.\n* Impact...at 30.0 feet...Water begins to overtop the Highway 658\nbridge across the Dan River.\n* Flood history...this crest compares to a previous crest of 29.1\nfeet on Apr 26 2017.",
+        "instruction": "Do not drive through flooded areas...the water may be much deeper\nthan you think.\n\nGraphical forecast information is available on the internet at\nhttp://www.weather.gov/rnk (lower case). Click on 'rivers & lakes'.\n\n\nThe next scheduled statement will be issued by 5AM Sunday.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KRNK.FL.W.0004.000000T0000Z-200210T1440Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RNKFLSRNK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T09:40:00-05:00"
+            ]
+        }
+    }
+}
