@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049086-3437043",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.3,
+                    32.8
+                ],
+                [
+                    -84.2099999,
+                    32.75
+                ],
+                [
+                    -83.98,
+                    32.57
+                ],
+                [
+                    -84.05,
+                    32.53
+                ],
+                [
+                    -84.14999999999999,
+                    32.65
+                ],
+                [
+                    -84.36999999999999,
+                    32.76
+                ],
+                [
+                    -84.3,
+                    32.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049086-3437043",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4049086-3437043",
+        "areaDesc": "Crawford, GA; Upson, GA; Taylor, GA; Talbot, GA",
+        "geocode": {
+            "UGC": [
+                "GAC079",
+                "GAC293",
+                "GAC269",
+                "GAC263"
+            ],
+            "SAME": [
+                "013079",
+                "013293",
+                "013269",
+                "013263"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC079",
+            "https://api.weather.gov/zones/county/GAC293",
+            "https://api.weather.gov/zones/county/GAC269",
+            "https://api.weather.gov/zones/county/GAC263"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048375-3436402",
+                "identifier": "NWS-IDP-PROD-4048375-3436402",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T13:23:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T21:40:00-05:00",
+        "effective": "2020-02-08T21:40:00-05:00",
+        "onset": "2020-02-08T21:40:00-05:00",
+        "expires": "2020-02-09T11:00:00-05:00",
+        "ends": "2020-02-09T11:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 8 at 9:40PM EST until February 9 at 11:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nFlint River near Carsonville Hwy. 19 affecting Crawford...\nTalbot...Taylor and Upson Counties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0095.000000T0000Z-200209T1600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T11:00:00-05:00"
+            ]
+        }
+    }
+}
