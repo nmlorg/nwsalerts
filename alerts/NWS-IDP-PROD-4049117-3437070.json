@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049117-3437070",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.05,
+                    37.88
+                ],
+                [
+                    -83.85,
+                    37.690000000000005
+                ],
+                [
+                    -83.91999999999999,
+                    37.63
+                ],
+                [
+                    -84.10999999999999,
+                    37.79
+                ],
+                [
+                    -84.05,
+                    37.88
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049117-3437070",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4049117-3437070",
+        "areaDesc": "Estill, KY",
+        "geocode": {
+            "UGC": [
+                "KYC065"
+            ],
+            "SAME": [
+                "021065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048597-3436595",
+                "identifier": "NWS-IDP-PROD-4048597-3436595",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T16:01:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T22:00:00-05:00",
+        "effective": "2020-02-08T22:00:00-05:00",
+        "onset": "2020-02-08T22:00:00-05:00",
+        "expires": "2020-02-09T09:59:00-05:00",
+        "ends": "2020-02-09T11:54:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Warning issued February 8 at 10:00PM EST until February 9 at 11:54AM EST by NWS Jackson KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe Kentucky River near Ravenna\n\nThe Flood Warning continues for\nThe Kentucky River near Ravenna.\n* at 9:15 PM Saturday the stage was 22.7 feet.\n* Flood stage is 21.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nmorning.\n* At 21.5 feet...Sang Branch Road is under water at Red Lick Creek.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 10 am.\n\nA Flood Warning means that flooding is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJKL.FL.W.0001.000000T0000Z-200209T1654Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T11:54:00-05:00"
+            ]
+        }
+    }
+}
