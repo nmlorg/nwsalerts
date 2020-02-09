@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048859-3436838",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.8,
+                    46.45
+                ],
+                [
+                    -121.94,
+                    46.45
+                ],
+                [
+                    -122.19,
+                    46.400000000000006
+                ],
+                [
+                    -122.2,
+                    46.540000000000006
+                ],
+                [
+                    -121.98,
+                    46.59
+                ],
+                [
+                    -121.83,
+                    46.61000000000001
+                ],
+                [
+                    -121.8,
+                    46.45
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048859-3436838",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048859-3436838",
+        "areaDesc": "Lewis, WA",
+        "geocode": {
+            "UGC": [
+                "WAC041"
+            ],
+            "SAME": [
+                "053041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048406-3436430",
+                "identifier": "NWS-IDP-PROD-4048406-3436430",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T10:41:00-08:00"
+            }
+        ],
+        "sent": "2020-02-08T16:46:00-08:00",
+        "effective": "2020-02-08T16:46:00-08:00",
+        "onset": "2020-02-08T16:46:00-08:00",
+        "expires": "2020-02-09T00:45:00-08:00",
+        "ends": "2020-02-09T05:40:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 8 at 4:46PM PST until February 9 at 5:40AM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nSnohomish River Near Monroe affecting Snohomish County\nSnohomish River At Snohomish affecting Snohomish County\nSnoqualmie River Near Carnation affecting King County\nCedar River Near Landsburg affecting King County\nCedar River At Renton affecting King County\nGreen River Near Auburn affecting King County\nWhite River At R Street Bridge affecting King and Pierce Counties\nCowlitz River At Randle affecting Lewis County\n\n\nCool dry weather will allow rivers to recede.\n\nThe Flood Warning continues for\nThe Cowlitz River At Randle\n* Until late tonight.\n* At  4:30 PM Saturday the stage was 18.9 feet.\n* Flood stage is 18.0 feet.\n* Minor flooding is occurring.\n* Forecast...The river has crested and will continue to fall to below\nflood stage tonight.\n* Impact...At 18.0 feet, the Cowlitz River will cause minor flooding\nfrom the vicinity of Randle downstream through Riffe Lake...\ncovering nearby farm lands and several roads.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSEW.FL.W.0058.000000T0000Z-200209T1340Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T05:40:00-08:00"
+            ]
+        }
+    }
+}

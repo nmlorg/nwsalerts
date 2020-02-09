@@ -1,0 +1,112 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048844-3436823",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -105.54,
+                    41.43
+                ],
+                [
+                    -104.38000000000001,
+                    41.86
+                ],
+                [
+                    -104.05000000000001,
+                    41.78
+                ],
+                [
+                    -104.05000000000001,
+                    41.59
+                ],
+                [
+                    -105.03000000000002,
+                    41.1599999
+                ],
+                [
+                    -105.54,
+                    41.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048844-3436823",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048844-3436823",
+        "areaDesc": "Laramie, WY; Goshen, WY; Albany, WY; Platte, WY",
+        "geocode": {
+            "UGC": [
+                "WYC021",
+                "WYC015",
+                "WYC001",
+                "WYC031"
+            ],
+            "SAME": [
+                "056021",
+                "056015",
+                "056001",
+                "056031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WYC021",
+            "https://api.weather.gov/zones/county/WYC015",
+            "https://api.weather.gov/zones/county/WYC001",
+            "https://api.weather.gov/zones/county/WYC031"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048821-3436803",
+                "identifier": "NWS-IDP-PROD-4048821-3436803",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T17:13:00-07:00"
+            }
+        ],
+        "sent": "2020-02-08T17:41:00-07:00",
+        "effective": "2020-02-08T17:41:00-07:00",
+        "onset": "2020-02-08T17:41:00-07:00",
+        "expires": "2020-02-08T18:00:00-07:00",
+        "ends": "2020-02-08T18:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cheyenne WY",
+        "headline": "Snow Squall Warning issued February 8 at 5:41PM MST until February 8 at 6:00PM MST by NWS Cheyenne WY",
+        "description": "At 541 PM MST, a dangerous snow squall was located along a line\nextending from near Hawk Springs to near Hutton Lake, moving\nsoutheast at 40 mph.\n\nHAZARD...Poor visibility in heavy snow and blowing snow. Wind gusts\nup to 30 mph.\n\nSOURCE...Radar and webcams.\n\nIMPACT...Dangerous life-threatening travel.\n\nThis includes Interstate 25 in Wyoming between mile markers 18 and\n50.\n\nLocations impacted include...\nLa Grange, Iron Mountain, Federal, Hawk Springs Campground, Hawk\nSprings Recreation Area, Whitaker, Horse Creek, Meriden Rest Area,\nHawk Springs and Ranchettes.",
+        "instruction": "Reduce your speed and turn on headlights! During snow squalls, the\nvisibility may suddenly drop to near zero in whiteout conditions.\n\nSerious injuries and deaths may result from people exiting their\nvehicles during a snow squall. Drivers may not be able to see you or\nto stop! If stopped on the roadway or involved in an accident,\nquickly exit your vehicle move as far away from the roadway as\npossible ONLY when it is safe to do so. Do not stand along or near\nthe roadway, since approaching vehicles may be unable to maintain\ncontrol.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-08T17:41:00.000-07:00...storm...293DEG...35KT...41.79,-104.38 41.24,-105.66"
+            ],
+            "NWSheadline": [
+                "A SNOW SQUALL WARNING REMAINS IN EFFECT UNTIL 600 PM MST FOR EAST CENTRAL ALBANY...SOUTHERN GOSHEN...NORTHERN LARAMIE AND SOUTHEASTERN PLATTE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KCYS.SQ.W.0011.000000T0000Z-200209T0100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CYSSQWCYS"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "eventEndingTime": [
+                "2020-02-08T18:00:00-07:00"
+            ]
+        }
+    }
+}
