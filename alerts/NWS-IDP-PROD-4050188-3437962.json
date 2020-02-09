@@ -1,0 +1,87 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050188-3437962",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.67,
+                    36.19
+                ],
+                [
+                    -86.62,
+                    36.199999999999996
+                ],
+                [
+                    -86.60000000000001,
+                    36.159999899999995
+                ],
+                [
+                    -86.67,
+                    36.13999999999999
+                ],
+                [
+                    -86.67,
+                    36.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050188-3437962",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050188-3437962",
+        "areaDesc": "Davidson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC037"
+            ],
+            "SAME": [
+                "047037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC037"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049472-3437340",
+                "identifier": "NWS-IDP-PROD-4049472-3437340",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T03:21:00-06:00"
+            }
+        ],
+        "sent": "2020-02-09T13:26:00-06:00",
+        "effective": "2020-02-09T13:26:00-06:00",
+        "onset": "2020-02-09T13:26:00-06:00",
+        "expires": "2020-02-10T01:25:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued February 9 at 1:26PM CST by NWS Nashville TN",
+        "description": "...The Flood Advisory continues for the Cumberland River...Stones River...\n\nCumberland River At Nashville affecting Davidson County\nStones River Near Donelson affecting Davidson County\n\n.The Cumberland River and Stones River continue to run high per the\nheavy rainfall of last week. The water will fall slowly as dry weather\ncontinues this afternoon and early evening. However, late evening,\novernight, and into the first half of the work week additional\nrainfall is expected which could cause additional rises on the\nCumberland River and Stones River.\n\nThe Flood Advisory continues for\nThe Stones River Near Donelson\n* Until further notice.\n* At 01PM Sunday the stage was 23.4 feet.\n* Action stage is 20.0 feet.\n* Flood stage is 35.0 feet.\n* The river will continue to fall to near 23 feet by this evening.",
+        "instruction": "Stay tuned to NOAA weather radio or other local media for further\ninformation from the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0028.000000T0000Z-000000T0000Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

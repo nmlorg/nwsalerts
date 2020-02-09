@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050187-3437961",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.99,
+                    36.13
+                ],
+                [
+                    -86.97,
+                    36.25
+                ],
+                [
+                    -86.78,
+                    36.24
+                ],
+                [
+                    -86.67,
+                    36.31
+                ],
+                [
+                    -86.58,
+                    36.22
+                ],
+                [
+                    -86.77,
+                    36.12
+                ],
+                [
+                    -86.99,
+                    36.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050187-3437961",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050187-3437961",
+        "areaDesc": "Davidson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC037"
+            ],
+            "SAME": [
+                "047037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC037"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049471-3437339",
+                "identifier": "NWS-IDP-PROD-4049471-3437339",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T03:21:00-06:00"
+            }
+        ],
+        "sent": "2020-02-09T13:26:00-06:00",
+        "effective": "2020-02-09T13:26:00-06:00",
+        "onset": "2020-02-09T13:26:00-06:00",
+        "expires": "2020-02-09T18:00:00-06:00",
+        "ends": "2020-02-09T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued February 9 at 1:26PM CST until February 9 at 6:00PM CST by NWS Nashville TN",
+        "description": "...The Flood Advisory continues for the Cumberland River...Stones River...\n\nCumberland River At Nashville affecting Davidson County\nStones River Near Donelson affecting Davidson County\n\n.The Cumberland River and Stones River continue to run high per the\nheavy rainfall of last week. The water will fall slowly as dry weather\ncontinues this afternoon and early evening. However, late evening,\novernight, and into the first half of the work week additional\nrainfall is expected which could cause additional rises on the\nCumberland River and Stones River.\n\nThe Flood Advisory continues for\nThe Cumberland River At Nashville\n* Until this evening.\n* At 12PM Sunday the stage was 29.9 feet.\n* Action stage is 30.0 feet.\n* Flood stage is 40.0 feet.\n* The river will rise to near 33.4 feet Wednesday morning.\n* At 34.0 feet...Water reaches the second grassy area of the riverfront landing\nand covers most of the recreation areas on the east side of the river near\nNissan Stadium.\n* At 32.0 feet...Further inundation of low lying areas along the river is\noccurring including the riverfront landing and receation areas near Nissan\nStadium.\n* At 30.0 feet...Water reaches the first grassy area of the riverfront landing,\nand the access point on the east side of the river near Nissan Stadium.\n* At 25.0 feet...The riverfront recreation areas on both sides of the river\nbegin to be inundated.",
+        "instruction": "Stay tuned to NOAA weather radio or other local media for further\ninformation from the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0039.000000T0000Z-200210T0000Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T18:00:00-06:00"
+            ]
+        }
+    }
+}

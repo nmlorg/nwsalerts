@@ -1,0 +1,131 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050186-3437960",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -116.69,
+                    46
+                ],
+                [
+                    -116.7,
+                    46.11
+                ],
+                [
+                    -116.29,
+                    46.4099999
+                ],
+                [
+                    -116.19000000000001,
+                    46.4099999
+                ],
+                [
+                    -116.13000000000001,
+                    46.300000000000004
+                ],
+                [
+                    -116.02000000000001,
+                    46.2299999
+                ],
+                [
+                    -116.15,
+                    46.21
+                ],
+                [
+                    -116.2,
+                    46.15
+                ],
+                [
+                    -116.43,
+                    46.199999999999996
+                ],
+                [
+                    -116.51,
+                    46.12
+                ],
+                [
+                    -116.53,
+                    46
+                ],
+                [
+                    -116.64,
+                    46.04
+                ],
+                [
+                    -116.69,
+                    46
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050186-3437960",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050186-3437960",
+        "areaDesc": "Lewis, ID",
+        "geocode": {
+            "UGC": [
+                "IDC061"
+            ],
+            "SAME": [
+                "016061"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/IDC061"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049311-3437215",
+                "identifier": "NWS-IDP-PROD-4049311-3437215",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T22:38:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048649-3436631",
+                "identifier": "NWS-IDP-PROD-4048649-3436631",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T13:43:00-08:00"
+            }
+        ],
+        "sent": "2020-02-09T11:24:00-08:00",
+        "effective": "2020-02-09T11:24:00-08:00",
+        "onset": "2020-02-09T11:24:00-08:00",
+        "expires": "2020-02-09T11:31:00-08:00",
+        "ends": "2020-02-09T11:30:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Spokane WA",
+        "headline": "Flood Advisory issued February 9 at 11:24AM PST until February 9 at 11:30AM PST by NWS Spokane WA",
+        "description": "Flood waters have receded, and are no longer expected to pose a\nthreat to property. Drier conditions are expected heading into early\nnext week. Overnight temperatures will also cool down to freezing,\nwhich will result in less snow melt and less runoff. Please continue\nto heed any road closures.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE SMALL STREAM FLOOD ADVISORY FOR RAIN AND SNOWMELT WILL EXPIRE AT 1130 AM PST FOR LEWIS COUNTY"
+            ],
+            "VTEC": [
+                "/O.EXP.KOTX.FA.Y.0003.000000T0000Z-200209T1930Z/"
+            ],
+            "PIL": [
+                "OTXFLSOTX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T11:30:00-08:00"
+            ]
+        }
+    }
+}
