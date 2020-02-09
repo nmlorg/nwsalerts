@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049427-3437315",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.74,
+                    36.46
+                ],
+                [
+                    -79.75999999999999,
+                    36.5
+                ],
+                [
+                    -79.41,
+                    36.64
+                ],
+                [
+                    -79.2,
+                    36.63
+                ],
+                [
+                    -79.23,
+                    36.4799999
+                ],
+                [
+                    -79.49000000000001,
+                    36.5
+                ],
+                [
+                    -79.74,
+                    36.46
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049427-3437315",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4049427-3437315",
+        "areaDesc": "Rockingham, NC; Caswell, NC; Pittsylvania, VA; City of Danville, VA",
+        "geocode": {
+            "UGC": [
+                "NCC157",
+                "NCC033",
+                "VAC143",
+                "VAC590"
+            ],
+            "SAME": [
+                "037157",
+                "037033",
+                "051143",
+                "051590"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC157",
+            "https://api.weather.gov/zones/county/NCC033",
+            "https://api.weather.gov/zones/county/VAC143",
+            "https://api.weather.gov/zones/county/VAC590"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048817-3436799",
+                "identifier": "NWS-IDP-PROD-4048817-3436799",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T19:00:00-05:00"
+            }
+        ],
+        "sent": "2020-02-09T04:02:00-05:00",
+        "effective": "2020-02-09T04:02:00-05:00",
+        "onset": "2020-02-09T04:02:00-05:00",
+        "expires": "2020-02-09T12:02:00-05:00",
+        "ends": "2020-02-09T16:27:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Blacksburg VA",
+        "headline": "Flood Warning issued February 9 at 4:02AM EST until February 9 at 4:27PM EST by NWS Blacksburg VA",
+        "description": "...The Flood Warning continues for the following rivers in\nVirginia...North Carolina...\n\nRoanoke (Staunton) River at Randolph affecting Charlotte and Halifax\nCounties\nDan River near Danville affecting Caswell...Rockingham...City of\nDanville and Pittsylvania Counties\nDan River at Paces affecting Halifax County\nDan River at South Boston affecting Halifax County\n\nModerate flooding continued on the Dan River from Paces to South Boston.\nThe Dan River has crested at Paces and was beginning to crest at South\nBoston. Minor flooding continued on the Dan River at Danville, where the\nriver has crested and continued to fall.\n\nMinor flooding continued on the Roanoke River at Randolph. The river had\ncrested and will continue to fall.\n\nThe Flood Warning continues for\nthe Dan River near Danville.\n* until this afternoon.\n* at 03AM Sunday the stage was 21.4 feet.\n* Flood stage is 21.0 feet.\n* The river will continue to fall to below flood stage by 7AM.\n* Impact...at 21.0 feet...Flooding at River District Towers.\nMinor flooding along River Street.\n* Flood history...this crest compares to a previous crest of 29.1\nfeet on Apr 26 2017.",
+        "instruction": "Do not drive through flooded areas...the water may be much deeper\nthan you think.\n\nGraphical forecast information is available on the internet at\nhttp://www.weather.gov/rnk (lower case). Click on 'rivers & lakes'.\n\nThe next scheduled statement will be issued around noon.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KRNK.FL.W.0003.000000T0000Z-200209T2127Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RNKFLSRNK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T16:27:00-05:00"
+            ]
+        }
+    }
+}
