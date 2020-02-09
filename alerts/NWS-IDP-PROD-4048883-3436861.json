@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048883-3436861",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.35,
+                    36.1599999
+                ],
+                [
+                    -78.28,
+                    36.11
+                ],
+                [
+                    -78.18,
+                    35.95
+                ],
+                [
+                    -78.2,
+                    35.900000000000006
+                ],
+                [
+                    -78.3,
+                    36.06
+                ],
+                [
+                    -78.38,
+                    36.13
+                ],
+                [
+                    -78.35,
+                    36.1599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048883-3436861",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4048883-3436861",
+        "areaDesc": "Franklin, NC",
+        "geocode": {
+            "UGC": [
+                "NCC069"
+            ],
+            "SAME": [
+                "037069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC069"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048314-3436344",
+                "identifier": "NWS-IDP-PROD-4048314-3436344",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T12:39:00-05:00"
+            }
+        ],
+        "sent": "2020-02-08T19:56:00-05:00",
+        "effective": "2020-02-08T19:56:00-05:00",
+        "onset": "2020-02-08T19:56:00-05:00",
+        "expires": "2020-02-09T07:55:00-05:00",
+        "ends": "2020-02-09T14:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 8 at 7:56PM EST until February 9 at 2:30PM EST by NWS Raleigh NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nTar River At Louisburg affecting Franklin County\nTar River At Rocky Mount affecting Edgecombe County\nTar River At Tarboro affecting Edgecombe County\n\nThe Flood Warning continues for the Tar River At Louisburg.\n* At  7:46 PM Saturday the stage was 21.2 feet.\n* Flood stage is 20.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* The river will continue to fall to below flood stage by\nafter midnight tomorrow.\n* At 23.0 feet, Major flood stage. Homes and businesses along\nJohnson Street flood.\n* At 22.0 feet, Moderate flood stage. Flooding begins in\nPruitt and Shannon Villages on the east side of town.\n* At 20.0 feet, Minor flood stage. Banks overflow at Main\nStreet. River Bend Park is flooded and storm drains are inundated\nalong the river.",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KRAH.FL.W.0010.000000T0000Z-200209T1930Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T14:30:00-05:00"
+            ]
+        }
+    }
+}
