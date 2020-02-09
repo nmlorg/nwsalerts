@@ -1,0 +1,82 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050241-3438010",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050241-3438010",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050241-3438010",
+        "areaDesc": "Van Buren; Calhoun; Jackson; Kalamazoo",
+        "geocode": {
+            "UGC": [
+                "MIZ071",
+                "MIZ073",
+                "MIZ074",
+                "MIZ072"
+            ],
+            "SAME": [
+                "026159",
+                "026025",
+                "026075",
+                "026077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MIZ071",
+            "https://api.weather.gov/zones/forecast/MIZ073",
+            "https://api.weather.gov/zones/forecast/MIZ074",
+            "https://api.weather.gov/zones/forecast/MIZ072"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049326-3437226",
+                "identifier": "NWS-IDP-PROD-4049326-3437226",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T02:24:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049929-3437731",
+                "identifier": "NWS-IDP-PROD-4049929-3437731",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T10:56:00-05:00"
+            }
+        ],
+        "sent": "2020-02-09T15:04:00-05:00",
+        "effective": "2020-02-09T15:04:00-05:00",
+        "onset": "2020-02-09T15:04:00-05:00",
+        "expires": "2020-02-09T20:00:00-05:00",
+        "ends": "2020-02-09T20:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Rapids MI",
+        "headline": "Winter Weather Advisory issued February 9 at 3:04PM EST until February 9 at 8:00PM EST by NWS Grand Rapids MI",
+        "description": "* WHAT...Snow into this evening. Total snow accumulations of 2\nto 3 inches.\n\n* WHERE...Van Buren, Kalamazoo, Calhoun and Jackson counties.\n\n* WHEN...From noon today to 8 PM EST this evening.\n\n* IMPACTS...Plan on slippery road conditions.\n\n* ADDITIONAL DETAILS...Snow will be heavy at times into early\nthis evening. Then the snow likely change over to drizzle by\nlate evening. Any wet roads will freeze late tonight and likely\nwill be slick for the Monday morning commute.",
+        "instruction": "Slow down and use caution while traveling.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL 8 PM EST THIS EVENING"
+            ],
+            "VTEC": [
+                "/O.CON.KGRR.WW.Y.0005.000000T0000Z-200210T0100Z/"
+            ],
+            "PIL": [
+                "GRRWSWGRR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T20:00:00-05:00"
+            ]
+        }
+    }
+}
