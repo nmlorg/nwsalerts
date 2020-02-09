@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050005-3437793",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.8199999,
+                    32.52
+                ],
+                [
+                    -87.9,
+                    32.25
+                ],
+                [
+                    -88.06,
+                    32.01
+                ],
+                [
+                    -88.16,
+                    32.01
+                ],
+                [
+                    -88.09,
+                    32.409999899999995
+                ],
+                [
+                    -87.9,
+                    32.529999999999994
+                ],
+                [
+                    -87.8199999,
+                    32.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050005-3437793",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050005-3437793",
+        "areaDesc": "Marengo, AL; Greene, AL; Hale, AL; Sumter, AL",
+        "geocode": {
+            "UGC": [
+                "ALC091",
+                "ALC063",
+                "ALC065",
+                "ALC119"
+            ],
+            "SAME": [
+                "001091",
+                "001063",
+                "001065",
+                "001119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC091",
+            "https://api.weather.gov/zones/county/ALC063",
+            "https://api.weather.gov/zones/county/ALC065",
+            "https://api.weather.gov/zones/county/ALC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4048986-3436957",
+                "identifier": "NWS-IDP-PROD-4048986-3436957",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-08T19:48:00-06:00"
+            }
+        ],
+        "sent": "2020-02-09T10:38:00-06:00",
+        "effective": "2020-02-09T10:38:00-06:00",
+        "onset": "2020-02-09T10:38:00-06:00",
+        "expires": "2020-02-09T22:37:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 9 at 10:38AM CST by NWS Birmingham AL",
+        "description": "...Forecast Flooding Changed from Minor to Moderate Severity for the\nfollowing rivers in Alabama...\nTombigbee River At Demopolis Lock and Dam affecting Greene...\nHale...Marengo and Sumter Counties.\nTombigbee River At Gainesville Lock and Dam affecting Greene...\nHale...Marengo and Sumter Counties.\n\n.Flooding of Moderate severity is now expected at the Demopolis Lock\nand Dam and Gainesville Lock and Dam. Rainfall amounts of 4 to 6\ninches upstream are expected through Tuesday, with additional\nrainfall expected through the end of the week. All interests along\nthe Tombigbee need to monitor this flooding situation very closely.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Monday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.CON.KBMX.FL.W.0018.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLWBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
