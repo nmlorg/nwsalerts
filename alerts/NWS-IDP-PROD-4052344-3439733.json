@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052344-3439733",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.24,
+                    34.53
+                ],
+                [
+                    -86.78,
+                    34.99
+                ],
+                [
+                    -85.61,
+                    34.99
+                ],
+                [
+                    -85.52,
+                    34.56
+                ],
+                [
+                    -86.24,
+                    34.53
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052344-3439733",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052344-3439733",
+        "areaDesc": "Madison, AL; DeKalb, AL; Marshall, AL; Jackson, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089",
+                "ALC049",
+                "ALC095",
+                "ALC071"
+            ],
+            "SAME": [
+                "001089",
+                "001049",
+                "001095",
+                "001071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089",
+            "https://api.weather.gov/zones/county/ALC049",
+            "https://api.weather.gov/zones/county/ALC095",
+            "https://api.weather.gov/zones/county/ALC071"
+        ],
+        "references": [],
+        "sent": "2020-02-10T17:03:00-06:00",
+        "effective": "2020-02-10T17:03:00-06:00",
+        "onset": "2020-02-10T17:03:00-06:00",
+        "expires": "2020-02-10T23:30:00-06:00",
+        "ends": "2020-02-10T23:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 10 at 5:03PM CST until February 10 at 11:30PM CST by NWS Huntsville AL",
+        "description": "The National Weather Service in Huntsville Alabama has issued a\n\n* Flood Warning for...\nJackson County in northeastern Alabama...\nNorth central Marshall County in northeastern Alabama...\nNortheastern Madison County in north central Alabama...\nNortheastern DeKalb County in northeastern Alabama...\n\n* Until 1130 PM CST Monday.\n\n* At 501 PM CST, Doppler radar and automated rain gauges indicated\nthat heavy rain had fallen over the area. Emergency managers\nreport that the heavy rain has caused flooding with multiple road\nclosures across the warned area. Up to two inches of rain have\nalready fallen.\n\n* Some locations that will experience flooding include...\nNorthern Huntsville, Scottsboro, Bridgeport, Moores Mill,\nMeridianville, Hazel Green, Henagar, Stevenson, Sylvania and\nHollywood.\n\nAdditional rainfall amounts of one to two inches are possible in the\nwarned area overnight.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nA Flood Warning means that flooding is imminent or occurring. All\ninterested parties should take necessary precautions immediately.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KHUN.FA.W.0022.200210T2303Z-200211T0530Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLWHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T23:30:00-06:00"
+            ]
+        }
+    }
+}

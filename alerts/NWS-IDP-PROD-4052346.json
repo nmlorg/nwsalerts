@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052346",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -110.83,
+                    33.21
+                ],
+                [
+                    -110.97,
+                    33.25
+                ],
+                [
+                    -110.91,
+                    33.51
+                ],
+                [
+                    -110.61999999999999,
+                    33.479999899999996
+                ],
+                [
+                    -110.83,
+                    33.21
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052346",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052346",
+        "areaDesc": "San Carlos; Globe/Miami; Pinal/Superstition Mountains; Southeast Gila County",
+        "geocode": {
+            "UGC": [
+                "AZZ560",
+                "AZZ562",
+                "AZZ558",
+                "AZZ563"
+            ],
+            "SAME": [
+                "004007",
+                "004013",
+                "004021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AZZ560",
+            "https://api.weather.gov/zones/forecast/AZZ562",
+            "https://api.weather.gov/zones/forecast/AZZ558",
+            "https://api.weather.gov/zones/forecast/AZZ563"
+        ],
+        "references": [],
+        "sent": "2020-02-10T16:06:00-07:00",
+        "effective": "2020-02-10T16:06:00-07:00",
+        "onset": "2020-02-10T16:06:00-07:00",
+        "expires": "2020-02-10T16:30:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Phoenix AZ",
+        "headline": "Special Weather Statement issued February 10 at 4:06PM MST by NWS Phoenix AZ",
+        "description": "At 405 PM MST, Doppler radar was tracking a strong thunderstorm near\nMiami, or near Globe, moving northeast at 30 mph.\n\nPenny size hail will be possible with this storm.\n\nLocations impacted include...\nGlobe, Miami, Central Heights-Midland City, Claypool and Inspiration.\n\nThis includes the following highways...\nUS Highway 60 between mile markers 239 and 259.\nAZ Route 70 between mile markers 253 and 255.\nAZ Route 77 between mile markers 169 and 170.",
+        "instruction": "Frequent cloud to ground lightning is occurring with this storm.\nLightning can strike 10 miles away from a thunderstorm. Seek a safe\nshelter inside a building or vehicle.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T16:05:00.000-07:00...storm...203DEG...25KT...33.32,-110.86"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR GILA AND PINAL COUNTIES UNTIL 430 PM MST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PSRSPSPSR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
