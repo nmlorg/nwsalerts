@@ -1,0 +1,127 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052360-3439740",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.2099999,
+                    31.73
+                ],
+                [
+                    -90.19,
+                    31.73
+                ],
+                [
+                    -90.13,
+                    31.76
+                ],
+                [
+                    -89.97999999999999,
+                    31.76
+                ],
+                [
+                    -89.96999999999998,
+                    31.59
+                ],
+                [
+                    -89.97999999999999,
+                    31.54
+                ],
+                [
+                    -90.24,
+                    31.47
+                ],
+                [
+                    -90.24,
+                    31.72
+                ],
+                [
+                    -90.2099999,
+                    31.73
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052360-3439740",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052360-3439740",
+        "areaDesc": "Lawrence, MS",
+        "geocode": {
+            "UGC": [
+                "MSC077"
+            ],
+            "SAME": [
+                "028077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052358-3439738",
+                "identifier": "NWS-IDP-PROD-4052358-3439738",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T17:27:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052343-3439732",
+                "identifier": "NWS-IDP-PROD-4052343-3439732",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T16:59:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T17:32:00-06:00",
+        "effective": "2020-02-10T17:32:00-06:00",
+        "onset": "2020-02-10T17:32:00-06:00",
+        "expires": "2020-02-10T18:00:00-06:00",
+        "ends": "2020-02-10T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued February 10 at 5:32PM CST until February 10 at 6:00PM CST by NWS Jackson MS",
+        "description": "At 531 PM CST, a severe thunderstorm was located over Wanilla, or 18\nmiles southwest of Pinola, moving northeast at 40 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThis severe thunderstorm will remain over mainly rural areas of\nnorthern Lawrence County, including the following locations... New\nHebron and Silver Creek.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T17:31:00.000-06:00...storm...241DEG...34KT...31.63,-90.09"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 600 PM CST FOR NORTHERN LAWRENCE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0059.000000T0000Z-200211T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T18:00:00-06:00"
+            ]
+        }
+    }
+}
