@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050933-3438577",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.1,
+                    33.76
+                ],
+                [
+                    -92.89,
+                    33.949999999999996
+                ],
+                [
+                    -92.66,
+                    33.8
+                ],
+                [
+                    -93.11,
+                    33.55
+                ],
+                [
+                    -93.1,
+                    33.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050933-3438577",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050933-3438577",
+        "areaDesc": "Dallas, AR; Clark, AR; Ouachita, AR",
+        "geocode": {
+            "UGC": [
+                "ARC039",
+                "ARC019",
+                "ARC103"
+            ],
+            "SAME": [
+                "005039",
+                "005019",
+                "005103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC039",
+            "https://api.weather.gov/zones/county/ARC019",
+            "https://api.weather.gov/zones/county/ARC103"
+        ],
+        "references": [],
+        "sent": "2020-02-09T22:22:00-06:00",
+        "effective": "2020-02-09T22:22:00-06:00",
+        "onset": "2020-02-09T22:22:00-06:00",
+        "expires": "2020-02-09T23:00:00-06:00",
+        "ends": "2020-02-09T23:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Severe Thunderstorm Warning issued February 9 at 10:22PM CST until February 9 at 11:00PM CST by NWS Little Rock AR",
+        "description": "The National Weather Service in Little Rock has issued a\n\n* Severe Thunderstorm Warning for...\nSoutheastern Clark County in southwestern Arkansas...\nSouthwestern Dallas County in southwestern Arkansas...\nNorthwestern Ouachita County in southwestern Arkansas...\n\n* Until 1100 PM CST.\n\n* At 1021 PM CST, a severe thunderstorm was located 5 miles\nsouthwest of Bluff City, or 17 miles west of Camden, moving\nnortheast at 50 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\n* Locations impacted include...\nSparkman...                       Chidester...\nWhite Oak Lake State Park...      Poison Springs State Park...\nAmy...                            Tates Bluff...\nBragg City...                     Ouachita...\nHolly Springs...                  Reader...\nVaden...",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-09T22:21:00.000-06:00...storm...237DEG...48KT...33.62,-93.14"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KLZK.SV.W.0034.200210T0422Z-200210T0500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKSVRLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T23:00:00-06:00"
+            ]
+        }
+    }
+}
