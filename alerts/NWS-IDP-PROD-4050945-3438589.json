@@ -1,0 +1,117 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050945-3438589",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.1,
+                    33.71
+                ],
+                [
+                    -92.83999999999999,
+                    33.92
+                ],
+                [
+                    -92.65999999999998,
+                    33.800000000000004
+                ],
+                [
+                    -93.03999999999998,
+                    33.59
+                ],
+                [
+                    -93.1,
+                    33.71
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050945-3438589",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050945-3438589",
+        "areaDesc": "Dallas, AR; Clark, AR; Ouachita, AR",
+        "geocode": {
+            "UGC": [
+                "ARC039",
+                "ARC019",
+                "ARC103"
+            ],
+            "SAME": [
+                "005039",
+                "005019",
+                "005103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC039",
+            "https://api.weather.gov/zones/county/ARC019",
+            "https://api.weather.gov/zones/county/ARC103"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050940-3438584",
+                "identifier": "NWS-IDP-PROD-4050940-3438584",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T22:27:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050933-3438577",
+                "identifier": "NWS-IDP-PROD-4050933-3438577",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T22:22:00-06:00"
+            }
+        ],
+        "sent": "2020-02-09T22:33:00-06:00",
+        "effective": "2020-02-09T22:33:00-06:00",
+        "onset": "2020-02-09T22:33:00-06:00",
+        "expires": "2020-02-09T23:00:00-06:00",
+        "ends": "2020-02-09T23:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Severe Thunderstorm Warning issued February 9 at 10:33PM CST until February 9 at 11:00PM CST by NWS Little Rock AR",
+        "description": "At 1033 PM CST, a severe thunderstorm was located over Chidester, or\n12 miles northwest of Camden, moving northeast at 50 mph.\n\nHAZARD...Tennis ball size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect damage\nto roofs, siding, windows, and vehicles.\n\nLocations impacted include...\nSparkman...                       Chidester...\nPoison Springs State Park...      White Oak Lake State Park...\nAmy...                            Tates Bluff...\nBragg City...                     Ouachita...\nHolly Springs...",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-09T22:33:00.000-06:00...storm...237DEG...48KT...33.71,-92.98"
+            ],
+            "hailSize": [
+                2.5
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1100 PM CST FOR SOUTHEASTERN CLARK...SOUTHWESTERN DALLAS AND NORTHWESTERN OUACHITA COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KLZK.SV.W.0034.000000T0000Z-200210T0500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKSVSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T23:00:00-06:00"
+            ]
+        }
+    }
+}
