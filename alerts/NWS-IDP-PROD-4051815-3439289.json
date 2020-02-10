@@ -1,0 +1,86 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051815-3439289",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.64,
+                    32.55
+                ],
+                [
+                    -93.64,
+                    32.36
+                ],
+                [
+                    -94.02,
+                    32.38
+                ],
+                [
+                    -93.88,
+                    32.5
+                ],
+                [
+                    -93.64,
+                    32.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051815-3439289",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051815-3439289",
+        "areaDesc": "Bossier, LA; Caddo, LA",
+        "geocode": {
+            "UGC": [
+                "LAC015",
+                "LAC017"
+            ],
+            "SAME": [
+                "022015",
+                "022017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC015",
+            "https://api.weather.gov/zones/county/LAC017"
+        ],
+        "references": [],
+        "sent": "2020-02-10T10:28:00-06:00",
+        "effective": "2020-02-10T10:28:00-06:00",
+        "onset": "2020-02-10T10:28:00-06:00",
+        "expires": "2020-02-10T12:30:00-06:00",
+        "ends": "2020-02-10T12:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Advisory issued February 10 at 10:28AM CST until February 10 at 12:30PM CST by NWS Shreveport LA",
+        "description": "The National Weather Service in Shreveport has issued a\n\n* Flood Advisory for...\nSouthwestern Caddo Parish in northwestern Louisiana...\nSouthwestern Bossier Parish in northwestern Louisiana...\n\n* Until 1230 PM CST.\n\n* At 1027 AM CST, Doppler radar indicated heavy rain due to\nthunderstorms. This will cause minor flooding in the advisory area.\n\n* Some locations that will experience flooding include...\nShreveport, Bossier City, Greenwood, Fosters, Robson, Cross Lake,\nForbing and Barksdale Air Force Base.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KSHV.FA.Y.0003.200210T1628Z-200210T1830Z/"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T12:30:00-06:00"
+            ]
+        }
+    }
+}
