@@ -1,0 +1,73 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051200-3438772",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051200-3438772",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051200-3438772",
+        "areaDesc": "Western Windham; Northern Berkshire; Bennington",
+        "geocode": {
+            "UGC": [
+                "VTZ014",
+                "MAZ001",
+                "VTZ013"
+            ],
+            "SAME": [
+                "050025",
+                "025003",
+                "050003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/VTZ014",
+            "https://api.weather.gov/zones/forecast/MAZ001",
+            "https://api.weather.gov/zones/forecast/VTZ013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050622-3438302",
+                "identifier": "NWS-IDP-PROD-4050622-3438302",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T20:30:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T04:26:00-05:00",
+        "effective": "2020-02-10T04:26:00-05:00",
+        "onset": "2020-02-10T04:26:00-05:00",
+        "expires": "2020-02-10T12:00:00-05:00",
+        "ends": "2020-02-10T12:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albany NY",
+        "headline": "Winter Weather Advisory issued February 10 at 4:26AM EST until February 10 at 12:00PM EST by NWS Albany NY",
+        "description": "* WHAT...Snow. Additional snow accumulations of 2 to 4 inches\nbringing storm totals to 3 to 6 inches.\n\n* WHERE...In Vermont, Western Windham and Bennington Counties.\nIn Massachusetts, Northern Berkshire County.\n\n* WHEN...Until noon EST today.\n\n* IMPACTS...Plan on slippery road conditions. The hazardous\nconditions will impact the morning commute.\n\n* ADDITIONAL DETAILS...The heaviest snowfall amounts are expected\nin eastern Bennington, western Windham and northern Berkshire\nCounties. Snowfall rates of up to one inch per hour are possible\nthis morning.",
+        "instruction": "Slow down and use caution while traveling.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL NOON EST TODAY"
+            ],
+            "VTEC": [
+                "/O.CON.KALY.WW.Y.0008.000000T0000Z-200210T1700Z/"
+            ],
+            "PIL": [
+                "ALYWSWALY"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T12:00:00-05:00"
+            ]
+        }
+    }
+}
