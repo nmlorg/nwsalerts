@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051748-3439229",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.2099999,
+                    34.49
+                ],
+                [
+                    -85.15,
+                    34.4799999
+                ],
+                [
+                    -85.18,
+                    34.42
+                ],
+                [
+                    -85.12,
+                    34.36
+                ],
+                [
+                    -85.15,
+                    34.33
+                ],
+                [
+                    -85.25,
+                    34.42
+                ],
+                [
+                    -85.2099999,
+                    34.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051748-3439229",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051748-3439229",
+        "areaDesc": "Floyd, GA",
+        "geocode": {
+            "UGC": [
+                "GAC115"
+            ],
+            "SAME": [
+                "013115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC115"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051067-3438679",
+                "identifier": "NWS-IDP-PROD-4051067-3438679",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T03:04:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T11:05:00-05:00",
+        "effective": "2020-02-10T11:05:00-05:00",
+        "onset": "2020-02-10T11:05:00-05:00",
+        "expires": "2020-02-11T01:05:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 10 at 11:05AM EST by NWS Peachtree City GA",
+        "description": "...Observed Flooding Changed from Minor to Minor Severity for the\nfollowing rivers in Georgia...\n\n...Forecast Flooding Changed from Minor to Moderate Severity for the\nfollowing rivers in Georgia...\n\nArmuchee Creek near Armuchee affecting Floyd County\n\n\n.Recent heavy rainfall has caused significant runoff into streams and\nrivers which will cause flooding in some areas.",
+        "instruction": "All persons with interests along the river should monitor the latest\nforecasts...and be prepared to take necessary precautions to protect\nlife and property.\n\nThe latest stage data was furnished in cooperation with the United\nStates Geological Survey.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0087.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLWFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
