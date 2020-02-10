@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051082",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.22,
+                    32.04
+                ],
+                [
+                    -93.35,
+                    32.19
+                ],
+                [
+                    -92.91999999999999,
+                    32.54
+                ],
+                [
+                    -92.77999999999999,
+                    32.25
+                ],
+                [
+                    -93.22,
+                    32.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051082",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051082",
+        "areaDesc": "Bienville; Red River; Natchitoches",
+        "geocode": {
+            "UGC": [
+                "LAZ012",
+                "LAZ011",
+                "LAZ018"
+            ],
+            "SAME": [
+                "022013",
+                "022081",
+                "022069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/LAZ012",
+            "https://api.weather.gov/zones/forecast/LAZ011",
+            "https://api.weather.gov/zones/forecast/LAZ018"
+        ],
+        "references": [],
+        "sent": "2020-02-10T02:13:00-06:00",
+        "effective": "2020-02-10T02:13:00-06:00",
+        "onset": "2020-02-10T02:13:00-06:00",
+        "expires": "2020-02-10T03:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Special Weather Statement issued February 10 at 2:13AM CST by NWS Shreveport LA",
+        "description": "At 212 AM CST, Doppler radar was tracking a strong thunderstorm 10\nmiles southeast of Ringgold, or 29 miles west of Jonesboro, moving\nnortheast at 45 mph.\n\nHalf inch hail will be possible with this storm.\n\nLocations impacted include...\nArcadia, Martin, Hall Summit, Saline, Lucky, Ashland, Castor,\nBienville, Bryceland, Brice, Womack, Friendship and Liberty Hill.",
+        "instruction": "Torrential rainfall is also occurring with this storm, and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.\n\nThis storm may intensify, so be certain to monitor local radio\nstations and available television stations for additional information\nand possible warnings from the National Weather Service.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T02:12:00.000-06:00...storm...231DEG...41KT...32.18,-93.21"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHEASTERN RED RIVER...NORTH CENTRAL NATCHITOCHES AND EASTERN BIENVILLE PARISHES UNTIL 300 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVSPSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
