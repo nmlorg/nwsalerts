@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051664-3439158",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -100.23,
+                    30.82
+                ],
+                [
+                    -99.85000000000001,
+                    31.09
+                ],
+                [
+                    -99.72000000000001,
+                    31.09
+                ],
+                [
+                    -99.60000000000001,
+                    30.99
+                ],
+                [
+                    -99.61000000000001,
+                    30.939999999999998
+                ],
+                [
+                    -99.80000000000001,
+                    30.83
+                ],
+                [
+                    -100.08000000000001,
+                    30.709999999999997
+                ],
+                [
+                    -100.16000000000001,
+                    30.709999999999997
+                ],
+                [
+                    -100.23,
+                    30.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051664-3439158",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051664-3439158",
+        "areaDesc": "Schleicher, TX; Menard, TX",
+        "geocode": {
+            "UGC": [
+                "TXC413",
+                "TXC327"
+            ],
+            "SAME": [
+                "048413",
+                "048327"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC413",
+            "https://api.weather.gov/zones/county/TXC327"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051624-3439121",
+                "identifier": "NWS-IDP-PROD-4051624-3439121",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T09:21:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T09:37:00-06:00",
+        "effective": "2020-02-10T09:37:00-06:00",
+        "onset": "2020-02-10T09:37:00-06:00",
+        "expires": "2020-02-10T10:00:00-06:00",
+        "ends": "2020-02-10T10:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS San Angelo TX",
+        "headline": "Severe Thunderstorm Warning issued February 10 at 9:37AM CST until February 10 at 10:00AM CST by NWS San Angelo TX",
+        "description": "At 936 AM CST, a severe thunderstorm was located 8 miles east of Fort\nMckavett, or 12 miles southwest of Menard, moving northeast at 40\nmph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nThis severe storm will be near...\nMenard around 955 AM CST.\n\nOther locations impacted by this severe thunderstorm include Camp Sol\nMayer, Us-83 Near The Menard-\nConcho County Line and The Intersection Of Us-83 And Highway 29.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T09:36:00.000-06:00...storm...233DEG...34KT...30.83,-99.96"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1000 AM CST FOR SOUTHEASTERN SCHLEICHER AND NORTHWESTERN MENARD COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KSJT.SV.W.0003.000000T0000Z-200210T1600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SJTSVSSJT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T10:00:00-06:00"
+            ]
+        }
+    }
+}
