@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051357-3438914",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.76,
+                    37.21
+                ],
+                [
+                    -78.02000000000001,
+                    37.43
+                ],
+                [
+                    -78.14000000000001,
+                    37.42
+                ],
+                [
+                    -78.12000000000002,
+                    37.510000000000005
+                ],
+                [
+                    -77.91000000000003,
+                    37.52
+                ],
+                [
+                    -77.67000000000003,
+                    37.330000000000005
+                ],
+                [
+                    -77.76,
+                    37.21
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051357-3438914",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051357-3438914",
+        "areaDesc": "Powhatan, VA; Amelia, VA; Chesterfield, VA",
+        "geocode": {
+            "UGC": [
+                "VAC145",
+                "VAC007",
+                "VAC041"
+            ],
+            "SAME": [
+                "051145",
+                "051007",
+                "051041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC145",
+            "https://api.weather.gov/zones/county/VAC007",
+            "https://api.weather.gov/zones/county/VAC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050691-3438375",
+                "identifier": "NWS-IDP-PROD-4050691-3438375",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T20:58:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T06:06:00-05:00",
+        "effective": "2020-02-10T06:06:00-05:00",
+        "onset": "2020-02-10T10:00:00-05:00",
+        "expires": "2020-02-10T18:06:00-05:00",
+        "ends": "2020-02-11T21:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 10 at 6:06AM EST until February 11 at 9:00PM EST by NWS Wakefield VA",
+        "description": "...The Flood Warning continues for the following rivers in\nVirginia...North Carolina..\n\nAppomattox River At Mattoax affecting Amelia...Chesterfield and\nPowhatan Counties\n\nCashie River Near Windsor affecting Bertie County\n\n\nFor the Appomattox Basin...including Mattoax...Minor flooding is\nforecast.For the Lower Roanoke Basin...including Windsor...Minor\nflooding is occurring and is expected to continue.\n\nThe Flood Warning continues for...\nThe Appomattox River At Mattoax\n* from this morning to Tuesday evening...or until the warning is\ncancelled.\n* At 05:30 AM Monday the stage was 20.1 feet.\n* Minor flooding is forecast.\n* Flood stage is 21.0 feet.\n* Forecast...The river will continue rising to near 23.0 feet by\nafter midnight tomorrow. The river will fall below flood stage\ntomorrow afternoon.\n* At 25.0 feet...Agricultural and some secondary roads flooded.\nThis river level is comparable to a previous crest of 23.0 feet on\nOct 11 2006.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KAKQ.FL.W.0008.200210T1500Z-200212T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T21:00:00-05:00"
+            ]
+        }
+    }
+}
