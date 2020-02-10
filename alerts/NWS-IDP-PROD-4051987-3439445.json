@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051987-3439445",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.78,
+                    32.77
+                ],
+                [
+                    -89.78,
+                    32.99
+                ],
+                [
+                    -89.3199999,
+                    33.03
+                ],
+                [
+                    -89.3199999,
+                    32.75
+                ],
+                [
+                    -89.78,
+                    32.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051987-3439445",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051987-3439445",
+        "areaDesc": "Leake, MS; Madison, MS; Attala, MS",
+        "geocode": {
+            "UGC": [
+                "MSC079",
+                "MSC089",
+                "MSC007"
+            ],
+            "SAME": [
+                "028079",
+                "028089",
+                "028007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC079",
+            "https://api.weather.gov/zones/county/MSC089",
+            "https://api.weather.gov/zones/county/MSC007"
+        ],
+        "references": [],
+        "sent": "2020-02-10T13:00:00-06:00",
+        "effective": "2020-02-10T13:00:00-06:00",
+        "onset": "2020-02-10T13:00:00-06:00",
+        "expires": "2020-02-10T13:45:00-06:00",
+        "ends": "2020-02-10T13:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued February 10 at 1:00PM CST until February 10 at 1:45PM CST by NWS Jackson MS",
+        "description": "The National Weather Service in Jackson has issued a\n\n* Severe Thunderstorm Warning for...\nNorthern Leake County in central Mississippi...\nSoutheastern Attala County in central Mississippi...\nNortheastern Madison County in central Mississippi...\n\n* Until 145 PM CST.\n\n* At 100 PM CST, a severe thunderstorm was located near Newport, or\n14 miles south of Durant, moving east at 45 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nThomastown around 110 PM CST.\nSingleton around 120 PM CST.\nRenfroe and Smyrna around 125 PM CST.\nZama around 130 PM CST.\nEdinburg around 135 PM CST.\n\nOther locations impacted by this severe thunderstorm include\nRedwater.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T13:00:00.000-06:00...storm...266DEG...39KT...32.88,-89.77"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KJAN.SV.W.0058.200210T1900Z-200210T1945Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVRJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T13:45:00-06:00"
+            ]
+        }
+    }
+}
