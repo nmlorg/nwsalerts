@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050650-3438335",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.52,
+                    33
+                ],
+                [
+                    -88.61999999999999,
+                    33.07
+                ],
+                [
+                    -88.74999999999999,
+                    33.14
+                ],
+                [
+                    -88.66999999999999,
+                    33.2
+                ],
+                [
+                    -88.54999999999998,
+                    33.13
+                ],
+                [
+                    -88.44999999999999,
+                    33.04
+                ],
+                [
+                    -88.52,
+                    33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050650-3438335",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050650-3438335",
+        "areaDesc": "Noxubee, MS",
+        "geocode": {
+            "UGC": [
+                "MSC103"
+            ],
+            "SAME": [
+                "028103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC103"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049945-3437747",
+                "identifier": "NWS-IDP-PROD-4049945-3437747",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T10:02:00-06:00"
+            }
+        ],
+        "sent": "2020-02-09T19:40:00-06:00",
+        "effective": "2020-02-09T19:40:00-06:00",
+        "onset": "2020-02-10T20:52:00-06:00",
+        "expires": "2020-02-11T01:39:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued February 9 at 7:40PM CST by NWS Jackson MS",
+        "description": "...Forecast flooding changed from Minor to Moderate severity for the\nfollowing rivers in Mississippi...\n\nNoxubee River At Macon affecting Noxubee County",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours. River\nforecasts in the Tombigbee River Basin have an additional  48 hours\nof rainfall added. Rainfall amounts greater than forecast may take\nthe rivers higher.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0077.200211T0252Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLWJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
