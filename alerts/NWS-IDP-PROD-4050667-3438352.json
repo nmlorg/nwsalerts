@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050667-3438352",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.5,
+                    31.92
+                ],
+                [
+                    -96.16,
+                    31.46
+                ],
+                [
+                    -96.3,
+                    31.6
+                ],
+                [
+                    -95.81,
+                    32.03
+                ],
+                [
+                    -95.5,
+                    31.92
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050667-3438352",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050667-3438352",
+        "areaDesc": "Freestone, TX; Anderson, TX",
+        "geocode": {
+            "UGC": [
+                "TXC161",
+                "TXC001"
+            ],
+            "SAME": [
+                "048161",
+                "048001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC161",
+            "https://api.weather.gov/zones/county/TXC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050644-3438329",
+                "identifier": "NWS-IDP-PROD-4050644-3438329",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T19:37:00-06:00"
+            }
+        ],
+        "sent": "2020-02-09T19:47:00-06:00",
+        "effective": "2020-02-09T19:47:00-06:00",
+        "onset": "2020-02-09T19:47:00-06:00",
+        "expires": "2020-02-09T20:30:00-06:00",
+        "ends": "2020-02-09T20:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Severe Thunderstorm Warning issued February 9 at 7:47PM CST until February 9 at 8:30PM CST by NWS Fort Worth TX",
+        "description": "At 746 PM CST, a severe thunderstorm was located 7 miles south of\nFairfield, moving northeast at 45 mph.\n\nHAZARD...Half dollar size hail and wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is possible.\n\nLocations impacted include...\nPalestine, Teague, Fairfield and Fairfield Lake State Park.",
+        "instruction": "For your protection stay inside a sturdy structure and keep away from\nwindows.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-09T19:46:00.000-06:00...storm...227DEG...38KT...31.61,-96.13"
+            ],
+            "hailSize": [
+                1.25
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 830 PM CST FOR CENTRAL FREESTONE AND NORTHWESTERN ANDERSON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KFWD.SV.W.0014.000000T0000Z-200210T0230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDSVSFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-09T20:30:00-06:00"
+            ]
+        }
+    }
+}
