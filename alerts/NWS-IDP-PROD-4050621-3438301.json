@@ -1,0 +1,82 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050621-3438301",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050621-3438301",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050621-3438301",
+        "areaDesc": "Hamilton; Northern Fulton; Western Ulster; Western Greene; Northern Herkimer",
+        "geocode": {
+            "UGC": [
+                "NYZ033",
+                "NYZ082",
+                "NYZ063",
+                "NYZ058",
+                "NYZ032"
+            ],
+            "SAME": [
+                "036041",
+                "036035",
+                "036111",
+                "036039",
+                "036043"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ033",
+            "https://api.weather.gov/zones/forecast/NYZ082",
+            "https://api.weather.gov/zones/forecast/NYZ063",
+            "https://api.weather.gov/zones/forecast/NYZ058",
+            "https://api.weather.gov/zones/forecast/NYZ032"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050214-3437983",
+                "identifier": "NWS-IDP-PROD-4050214-3437983",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T14:52:00-05:00"
+            }
+        ],
+        "sent": "2020-02-09T20:30:00-05:00",
+        "effective": "2020-02-09T20:30:00-05:00",
+        "onset": "2020-02-09T22:00:00-05:00",
+        "expires": "2020-02-10T06:00:00-05:00",
+        "ends": "2020-02-10T12:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albany NY",
+        "headline": "Winter Weather Advisory issued February 9 at 8:30PM EST until February 10 at 12:00PM EST by NWS Albany NY",
+        "description": "* WHAT...Snow expected. Total snow accumulations of 3 to 6\ninches, with locally up to 8 inches across the western\nAdirondacks.\n\n* WHERE...Northern Herkimer, Hamilton, Western Greene, Western\nUlster and Northern Fulton Counties.\n\n* WHEN...From 10 PM this evening to noon EST Monday.\n\n* IMPACTS...Plan on slippery road conditions and reduced\nvisibility. The hazardous conditions will impact the morning\ncommute.\n\n* ADDITIONAL DETAILS...Snowfall rates up to on inch per hour\npossible Monday morning.",
+        "instruction": "Slow down and use caution while traveling.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL NOON EST MONDAY"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KALY.WW.Y.0008.200210T0300Z-200210T1700Z/"
+            ],
+            "PIL": [
+                "ALYWSWALY"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T12:00:00-05:00"
+            ]
+        }
+    }
+}
