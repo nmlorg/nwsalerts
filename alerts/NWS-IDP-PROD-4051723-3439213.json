@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051723-3439213",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.76,
+                    37.21
+                ],
+                [
+                    -78.02000000000001,
+                    37.43
+                ],
+                [
+                    -78.14000000000001,
+                    37.42
+                ],
+                [
+                    -78.12000000000002,
+                    37.510000000000005
+                ],
+                [
+                    -77.91000000000003,
+                    37.52
+                ],
+                [
+                    -77.67000000000003,
+                    37.330000000000005
+                ],
+                [
+                    -77.76,
+                    37.21
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051723-3439213",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051723-3439213",
+        "areaDesc": "Powhatan, VA; Amelia, VA; Chesterfield, VA",
+        "geocode": {
+            "UGC": [
+                "VAC145",
+                "VAC007",
+                "VAC041"
+            ],
+            "SAME": [
+                "051145",
+                "051007",
+                "051041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC145",
+            "https://api.weather.gov/zones/county/VAC007",
+            "https://api.weather.gov/zones/county/VAC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051357-3438914",
+                "identifier": "NWS-IDP-PROD-4051357-3438914",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T06:06:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T10:58:00-05:00",
+        "effective": "2020-02-10T10:58:00-05:00",
+        "onset": "2020-02-10T10:58:00-05:00",
+        "expires": "2020-02-10T22:57:00-05:00",
+        "ends": "2020-02-11T21:06:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 10 at 10:58AM EST until February 11 at 9:06PM EST by NWS Wakefield VA",
+        "description": "...The Flood Warning is cancelled for the following rivers in North\nCarolina...\n\nCashie River Near Windsor affecting Bertie County\n\n...The Flood Warning continues for the following rivers in\nVirginia...\n\nAppomattox River At Mattoax affecting Amelia...Chesterfield and\nPowhatan Counties\n\n...The Flood Warning continues for the following rivers in Virginia..\n\nNottoway River At Sebrell affecting Southampton County\n\n\nFor the Appomattox Basin...including Mattoax...Minor flooding is\nforecast.For the Chowan Basin...including Sebrell...Minor flooding is\nforecast.For the Lower Roanoke Basin...including Windsor...no\nflooding is observed or forecast.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Warning has been extended until Tuesday evening...The Flood Warning continues for"
+            ],
+            "VTEC": [
+                "/O.EXT.KAKQ.FL.W.0008.000000T0000Z-200212T0206Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T21:06:00-05:00"
+            ]
+        }
+    }
+}
