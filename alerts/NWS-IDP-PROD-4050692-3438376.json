@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050692-3438376",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.8,
+                    37.7
+                ],
+                [
+                    -77.44,
+                    37.56
+                ],
+                [
+                    -77.49,
+                    37.47
+                ],
+                [
+                    -77.69999999999999,
+                    37.53
+                ],
+                [
+                    -77.85,
+                    37.6
+                ],
+                [
+                    -77.8,
+                    37.7
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050692-3438376",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050692-3438376",
+        "areaDesc": "Henrico, VA; City of Richmond, VA; Chesterfield, VA",
+        "geocode": {
+            "UGC": [
+                "VAC087",
+                "VAC760",
+                "VAC041"
+            ],
+            "SAME": [
+                "051087",
+                "051760",
+                "051041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC087",
+            "https://api.weather.gov/zones/county/VAC760",
+            "https://api.weather.gov/zones/county/VAC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050260-3438026",
+                "identifier": "NWS-IDP-PROD-4050260-3438026",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T15:17:00-05:00"
+            }
+        ],
+        "sent": "2020-02-09T20:58:00-05:00",
+        "effective": "2020-02-09T20:58:00-05:00",
+        "onset": "2020-02-09T20:58:00-05:00",
+        "expires": "2020-02-10T05:00:00-05:00",
+        "ends": "2020-02-10T05:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 9 at 8:58PM EST until February 10 at 5:00AM EST by NWS Wakefield VA",
+        "description": "...The Flood Warning continues for the following rivers in\nVirginia...North Carolina...\n\nAppomattox River At Mattoax affecting Amelia...Chesterfield and\nPowhatan Counties\n\nNottoway River Near Stony Creek affecting Sussex County\n\nCashie River Near Windsor affecting Bertie County\n\n...The Flood Warning continues for the following rivers in Virginia..\n\nJames River At Richmond Westham affecting Chesterfield...City of\nRichmond and Henrico Counties\n\nFor the Lower James Basin...including Richmond Westham...Minor\nflooding is occurring and is expected to continue.For the Appomattox\nBasin...including Mattoax...Minor flooding is forecast.For the Chowan\nBasin...including Stony Creek...Minor flooding is occurring and is\nexpected to continue.For the Lower Roanoke Basin...including\nWindsor...Minor flooding is occurring and is expected to continue.\n\nThe Flood Warning continues for...\nThe James River At Richmond Westham\n* until late tonight...or until the warning is cancelled.\n* At 08:30 PM Sunday the stage was 12.2 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 12.0 feet.\n* Forecast...The river will continue to fall to below flood stage by\ntonight.\n* At 12.0 feet...Flood stage. Minor flooding along both banks, no\ndamage at this level.\nThis river level is comparable to a previous crest of 12.2 feet on\nApr 22 2015.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KAKQ.FL.W.0005.000000T0000Z-200210T1000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T05:00:00-05:00"
+            ]
+        }
+    }
+}
