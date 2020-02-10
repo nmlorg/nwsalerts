@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051058",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.52,
+                    31.85
+                ],
+                [
+                    -93.63,
+                    32
+                ],
+                [
+                    -93.25,
+                    32.2299999
+                ],
+                [
+                    -93.06,
+                    31.970000000000002
+                ],
+                [
+                    -93.52,
+                    31.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051058",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051058",
+        "areaDesc": "Red River; De Soto; Natchitoches",
+        "geocode": {
+            "UGC": [
+                "LAZ011",
+                "LAZ010",
+                "LAZ018"
+            ],
+            "SAME": [
+                "022081",
+                "022031",
+                "022069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/LAZ011",
+            "https://api.weather.gov/zones/forecast/LAZ010",
+            "https://api.weather.gov/zones/forecast/LAZ018"
+        ],
+        "references": [],
+        "sent": "2020-02-10T01:48:00-06:00",
+        "effective": "2020-02-10T01:48:00-06:00",
+        "onset": "2020-02-10T01:48:00-06:00",
+        "expires": "2020-02-10T02:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Special Weather Statement issued February 10 at 1:48AM CST by NWS Shreveport LA",
+        "description": "At 147 AM CST, Doppler radar was tracking a strong thunderstorm 9\nmiles west of Coushatta, or 13 miles east of Mansfield, moving\nnortheast at 50 mph.\n\nHalf inch hail will be possible with this storm.\n\nLocations impacted include...\nCoushatta, Martin, Hall Summit, Ashland, Edgefield, Lake End, Evelyn,\nGrand Bayou, Hanna, Womack, Black Lake, Rambin and Armistead.",
+        "instruction": "Torrential rainfall is also occurring with this storm, and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.\n\nThis storm may intensify, so be certain to monitor local radio\nstations and available television stations for additional information\nand possible warnings from the National Weather Service.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T01:47:00.000-06:00...storm...237DEG...41KT...31.98,-93.49"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHEASTERN DE SOTO...RED RIVER AND NORTHWESTERN NATCHITOCHES PARISHES UNTIL 215 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVSPSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051053-3438670",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.89,
+                    34.7299999
+                ],
+                [
+                    -84.83,
+                    34.720000000000006
+                ],
+                [
+                    -84.88,
+                    34.63
+                ],
+                [
+                    -84.94999999999999,
+                    34.63
+                ],
+                [
+                    -84.96999999999998,
+                    34.71
+                ],
+                [
+                    -84.89,
+                    34.7299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051053-3438670",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051053-3438670",
+        "areaDesc": "Whitfield, GA; Murray, GA; Gordon, GA",
+        "geocode": {
+            "UGC": [
+                "GAC313",
+                "GAC213",
+                "GAC129"
+            ],
+            "SAME": [
+                "013313",
+                "013213",
+                "013129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC313",
+            "https://api.weather.gov/zones/county/GAC213",
+            "https://api.weather.gov/zones/county/GAC129"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050718-3438402",
+                "identifier": "NWS-IDP-PROD-4050718-3438402",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T21:11:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T02:46:00-05:00",
+        "effective": "2020-02-10T02:46:00-05:00",
+        "onset": "2020-02-10T02:46:00-05:00",
+        "expires": "2020-02-10T16:45:00-05:00",
+        "ends": "2020-02-14T19:40:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 10 at 2:46AM EST until February 14 at 7:40PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\nConasauga River near Tilton affecting Gordon...Murray and\nWhitfield Counties\n\nConasauga River near Sloan Bridge near Dalton affecting Gordon...\nMurray and Whitfield Counties\n\nThe Flood Warning continues for\nThe Conasauga River near Tilton.\n* From Wednesday morning until Friday evening.\n* At 2 AM Monday the stage was 20.8 feet...and falling.\n* Minor flooding is occurring.\n* Flood stage is 18 feet.\n* The river will continue to fall to below flood stage by Friday\nearly afternoon.\n* At 21 feet...Minor flooding continues to expand further into the\nwoodlands...fields and pastures along the river upstream and\ndownstream from the gage on the Brackett Ridge Road bridge.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0044.000000T0000Z-200215T0040Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T19:40:00-05:00"
+            ]
+        }
+    }
+}
