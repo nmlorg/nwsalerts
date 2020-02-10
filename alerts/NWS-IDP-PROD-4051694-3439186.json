@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051694-3439186",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    35.03
+                ],
+                [
+                    -85.33,
+                    35.02
+                ],
+                [
+                    -85.45,
+                    34.84
+                ],
+                [
+                    -85.49000000000001,
+                    34.71
+                ],
+                [
+                    -85.56,
+                    34.7299999
+                ],
+                [
+                    -85.53,
+                    34.870000000000005
+                ],
+                [
+                    -85.39,
+                    35.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051694-3439186",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051694-3439186",
+        "areaDesc": "Dade, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC083",
+                "TNC065"
+            ],
+            "SAME": [
+                "013083",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC083",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051054-3438671",
+                "identifier": "NWS-IDP-PROD-4051054-3438671",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T02:46:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T10:51:00-05:00",
+        "effective": "2020-02-10T10:51:00-05:00",
+        "onset": "2020-02-10T20:30:00-05:00",
+        "expires": "2020-02-11T00:50:00-05:00",
+        "ends": "2020-02-12T12:34:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 10 at 10:51AM EST until February 12 at 12:34PM EST by NWS Peachtree City GA",
+        "description": "...The National Weather Service in Peachtree City has issued a Flood\nWarning for the following rivers in Georgia...\n\nWest Chickamauga Creek near Fort Oglethorpe affecting Catoosa and\nHamilton Counties\n\n...Forecast Flooding Changed from Minor to Moderate Severity for the\nfollowing rivers in Georgia...\n\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\n\n.Recent heavy rainfall has caused significant runoff into streams and\nrivers which will cause flooding in some areas.",
+        "instruction": "All persons with interests along the river should monitor the latest\nforecasts...and be prepared to take necessary precautions to protect\nlife and property.\n\nThe latest stage data was furnished in cooperation with the United\nStates Geological Survey.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity...The Flood Warning continues for The Lookout Creek near New England. * Until Wednesday afternoon. * At 10 AM Monday the stage was 8.6 feet...and rising. * Moderate flooding is forecast. * Flood stage is 12 feet. * Forecast to rise above flood stage by this evening and continue to rise to near 17 feet by early Tuesday afternoon. The river will fall below flood stage by Wednesday morning. * At 17 feet...Moderate flooding begins. Several small buildings near the New England hang gliding recreation park begin to flood. Several roads in Dade county will be closed including Sells Lane"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0132.200211T0130Z-200212T1734Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLWFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T12:34:00-05:00"
+            ]
+        }
+    }
+}

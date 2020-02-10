@@ -1,0 +1,86 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051692",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -101.2,
+                    30.29
+                ],
+                [
+                    -100.83,
+                    30.29
+                ],
+                [
+                    -101.22,
+                    30.009999999999998
+                ],
+                [
+                    -101.36,
+                    30.13
+                ],
+                [
+                    -101.2,
+                    30.29
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051692",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051692",
+        "areaDesc": "Val Verde",
+        "geocode": {
+            "UGC": [
+                "TXZ183"
+            ],
+            "SAME": [
+                "048465"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TXZ183"
+        ],
+        "references": [],
+        "sent": "2020-02-10T09:51:00-06:00",
+        "effective": "2020-02-10T09:51:00-06:00",
+        "onset": "2020-02-10T09:51:00-06:00",
+        "expires": "2020-02-10T10:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Austin/San Antonio TX",
+        "headline": "Special Weather Statement issued February 10 at 9:51AM CST by NWS Austin/San Antonio TX",
+        "description": "At 951 AM CST, Doppler radar was tracking a strong thunderstorm 7\nmiles west of Juno, moving northeast at 35 mph.\n\nHalf inch hail will be possible with this storm.\n\nLocations impacted include...\nJuno.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T09:51:00.000-06:00...storm...225DEG...29KT...30.13,-101.23"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTH CENTRAL VAL VERDE COUNTY UNTIL 1030 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EWXSPSEWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
