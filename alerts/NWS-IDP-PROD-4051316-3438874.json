@@ -1,0 +1,80 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051316-3438874",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051316-3438874",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051316-3438874",
+        "areaDesc": "Esmeralda and Central Nye County; Lincoln County; Western Clark and Southern Nye County",
+        "geocode": {
+            "UGC": [
+                "NVZ014",
+                "NVZ015",
+                "NVZ017"
+            ],
+            "SAME": [
+                "032009",
+                "032023",
+                "032017",
+                "032003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NVZ014",
+            "https://api.weather.gov/zones/forecast/NVZ015",
+            "https://api.weather.gov/zones/forecast/NVZ017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050137-3437918",
+                "identifier": "NWS-IDP-PROD-4050137-3437918",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T10:24:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049645-3437491",
+                "identifier": "NWS-IDP-PROD-4049645-3437491",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T03:50:00-08:00"
+            }
+        ],
+        "sent": "2020-02-10T02:45:00-08:00",
+        "effective": "2020-02-10T02:45:00-08:00",
+        "onset": "2020-02-10T02:45:00-08:00",
+        "expires": "2020-02-10T03:45:00-08:00",
+        "ends": "2020-02-10T03:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Las Vegas NV",
+        "headline": "Wind Advisory issued February 10 at 2:45AM PST until February 10 at 3:00AM PST by NWS Las Vegas NV",
+        "description": "Gusty north winds will linger through the day but wind gusts will\nbe predominantly below 40 mph.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY WILL EXPIRE AT 3 AM PST EARLY THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXP.KVEF.WI.Y.0008.000000T0000Z-200210T1100Z/"
+            ],
+            "PIL": [
+                "VEFNPWVEF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T03:00:00-08:00"
+            ]
+        }
+    }
+}
