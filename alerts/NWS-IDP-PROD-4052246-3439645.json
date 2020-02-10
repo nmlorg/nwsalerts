@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052246-3439645",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.24,
+                    34.53
+                ],
+                [
+                    -86.78,
+                    34.99
+                ],
+                [
+                    -85.61,
+                    34.99
+                ],
+                [
+                    -85.52,
+                    34.56
+                ],
+                [
+                    -86.24,
+                    34.53
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052246-3439645",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052246-3439645",
+        "areaDesc": "Madison, AL; DeKalb, AL; Marshall, AL; Jackson, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089",
+                "ALC049",
+                "ALC095",
+                "ALC071"
+            ],
+            "SAME": [
+                "001089",
+                "001049",
+                "001095",
+                "001071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089",
+            "https://api.weather.gov/zones/county/ALC049",
+            "https://api.weather.gov/zones/county/ALC095",
+            "https://api.weather.gov/zones/county/ALC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052027-3439483",
+                "identifier": "NWS-IDP-PROD-4052027-3439483",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T13:18:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T15:22:00-06:00",
+        "effective": "2020-02-10T15:22:00-06:00",
+        "onset": "2020-02-10T15:22:00-06:00",
+        "expires": "2020-02-10T17:15:00-06:00",
+        "ends": "2020-02-10T17:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 10 at 3:22PM CST until February 10 at 5:15PM CST by NWS Huntsville AL",
+        "description": "At 321 PM CST, Doppler radar and automated rain gauges indicated\nindicated up to two inches of rain have already fallen over the\nwarned area. Hazardous travel conditions will be present in low\nlying or poor drainage areas, particularly near rivers, creeks, and\nstreams. Many rivers have already entered action or minor flood\nstage and will continue to rise overnight.\n\nSome locations that will experience flooding include...\nNorthern Huntsville, Scottsboro, Bridgeport, Moores Mill,\nMeridianville, Hazel Green, Henagar, Stevenson, Sylvania and\nHollywood.\n\nAdditional rainfall amounts of 1 to 2 inches are possible in the\nwarned area this evening and overnight.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nA Flood Warning means that flooding is imminent or occurring. All\ninterested parties should take necessary precautions immediately.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "A FLOOD WARNING REMAINS IN EFFECT UNTIL 515 PM CST FOR JACKSON... NORTH CENTRAL MARSHALL...NORTHEASTERN MADISON AND NORTHEASTERN DEKALB COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KHUN.FA.W.0021.000000T0000Z-200210T2315Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T17:15:00-06:00"
+            ]
+        }
+    }
+}
