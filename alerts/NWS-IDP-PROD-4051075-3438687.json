@@ -1,0 +1,125 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051075-3438687",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.51,
+                    33.72
+                ],
+                [
+                    -89.42,
+                    33.72
+                ],
+                [
+                    -89.35000000000001,
+                    33.62
+                ],
+                [
+                    -89.63000000000001,
+                    33.51
+                ],
+                [
+                    -89.76,
+                    33.669999999999995
+                ],
+                [
+                    -89.51,
+                    33.849999999999994
+                ],
+                [
+                    -89.51,
+                    33.72
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051075-3438687",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4051075-3438687",
+        "areaDesc": "Webster, MS; Grenada, MS; Montgomery, MS",
+        "geocode": {
+            "UGC": [
+                "MSC155",
+                "MSC043",
+                "MSC097"
+            ],
+            "SAME": [
+                "028155",
+                "028043",
+                "028097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC155",
+            "https://api.weather.gov/zones/county/MSC043",
+            "https://api.weather.gov/zones/county/MSC097"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051061-3438674",
+                "identifier": "NWS-IDP-PROD-4051061-3438674",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T01:51:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051051-3438668",
+                "identifier": "NWS-IDP-PROD-4051051-3438668",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T01:37:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T02:09:00-06:00",
+        "effective": "2020-02-10T02:09:00-06:00",
+        "onset": "2020-02-10T02:09:00-06:00",
+        "expires": "2020-02-10T02:30:00-06:00",
+        "ends": "2020-02-10T02:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Severe Thunderstorm Warning issued February 10 at 2:09AM CST until February 10 at 2:30AM CST by NWS Jackson MS",
+        "description": "At 208 AM CST, a severe thunderstorm was located over Duck Hill, or 9\nmiles north of Winona, moving northeast at 55 mph.\n\nHAZARD...Ping pong ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect wind\ndamage to roofs, siding, and trees.\n\nThis severe storm will be near...\nMisterton and Gore Springs around 215 AM CST.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTo report severe weather contact your nearest law enforcement agency.\nThey will send your report to the National Weather Service office in\nJackson.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T02:08:00.000-06:00...storm...236DEG...46KT...33.62,-89.67"
+            ],
+            "hailSize": [
+                1.5
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 230 AM CST FOR SOUTHEASTERN GRENADA...NORTHWESTERN WEBSTER AND NORTHWESTERN MONTGOMERY COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.SV.W.0054.000000T0000Z-200210T0830Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T02:30:00-06:00"
+            ]
+        }
+    }
+}
