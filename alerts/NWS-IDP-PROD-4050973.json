@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050973",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.8199999,
+                    33.9
+                ],
+                [
+                    -92.56,
+                    34.089999999999996
+                ],
+                [
+                    -92.3199999,
+                    33.94
+                ],
+                [
+                    -92.64,
+                    33.8
+                ],
+                [
+                    -92.69,
+                    33.8
+                ],
+                [
+                    -92.8199999,
+                    33.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050973",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050973",
+        "areaDesc": "Cleveland; Dallas",
+        "geocode": {
+            "UGC": [
+                "ARZ063",
+                "ARZ062"
+            ],
+            "SAME": [
+                "005025",
+                "005039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ARZ063",
+            "https://api.weather.gov/zones/forecast/ARZ062"
+        ],
+        "references": [],
+        "sent": "2020-02-09T22:49:00-06:00",
+        "effective": "2020-02-09T22:49:00-06:00",
+        "onset": "2020-02-09T22:49:00-06:00",
+        "expires": "2020-02-09T23:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Special Weather Statement issued February 9 at 10:49PM CST by NWS Little Rock AR",
+        "description": "At 1048 PM CST, Doppler radar was tracking a strong thunderstorm 9\nmiles northwest of Bearden, or 16 miles west of Fordyce, moving\nnortheast at 55 mph. The storm was gradually weakening.\n\nPenny to nickel size hail will be possible with this storm.\n\nLocations impacted include...\nCarthage...                       Princeton...\nPine Grove...                     Ivan...\nBunn...                           Ramsey...\nHolly Springs...",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-09T22:48:00.000-06:00...storm...235DEG...50KT...33.86,-92.69"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR WEST CENTRAL CLEVELAND AND EASTERN DALLAS COUNTIES UNTIL 1115 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKSPSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
