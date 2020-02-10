@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050635-3438320",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.98,
+                    34.72
+                ],
+                [
+                    -77.86,
+                    34.72
+                ],
+                [
+                    -77.76,
+                    34.6
+                ],
+                [
+                    -77.79,
+                    34.45
+                ],
+                [
+                    -77.88000000000001,
+                    34.440000000000005
+                ],
+                [
+                    -77.88000000000001,
+                    34.57000000000001
+                ],
+                [
+                    -77.98,
+                    34.72
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050635-3438320",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050635-3438320",
+        "areaDesc": "Pender, NC",
+        "geocode": {
+            "UGC": [
+                "NCC141"
+            ],
+            "SAME": [
+                "037141"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC141"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4049863-3437666",
+                "identifier": "NWS-IDP-PROD-4049863-3437666",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T10:12:00-05:00"
+            }
+        ],
+        "sent": "2020-02-09T20:35:00-05:00",
+        "effective": "2020-02-09T20:35:00-05:00",
+        "onset": "2020-02-10T13:00:00-05:00",
+        "expires": "2020-02-10T12:34:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued February 9 at 8:35PM EST by NWS Wilmington NC",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nCape Fear At Elizabethtown affecting Bladen County NC\nCape Fear At Lock And Dam 1 affecting Bladen County NC\nNortheast Cape Fear Near Burgaw affecting Pender County NC\n\n...The Flood Warning continues for the following rivers...\n\nCape Fear At William O Huske Lock And Dam 3 affecting Bladen County NC\nLumber Near Lumberton affecting Robeson County NC\nLittle Pee Dee At Galivants Ferry affecting Dillon...Horry and Marion Counties\nSC\nGreat Pee Dee At Pee Dee affecting Marion and Florence Counties SC\nBlack Creek At Quinby affecting Darlington and Florence Counties SC\nLynches At Effingham affecting Florence County SC\nBlack At Kingstree affecting Williamsburg County SC",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning now in effect until further notice"
+            ],
+            "VTEC": [
+                "/O.EXT.KILM.FL.W.0018.200210T1800Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
