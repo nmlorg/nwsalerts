@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052015-3439472",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.36,
+                    39.6
+                ],
+                [
+                    -87.4,
+                    39.43
+                ],
+                [
+                    -87.5699999,
+                    39.3
+                ],
+                [
+                    -87.63,
+                    39.32
+                ],
+                [
+                    -87.47,
+                    39.45
+                ],
+                [
+                    -87.41,
+                    39.6
+                ],
+                [
+                    -87.36,
+                    39.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052015-3439472",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052015-3439472",
+        "areaDesc": "Crawford, IL; Sullivan, IN; Clark, IL; Vigo, IN",
+        "geocode": {
+            "UGC": [
+                "ILC033",
+                "INC153",
+                "ILC023",
+                "INC167"
+            ],
+            "SAME": [
+                "017033",
+                "018153",
+                "017023",
+                "018167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC033",
+            "https://api.weather.gov/zones/county/INC153",
+            "https://api.weather.gov/zones/county/ILC023",
+            "https://api.weather.gov/zones/county/INC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051799-3439273",
+                "identifier": "NWS-IDP-PROD-4051799-3439273",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T11:25:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T14:11:00-05:00",
+        "effective": "2020-02-10T14:11:00-05:00",
+        "onset": "2020-02-10T23:56:00-05:00",
+        "expires": "2020-02-11T14:09:00-05:00",
+        "ends": "2020-02-17T04:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued February 10 at 2:10PM EST until February 17 at 4:00AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nDriftwood River...East Fork White River...Eel River...Mississinewa\nRiver...Wabash River...White River...Youngs Creek...\n\n\n.Precipitation of up to about 2 inches fell Sunday into Monday,\nheaviest within 50 miles north and south of Interstate 70 across\nthe state.  Flooding is expected to occur at several locations on the\nWabash River from Montezuma southward, and on the White River from\nCenterton southward.  Flooding along the lower reaches will last past\nFebruary 20.\n\nThe latest forecast model data is predicting flood crests to\ngenerally be close to, but probably slightly below, what we saw in\nJanuary.  Crests along the White River are expected to come close to\nmoderate flood state at Spencer, Elliston, Newberry, and Edwardsport.\nCounty, state, and federal roads and some river cabins may be\nimpacted.  In addition, a few homes in Waverly may be affected. The\nMississinewa River near Ridgeville will come near or perhaps onto\nState Road 1 near State Road 28.\n\nFlooding on the Driftwood River is expected to last no more than a\ncouple days.\n\nThe Flood Warning continues for\nThe Wabash River at Terre Haute.\n* from this evening to Monday February 17.\n* At 12:30 PM Monday the stage was 13.5 feet. This is 2.0 to 2.5 feet\nhigher than the observations from the old legacy gauge.\n* Flood stage is 16.5 feet. This is 2.5 feet higher than flood stage\nfrom the old legacy gauge.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by this evening and continue to\nrise to near 17.8 feet by late Tuesday night.  It will fall below\nflood stage by Sunday afternoon.\n* At 17.5 feet...A few sloughs and a drainage have water in them in\nthe vicinity of SR 63 on the west side of the Wabash River.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0067.200211T0456Z-200217T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T04:00:00-05:00"
+            ]
+        }
+    }
+}
