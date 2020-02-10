@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050732-3438416",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.91,
+                    33.5
+                ],
+                [
+                    -81.78999999999999,
+                    33.26
+                ],
+                [
+                    -81.89999999999999,
+                    33.15
+                ],
+                [
+                    -82.05,
+                    33.5
+                ],
+                [
+                    -81.91,
+                    33.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050732-3438416",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050732-3438416",
+        "areaDesc": "Aiken, SC; Richmond, GA",
+        "geocode": {
+            "UGC": [
+                "SCC003",
+                "GAC245"
+            ],
+            "SAME": [
+                "045003",
+                "013245"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC003",
+            "https://api.weather.gov/zones/county/GAC245"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050185-3437959",
+                "identifier": "NWS-IDP-PROD-4050185-3437959",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T14:22:00-05:00"
+            }
+        ],
+        "sent": "2020-02-09T21:15:00-05:00",
+        "effective": "2020-02-09T21:15:00-05:00",
+        "onset": "2020-02-12T07:00:00-05:00",
+        "expires": "2020-02-10T21:14:00-05:00",
+        "ends": "2020-02-13T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued February 9 at 9:15PM EST until February 13 at 7:00PM EST by NWS Columbia SC",
+        "description": "...The Flood Warning continues for the following rivers in South\nCarolina...\n\nPee Dee River At Cheraw affecting Chesterfield and Marlboro Counties\n\nWateree River At Lake Wateree affecting Fairfield...Kershaw and\nLancaster Counties\n\nWateree River Near Camden affecting Kershaw County\n\nSaluda River At Chappells affecting Greenwood...Newberry and Saluda\nCounties\n\nCongaree River At Columbia affecting Lexington and Richland Counties\n\nCongaree River At Carolina Eastman affecting Calhoun...Lexington\nand Richland Counties\n\nCongaree River At Congaree National Park-Gadsden affecting Calhoun\nand Richland Counties\n\nNorth Fork Edisto River At Orangeburg affecting Orangeburg County\n\n...The Flood Warning continues for the following rivers in Georgia...\n\nSavannah River at Augusta affecting Richmond and Aiken Counties\n\n.Elevated flows from upstream continue to affect most area rivers\nfollowing the significant rain event last Thursday.\n\nThe Flood Warning extended for\nThe Savannah River at Augusta.\n* from Wednesday morning to Thursday evening...Or until the warning\nis cancelled.\n* At  8 PM Sunday the stage was 114.4 feet.\n* Flood stage is 117.5 feet.\n* Minor flooding is forecast.\n* forecast...The river will rise above flood stage Wednesday morning\nand crest around 117.6 feet early Wednesday afternoon.\nThe river will fall below flood stage by Wednesday evening.\n* At 117.5 feet...Flood stage. Extensive areas of New Savannah Bluff\nLock and Dam Park including park roads and bridges become flooded.\nLow farm areas immediately adjacent to the river begin to flood.\n* At 115.4 feet...Playground equipment and footbridge in the New\nSavannah Bluff Lock and Dam Park becomes flooded. Drainage ditches\nin the park are also flooded.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCAE.FL.W.0021.200212T1200Z-200214T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T19:00:00-05:00"
+            ]
+        }
+    }
+}
