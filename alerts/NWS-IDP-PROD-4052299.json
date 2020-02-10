@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052299",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.86,
+                    33.06
+                ],
+                [
+                    -93.99,
+                    33.21
+                ],
+                [
+                    -93.3199999,
+                    33.7
+                ],
+                [
+                    -93.12,
+                    33.49
+                ],
+                [
+                    -93.86,
+                    33.06
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052299",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052299",
+        "areaDesc": "Miller; Hempstead; Nevada; Columbia; Lafayette",
+        "geocode": {
+            "UGC": [
+                "ARZ070",
+                "ARZ060",
+                "ARZ061",
+                "ARZ072",
+                "ARZ071"
+            ],
+            "SAME": [
+                "005091",
+                "005057",
+                "005099",
+                "005027",
+                "005073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ARZ070",
+            "https://api.weather.gov/zones/forecast/ARZ060",
+            "https://api.weather.gov/zones/forecast/ARZ061",
+            "https://api.weather.gov/zones/forecast/ARZ072",
+            "https://api.weather.gov/zones/forecast/ARZ071"
+        ],
+        "references": [],
+        "sent": "2020-02-10T16:11:00-06:00",
+        "effective": "2020-02-10T16:11:00-06:00",
+        "onset": "2020-02-10T16:11:00-06:00",
+        "expires": "2020-02-10T17:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Special Weather Statement issued February 10 at 4:11PM CST by NWS Shreveport LA",
+        "description": "At 410 PM CST, Doppler radar was tracking a strong thunderstorm near\nFouke, or 18 miles east of Atlanta, moving northeast at 50 mph.\n\nHalf inch hail will be possible with this storm.\n\nLocations impacted include...\nStamps, Lewisville, Fouke, Buckner, Rosston, Garland, Willisville,\nBodcaw, Patmos, Pleasant Valley, Waterloo, Falcon, Mount Moriah,\nSpirit Lake, Fort Lynn, Piney Grove and McKamie.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T16:10:00.000-06:00...storm...231DEG...46KT...33.19,-93.86"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHEASTERN HEMPSTEAD...SOUTHERN MILLER...NORTHERN LAFAYETTE...SOUTHERN NEVADA AND NORTHWESTERN COLUMBIA COUNTIES UNTIL 500 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVSPSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
