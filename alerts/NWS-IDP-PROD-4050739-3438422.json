@@ -1,0 +1,82 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050739-3438422",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050739-3438422",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4050739-3438422",
+        "areaDesc": "Madison; Otsego; Sullivan; Chenango; Delaware",
+        "geocode": {
+            "UGC": [
+                "NYZ036",
+                "NYZ046",
+                "NYZ062",
+                "NYZ045",
+                "NYZ057"
+            ],
+            "SAME": [
+                "036053",
+                "036077",
+                "036105",
+                "036017",
+                "036025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ036",
+            "https://api.weather.gov/zones/forecast/NYZ046",
+            "https://api.weather.gov/zones/forecast/NYZ062",
+            "https://api.weather.gov/zones/forecast/NYZ045",
+            "https://api.weather.gov/zones/forecast/NYZ057"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4050224-3437993",
+                "identifier": "NWS-IDP-PROD-4050224-3437993",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-09T14:59:00-05:00"
+            }
+        ],
+        "sent": "2020-02-09T21:23:00-05:00",
+        "effective": "2020-02-09T21:23:00-05:00",
+        "onset": "2020-02-09T22:00:00-05:00",
+        "expires": "2020-02-10T11:00:00-05:00",
+        "ends": "2020-02-10T11:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Binghamton NY",
+        "headline": "Winter Weather Advisory issued February 9 at 9:23PM EST until February 10 at 11:00AM EST by NWS Binghamton NY",
+        "description": "* WHAT...Snow expected. Total snow accumulations of 2 to 5\ninches.\n\n* WHERE...Madison, Chenango, Otsego, Delaware and Sullivan\ncounties.\n\n* WHEN...From 10 PM this evening to 11 AM EST Monday.\n\n* IMPACTS...Plan on slippery road conditions. The hazardous\nconditions could impact the morning commute.\n\n* ADDITIONAL DETAILS...Highest amounts will be across the higher\nelevations of the Catskills. Steadiest snow will be before\nsunrise, then snow starts to mix with rain after daybreak.",
+        "instruction": "Slow down and use caution while traveling.\n\nThe latest road conditions for the state you are calling from can\nbe obtained by calling 5 1 1.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL 11 AM EST MONDAY"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KBGM.WW.Y.0009.200210T0300Z-200210T1600Z/"
+            ],
+            "PIL": [
+                "BGMWSWBGM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T11:00:00-05:00"
+            ]
+        }
+    }
+}
