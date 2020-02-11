@@ -1,0 +1,91 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052802-3440100",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.13,
+                    38.04
+                ],
+                [
+                    -84.25,
+                    38.1599999
+                ],
+                [
+                    -84.33,
+                    38.29
+                ],
+                [
+                    -84.22,
+                    38.35
+                ],
+                [
+                    -84.14,
+                    38.2299999
+                ],
+                [
+                    -84.01,
+                    38.11
+                ],
+                [
+                    -84.13,
+                    38.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052802-3440100",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052802-3440100",
+        "areaDesc": "Bourbon, KY",
+        "geocode": {
+            "UGC": [
+                "KYC017"
+            ],
+            "SAME": [
+                "021017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC017"
+        ],
+        "references": [],
+        "sent": "2020-02-10T23:00:00-05:00",
+        "effective": "2020-02-10T23:00:00-05:00",
+        "onset": "2020-02-10T23:00:00-05:00",
+        "expires": "2020-02-11T17:00:00-05:00",
+        "ends": "2020-02-12T11:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Advisory issued February 10 at 11:00PM EST until February 12 at 11:00AM EST by NWS Louisville KY",
+        "description": "...The National Weather Service in Louisville KY has issued a Flood\nAdvisory for the Stoner Creek...\n\nStoner Creek at Paris\n\naffecting the following counties in Kentucky...Bourbon.\n\nThe National Weather Service in Louisville KY has issued a\n* Flood Advisory for\nthe Stoner Creek at Paris.\n* until Wednesday morning.\n* At 10:15 PM Monday the stage was 16.8 feet.\n* Flood stage is 18.0 feet.\n* Forecast...The river will rise to near 17.6 feet Tuesday afternoon.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLMK.FL.Y.0007.200211T0400Z-200212T1600Z/"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T11:00:00-05:00"
+            ]
+        }
+    }
+}
