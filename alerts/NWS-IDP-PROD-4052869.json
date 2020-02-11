@@ -1,0 +1,88 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052869",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -106.9599999,
+                    32.14
+                ],
+                [
+                    -107.05,
+                    32.2
+                ],
+                [
+                    -106.86,
+                    32.4799999
+                ],
+                [
+                    -106.65,
+                    32.330000000000005
+                ],
+                [
+                    -106.9599999,
+                    32.14
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052869",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052869",
+        "areaDesc": "Northern Dona Ana County; Southern Dona Ana County/Mesilla Valley",
+        "geocode": {
+            "UGC": [
+                "NMZ410",
+                "NMZ411"
+            ],
+            "SAME": [
+                "035013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NMZ410",
+            "https://api.weather.gov/zones/forecast/NMZ411"
+        ],
+        "references": [],
+        "sent": "2020-02-10T22:37:00-07:00",
+        "effective": "2020-02-10T22:37:00-07:00",
+        "onset": "2020-02-10T22:37:00-07:00",
+        "expires": "2020-02-10T23:15:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS El Paso TX/Santa Teresa NM",
+        "headline": "Special Weather Statement issued February 10 at 10:37PM MST by NWS El Paso TX/Santa Teresa NM",
+        "description": "At 1037 PM MST, Doppler radar was tracking a strong thunderstorm 9\nmiles north of Afton, moving northeast at 25 mph.\n\nHalf inch hail and winds in excess of 30 mph will be possible with\nthis storm.\n\nLocations impacted include...\nLeasburg, Las Cruces, NMSU Main Campus, Dona Ana, Mesilla, Fairacres,\nPicacho, San Pablo, Hill, Northeast Las Cruces and Mesilla Valley\nBosque State Park.",
+        "instruction": "Frequent cloud to ground lightning is occurring with this storm.\nLightning can strike 10 miles away from a thunderstorm. Seek a safe\nshelter inside a building or vehicle.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T22:37:00.000-07:00...storm...223DEG...22KT...32.21,-106.96"
+            ],
+            "NWSheadline": [
+                "SPECIAL WEATHER STATEMENT"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EPZSPSEPZ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
