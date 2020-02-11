@@ -1,0 +1,126 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052393-3439765",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.56,
+                    31.63
+                ],
+                [
+                    -88.5,
+                    31.59
+                ],
+                [
+                    -88.45,
+                    31.47
+                ],
+                [
+                    -88.60000000000001,
+                    31.43
+                ],
+                [
+                    -88.64000000000001,
+                    31.43
+                ],
+                [
+                    -88.66000000000001,
+                    31.44
+                ],
+                [
+                    -88.72000000000001,
+                    31.48
+                ],
+                [
+                    -88.56,
+                    31.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052393-3439765",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052393-3439765",
+        "areaDesc": "Wayne, MS",
+        "geocode": {
+            "UGC": [
+                "MSC153"
+            ],
+            "SAME": [
+                "028153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052390-3439762",
+                "identifier": "NWS-IDP-PROD-4052390-3439762",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T18:19:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052386-3439759",
+                "identifier": "NWS-IDP-PROD-4052386-3439759",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T18:08:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T18:29:00-06:00",
+        "effective": "2020-02-10T18:29:00-06:00",
+        "onset": "2020-02-10T18:29:00-06:00",
+        "expires": "2020-02-10T18:45:00-06:00",
+        "ends": "2020-02-10T18:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Severe Thunderstorm Warning issued February 10 at 6:29PM CST until February 10 at 6:45PM CST by NWS Mobile AL",
+        "description": "At 628 PM CST, a severe thunderstorm was located over Buckatunna, or\n10 miles southeast of Waynesboro, moving northeast at 45 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nBuckatunna.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T18:28:00.000-06:00...storm...237DEG...37KT...31.55,-88.54"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 645 PM CST FOR SOUTHEASTERN WAYNE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.SV.W.0026.000000T0000Z-200211T0045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSVSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T18:45:00-06:00"
+            ]
+        }
+    }
+}
