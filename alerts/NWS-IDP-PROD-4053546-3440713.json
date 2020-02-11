@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053546-3440713",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.44,
+                    33.24
+                ],
+                [
+                    -87.52,
+                    33.21
+                ],
+                [
+                    -87.58999999999999,
+                    33.2
+                ],
+                [
+                    -87.58999999999999,
+                    33.220000000000006
+                ],
+                [
+                    -87.50999999999999,
+                    33.260000000000005
+                ],
+                [
+                    -87.44999999999999,
+                    33.27
+                ],
+                [
+                    -87.44,
+                    33.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053546-3440713",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053546-3440713",
+        "areaDesc": "Marengo, AL; Tuscaloosa, AL; Greene, AL; Hale, AL",
+        "geocode": {
+            "UGC": [
+                "ALC091",
+                "ALC125",
+                "ALC063",
+                "ALC065"
+            ],
+            "SAME": [
+                "001091",
+                "001125",
+                "001063",
+                "001065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC091",
+            "https://api.weather.gov/zones/county/ALC125",
+            "https://api.weather.gov/zones/county/ALC063",
+            "https://api.weather.gov/zones/county/ALC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053100-3440335",
+                "identifier": "NWS-IDP-PROD-4053100-3440335",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T03:47:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T09:51:00-06:00",
+        "effective": "2020-02-11T09:51:00-06:00",
+        "onset": "2020-02-11T09:51:00-06:00",
+        "expires": "2020-02-11T21:51:00-06:00",
+        "ends": "2020-02-13T05:08:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 11 at 9:51AM CST until February 13 at 5:08AM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Locust Fork At Sayre...\n...The flood warning continues for the Black Warrior River At Holt\nLock and Dam...Oliver Lock and Dam...and Selden Lock and Dam...\n\n.Heavy rainfall during the past 24 hours continues to produce rises\nand flooding along the Black Warrior River basin...a flood warning\nremains in effect for the Black Warrior River at Holt Lock and Dam,\nSelden Lock and Dam, Oliver Lock and Dam, and the Locust Fork at Sayre.\nModerate flooding is forecast to occur at Selden Lock and Dam which may\nlead to residential flooding in the surrounding area.\n\nThe Flood Warning continues for\nThe Black Warrior River At Holt Lock and Dam.\n* until late Wednesday night...or until the warning is cancelled.\n* At 8:45 AM Tuesday the stage was 142.1 feet.\n* Flood stage is 140 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 144 feet by\nafter midnight tonight. The river will fall below flood stage\ntomorrow afternoon .\n* Impact...At 140 feet...Some minor flooding of low-lying areas\noccurs.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Wednesday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KBMX.FL.W.0035.000000T0000Z-200213T1108Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T05:08:00-06:00"
+            ]
+        }
+    }
+}
