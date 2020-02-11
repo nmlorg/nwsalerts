@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052489-3439850",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.84,
+                    30.71
+                ],
+                [
+                    -84.9,
+                    30.61
+                ],
+                [
+                    -84.98,
+                    30.61
+                ],
+                [
+                    -84.88000000000001,
+                    30.71
+                ],
+                [
+                    -84.84,
+                    30.71
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052489-3439850",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052489-3439850",
+        "areaDesc": "Gadsden, FL; Jackson, FL",
+        "geocode": {
+            "UGC": [
+                "FLC039",
+                "FLC063"
+            ],
+            "SAME": [
+                "012039",
+                "012063"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC039",
+            "https://api.weather.gov/zones/county/FLC063"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051620-3439118",
+                "identifier": "NWS-IDP-PROD-4051620-3439118",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T10:17:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T20:29:00-05:00",
+        "effective": "2020-02-10T20:29:00-05:00",
+        "onset": "2020-02-10T20:29:00-05:00",
+        "expires": "2020-02-11T19:34:00-05:00",
+        "ends": "2020-02-11T19:34:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Flood Warning issued February 10 at 8:29PM EST until February 11 at 7:34PM EST by NWS Tallahassee FL",
+        "description": "...The Flood Warning continues for the following rivers in Florida...\n\nApalachicola River at Woodruff L&D affecting Gadsden and Jackson\nCounties\nApalachicola River near Blountstown affecting Calhoun...\nFranklin...Gulf and Liberty Counties",
+        "instruction": "All persons with interest along the river should monitor the latest\nforecasts, and be prepared to take necessary precautions to protect\nlife and property. Do not drive cars through flooded areas. If you\nsee flood waters: Turn around. Don't drown.\n\nFor graphical hydrologic information, please go to weather.gov and\nclick on your state. Select Rivers and Lakes AHPS under current\nconditions and click on your river point.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KTAE.FL.W.0016.000000T0000Z-200212T0034Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAEFLSTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T19:34:00-05:00"
+            ]
+        }
+    }
+}
