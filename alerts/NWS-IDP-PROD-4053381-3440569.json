@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053381-3440569",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.08,
+                    34.4099999
+                ],
+                [
+                    -84.03999999999999,
+                    34.36
+                ],
+                [
+                    -84.10999999999999,
+                    34.35
+                ],
+                [
+                    -84.24999999999999,
+                    34.28
+                ],
+                [
+                    -84.26999999999998,
+                    34.34
+                ],
+                [
+                    -84.16999999999999,
+                    34.400000000000006
+                ],
+                [
+                    -84.08,
+                    34.4099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053381-3440569",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053381-3440569",
+        "areaDesc": "Dawson, GA; Forsyth, GA",
+        "geocode": {
+            "UGC": [
+                "GAC085",
+                "GAC117"
+            ],
+            "SAME": [
+                "013085",
+                "013117"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC085",
+            "https://api.weather.gov/zones/county/GAC117"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052763-3440068",
+                "identifier": "NWS-IDP-PROD-4052763-3440068",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T22:21:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T09:44:00-05:00",
+        "effective": "2020-02-11T09:44:00-05:00",
+        "onset": "2020-02-11T09:44:00-05:00",
+        "expires": "2020-02-11T22:45:00-05:00",
+        "ends": "2020-02-11T22:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 11 at 9:44AM EST until February 11 at 10:45PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nEtowah River near Dawsonville  affecting Dawson and Forsyth\nCounties\n\nEtowah River near Canton affecting Cherokee County\n\nEtowah River near East Canton Downstream I-575 affecting Cherokee\nCounty",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0146.000000T0000Z-200212T0345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T22:45:00-05:00"
+            ]
+        }
+    }
+}
