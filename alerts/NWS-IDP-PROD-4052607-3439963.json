@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052607-3439963",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    34.59
+                ],
+                [
+                    -85.31,
+                    34.59
+                ],
+                [
+                    -85.26,
+                    34.53
+                ],
+                [
+                    -85.38000000000001,
+                    34.370000000000005
+                ],
+                [
+                    -85.44000000000001,
+                    34.400000000000006
+                ],
+                [
+                    -85.33000000000001,
+                    34.53000000000001
+                ],
+                [
+                    -85.39,
+                    34.59
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052607-3439963",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052607-3439963",
+        "areaDesc": "Chattooga, GA",
+        "geocode": {
+            "UGC": [
+                "GAC055"
+            ],
+            "SAME": [
+                "013055"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC055"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052064-3439519",
+                "identifier": "NWS-IDP-PROD-4052064-3439519",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T14:43:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T21:19:00-05:00",
+        "effective": "2020-02-10T21:19:00-05:00",
+        "onset": "2020-02-11T05:04:00-05:00",
+        "expires": "2020-02-11T11:19:00-05:00",
+        "ends": "2020-02-12T16:36:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 10 at 9:19PM EST until February 12 at 4:36PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nConasauga River near Tilton affecting Gordon...Murray and\nWhitfield Counties\n\nChattooga River near Summerville affecting Chattooga County\n\nOostanaula River near Resaca affecting Floyd and Gordon Counties\n\nOostanaula River near Rome US Hwy. 27 affecting Floyd County\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nWest Chickamauga Creek near Fort Oglethorpe affecting Catoosa and\nHamilton Counties\n\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\nOostanaula River near Calhoun affecting Gordon County\n\nArmuchee Creek near Armuchee affecting Floyd County\n\nCoosa River near Rome Mayos Bar L & D Park affecting Floyd County\n\nCoosa River near Plant Hammond affecting Floyd County",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Wednesday afternoon"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0136.200211T1004Z-200212T2136Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T16:36:00-05:00"
+            ]
+        }
+    }
+}
