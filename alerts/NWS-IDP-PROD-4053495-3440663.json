@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053495-3440663",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.5699999,
+                    35.38
+                ],
+                [
+                    -82.5,
+                    35.370000000000005
+                ],
+                [
+                    -82.54,
+                    35.290000000000006
+                ],
+                [
+                    -82.67,
+                    35.21000000000001
+                ],
+                [
+                    -82.74,
+                    35.260000000000005
+                ],
+                [
+                    -82.61,
+                    35.34
+                ],
+                [
+                    -82.5699999,
+                    35.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053495-3440663",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053495-3440663",
+        "areaDesc": "Transylvania, NC; Henderson, NC",
+        "geocode": {
+            "UGC": [
+                "NCC175",
+                "NCC089"
+            ],
+            "SAME": [
+                "037175",
+                "037089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC175",
+            "https://api.weather.gov/zones/county/NCC089"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052790-3440088",
+                "identifier": "NWS-IDP-PROD-4052790-3440088",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T22:48:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T10:34:00-05:00",
+        "effective": "2020-02-11T10:34:00-05:00",
+        "onset": "2020-02-12T07:00:00-05:00",
+        "expires": "2020-02-12T10:34:00-05:00",
+        "ends": "2020-02-12T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Flood Warning issued February 11 at 10:34AM EST until February 12 at 7:00PM EST by NWS Greenville-Spartanburg SC",
+        "description": "...The Flood Warning continues for the French Broad River at Blantyre\naffecting Henderson and Transylvania Counties...\n\nThe Flood Warning continues for the French Broad River At Blantyre.\n* from Wednesday morning to Wednesday evening.\n* At 9:30 AM Tuesday the stage was 14.4 feet.\n* Minor Flood Stage is 16.0 feet.\n* FORECAST: The river is expected to rise to near Minor Flood Stage\nWednesday morning.\n* Impact...At 16.0 feet...Farmland flooding continues on both sides\nof the French Broad River. Floodwaters begin to impact boat access\nareas at Grove Bridge Rd. and Crab Creek Rd.\n* Impact...At 15.0 feet...Most farm fields are flooding between the\nRiver and Brevard Rd. and between the French Broad River and\nPleasant Grove Rd.",
+        "instruction": "The latest stages and forecasts for rivers can be found on our web\npage at http://water.weather.gov/ahps2/index.php?wfo=gsp",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGSP.FL.W.0016.200212T1200Z-200213T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GSPFLSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T19:00:00-05:00"
+            ]
+        }
+    }
+}
