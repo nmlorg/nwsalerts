@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052793-3440091",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.53,
+                    34.62
+                ],
+                [
+                    -86.4599999,
+                    34.5
+                ],
+                [
+                    -86.59,
+                    34.46
+                ],
+                [
+                    -86.9599999,
+                    34.56
+                ],
+                [
+                    -86.92,
+                    34.67
+                ],
+                [
+                    -86.53,
+                    34.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052793-3440091",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052793-3440091",
+        "areaDesc": "Madison, AL; Marshall, AL; Morgan, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089",
+                "ALC095",
+                "ALC103"
+            ],
+            "SAME": [
+                "001089",
+                "001095",
+                "001103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089",
+            "https://api.weather.gov/zones/county/ALC095",
+            "https://api.weather.gov/zones/county/ALC103"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052481-3439843",
+                "identifier": "NWS-IDP-PROD-4052481-3439843",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T19:24:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T21:52:00-06:00",
+        "effective": "2020-02-10T21:52:00-06:00",
+        "onset": "2020-02-10T21:52:00-06:00",
+        "expires": "2020-02-11T11:51:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 10 at 9:52PM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama...\n\nTennessee River at Whitesburg affecting Madison...Marshall and\nMorgan Counties\n\nThe Flood Warning continues for\nthe Tennessee River at Whitesburg.\n* until further notice.\n* At 9 PM Monday the stage was 20.2 feet and steady.\n* Flood Stage is 17.0 feet.\n* Moderate Flooding is occurring and Moderate Flooding is forecast.\n* Recent activity...The maximum river stage in the 24 hours ending at\n9 PM Monday was 20.2 feet.\n* Forecast...The river will continue rising to near 21.9 feet by\nearly Thursday evening. Additional rises may be possible\nthereafter.\n* Impact...At 21.0 feet...Backwater causes flooding on Redstone\nArsenal. Significant flooding is occurring on the Morgan County\nside of the river with hundreds of acres and several homes and\nroads flooded.\n* Flood history...This crest compares to a previous crest of 22.3 feet\non Dec 27 2015.",
+        "instruction": "Safety message...Be especially cautious at night when it is harder to\nrecognize flood dangers. If while driving you see water over a road,\nturn around, don't drown! The water depth may be too great to allow\nyour vehicle to cross. Additional information is available at\nhttp://water.weather.gov. Once there, click on the Tennessee Valley\nto view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KHUN.FL.W.0011.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

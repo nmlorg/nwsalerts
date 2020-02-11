@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052795-3440093",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.5699999,
+                    35.38
+                ],
+                [
+                    -82.5699999,
+                    35.4099999
+                ],
+                [
+                    -82.62,
+                    35.5
+                ],
+                [
+                    -82.54,
+                    35.5
+                ],
+                [
+                    -82.5,
+                    35.4
+                ],
+                [
+                    -82.5,
+                    35.37
+                ],
+                [
+                    -82.5699999,
+                    35.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052795-3440093",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052795-3440093",
+        "areaDesc": "Henderson, NC; Buncombe, NC",
+        "geocode": {
+            "UGC": [
+                "NCC089",
+                "NCC021"
+            ],
+            "SAME": [
+                "037089",
+                "037021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC089",
+            "https://api.weather.gov/zones/county/NCC021"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052104-3439554",
+                "identifier": "NWS-IDP-PROD-4052104-3439554",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T15:16:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T22:53:00-05:00",
+        "effective": "2020-02-10T22:53:00-05:00",
+        "onset": "2020-02-10T22:53:00-05:00",
+        "expires": "2020-02-11T22:53:00-05:00",
+        "ends": "2020-02-12T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Flood Advisory issued February 10 at 10:53PM EST until February 12 at 1:00AM EST by NWS Greenville-Spartanburg SC",
+        "description": "...The Flood Advisory continues for the French Broad River...\n\n...near Fletcher affecting Buncombe and Henderson Counties\n\nForecasted rainfall of 2-4 inches across the Upper French Broad River\nwill occur over saturated soils through early Tuesday afternoon.\nFrench Broad River levels are still elevated following heavy rainfall\nlate last week, therefore, the forecasted rainfall will cause yet\nanother round of significant rises along the French Broad River.\nNuisance flooding of low-lying areas adjacent to the river from Etowah,\nto Horse Shoe, to Mills River, to Avery Creek are expected to begin\non Tuesday and may persist through Thursday.  More significant river\nrises are possible so concerned residents are encouraged to follow the\nlatest forecasts and product updates for the latest information.\n\nThe Flood Advisory continues for\nthe French Broad River Near Fletcher\n* until Tuesday morning.\n* At 10 PM Monday the stage was 9.0 feet and falling slowly.\n* Action Stage is 10.0 feet.\n* Minor Flood Stage is 13.0 feet.\n* FORECAST: The river will rise to near 11.7 feet by early Wednesday\nmorning.\n* IMPACTS: At 12.0 feet: Action Stage continues.  Glenn Bridge Park\nriver access is experiencing minor flooding.  Westfeldt Park is\nexperiencing scattered flooding.  French Broad River floodwaters\nare causing isolated to widely scattered farmland flooding.\n* IMPACTS: At 11.5 feet: Action Stage Flooding continues.  Butler\nBridge Rd. is inundated with up to 6 inches of floodwaters from the\nFrench Broad River, forcing road closure.\n* IMPACTS: At 10.0 feet: Action/Advisory Stage.  The French Broad\nRiver has exceeded bankfull at the gauge site.  Isolated farmland\nflooding is beginning across the French Broad River Valley from\nEtowah downstream to Avery Creek upstream of the gauge site.",
+        "instruction": "The latest stages and forecasts for rivers can be found on our web\npage at http://water.weather.gov/ahps2/index.php?wfo=gsp\n\nA Flood Advisory for a river forecast point means that nuisance\nflooding is expected to occur along the river when the river level is\nforecast to be just below or at the official Minor Flood Stage.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KGSP.FL.Y.0012.000000T0000Z-200212T0600Z/"
+            ],
+            "PIL": [
+                "GSPFLSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T01:00:00-05:00"
+            ]
+        }
+    }
+}
