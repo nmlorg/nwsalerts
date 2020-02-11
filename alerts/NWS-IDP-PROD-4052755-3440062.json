@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052755-3440062",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.03,
+                    32.62
+                ],
+                [
+                    -90.39,
+                    32.54
+                ],
+                [
+                    -90.47,
+                    32.64
+                ],
+                [
+                    -90.2099999,
+                    32.86
+                ],
+                [
+                    -90.04,
+                    32.64
+                ],
+                [
+                    -90.03,
+                    32.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052755-3440062",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052755-3440062",
+        "areaDesc": "Madison, MS; Yazoo, MS",
+        "geocode": {
+            "UGC": [
+                "MSC089",
+                "MSC163"
+            ],
+            "SAME": [
+                "028089",
+                "028163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC089",
+            "https://api.weather.gov/zones/county/MSC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052739-3440060",
+                "identifier": "NWS-IDP-PROD-4052739-3440060",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T21:03:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052715-3440042",
+                "identifier": "NWS-IDP-PROD-4052715-3440042",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T20:56:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052698-3440038",
+                "identifier": "NWS-IDP-PROD-4052698-3440038",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T20:49:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T21:09:00-06:00",
+        "effective": "2020-02-10T21:09:00-06:00",
+        "onset": "2020-02-10T21:09:00-06:00",
+        "expires": "2020-02-10T21:45:00-06:00",
+        "ends": "2020-02-10T21:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Tornado Warning issued February 10 at 9:09PM CST until February 10 at 9:45PM CST by NWS Jackson MS",
+        "description": "At 909 PM CST, a severe thunderstorm capable of producing a tornado\nwas located near Flora, or 17 miles north of Clinton, moving\nnortheast at 40 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis dangerous storm will be near...\nMyrleville around 925 PM CST.\n\nOther locations impacted by this tornadic thunderstorm include\nBentonia.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T21:09:00.000-06:00...storm...240DEG...33KT...32.59,-90.36"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 945 PM CST FOR CENTRAL YAZOO AND WEST CENTRAL MADISON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KJAN.TO.W.0021.000000T0000Z-200211T0345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANSVSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T21:45:00-06:00"
+            ]
+        }
+    }
+}
