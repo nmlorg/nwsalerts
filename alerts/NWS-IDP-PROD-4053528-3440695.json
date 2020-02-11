@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053528-3440695",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.84,
+                    34.45
+                ],
+                [
+                    -88.62,
+                    34.45
+                ],
+                [
+                    -88.61,
+                    34.1
+                ],
+                [
+                    -88.67,
+                    34.1
+                ],
+                [
+                    -88.84,
+                    34.21
+                ],
+                [
+                    -88.84,
+                    34.45
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053528-3440695",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053528-3440695",
+        "areaDesc": "Lee, MS",
+        "geocode": {
+            "UGC": [
+                "MSC081"
+            ],
+            "SAME": [
+                "028081"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC081"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053353-3440541",
+                "identifier": "NWS-IDP-PROD-4053353-3440541",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T08:25:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T09:45:00-06:00",
+        "effective": "2020-02-11T09:45:00-06:00",
+        "onset": "2020-02-11T09:45:00-06:00",
+        "expires": "2020-02-12T07:30:00-06:00",
+        "ends": "2020-02-12T07:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued February 11 at 9:45AM CST until February 12 at 7:30AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Buttahatchie River...Tombigbee\nRiver...Town Creek.\n\nThe Flood Warning continues for\nthe Town Creek at Tupelo\n* from Tuesday February 11 until Wednesday February 12.\n* At 09 AM Tuesday the stage was 21.0 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 22.4 feet on Tuesday February 11.\n* Flood stage is 21.0 feet.\n* Forecast to rise above flood stage by Tuesday February 11 and\ncontinue to rise to near 22.4 feet by Tuesday February 11.The river\nwill fall below flood stage by Wednesday February 12.\n* At 23.0 feet...Low-lying areas are flooding and businesses near the\ncreek may need to take flood precautions.",
+        "instruction": "A followup Flood Statement will be issued Wednesday or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.W.0048.000000T0000Z-200212T1330Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T07:30:00-06:00"
+            ]
+        }
+    }
+}
