@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053881-3441004",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.16,
+                    37.17
+                ],
+                [
+                    -89.02,
+                    37.25
+                ],
+                [
+                    -88.88,
+                    37.25
+                ],
+                [
+                    -88.89999999999999,
+                    37.1599999
+                ],
+                [
+                    -88.99,
+                    37.17
+                ],
+                [
+                    -89.05999999999999,
+                    37.09
+                ],
+                [
+                    -89.16,
+                    37.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053881-3441004",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053881-3441004",
+        "areaDesc": "Ballard, KY; Pulaski, IL",
+        "geocode": {
+            "UGC": [
+                "KYC007",
+                "ILC153"
+            ],
+            "SAME": [
+                "021007",
+                "017153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC007",
+            "https://api.weather.gov/zones/county/ILC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052692-3440032",
+                "identifier": "NWS-IDP-PROD-4052692-3440032",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T20:48:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T13:58:00-06:00",
+        "effective": "2020-02-11T13:58:00-06:00",
+        "onset": "2020-02-11T13:58:00-06:00",
+        "expires": "2020-02-12T17:58:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued February 11 at 1:58PM CST by NWS Paducah KY",
+        "description": "...Forecast Flooding Changed from Moderate to Major Severity for the\nfollowing river in Illinois...Kentucky...\nOhio River at Olmsted Lock and Dam\n\n...Forecast Flooding Changed from Minor to Moderate Severity for the\nfollowing river in Illinois...Kentucky...\nOhio River at Shawneetown\n\n.Heavy rainfall over the last week combined with additional\nrainfall over the next 48 hours will cause flooding to develop or\nworsen along the lower Ohio River. Minor flooding is forecast from\nNewburgh Dam to Smithland Dam, except for Shawneetown, where moderate\nflooding is now expected. Moderate flooding is expected from Paducah\nto Cairo, except at Olmsted Dam, where major flooding is now\nexpected.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "forecast flooding increased from Moderate to Major severity"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0024.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLWPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
