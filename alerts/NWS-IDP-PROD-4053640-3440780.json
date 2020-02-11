@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053640-3440780",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.1,
+                    40.69
+                ],
+                [
+                    -85.08,
+                    40.72
+                ],
+                [
+                    -84.99,
+                    40.64
+                ],
+                [
+                    -85.02,
+                    40.61
+                ],
+                [
+                    -85.1,
+                    40.69
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053640-3440780",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053640-3440780",
+        "areaDesc": "Wells, IN; Adams, IN",
+        "geocode": {
+            "UGC": [
+                "INC179",
+                "INC001"
+            ],
+            "SAME": [
+                "018179",
+                "018001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC179",
+            "https://api.weather.gov/zones/county/INC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052480-3439842",
+                "identifier": "NWS-IDP-PROD-4052480-3439842",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T20:20:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T11:41:00-05:00",
+        "effective": "2020-02-11T11:41:00-05:00",
+        "onset": "2020-02-11T11:37:00-05:00",
+        "expires": "2020-02-12T11:41:00-05:00",
+        "ends": "2020-02-17T04:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued February 11 at 11:41AM EST until February 17 at 4:00AM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nWabash River near Linn Grove affecting Adams and Wells Counties\n\n.Recent rainfall of 1 to 2 inches along with some snow melt has caused the Wabash River near Linn Grove to rise above flood stage. The river is expected to rise more but remain in the minor flood category.\n\nThe Flood Warning has been extended for\nThe Wabash River near Linn Grove\n* from this morning to late Sunday night.\n* At 11 AM Tuesday the stage was 11.6 feet and rising.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 11.0 feet.\n* Forecast...The river will rise to a crest near 13.2 feet around 7\nAM Thursday February 13 and fall below flood stage around 4 AM\nSunday February 16.\n* At 14.0 feet...Secondary roads are blocked. Roads near the east\nside of Geneva begin to flood. Some evacuations may be required and\nproperty needs to be transferred to higher ground.\n* This crest compares to a previous crest of 13.1 feet which occurred\non Feb 22 2014.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0037.200211T1637Z-200217T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T04:00:00-05:00"
+            ]
+        }
+    }
+}
