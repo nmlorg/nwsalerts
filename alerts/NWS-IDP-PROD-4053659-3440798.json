@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053659-3440798",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.44,
+                    33.89
+                ],
+                [
+                    -89.14,
+                    33.9799999
+                ],
+                [
+                    -89.14,
+                    33.77
+                ],
+                [
+                    -89.42,
+                    33.760000000000005
+                ],
+                [
+                    -89.44,
+                    33.89
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053659-3440798",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053659-3440798",
+        "areaDesc": "Calhoun, MS",
+        "geocode": {
+            "UGC": [
+                "MSC013"
+            ],
+            "SAME": [
+                "028013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC013"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052581-3439937",
+                "identifier": "NWS-IDP-PROD-4052581-3439937",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T19:57:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T10:49:00-06:00",
+        "effective": "2020-02-11T10:49:00-06:00",
+        "onset": "2020-02-11T10:49:00-06:00",
+        "expires": "2020-02-11T21:20:00-06:00",
+        "ends": "2020-02-11T21:20:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued February 11 at 10:49AM CST until February 11 at 9:20PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Yalobusha River.\n\nThe Flood Warning continues for\nthe Yalobusha River at Calhoun City\n* until Tuesday February 11.\n* At 10 AM Tuesday the stage was 23.7 feet.\n* Minor flooding is occurring AND Minor flooding is forecast.\n* Maximum forecast stage of 23.5 feet on Tuesday February 11.\n* Flood stage is 23.0 feet.\n* At 24.0 feet...Extensive agriculture flooding is occurring. Access\nto low-lying areas restricted due to flood waters covering\nsecondary roads.",
+        "instruction": "A followup Flood Statement will be issued Wednesday or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0045.000000T0000Z-200212T0320Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T21:20:00-06:00"
+            ]
+        }
+    }
+}
