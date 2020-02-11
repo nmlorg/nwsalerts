@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053654-3440794",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.2,
+                    36.72
+                ],
+                [
+                    -77.2,
+                    36.82
+                ],
+                [
+                    -77.09,
+                    36.87
+                ],
+                [
+                    -76.95,
+                    36.64
+                ],
+                [
+                    -77.02,
+                    36.6
+                ],
+                [
+                    -77.2,
+                    36.72
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053654-3440794",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053654-3440794",
+        "areaDesc": "Southampton, VA",
+        "geocode": {
+            "UGC": [
+                "VAC175"
+            ],
+            "SAME": [
+                "051175"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC175"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053195-3440417",
+                "identifier": "NWS-IDP-PROD-4053195-3440417",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T05:57:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T11:47:00-05:00",
+        "effective": "2020-02-11T11:47:00-05:00",
+        "onset": "2020-02-11T11:45:00-05:00",
+        "expires": "2020-02-11T23:47:00-05:00",
+        "ends": "2020-02-15T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 11 at 11:47AM EST until February 15 at 1:00PM EST by NWS Wakefield VA",
+        "description": "...The Flood Warning continues for the following rivers in\nVirginia...\n\nAppomattox River At Mattoax affecting Amelia...Chesterfield and\nPowhatan Counties\n\nNottoway River At Sebrell affecting Southampton County\n\nFor the Appomattox Basin...including Mattoax...Minor flooding is\noccurring and is expected to continue.For the Chowan Basin...\nincluding Sebrell...Minor flooding is occurring and is expected to\ncontinue.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Warning has been extended until Saturday afternoon...The Flood Warning continues for"
+            ],
+            "VTEC": [
+                "/O.EXT.KAKQ.FL.W.0009.200211T1645Z-200215T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T13:00:00-05:00"
+            ]
+        }
+    }
+}
