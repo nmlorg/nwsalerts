@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053446-3440622",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.81,
+                    30.7
+                ],
+                [
+                    -85.85000000000001,
+                    30.439999999999998
+                ],
+                [
+                    -86.09,
+                    30.369999999999997
+                ],
+                [
+                    -86.13000000000001,
+                    30.439999999999998
+                ],
+                [
+                    -85.95999990000001,
+                    30.47
+                ],
+                [
+                    -85.92000000000002,
+                    30.7
+                ],
+                [
+                    -85.81,
+                    30.7
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053446-3440622",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053446-3440622",
+        "areaDesc": "Washington, FL; Walton, FL",
+        "geocode": {
+            "UGC": [
+                "FLC133",
+                "FLC131"
+            ],
+            "SAME": [
+                "012133",
+                "012131"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/FLC133",
+            "https://api.weather.gov/zones/county/FLC131"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052502-3439860",
+                "identifier": "NWS-IDP-PROD-4052502-3439860",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T20:33:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T10:05:00-05:00",
+        "effective": "2020-02-11T10:05:00-05:00",
+        "onset": "2020-02-11T16:00:00-05:00",
+        "expires": "2020-02-12T10:05:00-05:00",
+        "ends": "2020-02-14T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Flood Warning issued February 11 at 10:05AM EST until February 14 at 7:00AM EST by NWS Tallahassee FL",
+        "description": "...The Flood Warning continues for the following rivers in Florida...\n\nChoctawhatchee River near Bruce (SR 20) affecting Walton and\nWashington Counties\n\nApalachicola River near Blountstown affecting Calhoun...\nFranklin...Gulf and Liberty Counties\n\nThe Flood Warning continues for\nthe Choctawhatchee River near Bruce (SR 20).\n* From this afternoon, or until the warning is cancelled.\n* At  8:45 AM Tuesday the stage was 13.8 feet.\n* Minor flooding is forecast.\n* Flood stage is 14.0 feet.\n* Forecast: Rise above flood stage by late this afternoon and\ncontinue to rise to near 14.4 feet by tomorrow early afternoon. The\nriver will fall below flood stage by Thursday evening.\n* Impact: At 14.0 feet: Big Cedar, Cowford, and Choctawhatchee River\nRoads begin to flood in Walton County. Flood waters impact storage\nareas underneath homes on the west banks of the Choctawhatchee\nRiver. Low areas along Strickland Road in Washington County become\nsubject to flooding.",
+        "instruction": "All persons with interest along the river should monitor the latest\nforecasts, and be prepared to take necessary precautions to protect\nlife and property. Do not drive cars through flooded areas. If you\nsee flood waters: Turn around. Don't drown.\n\nFor graphical hydrologic information, please go to weather.gov and\nclick on your state. Select Rivers and Lakes AHPS under current\nconditions and click on your river point.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KTAE.FL.W.0007.200211T2100Z-200214T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAEFLSTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T07:00:00-05:00"
+            ]
+        }
+    }
+}

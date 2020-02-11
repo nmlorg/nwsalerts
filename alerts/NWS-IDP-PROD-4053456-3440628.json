@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053456-3440628",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.99,
+                    33.13
+                ],
+                [
+                    -87.1,
+                    32.92
+                ],
+                [
+                    -87.19,
+                    32.81
+                ],
+                [
+                    -87.28,
+                    32.81
+                ],
+                [
+                    -87.19,
+                    32.940000000000005
+                ],
+                [
+                    -87.03999999999999,
+                    33.14000000000001
+                ],
+                [
+                    -86.99,
+                    33.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053456-3440628",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053456-3440628",
+        "areaDesc": "Bibb, AL; Perry, AL; Dallas, AL",
+        "geocode": {
+            "UGC": [
+                "ALC007",
+                "ALC105",
+                "ALC047"
+            ],
+            "SAME": [
+                "001007",
+                "001105",
+                "001047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC007",
+            "https://api.weather.gov/zones/county/ALC105",
+            "https://api.weather.gov/zones/county/ALC047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053003-3440243",
+                "identifier": "NWS-IDP-PROD-4053003-3440243",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T02:50:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T09:09:00-06:00",
+        "effective": "2020-02-11T09:09:00-06:00",
+        "onset": "2020-02-11T09:09:00-06:00",
+        "expires": "2020-02-11T21:09:00-06:00",
+        "ends": "2020-02-13T22:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 11 at 9:09AM CST until February 13 at 10:30PM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Cahaba River Near Cahaba\nHeights...Centreville...Suttle...And Marion Junction...\n\n.Heavy rainfall over the past 24 hours continues to produce rises\nacross the Cahaba River basin. Therefore, a flood warning remains in\neffect for the Cahaba River at Centreville, Suttle, Marion Junction,\nand near Cahaba Heights.",
+        "instruction": "Do not drive cars through flooded areas. Turn Around...Don't Drown.\n\nAnother statement will be issued by Wednesday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0038.000000T0000Z-200214T0430Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T22:30:00-06:00"
+            ]
+        }
+    }
+}
