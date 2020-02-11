@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052563-3439920",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.99,
+                    40.43
+                ],
+                [
+                    -80.05,
+                    40.45
+                ],
+                [
+                    -80.03,
+                    40.470000000000006
+                ],
+                [
+                    -80.01,
+                    40.45
+                ],
+                [
+                    -79.99000000000001,
+                    40.46
+                ],
+                [
+                    -79.98,
+                    40.45
+                ],
+                [
+                    -79.99,
+                    40.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052563-3439920",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052563-3439920",
+        "areaDesc": "Allegheny, PA",
+        "geocode": {
+            "UGC": [
+                "PAC003"
+            ],
+            "SAME": [
+                "042003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052236-3439642",
+                "identifier": "NWS-IDP-PROD-4052236-3439642",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T16:18:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T20:50:00-05:00",
+        "effective": "2020-02-10T20:50:00-05:00",
+        "onset": "2020-02-10T20:50:00-05:00",
+        "expires": "2020-02-11T09:00:00-05:00",
+        "ends": "2020-02-13T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pittsburgh PA",
+        "headline": "Flood Advisory issued February 10 at 8:50PM EST until February 13 at 1:00AM EST by NWS Pittsburgh PA",
+        "description": "...The Flood Advisory continues for the following rivers in\nPennsylvania...\n\nOhio River At Pittsburgh affecting Allegheny County.\n\n.The Ohio River at Pittsburgh is expected to rise above 18 feet\novernight due to recent rainfall, flooding the Monongahela Parking\nWharf. The threat for additional rainfall and subsequent rise will\nprompt the continuation of the advisory through the end of the week,\ndespite a brief period where the Point may fall below 18 feet.\n\nFor the Ohio River...including Pittsburgh, Dashields, Montgomery,\nEast Livertest, East Liverpool, Wellsville, New Cumberland,\nSteubenville, Wellsburg, Pike Island, Wheeling, Moundsville,\nPowhatan Point, Hannibal...elevated river levels are forecast.\n\nThe Flood Advisory continues for\nthe Ohio River At Pittsburgh.\n* Until late Wednesday night.\n* At 8:30 PM EST Monday the stage was 17.4 feet.\n* Action stage is 18.0 feet.\n* Flood stage is 25.0 feet.\n* Forecast...The river will rise to 19.0 feet tomorrow evening. It\nwill then fall to 17.5 feet and begin rising again Thursday\nmorning. It will rise to 19.0 feet Friday morning. It will then\nfall again and remain below flood stage.\n* Impact...At 18.0 feet, Water begins to flow onto the Monongahela\nParking Wharf.\n* Impact...At 19.0 feet, Water begins to flow onto the north shore\nriverwalk between the stadiums.\n* Impact...At 19.5 feet, The Mon Parking Wharf is completely flooded.\n* Impact...At 20.0 feet, Water is up to one foot deep in the lower\nareas of the North Shore Riverwalk.",
+        "instruction": "This Flood Advisory means river flows are elevated.  Heed any road\nclosures.\n\nAdditional information is available at weather.gov/pbz.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Advisory is now in effect until early Thursday morning"
+            ],
+            "VTEC": [
+                "/O.EXT.KPBZ.FL.Y.0001.000000T0000Z-200213T0600Z/"
+            ],
+            "PIL": [
+                "PBZFLSPBZ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T01:00:00-05:00"
+            ]
+        }
+    }
+}

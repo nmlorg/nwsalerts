@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052566-3439923",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.15,
+                    32.49
+                ],
+                [
+                    -87.10000000000001,
+                    32.36
+                ],
+                [
+                    -87.15,
+                    32.31
+                ],
+                [
+                    -87.2099999,
+                    32.49
+                ],
+                [
+                    -87.15,
+                    32.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052566-3439923",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052566-3439923",
+        "areaDesc": "Perry, AL; Dallas, AL",
+        "geocode": {
+            "UGC": [
+                "ALC105",
+                "ALC047"
+            ],
+            "SAME": [
+                "001105",
+                "001047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC105",
+            "https://api.weather.gov/zones/county/ALC047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051611-3439110",
+                "identifier": "NWS-IDP-PROD-4051611-3439110",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T09:14:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T19:50:00-06:00",
+        "effective": "2020-02-10T19:50:00-06:00",
+        "onset": "2020-02-13T14:00:00-06:00",
+        "expires": "2020-02-11T07:50:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 10 at 7:50PM CST by NWS Birmingham AL",
+        "description": "...The flood warnings continue for the Cahaba River Near Cahaba\nHeights...Centreville...Suttle...and Marion Junction...\n\n.Heavy rainfall from today is causing continued rises along the\nCahaba River, and additonal rainfall of 1 to 3 inches of rainfall\nis expected over the next 24 hours. Therefore, flood warnings\nremain in effect along the Cahaba River.\n\nThe Flood Warning continues for\nThe Cahaba River At Marion Junction.\n* from Thursday afternoon until further notice...or until the Warning\nis cancelled.\n* AT 7 PM Monday the stage was 30.5 feet.\n* Minor flooding is forecast.\n* Flood stage is 36 feet.\n* Forecast...Rise above flood stage by Thursday afternoon and\ncontinue to rise to near 38.1 feet by Friday evening.\n* Impact...At 36 feet...Flooding is confined mainly to farm and\npasture lands in the area.\n* Impact...At 40 feet...Extensive overflow of farm lands around\nMarion Junction occurs. Some homes and farms begin to be affected.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Tuesday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0039.200213T2000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
