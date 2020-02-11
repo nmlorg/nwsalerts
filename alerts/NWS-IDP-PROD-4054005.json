@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054005",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -111.54,
+                    33.45
+                ],
+                [
+                    -111.31,
+                    33.400000000000006
+                ],
+                [
+                    -111.34,
+                    33.17000000000001
+                ],
+                [
+                    -111.57000000000001,
+                    33.27000000000001
+                ],
+                [
+                    -111.54,
+                    33.45
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054005",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054005",
+        "areaDesc": "Superior; Apache Junction/Gold Canyon; Northwest Pinal County; Pinal/Superstition Mountains",
+        "geocode": {
+            "UGC": [
+                "AZZ552",
+                "AZZ555",
+                "AZZ553",
+                "AZZ558"
+            ],
+            "SAME": [
+                "004021",
+                "004007",
+                "004013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AZZ552",
+            "https://api.weather.gov/zones/forecast/AZZ555",
+            "https://api.weather.gov/zones/forecast/AZZ553",
+            "https://api.weather.gov/zones/forecast/AZZ558"
+        ],
+        "references": [],
+        "sent": "2020-02-11T13:44:00-07:00",
+        "effective": "2020-02-11T13:44:00-07:00",
+        "onset": "2020-02-11T13:44:00-07:00",
+        "expires": "2020-02-11T14:30:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Phoenix AZ",
+        "headline": "Special Weather Statement issued February 11 at 1:44PM MST by NWS Phoenix AZ",
+        "description": "At 144 PM MST, Doppler radar was tracking a strong thunderstorm over\nGold Canyon, moving south at 10 mph.\n\nPea size hail will be possible with this storm.\n\nLocations impacted include...\nApache Junction, Gold Canyon, Florence Junction, Kings Ranch, Gold\nCamp and Queen Valley.\n\nThis includes the following highways...\nUS Highway 60 between mile markers 197 and 212.\nAZ Route 79 between mile markers 145 and 150.",
+        "instruction": "Brief heavy rainfall is also occurring with this storm, and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-11T13:44:00.000-07:00...storm...011DEG...9KT...33.35,-111.44"
+            ],
+            "NWSheadline": [
+                "SPECIAL WEATHER STATEMENT"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PSRSPSPSR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
