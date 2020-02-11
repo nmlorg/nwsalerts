@@ -1,0 +1,139 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052653-3440002",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.52,
+                    31.74
+                ],
+                [
+                    -87.52,
+                    31.7
+                ],
+                [
+                    -87.5699999,
+                    31.7
+                ],
+                [
+                    -87.5699999,
+                    31.55
+                ],
+                [
+                    -87.62,
+                    31.52
+                ],
+                [
+                    -87.61,
+                    31.5
+                ],
+                [
+                    -87.75,
+                    31.45
+                ],
+                [
+                    -87.88,
+                    31.52
+                ],
+                [
+                    -87.9599999,
+                    31.62
+                ],
+                [
+                    -87.85,
+                    31.69
+                ],
+                [
+                    -87.74,
+                    31.810000000000002
+                ],
+                [
+                    -87.52,
+                    31.74
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052653-3440002",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052653-3440002",
+        "areaDesc": "Clarke, AL",
+        "geocode": {
+            "UGC": [
+                "ALC025"
+            ],
+            "SAME": [
+                "001025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052597-3439953",
+                "identifier": "NWS-IDP-PROD-4052597-3439953",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T20:07:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052624-3439980",
+                "identifier": "NWS-IDP-PROD-4052624-3439980",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T20:20:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052589-3439945",
+                "identifier": "NWS-IDP-PROD-4052589-3439945",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T20:01:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T20:36:00-06:00",
+        "effective": "2020-02-10T20:36:00-06:00",
+        "onset": "2020-02-10T20:36:00-06:00",
+        "expires": "2020-02-10T20:46:00-06:00",
+        "ends": "2020-02-10T20:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Severe Thunderstorm Warning issued February 10 at 8:36PM CST until February 10 at 8:45PM CST by NWS Mobile AL",
+        "description": "The storms which prompted the warning have weakened below severe\nlimits, and have exited the warned area. Therefore, the warning will\nbe allowed to expire.  However gusty winds are still possible with\nthese thunderstorms.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T20:36:00.000-06:00...storm...317DEG...11KT...31.71,-87.71 31.57,-87.82 31.51,-87.95"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR NORTHEASTERN CLARKE COUNTY WILL EXPIRE AT 845 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KMOB.SV.W.0028.000000T0000Z-200211T0245Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSVSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T20:45:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052649-3439999",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.09,
+                    33.77
+                ],
+                [
+                    -84.02000000000001,
+                    33.77
+                ],
+                [
+                    -83.99000000000001,
+                    33.720000000000006
+                ],
+                [
+                    -84.03000000000002,
+                    33.67000000000001
+                ],
+                [
+                    -84.09,
+                    33.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052649-3439999",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052649-3439999",
+        "areaDesc": "DeKalb, GA; Rockdale, GA",
+        "geocode": {
+            "UGC": [
+                "GAC089",
+                "GAC247"
+            ],
+            "SAME": [
+                "013089",
+                "013247"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC089",
+            "https://api.weather.gov/zones/county/GAC247"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052036-3439493",
+                "identifier": "NWS-IDP-PROD-4052036-3439493",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T14:21:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T21:35:00-05:00",
+        "effective": "2020-02-10T21:35:00-05:00",
+        "onset": "2020-02-11T11:30:00-05:00",
+        "expires": "2020-02-11T11:34:00-05:00",
+        "ends": "2020-02-12T15:43:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 10 at 9:35PM EST until February 12 at 3:43PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nBig Creek near Alpharetta affecting Forsyth and Fulton Counties\n\nYellow River near East Lithonia affecting De Kalb and Rockdale\nCounties\n\nYellow River near Conyers below Milstead affecting Newton and\nRockdale Counties\n\nThe Flood Warning continues for\nThe Yellow River near East Lithonia.\n* From tomorrow morning until Wednesday afternoon.\n* At 845 PM Monday the stage was 4.4 feet, and rising.\n* Minor flooding is forecast to develop.\n* Flood stage is 13 feet.\n* The river is forecast to rise above flood stage by late Tuesday\nmorning and then continue rising, reaching near 15.2 feet by\nTuesday evening. The river is expected to fall below flood stage by\nlate Wednesday morning.\n* At 13 feet, minor flooding will occur in portions of the woodlands\nand fields near the river upstream and downstream from the gage on\nPleasant Hill Road.\n\nAt 15 feet, minor flooding expands further into the woodlands and\nfields near the river upstream and downstream from the gage on\nPleasant Hill Road. In DeKalb County, some flooding of backyards of\nhomes will begin on Harmony Hills Drive and Court. Johnson Creek\nflowing under Union Grove Road into the river begins to back up.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Wednesday afternoon"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0138.200211T1630Z-200212T2043Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T15:43:00-05:00"
+            ]
+        }
+    }
+}
