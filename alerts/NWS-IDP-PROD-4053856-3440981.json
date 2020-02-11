@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053856-3440981",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.72,
+                    32.9
+                ],
+                [
+                    -83.67,
+                    32.93
+                ],
+                [
+                    -83.56,
+                    32.82
+                ],
+                [
+                    -83.53,
+                    32.6599999
+                ],
+                [
+                    -83.59,
+                    32.63
+                ],
+                [
+                    -83.63000000000001,
+                    32.74
+                ],
+                [
+                    -83.72,
+                    32.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053856-3440981",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053856-3440981",
+        "areaDesc": "Jones, GA; Twiggs, GA; Monroe, GA; Bibb, GA; Houston, GA",
+        "geocode": {
+            "UGC": [
+                "GAC169",
+                "GAC289",
+                "GAC207",
+                "GAC021",
+                "GAC153"
+            ],
+            "SAME": [
+                "013169",
+                "013289",
+                "013207",
+                "013021",
+                "013153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC169",
+            "https://api.weather.gov/zones/county/GAC289",
+            "https://api.weather.gov/zones/county/GAC207",
+            "https://api.weather.gov/zones/county/GAC021",
+            "https://api.weather.gov/zones/county/GAC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053448-3440624",
+                "identifier": "NWS-IDP-PROD-4053448-3440624",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T10:05:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T14:32:00-05:00",
+        "effective": "2020-02-11T14:32:00-05:00",
+        "onset": "2020-02-11T14:32:00-05:00",
+        "expires": "2020-02-12T04:31:00-05:00",
+        "ends": "2020-02-15T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 11 at 2:32PM EST until February 15 at 10:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties\n\nOcmulgee River near Hawkinsville affecting Bleckley and Pulaski\nCounties\n\nOcmulgee River near Abbeville affecting Dodge...Telfair and Wilcox\nCounties\n\nThe Flood Warning continues for\nThe Ocmulgee River near Macon.\n* From tomorrow late morning until Saturday morning.\n* At 1 PM Tuesday the stage was 15.7 feet...and steady.\n* Minor flooding is forecast.\n* Flood stage is 18 feet.\n* Forecast to rise above flood stage by tomorrow late morning and\ncontinue to rise to near 20.3 feet by Thursday evening. The river\nwill fall below flood stage by Saturday morning.\n* At 20 feet...Minor flooding expands. An increasing amount of the\nMacon GreenWay Ocmulgee Heritage Trail floods north of the Martin\nLuther King Boulevard bridge. The flood waters will be around one\nfoot deep on portions of the trail and both banks overflow upstream\nfrom the bridge. Large portions of agricultural lands well\ndownstream will be under one to three feet of water.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0100.000000T0000Z-200215T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T10:00:00-05:00"
+            ]
+        }
+    }
+}

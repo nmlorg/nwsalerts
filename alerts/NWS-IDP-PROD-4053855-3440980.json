@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053855-3440980",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.37,
+                    31.8
+                ],
+                [
+                    -92.39,
+                    31.6
+                ],
+                [
+                    -92.24,
+                    31.470000000000002
+                ],
+                [
+                    -92.17999999999999,
+                    31.490000000000002
+                ],
+                [
+                    -92.33,
+                    31.69
+                ],
+                [
+                    -92.37,
+                    31.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053855-3440980",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053855-3440980",
+        "areaDesc": "Grant, LA; La Salle, LA; Caldwell, LA; Winn, LA",
+        "geocode": {
+            "UGC": [
+                "LAC043",
+                "LAC059",
+                "LAC021",
+                "LAC127"
+            ],
+            "SAME": [
+                "022043",
+                "022059",
+                "022021",
+                "022127"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC043",
+            "https://api.weather.gov/zones/county/LAC059",
+            "https://api.weather.gov/zones/county/LAC021",
+            "https://api.weather.gov/zones/county/LAC127"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051831-3439306",
+                "identifier": "NWS-IDP-PROD-4051831-3439306",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T10:43:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T13:31:00-06:00",
+        "effective": "2020-02-11T13:31:00-06:00",
+        "onset": "2020-02-13T00:00:00-06:00",
+        "expires": "2020-02-12T13:31:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 11 at 1:31PM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Little River Of Louisiana Near Rochelle.\n* from late Wednesday night until further notice...or until the\nwarning is cancelled.\n* At 12:30 PM Tuesday The stage was 27.1 feet.\n* Minor flooding is forecast.\n* Flood stage is 32 feet.\n* Forecast...Rise above flood stage by early Thursday morning and\ncontinue to rise to near 34.5 feet by Saturday morning.\n* Impact...at 35.0 feet...Expect considerable lowland flooding of\nhunting camps.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSHV.FL.W.0014.200213T0600Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
