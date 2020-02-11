@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053816-3440944",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.79,
+                    47.35
+                ],
+                [
+                    -122.02000000000001,
+                    47.33
+                ],
+                [
+                    -122.13000000000001,
+                    47.379999999999995
+                ],
+                [
+                    -122.02000000000001,
+                    47.47
+                ],
+                [
+                    -121.95000000000002,
+                    47.44
+                ],
+                [
+                    -121.82000000000002,
+                    47.449999999999996
+                ],
+                [
+                    -121.79,
+                    47.35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053816-3440944",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053816-3440944",
+        "areaDesc": "King, WA",
+        "geocode": {
+            "UGC": [
+                "WAC033"
+            ],
+            "SAME": [
+                "053033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053197-3440419",
+                "identifier": "NWS-IDP-PROD-4053197-3440419",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T03:02:00-08:00"
+            }
+        ],
+        "sent": "2020-02-11T10:59:00-08:00",
+        "effective": "2020-02-11T10:59:00-08:00",
+        "onset": "2020-02-11T10:59:00-08:00",
+        "expires": "2020-02-11T11:59:00-08:00",
+        "ends": "2020-02-11T11:21:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 11 at 10:59AM PST until February 11 at 11:21AM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nCedar River At Renton affecting King County\nCedar River Near Landsburg affecting King County\n\nRivers will continue to recede today with just light rain expected.\nDry day on Wednesday will allow rivers to keep receding.\n\nThe Flood Warning continues for\nThe Cedar River Near Landsburg\n* Until this morning.\n* At 10:00 AM Tuesday the stage was 5.5 feet.\n* Flood stage is 5.7 feet.\n* Fell below flood stage early this morning.\n* No additional flooding is forecast.\n* Forecast...The river fell below flood stage at  2:45 AM Tuesday and\nwill continue to fall. Flooding will continue in some areas until\nthe flood wave has completely passed downstream.\n* Impact...At 5.0 feet, the Cedar River will flood low areas from\nLandsburg downstream through Maplewood, mainly in Dorre Don area of\nMaple Valley and along Jones Rd.  A stage of 5.0 feet on the Cedar\nRiver corresponds roughly to a phase 3 flood in the King County\nflood system.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KSEW.FL.W.0046.000000T0000Z-200211T1921Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T11:21:00-08:00"
+            ]
+        }
+    }
+}
