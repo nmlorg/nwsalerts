@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053123-3440357",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.17,
+                    34.32
+                ],
+                [
+                    -87.64,
+                    34.31
+                ],
+                [
+                    -87.63,
+                    33.61
+                ],
+                [
+                    -87.64999999999999,
+                    33.58
+                ],
+                [
+                    -87.66999999999999,
+                    33.58
+                ],
+                [
+                    -87.67999999999999,
+                    33.519999999999996
+                ],
+                [
+                    -88.27,
+                    33.54
+                ],
+                [
+                    -88.17,
+                    34.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053123-3440357",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053123-3440357",
+        "areaDesc": "Fayette, AL; Lamar, AL; Marion, AL",
+        "geocode": {
+            "UGC": [
+                "ALC057",
+                "ALC075",
+                "ALC093"
+            ],
+            "SAME": [
+                "001057",
+                "001075",
+                "001093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC057",
+            "https://api.weather.gov/zones/county/ALC075",
+            "https://api.weather.gov/zones/county/ALC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052892-3440169",
+                "identifier": "NWS-IDP-PROD-4052892-3440169",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T00:26:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T04:06:00-06:00",
+        "effective": "2020-02-11T04:06:00-06:00",
+        "onset": "2020-02-11T04:06:00-06:00",
+        "expires": "2020-02-11T06:30:00-06:00",
+        "ends": "2020-02-11T06:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 11 at 4:06AM CST until February 11 at 6:30AM CST by NWS Birmingham AL",
+        "description": "At 403 AM CST, Doppler radar indicated slow moving thunderstorms with\nvery heavy rainfall across the warned area.\n\nSome locations that will experience flooding include...\nHamilton, Winfield, Fayette, Vernon, Sulligent, Millport, Guin,\nHackleburg, Berry, Brilliant, Glen Allen, Kennedy, Detroit, Belk,\nBeaverton, Gu-\nWin, Bluff, Blooming Grove, Brinn and Lake Buttahatchee.\n\nNo additional heavy rainfall is expected across the warning area.\nHowever, flood waters may remain elevated over the warning area for\nthe next few hours.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "A FLOOD WARNING REMAINS IN EFFECT UNTIL 630 AM CST FOR MARION... FAYETTE AND LAMAR COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KBMX.FA.W.0016.000000T0000Z-200211T1230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T06:30:00-06:00"
+            ]
+        }
+    }
+}
