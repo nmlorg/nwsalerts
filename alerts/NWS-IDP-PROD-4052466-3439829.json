@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052466-3439829",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -76.9,
+                    37.43
+                ],
+                [
+                    -76.89,
+                    37.42
+                ],
+                [
+                    -76.94,
+                    37.33
+                ],
+                [
+                    -77.17,
+                    37.43
+                ],
+                [
+                    -77.09,
+                    37.51
+                ],
+                [
+                    -76.9,
+                    37.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052466-3439829",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052466-3439829",
+        "areaDesc": "Charles City, VA; New Kent, VA",
+        "geocode": {
+            "UGC": [
+                "VAC036",
+                "VAC127"
+            ],
+            "SAME": [
+                "051036",
+                "051127"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC036",
+            "https://api.weather.gov/zones/county/VAC127"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051470-3439013",
+                "identifier": "NWS-IDP-PROD-4051470-3439013",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T08:57:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T20:13:00-05:00",
+        "effective": "2020-02-10T20:13:00-05:00",
+        "onset": "2020-02-10T20:13:00-05:00",
+        "expires": "2020-02-11T21:00:00-05:00",
+        "ends": "2020-02-11T21:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 10 at 8:13PM EST until February 11 at 9:00PM EST by NWS Wakefield VA",
+        "description": "The National Weather Service in Wakefield has extended the\n\n* Flood Warning for the Chickahominy River near Providence Forge\nin...\nNortheastern Charles City County in east central Virginia...\nSouthwestern New Kent County in east central Virginia...\n\n* Until 900 PM EST Tuesday.\n\n* At 811 PM EST, reporting gauges indicate flooding along the\nChickahominy River. The current stage is 8.3 FT. Minor Flooding is\noccuring. Flood stage is 8.0 feet. Minor impacts will occur near\nProvidence Forge.\n\n* Some locations that will experience flooding include...\nHoldcroft, Providence Forge, Chickahominy Shore, Sandybottom,\nMountcastle, Roaches Corner and Lanexa.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nA Flood Warning means that flooding is imminent or occurring. All\ninterested parties should take necessary precautions immediately.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KAKQ.FA.W.0004.000000T0000Z-200212T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLWAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-11T21:00:00-05:00"
+            ]
+        }
+    }
+}
