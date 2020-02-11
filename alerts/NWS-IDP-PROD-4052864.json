@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052864",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -107.0699999,
+                    32.43
+                ],
+                [
+                    -107.19,
+                    32.5
+                ],
+                [
+                    -106.95,
+                    32.81
+                ],
+                [
+                    -106.60000000000001,
+                    32.620000000000005
+                ],
+                [
+                    -107.0699999,
+                    32.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052864",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052864",
+        "areaDesc": "Northern Dona Ana County; Sierra County Lakes",
+        "geocode": {
+            "UGC": [
+                "NMZ410",
+                "NMZ409"
+            ],
+            "SAME": [
+                "035013",
+                "035051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NMZ410",
+            "https://api.weather.gov/zones/forecast/NMZ409"
+        ],
+        "references": [],
+        "sent": "2020-02-10T22:24:00-07:00",
+        "effective": "2020-02-10T22:24:00-07:00",
+        "onset": "2020-02-10T22:24:00-07:00",
+        "expires": "2020-02-10T23:00:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS El Paso TX/Santa Teresa NM",
+        "headline": "Special Weather Statement issued February 10 at 10:24PM MST by NWS El Paso TX/Santa Teresa NM",
+        "description": "At 1023 PM MST, Doppler radar was tracking a strong thunderstorm 6\nmiles northwest of Radium Springs, moving northeast at 35 mph.\n\nHalf inch hail and winds in excess of 30 mph will be possible with\nthis storm.\n\nLocations impacted include...\nJornada Range, Radium Springs, Portions of Jornada Experimental\nRange, Leasburg Dam State Park and Interstate 25 between Radium\nSprings and Rincon.",
+        "instruction": "Frequent cloud to ground lightning is occurring with this storm.\nLightning can strike 10 miles away from a thunderstorm. Seek a safe\nshelter inside a building or vehicle.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T22:23:00.000-07:00...storm...221DEG...40KT...32.54,-107.02"
+            ],
+            "NWSheadline": [
+                "SPECIAL WEATHER STATEMENT"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "EPZSPSEPZ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
