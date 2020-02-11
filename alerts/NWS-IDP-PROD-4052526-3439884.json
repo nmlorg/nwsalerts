@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052526-3439884",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.39,
+                    39.97
+                ],
+                [
+                    -87.34,
+                    39.86
+                ],
+                [
+                    -87.36,
+                    39.769999999999996
+                ],
+                [
+                    -87.4,
+                    39.769999999999996
+                ],
+                [
+                    -87.41000000000001,
+                    39.849999999999994
+                ],
+                [
+                    -87.45000000000002,
+                    39.96999999999999
+                ],
+                [
+                    -87.39,
+                    39.97
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052526-3439884",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052526-3439884",
+        "areaDesc": "Vermillion, IN; Parke, IN; Vigo, IN",
+        "geocode": {
+            "UGC": [
+                "INC165",
+                "INC121",
+                "INC167"
+            ],
+            "SAME": [
+                "018165",
+                "018121",
+                "018167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC165",
+            "https://api.weather.gov/zones/county/INC121",
+            "https://api.weather.gov/zones/county/INC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052008-3439465",
+                "identifier": "NWS-IDP-PROD-4052008-3439465",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T14:11:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T20:38:00-05:00",
+        "effective": "2020-02-10T20:38:00-05:00",
+        "onset": "2020-02-10T21:25:00-05:00",
+        "expires": "2020-02-11T20:37:00-05:00",
+        "ends": "2020-02-20T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued February 10 at 8:38PM EST until February 20 at 1:00PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nDriftwood River...East Fork White River...Eel River...Mill Creek...\nMississinewa River...Wabash River...White River...Youngs Creek...\n\n\n.Precipitation of up to about 2 inches fell Sunday into Monday,\nheaviest within 50 miles north and south of Interstate 70 across\nthe state. Flooding is expected to occur at several locations on\nthe Wabash River from Lafayette southward, and on the White River\nfrom Anderson southward. Flooding along the lower reaches will\nlast past February 20.\n\nThe latest forecast model data is predicting flood crests to\ngenerally be close to, but probably slightly below, what we saw in\nJanuary. Crests along the White River are expected to come close to\nmoderate flood state at Spencer, Elliston, Newberry, and\nEdwardsport. County, state, and federal roads and some river cabins\nmay be impacted.  In addition, a few homes in Waverly may be\naffected. The Mississinewa River near Ridgeville will come near or\nperhaps onto State Road 1 near State Road 28.\n\nFlooding on the Driftwood River is expected to last no more than a\ncouple days.\n\nThe Flood Warning continues for\nThe Wabash River at Montezuma.\n* until Thursday February 20.\n* At  7:45 PM Monday the stage was 13.9 feet.\n* Flood stage is 14.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by this evening and continue to\nrise to near 17.6 feet by Friday evening.  It will fall below flood\nstage by Thursday February 20.\n* At 18.0 feet...Montezuma agricultural levee is overtopped.  Fourteen\nhundred acres of low bottomlands flood.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0066.200211T0225Z-200220T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-20T13:00:00-05:00"
+            ]
+        }
+    }
+}

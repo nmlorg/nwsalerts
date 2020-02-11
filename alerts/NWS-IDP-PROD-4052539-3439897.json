@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052539-3439897",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.8,
+                    31.66
+                ],
+                [
+                    -88.03,
+                    31.63
+                ],
+                [
+                    -88.0699999,
+                    31.669999999999998
+                ],
+                [
+                    -88.09,
+                    31.709999999999997
+                ],
+                [
+                    -87.91,
+                    31.769999999999996
+                ],
+                [
+                    -87.81,
+                    31.719999999999995
+                ],
+                [
+                    -87.8,
+                    31.66
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052539-3439897",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052539-3439897",
+        "areaDesc": "Clarke, AL",
+        "geocode": {
+            "UGC": [
+                "ALC025"
+            ],
+            "SAME": [
+                "001025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052487-3439849",
+                "identifier": "NWS-IDP-PROD-4052487-3439849",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T19:28:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T19:41:00-06:00",
+        "effective": "2020-02-10T19:41:00-06:00",
+        "onset": "2020-02-10T19:41:00-06:00",
+        "expires": "2020-02-10T20:00:00-06:00",
+        "ends": "2020-02-10T20:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Tornado Warning issued February 10 at 7:41PM CST until February 10 at 8:00PM CST by NWS Mobile AL",
+        "description": "At 740 PM CST, a severe thunderstorm capable of producing a tornado\nwas located 8 miles northeast of Saint Stephens, or 11 miles\nnorthwest of Jackson, moving east at 30 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis tornadic thunderstorm will remain over mainly rural areas of\nwest central Clarke County.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T19:40:00.000-06:00...storm...253DEG...28KT...31.66,-87.99"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 800 PM CST FOR WEST CENTRAL CLARKE COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.TO.W.0004.000000T0000Z-200211T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSVSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T20:00:00-06:00"
+            ]
+        }
+    }
+}
