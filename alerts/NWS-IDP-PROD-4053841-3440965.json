@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053841-3440965",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.3,
+                    34.27
+                ],
+                [
+                    -84.4599999,
+                    34.220000000000006
+                ],
+                [
+                    -84.54,
+                    34.18000000000001
+                ],
+                [
+                    -84.59,
+                    34.24000000000001
+                ],
+                [
+                    -84.3,
+                    34.27
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053841-3440965",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053841-3440965",
+        "areaDesc": "Cherokee, GA",
+        "geocode": {
+            "UGC": [
+                "GAC057"
+            ],
+            "SAME": [
+                "013057"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC057"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053380-3440568",
+                "identifier": "NWS-IDP-PROD-4053380-3440568",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T09:44:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T14:15:00-05:00",
+        "effective": "2020-02-11T14:15:00-05:00",
+        "onset": "2020-02-11T14:15:00-05:00",
+        "expires": "2020-02-12T04:15:00-05:00",
+        "ends": "2020-02-12T22:22:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 11 at 2:15PM EST until February 12 at 10:22PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nEtowah River near East Canton Downstream I-575 affecting Cherokee\nCounty\n\nEtowah River near Canton affecting Cherokee County\n\nThe Flood Warning continues for\nThe Etowah River near Canton.\n* Until Wednesday evening.\n* At 1 PM Tuesday the stage was 18.0 feet...and nearly steady.\n* Minor flooding will continue.\n* Flood stage is 16 feet.\n* The river will continue rising to near 19.1 feet by this evening.\nThe river will fall below flood stage Wednesday afternoon.\n* At 20 feet...Minor flooding expands further into the woodlands\nand fields upstream and downstream from the gage by the Walaska\nStreet bridge. Large portions of recreational areas such as Boling\nPark behind the Cherokee County High School...the Cherokee County\nFairgrounds and the Etowah River Greenway at Heritage Park will be\nflooded with up to 4 feet of water. The flood waters will reach the\nbase of the water treatment plant near Boling Park. Portions of the\nMill Industrial Way road will be under 3 feet of water.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0148.000000T0000Z-200213T0322Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T22:22:00-05:00"
+            ]
+        }
+    }
+}
