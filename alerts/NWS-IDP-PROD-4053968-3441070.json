@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053968-3441070",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.62,
+                    36.62
+                ],
+                [
+                    -89.27000000000001,
+                    36.69
+                ],
+                [
+                    -89.18,
+                    36.51
+                ],
+                [
+                    -89.35000000000001,
+                    36.5
+                ],
+                [
+                    -89.35000000000001,
+                    36.4799999
+                ],
+                [
+                    -89.64000000000001,
+                    36.4799999
+                ],
+                [
+                    -89.62,
+                    36.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053968-3441070",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053968-3441070",
+        "areaDesc": "Mississippi, MO; New Madrid, MO; Fulton, KY",
+        "geocode": {
+            "UGC": [
+                "MOC133",
+                "MOC143",
+                "KYC075"
+            ],
+            "SAME": [
+                "029133",
+                "029143",
+                "021075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC133",
+            "https://api.weather.gov/zones/county/MOC143",
+            "https://api.weather.gov/zones/county/KYC075"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052468-3439831",
+                "identifier": "NWS-IDP-PROD-4052468-3439831",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T19:14:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T14:32:00-06:00",
+        "effective": "2020-02-11T14:32:00-06:00",
+        "onset": "2020-02-12T12:00:00-06:00",
+        "expires": "2020-02-12T18:31:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued February 11 at 2:31PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following river in\nKentucky...Missouri...\n\nMississippi River at New Madrid\n\n.Runoff from recent heavy rainfall combined with additional forecast\nrain will cause minor flooding to develop on the Mississippi River at\nNew Madrid. The river will reach flood stage Wednesday and crest near\n39.0 feet by Wednesday, February 19.\n\nThe Flood Warning continues for\nthe Mississippi River at New Madrid.\n* from Wednesday afternoon until further notice.\n* At  2:00 PM Tuesday the stage was 32.8 feet.\n* Flood Stage is 34.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by tomorrow early afternoon and\ncontinue to rise to near 39.0 feet by Wednesday, February 19th.\n* Impact...At 38.0 Feet...Heavy agricultural damage begins.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0030.200212T1800Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
