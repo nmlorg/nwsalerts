@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053199-3440421",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -121.88,
+                    47.24
+                ],
+                [
+                    -122.11999999999999,
+                    47.2299999
+                ],
+                [
+                    -122.30999999999999,
+                    47.2299999
+                ],
+                [
+                    -122.37999999999998,
+                    47.53
+                ],
+                [
+                    -122.07999999999998,
+                    47.53
+                ],
+                [
+                    -121.91999999999999,
+                    47.53
+                ],
+                [
+                    -121.88,
+                    47.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053199-3440421",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053199-3440421",
+        "areaDesc": "King, WA",
+        "geocode": {
+            "UGC": [
+                "WAC033"
+            ],
+            "SAME": [
+                "053033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WAC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052921-3440190",
+                "identifier": "NWS-IDP-PROD-4052921-3440190",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T23:37:00-08:00"
+            }
+        ],
+        "sent": "2020-02-11T03:02:00-08:00",
+        "effective": "2020-02-11T03:02:00-08:00",
+        "onset": "2020-02-11T03:02:00-08:00",
+        "expires": "2020-02-11T11:03:00-08:00",
+        "ends": "2020-02-12T22:11:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Seattle WA",
+        "headline": "Flood Warning issued February 11 at 3:02AM PST until February 12 at 10:11PM PST by NWS Seattle WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nCedar River Near Landsburg affecting King County\nCedar River At Renton affecting King County\nGreen River Near Auburn affecting King County\n\nThe rivers will continue to slowly recede today.\n\nThe Flood Warning continues for\nThe Green River Near Auburn\n* Until Wednesday evening.\n* At  1:45 AM Tuesday the flow was 9531 cfs.\n* Flood flow is 9000 cfs.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Impact...At 9000 cfs, the Green River will flood low areas of the\nmiddle Green River valley with water over SE Green Valley Rd.  Some\nbackwater inundation is possible in lower Mill Creek basin between\nAuburn and Kent. A flow of 9000 cfs feet on the Green River\ncorresponds to a phase 3 flood in the King County flood system.",
+        "instruction": "Do not drive cars...vans...or trucks through flooded areas...this is\nthe cause of most flood related deaths in Washington. Be alert for\nrapid changes and monitor developments by listening to NOAA Weather\nradio or other local media.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KSEW.FL.W.0048.000000T0000Z-200213T0611Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SEWFLSSEW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T22:11:00-08:00"
+            ]
+        }
+    }
+}
