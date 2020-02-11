@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052640-3439996",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.27,
+                    35.09
+                ],
+                [
+                    -85.22,
+                    35.11000000000001
+                ],
+                [
+                    -85.08,
+                    34.92000000000001
+                ],
+                [
+                    -85.17,
+                    34.89000000000001
+                ],
+                [
+                    -85.27,
+                    35.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052640-3439996",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052640-3439996",
+        "areaDesc": "Catoosa, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC047",
+                "TNC065"
+            ],
+            "SAME": [
+                "013047",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC047",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051659-3439153",
+                "identifier": "NWS-IDP-PROD-4051659-3439153",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T10:35:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T21:32:00-05:00",
+        "effective": "2020-02-10T21:32:00-05:00",
+        "onset": "2020-02-12T01:00:00-05:00",
+        "expires": "2020-02-11T17:33:00-05:00",
+        "ends": "2020-02-12T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Flood Warning issued February 10 at 9:32PM EST until February 12 at 1:00PM EST by NWS Morristown TN",
+        "description": "...The Flood Warning continues for the following rivers ...\nSouth Chickamauga Creek Near Chickamauga TN affecting Catoosa and\nHamilton Counties\nPigeon River At Newport TN affecting Cocke County\nSequatchie River Near Whitwell TN affecting Bledsoe...Marion and\nSequatchie Counties\n\nAdditional heavy rains will move into the area early Tuesday morning,\nthen the rains will taper off during the day Tuesday.  After the rains\nend, larger creeks and rivers will continue to rise , as waters flow\nin from tributaries.\n\nThe Flood Warning continues for\nThe South Chickamauga Creek Near Chickamauga TN.\n* From late Tuesday night through Wednesday afternoon.\n* At 08:15 PM Monday the stage was 15.1 feet.\n* Flood stage is 18.0 feet.\n* Nonflood flooding is occurring and Minor flooding is forecast.\n* Forecast...Rise to near or at flood stage by late Tuesday night\nthrough Wednesday morning.\n* At 18.0 feet...Water begins to cross Mack Smith Road in Catoosa\nCounty, Georgia. Flooding begins at golf courses near the\nconfluence of South and West Chickamauga Creeks. West Chickamauga\nCreek begins to overflow its banks, as well.",
+        "instruction": "Most deaths in floods occur in automobiles. If you come to a closed\nor flooded road, Turn Around! Don't Drown! For more details, stay\ntuned to NOAA Weather Radio or commercial television or radio\nstations that carry weather information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMRX.FL.W.0018.200212T0600Z-200212T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXFLSMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T13:00:00-05:00"
+            ]
+        }
+    }
+}
