@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053791-3440922",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    35.03
+                ],
+                [
+                    -85.33,
+                    35.02
+                ],
+                [
+                    -85.45,
+                    34.84
+                ],
+                [
+                    -85.49000000000001,
+                    34.71
+                ],
+                [
+                    -85.56,
+                    34.7299999
+                ],
+                [
+                    -85.53,
+                    34.870000000000005
+                ],
+                [
+                    -85.39,
+                    35.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053791-3440922",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053791-3440922",
+        "areaDesc": "Dade, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC083",
+                "TNC065"
+            ],
+            "SAME": [
+                "013083",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC083",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053304-3440501",
+                "identifier": "NWS-IDP-PROD-4053304-3440501",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T08:41:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T13:23:00-05:00",
+        "effective": "2020-02-11T13:23:00-05:00",
+        "onset": "2020-02-11T13:23:00-05:00",
+        "expires": "2020-02-12T03:23:00-05:00",
+        "ends": "2020-02-14T03:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 11 at 1:23PM EST until February 14 at 3:00AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nSouth Chickamauga Creek near Ringgold affecting Catoosa County\n\nWest Chickamauga Creek near Fort Oglethorpe affecting Catoosa and\nHamilton Counties\n\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\nThe Flood Warning continues for\nThe Lookout Creek near New England.\n* From Thursday morning until late Thursday night.\n* At 1 PM Tuesday the stage was 14.4 feet...and falling.\n* Minor flooding will continue.\n* Flood stage is 12 feet.\n* The river will continue to fall to below flood stage by Thursday\nbefore midnight.\n* At 15 feet...Minor flooding continues to expand along Sells Lane\nin Trenton...Mason Road near Rising Fawn...and Creek Road near New\nEngland. These roads and other roads with creeks flowing into\nLookout Creek will flood causing the roads to be closed. The water\nwill be a few feet deep on portions of these roads. Also minor\nflooding will continue to expand downstream as the creek crosses\nthe Tennessee border into the Tiftona area.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0132.000000T0000Z-200214T0800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T03:00:00-05:00"
+            ]
+        }
+    }
+}

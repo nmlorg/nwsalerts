@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053792-3440923",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.26,
+                    34.92
+                ],
+                [
+                    -85.23,
+                    35
+                ],
+                [
+                    -85.16000000000001,
+                    34.99
+                ],
+                [
+                    -85.24000000000001,
+                    34.86
+                ],
+                [
+                    -85.26,
+                    34.92
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053792-3440923",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053792-3440923",
+        "areaDesc": "Catoosa, GA; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "GAC047",
+                "TNC065"
+            ],
+            "SAME": [
+                "013047",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC047",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053575-3440730",
+                "identifier": "NWS-IDP-PROD-4053575-3440730",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T11:09:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T13:23:00-05:00",
+        "effective": "2020-02-11T13:23:00-05:00",
+        "onset": "2020-02-12T01:00:00-05:00",
+        "expires": "2020-02-12T03:23:00-05:00",
+        "ends": "2020-02-12T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 11 at 1:23PM EST until February 12 at 1:00PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nSouth Chickamauga Creek near Ringgold affecting Catoosa County\n\nWest Chickamauga Creek near Fort Oglethorpe affecting Catoosa and\nHamilton Counties\n\nLookout Creek near New England affecting Dade and Hamilton\nCounties\n\nThe Flood Warning continues for\nThe West Chickamauga Creek near Fort Oglethorpe.\n* From after midnight tomorrow until Wednesday afternoon.\n* At 1 PM Tuesday the stage was 10.5 feet...and rising.\n* Minor flooding is forecast.\n* Flood stage is 11 feet.\n* Forecast to rise to flood stage by after midnight and stay around 11.0\nfeet through early Wednesday morning. The river will fall below flood\nstage later Wednesday morning.\n* At 11 feet...Flood Stage is reached. Minor flooding begins of\nwoodlands and fields near the creek upstream and downstream from\nthe gage on the Georgia Highway 146 or Cloud Springs Road bridge.\nMinor flooding of the creek can also be expected further downstream\nas it crosses the Tennessee border into the south East Ridge area.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0135.200212T0600Z-200212T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T13:00:00-05:00"
+            ]
+        }
+    }
+}
