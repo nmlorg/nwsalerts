@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053102-3440337",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.94,
+                    33.71
+                ],
+                [
+                    -87.05,
+                    33.58
+                ],
+                [
+                    -87.33,
+                    33.449999999999996
+                ],
+                [
+                    -87.37,
+                    33.479999899999996
+                ],
+                [
+                    -87.14,
+                    33.62
+                ],
+                [
+                    -86.98,
+                    33.729999899999996
+                ],
+                [
+                    -86.94,
+                    33.71
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053102-3440337",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4053102-3440337",
+        "areaDesc": "Jefferson, AL; Walker, AL; Tuscaloosa, AL",
+        "geocode": {
+            "UGC": [
+                "ALC073",
+                "ALC127",
+                "ALC125"
+            ],
+            "SAME": [
+                "001073",
+                "001127",
+                "001125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC073",
+            "https://api.weather.gov/zones/county/ALC127",
+            "https://api.weather.gov/zones/county/ALC125"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052637-3439993",
+                "identifier": "NWS-IDP-PROD-4052637-3439993",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T20:30:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T03:49:00-06:00",
+        "effective": "2020-02-11T03:49:00-06:00",
+        "onset": "2020-02-11T12:21:00-06:00",
+        "expires": "2020-02-11T15:48:00-06:00",
+        "ends": "2020-02-13T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 11 at 3:49AM CST until February 13 at 6:00AM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Locust Fork At Sayre...\n\n.Heavy rainfall over the past 24 hours is producing rises along the\nBlack Warrior River basin.. a flood warning remains in effect for the\nthe Locust Fork At Sayre.\n\nThe Flood Warning continues for\nThe Locust Fork At Sayre.\n* from this afternoon to Thursday morning...or until the Warning is\ncancelled.\n* AT  3:00 AM Tuesday the stage was 21.1 feet.\n* Minor flooding is forecast.\n* Flood stage is 25.0 feet.\n* Forecast...Rise above flood stage by this afternoon and continue to\nrise to near 27.4 feet by tomorrow morning . The river will fall\nbelow flood stage by tomorrow evening .",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Tuesday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0034.200211T1821Z-200213T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T06:00:00-06:00"
+            ]
+        }
+    }
+}
