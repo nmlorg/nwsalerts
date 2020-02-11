@@ -1,0 +1,118 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052441-3439811",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.4,
+                    31.49
+                ],
+                [
+                    -88.4599999,
+                    31.61
+                ],
+                [
+                    -88.03,
+                    31.759999999999998
+                ],
+                [
+                    -87.94,
+                    31.709999999999997
+                ],
+                [
+                    -87.89999999999999,
+                    31.539999999999996
+                ],
+                [
+                    -88.4,
+                    31.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052441-3439811",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052441-3439811",
+        "areaDesc": "Choctaw, AL; Washington, AL; Clarke, AL",
+        "geocode": {
+            "UGC": [
+                "ALC023",
+                "ALC129",
+                "ALC025"
+            ],
+            "SAME": [
+                "001023",
+                "001129",
+                "001025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC023",
+            "https://api.weather.gov/zones/county/ALC129",
+            "https://api.weather.gov/zones/county/ALC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052427-3439797",
+                "identifier": "NWS-IDP-PROD-4052427-3439797",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T18:47:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T18:58:00-06:00",
+        "effective": "2020-02-10T18:58:00-06:00",
+        "onset": "2020-02-10T18:58:00-06:00",
+        "expires": "2020-02-10T19:30:00-06:00",
+        "ends": "2020-02-10T19:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Severe Thunderstorm Warning issued February 10 at 6:58PM CST until February 10 at 7:30PM CST by NWS Mobile AL",
+        "description": "At 658 PM CST, a severe thunderstorm was located near Millry, or 9\nmiles north of Chatom, moving northeast at 45 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nSaint Stephens and Millry.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T18:58:00.000-06:00...storm...247DEG...40KT...31.59,-88.29"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 730 PM CST FOR SOUTHEASTERN CHOCTAW...NORTHERN WASHINGTON AND WEST CENTRAL CLARKE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMOB.SV.W.0027.000000T0000Z-200211T0130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSVSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-10T19:30:00-06:00"
+            ]
+        }
+    }
+}
