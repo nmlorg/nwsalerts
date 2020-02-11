@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052462",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -111.62,
+                    33.58
+                ],
+                [
+                    -111.60000000000001,
+                    33.57
+                ],
+                [
+                    -111.68,
+                    33.31
+                ],
+                [
+                    -111.81,
+                    33.32
+                ],
+                [
+                    -111.8,
+                    33.59
+                ],
+                [
+                    -111.62,
+                    33.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052462",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052462",
+        "areaDesc": "East Valley; Fountain Hills/East Mesa; Southeast Valley/Queen Creek; Scottsdale/Paradise Valley",
+        "geocode": {
+            "UGC": [
+                "AZZ548",
+                "AZZ549",
+                "AZZ551",
+                "AZZ546"
+            ],
+            "SAME": [
+                "004013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AZZ548",
+            "https://api.weather.gov/zones/forecast/AZZ549",
+            "https://api.weather.gov/zones/forecast/AZZ551",
+            "https://api.weather.gov/zones/forecast/AZZ546"
+        ],
+        "references": [],
+        "sent": "2020-02-10T18:11:00-07:00",
+        "effective": "2020-02-10T18:11:00-07:00",
+        "onset": "2020-02-10T18:11:00-07:00",
+        "expires": "2020-02-10T18:45:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Phoenix AZ",
+        "headline": "Special Weather Statement issued February 10 at 6:11PM MST by NWS Phoenix AZ",
+        "description": "At 610 PM MST, Doppler radar was tracking a strong thunderstorm over\nFreestone Park, or over Gilbert, moving north at 25 mph.\n\nDime size hail and winds in excess of 40 mph will be possible with\nthis storm.\n\nLocations impacted include...\nMesa, Gilbert, Fountain Hills, East Mesa, Freestone Park, Granite\nReef Dam, Gilbert City Hall, Falcon Field Airport and Superstition\nSprings Mall.\n\nThis includes the following highways...\nUS Highway 60 between mile markers 182 and 190.\nAZ Route 87 between mile markers 182 and 191.\nAZ Route 202 between mile markers 16 and 26, and between mile markers\n36 and 40.",
+        "instruction": "This storm may intensify, so be certain to monitor local radio\nstations and available television stations for additional information\nand possible warnings from the National Weather Service.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-10T18:10:00.000-07:00...storm...186DEG...20KT...33.37,-111.73"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR MARICOPA COUNTY UNTIL 645 PM MST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PSRSPSPSR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
