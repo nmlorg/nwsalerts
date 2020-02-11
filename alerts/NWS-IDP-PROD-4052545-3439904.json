@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052545-3439904",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.49,
+                    34.76
+                ],
+                [
+                    -86.38,
+                    34.75
+                ],
+                [
+                    -86.39,
+                    34.61
+                ],
+                [
+                    -86.47,
+                    34.47
+                ],
+                [
+                    -86.55,
+                    34.54
+                ],
+                [
+                    -86.49,
+                    34.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052545-3439904",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052545-3439904",
+        "areaDesc": "Madison, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089"
+            ],
+            "SAME": [
+                "001089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052044-3439500",
+                "identifier": "NWS-IDP-PROD-4052044-3439500",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T13:27:00-06:00"
+            }
+        ],
+        "sent": "2020-02-10T19:42:00-06:00",
+        "effective": "2020-02-10T19:42:00-06:00",
+        "onset": "2020-02-11T00:00:00-06:00",
+        "expires": "2020-02-11T09:42:00-06:00",
+        "ends": "2020-02-12T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 10 at 7:42PM CST until February 12 at 6:00PM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama...\n\nFlint River at Brownsboro affecting Madison County\n\nThe Flood Warning continues for\nthe Flint River at Brownsboro.\n* until Wednesday evening.\n* At 6 PM Monday the stage was 14.8 feet and rising.\n* Flood Stage is 17.0 feet.\n* Moderate Flooding is forecast.\n* Forecast...Rise above Flood Stage by after midnight tonight and\ncrest near 21.5 feet by early tomorrow evening. The river will fall\nbelow Flood Stage by early Wednesday afternoon.\n* Impact...At 22.0 feet...Flood waters begin to affect yards on the\nright bank. Homes are not threatened on the right bank at this\nstage. Brownsboro Road north of the Flint River is closed due to\nhigh waters. At least two homes on the left bank are threatened by\nfloodwaters. The gage house becomes inaccessible.\n* Flood history...This crest compares to a previous crest of 22.1 feet\non Feb 24 2019.",
+        "instruction": "Safety message...Be especially cautious at night when it is harder to\nrecognize flood dangers. If while driving you see water over a road,\nturn around, don't drown! The water depth may be too great to allow\nyour vehicle to cross. Additional information is available at\nhttp://water.weather.gov. Once there, click on the Tennessee Valley\nto view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KHUN.FL.W.0013.200211T0600Z-200213T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T18:00:00-06:00"
+            ]
+        }
+    }
+}
