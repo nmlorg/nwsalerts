@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052486-3439848",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.49,
+                    31.08
+                ],
+                [
+                    -84.53,
+                    30.919999999999998
+                ],
+                [
+                    -84.67,
+                    30.77
+                ],
+                [
+                    -84.7099999,
+                    30.83
+                ],
+                [
+                    -84.59,
+                    30.93
+                ],
+                [
+                    -84.54,
+                    31.08
+                ],
+                [
+                    -84.49,
+                    31.08
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4052486-3439848",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4052486-3439848",
+        "areaDesc": "Decatur, GA",
+        "geocode": {
+            "UGC": [
+                "GAC087"
+            ],
+            "SAME": [
+                "013087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC087"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4051629-3439126",
+                "identifier": "NWS-IDP-PROD-4051629-3439126",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-10T10:22:00-05:00"
+            }
+        ],
+        "sent": "2020-02-10T20:26:00-05:00",
+        "effective": "2020-02-10T20:26:00-05:00",
+        "onset": "2020-02-11T13:00:00-05:00",
+        "expires": "2020-02-11T20:25:00-05:00",
+        "ends": "2020-02-15T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Flood Warning issued February 10 at 8:26PM EST until February 15 at 10:00PM EST by NWS Tallahassee FL",
+        "description": "...The Flood Warning continues for the following river in Georgia...\n\nFlint River at Bainbridge (US 27) affecting Decatur County\n\nThe Flood Warning continues for\nthe Flint River at Bainbridge (US 27).\n* From Tuesday afternoon, until the warning is cancelled.\n* At  7:45 PM Monday the stage was 24.6 feet.\n* Minor flooding is forecast.\n* Flood stage is 25.0 feet.\n* Forecast: The river will rise above flood stage by tomorrow early afternoon and\ncontinue to rise to near 25.1 feet by Friday evening. The river\nwill fall below flood stage by late Saturday morning.\n* Impact: At 25.0 feet: Minor lowland flooding begins.",
+        "instruction": "All persons with interest along the river should monitor the latest\nforecasts, and be prepared to take necessary precautions to protect\nlife and property. Do not drive cars through flooded areas. If you\nsee flood waters: Turn around. Don't drown.\n\nFor graphical hydrologic information, please go to weather.gov and\nclick on your state. Select Rivers and Lakes AHPS under current\nconditions and click on your river point.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KTAE.FL.W.0013.200211T1800Z-200216T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TAEFLSTAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T22:00:00-05:00"
+            ]
+        }
+    }
+}
