@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054378-3441434",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.92,
+                    39.12
+                ],
+                [
+                    -86.94,
+                    39.08
+                ],
+                [
+                    -86.92999999999999,
+                    39
+                ],
+                [
+                    -86.97,
+                    39
+                ],
+                [
+                    -86.99,
+                    39.05
+                ],
+                [
+                    -86.9599999,
+                    39.129999999999995
+                ],
+                [
+                    -86.92,
+                    39.12
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054378-3441434",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054378-3441434",
+        "areaDesc": "Daviess, IN; Knox, IN; Greene, IN",
+        "geocode": {
+            "UGC": [
+                "INC027",
+                "INC083",
+                "INC055"
+            ],
+            "SAME": [
+                "018027",
+                "018083",
+                "018055"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC027",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC055"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053717-3440855",
+                "identifier": "NWS-IDP-PROD-4053717-3440855",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T12:27:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T20:35:00-05:00",
+        "effective": "2020-02-11T20:35:00-05:00",
+        "onset": "2020-02-11T20:35:00-05:00",
+        "expires": "2020-02-12T20:35:00-05:00",
+        "ends": "2020-02-18T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued February 11 at 8:35PM EST until February 18 at 7:00AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nDriftwood River...East Fork White River...Wabash River...White\nRiver...\n\n\n.Flooding is underway along several central and southern Indiana\nwaterways as a result of up to 2 inches of precipitation that fell\nSunday into Monday. The bulk of the water will show up in the White\nRiver south of Indianapolis, where crests are expected to be up to\nabout 5 feet above flood stage.  Flooding along the lower reaches of\nthe Wabash and White Rivers currently are predicted to last until the\nend of next week.\n\nAn additional inch of rain is expected to fall over the next few\ndays which may prolong river flooding.\n\nFlood impacts should mainly be confined to roads near the waterways,\nagricultural land, bottom-lands, and levees.  Please see the\nspecific\nimpacts listed for your location of interest below or by going to\nthe web page described below.\n\nThe Flood Warning continues for\nThe White River at Elliston.\n* until Tuesday February 18.\n* At  8:00 AM Tuesday the stage was 19.5 feet.\n* Flood stage is 18.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will rise to near 22.4 feet by Wednesday evening then\nbegin falling. It will fall below flood stage Monday evening.\n* At 23.0 feet...Extensive flooding of agricultural lands begin.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KIND.FL.W.0061.000000T0000Z-200218T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-18T07:00:00-05:00"
+            ]
+        }
+    }
+}
