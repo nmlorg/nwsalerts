@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055419-3442461",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.42,
+                    37.75
+                ],
+                [
+                    -87.3,
+                    37.72
+                ],
+                [
+                    -87.39,
+                    37.629999999999995
+                ],
+                [
+                    -87.03,
+                    37.51
+                ],
+                [
+                    -87.0699999,
+                    37.43
+                ],
+                [
+                    -87.5699999,
+                    37.61
+                ],
+                [
+                    -87.42,
+                    37.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055419-3442461",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055419-3442461",
+        "areaDesc": "Webster, KY; McLean, KY",
+        "geocode": {
+            "UGC": [
+                "KYC233",
+                "KYC149"
+            ],
+            "SAME": [
+                "021233",
+                "021149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC233",
+            "https://api.weather.gov/zones/county/KYC149"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054490-3441551",
+                "identifier": "NWS-IDP-PROD-4054490-3441551",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T20:17:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T08:48:00-06:00",
+        "effective": "2020-02-12T08:48:00-06:00",
+        "onset": "2020-02-12T21:00:00-06:00",
+        "expires": "2020-02-13T12:47:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued February 12 at 8:48AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nKentucky...\n\nGreen River at Paradise and Calhoun\n\n.Runoff from rainfall forecast over the next 48 hours will cause\nthe Green River at Paradise and at Calhoun to rise into moderate\nflood stage. At Paradise, the river is forecast to crest at 386.8\nfeet on Saturday. At Calhoun, the river is forecast to crest at 27.6\non Monday.\n\nThe Flood Warning continues for\nthe Green River at Calhoun.\n* from this evening until further notice.\n* At  8:00 AM Wednesday the stage was 22.6 feet.\n* Flood Stage is 23.0 feet.\n* Moderate flooding is forecast.\n* Forecast...Rise above flood stage by tonight and continue to rise\nto near 27.6 feet by Monday morning. Additional rises are possible\nthereafter.\n* Impact...At 26.0 Feet...Moderate flooding occurs with thousands of\nacreage flooded in the Island, Rumsey, and Jewel City areas.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0033.200213T0300Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
