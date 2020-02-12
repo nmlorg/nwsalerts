@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054690-3441721",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.65,
+                    34.85
+                ],
+                [
+                    -87.62,
+                    34.71
+                ],
+                [
+                    -87.88000000000001,
+                    34.6599999
+                ],
+                [
+                    -88.11000000000001,
+                    34.7299999
+                ],
+                [
+                    -88.20000000000002,
+                    35
+                ],
+                [
+                    -87.65,
+                    34.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054690-3441721",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054690-3441721",
+        "areaDesc": "Lauderdale, AL; Colbert, AL",
+        "geocode": {
+            "UGC": [
+                "ALC077",
+                "ALC033"
+            ],
+            "SAME": [
+                "001077",
+                "001033"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC077",
+            "https://api.weather.gov/zones/county/ALC033"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053798-3440927",
+                "identifier": "NWS-IDP-PROD-4053798-3440927",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T12:40:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T22:35:00-06:00",
+        "effective": "2020-02-11T22:35:00-06:00",
+        "onset": "2020-02-11T22:35:00-06:00",
+        "expires": "2020-02-12T12:35:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 11 at 10:35PM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama\nbased on forecasts from the Tennessee Valley Authority...\n\nTennessee River AT Florence affecting Colbert and Lauderdale\nCounties\n\nThe Flood Warning continues for\nThe Tennessee River AT Florence.\n* Until further notice.\n* At 9 PM Tuesday the stage was 24.6 feet.\n* Flood Stage is 18.0 feet.\n* Minor Flooding is occurring and Minor Flooding is forecast by the\nTennessee Valley Authority.\n* Recent Activity...The maximum river stage in the 24 hours ending at\n10 PM Tuesday was 24.6 feet.\n* Forecast from the Tennessee Valley Authority...The river will\ncontinue rising to near 25.0 feet by early tomorrow afternoon.\nAdditional rises may be possible thereafter.\n* Flood history...This crest compares to a previous crest of 23.7 feet\non Dec 29 2015.",
+        "instruction": "Safety message...\n\nBe especially cautious at night when it is harder to recognize flood\ndangers. If while driving you see water over a road, turn around,\ndon't drown! The water depth may be too great to allow your vehicle\nto cross.\n\nInterests along the Tennessee River should remain alert to rapidly\nchanging river conditions, and stay tuned for later forecast updates\nfrom the Tennessee Valley Authority and the National Weather Service\nforecast office in Huntsville.\n\nAdditional information is available at http://water.weather.gov. Once\nthere, click on the Tennessee Valley to view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KHUN.FL.W.0010.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
