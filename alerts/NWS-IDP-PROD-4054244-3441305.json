@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054244-3441305",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.7,
+                    32.67
+                ],
+                [
+                    -94.48,
+                    32.6599999
+                ],
+                [
+                    -94.27000000000001,
+                    32.760000000000005
+                ],
+                [
+                    -94.25000000000001,
+                    32.7299999
+                ],
+                [
+                    -94.59000000000002,
+                    32.6
+                ],
+                [
+                    -94.7,
+                    32.67
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054244-3441305",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054244-3441305",
+        "areaDesc": "Harrison, TX; Marion, TX; Upshur, TX; Gregg, TX",
+        "geocode": {
+            "UGC": [
+                "TXC203",
+                "TXC315",
+                "TXC459",
+                "TXC183"
+            ],
+            "SAME": [
+                "048203",
+                "048315",
+                "048459",
+                "048183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC203",
+            "https://api.weather.gov/zones/county/TXC315",
+            "https://api.weather.gov/zones/county/TXC459",
+            "https://api.weather.gov/zones/county/TXC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053597-3440740",
+                "identifier": "NWS-IDP-PROD-4053597-3440740",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T10:14:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T18:27:00-06:00",
+        "effective": "2020-02-11T18:27:00-06:00",
+        "onset": "2020-02-17T00:00:00-06:00",
+        "expires": "2020-02-12T18:27:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 11 at 6:27PM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Little Cypress Bayou Near Jefferson.\n* from late Sunday night until further notice...or until the warning\nis cancelled.\n* At  6:15 PM Tuesday The stage was 8.1 feet.\n* Minor flooding is forecast.\n* Flood stage is 13.0 feet.\n* Forecast...The river is expected to rise to near flood stage early\nMonday morning.\n* Impact...at 14.0 feet...Expect minor lowland flooding to continue\nfor several days.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KSHV.FL.W.0017.200217T0600Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
