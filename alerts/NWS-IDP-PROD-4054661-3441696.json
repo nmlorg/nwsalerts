@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054661-3441696",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.25,
+                    36.4799999
+                ],
+                [
+                    -87.89,
+                    36.4799999
+                ],
+                [
+                    -87.83,
+                    36.330000000000005
+                ],
+                [
+                    -87.85,
+                    35.88
+                ],
+                [
+                    -88.25,
+                    35.88
+                ],
+                [
+                    -88.25,
+                    36.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054661-3441696",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054661-3441696",
+        "areaDesc": "Henry, TN; Benton, TN; Stewart, TN; Houston, TN; Humphreys, TN",
+        "geocode": {
+            "UGC": [
+                "TNC079",
+                "TNC005",
+                "TNC161",
+                "TNC083",
+                "TNC085"
+            ],
+            "SAME": [
+                "047079",
+                "047005",
+                "047161",
+                "047083",
+                "047085"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC079",
+            "https://api.weather.gov/zones/county/TNC005",
+            "https://api.weather.gov/zones/county/TNC161",
+            "https://api.weather.gov/zones/county/TNC083",
+            "https://api.weather.gov/zones/county/TNC085"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053864-3440989",
+                "identifier": "NWS-IDP-PROD-4053864-3440989",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T13:39:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T21:51:00-06:00",
+        "effective": "2020-02-11T21:51:00-06:00",
+        "onset": "2020-02-11T21:51:00-06:00",
+        "expires": "2020-02-12T21:51:00-06:00",
+        "ends": "2020-02-15T16:38:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Advisory issued February 11 at 9:51PM CST until February 15 at 4:38PM CST by NWS Memphis TN",
+        "description": "...The Flood Advisory continues for the Tennessee River...\nTennessee River at Johnsonville affecting Benton...Henry...\nHouston...Humphreys and Stewart Counties\n\nThe Flood Advisory continues for\nthe Tennessee River at Johnsonville\n* until Saturday February 15.\n* At 8 PM Tuesday the stage was 359.9 feet.\n* Flood stage is 361.5 feet.\n* Forecast...The river will rise to almost the flood stage of\n361.5 feet Saturday February 15.\n* At 361.5 feet...Low lying portions of Old Johnsonville Rd near the\nBattle of Johnsonville Park begin to flood, and water approaches\nsome of the parking areas and campgrounds at Masons Boat Dock near\nWaverly.",
+        "instruction": "The next River Statement will be issued when conditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.Y.0020.000000T0000Z-200215T2238Z/"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T16:38:00-06:00"
+            ]
+        }
+    }
+}
