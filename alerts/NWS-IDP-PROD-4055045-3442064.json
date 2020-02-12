@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055045-3442064",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.92,
+                    33.55
+                ],
+                [
+                    -80.8199999,
+                    33.419999999999995
+                ],
+                [
+                    -80.91,
+                    33.35999999999999
+                ],
+                [
+                    -81,
+                    33.53999999999999
+                ],
+                [
+                    -80.92,
+                    33.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055045-3442064",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055045-3442064",
+        "areaDesc": "Orangeburg, SC",
+        "geocode": {
+            "UGC": [
+                "SCC075"
+            ],
+            "SAME": [
+                "045075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC075"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054273-3441333",
+                "identifier": "NWS-IDP-PROD-4054273-3441333",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T19:54:00-05:00"
+            }
+        ],
+        "sent": "2020-02-12T04:41:00-05:00",
+        "effective": "2020-02-12T04:41:00-05:00",
+        "onset": "2020-02-12T04:41:00-05:00",
+        "expires": "2020-02-13T04:41:00-05:00",
+        "ends": "2020-02-14T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued February 12 at 4:41AM EST until February 14 at 1:00AM EST by NWS Columbia SC",
+        "description": "...River Flood Warnings Continue for Following Rivers in South Carolina...\n\nCongaree River at Carolina Eastman Affecting Calhoun...Lexington\nand Richland Counties\n\nCongaree River at Congaree National Park-Gadsden Affecting Calhoun\nand Richland Counties\n\nNorth Fork of Edisto River at Orangeburg Affecting Orangeburg County\n\nSaluda River at Chappells affecting Greenwood...Newberry and Saluda\nCounties\n\nLake Wateree affecting Fairfield...Kershaw and  Lancaster Counties\n\n.Elevated river stages continue because of recent heavy rain.\n\nThe Flood Warning continues for\nThe North Fork Edisto River At Orangeburg.\n* until late Thursday night...Or until the warning is cancelled.\n* At 4 AM Wednesday the stage was 8.0 feet.\n* Flood stage is 8.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will remain near 8.0 feet through this\nmorning. The river will fall below flood stage later today.\n* At 8.0 feet...Some minor flooding occurs along the boardwalk at\nEdisto Gardens. Downstream from the Highway 301 bridge, some roads\noff Chiquita street near the river begin to flood.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCAE.FL.W.0022.000000T0000Z-200214T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T01:00:00-05:00"
+            ]
+        }
+    }
+}
