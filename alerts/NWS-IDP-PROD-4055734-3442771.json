@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055734-3442771",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.62,
+                    31.44
+                ],
+                [
+                    -94.74000000000001,
+                    31.450000000000003
+                ],
+                [
+                    -94.81999990000001,
+                    31.480000000000004
+                ],
+                [
+                    -94.81999990000001,
+                    31.500000000000004
+                ],
+                [
+                    -94.66000000000001,
+                    31.460000000000004
+                ],
+                [
+                    -94.62,
+                    31.44
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055734-3442771",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055734-3442771",
+        "areaDesc": "Cherokee, TX; Nacogdoches, TX; Angelina, TX",
+        "geocode": {
+            "UGC": [
+                "TXC073",
+                "TXC347",
+                "TXC005"
+            ],
+            "SAME": [
+                "048073",
+                "048347",
+                "048005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC073",
+            "https://api.weather.gov/zones/county/TXC347",
+            "https://api.weather.gov/zones/county/TXC005"
+        ],
+        "references": [],
+        "sent": "2020-02-12T10:47:00-06:00",
+        "effective": "2020-02-12T10:47:00-06:00",
+        "onset": "2020-02-13T03:00:00-06:00",
+        "expires": "2020-02-13T10:46:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 12 at 10:47AM CST by NWS Shreveport LA",
+        "description": "The National Weather Service in Shreveport has issued a\n\n* FLOOD WARNING FOR\nthe Angelina River Near Lufkin, Texas.\n* from late tonight until further notice...or until the warning is\ncancelled.\n* The estimated Wednesday morning stage was near 9.5 feet.\n* Minor flooding is forecast.\n* Flood stage is 10 feet.\n* Forecast...Crest near 10.5 feet during this weekend.\n* Impact...Minor lowland flooding of the boat ramp.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KSHV.FL.W.0026.200213T0900Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLWSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
