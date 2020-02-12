@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055929-3442960",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055929-3442960",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055929-3442960",
+        "areaDesc": "Madison, AL; Marshall, AL; Morgan, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089",
+                "ALC095",
+                "ALC103"
+            ],
+            "SAME": [
+                "001089",
+                "001095",
+                "001103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089",
+            "https://api.weather.gov/zones/county/ALC095",
+            "https://api.weather.gov/zones/county/ALC103"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055259-3442299",
+                "identifier": "NWS-IDP-PROD-4055259-3442299",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T07:09:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T13:36:00-06:00",
+        "effective": "2020-02-12T13:36:00-06:00",
+        "onset": "2020-02-12T13:36:00-06:00",
+        "expires": "2020-02-13T03:35:00-06:00",
+        "ends": "2020-02-20T00:35:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 12 at 1:36PM CST until February 20 at 12:35AM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama\nbased on forecasts from the Tennessee Valley Authority...\n\nTennessee River AT Whitesburg affecting Madison...Marshall and\nMorgan Counties",
+        "instruction": "Safety message...\n\nDo not attempt to drive through a flooded road. The depth of water is\nnot always obvious. As little as two feet of water will carry most\ncars away. Also, the road bed may be washed out under the water, and\nyou could be stranded or trapped.\n\nInterests along the Tennessee River should remain alert to rapidly\nchanging river conditions, and stay tuned for later forecast updates\nfrom the Tennessee Valley Authority and the National Weather Service\nforecast office in Huntsville.\n\nAdditional information is available at http://water.weather.gov. Once\nthere, click on the Tennessee Valley to view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning Extended until Thursday February 20"
+            ],
+            "VTEC": [
+                "/O.EXT.KHUN.FL.W.0011.000000T0000Z-200220T0635Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-20T00:35:00-06:00"
+            ]
+        }
+    }
+}
