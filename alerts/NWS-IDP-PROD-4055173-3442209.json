@@ -1,0 +1,87 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055173-3442209",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.4599999,
+                    32.27
+                ],
+                [
+                    -95.45,
+                    32.28
+                ],
+                [
+                    -95.23,
+                    32.4
+                ],
+                [
+                    -95.22,
+                    32.269999999999996
+                ],
+                [
+                    -95.4599999,
+                    32.159999899999995
+                ],
+                [
+                    -95.4599999,
+                    32.27
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055173-3442209",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055173-3442209",
+        "areaDesc": "Smith, TX",
+        "geocode": {
+            "UGC": [
+                "TXC423"
+            ],
+            "SAME": [
+                "048423"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC423"
+        ],
+        "references": [],
+        "sent": "2020-02-12T04:47:00-06:00",
+        "effective": "2020-02-12T04:47:00-06:00",
+        "onset": "2020-02-12T04:47:00-06:00",
+        "expires": "2020-02-12T07:45:00-06:00",
+        "ends": "2020-02-12T07:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Advisory issued February 12 at 4:47AM CST until February 12 at 7:45AM CST by NWS Shreveport LA",
+        "description": "The National Weather Service in Shreveport has issued a\n\n* Flood Advisory for...\nSouthwestern Smith County in northeastern Texas...\n\n* Until 745 AM CST.\n\n* At 446 AM CST, Doppler radar and automated rain gauges indicated\nheavy rain which will cause minor flooding in the advisory area. Up\nto one inch of rain has already fallen.\n\n* Some locations that will experience flooding include...\nTyler and Noonday.\n\nAdditional rainfall of one to two inches is expected over the area.\nThis additional rain will result in minor flooding.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KSHV.FA.Y.0006.200212T1047Z-200212T1345Z/"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T07:45:00-06:00"
+            ]
+        }
+    }
+}
