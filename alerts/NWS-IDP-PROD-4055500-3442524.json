@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055500-3442524",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.44,
+                    34.6599999
+                ],
+                [
+                    -89.1,
+                    34.6599999
+                ],
+                [
+                    -89.11999999999999,
+                    34.46
+                ],
+                [
+                    -89.24999999999999,
+                    34.34
+                ],
+                [
+                    -89.43999999999998,
+                    34.4099999
+                ],
+                [
+                    -89.44,
+                    34.6599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055500-3442524",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055500-3442524",
+        "areaDesc": "Lafayette, MS; Marshall, MS; Union, MS",
+        "geocode": {
+            "UGC": [
+                "MSC071",
+                "MSC093",
+                "MSC145"
+            ],
+            "SAME": [
+                "028071",
+                "028093",
+                "028145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC071",
+            "https://api.weather.gov/zones/county/MSC093",
+            "https://api.weather.gov/zones/county/MSC145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054262-3441322",
+                "identifier": "NWS-IDP-PROD-4054262-3441322",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T18:48:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T09:17:00-06:00",
+        "effective": "2020-02-12T09:17:00-06:00",
+        "onset": "2020-02-12T09:17:00-06:00",
+        "expires": "2020-02-13T09:17:00-06:00",
+        "ends": "2020-02-14T10:42:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued February 12 at 9:17AM CST until February 14 at 10:42AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Little Tallahatchie Canal...\nTallahatchie River.\n\nThe Flood Warning continues for\nthe Little Tallahatchie Canal at Etta near New Albany\n* from Thursday February 13 until Friday February 14.\n* At 09 AM Wednesday the stage was 25.3 feet.\n* Minor flooding is occurring AND Minor flooding is forecast.\n* Maximum forecast stage of 26.5 feet on Thursday February 13.\n* Flood stage is 25.0 feet.\n* The river rose above flood stage Tuesday February 11 and will\ncontinue rising to near 26.5 feet by Thursday February 13. The\nriver will fall below flood stage Friday February 14.\n* At 26.0 feet...County Highway 47 near Mud Creek and Mill Creek has\n6 to 12 inches of water over it. Several thousand acres of crop\nland are flooded.",
+        "instruction": "A followup Flood Statement will be issued tomorrow or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0044.000000T0000Z-200214T1642Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T10:42:00-06:00"
+            ]
+        }
+    }
+}
