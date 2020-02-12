@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056314",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.17,
+                    34.32
+                ],
+                [
+                    -87.63,
+                    34.3
+                ],
+                [
+                    -87.64,
+                    33.909999899999995
+                ],
+                [
+                    -87.95,
+                    33.919999999999995
+                ],
+                [
+                    -87.95,
+                    33.78999999999999
+                ],
+                [
+                    -88.24000000000001,
+                    33.79999999999999
+                ],
+                [
+                    -88.17,
+                    34.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056314",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056314",
+        "areaDesc": "Marion; Lamar",
+        "geocode": {
+            "UGC": [
+                "ALZ011",
+                "ALZ012"
+            ],
+            "SAME": [
+                "001093",
+                "001075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ALZ011",
+            "https://api.weather.gov/zones/forecast/ALZ012"
+        ],
+        "references": [],
+        "sent": "2020-02-12T16:38:00-06:00",
+        "effective": "2020-02-12T16:38:00-06:00",
+        "onset": "2020-02-12T16:38:00-06:00",
+        "expires": "2020-02-12T17:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Special Weather Statement issued February 12 at 4:38PM CST by NWS Birmingham AL",
+        "description": "At 438 PM CST, Doppler radar was tracking strong thunderstorms along\na line extending from near Fairview to near New Salem to near\nAberdeen. Movement was east at 55 mph.\n\nWind gusts up to 50 mph will be possible with these storms.\n\nLocations impacted include...\nHamilton, Winfield, Haleyville, Sulligent, Guin, Hackleburg,\nBrilliant, Glen Allen, Detroit, Beaverton, Gu-\nWin, Weston, Blooming Grove, Lamar County Airport, Brinn, Lake\nButtahatchee, Crews, Bear Creek, Twin and Tucker.\n\nThese storms may intensify, so be certain to monitor local radio\nstations and available television stations for additional information\nand possible warnings from the National Weather Service.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-12T16:38:00.000-06:00...storm...247DEG...46KT...34.39,-88.23 34.13,-88.37 33.9,-88.56"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR MARION AND NORTHERN LAMAR COUNTIES UNTIL 545 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSPSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
