@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054329-3441388",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.89,
+                    34.7299999
+                ],
+                [
+                    -84.83,
+                    34.720000000000006
+                ],
+                [
+                    -84.88,
+                    34.63
+                ],
+                [
+                    -84.94999999999999,
+                    34.63
+                ],
+                [
+                    -84.96999999999998,
+                    34.71
+                ],
+                [
+                    -84.89,
+                    34.7299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054329-3441388",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054329-3441388",
+        "areaDesc": "Whitfield, GA; Murray, GA; Gordon, GA",
+        "geocode": {
+            "UGC": [
+                "GAC313",
+                "GAC213",
+                "GAC129"
+            ],
+            "SAME": [
+                "013313",
+                "013213",
+                "013129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC313",
+            "https://api.weather.gov/zones/county/GAC213",
+            "https://api.weather.gov/zones/county/GAC129"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053814-3440942",
+                "identifier": "NWS-IDP-PROD-4053814-3440942",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T13:59:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T20:19:00-05:00",
+        "effective": "2020-02-11T20:19:00-05:00",
+        "onset": "2020-02-11T20:19:00-05:00",
+        "expires": "2020-02-12T10:19:00-05:00",
+        "ends": "2020-02-15T01:28:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 11 at 8:19PM EST until February 15 at 1:28AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nConasauga River near Tilton affecting Gordon...Murray and\nWhitfield Counties\n\nOostanaula River near Resaca affecting Floyd and Gordon Counties\n\nOostanaula River near Rome US Hwy. 27 affecting Floyd County\n\nEtowah River near Canton affecting Cherokee County\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nConasauga River near Eton affecting Murray and Whitfield Counties\n\nCoahulla Creek near Keiths Mill near Dalton affecting Whitfield\nCounty\n\nOostanaula River near Calhoun affecting Gordon County\n\nArmuchee Creek near Armuchee affecting Floyd County\n\nCoosa River near Rome Mayos Bar L & D Park affecting Floyd County\n\nCoosa River near Plant Hammond affecting Floyd County\n\nEtowah River near East Canton Downstream I-575 affecting Cherokee\nCounty\n\nThe Flood Warning continues for\nThe Conasauga River near Tilton.\n* From after midnight Wednesday until late Friday night.\n* At 7 PM Tuesday the stage was 17.3 feet...and rising.\n* Minor flooding is forecast.\n* Flood stage is 18 feet.\n* The river is forecast to rise above flood stage after midnight\nWednesday and continue to rise to near 21.7 feet by Thursday evening.\nThe river will fall below flood stage by Friday evening.\n* At 21 feet...Minor flooding continues to expand further into the\nwoodlands...fields and pastures along the river upstream and\ndownstream from the gage on the Brackett Ridge Road bridge.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0044.000000T0000Z-200215T0628Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T01:28:00-05:00"
+            ]
+        }
+    }
+}
