@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055985-3443025",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.85,
+                    38.78
+                ],
+                [
+                    -82.83999999999999,
+                    38.68
+                ],
+                [
+                    -83.17999999999999,
+                    38.58
+                ],
+                [
+                    -83.61999999999999,
+                    38.61
+                ],
+                [
+                    -83.67999999999999,
+                    38.71
+                ],
+                [
+                    -83.3,
+                    38.7299999
+                ],
+                [
+                    -82.85,
+                    38.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055985-3443025",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055985-3443025",
+        "areaDesc": "Lewis, KY; Greenup, KY; Adams, OH; Scioto, OH",
+        "geocode": {
+            "UGC": [
+                "KYC135",
+                "KYC089",
+                "OHC001",
+                "OHC145"
+            ],
+            "SAME": [
+                "021135",
+                "021089",
+                "039001",
+                "039145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC135",
+            "https://api.weather.gov/zones/county/KYC089",
+            "https://api.weather.gov/zones/county/OHC001",
+            "https://api.weather.gov/zones/county/OHC145"
+        ],
+        "references": [],
+        "sent": "2020-02-12T15:06:00-05:00",
+        "effective": "2020-02-12T15:06:00-05:00",
+        "onset": "2020-02-14T00:00:00-05:00",
+        "expires": "2020-02-13T03:05:00-05:00",
+        "ends": "2020-02-16T12:08:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Flood Warning issued February 12 at 3:06PM EST until February 16 at 12:08PM EST by NWS Wilmington OH",
+        "description": "...The National Weather Service in Wilmington has issued a Flood Warning\nfor the following rivers...\n\nOhio River at Portsmouth\nOhio River at Cincinnati\n\nThe National Weather Service in Wilmington has issued a\n\n* Flood Warning for\nThe Ohio River at Portsmouth\n* From late Thursday night to Sunday afternoon.\n* At 2 PM the stage was 46.0 feet.\n* Flood stage is 50 feet.\n* Minor flooding is forecast.\n* The river will rise above flood stage late Thursday evening and\ncontinue to rise to near 51.2 feet by Friday evening. The river will\nfall below flood stage by Sunday morning.\n* At stages near 51.0 feet, low-lying flooding occurs along the southern\nborder of Scioto County, as well as in South Portsmouth.  Routes 73\nand 239 are closed near the Ohio River. Much of Portsmouth itself is\nprotected by flood walls.",
+        "instruction": "Safety message...Do not drive your car through flooded roadways. The\nwater depth may be deeper than it appears.\n\n\nStay tuned to developments by listening to NOAA Weather All Hazards\nradio. For additional details on river forecasts, visit\nwater.weather.gov/ahps2/index.php?wfo=iln",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KILN.FL.W.0002.200214T0500Z-200216T1708Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNFLWILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T12:08:00-05:00"
+            ]
+        }
+    }
+}
