@@ -1,0 +1,137 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055803-3442830",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.86,
+                    32.9799999
+                ],
+                [
+                    -95.95,
+                    32.9799999
+                ],
+                [
+                    -96,
+                    32.84
+                ],
+                [
+                    -96.08,
+                    32.84
+                ],
+                [
+                    -96.08,
+                    32.36000000000001
+                ],
+                [
+                    -96.42999999999999,
+                    32.370000000000005
+                ],
+                [
+                    -96.52999999999999,
+                    32.540000000000006
+                ],
+                [
+                    -96.49999999999999,
+                    33.27
+                ],
+                [
+                    -96.45999989999999,
+                    33.400000000000006
+                ],
+                [
+                    -96.38999999999999,
+                    33.400000000000006
+                ],
+                [
+                    -96.37999999999998,
+                    33.620000000000005
+                ],
+                [
+                    -95.86999999999998,
+                    33.67
+                ],
+                [
+                    -95.86,
+                    32.9799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055803-3442830",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055803-3442830",
+        "areaDesc": "Collin, TX; Kaufman, TX; Rockwall, TX; Hunt, TX; Fannin, TX",
+        "geocode": {
+            "UGC": [
+                "TXC085",
+                "TXC257",
+                "TXC397",
+                "TXC231",
+                "TXC147"
+            ],
+            "SAME": [
+                "048085",
+                "048257",
+                "048397",
+                "048231",
+                "048147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC085",
+            "https://api.weather.gov/zones/county/TXC257",
+            "https://api.weather.gov/zones/county/TXC397",
+            "https://api.weather.gov/zones/county/TXC231",
+            "https://api.weather.gov/zones/county/TXC147"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055448-3442490",
+                "identifier": "NWS-IDP-PROD-4055448-3442490",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T09:00:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T11:56:00-06:00",
+        "effective": "2020-02-12T11:56:00-06:00",
+        "onset": "2020-02-12T11:56:00-06:00",
+        "expires": "2020-02-12T12:05:00-06:00",
+        "ends": "2020-02-12T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Flood Advisory issued February 12 at 11:56AM CST until February 12 at 12:00PM CST by NWS Fort Worth TX",
+        "description": "The heavy rain has ended, however, residual flooding of low-lying\nareas may continue for 1 to 2 hours. Please continue to heed any\nroad closures.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLOOD ADVISORY WILL EXPIRE AT NOON CST FOR ROCKWALL...HUNT... KAUFMAN...EASTERN COLLIN AND FANNIN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.EXP.KFWD.FA.Y.0010.000000T0000Z-200212T1800Z/"
+            ],
+            "PIL": [
+                "FWDFLSFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T12:00:00-06:00"
+            ]
+        }
+    }
+}
