@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055679-3442701",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.48,
+                    32.97
+                ],
+                [
+                    -94.25,
+                    32.75
+                ],
+                [
+                    -94.33,
+                    32.75
+                ],
+                [
+                    -94.39999999999999,
+                    32.78
+                ],
+                [
+                    -94.49999999999999,
+                    32.89
+                ],
+                [
+                    -94.48,
+                    32.97
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055679-3442701",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055679-3442701",
+        "areaDesc": "Cass, TX; Marion, TX",
+        "geocode": {
+            "UGC": [
+                "TXC067",
+                "TXC315"
+            ],
+            "SAME": [
+                "048067",
+                "048315"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC067",
+            "https://api.weather.gov/zones/county/TXC315"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054243-3441304",
+                "identifier": "NWS-IDP-PROD-4054243-3441304",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T18:26:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T10:29:00-06:00",
+        "effective": "2020-02-12T10:29:00-06:00",
+        "onset": "2020-02-12T17:08:00-06:00",
+        "expires": "2020-02-13T10:28:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 12 at 10:29AM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Black Cypress Bayou At Jefferson, Texas.\n* from this afternoon until further notice...or until the warning is\ncancelled.\n* At 10:00 AM Wednesday The stage was 12.3 feet.\n* Minor flooding is forecast.\n* Flood stage is 13 feet.\n* Forecast...Rise above flood stage by late this Wednesday afternoon and\ncontinue to rise to near 17.0 feet by Saturday morning.\n* Impact...at 18.0 feet...Expect moderate to severe lowland flooding\nwith some secondary roadways near the bayou facing flooding.\nflooding very similar to that of last year, the springtime of 2019.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSHV.FL.W.0013.200212T2308Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
