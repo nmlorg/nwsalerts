@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055122-3442152",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.77,
+                    32.36
+                ],
+                [
+                    -82.67999999999999,
+                    32.38
+                ],
+                [
+                    -82.58999999999999,
+                    32.2
+                ],
+                [
+                    -82.50999999999999,
+                    31.960000000000004
+                ],
+                [
+                    -82.58999999999999,
+                    31.950000000000003
+                ],
+                [
+                    -82.67999999999999,
+                    32.18
+                ],
+                [
+                    -82.77,
+                    32.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055122-3442152",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055122-3442152",
+        "areaDesc": "Treutlen, GA; Montgomery, GA; Wheeler, GA",
+        "geocode": {
+            "UGC": [
+                "GAC283",
+                "GAC209",
+                "GAC309"
+            ],
+            "SAME": [
+                "013283",
+                "013209",
+                "013309"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC283",
+            "https://api.weather.gov/zones/county/GAC209",
+            "https://api.weather.gov/zones/county/GAC309"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054479-3441540",
+                "identifier": "NWS-IDP-PROD-4054479-3441540",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T21:14:00-05:00"
+            }
+        ],
+        "sent": "2020-02-12T05:24:00-05:00",
+        "effective": "2020-02-12T05:24:00-05:00",
+        "onset": "2020-02-12T05:24:00-05:00",
+        "expires": "2020-02-12T19:23:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 12 at 5:24AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nOostanaula River near Rome US Hwy. 27 affecting Floyd County\n\nCoosa River near Rome Mayos Bar L & D Park affecting Floyd County\n\nOcmulgee River near Abbeville affecting Dodge...Telfair and Wilcox\nCounties\n\nOconee River near Mount Vernon affecting Montgomery...Treutlen and\nWheeler Counties\n\nThe Flood Warning continues for\nThe Oconee River near Mount Vernon.\n* Until further notice.\n* At 5 AM Wednesday the stage was 19.1 feet...and\nrising.\n* Minor flooding is occurring and Moderate flooding is forecast.\n* Flood stage is 16 feet.\n* The river will continue rising to near 20.3 feet by tomorrow\nmorning then begin falling.\n* At 20 feet...Moderate flooding begins. Significant flooding\noccurs in the woodlands and pastures upstream and downstream from\nthe gage on U.S. Highway 280. The access road to the boat ramp on\nthe Wheeler County side of the river begins to flood. Around a\ndozen homes on Dead River Road in the south end of Montgomery\nCounty become surrounded with water. A few homes will have some\nflooding. Portions of Dead River Road will be covered by at least\ntwo feet of water.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0140.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
