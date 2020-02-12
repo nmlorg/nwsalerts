@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054301-3441363",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.42,
+                    34.79
+                ],
+                [
+                    -87.33,
+                    34.76
+                ],
+                [
+                    -87.25,
+                    34.68
+                ],
+                [
+                    -87.28,
+                    34.57
+                ],
+                [
+                    -87.41,
+                    34.58
+                ],
+                [
+                    -87.42,
+                    34.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054301-3441363",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054301-3441363",
+        "areaDesc": "Lawrence, AL",
+        "geocode": {
+            "UGC": [
+                "ALC079"
+            ],
+            "SAME": [
+                "001079"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC079"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053510-3440675",
+                "identifier": "NWS-IDP-PROD-4053510-3440675",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T09:41:00-06:00"
+            }
+        ],
+        "sent": "2020-02-11T19:02:00-06:00",
+        "effective": "2020-02-11T19:02:00-06:00",
+        "onset": "2020-02-11T19:02:00-06:00",
+        "expires": "2020-02-12T09:01:00-06:00",
+        "ends": "2020-02-14T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 11 at 7:02PM CST until February 14 at 12:00PM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama...\n\nBig Nance Creek AT Courtland affecting Lawrence County\n\nThe Flood Warning continues for\nthe Big Nance Creek AT Courtland.\n* until Friday afternoon.\n* At 6 PM Tuesday the stage was 18.6 feet and rising.\n* Flood Stage is 14.0 feet.\n* Moderate Flooding is occurring and Major Flooding is forecast.\n* Recent activity...The maximum river stage in the 24 hours ending at\n6 PM Tuesday was 18.6 feet.\n* Forecast...The river will continue rising to near 19.5 feet by\ntomorrow morning. The river will fall below Flood Stage Friday\nmorning.\n* Impact...At 20.0 feet...Water is approaching homes south of downtown\nCourtland...with several streets impassible. Water reaches the\nunderside of the bridge at Old Highway 20 in Courtland.\n* Flood history...This crest compares to a previous crest of 19.6 feet\non Jul 7 2013.",
+        "instruction": "Safety message...Be especially cautious at night when it is harder to\nrecognize flood dangers. If while driving you see water over a road,\nturn around, don't drown! The water depth may be too great to allow\nyour vehicle to cross. Additional information is available at\nhttp://water.weather.gov. Once there, click on the Tennessee Valley\nto view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KHUN.FL.W.0016.000000T0000Z-200214T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T12:00:00-06:00"
+            ]
+        }
+    }
+}
