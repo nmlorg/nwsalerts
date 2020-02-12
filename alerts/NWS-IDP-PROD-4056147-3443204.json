@@ -1,0 +1,78 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056147-3443204",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056147-3443204",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056147-3443204",
+        "areaDesc": "Northern Coos; Southern Coos",
+        "geocode": {
+            "UGC": [
+                "NHZ001",
+                "NHZ002"
+            ],
+            "SAME": [
+                "033007"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NHZ001",
+            "https://api.weather.gov/zones/forecast/NHZ002"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056120-3443178",
+                "identifier": "NWS-IDP-PROD-4056120-3443178",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T15:49:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054800-3441813",
+                "identifier": "NWS-IDP-PROD-4054800-3441813",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T02:56:00-05:00"
+            }
+        ],
+        "sent": "2020-02-12T15:54:00-05:00",
+        "effective": "2020-02-12T15:54:00-05:00",
+        "onset": "2020-02-13T00:00:00-05:00",
+        "expires": "2020-02-13T00:00:00-05:00",
+        "ends": "2020-02-13T16:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Gray ME",
+        "headline": "Winter Weather Advisory issued February 12 at 3:54PM EST until February 13 at 4:00PM EST by NWS Gray ME",
+        "description": "...SLIPPERY TRAVEL EXPECTED LATE TONIGHT THROUGH THURSDAY\nMORNING...\n\n.Low pressure tracking across southern New England will spread\nsnow across New Hampshire and Maine beginning around or just\nafter midnight tonight. It will start first across western New\nHampshire around midnight, then spreading across the rest of New\nHampshire and Maine by 4 AM. Snowy conditions will affect the\nmorning commute on Thursday.\n\n* WHAT...Snow expected. Total snow accumulations of 3 to 5\ninches expected.\n\n* WHERE...Coos County.\n\n* WHEN...From midnight tonight to 4 PM EST Thursday.\n\n* IMPACTS...Plan on slippery road conditions. The hazardous\nconditions could impact the morning commute.",
+        "instruction": "Slow down and use caution while traveling.\n\nFor a more precise forecast for your specific location...go to\nwww.weather.gov/gray..",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT FROM MIDNIGHT TONIGHT TO 4 PM EST THURSDAY"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KGYX.WW.Y.0008.200213T0500Z-200213T2100Z/"
+            ],
+            "PIL": [
+                "GYXWSWGYX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T16:00:00-05:00"
+            ]
+        }
+    }
+}
