@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055322-3442368",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.3199999,
+                    31.42
+                ],
+                [
+                    -94.51,
+                    31.91
+                ],
+                [
+                    -94.47,
+                    31.92
+                ],
+                [
+                    -94.28999999999999,
+                    31.57
+                ],
+                [
+                    -94.3,
+                    31.5
+                ],
+                [
+                    -94.3199999,
+                    31.42
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055322-3442368",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055322-3442368",
+        "areaDesc": "Rusk, TX; Shelby, TX; Nacogdoches, TX; San Augustine, TX",
+        "geocode": {
+            "UGC": [
+                "TXC401",
+                "TXC419",
+                "TXC347",
+                "TXC405"
+            ],
+            "SAME": [
+                "048401",
+                "048419",
+                "048347",
+                "048405"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC401",
+            "https://api.weather.gov/zones/county/TXC419",
+            "https://api.weather.gov/zones/county/TXC347",
+            "https://api.weather.gov/zones/county/TXC405"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054268-3441328",
+                "identifier": "NWS-IDP-PROD-4054268-3441328",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T18:51:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T08:06:00-06:00",
+        "effective": "2020-02-12T08:06:00-06:00",
+        "onset": "2020-02-13T10:00:00-06:00",
+        "expires": "2020-02-13T08:05:00-06:00",
+        "ends": "2020-02-17T19:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 12 at 8:06AM CST until February 17 at 7:30PM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Attoyac Bayou Near Chireno, Texas.\n* from Thursday morning to Monday evening...or until the warning is\ncancelled.\n* At 7:30 AM Wednesday The stage was 11.1 feet.\n* Minor flooding is forecast.\n* Flood stage is 14 feet.\n* Forecast...Rise above flood stage by Thursday late morning and\ncontinue to rise to near 15.7 feet by Saturday morning. The bayou\nwill fall below flood stage by early Monday morning.\n* Impact...at 14.0 feet...Expect lowland flooding for the next several\ndays of the heavily wooded floodplain. Ranchers that have cattle\nand equipment near the bayou should move them to higher ground.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSHV.FL.W.0018.200213T1600Z-200218T0130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T19:30:00-06:00"
+            ]
+        }
+    }
+}
