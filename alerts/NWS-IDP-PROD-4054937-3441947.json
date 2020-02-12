@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054937-3441947",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.12,
+                    34.43
+                ],
+                [
+                    -85.06,
+                    34.39
+                ],
+                [
+                    -85.14,
+                    34.28
+                ],
+                [
+                    -85.2,
+                    34.31
+                ],
+                [
+                    -85.12,
+                    34.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054937-3441947",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054937-3441947",
+        "areaDesc": "Floyd, GA",
+        "geocode": {
+            "UGC": [
+                "GAC115"
+            ],
+            "SAME": [
+                "013115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC115"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054251-3441312",
+                "identifier": "NWS-IDP-PROD-4054251-3441312",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T19:37:00-05:00"
+            }
+        ],
+        "sent": "2020-02-12T04:01:00-05:00",
+        "effective": "2020-02-12T04:01:00-05:00",
+        "onset": "2020-02-12T04:01:00-05:00",
+        "expires": "2020-02-12T18:02:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 12 at 4:01AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nOostanaula River near Rome  affecting Floyd County\n\nEtowah River near East Canton Downstream I-575 affecting Cherokee\nCounty\n\nThe Flood Warning continues for\nThe Oostanaula River near Rome .\n* Until further notice.\n* At 2AM Wednesday the stage was 30.6 feet...and\nrising.\n* Minor flooding is occurring.\n* Flood stage is 30.0 feet.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0153.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
