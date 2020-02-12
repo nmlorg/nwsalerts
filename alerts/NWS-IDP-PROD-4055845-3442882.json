@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055845-3442882",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.77,
+                    36.2299999
+                ],
+                [
+                    -89.47999999999999,
+                    36.2299999
+                ],
+                [
+                    -89.49999999999999,
+                    36.06
+                ],
+                [
+                    -89.47999999999999,
+                    35.95
+                ],
+                [
+                    -89.55999999999999,
+                    35.82
+                ],
+                [
+                    -89.85,
+                    35.82
+                ],
+                [
+                    -89.77,
+                    36.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055845-3442882",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055845-3442882",
+        "areaDesc": "Lauderdale, TN; Dyer, TN; Pemiscot, MO; Lake, TN; Mississippi, AR",
+        "geocode": {
+            "UGC": [
+                "TNC097",
+                "TNC045",
+                "MOC155",
+                "TNC095",
+                "ARC093"
+            ],
+            "SAME": [
+                "047097",
+                "047045",
+                "029155",
+                "047095",
+                "005093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC097",
+            "https://api.weather.gov/zones/county/TNC045",
+            "https://api.weather.gov/zones/county/MOC155",
+            "https://api.weather.gov/zones/county/TNC095",
+            "https://api.weather.gov/zones/county/ARC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054402-3441458",
+                "identifier": "NWS-IDP-PROD-4054402-3441458",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T19:44:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T12:14:00-06:00",
+        "effective": "2020-02-12T12:14:00-06:00",
+        "onset": "2020-02-12T12:14:00-06:00",
+        "expires": "2020-02-13T12:14:00-06:00",
+        "ends": "2020-03-02T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued February 12 at 12:14PM CST until March 2 at 6:00AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Mississippi River.\n\nThe Flood Warning continues for\nthe Mississippi River at Caruthersville\n* until Sunday March 01.\n* At 12 PM Wednesday the stage was 33.3 feet.\n* Minor flooding is occurring AND Minor flooding is forecast.\n* Maximum forecast stage of 38.0 feet on Thursday February 20.\n* Flood stage is 32.0 feet.\n* The river rose above flood stage Tuesday February 11 and will\ncontinue rising to near 38.0 feet by Thursday February 20. The\nriver will fall below flood stage Sunday March 01.\n* At 38.0 feet...In Missouri, parking lots of casino in\nCaruthersville, Missouri are flooding. Evacuation route from\nresidence inside levee near Cottonwood Point is shut. In Tennessee,\nseveral homes in the Barr Point area will be cut off due to high\nwater. Road to the boat ramp near the mouth of the Obion River is\ncovered.",
+        "instruction": "A followup Flood Statement will be issued this evening or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0037.000000T0000Z-200302T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T06:00:00-06:00"
+            ]
+        }
+    }
+}
