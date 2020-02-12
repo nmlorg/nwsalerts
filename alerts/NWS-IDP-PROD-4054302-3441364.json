@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054302-3441364",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.8,
+                    34.99
+                ],
+                [
+                    -77.77,
+                    34.81
+                ],
+                [
+                    -77.86,
+                    34.72
+                ],
+                [
+                    -77.98,
+                    34.72
+                ],
+                [
+                    -77.92,
+                    34.82
+                ],
+                [
+                    -77.95,
+                    34.9799999
+                ],
+                [
+                    -77.8,
+                    34.99
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054302-3441364",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054302-3441364",
+        "areaDesc": "Duplin, NC",
+        "geocode": {
+            "UGC": [
+                "NCC061"
+            ],
+            "SAME": [
+                "037061"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC061"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053438-3440614",
+                "identifier": "NWS-IDP-PROD-4053438-3440614",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T10:01:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T20:05:00-05:00",
+        "effective": "2020-02-11T20:05:00-05:00",
+        "onset": "2020-02-11T20:05:00-05:00",
+        "expires": "2020-02-12T19:00:00-05:00",
+        "ends": "2020-02-12T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Newport/Morehead City NC",
+        "headline": "Flood Warning issued February 11 at 8:05PM EST until February 12 at 7:00PM EST by NWS Newport/Morehead City NC",
+        "description": "...The Flood Warning is extended for the following rivers in North\nCarolina...\n\nNortheast Cape Fear River Near Chinquapin affecting Duplin County\n\nThe Flood Warning extended for\nThe Northeast Cape Fear River Near Chinquapin.\n* until Wednesday evening.\n* At  7 PM Tuesday the stage was 13.4 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 13.0 feet.\n* Forecast...The river will continue to fall to below flood stage by\nearly tomorrow afternoon.\n* Impact...At 13.0 feet...Low land flooding adjacent to the river and\nits tributaries is expected. River access docks are impacted as\nwell.",
+        "instruction": "Do not drive vehicles through flooded areas. Most flood deaths occur\nin automobiles when people try to drive through flooded areas.\n\nStay tuned to developments by listening to NOAA Weather Radio...local\nradio...media or cable TV.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMHX.FL.W.0044.000000T0000Z-200213T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MHXFLSMHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T19:00:00-05:00"
+            ]
+        }
+    }
+}
