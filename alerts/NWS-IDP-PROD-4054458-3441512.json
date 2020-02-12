@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054458-3441512",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.83,
+                    36.79
+                ],
+                [
+                    -83.89,
+                    36.81
+                ],
+                [
+                    -84.0699999,
+                    36.7
+                ],
+                [
+                    -84.0699999,
+                    36.800000000000004
+                ],
+                [
+                    -83.89,
+                    36.93000000000001
+                ],
+                [
+                    -83.74,
+                    36.85000000000001
+                ],
+                [
+                    -83.83,
+                    36.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054458-3441512",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054458-3441512",
+        "areaDesc": "Knox, KY",
+        "geocode": {
+            "UGC": [
+                "KYC121"
+            ],
+            "SAME": [
+                "021121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054067-3441154",
+                "identifier": "NWS-IDP-PROD-4054067-3441154",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T16:09:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T21:11:00-05:00",
+        "effective": "2020-02-11T21:11:00-05:00",
+        "onset": "2020-02-11T21:11:00-05:00",
+        "expires": "2020-02-12T12:11:00-05:00",
+        "ends": "2020-02-15T17:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Advisory issued February 11 at 9:11PM EST until February 15 at 5:00PM EST by NWS Jackson KY",
+        "description": "...The Flood Advisory continues for the following rivers in\nKentucky...\n\nThe Cumberland River at Barbourville\n\nThe Flood Advisory is extended for\nThe Cumberland River at Barbourville\n* Until Saturday afternoon.\n* At 8 PM Tuesday the stage was 23.0 feet.\n* Flood stage is 27.0 feet.\n* Forecast...The river should rise to an initial crest near 24 feet\ntonight before receding through Wednesday night. Additional rainfall\nshould lead to a second crest near 25.0 feet on Friday. The river\nwill then recede...but remain high into the day on Saturday.\n* At 27.0 feet...Low lying roads flood. Manchester street floods.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 11 AM EST Wednesday.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJKL.FL.Y.0025.000000T0000Z-200215T2200Z/"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T17:00:00-05:00"
+            ]
+        }
+    }
+}
