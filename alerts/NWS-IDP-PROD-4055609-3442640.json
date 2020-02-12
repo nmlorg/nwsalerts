@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055609-3442640",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.99,
+                    34.55
+                ],
+                [
+                    -84.92,
+                    34.55
+                ],
+                [
+                    -85.06,
+                    34.39
+                ],
+                [
+                    -85.12,
+                    34.43
+                ],
+                [
+                    -85.04,
+                    34.53
+                ],
+                [
+                    -84.99,
+                    34.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055609-3442640",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055609-3442640",
+        "areaDesc": "Gordon, GA",
+        "geocode": {
+            "UGC": [
+                "GAC129"
+            ],
+            "SAME": [
+                "013129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC129"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054977-3441973",
+                "identifier": "NWS-IDP-PROD-4054977-3441973",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T04:13:00-05:00"
+            }
+        ],
+        "sent": "2020-02-12T11:02:00-05:00",
+        "effective": "2020-02-12T11:02:00-05:00",
+        "onset": "2020-02-12T11:02:00-05:00",
+        "expires": "2020-02-13T01:01:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 12 at 11:02AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nOostanaula River near Calhoun affecting Gordon County\n\nCoosa River near Rome Mayos Bar L & D Park affecting Floyd County\n\nEtowah River near East Canton Downstream I-575 affecting Cherokee\nCounty\n\nThe Flood Warning continues for\nThe Oostanaula River near Calhoun.\n* Until further notice.\n* At 10 AM Wednesday the stage was 25.2 feet...and steady.\n* Minor flooding will continue.\n* Flood stage is 21 feet.\n* At 25 feet...Minor flooding continues to expand into the\nwoodlands...fields and pastures upstream and downstream from the\ngage behind the water treatment plant off Mauldin Road. A boat ramp\nand small parking lot on the upstream and right bank side of the\nGeorgia Highway 136 Connector will be under at least 4 feet of\nwater.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0085.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
