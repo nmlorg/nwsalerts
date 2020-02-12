@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056207",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.51,
+                    33.79
+                ],
+                [
+                    -89.3199999,
+                    34.1599999
+                ],
+                [
+                    -88.91,
+                    34.1599999
+                ],
+                [
+                    -89.0699999,
+                    33.74
+                ],
+                [
+                    -89.19,
+                    33.74
+                ],
+                [
+                    -89.19,
+                    33.72
+                ],
+                [
+                    -89.50999999999999,
+                    33.72
+                ],
+                [
+                    -89.51,
+                    33.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056207",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056207",
+        "areaDesc": "Pontotoc; Calhoun; Chickasaw",
+        "geocode": {
+            "UGC": [
+                "MSZ015",
+                "MSZ022",
+                "MSZ023"
+            ],
+            "SAME": [
+                "028115",
+                "028013",
+                "028017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MSZ015",
+            "https://api.weather.gov/zones/forecast/MSZ022",
+            "https://api.weather.gov/zones/forecast/MSZ023"
+        ],
+        "references": [],
+        "sent": "2020-02-12T15:15:00-06:00",
+        "effective": "2020-02-12T15:15:00-06:00",
+        "onset": "2020-02-12T15:15:00-06:00",
+        "expires": "2020-02-12T16:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Special Weather Statement issued February 12 at 3:15PM CST by NWS Memphis TN",
+        "description": "Southern Pontotoc County in northeastern Mississippi...\nCalhoun County in northeastern Mississippi...\nWestern Chickasaw County in northeastern Mississippi...\n\nAt 314 PM CST...strong thunderstorms producing winds in excess of 40\nmph was located along a line extending from 6 miles southeast of Tula\nto near Sabougla. Movement was east at 60 mph.\n\nVery heavy rain is also possible with this thunderstorm.\n\nPeople in southern Pontotoc...Calhoun and western Chickasaw Counties\nshould monitor this storm closely.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-12T15:14:00.000-06:00...storm...264DEG...52KT...34.16,-89.29 33.85,-89.47"
+            ],
+            "NWSheadline": [
+                "A SIGNIFICANT WEATHER ADVISORY HAS BEEN ISSUED UNTIL 400 PM CST FOR"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSPSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
