@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055787-3442814",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.78,
+                    32.35
+                ],
+                [
+                    -93.7,
+                    32.34
+                ],
+                [
+                    -93.67,
+                    32.32
+                ],
+                [
+                    -93.72,
+                    32.31
+                ],
+                [
+                    -93.76,
+                    32.34
+                ],
+                [
+                    -93.78,
+                    32.35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055787-3442814",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055787-3442814",
+        "areaDesc": "De Soto, LA; Caddo, LA",
+        "geocode": {
+            "UGC": [
+                "LAC031",
+                "LAC017"
+            ],
+            "SAME": [
+                "022031",
+                "022017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC031",
+            "https://api.weather.gov/zones/county/LAC017"
+        ],
+        "references": [],
+        "sent": "2020-02-12T11:41:00-06:00",
+        "effective": "2020-02-12T11:41:00-06:00",
+        "onset": "2020-02-13T11:58:00-06:00",
+        "expires": "2020-02-13T11:40:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 12 at 11:41AM CST by NWS Shreveport LA",
+        "description": "The National Weather Service in Shreveport has issued a\n\n* FLOOD WARNING FOR\nthe Cypress Bayou At Wallace Lake south of Shreveport, Louisiana.\n* from Thursday morning until further notice...or until the warning\nis cancelled.\n* At 11:00 AM Wednesday The pool stage was 149.0 feet.\n* Minor flooding is forecast.\n* Flood pool stage is 151.0 feet.\n* Forecast...Rise above flood pool stage by Thursday late morning and\ncontinue to rise to near 151.5 feet by Thursday evening.  After\ncresting by late Thursday, the lake will slowly recede some two to\nfour inches per day during Friday and this weekend.\n* Impact...Minor lowland flooding around the lake and overflow across\naccess roads.  Move livestock to higher ground.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KSHV.FL.W.0027.200213T1758Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLWSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
