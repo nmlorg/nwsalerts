@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054271-3441331",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.85,
+                    34.5
+                ],
+                [
+                    -80.63,
+                    34.32
+                ],
+                [
+                    -80.75,
+                    34.28
+                ],
+                [
+                    -80.98,
+                    34.47
+                ],
+                [
+                    -80.85,
+                    34.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054271-3441331",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054271-3441331",
+        "areaDesc": "Kershaw, SC; Fairfield, SC; Lancaster, SC",
+        "geocode": {
+            "UGC": [
+                "SCC055",
+                "SCC039",
+                "SCC057"
+            ],
+            "SAME": [
+                "045055",
+                "045039",
+                "045057"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC055",
+            "https://api.weather.gov/zones/county/SCC039",
+            "https://api.weather.gov/zones/county/SCC057"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4053535-3440702",
+                "identifier": "NWS-IDP-PROD-4053535-3440702",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T10:45:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T19:54:00-05:00",
+        "effective": "2020-02-11T19:54:00-05:00",
+        "onset": "2020-02-11T19:54:00-05:00",
+        "expires": "2020-02-12T19:54:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued February 11 at 7:54PM EST by NWS Columbia SC",
+        "description": "...River Flood Warnings Continue for Following Rivers in South Carolina...\n\nCongaree River at Carolina Eastman Affecting Calhoun...Lexington\nand Richland Counties\n\nCongaree River at Congaree National Park-Gadsden Affecting Calhoun\nand Richland Counties\n\nNorth Fork of Edisto River at Orangeburg Affecting Orangeburg County\n\nSaluda River at Chappells affecting Greenwood...Newberry and Saluda\nCounties\n\nLake Wateree affecting Fairfield...Kershaw and  Lancaster Counties\n\n.Elevated river stages continue because of recent heavy rain.\n\nThe Flood Warning Continues for the Wateree River At Lake Wateree.\n* Until further notice...or until the warning is cancelled.\n* At 6 PM Tuesday the stage was 102.1 feet.\n* Flood stage is 100 feet.\n* Moderate flooding is occurring and moderate flooding is forecast.\n* Forecast...The level at Lake Wateree will slowly fall, but remain\nabove flood stage during the rest of the week.\n* At 102.5 feet...Roadways near Beaver Creek become flooded.\n* At 100.5 feet...Several yards and docks in low lying areas around\nLake Wateree begin to flood.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KCAE.FL.W.0020.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
