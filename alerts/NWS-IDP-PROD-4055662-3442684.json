@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055662-3442684",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.5,
+                    36.35
+                ],
+                [
+                    -77.42,
+                    36.33
+                ],
+                [
+                    -77.2099999,
+                    36.11
+                ],
+                [
+                    -77.27,
+                    36.08
+                ],
+                [
+                    -77.47999999999999,
+                    36.28
+                ],
+                [
+                    -77.58999999999999,
+                    36.28
+                ],
+                [
+                    -77.5,
+                    36.35
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055662-3442684",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055662-3442684",
+        "areaDesc": "Northampton, NC; Halifax, NC",
+        "geocode": {
+            "UGC": [
+                "NCC131",
+                "NCC083"
+            ],
+            "SAME": [
+                "037131",
+                "037083"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC131",
+            "https://api.weather.gov/zones/county/NCC083"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054942-3441952",
+                "identifier": "NWS-IDP-PROD-4054942-3441952",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T04:04:00-05:00"
+            }
+        ],
+        "sent": "2020-02-12T11:24:00-05:00",
+        "effective": "2020-02-12T11:24:00-05:00",
+        "onset": "2020-02-12T11:24:00-05:00",
+        "expires": "2020-02-12T23:24:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Raleigh NC",
+        "headline": "Flood Warning issued February 12 at 11:24AM EST by NWS Raleigh NC",
+        "description": "...The Flood Warning continues for the following rivers in North\nCarolina...\n\nNeuse River Near Goldsboro affecting Wayne County\n\nTar River At Tarboro affecting Edgecombe County\n\nLower Roanoke River At Roanoke Rapids affecting Halifax and\nNorthampton Counties\n\nLower Roanoke River Near Scotland Neck affecting Halifax and\nNorthampton Counties\n\nThe Flood Warning continues for the Lower Roanoke River Near Scotland Neck.\n* At 11:00 AM Wednesday the stage was 28.4 feet.\n* Flood stage is 28.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* The river will continue rising to near 30.0 feet by\nFriday evening, and then begin falling.\n* At 32.0 feet, The boat ramp and parking lot at Edwards\nFerry Boat Access are inundated.\n* At 31.0 feet, There is widespread flooding on the left banks.\n* At 28.0 feet, Minor flooding begins, especially on the left bank.",
+        "instruction": "Safety message. If you encounter deep water while driving, do not\nattempt to drive through. Turn around, dont drown.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KRAH.FL.W.0016.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RAHFLSRAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
