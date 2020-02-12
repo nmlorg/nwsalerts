@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055313-3442359",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.89,
+                    36
+                ],
+                [
+                    -87.83,
+                    36
+                ],
+                [
+                    -87.74,
+                    35.79
+                ],
+                [
+                    -87.78,
+                    35.6599999
+                ],
+                [
+                    -87.85,
+                    35.6599999
+                ],
+                [
+                    -87.8199999,
+                    35.79
+                ],
+                [
+                    -87.89,
+                    36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055313-3442359",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4055313-3442359",
+        "areaDesc": "Perry, TN",
+        "geocode": {
+            "UGC": [
+                "TNC135"
+            ],
+            "SAME": [
+                "047135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC135"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055311-3442357",
+                "identifier": "NWS-IDP-PROD-4055311-3442357",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T07:56:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T07:59:00-06:00",
+        "effective": "2020-02-12T07:59:00-06:00",
+        "onset": "2020-02-12T12:00:00-06:00",
+        "expires": "2020-02-12T19:58:00-06:00",
+        "ends": "2020-02-15T21:36:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Warning issued February 12 at 7:59AM CST until February 15 at 9:36PM CST by NWS Nashville TN",
+        "description": "...The Flood Warning continues for the following rivers in Tennessee...\n\nBuffalo River Near Lobelville affecting Perry County\n\n. Recent and expected hevy rainfall will cause the Buffalo near Lobelville\nto rise above flod stage today. The river will stay in flood for a couple of days.",
+        "instruction": "Avoid flooded areas along the river...And move personal belongings to higher\nground. Never drive through flooded roads as the depth of water may be too great\nto pass...Even in trucks or sport utility vehicles. If you come across a flooded\nroad...Turn around don't drown.\n\nStay tuned to NOAA weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KOHX.FL.W.0010.200212T1800Z-200216T0336Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T21:36:00-06:00"
+            ]
+        }
+    }
+}
