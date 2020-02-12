@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054545-3441610",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.62,
+                    34.24
+                ],
+                [
+                    -79.5,
+                    34.24
+                ],
+                [
+                    -79.45,
+                    34
+                ],
+                [
+                    -79.3199999,
+                    33.85
+                ],
+                [
+                    -79.44,
+                    33.85
+                ],
+                [
+                    -79.5699999,
+                    33.9799999
+                ],
+                [
+                    -79.62,
+                    34.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054545-3441610",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4054545-3441610",
+        "areaDesc": "Florence, SC; Marion, SC",
+        "geocode": {
+            "UGC": [
+                "SCC041",
+                "SCC067"
+            ],
+            "SAME": [
+                "045041",
+                "045067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC041",
+            "https://api.weather.gov/zones/county/SCC067"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4054487-3441548",
+                "identifier": "NWS-IDP-PROD-4054487-3441548",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-11T21:14:00-05:00"
+            }
+        ],
+        "sent": "2020-02-11T21:36:00-05:00",
+        "effective": "2020-02-11T21:36:00-05:00",
+        "onset": "2020-02-11T21:14:00-05:00",
+        "expires": "2020-02-12T13:14:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued February 11 at 9:14PM EST by NWS Wilmington NC",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nCape Fear At Elizabethtown affecting Bladen County NC\nNortheast Cape Fear Near Burgaw affecting Pender County NC\nBlack Creek At Quinby affecting Darlington and Florence Counties SC\nLynches At Effingham affecting Florence County SC\n\n...The Flood Warning continues for the following rivers...\n\nCape Fear At William O Huske Lock And Dam 3 affecting Bladen County NC\nLumber Near Lumberton affecting Robeson County NC\nLittle Pee Dee At Galivants Ferry affecting Dillon...Horry and Marion Counties\nSC\nGreat Pee Dee At Pee Dee affecting Marion and Florence Counties SC\nBlack At Kingstree affecting Williamsburg County SC\n\nThe Flood Warning continues for\nThe Great Pee Dee At Pee Dee.\n* until further notice.\n* At  9:00 PM Tuesday the stage was 28.48 feet.\n* Flood stage is 19.0 feet.\n* Major flooding is occurring and Major flooding is forecast.\n* Forecast...The river will continue rising to near 28.6 feet by just after\nmidnight tonight then begin falling.\n* Impact...At 28.0 feet...There will be extensive flooding of timber land and\nfarm land along the river. Access roads may be damaged by the flood waters and\noperations at industrial plants along the river will be affected.",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.COR.KILM.FL.W.0008.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
