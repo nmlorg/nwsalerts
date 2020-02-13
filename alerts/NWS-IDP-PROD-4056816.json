@@ -1,0 +1,86 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056816",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.38,
+                    31.3
+                ],
+                [
+                    -88.42999999999999,
+                    31.34
+                ],
+                [
+                    -88.16999999999999,
+                    31.59
+                ],
+                [
+                    -87.96999999999998,
+                    31.51
+                ],
+                [
+                    -88.38,
+                    31.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056816",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056816",
+        "areaDesc": "Washington",
+        "geocode": {
+            "UGC": [
+                "ALZ052"
+            ],
+            "SAME": [
+                "001129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ALZ052"
+        ],
+        "references": [],
+        "sent": "2020-02-12T19:55:00-06:00",
+        "effective": "2020-02-12T19:55:00-06:00",
+        "onset": "2020-02-12T19:55:00-06:00",
+        "expires": "2020-02-12T20:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Special Weather Statement issued February 12 at 7:55PM CST by NWS Mobile AL",
+        "description": "At 753 PM CST, the strong thunderstorm was located 4 miles east of\nFruitdale, or 8 miles southwest of Chatom, moving northeast at 50\nmph. Some rotation has been noted in this storm and gusty winds\ncould be possible.\n\nWind gusts of 40 to 50 mph will be possible with this storm.\n\nLocations impacted include...\nChatom, Saint Stephens and Fruitdale.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-12T19:53:00.000-06:00...storm...225DEG...42KT...31.36,-88.34"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL AFFECT THE FOLLOWING COUNTIES...CENTRAL WASHINGTON COUNTY UNTIL 830 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBSPSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
