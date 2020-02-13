@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057092-3444034",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.87,
+                    38.28
+                ],
+                [
+                    -84.17,
+                    38.47
+                ],
+                [
+                    -84.26,
+                    38.57
+                ],
+                [
+                    -84.13000000000001,
+                    38.58
+                ],
+                [
+                    -84.01,
+                    38.479999899999996
+                ],
+                [
+                    -83.79,
+                    38.349999999999994
+                ],
+                [
+                    -83.87,
+                    38.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057092-3444034",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057092-3444034",
+        "areaDesc": "Robertson, KY; Nicholas, KY",
+        "geocode": {
+            "UGC": [
+                "KYC201",
+                "KYC181"
+            ],
+            "SAME": [
+                "021201",
+                "021181"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC201",
+            "https://api.weather.gov/zones/county/KYC181"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056505-3443530",
+                "identifier": "NWS-IDP-PROD-4056505-3443530",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T19:49:00-05:00"
+            }
+        ],
+        "sent": "2020-02-12T23:16:00-05:00",
+        "effective": "2020-02-12T23:16:00-05:00",
+        "onset": "2020-02-12T23:14:00-05:00",
+        "expires": "2020-02-13T17:16:00-05:00",
+        "ends": "2020-02-15T11:17:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 12 at 11:16PM EST until February 15 at 11:17AM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nLicking River at Blue Licks Spring\n\naffecting the following counties in Kentucky...Nicholas...Robertson.\n\nThe Flood Warning continues for\nthe Licking River at Blue Licks Spring.\n* from this evening to Saturday morning.\n* At 11:00 PM Wednesday the stage was 25.0 feet.\n* Flood stage is 25.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage tonight and continue to rise\nto near 28.2 feet by Thursday evening. The river will fall below\nflood stage by Saturday morning.\n* Flood History...This crest compares to a previous crest of 28.2\nfeet on Sep 25 2006.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLMK.FL.W.0013.200213T0414Z-200215T1617Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T11:17:00-05:00"
+            ]
+        }
+    }
+}
