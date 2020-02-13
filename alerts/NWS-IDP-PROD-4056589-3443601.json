@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056589-3443601",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.98,
+                    34.63
+                ],
+                [
+                    -86.7099999,
+                    34.6599999
+                ],
+                [
+                    -86.37,
+                    34.99
+                ],
+                [
+                    -85.74000000000001,
+                    34.99
+                ],
+                [
+                    -85.98,
+                    34.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056589-3443601",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056589-3443601",
+        "areaDesc": "Madison, AL; Jackson, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089",
+                "ALC071"
+            ],
+            "SAME": [
+                "001089",
+                "001071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089",
+            "https://api.weather.gov/zones/county/ALC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056491-3443517",
+                "identifier": "NWS-IDP-PROD-4056491-3443517",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T18:30:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056506-3443531",
+                "identifier": "NWS-IDP-PROD-4056506-3443531",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T18:49:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T19:10:00-06:00",
+        "effective": "2020-02-12T19:10:00-06:00",
+        "onset": "2020-02-12T19:10:00-06:00",
+        "expires": "2020-02-12T19:19:00-06:00",
+        "ends": "2020-02-12T19:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Severe Thunderstorm Warning issued February 12 at 7:10PM CST until February 12 at 7:15PM CST by NWS Huntsville AL",
+        "description": "The storms which prompted the warning have weakened below severe\nlimits, and no longer pose an immediate threat to life or property.\nTherefore, the warning will be allowed to expire.  However gusty\nwinds are still possible with these thunderstorms.\n\nA Severe Thunderstorm Watch remains in effect until midnight CST for\nnorth Alabama...and Middle Tennessee.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-12T19:09:00.000-06:00...storm...268DEG...47KT...34.99,-85.95 34.7,-86.26"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR NORTHWESTERN JACKSON AND CENTRAL MADISON COUNTIES WILL EXPIRE AT 715 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KHUN.SV.W.0019.000000T0000Z-200213T0115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNSVSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T19:15:00-06:00"
+            ]
+        }
+    }
+}
