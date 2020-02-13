@@ -1,0 +1,148 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058485-3445184",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.92,
+                    33.82
+                ],
+                [
+                    -79.99,
+                    33.77
+                ],
+                [
+                    -79.97,
+                    33.720000000000006
+                ],
+                [
+                    -80.1,
+                    33.50000000000001
+                ],
+                [
+                    -80.11999999999999,
+                    33.50000000000001
+                ],
+                [
+                    -80.14999999999999,
+                    33.470000000000006
+                ],
+                [
+                    -80.44,
+                    33.510000000000005
+                ],
+                [
+                    -80.24,
+                    33.85000000000001
+                ],
+                [
+                    -79.9599999,
+                    34.02000000000001
+                ],
+                [
+                    -79.9,
+                    34.00000000000001
+                ],
+                [
+                    -79.9,
+                    33.97999990000001
+                ],
+                [
+                    -79.98,
+                    33.95000000000001
+                ],
+                [
+                    -79.94,
+                    33.88000000000001
+                ],
+                [
+                    -79.88,
+                    33.88000000000001
+                ],
+                [
+                    -79.92,
+                    33.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058485-3445184",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4058485-3445184",
+        "areaDesc": "Sumter, SC; Clarendon, SC",
+        "geocode": {
+            "UGC": [
+                "SCC085",
+                "SCC027"
+            ],
+            "SAME": [
+                "045085",
+                "045027"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC085",
+            "https://api.weather.gov/zones/county/SCC027"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058425-3445132",
+                "identifier": "NWS-IDP-PROD-4058425-3445132",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T13:29:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058401-3445110",
+                "identifier": "NWS-IDP-PROD-4058401-3445110",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T13:09:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T13:58:00-05:00",
+        "effective": "2020-02-13T13:58:00-05:00",
+        "onset": "2020-02-13T13:58:00-05:00",
+        "expires": "2020-02-13T14:08:00-05:00",
+        "ends": "2020-02-13T14:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Severe Thunderstorm Warning issued February 13 at 1:58PM EST until February 13 at 2:00PM EST by NWS Columbia SC",
+        "description": "The storms which prompted the warning have moved out of the area.\nTherefore, the warning will be allowed to expire.  However gusty\nwinds over Lake Marion are still possible with these thunderstorms.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-13T13:58:00.000-05:00...storm...264DEG...33KT...34.14,-79.57 33.67,-80.02"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR CLARENDON AND EAST CENTRAL SUMTER COUNTIES WILL EXPIRE AT 200 PM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KCAE.SV.W.0039.000000T0000Z-200213T1900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAESVSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T14:00:00-05:00"
+            ]
+        }
+    }
+}
