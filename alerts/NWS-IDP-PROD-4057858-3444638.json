@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057858-3444638",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.9599999,
+                    38.34
+                ],
+                [
+                    -85.22,
+                    38.68000000000001
+                ],
+                [
+                    -85.11,
+                    38.720000000000006
+                ],
+                [
+                    -84.9,
+                    38.50000000000001
+                ],
+                [
+                    -84.81,
+                    38.35000000000001
+                ],
+                [
+                    -84.9599999,
+                    38.34
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057858-3444638",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057858-3444638",
+        "areaDesc": "Owen, KY; Henry, KY; Carroll, KY",
+        "geocode": {
+            "UGC": [
+                "KYC187",
+                "KYC103",
+                "KYC041"
+            ],
+            "SAME": [
+                "021187",
+                "021103",
+                "021041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC187",
+            "https://api.weather.gov/zones/county/KYC103",
+            "https://api.weather.gov/zones/county/KYC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057217-3444133",
+                "identifier": "NWS-IDP-PROD-4057217-3444133",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T02:12:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T09:35:00-05:00",
+        "effective": "2020-02-13T09:35:00-05:00",
+        "onset": "2020-02-13T09:35:00-05:00",
+        "expires": "2020-02-14T03:34:00-05:00",
+        "ends": "2020-02-15T01:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 13 at 9:35AM EST until February 15 at 1:45AM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nKentucky River at Lockport Lock\n\naffecting the following counties in Kentucky...Carroll...Henry...\nOwen.\n\nThe Flood Warning continues for\nthe Kentucky River at Lockport Lock.\n* until late Friday night.\n* At  8:30 AM Thursday the stage was 32.7 feet.\n* Flood stage is 33.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by late this morning and continue\nto rise to near 34.3 feet by Friday morning. The river will fall\nbelow flood stage by Friday evening.\n* Impact...At 33.0 feet...Low lying roads near the river along and\nwest of KY 355 flood.\n* Flood History...This crest compares to a previous crest of 34.4\nfeet on Apr 5 2008.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLMK.FL.W.0014.000000T0000Z-200215T0645Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T01:45:00-05:00"
+            ]
+        }
+    }
+}
