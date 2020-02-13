@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056508-3443533",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.42,
+                    34.52
+                ],
+                [
+                    -90.13,
+                    34.52
+                ],
+                [
+                    -90.0699999,
+                    34.370000000000005
+                ],
+                [
+                    -90.1,
+                    34.21000000000001
+                ],
+                [
+                    -90.4599999,
+                    34.21000000000001
+                ],
+                [
+                    -90.45,
+                    34.43000000000001
+                ],
+                [
+                    -90.42,
+                    34.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056508-3443533",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056508-3443533",
+        "areaDesc": "Quitman, MS",
+        "geocode": {
+            "UGC": [
+                "MSC119"
+            ],
+            "SAME": [
+                "028119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055497-3442520",
+                "identifier": "NWS-IDP-PROD-4055497-3442520",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T09:16:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T18:52:00-06:00",
+        "effective": "2020-02-12T18:52:00-06:00",
+        "onset": "2020-02-12T18:51:00-06:00",
+        "expires": "2020-02-13T18:50:00-06:00",
+        "ends": "2020-02-14T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued February 12 at 6:51PM CST until February 14 at 6:00PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Coldwater River...Tallahatchie\nRiver.\n\nThe Flood Warning continues for\nthe Coldwater River at Marks\n* until Friday February 14.\n* At 6 PM Wednesday the stage was 39.0 feet.\n* Minor flooding is occurring.\n* Maximum forecast stage of 39.2 feet on Thursday February 13.\n* Flood stage is 39.0 feet.\n* The river rose above flood stage Wednesday February 12 and will\ncontinue rising to near 39.2 feet by Thursday February 13. The\nriver will fall below flood stage Friday February 14.\n* At 39.0 feet...Low-lying farm land is flooded in northern Quitman\nCounty.",
+        "instruction": "A followup Flood Statement will be issued when conditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0052.000000T0000Z-200215T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T18:00:00-06:00"
+            ]
+        }
+    }
+}
