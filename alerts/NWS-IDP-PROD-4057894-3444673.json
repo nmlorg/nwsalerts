@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057894-3444673",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.9,
+                    32.51
+                ],
+                [
+                    -94.7099999,
+                    32.46
+                ],
+                [
+                    -94.58,
+                    32.4099999
+                ],
+                [
+                    -94.58,
+                    32.38
+                ],
+                [
+                    -94.89999999999999,
+                    32.440000000000005
+                ],
+                [
+                    -94.9,
+                    32.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057894-3444673",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057894-3444673",
+        "areaDesc": "Rusk, TX; Gregg, TX",
+        "geocode": {
+            "UGC": [
+                "TXC401",
+                "TXC183"
+            ],
+            "SAME": [
+                "048401",
+                "048183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC401",
+            "https://api.weather.gov/zones/county/TXC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056585-3443597",
+                "identifier": "NWS-IDP-PROD-4056585-3443597",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T19:09:00-06:00"
+            }
+        ],
+        "sent": "2020-02-13T08:47:00-06:00",
+        "effective": "2020-02-13T08:47:00-06:00",
+        "onset": "2020-02-13T08:47:00-06:00",
+        "expires": "2020-02-14T08:47:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 13 at 8:47AM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Sabine River At Longview, Texas.\n* until further notice...or until the warning is cancelled.\n* At  8:00 AM Thursday The stage was 22.3 feet.\n* Minor flooding is forecast.\n* Flood stage is 25 feet.\n* Forecast...Rise above flood stage by early Sunday morning and\ncontinue to rise to near 25.2 feet by Sunday early afternoon.\n* Impact...Minor lowland flooding.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KSHV.FL.W.0021.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
