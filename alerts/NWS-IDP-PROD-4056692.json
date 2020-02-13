@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056692",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.76,
+                    36.6
+                ],
+                [
+                    -84.78,
+                    36.86
+                ],
+                [
+                    -84.2099999,
+                    36.86
+                ],
+                [
+                    -84.15,
+                    36.589999999999996
+                ],
+                [
+                    -84.76,
+                    36.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056692",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056692",
+        "areaDesc": "Whitley; Wayne; McCreary",
+        "geocode": {
+            "UGC": [
+                "KYZ085",
+                "KYZ083",
+                "KYZ084"
+            ],
+            "SAME": [
+                "021235",
+                "021231",
+                "021147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KYZ085",
+            "https://api.weather.gov/zones/forecast/KYZ083",
+            "https://api.weather.gov/zones/forecast/KYZ084"
+        ],
+        "references": [],
+        "sent": "2020-02-12T20:27:00-05:00",
+        "effective": "2020-02-12T20:27:00-05:00",
+        "onset": "2020-02-12T20:27:00-05:00",
+        "expires": "2020-02-12T21:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Special Weather Statement issued February 12 at 8:27PM EST by NWS Jackson KY",
+        "description": "At 826 PM EST, a shower was located over Great Meadows Campsites, or\n12 miles west of Whitley City, moving east at 45 mph.\n\nWinds of 35 to 45 mph are possible with this shower.\n\nLocations impacted include...\nWilliamsburg, Whitley City, Parmleysville, Great Meadows Campsites,\nAyers, Slavens, Parkers Lake, Barrier, Cumberland Falls S.P.,\nGregory, Co-\nOperative, Zion Hill, Pine Knot, Ritner, Krupp, Denney, Hollyhill,\nWiborg, Bon and Blue Heron.\n\nTorrential rainfall is also occurring with this shower, and may cause\nlocalized flooding.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-12T20:26:00.000-05:00...storm...259DEG...39KT...36.66,-84.69"
+            ],
+            "NWSheadline": [
+                "A SHOWER WILL AFFECT SOUTHEASTERN WAYNE...MCCREARY AND SOUTHWESTERN WHITLEY COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLSPSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

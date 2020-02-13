@@ -1,0 +1,124 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056679-3443688",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.6,
+                    35.7
+                ],
+                [
+                    -85.58999999999999,
+                    35.61
+                ],
+                [
+                    -85.55999999999999,
+                    35.53
+                ],
+                [
+                    -85.60999999999999,
+                    35.53
+                ],
+                [
+                    -85.53999999999999,
+                    35.49
+                ],
+                [
+                    -85.53999999999999,
+                    35.47
+                ],
+                [
+                    -85.83999999999999,
+                    35.4
+                ],
+                [
+                    -85.85,
+                    35.61
+                ],
+                [
+                    -85.6,
+                    35.7
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056679-3443688",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056679-3443688",
+        "areaDesc": "Warren, TN; Grundy, TN",
+        "geocode": {
+            "UGC": [
+                "TNC177",
+                "TNC061"
+            ],
+            "SAME": [
+                "047177",
+                "047061"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC177",
+            "https://api.weather.gov/zones/county/TNC061"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056566-3443578",
+                "identifier": "NWS-IDP-PROD-4056566-3443578",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T19:06:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056515-3443540",
+                "identifier": "NWS-IDP-PROD-4056515-3443540",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T18:53:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T19:26:00-06:00",
+        "effective": "2020-02-12T19:26:00-06:00",
+        "onset": "2020-02-12T19:26:00-06:00",
+        "expires": "2020-02-12T19:35:00-06:00",
+        "ends": "2020-02-12T19:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued February 12 at 7:26PM CST until February 12 at 7:30PM CST by NWS Nashville TN",
+        "description": "The storm which prompted the warning has moved out of the area.\nTherefore, the warning will be allowed to expire.\n\nRemember, a Severe Thunderstorm Warning still remains in effect for\nsouthern Grundy County.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-12T19:25:00.000-06:00...storm...252DEG...43KT...35.6,-85.49"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR SOUTHEASTERN WARREN AND NORTHERN GRUNDY COUNTIES WILL EXPIRE AT 730 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KOHX.SV.W.0035.000000T0000Z-200213T0130Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T19:30:00-06:00"
+            ]
+        }
+    }
+}
