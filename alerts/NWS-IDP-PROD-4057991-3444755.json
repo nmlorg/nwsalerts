@@ -1,0 +1,138 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057991-3444755",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.23,
+                    34
+                ],
+                [
+                    -82.18,
+                    33.97
+                ],
+                [
+                    -82.05000000000001,
+                    33.979999899999996
+                ],
+                [
+                    -82.05000000000001,
+                    33.949999999999996
+                ],
+                [
+                    -82.16000000000001,
+                    33.92999999999999
+                ],
+                [
+                    -82.16000000000001,
+                    33.879999999999995
+                ],
+                [
+                    -82.12,
+                    33.83
+                ],
+                [
+                    -82.15,
+                    33.79
+                ],
+                [
+                    -82.47,
+                    33.769999999999996
+                ],
+                [
+                    -82.47,
+                    33.86
+                ],
+                [
+                    -82.23,
+                    34
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057991-3444755",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057991-3444755",
+        "areaDesc": "Lincoln, GA; McCormick, SC",
+        "geocode": {
+            "UGC": [
+                "GAC181",
+                "SCC065"
+            ],
+            "SAME": [
+                "013181",
+                "045065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC181",
+            "https://api.weather.gov/zones/county/SCC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057849-3444629",
+                "identifier": "NWS-IDP-PROD-4057849-3444629",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T09:29:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057885-3444663",
+                "identifier": "NWS-IDP-PROD-4057885-3444663",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T09:45:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T10:07:00-05:00",
+        "effective": "2020-02-13T10:07:00-05:00",
+        "onset": "2020-02-13T10:07:00-05:00",
+        "expires": "2020-02-13T10:15:00-05:00",
+        "ends": "2020-02-13T10:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Severe Thunderstorm Warning issued February 13 at 10:07AM EST until February 13 at 10:15AM EST by NWS Columbia SC",
+        "description": "At 1006 AM EST, severe thunderstorms were located along a line\nextending from 10 miles southwest of Ninety Six Historic Site to near\nLincolnton, moving east at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nMcCormick, Lincolnton, Mccormick County Airport, Elijah Clark State\nPark, Parksville, Plum Branch, Hickory Knob State Resort Park, Baker\nCreek State Park, Whitetown and Hawe Creek Campground.",
+        "instruction": "Severe thunderstorms can produce large capsizing waves. If on or near\nLake Greenwood move into dock and take shelter!",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-13T10:06:00.000-05:00...storm...261DEG...26KT...34.0,-82.09 33.77,-82.41"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1015 AM EST FOR CENTRAL LINCOLN AND CENTRAL MCCORMICK COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KCAE.SV.W.0035.000000T0000Z-200213T1515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAESVSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T10:15:00-05:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057984-3444750",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.91,
+                    37.07
+                ],
+                [
+                    -92.67999999999999,
+                    37.07
+                ],
+                [
+                    -92.69,
+                    37.4799999
+                ],
+                [
+                    -92.25,
+                    37.470000000000006
+                ],
+                [
+                    -92.25,
+                    37.290000000000006
+                ],
+                [
+                    -92.35,
+                    37.290000000000006
+                ],
+                [
+                    -92.75,
+                    36.81000000000001
+                ],
+                [
+                    -92.77,
+                    36.80000000000001
+                ],
+                [
+                    -92.77,
+                    36.500000000000014
+                ],
+                [
+                    -92.89999999999999,
+                    36.500000000000014
+                ],
+                [
+                    -92.91,
+                    37.07
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057984-3444750",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057984-3444750",
+        "areaDesc": "Taney, MO; Douglas, MO; Wright, MO",
+        "geocode": {
+            "UGC": [
+                "MOC213",
+                "MOC067",
+                "MOC229"
+            ],
+            "SAME": [
+                "029213",
+                "029067",
+                "029229"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC213",
+            "https://api.weather.gov/zones/county/MOC067",
+            "https://api.weather.gov/zones/county/MOC229"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057046-3443990",
+                "identifier": "NWS-IDP-PROD-4057046-3443990",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T21:38:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056303-3443340",
+                "identifier": "NWS-IDP-PROD-4056303-3443340",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T16:17:00-06:00"
+            }
+        ],
+        "sent": "2020-02-13T09:05:00-06:00",
+        "effective": "2020-02-13T09:05:00-06:00",
+        "onset": "2020-02-13T09:05:00-06:00",
+        "expires": "2020-02-13T09:15:00-06:00",
+        "ends": "2020-02-13T09:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Flood Advisory issued February 13 at 9:05AM CST until February 13 at 9:15AM CST by NWS Springfield MO",
+        "description": "The threat for flooding has ended and no longer poses a threat to\nlife or property. Please continue to heed any road closures.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLOOD ADVISORY WILL EXPIRE AT 915 AM CST FOR WESTERN DOUGLAS...WRIGHT AND EASTERN TANEY COUNTIES"
+            ],
+            "VTEC": [
+                "/O.EXP.KSGF.FA.Y.0009.000000T0000Z-200213T1515Z/"
+            ],
+            "PIL": [
+                "SGFFLSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T09:15:00-06:00"
+            ]
+        }
+    }
+}
