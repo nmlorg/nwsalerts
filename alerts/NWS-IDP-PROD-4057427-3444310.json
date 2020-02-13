@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057427-3444310",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.44,
+                    38.86
+                ],
+                [
+                    -83.39999999999999,
+                    38.87
+                ],
+                [
+                    -83.42999999999999,
+                    38.659999899999995
+                ],
+                [
+                    -83.47,
+                    38.67999999999999
+                ],
+                [
+                    -83.49,
+                    38.74999999999999
+                ],
+                [
+                    -83.44,
+                    38.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057427-3444310",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057427-3444310",
+        "areaDesc": "Adams, OH",
+        "geocode": {
+            "UGC": [
+                "OHC001"
+            ],
+            "SAME": [
+                "039001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057101-3444041",
+                "identifier": "NWS-IDP-PROD-4057101-3444041",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T23:32:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T04:14:00-05:00",
+        "effective": "2020-02-13T04:14:00-05:00",
+        "onset": "2020-02-13T04:14:00-05:00",
+        "expires": "2020-02-13T12:14:00-05:00",
+        "ends": "2020-02-13T15:25:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Flood Warning issued February 13 at 4:14AM EST until February 13 at 3:25PM EST by NWS Wilmington OH",
+        "description": "...The Flood Warning continues for the following rivers...\nOhio Brush Creek above West Union\n\nThe Flood Warning continues for\nThe Ohio Brush Creek above West Union\n* until this afternoon.\n* At 3 AM the stage was 16.1 feet.\n* Flood stage is 15 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* The river will continue rising to near 16.5 feet by this morning. The\nriver will fall below flood stage late this morning.\n* At stages near 17.0 feet, Flooding occurs along State Route 348 near\nCompton Hill Road.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILN.FL.W.0004.000000T0000Z-200213T2025Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNFLSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T15:25:00-05:00"
+            ]
+        }
+    }
+}
