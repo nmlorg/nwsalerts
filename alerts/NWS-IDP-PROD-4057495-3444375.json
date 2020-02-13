@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057495-3444375",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.89,
+                    36
+                ],
+                [
+                    -87.83,
+                    36
+                ],
+                [
+                    -87.74,
+                    35.79
+                ],
+                [
+                    -87.78,
+                    35.6599999
+                ],
+                [
+                    -87.85,
+                    35.6599999
+                ],
+                [
+                    -87.8199999,
+                    35.79
+                ],
+                [
+                    -87.89,
+                    36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057495-3444375",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057495-3444375",
+        "areaDesc": "Perry, TN",
+        "geocode": {
+            "UGC": [
+                "TNC135"
+            ],
+            "SAME": [
+                "047135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC135"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056471-3443504",
+                "identifier": "NWS-IDP-PROD-4056471-3443504",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T18:21:00-06:00"
+            }
+        ],
+        "sent": "2020-02-13T03:38:00-06:00",
+        "effective": "2020-02-13T03:38:00-06:00",
+        "onset": "2020-02-13T03:38:00-06:00",
+        "expires": "2020-02-13T15:38:00-06:00",
+        "ends": "2020-02-15T19:12:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Warning issued February 13 at 3:38AM CST until February 15 at 7:12PM CST by NWS Nashville TN",
+        "description": "...The Flood Warning continues for the following rivers in Tennessee...\n\nBuffalo River Near Lobelville affecting Perry County\n\n. The Buffalo River near Lobelville is current not in flood but is expected\nto rise into flood on Friday as overnight rains runoff.\n\nThe Flood Warning continues for\nThe Buffalo River Near Lobelville\n* From early tomorrow until 02/15 19:12.\n* At 03AM Thursday the stage was 13.6 feet.\n* Minor flooding is forecast.\n* Action stage is 10.0 feet.\n* Flood stage is 14.0 feet.\n* At 16.0 feet...Flood waters cover Route 438 south of Lobelville near\nBeardstown and it may be impassable. Extensive agricultural land along the\nriver is flooded as well.\n* At 14.0 feet...Gilmer Bridge Rd and Russell Creek Rd begin to flood. Leeper\nBottom and Qualls Bend Rd become flooded as well. Water approaches portions of\nHighway 438 south of Lobelville near Beardstown.\n* At 12.0 feet...Portions of secondary roads near Old Highway 13 are inundated.\n* At 10.0 feet...Water inundates low lying areas and agricultural land along the\nriver.",
+        "instruction": "Avoid flooded areas along the river...And move personal belongings to higher\nground. Never drive through flooded roads as the depth of water may be too great\nto pass...Even in trucks or sport utility vehicles. If you come across a flooded\nroad...Turn around don't drown.\n\nStay tuned to NOAA weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.W.0010.000000T0000Z-200216T0112Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T19:12:00-06:00"
+            ]
+        }
+    }
+}
