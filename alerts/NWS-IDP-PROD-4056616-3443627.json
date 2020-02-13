@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056616-3443627",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.98,
+                    31.8
+                ],
+                [
+                    -95.19,
+                    31.98
+                ],
+                [
+                    -95.16,
+                    32.18
+                ],
+                [
+                    -95.13,
+                    31.94
+                ],
+                [
+                    -94.97,
+                    31.85
+                ],
+                [
+                    -94.98,
+                    31.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056616-3443627",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056616-3443627",
+        "areaDesc": "Cherokee, TX; Smith, TX; Rusk, TX; Nacogdoches, TX",
+        "geocode": {
+            "UGC": [
+                "TXC073",
+                "TXC423",
+                "TXC401",
+                "TXC347"
+            ],
+            "SAME": [
+                "048073",
+                "048423",
+                "048401",
+                "048347"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC073",
+            "https://api.weather.gov/zones/county/TXC423",
+            "https://api.weather.gov/zones/county/TXC401",
+            "https://api.weather.gov/zones/county/TXC347"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055321-3442367",
+                "identifier": "NWS-IDP-PROD-4055321-3442367",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T08:03:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T19:13:00-06:00",
+        "effective": "2020-02-12T19:13:00-06:00",
+        "onset": "2020-02-13T17:08:00-06:00",
+        "expires": "2020-02-13T19:12:00-06:00",
+        "ends": "2020-02-14T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 12 at 7:13PM CST until February 14 at 6:00PM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Mud Creek Near Jacksonville.\n* from Thursday afternoon to Friday evening...or until the warning is\ncancelled.\n* At  7:00 PM Wednesday The stage was 7.0 feet.\n* Minor flooding is forecast.\n* Flood stage is 9.0 feet.\n* Forecast...Rise above flood stage by tomorrow afternoon and\ncontinue to rise to near 9.1 feet BY tomorrow evening. The river\nwill fall below flood stage by early Friday morning.\n* Impact...at 9.0 feet...Expect lowland flooding of timber resources\nalong with some farmland.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSHV.FL.W.0024.200213T2308Z-200215T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T18:00:00-06:00"
+            ]
+        }
+    }
+}
