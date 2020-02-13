@@ -1,0 +1,120 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057046-3443990",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.91,
+                    37.07
+                ],
+                [
+                    -92.67999999999999,
+                    37.07
+                ],
+                [
+                    -92.69,
+                    37.4799999
+                ],
+                [
+                    -92.25,
+                    37.470000000000006
+                ],
+                [
+                    -92.25,
+                    37.290000000000006
+                ],
+                [
+                    -92.35,
+                    37.290000000000006
+                ],
+                [
+                    -92.75,
+                    36.81000000000001
+                ],
+                [
+                    -92.77,
+                    36.80000000000001
+                ],
+                [
+                    -92.77,
+                    36.500000000000014
+                ],
+                [
+                    -92.89999999999999,
+                    36.500000000000014
+                ],
+                [
+                    -92.91,
+                    37.07
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057046-3443990",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057046-3443990",
+        "areaDesc": "Taney, MO; Douglas, MO; Wright, MO",
+        "geocode": {
+            "UGC": [
+                "MOC213",
+                "MOC067",
+                "MOC229"
+            ],
+            "SAME": [
+                "029213",
+                "029067",
+                "029229"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC213",
+            "https://api.weather.gov/zones/county/MOC067",
+            "https://api.weather.gov/zones/county/MOC229"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056303-3443340",
+                "identifier": "NWS-IDP-PROD-4056303-3443340",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T16:17:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T21:38:00-06:00",
+        "effective": "2020-02-12T21:38:00-06:00",
+        "onset": "2020-02-12T21:38:00-06:00",
+        "expires": "2020-02-13T09:15:00-06:00",
+        "ends": "2020-02-13T09:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Flood Advisory issued February 12 at 9:38PM CST until February 13 at 9:15AM CST by NWS Springfield MO",
+        "description": "The National Weather Service in Springfield has extended the\n\n* Flood Advisory for...\nWestern Douglas County in southwestern Missouri...\nWright County in southwestern Missouri...\nEastern Taney County in southwestern Missouri...\n\n* Until 915 AM CST Thursday.\n\n* At 935 PM CST, the Department of Transportation reports ongoing\nminor flooding across the advisory area.A few low water crossings\nremain closed as residual flooding will continue overnight due to\nthe up to one inch of rain that fell earlier today.\n\n* Creeks, streams, and low water crossings will be especially\nsusceptible to the dangers of flooding.\n\nThis advisory includes but is not limited to the following low water\ncrossings...\nRoute E north of Highway 38 at The Gasconade River...\nRoute Y at Cowskin Creek 3 miles west of Ava...\nRoute M at Parks Creek near Grovespring...\nHighway 125 at Shoal Creek south of Protem...\nand Route Z at Elk Creek south of Competition.",
+        "instruction": "Be especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nIn hilly terrain there are hundreds of low water crossings which are\npotentially dangerous in heavy rain. Do not attempt to cross flooded\nroads. Find an alternate route.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSGF.FA.Y.0009.000000T0000Z-200213T1515Z/"
+            ],
+            "PIL": [
+                "SGFFLSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T09:15:00-06:00"
+            ]
+        }
+    }
+}
