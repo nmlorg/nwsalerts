@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058113-3444856",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.1,
+                    40.69
+                ],
+                [
+                    -85.08,
+                    40.72
+                ],
+                [
+                    -84.99,
+                    40.64
+                ],
+                [
+                    -85.02,
+                    40.61
+                ],
+                [
+                    -85.1,
+                    40.69
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058113-3444856",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4058113-3444856",
+        "areaDesc": "Wells, IN; Adams, IN",
+        "geocode": {
+            "UGC": [
+                "INC179",
+                "INC001"
+            ],
+            "SAME": [
+                "018179",
+                "018001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC179",
+            "https://api.weather.gov/zones/county/INC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056828-3443817",
+                "identifier": "NWS-IDP-PROD-4056828-3443817",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T21:01:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T10:44:00-05:00",
+        "effective": "2020-02-13T10:44:00-05:00",
+        "onset": "2020-02-13T10:44:00-05:00",
+        "expires": "2020-02-14T10:43:00-05:00",
+        "ends": "2020-02-14T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Flood Warning issued February 13 at 10:44AM EST until February 14 at 7:00PM EST by NWS Northern Indiana",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nWabash River near Linn Grove affecting Adams and Wells Counties\n\n.Rainfall this past week along with snow melt had caused the Wabash\nRiver near Linn Grove to rise into minor flood stage. The river has\nnow been falling and despite last night's snowfall will continue to fall.\n\nThe Flood Warning has been extended for\nThe Wabash River near Linn Grove\n* until Friday evening.\n* At 10 AM Thursday the stage was 11.6 feet and falling.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 11.0 feet.\n* Forecast...The river will fall below the 11.0 foot flood stage\naround 7 PM Thursday February 13.\n* At 12.0 feet...The flooding of county roads begin.",
+        "instruction": "Never drive vehicles through flooded areas. The water may be too deep\nto allow safe passage. Never allow children to play in or near flood\nwaters. Stay tuned to NOAA Weather Radio or local media for further\nstatements and updated forecasts.\n\nDetailed river forecasts and more information can be found on the\ninternet at www.weather.gov/iwx under Rivers and Lakes.\n\nAll times are in Eastern Time. This statement will be updated in\nabout 24 hours or sooner if necessary.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIWX.FL.W.0037.000000T0000Z-200215T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "IWXFLSIWX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T19:00:00-05:00"
+            ]
+        }
+    }
+}
