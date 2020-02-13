@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056796-3443792",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.26,
+                    39.55
+                ],
+                [
+                    -86.3199999,
+                    39.51
+                ],
+                [
+                    -86.38,
+                    39.489999999999995
+                ],
+                [
+                    -86.38,
+                    39.49999999999999
+                ],
+                [
+                    -86.33,
+                    39.519999999999996
+                ],
+                [
+                    -86.28999999999999,
+                    39.559999999999995
+                ],
+                [
+                    -86.26,
+                    39.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056796-3443792",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056796-3443792",
+        "areaDesc": "Monroe, IN; Morgan, IN; Owen, IN",
+        "geocode": {
+            "UGC": [
+                "INC105",
+                "INC109",
+                "INC119"
+            ],
+            "SAME": [
+                "018105",
+                "018109",
+                "018119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC105",
+            "https://api.weather.gov/zones/county/INC109",
+            "https://api.weather.gov/zones/county/INC119"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055721-3442756",
+                "identifier": "NWS-IDP-PROD-4055721-3442756",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T11:44:00-05:00"
+            }
+        ],
+        "sent": "2020-02-12T20:43:00-05:00",
+        "effective": "2020-02-12T20:43:00-05:00",
+        "onset": "2020-02-12T20:43:00-05:00",
+        "expires": "2020-02-13T20:42:00-05:00",
+        "ends": "2020-02-14T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued February 12 at 8:43PM EST until February 14 at 1:00AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...Wabash River...White River...\n\n\n.Flooding is underway along several central and southern Indiana\nwaterways as a result of up to 2 inches of precipitation that fell\nSunday into Monday.  Another quarter inch to an inch of\nprecipitation has fallen this afternoon and evening, heaviest\nsouth.  An additional quarter inch of precipitation is possible.\nThis later event will bring secondary crests to waterways at some\nlocations and prolong the original crest at others.\n\nFlood impacts should mainly be confined to roads near the waterways,\nagricultural land, bottomlands, and levees.  Please see the specific\nimpacts listed for your location of interest below or by going to\nthe web page described below.\n\nThe Flood Warning continues for\nThe White River near Centerton.\n* until late Thursday night.\n* At  8:00 PM Wednesday the stage was 12.1 feet.\n* Flood stage is 12.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will rise to near 12.1 feet by late tonight then\nbegin falling. It will fall below flood stage Thursday afternoon.\n* At 12.4 feet...Road just north of Blue Bluff Bridge has about six\ninches of water on it.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0058.000000T0000Z-200214T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T01:00:00-05:00"
+            ]
+        }
+    }
+}
