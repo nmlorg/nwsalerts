@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056706-3443714",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.55,
+                    34.99
+                ],
+                [
+                    -85.56,
+                    35.31
+                ],
+                [
+                    -85.02,
+                    35.300000000000004
+                ],
+                [
+                    -85.11999999999999,
+                    34.99
+                ],
+                [
+                    -85.55,
+                    34.99
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056706-3443714",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056706-3443714",
+        "areaDesc": "Marion, TN; Sequatchie, TN; Hamilton, TN",
+        "geocode": {
+            "UGC": [
+                "TNC115",
+                "TNC153",
+                "TNC065"
+            ],
+            "SAME": [
+                "047115",
+                "047153",
+                "047065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC115",
+            "https://api.weather.gov/zones/county/TNC153",
+            "https://api.weather.gov/zones/county/TNC065"
+        ],
+        "references": [],
+        "sent": "2020-02-12T20:30:00-05:00",
+        "effective": "2020-02-12T20:30:00-05:00",
+        "onset": "2020-02-12T20:30:00-05:00",
+        "expires": "2020-02-12T21:15:00-05:00",
+        "ends": "2020-02-12T21:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Severe Thunderstorm Warning issued February 12 at 8:30PM EST until February 12 at 9:15PM EST by NWS Morristown TN",
+        "description": "The National Weather Service in Morristown has issued a\n\n* Severe Thunderstorm Warning for...\nSouthern Sequatchie County in east Tennessee...\nEastern Marion County in east Tennessee...\nHamilton County in east Tennessee...\n\n* Until 915 PM EST/815 PM CST/.\n\n* At 829 PM EST/729 PM CST/, severe thunderstorms were located along\na line extending from 6 miles east of Tracy City to near Stevenson,\nmoving east at 35 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nChattanooga, Soddy-Daisy, Signal Mountain, Walden, Lakesite,\nWhitwell, Ridgeside, Fairmount, Harrison and Red Bank.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-12T20:29:00.000-05:00...storm...278DEG...32KT...35.24,-85.64 34.95,-85.85"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KMRX.SV.W.0019.200213T0130Z-200213T0215Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXSVRMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-12T21:15:00-05:00"
+            ]
+        }
+    }
+}
