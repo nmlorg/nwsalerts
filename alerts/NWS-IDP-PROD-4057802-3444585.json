@@ -1,0 +1,137 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057802-3444585",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.73,
+                    34.17
+                ],
+                [
+                    -82.74000000000001,
+                    34.21
+                ],
+                [
+                    -82.31,
+                    34.4799999
+                ],
+                [
+                    -82.33,
+                    34.5
+                ],
+                [
+                    -82.26,
+                    34.83
+                ],
+                [
+                    -81.94000000000001,
+                    34.909999899999995
+                ],
+                [
+                    -81.92000000000002,
+                    34.55
+                ],
+                [
+                    -82.38000000000001,
+                    34.22
+                ],
+                [
+                    -82.69000000000001,
+                    34.18
+                ],
+                [
+                    -82.73,
+                    34.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057802-3444585",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057802-3444585",
+        "areaDesc": "Greenville, SC; Spartanburg, SC; Laurens, SC; Greenwood, SC; Abbeville, SC",
+        "geocode": {
+            "UGC": [
+                "SCC045",
+                "SCC083",
+                "SCC059",
+                "SCC047",
+                "SCC001"
+            ],
+            "SAME": [
+                "045045",
+                "045083",
+                "045059",
+                "045047",
+                "045001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC045",
+            "https://api.weather.gov/zones/county/SCC083",
+            "https://api.weather.gov/zones/county/SCC059",
+            "https://api.weather.gov/zones/county/SCC047",
+            "https://api.weather.gov/zones/county/SCC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057772-3444569",
+                "identifier": "NWS-IDP-PROD-4057772-3444569",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T08:43:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057759-3444560",
+                "identifier": "NWS-IDP-PROD-4057759-3444560",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T08:24:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T09:09:00-05:00",
+        "effective": "2020-02-13T09:09:00-05:00",
+        "onset": "2020-02-13T09:09:00-05:00",
+        "expires": "2020-02-13T09:19:00-05:00",
+        "ends": "2020-02-13T09:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Severe Thunderstorm Warning issued February 13 at 9:09AM EST until February 13 at 9:15AM EST by NWS Greenville-Spartanburg SC",
+        "description": "The storms which prompted the warning have moved out of the area.\nTherefore the warning will be allowed to expire.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-13T09:09:00.000-05:00...storm...270DEG...41KT...34.79,-81.87 34.56,-81.95 34.33,-82.18"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR NORTHWESTERN LAURENS... SOUTHEASTERN GREENVILLE...SOUTHWESTERN SPARTANBURG...CENTRAL ABBEVILLE AND NORTHWESTERN GREENWOOD COUNTIES WILL EXPIRE AT 915 AM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KGSP.SV.W.0034.000000T0000Z-200213T1415Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GSPSVSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T09:15:00-05:00"
+            ]
+        }
+    }
+}
