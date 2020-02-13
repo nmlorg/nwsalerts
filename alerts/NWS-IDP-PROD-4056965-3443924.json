@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056965-3443924",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.7,
+                    37.96
+                ],
+                [
+                    -87.59,
+                    38.02
+                ],
+                [
+                    -87.45,
+                    38.010000000000005
+                ],
+                [
+                    -87.45,
+                    37.870000000000005
+                ],
+                [
+                    -87.56,
+                    37.800000000000004
+                ],
+                [
+                    -87.69,
+                    37.81
+                ],
+                [
+                    -87.7,
+                    37.96
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056965-3443924",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056965-3443924",
+        "areaDesc": "Daviess, KY; Vanderburgh, IN; Henderson, KY; Posey, IN; Warrick, IN",
+        "geocode": {
+            "UGC": [
+                "KYC059",
+                "INC163",
+                "KYC101",
+                "INC129",
+                "INC173"
+            ],
+            "SAME": [
+                "021059",
+                "018163",
+                "021101",
+                "018129",
+                "018173"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC059",
+            "https://api.weather.gov/zones/county/INC163",
+            "https://api.weather.gov/zones/county/KYC101",
+            "https://api.weather.gov/zones/county/INC129",
+            "https://api.weather.gov/zones/county/INC173"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055671-3442693",
+                "identifier": "NWS-IDP-PROD-4055671-3442693",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T10:27:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T21:04:00-06:00",
+        "effective": "2020-02-12T21:04:00-06:00",
+        "onset": "2020-02-16T15:00:00-06:00",
+        "expires": "2020-02-14T01:03:00-06:00",
+        "ends": "2020-02-22T09:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued February 12 at 9:04PM CST until February 22 at 9:00AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in Indiana...\nKentucky...Illinois...Missouri...\n\nOhio River at Owensboro...Newburgh Dam...Evansville...Mount Vernon...\nJ.T. Myers Dam...Shawneetown...Golconda...Smithland Dam...Paducah...\nOlmsted Dam and Cairo\n\n.Water levels continue to rise on the Ohio River from Newburgh\nDam Indiana all the way down to Cairo Illinois. Minor flooding is\nis occurring at most locations with moderate flooding forecast at\nmany points from Shawneetown down to Cairo. The only river point\nthat is expected to touch major stage criteria is Olmsted Dam.\nAdjustments to these forecasts are possible.\n\nThe Flood Warning continues for\nthe Ohio River at Evansville\n* from Sunday afternoon to Saturday February 22.\n* At  8:00 PM Wednesday the stage was 37.7 feet.\n* Flood Stage is 42.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by Sunday afternoon and continue\nto rise to near 42.8 feet by Thursday morning, the 20th of February.\n* Impact...At 42.0 Feet...The river is 3300 feet wide.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0036.200216T2100Z-200222T1500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-22T09:00:00-06:00"
+            ]
+        }
+    }
+}
