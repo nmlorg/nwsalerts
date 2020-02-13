@@ -1,0 +1,83 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057184-3444102",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.76,
+                    38.2
+                ],
+                [
+                    -84.84,
+                    38.2
+                ],
+                [
+                    -84.86,
+                    38.34
+                ],
+                [
+                    -84.79,
+                    38.35
+                ],
+                [
+                    -84.76,
+                    38.2
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057184-3444102",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057184-3444102",
+        "areaDesc": "Franklin, KY",
+        "geocode": {
+            "UGC": [
+                "KYC073"
+            ],
+            "SAME": [
+                "021073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC073"
+        ],
+        "references": [],
+        "sent": "2020-02-13T00:55:00-05:00",
+        "effective": "2020-02-13T00:55:00-05:00",
+        "onset": "2020-02-13T00:55:00-05:00",
+        "expires": "2020-02-13T18:55:00-05:00",
+        "ends": "2020-02-14T12:53:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Advisory issued February 13 at 12:55AM EST until February 14 at 12:53PM EST by NWS Louisville KY",
+        "description": "...The National Weather Service in Louisville KY has issued a Flood\nAdvisory for Elkhorn Creek...\n\nElkhorn Creek Near Peaks Mill\n\naffecting the following counties in Kentucky...Franklin.\n\nThe National Weather Service in Louisville KY has issued a\n* Flood Advisory for\nthe Elkhorn Creek Near Peaks Mill.\n* until Friday afternoon.\n* At 12:15 AM Thursday the stage was 7.9 feet.\n* Flood stage is 10.0 feet.\n* Forecast...The creek will rise to near 9.5 feet this morning.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLMK.FL.Y.0011.200213T0555Z-200214T1753Z/"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T12:53:00-05:00"
+            ]
+        }
+    }
+}
