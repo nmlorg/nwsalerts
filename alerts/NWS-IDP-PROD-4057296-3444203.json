@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057296-3444203",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.7,
+                    31.99
+                ],
+                [
+                    -88.4,
+                    31.43
+                ],
+                [
+                    -88.67,
+                    31.43
+                ],
+                [
+                    -88.08,
+                    31.99
+                ],
+                [
+                    -87.7,
+                    31.99
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057296-3444203",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057296-3444203",
+        "areaDesc": "Choctaw, AL; Washington, AL; Wayne, MS; Clarke, AL",
+        "geocode": {
+            "UGC": [
+                "ALC023",
+                "ALC129",
+                "MSC153",
+                "ALC025"
+            ],
+            "SAME": [
+                "001023",
+                "001129",
+                "028153",
+                "001025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC023",
+            "https://api.weather.gov/zones/county/ALC129",
+            "https://api.weather.gov/zones/county/MSC153",
+            "https://api.weather.gov/zones/county/ALC025"
+        ],
+        "references": [],
+        "sent": "2020-02-13T02:21:00-06:00",
+        "effective": "2020-02-13T02:21:00-06:00",
+        "onset": "2020-02-13T02:21:00-06:00",
+        "expires": "2020-02-13T04:15:00-06:00",
+        "ends": "2020-02-13T04:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Advisory issued February 13 at 2:21AM CST until February 13 at 4:15AM CST by NWS Mobile AL",
+        "description": "The National Weather Service in Mobile has issued a\n\n* Urban and Small Stream Flood Advisory for...\nSouth central Choctaw County in southwestern Alabama...\nNorthwestern Washington County in southwestern Alabama...\nNorthwestern Clarke County in southwestern Alabama...\nSoutheastern Wayne County in southeastern Mississippi...\n\n* Until 415 AM CST.\n\n* At 220 AM CST, Doppler radar indicated heavy rain due to\nthunderstorms. This will cause urban and small stream flooding in\nthe advisory area. Up to two inches of rain have already fallen.\n\n* Some locations that will experience flooding include...\nMillry, State Line, Buckatunna and Coffeeville.\n\nAdditional rainfall of one to two inches is expected over the area.\nThis additional rain will result in minor flooding.",
+        "instruction": "Be especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KMOB.FA.Y.0015.200213T0821Z-200213T1015Z/"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T04:15:00-06:00"
+            ]
+        }
+    }
+}
