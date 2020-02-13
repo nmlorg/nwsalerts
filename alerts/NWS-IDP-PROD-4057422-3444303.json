@@ -1,0 +1,119 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057422-3444303",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.18,
+                    38.9
+                ],
+                [
+                    -84.29,
+                    38.85
+                ],
+                [
+                    -84.48,
+                    39.06
+                ],
+                [
+                    -84.93,
+                    39.03
+                ],
+                [
+                    -84.9,
+                    39.1599999
+                ],
+                [
+                    -84.37,
+                    39.14
+                ],
+                [
+                    -84.18,
+                    38.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057422-3444303",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057422-3444303",
+        "areaDesc": "Clermont, OH; Boone, KY; Hamilton, OH; Campbell, KY; Ohio, IN; Dearborn, IN; Kenton, KY",
+        "geocode": {
+            "UGC": [
+                "OHC025",
+                "KYC015",
+                "OHC061",
+                "KYC037",
+                "INC115",
+                "INC029",
+                "KYC117"
+            ],
+            "SAME": [
+                "039025",
+                "021015",
+                "039061",
+                "021037",
+                "018115",
+                "018029",
+                "021117"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC025",
+            "https://api.weather.gov/zones/county/KYC015",
+            "https://api.weather.gov/zones/county/OHC061",
+            "https://api.weather.gov/zones/county/KYC037",
+            "https://api.weather.gov/zones/county/INC115",
+            "https://api.weather.gov/zones/county/INC029",
+            "https://api.weather.gov/zones/county/KYC117"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056803-3443799",
+                "identifier": "NWS-IDP-PROD-4056803-3443799",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T20:46:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T04:13:00-05:00",
+        "effective": "2020-02-13T04:13:00-05:00",
+        "onset": "2020-02-14T02:00:00-05:00",
+        "expires": "2020-02-13T12:11:00-05:00",
+        "ends": "2020-02-17T16:36:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Flood Warning issued February 13 at 4:13AM EST until February 17 at 4:36PM EST by NWS Wilmington OH",
+        "description": "...The Flood Warning continues for the following rivers...\n\nOhio River at Cincinnati\nOhio River at Portsmouth\n\nThe Flood Warning continues for\nThe Ohio River at Cincinnati\n* from late tonight to Monday afternoon.\n* At 4 AM the stage was 49.8 feet.\n* Flood stage is 52 feet.\n* Minor flooding is forecast.\n* The river will rise above flood stage after midnight tonight and\ncontinue to rise to near 53.5 feet by Saturday morning.The river will\nfall below flood stage late Monday morning.\n* At stages near 54.0 feet, Backwater flooding spreads up the lower\nLittle Miami River as far upstream as Newtown, with flooding worsening\nin California and in Anderson Township.  Low-lying areas near New\nRichmond in Clermont County also flood.  Flooding also worsens in the\nEast End.  Flooding near Petersburg, Kentucky along Belleview Road\nnear the Woolper Creek Bridge occurs, as well as near State Route 56\nand Water Street near Aurora, Indiana. Sawyer Point Ampitheater area\nis flooded, along with Riverside Drive in Covington.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KILN.FL.W.0003.200214T0700Z-200217T2136Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNFLSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T16:36:00-05:00"
+            ]
+        }
+    }
+}

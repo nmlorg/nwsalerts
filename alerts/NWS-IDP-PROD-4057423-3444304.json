@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057423-3444304",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.85,
+                    38.78
+                ],
+                [
+                    -82.83999999999999,
+                    38.68
+                ],
+                [
+                    -83.17999999999999,
+                    38.58
+                ],
+                [
+                    -83.61999999999999,
+                    38.61
+                ],
+                [
+                    -83.67999999999999,
+                    38.71
+                ],
+                [
+                    -83.3,
+                    38.7299999
+                ],
+                [
+                    -82.85,
+                    38.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057423-3444304",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057423-3444304",
+        "areaDesc": "Lewis, KY; Greenup, KY; Adams, OH; Scioto, OH",
+        "geocode": {
+            "UGC": [
+                "KYC135",
+                "KYC089",
+                "OHC001",
+                "OHC145"
+            ],
+            "SAME": [
+                "021135",
+                "021089",
+                "039001",
+                "039145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC135",
+            "https://api.weather.gov/zones/county/KYC089",
+            "https://api.weather.gov/zones/county/OHC001",
+            "https://api.weather.gov/zones/county/OHC145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056802-3443798",
+                "identifier": "NWS-IDP-PROD-4056802-3443798",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T20:46:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T04:13:00-05:00",
+        "effective": "2020-02-13T04:13:00-05:00",
+        "onset": "2020-02-14T00:00:00-05:00",
+        "expires": "2020-02-13T12:11:00-05:00",
+        "ends": "2020-02-16T12:08:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Flood Warning issued February 13 at 4:13AM EST until February 16 at 12:08PM EST by NWS Wilmington OH",
+        "description": "...The Flood Warning continues for the following rivers...\n\nOhio River at Cincinnati\nOhio River at Portsmouth\n\nThe Flood Warning continues for\nThe Ohio River at Portsmouth\n* from late tonight to Sunday afternoon.\n* At 4 AM the stage was 48.5 feet.\n* Flood stage is 50 feet.\n* Minor flooding is forecast.\n* The river will rise above flood stage after midnight tonight and\ncontinue to rise to near 51.2 feet by Friday evening.The river will\nfall below flood stage Sunday morning.\n* At stages near 51.0 feet, Low-lying flooding occurs along the southern\nborder of Scioto County, as well as in South Portsmouth.  Routes 73\nand 239 are closed near the Ohio River. Much of Portsmouth itself is\nprotected by flood walls.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILN.FL.W.0002.200214T0500Z-200216T1708Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNFLSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T12:08:00-05:00"
+            ]
+        }
+    }
+}
