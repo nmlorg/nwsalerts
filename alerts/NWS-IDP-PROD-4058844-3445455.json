@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058844-3445455",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.2099999,
+                    35.09
+                ],
+                [
+                    -82.17,
+                    35.02
+                ],
+                [
+                    -82.2099999,
+                    34.9799999
+                ],
+                [
+                    -82.27,
+                    35.11
+                ],
+                [
+                    -82.2099999,
+                    35.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058844-3445455",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4058844-3445455",
+        "areaDesc": "Greenville, SC; Spartanburg, SC",
+        "geocode": {
+            "UGC": [
+                "SCC045",
+                "SCC083"
+            ],
+            "SAME": [
+                "045045",
+                "045083"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC045",
+            "https://api.weather.gov/zones/county/SCC083"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058353-3445056",
+                "identifier": "NWS-IDP-PROD-4058353-3445056",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T12:44:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T18:10:00-05:00",
+        "effective": "2020-02-13T18:10:00-05:00",
+        "onset": "2020-02-13T18:10:00-05:00",
+        "expires": "2020-02-14T00:15:00-05:00",
+        "ends": "2020-02-14T00:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Flood Advisory issued February 13 at 6:10PM EST until February 14 at 12:15AM EST by NWS Greenville-Spartanburg SC",
+        "description": "The National Weather Service in Greenville-Spartanburg has extended\nthe\n\n* Flood Advisory for...\nNortheastern Greenville County in Upstate South Carolina...\nWest central Spartanburg County in Upstate South Carolina...\n\n* Until 1215 AM EST Friday.\n\n* At 608 PM EST, heavy runoff continues from this morning's heavy\nrain. This has caused the Middle Tyger and Resin Creek to rise out\nof their banks resulting in the typical flooding of parts of Mount\nLebanon Church Road. Middle Tyger has crested near Gramling, but\nhigh water conditions will linger in this area through this\nevening.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGSP.FA.Y.0036.000000T0000Z-200214T0515Z/"
+            ],
+            "PIL": [
+                "GSPFLSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T00:15:00-05:00"
+            ]
+        }
+    }
+}
