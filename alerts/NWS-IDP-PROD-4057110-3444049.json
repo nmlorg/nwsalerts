@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057110-3444049",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.77,
+                    32.36
+                ],
+                [
+                    -82.67999999999999,
+                    32.38
+                ],
+                [
+                    -82.58999999999999,
+                    32.2
+                ],
+                [
+                    -82.50999999999999,
+                    31.960000000000004
+                ],
+                [
+                    -82.58999999999999,
+                    31.950000000000003
+                ],
+                [
+                    -82.67999999999999,
+                    32.18
+                ],
+                [
+                    -82.77,
+                    32.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057110-3444049",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057110-3444049",
+        "areaDesc": "Treutlen, GA; Montgomery, GA; Wheeler, GA",
+        "geocode": {
+            "UGC": [
+                "GAC283",
+                "GAC209",
+                "GAC309"
+            ],
+            "SAME": [
+                "013283",
+                "013209",
+                "013309"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC283",
+            "https://api.weather.gov/zones/county/GAC209",
+            "https://api.weather.gov/zones/county/GAC309"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056660-3443669",
+                "identifier": "NWS-IDP-PROD-4056660-3443669",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T20:23:00-05:00"
+            }
+        ],
+        "sent": "2020-02-12T23:36:00-05:00",
+        "effective": "2020-02-12T23:36:00-05:00",
+        "onset": "2020-02-12T23:36:00-05:00",
+        "expires": "2020-02-13T13:35:00-05:00",
+        "ends": "2020-02-17T21:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 12 at 11:36PM EST until February 17 at 9:00PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nOconee River near Mount Vernon affecting Montgomery...Treutlen and\nWheeler Counties\n\nThe Flood Warning continues for\nThe Oconee River near Mount Vernon.\n* Until Monday evening.\n* At 11 PM Wednesday the stage was 20 feet and slowly rising.\n* Moderate flooding is occurring and will continue.\n* Flood stage is 16 feet.\n* The river is forecast to rise to near 20.1 feet by Thursday\nmorning, then fall below flood stage Monday afternoon.\n* At 20 feet...Moderate flooding begins. Significant flooding\noccurs in the woodlands and pastures upstream and downstream from\nthe gage on U.S. Highway 280. The access road to the boat ramp on\nthe Wheeler County side of the river begins to flood. Around a\ndozen homes on Dead River Road in the south end of Montgomery\nCounty become surrounded with water. A few homes will have some\nflooding. Portions of Dead River Road will be covered by at least\ntwo feet of water.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0140.000000T0000Z-200218T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T21:00:00-05:00"
+            ]
+        }
+    }
+}
