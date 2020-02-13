@@ -1,0 +1,129 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058531-3445221",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.2,
+                    35.01
+                ],
+                [
+                    -87.2099999,
+                    35
+                ],
+                [
+                    -87.2099999,
+                    34.82
+                ],
+                [
+                    -87.28,
+                    34.77
+                ],
+                [
+                    -87.18,
+                    34.75
+                ],
+                [
+                    -87.11000000000001,
+                    34.69
+                ],
+                [
+                    -87.11000000000001,
+                    34.3
+                ],
+                [
+                    -88.17000000000002,
+                    34.36
+                ],
+                [
+                    -88.10000000000002,
+                    34.89
+                ],
+                [
+                    -88.16000000000003,
+                    34.92
+                ],
+                [
+                    -88.2,
+                    35.01
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058531-3445221",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4058531-3445221",
+        "areaDesc": "Lauderdale, AL; Colbert, AL; Lawrence, AL; Franklin, AL",
+        "geocode": {
+            "UGC": [
+                "ALC077",
+                "ALC033",
+                "ALC079",
+                "ALC059"
+            ],
+            "SAME": [
+                "001077",
+                "001033",
+                "001079",
+                "001059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC077",
+            "https://api.weather.gov/zones/county/ALC033",
+            "https://api.weather.gov/zones/county/ALC079",
+            "https://api.weather.gov/zones/county/ALC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057762-3444563",
+                "identifier": "NWS-IDP-PROD-4057762-3444563",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T07:28:00-06:00"
+            }
+        ],
+        "sent": "2020-02-13T13:21:00-06:00",
+        "effective": "2020-02-13T13:21:00-06:00",
+        "onset": "2020-02-13T13:21:00-06:00",
+        "expires": "2020-02-13T13:30:00-06:00",
+        "ends": "2020-02-13T13:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 13 at 1:21PM CST until February 13 at 1:30PM CST by NWS Huntsville AL",
+        "description": "Flood waters have receded, and are no longer expected to pose a\nthreat to life or property. Please continue to heed any road\nclosures.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLOOD WARNING WILL EXPIRE AT 130 PM CST FOR LAUDERDALE... COLBERT...FRANKLIN AND LAWRENCE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.EXP.KHUN.FA.W.0030.000000T0000Z-200213T1930Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T13:30:00-06:00"
+            ]
+        }
+    }
+}
