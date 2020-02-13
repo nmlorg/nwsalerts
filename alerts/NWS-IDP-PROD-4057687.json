@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057687",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.0699999,
+                    35.28
+                ],
+                [
+                    -81.91,
+                    35.22
+                ],
+                [
+                    -81.97999999999999,
+                    35.46
+                ],
+                [
+                    -81.66,
+                    35.57
+                ],
+                [
+                    -81.53999999999999,
+                    35.57
+                ],
+                [
+                    -81.47999999999999,
+                    35.63
+                ],
+                [
+                    -81.25999999999999,
+                    35.7
+                ],
+                [
+                    -81.0699999,
+                    35.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057687",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4057687",
+        "areaDesc": "Cleveland; Lincoln; Catawba; Greater Rutherford; Gaston",
+        "geocode": {
+            "UGC": [
+                "NCZ068",
+                "NCZ069",
+                "NCZ056",
+                "NCZ508",
+                "NCZ070"
+            ],
+            "SAME": [
+                "037045",
+                "037109",
+                "037035",
+                "037161",
+                "037071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NCZ068",
+            "https://api.weather.gov/zones/forecast/NCZ069",
+            "https://api.weather.gov/zones/forecast/NCZ056",
+            "https://api.weather.gov/zones/forecast/NCZ508",
+            "https://api.weather.gov/zones/forecast/NCZ070"
+        ],
+        "references": [],
+        "sent": "2020-02-13T07:03:00-05:00",
+        "effective": "2020-02-13T07:03:00-05:00",
+        "onset": "2020-02-13T07:03:00-05:00",
+        "expires": "2020-02-13T07:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Special Weather Statement issued February 13 at 7:03AM EST by NWS Greenville-Spartanburg SC",
+        "description": "At 703 AM EST, Doppler radar was tracking a strong thunderstorm near\nForest City, moving east at 50 mph.\n\nLocations to be impacted include...\nShelby, Lincolnton, Forest City, Rutherfordton, Newton, Gastonia,\nCherryville, Bessemer City, Spindale and Boiling Springs NC.\n\nWind gusts up to 40 mph will be possible in these areas.",
+        "instruction": "Gusty winds can blow down trees that are dead, or that have weakened\nroot systems. Outdoor furniture and similar items can be tossed\naround if not anchored. Seek shelter indoors.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-13T07:03:00.000-05:00...storm...256DEG...49KT...35.33,-81.84"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL IMPACT SOUTHWESTERN CATAWBA... SOUTHEASTERN RUTHERFORD...LINCOLN...CLEVELAND AND NORTHWESTERN GASTON COUNTIES UNTIL 745 AM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GSPSPSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
