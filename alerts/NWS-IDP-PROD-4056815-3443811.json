@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056815-3443811",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.77,
+                    32.32
+                ],
+                [
+                    -86.8199999,
+                    32.29
+                ],
+                [
+                    -86.87,
+                    32.44
+                ],
+                [
+                    -86.8199999,
+                    32.44
+                ],
+                [
+                    -86.8,
+                    32.339999999999996
+                ],
+                [
+                    -86.75999999999999,
+                    32.339999999999996
+                ],
+                [
+                    -86.77,
+                    32.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056815-3443811",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4056815-3443811",
+        "areaDesc": "Lowndes, AL; Dallas, AL; Autauga, AL",
+        "geocode": {
+            "UGC": [
+                "ALC085",
+                "ALC047",
+                "ALC001"
+            ],
+            "SAME": [
+                "001085",
+                "001047",
+                "001001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC085",
+            "https://api.weather.gov/zones/county/ALC047",
+            "https://api.weather.gov/zones/county/ALC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4055476-3442509",
+                "identifier": "NWS-IDP-PROD-4055476-3442509",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T09:10:00-06:00"
+            }
+        ],
+        "sent": "2020-02-12T19:52:00-06:00",
+        "effective": "2020-02-12T19:52:00-06:00",
+        "onset": "2020-02-13T00:00:00-06:00",
+        "expires": "2020-02-13T07:51:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 12 at 7:52PM CST by NWS Birmingham AL",
+        "description": "...The flood warnings continue for the Alabama River at\nMontgomery...R.F. Henry Lock and Dam...and Selma...\n\n.Rises continue along the Alabama River following the recent heavy\nrainfall...and flood warnings remain in effect along the river.\n\nThe Flood Warning continues for\nThe Alabama River At R.F. Henry Lock and Dam.\n* from late tonight until further notice...or until the warning is\ncancelled.\n* At 7 PM Wednesday the stage was 121 feet.\n* Flood stage is 122 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by after midnight tonight and\ncontinue to rise to near 125.8 feet by early Saturday morning.\n* Impact...At 127 feet...Widespread flooding of farm lands and some\nhomes and trailers along the river occurs.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Thursday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0042.200213T0600Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
