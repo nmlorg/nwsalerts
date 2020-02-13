@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058090-3444832",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.54,
+                    33.25
+                ],
+                [
+                    -96.49000000000001,
+                    33.1599999
+                ],
+                [
+                    -96.61000000000001,
+                    33.150000000000006
+                ],
+                [
+                    -96.67000000000002,
+                    33.2299999
+                ],
+                [
+                    -96.54,
+                    33.25
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058090-3444832",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4058090-3444832",
+        "areaDesc": "Collin, TX",
+        "geocode": {
+            "UGC": [
+                "TXC085"
+            ],
+            "SAME": [
+                "048085"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC085"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4056496-3443521",
+                "identifier": "NWS-IDP-PROD-4056496-3443521",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-12T18:34:00-06:00"
+            }
+        ],
+        "sent": "2020-02-13T09:34:00-06:00",
+        "effective": "2020-02-13T09:34:00-06:00",
+        "onset": "2020-02-13T09:34:00-06:00",
+        "expires": "2020-02-13T21:15:00-06:00",
+        "ends": "2020-02-13T21:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Flood Warning issued February 13 at 9:34AM CST until February 13 at 9:15PM CST by NWS Fort Worth TX",
+        "description": "...The Flood Warning is cancelled for the following areas in Texas...\n\nElm Fork Trinity River Near Carrollton Affecting Dallas County\n...The Flood Warning continues for the following areas in Texas...\n\nEast Fork Trinity River At McKinney Affecting Collin County\n\nThe Flood Warning continues for\nThe East Fork Trinity River At McKinney.\n* At 0830 AM Thursday the stage was 16.11 feet.\n* Flood stage is 16 feet.\n* Minor flooding is occurring and is forecast to end Thursday\nmorning.\n* Forecast...The river has crested and will continue to recede and\nfall below flood stage by Thursday morning.\n* At 16 feet, Minor out of bank flooding will begin along the river.",
+        "instruction": "Do not drive cars through flooded areas.\nCaution is urged when walking near riverbanks.\nStay tuned to NOAA All Hazards Radio for the latest river forecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFWD.FL.W.0021.000000T0000Z-200214T0315Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDFLSFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-13T21:15:00-06:00"
+            ]
+        }
+    }
+}
