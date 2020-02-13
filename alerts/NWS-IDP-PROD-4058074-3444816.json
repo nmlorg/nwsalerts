@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058074-3444816",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.05,
+                    37.88
+                ],
+                [
+                    -83.67,
+                    37.88
+                ],
+                [
+                    -83.4,
+                    37.830000000000005
+                ],
+                [
+                    -83.43,
+                    37.75000000000001
+                ],
+                [
+                    -83.74000000000001,
+                    37.800000000000004
+                ],
+                [
+                    -83.97000000000001,
+                    37.800000000000004
+                ],
+                [
+                    -84.05,
+                    37.88
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058074-3444816",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4058074-3444816",
+        "areaDesc": "Estill, KY; Powell, KY",
+        "geocode": {
+            "UGC": [
+                "KYC065",
+                "KYC197"
+            ],
+            "SAME": [
+                "021065",
+                "021197"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC065",
+            "https://api.weather.gov/zones/county/KYC197"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057738-3444548",
+                "identifier": "NWS-IDP-PROD-4057738-3444548",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T07:51:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T10:26:00-05:00",
+        "effective": "2020-02-13T10:26:00-05:00",
+        "onset": "2020-02-14T07:00:00-05:00",
+        "expires": "2020-02-13T22:24:00-05:00",
+        "ends": "2020-02-14T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Warning issued February 13 at 10:26AM EST until February 14 at 1:00PM EST by NWS Jackson KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nThe Cumberland River at Williamsburg\nThe South Fork Kentucky River at Booneville\nThe Kentucky River at Heidelberg\nThe Kentucky River near Ravenna\nThe Red River at Clay City\n\nThe Flood Warning continues for\nThe Red River at Clay City.\n* from Friday morning to Friday afternoon.\n* at  9:15 AM Thursday the stage was 15.2 feet.\n* Flood stage is 17.0 feet.\n* Forecast...The river is expected to rise to near flood stage\ntomorrow morning.\n* At 17.0 feet...Low lying areas flood. Maple street near the Red\nRiver Ranch as well as Pompeii Road off of Highway 15 are\nimpassable.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 8 PM.\n\nA Flood Warning means that flooding is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJKL.FL.W.0014.200214T1200Z-200214T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T13:00:00-05:00"
+            ]
+        }
+    }
+}
