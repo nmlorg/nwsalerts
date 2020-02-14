@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060435-3446763",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.76,
+                    35.82
+                ],
+                [
+                    -87.65,
+                    35.92
+                ],
+                [
+                    -87.2099999,
+                    35.77
+                ],
+                [
+                    -87.3199999,
+                    35.6599999
+                ],
+                [
+                    -87.76,
+                    35.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060435-3446763",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060435-3446763",
+        "areaDesc": "Hickman, TN",
+        "geocode": {
+            "UGC": [
+                "TNC081"
+            ],
+            "SAME": [
+                "047081"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC081"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059579-3446031",
+                "identifier": "NWS-IDP-PROD-4059579-3446031",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T03:08:00-06:00"
+            }
+        ],
+        "sent": "2020-02-14T14:49:00-06:00",
+        "effective": "2020-02-14T14:49:00-06:00",
+        "onset": "2020-02-14T14:49:00-06:00",
+        "expires": "2020-02-15T02:49:00-06:00",
+        "ends": "2020-02-16T08:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Warning issued February 14 at 2:49PM CST until February 16 at 8:00AM CST by NWS Nashville TN",
+        "description": "...The Flood Warning continues for the following rivers in Tennessee...\n\nDuck River At Centerville affecting Hickman County\n\n...The Flood Warning continues for the following rivers in Tennessee...\n\nDuck River Near Hurricane Mills affecting Humphreys County\n\n. Heavy rainfall earlier this week has contributed to a significant rise along the Duck River. The river will remain above flood stage until Sunday morning.",
+        "instruction": "Avoid flooded areas along the river...And move personal belongings to higher\nground. Never drive through flooded roads as the depth of water may be too great\nto pass...Even in trucks or sport utility vehicles. If you come across a flooded\nroad...Turn around don't drown.\n\nStay tuned to NOAA weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KOHX.FL.W.0009.000000T0000Z-200216T1400Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T08:00:00-06:00"
+            ]
+        }
+    }
+}
