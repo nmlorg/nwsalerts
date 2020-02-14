@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059062-3445638",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.58,
+                    32.4099999
+                ],
+                [
+                    -94.34,
+                    32.38
+                ],
+                [
+                    -94.19,
+                    32.190000000000005
+                ],
+                [
+                    -94.28,
+                    32.190000000000005
+                ],
+                [
+                    -94.58,
+                    32.300000000000004
+                ],
+                [
+                    -94.58,
+                    32.4099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059062-3445638",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4059062-3445638",
+        "areaDesc": "Harrison, TX; Panola, TX; Rusk, TX; Gregg, TX",
+        "geocode": {
+            "UGC": [
+                "TXC203",
+                "TXC365",
+                "TXC401",
+                "TXC183"
+            ],
+            "SAME": [
+                "048203",
+                "048365",
+                "048401",
+                "048183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC203",
+            "https://api.weather.gov/zones/county/TXC365",
+            "https://api.weather.gov/zones/county/TXC401",
+            "https://api.weather.gov/zones/county/TXC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057897-3444676",
+                "identifier": "NWS-IDP-PROD-4057897-3444676",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T08:47:00-06:00"
+            }
+        ],
+        "sent": "2020-02-13T19:28:00-06:00",
+        "effective": "2020-02-13T19:28:00-06:00",
+        "onset": "2020-02-15T08:00:00-06:00",
+        "expires": "2020-02-14T19:27:00-06:00",
+        "ends": "2020-02-17T03:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 13 at 7:28PM CST until February 17 at 3:00AM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Sabine River Near Beckville.\n* from Saturday morning to late Sunday night...or until the warning\nis cancelled.\n* At  6:45 PM Thursday The stage was 23.0 feet.\n* Minor flooding is forecast.\n* Flood stage is 26.0 feet.\n* Forecast...Rise above flood stage by Saturday morning and continue\nto rise to near 26.3 feet BY Saturday evening. The river will fall\nbelow flood stage by late Sunday morning.\n* Impact...at 26.0 feet...Expect lowland flooding of the heavily\nwooded floodplain. In addition, oil field operations in and near\nthe floodplain will be affected and steps should be taken to secure\npetroleum equipment.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSHV.FL.W.0022.200215T1400Z-200217T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T03:00:00-06:00"
+            ]
+        }
+    }
+}
