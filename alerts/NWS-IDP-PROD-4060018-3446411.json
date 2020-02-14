@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060018-3446411",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.14,
+                    31.19
+                ],
+                [
+                    -89.14,
+                    31.25
+                ],
+                [
+                    -88.85,
+                    31.23
+                ],
+                [
+                    -88.7099999,
+                    30.990000000000002
+                ],
+                [
+                    -88.77,
+                    30.98
+                ],
+                [
+                    -88.86999999999999,
+                    31.14
+                ],
+                [
+                    -89.14,
+                    31.19
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060018-3446411",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060018-3446411",
+        "areaDesc": "Perry, MS; George, MS; Greene, MS",
+        "geocode": {
+            "UGC": [
+                "MSC111",
+                "MSC039",
+                "MSC041"
+            ],
+            "SAME": [
+                "028111",
+                "028039",
+                "028041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC111",
+            "https://api.weather.gov/zones/county/MSC039",
+            "https://api.weather.gov/zones/county/MSC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059196-3445762",
+                "identifier": "NWS-IDP-PROD-4059196-3445762",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T20:47:00-06:00"
+            }
+        ],
+        "sent": "2020-02-14T09:44:00-06:00",
+        "effective": "2020-02-14T09:44:00-06:00",
+        "onset": "2020-02-14T09:44:00-06:00",
+        "expires": "2020-02-15T09:44:00-06:00",
+        "ends": "2020-02-16T20:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued February 14 at 9:44AM CST until February 16 at 8:00PM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for the following rivers in Alabama...\nMississippi...\n\nBayou Sara At Saraland affecting Mobile County.\n\nMobile River At Barry Steam Plant affecting Baldwin and Mobile Counties.\n\nLeaf Near Mclain affecting George...Greene and Perry Counties.\n\nPascagoula At Merrill affecting George...Greene and Jackson Counties.\n\nTombigbee River Near Coffeeville Dam affecting Choctaw...Clarke and\nWashington Counties.\n\nAlabama River Near Millers Ferry Dam affecting Dallas...Monroe and Wilcox\nCounties.\n\nChickasawhay At Leakesville affecting George...Greene and Wayne Counties.\n\n.Recent heavy rains have caused significant rises along the river.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMOB.FL.W.0024.000000T0000Z-200217T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T20:00:00-06:00"
+            ]
+        }
+    }
+}
