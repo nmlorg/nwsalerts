@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059057-3445633",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.1,
+                    37.65
+                ],
+                [
+                    -83.17999999999999,
+                    37.78
+                ],
+                [
+                    -83.0699999,
+                    37.82
+                ],
+                [
+                    -82.98,
+                    37.7
+                ],
+                [
+                    -83.1,
+                    37.65
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059057-3445633",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4059057-3445633",
+        "areaDesc": "Magoffin, KY",
+        "geocode": {
+            "UGC": [
+                "KYC153"
+            ],
+            "SAME": [
+                "021153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058349-3445052",
+                "identifier": "NWS-IDP-PROD-4058349-3445052",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T12:43:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T20:25:00-05:00",
+        "effective": "2020-02-13T20:25:00-05:00",
+        "onset": "2020-02-13T20:25:00-05:00",
+        "expires": "2020-02-14T07:00:00-05:00",
+        "ends": "2020-02-14T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Advisory issued February 13 at 8:25PM EST until February 14 at 7:00AM EST by NWS Jackson KY",
+        "description": "...The Flood Advisory continues for the following rivers in\nKentucky...\n\nThe Cumberland River at Barbourville\nThe Licking River near Salyersville\n\nThe Flood Advisory continues for\nThe Licking River near Salyersville\n* until Friday morning.\n* At 7 PM Thursday the stage was 14.8 feet.\n* Flood stage is 17.0 feet.\n* Forecast...The river is nearing its crest. The river will\ngradually recede overnight tonight, but will continue to\nrun high through early Friday morning.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 8 am Friday.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJKL.FL.Y.0028.000000T0000Z-200214T1200Z/"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T07:00:00-05:00"
+            ]
+        }
+    }
+}
