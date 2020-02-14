@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059246-3445796",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.74,
+                    38.6
+                ],
+                [
+                    -82.86999999999999,
+                    38.57
+                ],
+                [
+                    -82.92999999999999,
+                    38.72
+                ],
+                [
+                    -82.83,
+                    38.74
+                ],
+                [
+                    -82.74,
+                    38.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059246-3445796",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4059246-3445796",
+        "areaDesc": "Greenup, KY; Scioto, OH",
+        "geocode": {
+            "UGC": [
+                "KYC089",
+                "OHC145"
+            ],
+            "SAME": [
+                "021089",
+                "039145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC089",
+            "https://api.weather.gov/zones/county/OHC145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058189-3444924",
+                "identifier": "NWS-IDP-PROD-4058189-3444924",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T11:03:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T22:05:00-05:00",
+        "effective": "2020-02-13T22:05:00-05:00",
+        "onset": "2020-02-14T07:00:00-05:00",
+        "expires": "2020-02-14T10:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston WV",
+        "headline": "Flood Warning issued February 13 at 10:05PM EST by NWS Charleston WV",
+        "description": "...The Flood Warning is extended for the following rivers in Ohio...\nKentucky...\n\nOhio River At Greenup Lock affecting Greenup and Scioto Counties.\n\nFor the Ohio River...Minor flooding is forecast.\n\nThe Flood Warning continues for\nthe Ohio River At Greenup Lock.\n* From Friday morning until further notice.\n* At 9:45 PM EST Thursday the stage was 53.6 feet.\n* Flood stage is 54.0 feet.\n* Minor flooding is forecast.\n* Forecast...The river will oscillate above flood stage early Friday\nmorning with a crest around 55 feet expected Saturday morning.\n* Impact...At 56.0 feet, Several low lying areas flooded and\nbackwater affected on both sides of the river.\n* Flood History...This crest compares to a previous crest of 55.3\nfeet on 01/22/1996.",
+        "instruction": "This warning will be in effect until the river falls below its flood\nstage.\n\nTurn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nCaution is urged when walking near riverbanks.\n\nAdditional information is available at www.weather.gov/rlx.\n\nThe next scheduled statement will be issued Friday morning.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Warning is now in effect until Monday, January 18"
+            ],
+            "VTEC": [
+                "/O.EXT.KRLX.FL.W.0005.200214T1200Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RLXFLSRLX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

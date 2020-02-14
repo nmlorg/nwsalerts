@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059244-3445794",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.41,
+                    37.13
+                ],
+                [
+                    -86.64999999999999,
+                    37.1599999
+                ],
+                [
+                    -86.8,
+                    37.28
+                ],
+                [
+                    -86.78,
+                    37.39
+                ],
+                [
+                    -86.59,
+                    37.28
+                ],
+                [
+                    -86.41,
+                    37.24
+                ],
+                [
+                    -86.41,
+                    37.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059244-3445794",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4059244-3445794",
+        "areaDesc": "Butler, KY; Warren, KY",
+        "geocode": {
+            "UGC": [
+                "KYC031",
+                "KYC227"
+            ],
+            "SAME": [
+                "021031",
+                "021227"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC031",
+            "https://api.weather.gov/zones/county/KYC227"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057910-3444688",
+                "identifier": "NWS-IDP-PROD-4057910-3444688",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T09:49:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T22:03:00-05:00",
+        "effective": "2020-02-13T22:03:00-05:00",
+        "onset": "2020-02-13T22:03:00-05:00",
+        "expires": "2020-02-14T18:04:00-05:00",
+        "ends": "2020-02-17T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 13 at 10:03PM EST until February 17 at 7:00AM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nLicking River at Blue Licks Spring\nKentucky River at Lockport Lock\nRolling Fork River near Boston\nRough River near Dundee\nGreen River at Woodbury\nGreen River at Rochester\n\naffecting the following counties in Kentucky...Butler...Carroll...\nHardin...Henry...Muhlenberg...Nelson...Nicholas...Ohio...Owen...\nRobertson...Warren.\n\n...The Flood Warning continues for the following rivers in Indiana...\nKentucky...\n\nOhio River at McAlpine Upper\nOhio River at McAlpine Lower\nOhio River at Cannelton Lock\nOhio River at Tell City\n\naffecting the following counties in Indiana...Clark...Crawford...\nFloyd...Harrison...Perry and in Kentucky...Breckinridge...Hancock...\nHardin...Jefferson...Meade...Oldham.\n\nThe Flood Warning continues for\nthe Green River at Woodbury.\n* until Monday morning.\n* At  9:00 PM Thursday the stage was 31.1 feet.\n* Flood stage is 26.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 32.2 feet by\nFriday evening. The river will fall below flood stage early Monday\nmorning.\n* Impact...At 32.0 feet...Low spots on North and South Church Streets\nin Woodbury flood.\n* Flood History...This crest compares to a previous crest of 32.0\nfeet on Feb 7 2014.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLMK.FL.W.0008.000000T0000Z-200217T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T07:00:00-05:00"
+            ]
+        }
+    }
+}
