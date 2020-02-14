@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058931-3445525",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.7,
+                    34.55
+                ],
+                [
+                    -90.59,
+                    34.55
+                ],
+                [
+                    -90.51,
+                    34.5
+                ],
+                [
+                    -90.66000000000001,
+                    34.12
+                ],
+                [
+                    -91.06999990000001,
+                    34.129999999999995
+                ],
+                [
+                    -90.7,
+                    34.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058931-3445525",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4058931-3445525",
+        "areaDesc": "Coahoma, MS; Lee, AR; Tunica, MS; Phillips, AR",
+        "geocode": {
+            "UGC": [
+                "MSC027",
+                "ARC077",
+                "MSC143",
+                "ARC107"
+            ],
+            "SAME": [
+                "028027",
+                "005077",
+                "028143",
+                "005107"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC027",
+            "https://api.weather.gov/zones/county/ARC077",
+            "https://api.weather.gov/zones/county/MSC143",
+            "https://api.weather.gov/zones/county/ARC107"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058500-3445194",
+                "identifier": "NWS-IDP-PROD-4058500-3445194",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T13:06:00-06:00"
+            }
+        ],
+        "sent": "2020-02-13T18:35:00-06:00",
+        "effective": "2020-02-13T18:35:00-06:00",
+        "onset": "2020-02-24T06:00:00-06:00",
+        "expires": "2020-02-14T18:34:00-06:00",
+        "ends": "2020-02-27T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued February 13 at 6:35PM CST until February 27 at 12:00AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Mississippi River.\n\nThe Flood Warning continues for\nthe Mississippi River at Helena\n* from Monday February 24 until Wednesday February 26.\n* At 06 PM Thursday the stage was 37.0 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 44.0 feet on Monday February 24.\n* Flood stage is 44.0 feet.\n* At 44.0 feet...In Arkansas, road to landing east of downtown Helena\nis flooded. In Mississippi, cabin areas east of Desoto Lake are\nflooding. Industries north of Friars Point, Mississippi are\nflooding.",
+        "instruction": "A followup Flood Statement will be issued tomorrow or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.W.0057.200224T1200Z-200227T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-27T00:00:00-06:00"
+            ]
+        }
+    }
+}
