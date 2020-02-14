@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060157-3446519",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.24,
+                    29.97
+                ],
+                [
+                    -91.1,
+                    29.799999999999997
+                ],
+                [
+                    -91.13,
+                    29.389999999999997
+                ],
+                [
+                    -91.53999999999999,
+                    29.509999999999998
+                ],
+                [
+                    -91.38999999999999,
+                    29.86
+                ],
+                [
+                    -91.46999999999998,
+                    29.95
+                ],
+                [
+                    -91.24,
+                    29.97
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060157-3446519",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060157-3446519",
+        "areaDesc": "St. Martin, LA; St. Mary, LA",
+        "geocode": {
+            "UGC": [
+                "LAC099",
+                "LAC101"
+            ],
+            "SAME": [
+                "022099",
+                "022101"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC099",
+            "https://api.weather.gov/zones/county/LAC101"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059130-3445704",
+                "identifier": "NWS-IDP-PROD-4059130-3445704",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T20:04:00-06:00"
+            }
+        ],
+        "sent": "2020-02-14T11:08:00-06:00",
+        "effective": "2020-02-14T11:08:00-06:00",
+        "onset": "2020-02-14T11:08:00-06:00",
+        "expires": "2020-02-15T11:07:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued February 14 at 11:08AM CST by NWS Lake Charles LA",
+        "description": "...The National Weather Service in Lake Charles has issued a flood\nwarning for the following rivers in Louisiana...\n\nCalcasieu River Near Oberlin\n\n...Observed Flooding Changed from Minor to Nonflood Severity for the\nfollowing rivers in Louisiana...\n...Forecast Flooding Changed from Minor to Moderate Severity for the\nfollowing rivers in Louisiana...\nAtchafalaya River At Morgan City",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.CON.KLCH.FL.W.0011.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHFLWLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
