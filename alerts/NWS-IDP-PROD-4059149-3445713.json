@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059149-3445713",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.2,
+                    36.72
+                ],
+                [
+                    -77.2,
+                    36.82
+                ],
+                [
+                    -77.09,
+                    36.87
+                ],
+                [
+                    -76.95,
+                    36.64
+                ],
+                [
+                    -77.02,
+                    36.6
+                ],
+                [
+                    -77.2,
+                    36.72
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059149-3445713",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4059149-3445713",
+        "areaDesc": "Southampton, VA",
+        "geocode": {
+            "UGC": [
+                "VAC175"
+            ],
+            "SAME": [
+                "051175"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC175"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058577-3445256",
+                "identifier": "NWS-IDP-PROD-4058577-3445256",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T15:02:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T21:13:00-05:00",
+        "effective": "2020-02-13T21:13:00-05:00",
+        "onset": "2020-02-13T21:13:00-05:00",
+        "expires": "2020-02-14T09:11:00-05:00",
+        "ends": "2020-02-17T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 13 at 9:13PM EST until February 17 at 1:00PM EST by NWS Wakefield VA",
+        "description": "...The Flood Warning is cancelled for the following rivers in\nVirginia...\n\nMeherrin River At Lawrenceville affecting Brunswick County\n\n...The Flood Warning continues for the following rivers in Virginia..\n\nNottoway River At Sebrell affecting Southampton County\n\n\nFor the Chowan Basin...including Lawrenceville...Sebrell...Minor\nflooding is occurring and is expected to continue.\n\nThe Flood Warning continues for...\nThe Nottoway River At Sebrell\n* until Monday afternoon...or until the warning is cancelled.\n* At 08:15 PM Thursday the stage was 16.8 feet.\n* Minor flooding is occurring and Minor flooding is forecast to\ncontinue.\n* Flood stage is 16.0 feet.\n* Forecast...The river will continue to fall to below flood stage by\nMonday morning.\n* At 18.5 feet...Hancock Peanut Mill is affected in Courtland.\nThis river level is comparable to a previous crest of 16.9 feet on\nJul 31 2004.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KAKQ.FL.W.0009.000000T0000Z-200217T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T13:00:00-05:00"
+            ]
+        }
+    }
+}
