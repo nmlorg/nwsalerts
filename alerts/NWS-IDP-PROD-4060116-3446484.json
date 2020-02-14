@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060116-3446484",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.06,
+                    33.34
+                ],
+                [
+                    -92.05,
+                    33.53
+                ],
+                [
+                    -92.1,
+                    33.7299999
+                ],
+                [
+                    -91.97,
+                    33.75
+                ],
+                [
+                    -91.92999999999999,
+                    33.54
+                ],
+                [
+                    -91.91999999999999,
+                    33.33
+                ],
+                [
+                    -92.06,
+                    33.34
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060116-3446484",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060116-3446484",
+        "areaDesc": "Bradley, AR; Ashley, AR; Cleveland, AR; Drew, AR",
+        "geocode": {
+            "UGC": [
+                "ARC011",
+                "ARC003",
+                "ARC025",
+                "ARC043"
+            ],
+            "SAME": [
+                "005011",
+                "005003",
+                "005025",
+                "005043"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC011",
+            "https://api.weather.gov/zones/county/ARC003",
+            "https://api.weather.gov/zones/county/ARC025",
+            "https://api.weather.gov/zones/county/ARC043"
+        ],
+        "references": [],
+        "sent": "2020-02-14T10:32:00-06:00",
+        "effective": "2020-02-14T10:32:00-06:00",
+        "onset": "2020-02-14T10:32:00-06:00",
+        "expires": "2020-02-15T01:32:00-06:00",
+        "ends": "2020-02-15T22:31:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Advisory issued February 14 at 10:32AM CST until February 15 at 10:31PM CST by NWS Little Rock AR",
+        "description": "...The National Weather Service in Little Rock has issued a Flood\nAdvisory for the following river location in Arkansas...\n\nSaline River Near Rye affecting Ashley...Bradley...Cleveland and\nDrew Counties\n\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 24 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.\n\nThe National Weather Service in Little Rock has issued a\n* Flood Advisory for\nThe Saline River Near Rye.\n* until Saturday evening.\n* At 9:15 AM Friday the stage was 24.0 feet.\n* Flood stage is 26.0 feet.\n* Forecast...The river will rise to near 25.5 feet Wednesday morning.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLZK.FL.Y.0002.200214T1632Z-200216T0431Z/"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T22:31:00-06:00"
+            ]
+        }
+    }
+}
