@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059997-3446390",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.85,
+                    38.78
+                ],
+                [
+                    -82.83999999999999,
+                    38.68
+                ],
+                [
+                    -83.17999999999999,
+                    38.58
+                ],
+                [
+                    -83.61999999999999,
+                    38.61
+                ],
+                [
+                    -83.67999999999999,
+                    38.71
+                ],
+                [
+                    -83.3,
+                    38.7299999
+                ],
+                [
+                    -82.85,
+                    38.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059997-3446390",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4059997-3446390",
+        "areaDesc": "Lewis, KY; Greenup, KY; Adams, OH; Scioto, OH",
+        "geocode": {
+            "UGC": [
+                "KYC135",
+                "KYC089",
+                "OHC001",
+                "OHC145"
+            ],
+            "SAME": [
+                "021135",
+                "021089",
+                "039001",
+                "039145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC135",
+            "https://api.weather.gov/zones/county/KYC089",
+            "https://api.weather.gov/zones/county/OHC001",
+            "https://api.weather.gov/zones/county/OHC145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059599-3446058",
+                "identifier": "NWS-IDP-PROD-4059599-3446058",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T04:24:00-05:00"
+            }
+        ],
+        "sent": "2020-02-14T10:29:00-05:00",
+        "effective": "2020-02-14T10:29:00-05:00",
+        "onset": "2020-02-14T10:29:00-05:00",
+        "expires": "2020-02-14T18:28:00-05:00",
+        "ends": "2020-02-16T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Flood Warning issued February 14 at 10:29AM EST until February 16 at 10:00PM EST by NWS Wilmington OH",
+        "description": "...The Flood Warning continues for the following rivers...\n\nOhio River at Portsmouth\nOhio River at Maysville\nOhio River at Meldahl Dam\nOhio River at Cincinnati\n\nThe Flood Warning continues for\nThe Ohio River at Portsmouth\n* until Sunday evening.\n* At 10 AM the stage was 52.7 feet.\n* Flood stage is 50 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* The river will continue rising to near 53.2 feet by after midnight\ntonight. The river will fall below flood stage Sunday afternoon.\n* At stages near 53.0 feet, backwater flooding on tributaries occurs,\nwith low lying impacts and flooding of some county roads. Riverfront\nhomes near Shannoah Lane near Ziegler Lane become surrounded by water\nwith some homes flooded by several feet of water.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KILN.FL.W.0002.000000T0000Z-200217T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNFLSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T22:00:00-05:00"
+            ]
+        }
+    }
+}
