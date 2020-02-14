@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060003-3446396",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.09,
+                    35.78
+                ],
+                [
+                    -83.18,
+                    35.77
+                ],
+                [
+                    -83.22000000000001,
+                    35.9099999
+                ],
+                [
+                    -83.20999990000001,
+                    36.03
+                ],
+                [
+                    -83.16000000000001,
+                    35.97
+                ],
+                [
+                    -83.15,
+                    35.86
+                ],
+                [
+                    -83.09,
+                    35.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060003-3446396",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060003-3446396",
+        "areaDesc": "Cocke, TN",
+        "geocode": {
+            "UGC": [
+                "TNC029"
+            ],
+            "SAME": [
+                "047029"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC029"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059174-3445738",
+                "identifier": "NWS-IDP-PROD-4059174-3445738",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T21:32:00-05:00"
+            }
+        ],
+        "sent": "2020-02-14T10:30:00-05:00",
+        "effective": "2020-02-14T10:30:00-05:00",
+        "onset": "2020-02-14T10:30:00-05:00",
+        "expires": "2020-02-14T18:01:00-05:00",
+        "ends": "2020-02-14T18:01:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Flood Warning issued February 14 at 10:30AM EST until February 14 at 6:01PM EST by NWS Morristown TN",
+        "description": "...The Flood Warning is extended for the following rivers ...\n\nSouth Chickamauga Creek Near Chickamauga TN affecting Catoosa and\nHamilton Counties\n\nPigeon River At Newport TN affecting Cocke County",
+        "instruction": "Most deaths in floods occur in automobiles. If you come to a closed\nor flooded road, Turn Around! Don't Drown! For more details, stay\ntuned to NOAA Weather Radio or commercial television or radio\nstations that carry weather information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMRX.FL.W.0021.000000T0000Z-200214T2301Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXFLSMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-14T18:01:00-05:00"
+            ]
+        }
+    }
+}
