@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059094-3445670",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.34,
+                    32.71
+                ],
+                [
+                    -92.45,
+                    32.72
+                ],
+                [
+                    -92.5,
+                    32.78
+                ],
+                [
+                    -92.44,
+                    32.800000000000004
+                ],
+                [
+                    -92.36,
+                    32.760000000000005
+                ],
+                [
+                    -92.34,
+                    32.71
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059094-3445670",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4059094-3445670",
+        "areaDesc": "Lincoln, LA; Union, LA; Ouachita, LA",
+        "geocode": {
+            "UGC": [
+                "LAC061",
+                "LAC111",
+                "LAC073"
+            ],
+            "SAME": [
+                "022061",
+                "022111",
+                "022073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC061",
+            "https://api.weather.gov/zones/county/LAC111",
+            "https://api.weather.gov/zones/county/LAC073"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058275-3444992",
+                "identifier": "NWS-IDP-PROD-4058275-3444992",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T10:57:00-06:00"
+            }
+        ],
+        "sent": "2020-02-13T19:38:00-06:00",
+        "effective": "2020-02-13T19:38:00-06:00",
+        "onset": "2020-02-13T19:38:00-06:00",
+        "expires": "2020-02-14T19:38:00-06:00",
+        "ends": "2020-02-19T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 13 at 7:38PM CST until February 19 at 12:00AM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Bayou D'Arbonne At Lake D'Arbonne.\n* until late Tuesday night...or until the warning is cancelled.\n* At  6:45 PM Thursday The stage was 83.8 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 83.0 feet.\n* Forecast...expect a rise to near 84 feet and hold through\nSaturday before a slow fall begins.\n* Impact...at 84.0 feet...Expect significant flooding of several\nsecondary roadways that will result in several residents being\ncutoff from major highways. Several low are homes will be in danger\nof flooding and homeowners should take steps to protect property.\nNearly all camps will suffer from flooding.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSHV.FL.W.0025.000000T0000Z-200219T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-19T00:00:00-06:00"
+            ]
+        }
+    }
+}
