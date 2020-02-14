@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059842-3446244",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.93,
+                    35.36
+                ],
+                [
+                    -80.98,
+                    35.15
+                ],
+                [
+                    -81.08,
+                    35.159999899999995
+                ],
+                [
+                    -81.02,
+                    35.35999999999999
+                ],
+                [
+                    -80.93,
+                    35.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059842-3446244",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4059842-3446244",
+        "areaDesc": "Mecklenburg, NC; Gaston, NC",
+        "geocode": {
+            "UGC": [
+                "NCC119",
+                "NCC071"
+            ],
+            "SAME": [
+                "037119",
+                "037071"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC119",
+            "https://api.weather.gov/zones/county/NCC071"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4057449-3444333",
+                "identifier": "NWS-IDP-PROD-4057449-3444333",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T04:22:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059133-3445707",
+                "identifier": "NWS-IDP-PROD-4059133-3445707",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T21:07:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058295-3445008",
+                "identifier": "NWS-IDP-PROD-4058295-3445008",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T12:06:00-05:00"
+            }
+        ],
+        "sent": "2020-02-14T09:02:00-05:00",
+        "effective": "2020-02-14T09:02:00-05:00",
+        "onset": "2020-02-14T09:02:00-05:00",
+        "expires": "2020-02-15T09:15:00-05:00",
+        "ends": "2020-02-15T09:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Flood Advisory issued February 14 at 9:02AM EST until February 15 at 9:15AM EST by NWS Greenville-Spartanburg SC",
+        "description": "The National Weather Service in Greenville-Spartanburg has extended\nthe\n\n* Flood Advisory for...\nWest central Mecklenburg County in the Piedmont of North\nCarolina...\nSoutheastern Gaston County in the Piedmont of North Carolina...\n\n* Until 915 AM EST Saturday.\n\n* At 900 AM EST, high flows continued along the Catawba River\nreservoir chain. As a result of excess water passing though each\nlake, the pool height at Mountain Island Lake should hover around\n101.5 feet today and tonight. This will continue to result in\nnuisance shoreline flooding of lake access areas, docks, and\nresidential yards along and downstream of the lake.\n\n* Residents should closely monitor lake levels for sudden changes,\nand follow guidance from Charlotte-Mecklenburg Emergency\nManagement. Drivers are encouraged to heed any barricades and\navoid all flooded areas.\n\n* For more information on lake levels or dam releases, people are\nencouraged to visit http://lakes.duke-energy.com, call 1-800-829-\n5253, or download the Duke Energy Lake View mobile app.",
+        "instruction": "A Flood Advisory means river or stream flows are elevated, or ponding\nof water in urban or other areas is occurring or is imminent.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGSP.FA.Y.0031.000000T0000Z-200215T1415Z/"
+            ],
+            "PIL": [
+                "GSPFLSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T09:15:00-05:00"
+            ]
+        }
+    }
+}
