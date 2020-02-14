@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060236-3446597",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.62,
+                    34.9099999
+                ],
+                [
+                    -90.22,
+                    34.9099999
+                ],
+                [
+                    -90.34,
+                    34.800000000000004
+                ],
+                [
+                    -90.51,
+                    34.50000000000001
+                ],
+                [
+                    -90.59,
+                    34.550000000000004
+                ],
+                [
+                    -90.74000000000001,
+                    34.760000000000005
+                ],
+                [
+                    -90.62,
+                    34.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060236-3446597",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060236-3446597",
+        "areaDesc": "Lee, AR; Tunica, MS",
+        "geocode": {
+            "UGC": [
+                "ARC077",
+                "MSC143"
+            ],
+            "SAME": [
+                "005077",
+                "028143"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC077",
+            "https://api.weather.gov/zones/county/MSC143"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058928-3445522",
+                "identifier": "NWS-IDP-PROD-4058928-3445522",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T18:35:00-06:00"
+            }
+        ],
+        "sent": "2020-02-14T12:28:00-06:00",
+        "effective": "2020-02-14T12:28:00-06:00",
+        "onset": "2020-02-14T12:28:00-06:00",
+        "expires": "2020-02-15T12:27:00-06:00",
+        "ends": "2020-03-04T01:12:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued February 14 at 12:28PM CST until March 4 at 1:12AM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Mississippi River.\n\nThe Flood Warning continues for\nthe Mississippi River at Tunica Riverpark\n* from Friday February 14 until Tuesday March 3.\n* At 11 AM Friday the stage was 40.8 feet.\n* Moderate flooding is forecast.\n* Maximum forecast stage of 47.0 feet on Monday February 24.\n* Flood stage is 41.0 feet.\n* Forecast to rise above flood stage by Friday afternoon February 14 and\ncontinue to rise to near 47.0 feet by Monday February 24. The river\nwill fall below flood stage by Tuesday March 3.\n* At 47.0 feet...In Mississippi, water is going over Charlie Lane.\nSmokey Lane is being covered. Lots on east end of Deer Crossing are\nflooding. Water is over north end of Sauger Lane.",
+        "instruction": "A followup Flood Statement will be issued Saturday or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0040.000000T0000Z-200304T0712Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-04T01:12:00-06:00"
+            ]
+        }
+    }
+}
