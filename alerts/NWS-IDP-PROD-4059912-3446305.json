@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059912-3446305",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.99,
+                    40.43
+                ],
+                [
+                    -80.05,
+                    40.45
+                ],
+                [
+                    -80.03,
+                    40.470000000000006
+                ],
+                [
+                    -80.01,
+                    40.45
+                ],
+                [
+                    -79.99000000000001,
+                    40.46
+                ],
+                [
+                    -79.98,
+                    40.45
+                ],
+                [
+                    -79.99,
+                    40.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059912-3446305",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4059912-3446305",
+        "areaDesc": "Allegheny, PA",
+        "geocode": {
+            "UGC": [
+                "PAC003"
+            ],
+            "SAME": [
+                "042003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/PAC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059089-3445665",
+                "identifier": "NWS-IDP-PROD-4059089-3445665",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T20:37:00-05:00"
+            }
+        ],
+        "sent": "2020-02-14T09:41:00-05:00",
+        "effective": "2020-02-14T09:41:00-05:00",
+        "onset": "2020-02-14T09:41:00-05:00",
+        "expires": "2020-02-14T21:45:00-05:00",
+        "ends": "2020-02-16T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pittsburgh PA",
+        "headline": "Flood Advisory issued February 14 at 9:41AM EST until February 16 at 1:00AM EST by NWS Pittsburgh PA",
+        "description": "...The Flood Advisory continues for the following rivers in\nPennsylvania...\n\nOhio River At Pittsburgh affecting Allegheny County.\n\n.The Ohio River at Pittsburgh has crested this morning,\nreaching 20 feet. The river is expected to remain above 18 feet\nthrough late Saturday.\n\nThe Flood Advisory continues for\nthe Ohio River At Pittsburgh.\n* Until late Saturday night.\n* At 8:15 PM EST Thursday the stage was 19.7 feet.\n* Action stage is 18.0 feet.\n* Flood stage is 25.0 feet.\n* Forecast...The river is expected to rise to a crest of 20.0 feet\nearly this morning.\n* Impact...At 18.0 feet, Water begins to flow onto the Monongahela\nParking Wharf.\n* Impact...At 19.0 feet, Water begins to flow onto the north shore\nriverwalk between the stadiums.\n* Impact...At 19.5 feet, The Mon Parking Wharf is completely flooded.\n* Impact...At 20.0 feet, Water is up to one foot deep in the lower\nareas of the North Shore Riverwalk.\n* Impact...At 22.0 feet, The Tenth Street Bypass floods.",
+        "instruction": "Caution is urged when walking near riverbanks.\n\nAdditional information is available at weather.gov/pbz .\n\nThe next statement will be issued this evening at 945 PM EST.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Advisory remains in effect"
+            ],
+            "VTEC": [
+                "/O.CON.KPBZ.FL.Y.0001.000000T0000Z-200216T0600Z/"
+            ],
+            "PIL": [
+                "PBZFLSPBZ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T01:00:00-05:00"
+            ]
+        }
+    }
+}
