@@ -1,0 +1,116 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060040-3446425",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.68,
+                    38.24
+                ],
+                [
+                    -86.02000000000001,
+                    37.9099999
+                ],
+                [
+                    -86.36000000000001,
+                    38.09
+                ],
+                [
+                    -86.36000000000001,
+                    38.220000000000006
+                ],
+                [
+                    -86.05000000000001,
+                    38.06000000000001
+                ],
+                [
+                    -85.80000000000001,
+                    38.31000000000001
+                ],
+                [
+                    -85.68,
+                    38.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060040-3446425",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060040-3446425",
+        "areaDesc": "Floyd, IN; Hardin, KY; Jefferson, KY; Clark, IN; Harrison, IN; Meade, KY",
+        "geocode": {
+            "UGC": [
+                "INC043",
+                "KYC093",
+                "KYC111",
+                "INC019",
+                "INC061",
+                "KYC163"
+            ],
+            "SAME": [
+                "018043",
+                "021093",
+                "021111",
+                "018019",
+                "018061",
+                "021163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC043",
+            "https://api.weather.gov/zones/county/KYC093",
+            "https://api.weather.gov/zones/county/KYC111",
+            "https://api.weather.gov/zones/county/INC019",
+            "https://api.weather.gov/zones/county/INC061",
+            "https://api.weather.gov/zones/county/KYC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059242-3445792",
+                "identifier": "NWS-IDP-PROD-4059242-3445792",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T22:03:00-05:00"
+            }
+        ],
+        "sent": "2020-02-14T10:55:00-05:00",
+        "effective": "2020-02-14T10:55:00-05:00",
+        "onset": "2020-02-14T22:00:00-05:00",
+        "expires": "2020-02-15T04:54:00-05:00",
+        "ends": "2020-02-19T12:08:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 14 at 10:55AM EST until February 19 at 12:08PM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in Indiana...\nKentucky...\n\nOhio River at McAlpine Upper\nOhio River at McAlpine Lower\n\naffecting the following counties in Indiana...Clark...Floyd...\nHarrison and in Kentucky...Hardin...Jefferson...Meade...Oldham.\n\nThe Flood Warning continues for\nthe Ohio River at McAlpine Lower.\n* from this evening to Wednesday afternoon.\n* At 10:00 AM Friday the stage was 53.8 feet.\n* Flood stage is 55.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by tonight and continue to rise\nto near 57.6 feet by early Monday morning. The river will fall\nbelow flood stage by Wednesday morning.\n* Impact...At 58.0 feet...IN 111 floods upstream of Bridgeport.\n* Flood History...This crest compares to a previous crest of 57.6\nfeet on Mar 21 2008.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLMK.FL.W.0018.200215T0300Z-200219T1708Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-19T12:08:00-05:00"
+            ]
+        }
+    }
+}
