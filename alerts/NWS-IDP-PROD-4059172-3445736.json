@@ -1,0 +1,119 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059172-3445736",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.18,
+                    38.9
+                ],
+                [
+                    -84.29,
+                    38.85
+                ],
+                [
+                    -84.48,
+                    39.06
+                ],
+                [
+                    -84.93,
+                    39.03
+                ],
+                [
+                    -84.9,
+                    39.1599999
+                ],
+                [
+                    -84.37,
+                    39.14
+                ],
+                [
+                    -84.18,
+                    38.9
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059172-3445736",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4059172-3445736",
+        "areaDesc": "Clermont, OH; Boone, KY; Hamilton, OH; Campbell, KY; Ohio, IN; Dearborn, IN; Kenton, KY",
+        "geocode": {
+            "UGC": [
+                "OHC025",
+                "KYC015",
+                "OHC061",
+                "KYC037",
+                "INC115",
+                "INC029",
+                "KYC117"
+            ],
+            "SAME": [
+                "039025",
+                "021015",
+                "039061",
+                "021037",
+                "018115",
+                "018029",
+                "021117"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC025",
+            "https://api.weather.gov/zones/county/KYC015",
+            "https://api.weather.gov/zones/county/OHC061",
+            "https://api.weather.gov/zones/county/KYC037",
+            "https://api.weather.gov/zones/county/INC115",
+            "https://api.weather.gov/zones/county/INC029",
+            "https://api.weather.gov/zones/county/KYC117"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4058569-3445250",
+                "identifier": "NWS-IDP-PROD-4058569-3445250",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-13T14:58:00-05:00"
+            }
+        ],
+        "sent": "2020-02-13T21:29:00-05:00",
+        "effective": "2020-02-13T21:29:00-05:00",
+        "onset": "2020-02-13T21:29:00-05:00",
+        "expires": "2020-02-14T05:28:00-05:00",
+        "ends": "2020-02-18T04:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Flood Warning issued February 13 at 9:29PM EST until February 18 at 4:00AM EST by NWS Wilmington OH",
+        "description": "...The Flood Warning continues for the following rivers...\n\nOhio River at Maysville\n\n...The Flood Warning continues for the following rivers...\nOhio River at Portsmouth\nOhio River at Meldahl Dam\nOhio River at Cincinnati\n\nThe Flood Warning continues for\nThe Ohio River at Cincinnati\n* until late Monday night.\n* At 9 PM the stage was 52.3 feet.\n* Flood stage is 52 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* The river will continue rising to near 54.6 feet by Saturday evening.\nThe river will fall below flood stage Monday before midnight.\n* At stages near 55.0 feet, backwater flooding continues to affect much\nof northern Kentucky, southwest Ohio and southeast Indiana. Low-lying\nroads near the river continue to flood, with much of Anderson\nTownship, Ohio, the East End and California near the river affected.\nFlooding begins to affect sections of Route 52 in southeast Hamilton\nand Clermont Counties. Low-lying roads in Bromley and Ludlow also\nflood.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILN.FL.W.0003.000000T0000Z-200218T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNFLSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-18T04:00:00-05:00"
+            ]
+        }
+    }
+}
