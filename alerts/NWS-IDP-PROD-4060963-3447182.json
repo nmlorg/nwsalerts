@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060963-3447182",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.93,
+                    39.03
+                ],
+                [
+                    -84.81999990000001,
+                    39.04
+                ],
+                [
+                    -84.70999990000001,
+                    38.8
+                ],
+                [
+                    -85.25000000000001,
+                    38.64
+                ],
+                [
+                    -85.34000000000002,
+                    38.74
+                ],
+                [
+                    -84.90000000000002,
+                    38.830000000000005
+                ],
+                [
+                    -84.93,
+                    39.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060963-3447182",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060963-3447182",
+        "areaDesc": "Gallatin, KY; Switzerland, IN; Carroll, KY",
+        "geocode": {
+            "UGC": [
+                "KYC077",
+                "INC155",
+                "KYC041"
+            ],
+            "SAME": [
+                "021077",
+                "018155",
+                "021041"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC077",
+            "https://api.weather.gov/zones/county/INC155",
+            "https://api.weather.gov/zones/county/KYC041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060409-3446743",
+                "identifier": "NWS-IDP-PROD-4060409-3446743",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T15:44:00-05:00"
+            }
+        ],
+        "sent": "2020-02-14T22:41:00-05:00",
+        "effective": "2020-02-14T22:41:00-05:00",
+        "onset": "2020-02-14T22:41:00-05:00",
+        "expires": "2020-02-15T06:39:00-05:00",
+        "ends": "2020-02-17T01:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Flood Advisory issued February 14 at 10:41PM EST until February 17 at 1:30AM EST by NWS Wilmington OH",
+        "description": "...The Flood Advisory continues for the following locations...\nOhio River at Markland Dam\n\nThe Flood Advisory continues for\nThe Ohio River at Markland Dam\n* until late Sunday night.\n* At 10 PM the stage was near 48.5 feet.\n* Flood stage is 51 feet.\n* The river will continue rising to near 49.5 feet early Sunday morning\nthen begin falling.\n* At stages near 50.0 feet, Flooding occurs in the River Drive area\nupstream of Patriot with water approaching some homes.  Flooding of\nOgle Park in Vevay occurs, as well as flooding in the low areas of\nCarrollton along the Kentucky River due to backwater.  Elsewhere,\nflooding of some streets and parks between Route 42 and the river\noccurs in Kentucky.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILN.FL.Y.0001.000000T0000Z-200217T0630Z/"
+            ],
+            "PIL": [
+                "ILNFLSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T01:30:00-05:00"
+            ]
+        }
+    }
+}
