@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060791-3447052",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.16,
+                    38.97
+                ],
+                [
+                    -82,
+                    38.86
+                ],
+                [
+                    -82.11,
+                    38.7
+                ],
+                [
+                    -82.26,
+                    38.720000000000006
+                ],
+                [
+                    -82.16,
+                    38.97
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060791-3447052",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060791-3447052",
+        "areaDesc": "Mason, WV; Gallia, OH",
+        "geocode": {
+            "UGC": [
+                "WVC053",
+                "OHC053"
+            ],
+            "SAME": [
+                "054053",
+                "039053"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WVC053",
+            "https://api.weather.gov/zones/county/OHC053"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060714-3446979",
+                "identifier": "NWS-IDP-PROD-4060714-3446979",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T20:10:00-05:00"
+            }
+        ],
+        "sent": "2020-02-14T20:55:00-05:00",
+        "effective": "2020-02-14T20:55:00-05:00",
+        "onset": "2020-02-14T20:55:00-05:00",
+        "expires": "2020-02-15T09:00:00-05:00",
+        "ends": "2020-02-16T06:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston WV",
+        "headline": "Flood Warning issued February 14 at 8:55PM EST until February 16 at 6:00AM EST by NWS Charleston WV",
+        "description": "...The Flood Warning is extended for the following rivers in Ohio...\nWest Virginia...\n\nOhio River At Point Pleasant affecting Gallia and Mason Counties.\n\nFor the Ohio River...Minor flooding is forecast.\n\nThe Flood Warning continues for\nthe Ohio River At Point Pleasant.\n* Until Sunday morning.\n* At 8:00 PM EST Friday the stage was 43.4 feet.\n* Flood stage is 40.0 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* Recent Activity...The maximum river stage in the 24 hours ending\nat 8:00 PM EST Friday was 43.6 feet.\n* Forecast...The river is expected to fall below flood stage early\nSunday morning and continue falling to 26.9 feet Wednesday evening.\n* Impact...At 43.5 feet, Route 33 at West Creek and Brinker Run\nbetween Vanadium and Letart is flooded. Sand Hill Road near Letart\nis flooded.",
+        "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nTurn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nThis warning will be in effect until the river falls below its flood\nstage.\n\nCaution is urged when walking near riverbanks.\n\nAdditional information is available at www.weather.gov/rlx.\n\nThe next statement will be issued Saturday morning at 900 AM EST.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Warning is now in effect until Sunday morning"
+            ],
+            "VTEC": [
+                "/O.EXT.KRLX.FL.W.0002.000000T0000Z-200216T1100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RLXFLSRLX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T06:00:00-05:00"
+            ]
+        }
+    }
+}
