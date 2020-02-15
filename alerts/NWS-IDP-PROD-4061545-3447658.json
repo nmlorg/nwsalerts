@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061545-3447658",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.91,
+                    32.34
+                ],
+                [
+                    -86.99,
+                    32.34
+                ],
+                [
+                    -87.11999999999999,
+                    32.220000000000006
+                ],
+                [
+                    -87.20999989999999,
+                    32.24000000000001
+                ],
+                [
+                    -87.04999999999998,
+                    32.43000000000001
+                ],
+                [
+                    -86.90999999999998,
+                    32.370000000000005
+                ],
+                [
+                    -86.91,
+                    32.34
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061545-3447658",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4061545-3447658",
+        "areaDesc": "Dallas, AL",
+        "geocode": {
+            "UGC": [
+                "ALC047"
+            ],
+            "SAME": [
+                "001047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060743-3447004",
+                "identifier": "NWS-IDP-PROD-4060743-3447004",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T19:29:00-06:00"
+            }
+        ],
+        "sent": "2020-02-15T09:36:00-06:00",
+        "effective": "2020-02-15T09:36:00-06:00",
+        "onset": "2020-02-15T09:36:00-06:00",
+        "expires": "2020-02-15T21:36:00-06:00",
+        "ends": "2020-02-19T16:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 15 at 9:36AM CST until February 19 at 4:00PM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Alabama River At Selma...\n\n.Heavy rainfall earlier this week is resulting in high water levels\nalong the Alabama River at Selma and a flood warning remains in\neffect.\n\nThe Flood Warning continues for\nThe Alabama River At Selma.\n* until Wednesday afternoon...or until the Warning is cancelled.\n* AT 9:00 AM Saturday the stage was 47.5 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 45 feet.\n* Forecast...The river will continue rising to near 47.6 feet by this\nevening. The river will fall below flood stage early Wednesday\nmorning.\n* Impact...At 48 feet...Flooding occurs inland to between Johnson\nStreet and Old Montgomery Road in Selmont. Portions of Bloch Park\nand the Selma Country Club begin to flood.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Sunday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0041.000000T0000Z-200219T2200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-19T16:00:00-06:00"
+            ]
+        }
+    }
+}
