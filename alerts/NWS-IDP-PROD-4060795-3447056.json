@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060795-3447056",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.74,
+                    38.6
+                ],
+                [
+                    -82.47999999999999,
+                    38.46
+                ],
+                [
+                    -82.64999999999999,
+                    38.43
+                ],
+                [
+                    -82.86999999999999,
+                    38.57
+                ],
+                [
+                    -82.74,
+                    38.6
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060795-3447056",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060795-3447056",
+        "areaDesc": "Greenup, KY; Lawrence, OH; Boyd, KY",
+        "geocode": {
+            "UGC": [
+                "KYC089",
+                "OHC087",
+                "KYC019"
+            ],
+            "SAME": [
+                "021089",
+                "039087",
+                "021019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC089",
+            "https://api.weather.gov/zones/county/OHC087",
+            "https://api.weather.gov/zones/county/KYC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060716-3446980",
+                "identifier": "NWS-IDP-PROD-4060716-3446980",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T20:13:00-05:00"
+            }
+        ],
+        "sent": "2020-02-14T21:01:00-05:00",
+        "effective": "2020-02-14T21:01:00-05:00",
+        "onset": "2020-02-14T21:01:00-05:00",
+        "expires": "2020-02-15T09:15:00-05:00",
+        "ends": "2020-02-16T12:20:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston WV",
+        "headline": "Flood Warning issued February 14 at 9:01PM EST until February 16 at 12:20PM EST by NWS Charleston WV",
+        "description": "...The Flood Warning is extended for the following rivers in Ohio...\nKentucky...\n\nOhio River At Ashland affecting Greenup, Boyd and Lawrence\nCounties.\n\nFor the Ohio River...Minor flooding is forecast.\n\nThe Flood Warning continues for\nthe Ohio River At Ashland.\n* Until Sunday afternoon.\n* At 8:00 PM EST Friday the stage was 54.6 feet.\n* Flood stage is 52.0 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* Forecast...The river is currently in the process of cresting. It\nshould begin to slowly fall late tonight and fall below flood\nstage Sunday morning.\n* Impact...At 55.5 feet, Route 3 is flooded at Catlettsburg.",
+        "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nThis warning will be in effect until the river falls below its flood\nstage.\n\nCaution is urged when walking near riverbanks.\n\nTurn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nAdditional information is available at www.weather.gov/rlx.\n\nThe next statement is expected to be issued early Saturday morning.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Warning is now in effect until early Sunday afternoon"
+            ],
+            "VTEC": [
+                "/O.EXT.KRLX.FL.W.0003.000000T0000Z-200216T1720Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RLXFLSRLX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T12:20:00-05:00"
+            ]
+        }
+    }
+}
