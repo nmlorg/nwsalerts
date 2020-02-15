@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060720",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -113.89,
+                    46.94
+                ],
+                [
+                    -112.96,
+                    46.65
+                ],
+                [
+                    -113.16999999999999,
+                    46.55
+                ],
+                [
+                    -114.21999999999998,
+                    46.9
+                ],
+                [
+                    -113.89,
+                    46.94
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060720",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060720",
+        "areaDesc": "Missoula/Bitterroot Valleys; Butte/Blackfoot Region; Potomac/Seeley Lake Region; Bitterroot/Sapphire Mountains; Lower Clark Fork Region",
+        "geocode": {
+            "UGC": [
+                "MTZ005",
+                "MTZ007",
+                "MTZ043",
+                "MTZ006",
+                "MTZ004"
+            ],
+            "SAME": [
+                "030063",
+                "030081",
+                "030023",
+                "030039",
+                "030077",
+                "030093",
+                "030047",
+                "030061",
+                "030089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MTZ005",
+            "https://api.weather.gov/zones/forecast/MTZ007",
+            "https://api.weather.gov/zones/forecast/MTZ043",
+            "https://api.weather.gov/zones/forecast/MTZ006",
+            "https://api.weather.gov/zones/forecast/MTZ004"
+        ],
+        "references": [],
+        "sent": "2020-02-14T18:17:00-07:00",
+        "effective": "2020-02-14T18:17:00-07:00",
+        "onset": "2020-02-14T18:17:00-07:00",
+        "expires": "2020-02-14T19:00:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Missoula MT",
+        "headline": "Special Weather Statement issued February 14 at 6:17PM MST by NWS Missoula MT",
+        "description": "At 615 PM MST, Doppler radar was tracking intense snow showers along\na line extending from near Wye to near Drummond. Movement was east at\n20 mph.\n\nVisibility one-half mile or less will be possible. With temperatures\nhovering near freezing, slick spots may develop.  Expect changeable\nconditions over short distances.\n\nLocations impacted include...\nMissoula, Drummond, Bonner-West Riverside, East Missoula, Nimrod, New\nChicago, Bearmouth, Hall, Clinton and Turah.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-14T18:15:00.000-07:00...storm...277DEG...21KT...46.92,-114.09 46.65,-113.05"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHEASTERN MISSOULA... NORTHEASTERN GRANITE AND SOUTHERN POWELL COUNTIES UNTIL 700 PM MST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MSOSPSMSO"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
