@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061108-3447300",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.35,
+                    38.4799999
+                ],
+                [
+                    -82.2099999,
+                    38.46
+                ],
+                [
+                    -82.54,
+                    38.34
+                ],
+                [
+                    -82.65,
+                    38.43000000000001
+                ],
+                [
+                    -82.35,
+                    38.4799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061108-3447300",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4061108-3447300",
+        "areaDesc": "Wayne, WV; Cabell, WV; Lawrence, OH; Boyd, KY",
+        "geocode": {
+            "UGC": [
+                "WVC099",
+                "WVC011",
+                "OHC087",
+                "KYC019"
+            ],
+            "SAME": [
+                "054099",
+                "054011",
+                "039087",
+                "021019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/WVC099",
+            "https://api.weather.gov/zones/county/WVC011",
+            "https://api.weather.gov/zones/county/OHC087",
+            "https://api.weather.gov/zones/county/KYC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060800-3447061",
+                "identifier": "NWS-IDP-PROD-4060800-3447061",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T21:03:00-05:00"
+            }
+        ],
+        "sent": "2020-02-15T03:29:00-05:00",
+        "effective": "2020-02-15T03:29:00-05:00",
+        "onset": "2020-02-15T03:29:00-05:00",
+        "expires": "2020-02-15T15:30:00-05:00",
+        "ends": "2020-02-15T21:25:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston WV",
+        "headline": "Flood Warning issued February 15 at 3:29AM EST until February 15 at 9:25PM EST by NWS Charleston WV",
+        "description": "...The Flood Warning continues for the following rivers in Ohio...\nKentucky...West Virginia...\n\nOhio River At Huntington affecting Wayne, Cabell, Boyd and\nLawrence Counties.\n\nFor the Ohio River...Minor flooding is forecast.\n\nThe Flood Warning continues for\nthe Ohio River At Huntington.\n* Until this evening.\n* At 3:00 AM EST Saturday the stage was 50.2 feet.\n* Flood stage is 50.0 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* Recent Activity...The maximum river stage in the 24 hours ending\nat 3:00 AM EST Saturday was 50.4 feet.\n* Forecast...The river is expected to rise to a crest of 50.4 feet\nthis morning. It will then fall below flood stage late this\nafternoon.\n* Impact...At 50.0 feet, West Virginia Route 2 at Glenwood is\nflooded. Many low-lying sections near the river are flooded due to\nbackwater.\n* Flood History...This crest compares to a previous crest of 50.4\nfeet on 07/31/1994.",
+        "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nThis warning will be in effect until the river falls below its flood\nstage.\n\nCaution is urged when walking near riverbanks.\n\nTurn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nAdditional information is available at www.weather.gov/rlx.\n\nThe next statement will be issued this afternoon at 330 PM EST.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "The Flood Warning remains in effect"
+            ],
+            "VTEC": [
+                "/O.CON.KRLX.FL.W.0004.000000T0000Z-200216T0225Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "RLXFLSRLX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T21:25:00-05:00"
+            ]
+        }
+    }
+}
