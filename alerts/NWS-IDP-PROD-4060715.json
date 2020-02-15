@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060715",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.18,
+                    26.46
+                ],
+                [
+                    -80.04,
+                    26.48
+                ],
+                [
+                    -80,
+                    26.3
+                ],
+                [
+                    -80.15,
+                    26.3299999
+                ],
+                [
+                    -80.18,
+                    26.46
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060715",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060715",
+        "areaDesc": "Coastal Broward County; Coastal Palm Beach County; Metro Palm Beach County; Metro Broward County",
+        "geocode": {
+            "UGC": [
+                "FLZ172",
+                "FLZ168",
+                "FLZ068",
+                "FLZ072"
+            ],
+            "SAME": [
+                "012011",
+                "012099"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/FLZ172",
+            "https://api.weather.gov/zones/forecast/FLZ168",
+            "https://api.weather.gov/zones/forecast/FLZ068",
+            "https://api.weather.gov/zones/forecast/FLZ072"
+        ],
+        "references": [],
+        "sent": "2020-02-14T20:11:00-05:00",
+        "effective": "2020-02-14T20:11:00-05:00",
+        "onset": "2020-02-14T20:11:00-05:00",
+        "expires": "2020-02-14T20:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Miami FL",
+        "headline": "Special Weather Statement issued February 14 at 8:11PM EST by NWS Miami FL",
+        "description": "* At 811 PM EST, National Weather Service meteorologists were\ntracking a strong shower over Highland Beach, moving southeast at 5 to 10\nmph.\n\n* Funnel clouds possible with this strong shower.\n\n* Locations impacted include...\nBoca Raton, Deerfield Beach, Delray Beach, Highland Beach, Boca Del\nMar, Kings Point, Boca Pointe, Gulf Stream, Morikami Park, Fau\nSouth Campus, Boca West and Villages Of Oriole.",
+        "instruction": "This activity was also developing in an environment favorable for the\nformation of funnel clouds. Stay tuned to NOAA weather radio and\nlocal media for additional updates and possible warnings.\n\nTo report severe weather, contact your nearest law enforcement\nagency. You can also share your report with NWS Miami on Facebook and\nTwitter.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-14T20:11:00.000-05:00...storm...335DEG...9KT...26.4,-80.11"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHEASTERN PALM BEACH COUNTY UNTIL 845 PM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MFLSPSMFL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
