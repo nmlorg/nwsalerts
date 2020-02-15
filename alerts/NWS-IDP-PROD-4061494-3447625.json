@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061494-3447625",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.85,
+                    37.69
+                ],
+                [
+                    -83.66,
+                    37.57
+                ],
+                [
+                    -83.72999999999999,
+                    37.5
+                ],
+                [
+                    -83.91999999999999,
+                    37.63
+                ],
+                [
+                    -83.85,
+                    37.69
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061494-3447625",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4061494-3447625",
+        "areaDesc": "Lee, KY",
+        "geocode": {
+            "UGC": [
+                "KYC129"
+            ],
+            "SAME": [
+                "021129"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC129"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061265-3447418",
+                "identifier": "NWS-IDP-PROD-4061265-3447418",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T05:37:00-05:00"
+            }
+        ],
+        "sent": "2020-02-15T10:04:00-05:00",
+        "effective": "2020-02-15T10:04:00-05:00",
+        "onset": "2020-02-15T10:04:00-05:00",
+        "expires": "2020-02-15T22:03:00-05:00",
+        "ends": "2020-02-16T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Advisory issued February 15 at 10:04AM EST until February 16 at 1:00PM EST by NWS Jackson KY",
+        "description": "...The Flood Advisory continues for the following rivers in\nKentucky...\n\nThe Kentucky River at Heidelberg\n\nThe Flood Advisory continues for\nThe Kentucky River at Heidelberg.\n* until Sunday afternoon.\n* at  8:45 AM Saturday the stage was 17.7 feet.\n* Flood stage is 20.0 feet.\n* Forecast...The river will fall to near 17.1 feet this afternoon.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 8 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJKL.FL.Y.0022.000000T0000Z-200216T1800Z/"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T13:00:00-05:00"
+            ]
+        }
+    }
+}
