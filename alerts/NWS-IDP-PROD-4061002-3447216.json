@@ -1,0 +1,116 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061002-3447216",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.68,
+                    38.24
+                ],
+                [
+                    -86.02000000000001,
+                    37.9099999
+                ],
+                [
+                    -86.36000000000001,
+                    38.09
+                ],
+                [
+                    -86.36000000000001,
+                    38.220000000000006
+                ],
+                [
+                    -86.05000000000001,
+                    38.06000000000001
+                ],
+                [
+                    -85.80000000000001,
+                    38.31000000000001
+                ],
+                [
+                    -85.68,
+                    38.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061002-3447216",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4061002-3447216",
+        "areaDesc": "Floyd, IN; Hardin, KY; Jefferson, KY; Clark, IN; Harrison, IN; Meade, KY",
+        "geocode": {
+            "UGC": [
+                "INC043",
+                "KYC093",
+                "KYC111",
+                "INC019",
+                "INC061",
+                "KYC163"
+            ],
+            "SAME": [
+                "018043",
+                "021093",
+                "021111",
+                "018019",
+                "018061",
+                "021163"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC043",
+            "https://api.weather.gov/zones/county/KYC093",
+            "https://api.weather.gov/zones/county/KYC111",
+            "https://api.weather.gov/zones/county/INC019",
+            "https://api.weather.gov/zones/county/INC061",
+            "https://api.weather.gov/zones/county/KYC163"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060040-3446425",
+                "identifier": "NWS-IDP-PROD-4060040-3446425",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T10:55:00-05:00"
+            }
+        ],
+        "sent": "2020-02-14T23:33:00-05:00",
+        "effective": "2020-02-14T23:33:00-05:00",
+        "onset": "2020-02-14T23:33:00-05:00",
+        "expires": "2020-02-15T17:33:00-05:00",
+        "ends": "2020-02-19T12:08:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 14 at 11:33PM EST until February 19 at 12:08PM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nKentucky River at Lockport Lock\nRolling Fork River near Boston\n\naffecting the following counties in Kentucky...Carroll...Hardin...\nHenry...Nelson...Owen.\n\n...The Flood Warning continues for the following rivers in Indiana...\nKentucky...\n\nOhio River at McAlpine Upper\nOhio River at McAlpine Lower\nOhio River at Cannelton Lock\nOhio River at Tell City\nGreen River at Woodbury\nGreen River at Rochester\n\naffecting the following counties in Indiana...Clark...Crawford...\nFloyd...Harrison...Perry and in Kentucky...Breckinridge...Butler...\nHancock...Hardin...Jefferson...Meade...Muhlenberg...Ohio...Oldham...\nWarren.\n\nThe Flood Warning continues for\nthe Ohio River at McAlpine Lower.\n* until Wednesday afternoon.\n* At 11:00 PM Friday the stage was 54.9 feet.\n* Flood stage is 55.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by tonight and continue to rise\nto near 57.6 feet by early Monday morning. The river will fall\nbelow flood stage by Wednesday morning.\n* Impact...At 58.0 feet...IN 111 floods upstream of Bridgeport.\n* Flood History...This crest compares to a previous crest of 57.6\nfeet on Mar 21 2008.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLMK.FL.W.0018.000000T0000Z-200219T1708Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-19T12:08:00-05:00"
+            ]
+        }
+    }
+}

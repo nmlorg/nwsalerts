@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061005-3447219",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.65,
+                    37.54
+                ],
+                [
+                    -85.75,
+                    37.76
+                ],
+                [
+                    -85.89,
+                    37.9
+                ],
+                [
+                    -85.76,
+                    37.94
+                ],
+                [
+                    -85.61,
+                    37.809999999999995
+                ],
+                [
+                    -85.52,
+                    37.58
+                ],
+                [
+                    -85.65,
+                    37.54
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061005-3447219",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4061005-3447219",
+        "areaDesc": "Nelson, KY; Hardin, KY",
+        "geocode": {
+            "UGC": [
+                "KYC179",
+                "KYC093"
+            ],
+            "SAME": [
+                "021179",
+                "021093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC179",
+            "https://api.weather.gov/zones/county/KYC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060048-3446433",
+                "identifier": "NWS-IDP-PROD-4060048-3446433",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T10:59:00-05:00"
+            }
+        ],
+        "sent": "2020-02-14T23:33:00-05:00",
+        "effective": "2020-02-14T23:33:00-05:00",
+        "onset": "2020-02-14T23:33:00-05:00",
+        "expires": "2020-02-15T14:30:00-05:00",
+        "ends": "2020-02-15T14:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 14 at 11:33PM EST until February 15 at 2:30PM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nKentucky River at Lockport Lock\nRolling Fork River near Boston\n\naffecting the following counties in Kentucky...Carroll...Hardin...\nHenry...Nelson...Owen.\n\n...The Flood Warning continues for the following rivers in Indiana...\nKentucky...\n\nOhio River at McAlpine Upper\nOhio River at McAlpine Lower\nOhio River at Cannelton Lock\nOhio River at Tell City\nGreen River at Woodbury\nGreen River at Rochester\n\naffecting the following counties in Indiana...Clark...Crawford...\nFloyd...Harrison...Perry and in Kentucky...Breckinridge...Butler...\nHancock...Hardin...Jefferson...Meade...Muhlenberg...Ohio...Oldham...\nWarren.\n\nThe Flood Warning continues for\nthe Rolling Fork River near Boston.\n* until Saturday afternoon.\n* At 10:30 PM Friday the stage was 36.4 feet.\n* Flood stage is 35.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nSaturday morning.\n* Impact...At 35.0 feet...Agricultural bottomland is covered.\n* Flood History...This crest compares to a previous crest of 36.2\nfeet on Jan 25 2006.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLMK.FL.W.0010.000000T0000Z-200215T1930Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T14:30:00-05:00"
+            ]
+        }
+    }
+}
