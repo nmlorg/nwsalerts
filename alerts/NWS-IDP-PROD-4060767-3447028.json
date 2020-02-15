@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060767-3447028",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.67,
+                    30.78
+                ],
+                [
+                    -92.77,
+                    30.580000000000002
+                ],
+                [
+                    -92.89,
+                    30.580000000000002
+                ],
+                [
+                    -92.83,
+                    30.71
+                ],
+                [
+                    -92.73,
+                    30.77
+                ],
+                [
+                    -92.67,
+                    30.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060767-3447028",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060767-3447028",
+        "areaDesc": "Allen, LA",
+        "geocode": {
+            "UGC": [
+                "LAC003"
+            ],
+            "SAME": [
+                "022003"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC003"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060158-3446520",
+                "identifier": "NWS-IDP-PROD-4060158-3446520",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T11:08:00-06:00"
+            }
+        ],
+        "sent": "2020-02-14T19:38:00-06:00",
+        "effective": "2020-02-14T19:38:00-06:00",
+        "onset": "2020-02-15T12:00:00-06:00",
+        "expires": "2020-02-15T19:37:00-06:00",
+        "ends": "2020-02-16T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued February 14 at 7:38PM CST until February 16 at 12:00PM CST by NWS Lake Charles LA",
+        "description": "...The Flood Warning continues for the following rivers in\nLouisiana...\n\nCalcasieu River Near Glenmora\nCalcasieu River Near Oberlin\n\n...The Flood Warning continues for the following rivers in\nLouisiana..\nAtchafalaya River At Morgan City",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLCH.FL.W.0014.200215T1800Z-200216T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHFLSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T12:00:00-06:00"
+            ]
+        }
+    }
+}
