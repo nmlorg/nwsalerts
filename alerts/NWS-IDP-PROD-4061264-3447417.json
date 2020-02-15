@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061264-3447417",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.05,
+                    37.88
+                ],
+                [
+                    -83.67,
+                    37.88
+                ],
+                [
+                    -83.4,
+                    37.830000000000005
+                ],
+                [
+                    -83.43,
+                    37.75000000000001
+                ],
+                [
+                    -83.74000000000001,
+                    37.800000000000004
+                ],
+                [
+                    -83.97000000000001,
+                    37.800000000000004
+                ],
+                [
+                    -84.05,
+                    37.88
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061264-3447417",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4061264-3447417",
+        "areaDesc": "Estill, KY; Powell, KY",
+        "geocode": {
+            "UGC": [
+                "KYC065",
+                "KYC197"
+            ],
+            "SAME": [
+                "021065",
+                "021197"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC065",
+            "https://api.weather.gov/zones/county/KYC197"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060604-3446888",
+                "identifier": "NWS-IDP-PROD-4060604-3446888",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T18:35:00-05:00"
+            }
+        ],
+        "sent": "2020-02-15T05:37:00-05:00",
+        "effective": "2020-02-15T05:37:00-05:00",
+        "onset": "2020-02-15T05:37:00-05:00",
+        "expires": "2020-02-15T17:36:00-05:00",
+        "ends": "2020-02-15T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Advisory issued February 15 at 5:37AM EST until February 15 at 7:00PM EST by NWS Jackson KY",
+        "description": "...The Flood Advisory continues for the following rivers in\nKentucky...\n\nThe Kentucky River at Heidelberg\nThe Red River at Clay City\n\nThe Flood Advisory continues for\nThe Red River at Clay City\n* Until this evening.\n* At 4 AM Saturday the stage was 15.0 feet.\n* Bankfull stage is 12.0 feet.\n* Flood stage is 17.0 feet.\n* Forecast...The river is receding and will fall below 13.0 feet by\nearly this evening.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by 1 PM EST this afternoon.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJKL.FL.Y.0023.000000T0000Z-200216T0000Z/"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T19:00:00-05:00"
+            ]
+        }
+    }
+}
