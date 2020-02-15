@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060697-3446967",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.98,
+                    34.72
+                ],
+                [
+                    -77.86,
+                    34.72
+                ],
+                [
+                    -77.76,
+                    34.6
+                ],
+                [
+                    -77.79,
+                    34.45
+                ],
+                [
+                    -77.88000000000001,
+                    34.440000000000005
+                ],
+                [
+                    -77.88000000000001,
+                    34.57000000000001
+                ],
+                [
+                    -77.98,
+                    34.72
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060697-3446967",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060697-3446967",
+        "areaDesc": "Pender, NC",
+        "geocode": {
+            "UGC": [
+                "NCC141"
+            ],
+            "SAME": [
+                "037141"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC141"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4059875-3446268",
+                "identifier": "NWS-IDP-PROD-4059875-3446268",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T09:25:00-05:00"
+            }
+        ],
+        "sent": "2020-02-14T20:00:00-05:00",
+        "effective": "2020-02-14T20:00:00-05:00",
+        "onset": "2020-02-14T20:00:00-05:00",
+        "expires": "2020-02-15T11:59:00-05:00",
+        "ends": "2020-02-15T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued February 14 at 8:00PM EST until February 15 at 1:00PM EST by NWS Wilmington NC",
+        "description": "...The Flood Warning is cancelled for the following rivers...\n\nLynches At Effingham affecting Florence County SC\n\n...The Flood Warning continues for the following rivers...\n\nCape Fear At William O Huske Lock And Dam 3 affecting Bladen County NC\nNortheast Cape Fear Near Burgaw affecting Pender County NC\nLumber Near Lumberton affecting Robeson County NC\nLittle Pee Dee At Galivants Ferry affecting Dillon...Horry and Marion Counties\nSC\nWaccamaw At Conway affecting Horry County SC\nGreat Pee Dee At Pee Dee affecting Marion and Florence Counties SC\n\nThe Flood Warning continues for\nThe Northeast Cape Fear Near Burgaw.\n* until Saturday afternoon.\n* At  7:30 PM Friday the stage was 10.20 feet.\n* Flood stage is 10.0 feet.\n* Forecast...The river will continue to fall and get below flood stage by just\nafter midnight tonight.\n* Impact...At 10.0 feet...Minor flooding of roads in the River Bend and River\nBirch subdivisions. Flooding of Croomsbridge Road begins west of the bridge\nover the river.",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILM.FL.W.0018.000000T0000Z-200215T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-15T13:00:00-05:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060700-3446970",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.51,
+                    32.82
+                ],
+                [
+                    -93.44000000000001,
+                    32.89
+                ],
+                [
+                    -93.45999990000001,
+                    32.72
+                ],
+                [
+                    -93.51000000000002,
+                    32.699999999999996
+                ],
+                [
+                    -93.51000000000002,
+                    32.769999999999996
+                ],
+                [
+                    -93.51,
+                    32.82
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060700-3446970",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4060700-3446970",
+        "areaDesc": "Bossier, LA; Webster, LA",
+        "geocode": {
+            "UGC": [
+                "LAC015",
+                "LAC119"
+            ],
+            "SAME": [
+                "022015",
+                "022119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC015",
+            "https://api.weather.gov/zones/county/LAC119"
+        ],
+        "references": [],
+        "sent": "2020-02-14T19:00:00-06:00",
+        "effective": "2020-02-14T19:00:00-06:00",
+        "onset": "2020-02-21T06:00:00-06:00",
+        "expires": "2020-02-15T18:59:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 14 at 7:00PM CST by NWS Shreveport LA",
+        "description": "The National Weather Service in Shreveport has issued a\n\n* FLOOD WARNING FOR\nthe Bodcau Bayou At Bayou Bodcau Lake.\n* from Friday February 21 until further notice...or until the warning\nis cancelled.\n* AT  6:00 PM Friday The stage was 168.6 feet.\n* Minor flooding is forecast.\n* Flood stage is 172.0 feet.\n* Forecast...The river is expected to rise to near flood stage Friday\nmorning.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KSHV.FL.W.0030.200221T1200Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLWSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
