@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061553-3447666",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.5699999,
+                    35.38
+                ],
+                [
+                    -82.5,
+                    35.370000000000005
+                ],
+                [
+                    -82.54,
+                    35.290000000000006
+                ],
+                [
+                    -82.67,
+                    35.21000000000001
+                ],
+                [
+                    -82.74,
+                    35.260000000000005
+                ],
+                [
+                    -82.61,
+                    35.34
+                ],
+                [
+                    -82.5699999,
+                    35.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061553-3447666",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4061553-3447666",
+        "areaDesc": "Transylvania, NC; Henderson, NC",
+        "geocode": {
+            "UGC": [
+                "NCC175",
+                "NCC089"
+            ],
+            "SAME": [
+                "037175",
+                "037089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC175",
+            "https://api.weather.gov/zones/county/NCC089"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061318-3447475",
+                "identifier": "NWS-IDP-PROD-4061318-3447475",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T06:14:00-05:00"
+            }
+        ],
+        "sent": "2020-02-15T10:47:00-05:00",
+        "effective": "2020-02-15T10:47:00-05:00",
+        "onset": "2020-02-15T10:47:00-05:00",
+        "expires": "2020-02-16T01:00:00-05:00",
+        "ends": "2020-02-16T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Flood Warning issued February 15 at 10:47AM EST until February 16 at 1:00AM EST by NWS Greenville-Spartanburg SC",
+        "description": "...The Flood Warning continues for the following rivers\nin North Carolina...\n\nFrench Broad River At Blantyre affecting Henderson and Transylvania\ncounties.\n\n.Runoff from previous heavy rain has worked its way further\ndownstream thus...the river will continue to fall slowly.\n\nThe Flood Warning continues for\nThe French Broad River At Blantyre.\n* until late tonight.\n* At 10:31 AM Saturday the stage was 16.0 feet.\n* Minor Flood Stage is 16.0 feet.\n* FORECAST: The river will continue to fall to below Minor Flood\nStage by this afternoon.\n* Impact...At 16.0 feet...Minor Flood Stage. Farmland flooding\ncontinues on both sides of the French Broad River. Floodwaters\nbegin to impact boat access areas at Grove Bridge Rd. and Crab\nCreek Rd.\n* Impact...At 15.0 feet...Action Stage.  Most farm fields are\nflooding between the French Broad River and Brevard Rd. and between\nthe French Broad River and Pleasant Grove Rd.",
+        "instruction": "The latest stages and forecasts for rivers can be found on our web\npage at http://water.weather.gov/ahps2/index.php?wfo=gsp",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGSP.FL.W.0017.000000T0000Z-200216T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GSPFLSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T01:00:00-05:00"
+            ]
+        }
+    }
+}
