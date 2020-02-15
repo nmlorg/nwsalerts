@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061532-3447645",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.09,
+                    32.39
+                ],
+                [
+                    -86.2,
+                    32.42
+                ],
+                [
+                    -86.26,
+                    32.49
+                ],
+                [
+                    -86.24000000000001,
+                    32.5
+                ],
+                [
+                    -86.16000000000001,
+                    32.44
+                ],
+                [
+                    -86.09000000000002,
+                    32.44
+                ],
+                [
+                    -86.09,
+                    32.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061532-3447645",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4061532-3447645",
+        "areaDesc": "Montgomery, AL; Elmore, AL",
+        "geocode": {
+            "UGC": [
+                "ALC101",
+                "ALC051"
+            ],
+            "SAME": [
+                "001101",
+                "001051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC101",
+            "https://api.weather.gov/zones/county/ALC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4060735-3446997",
+                "identifier": "NWS-IDP-PROD-4060735-3446997",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T19:21:00-06:00"
+            }
+        ],
+        "sent": "2020-02-15T09:24:00-06:00",
+        "effective": "2020-02-15T09:24:00-06:00",
+        "onset": "2020-02-15T09:24:00-06:00",
+        "expires": "2020-02-15T21:23:00-06:00",
+        "ends": "2020-02-20T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued February 15 at 9:24AM CST until February 20 at 6:00AM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Tallapoosa River At The\nTallapoosa Water Plant...\n\n.Heavy rainfall earlier this week is resulting in high water\nlevels along the Tallapoosa River at the Tallapoosa Water Plant and\na flood warning remains in effect.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Sunday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0045.000000T0000Z-200220T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-20T06:00:00-06:00"
+            ]
+        }
+    }
+}
