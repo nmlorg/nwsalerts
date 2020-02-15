@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061615-3447721",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.41,
+                    37.13
+                ],
+                [
+                    -86.64999999999999,
+                    37.1599999
+                ],
+                [
+                    -86.8,
+                    37.28
+                ],
+                [
+                    -86.78,
+                    37.39
+                ],
+                [
+                    -86.59,
+                    37.28
+                ],
+                [
+                    -86.41,
+                    37.24
+                ],
+                [
+                    -86.41,
+                    37.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061615-3447721",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4061615-3447721",
+        "areaDesc": "Butler, KY; Warren, KY",
+        "geocode": {
+            "UGC": [
+                "KYC031",
+                "KYC227"
+            ],
+            "SAME": [
+                "021031",
+                "021227"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC031",
+            "https://api.weather.gov/zones/county/KYC227"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061007-3447221",
+                "identifier": "NWS-IDP-PROD-4061007-3447221",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-14T23:33:00-05:00"
+            }
+        ],
+        "sent": "2020-02-15T11:16:00-05:00",
+        "effective": "2020-02-15T11:16:00-05:00",
+        "onset": "2020-02-15T11:16:00-05:00",
+        "expires": "2020-02-16T00:15:00-05:00",
+        "ends": "2020-02-16T22:25:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 15 at 11:16AM EST until February 16 at 10:25PM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nGreen River at Woodbury\nGreen River at Rochester\n\naffecting the following counties in Kentucky...Butler...Muhlenberg...\nOhio...Warren.\n\nThe Flood Warning continues for\nthe Green River at Woodbury.\n* until Sunday evening.\n* At 11:00 AM Saturday the stage was 31.0 feet.\n* Flood stage is 26.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nSunday afternoon.\n* Impact...At 32.0 feet...Low spots on North and South Church Streets\nin Woodbury flood.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLMK.FL.W.0008.000000T0000Z-200217T0325Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T22:25:00-05:00"
+            ]
+        }
+    }
+}
