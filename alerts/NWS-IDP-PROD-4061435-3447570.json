@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061435-3447570",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -76.98,
+                    36.7299999
+                ],
+                [
+                    -76.92,
+                    36.86
+                ],
+                [
+                    -76.85000000000001,
+                    36.89
+                ],
+                [
+                    -76.80000000000001,
+                    36.86
+                ],
+                [
+                    -76.87,
+                    36.7
+                ],
+                [
+                    -76.85000000000001,
+                    36.61
+                ],
+                [
+                    -77.00000000000001,
+                    36.61
+                ],
+                [
+                    -76.98,
+                    36.7299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061435-3447570",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4061435-3447570",
+        "areaDesc": "Isle of Wight, VA; Southampton, VA; City of Franklin, VA; City of Suffolk, VA",
+        "geocode": {
+            "UGC": [
+                "VAC093",
+                "VAC175",
+                "VAC620",
+                "VAC800"
+            ],
+            "SAME": [
+                "051093",
+                "051175",
+                "051620",
+                "051800"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/VAC093",
+            "https://api.weather.gov/zones/county/VAC175",
+            "https://api.weather.gov/zones/county/VAC620",
+            "https://api.weather.gov/zones/county/VAC800"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061160-3447337",
+                "identifier": "NWS-IDP-PROD-4061160-3447337",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T04:00:00-05:00"
+            }
+        ],
+        "sent": "2020-02-15T09:28:00-05:00",
+        "effective": "2020-02-15T09:28:00-05:00",
+        "onset": "2020-02-15T09:28:00-05:00",
+        "expires": "2020-02-15T21:28:00-05:00",
+        "ends": "2020-02-17T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wakefield VA",
+        "headline": "Flood Warning issued February 15 at 9:28AM EST until February 17 at 7:00PM EST by NWS Wakefield VA",
+        "description": "...The Flood Warning continues for the following rivers in\nVirginia...\n\nNottoway River At Sebrell affecting Southampton County\n\n...The Flood Warning continues for the following rivers in Virginia..\n\nBlackwater River Above Franklin affecting City of Franklin...City\nof Suffolk...Isle of Wight and Southampton Counties\n\n\nFor the Chowan Basin...including Sebrell...Franklin...Minor flooding\nis occurring and is expected to continue.\n\nThe Flood Warning continues for...\nThe Blackwater River Above Franklin\n* until Monday evening...or until the warning is cancelled.\n* At 08:45 AM Saturday the stage was 11.1 feet.\n* Minor flooding is occurring and Minor flooding is forecast to\ncontinue.\n* Flood stage is 10.8 feet.\n* Forecast...The river will continue rising to near 11.3 feet by\nthis afternoon. The river will fall below flood stage by Monday\nafternoon.\n* At 10.8 feet...A portion of Barretts Landing River Walk is\ninnundated in Downtown Franklin area.\nThis river level is comparable to a previous crest of 11.0 feet on\nJun 8 2016.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KAKQ.FL.W.0011.000000T0000Z-200218T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "AKQFLSAKQ"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T19:00:00-05:00"
+            ]
+        }
+    }
+}
