@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061409-3447553",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.77,
+                    38.62
+                ],
+                [
+                    -83.92,
+                    38.739999999999995
+                ],
+                [
+                    -83.89,
+                    38.8
+                ],
+                [
+                    -83.74,
+                    38.709999999999994
+                ],
+                [
+                    -83.67999999999999,
+                    38.709999999999994
+                ],
+                [
+                    -83.61999999999999,
+                    38.60999999999999
+                ],
+                [
+                    -83.77,
+                    38.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061409-3447553",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4061409-3447553",
+        "areaDesc": "Brown, OH; Lewis, KY; Bracken, KY; Mason, KY; Adams, OH",
+        "geocode": {
+            "UGC": [
+                "OHC015",
+                "KYC135",
+                "KYC023",
+                "KYC161",
+                "OHC001"
+            ],
+            "SAME": [
+                "039015",
+                "021135",
+                "021023",
+                "021161",
+                "039001"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/OHC015",
+            "https://api.weather.gov/zones/county/KYC135",
+            "https://api.weather.gov/zones/county/KYC023",
+            "https://api.weather.gov/zones/county/KYC161",
+            "https://api.weather.gov/zones/county/OHC001"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061164-3447341",
+                "identifier": "NWS-IDP-PROD-4061164-3447341",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T04:01:00-05:00"
+            }
+        ],
+        "sent": "2020-02-15T09:08:00-05:00",
+        "effective": "2020-02-15T09:08:00-05:00",
+        "onset": "2020-02-15T09:08:00-05:00",
+        "expires": "2020-02-15T17:08:00-05:00",
+        "ends": "2020-02-17T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Flood Warning issued February 15 at 9:08AM EST until February 17 at 1:00AM EST by NWS Wilmington OH",
+        "description": "...The Flood Warning continues for the following rivers...\n\nOhio River at Portsmouth\nOhio River at Maysville\nOhio River at Meldahl Dam\nOhio River at Cincinnati\n\nThe Flood Warning continues for\nThe Ohio River at Maysville\n* until late Sunday night.\n* At 8 AM the stage was 52.1 feet.\n* Flood stage is 50 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* The river will continue to fall to below flood stage by Sunday\nevening.\n* At stages near 52.0 feet, Backwater flooding traveling up Red Oak\nCreek near Ripley, Ohio results in flooding along and east of Cherry\nStreet, with water also approaching the Ripley Post Office.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KILN.FL.W.0005.000000T0000Z-200217T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNFLSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T01:00:00-05:00"
+            ]
+        }
+    }
+}
