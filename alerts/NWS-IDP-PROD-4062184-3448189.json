@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062184-3448189",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.11,
+                    37.78
+                ],
+                [
+                    -87.9599999,
+                    37.92
+                ],
+                [
+                    -87.84,
+                    37.800000000000004
+                ],
+                [
+                    -88,
+                    37.7299999
+                ],
+                [
+                    -88.11,
+                    37.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062184-3448189",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062184-3448189",
+        "areaDesc": "Posey, IN; Union, KY",
+        "geocode": {
+            "UGC": [
+                "INC129",
+                "KYC225"
+            ],
+            "SAME": [
+                "018129",
+                "021225"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC129",
+            "https://api.weather.gov/zones/county/KYC225"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061717-3447818",
+                "identifier": "NWS-IDP-PROD-4061717-3447818",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T11:26:00-06:00"
+            }
+        ],
+        "sent": "2020-02-15T19:33:00-06:00",
+        "effective": "2020-02-15T19:33:00-06:00",
+        "onset": "2020-02-15T19:33:00-06:00",
+        "expires": "2020-02-16T23:33:00-06:00",
+        "ends": "2020-02-24T23:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued February 15 at 7:33PM CST until February 24 at 11:15PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in Indiana...\nKentucky...Illinois...\n\nOhio River at Owensboro...Newburgh Dam...Evansville...\nMount Vernon...J.T. Myers Dam...Shawneetown...and Golconda\n\n.The Ohio River from Owensboro down to Golconda continues to rise.\nAll seven of these points are expected to crest in the minor flood category\non Wednesday or Thursday of next week. The only exception is Shawneetown,\nwhich is forecast to reach the moderate flood category on Tuesday.\nThey will start to fall slowly late in the week.\n\nThe Flood Warning continues for\nthe Ohio River at J.T. Myers Dam\n* until Monday February 24.\n* At  7:00 PM Saturday the stage was 41.0 feet.\n* Flood Stage is 37.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 44.9 feet by\nThursday evening. The river will fall below flood stage Monday\nafternoon February 24.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0027.000000T0000Z-200225T0515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-24T23:15:00-06:00"
+            ]
+        }
+    }
+}
