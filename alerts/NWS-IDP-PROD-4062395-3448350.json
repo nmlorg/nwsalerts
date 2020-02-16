@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062395-3448350",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.8,
+                    37.28
+                ],
+                [
+                    -86.89999999999999,
+                    37.18
+                ],
+                [
+                    -86.96999999999998,
+                    37.27
+                ],
+                [
+                    -86.77999999999999,
+                    37.39
+                ],
+                [
+                    -86.8,
+                    37.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062395-3448350",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062395-3448350",
+        "areaDesc": "Butler, KY; Muhlenberg, KY; Ohio, KY",
+        "geocode": {
+            "UGC": [
+                "KYC031",
+                "KYC177",
+                "KYC183"
+            ],
+            "SAME": [
+                "021031",
+                "021177",
+                "021183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC031",
+            "https://api.weather.gov/zones/county/KYC177",
+            "https://api.weather.gov/zones/county/KYC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061614-3447720",
+                "identifier": "NWS-IDP-PROD-4061614-3447720",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T11:16:00-05:00"
+            }
+        ],
+        "sent": "2020-02-16T00:14:00-05:00",
+        "effective": "2020-02-16T00:14:00-05:00",
+        "onset": "2020-02-16T00:14:00-05:00",
+        "expires": "2020-02-16T18:13:00-05:00",
+        "ends": "2020-02-18T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 16 at 12:14AM EST until February 18 at 7:00AM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nGreen River at Woodbury\nGreen River at Rochester\n\naffecting the following counties in Kentucky...Butler...Muhlenberg...\nOhio...Warren.\n\n...The Flood Warning continues for the following rivers in Indiana...\nKentucky...\n\nOhio River at McAlpine Upper\nOhio River at McAlpine Lower\nOhio River at Cannelton Lock\nOhio River at Tell City\nKentucky River at Lockport Lock\n\naffecting the following counties in Indiana...Clark...Crawford...\nFloyd...Harrison...Perry and in Kentucky...Breckinridge...Carroll...\nHancock...Hardin...Henry...Jefferson...Meade...Oldham...Owen.\n\nThe Flood Warning continues for\nthe Green River at Rochester.\n* until Tuesday morning.\n* At  6:00 AM Saturday the stage was 20.8 feet.\n* Flood stage is 17.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nearly Tuesday morning.\n* Flood History...This crest compares to a previous crest of 20.7\nfeet on Apr 21 2015.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLMK.FL.W.0009.000000T0000Z-200218T1200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-18T07:00:00-05:00"
+            ]
+        }
+    }
+}

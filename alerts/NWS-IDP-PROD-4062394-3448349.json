@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062394-3448349",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    38.58
+                ],
+                [
+                    -85.56,
+                    38.36
+                ],
+                [
+                    -85.68,
+                    38.24
+                ],
+                [
+                    -85.80000000000001,
+                    38.31
+                ],
+                [
+                    -85.64000000000001,
+                    38.440000000000005
+                ],
+                [
+                    -85.51000000000002,
+                    38.63
+                ],
+                [
+                    -85.39,
+                    38.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062394-3448349",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062394-3448349",
+        "areaDesc": "Floyd, IN; Oldham, KY; Jefferson, KY; Clark, IN",
+        "geocode": {
+            "UGC": [
+                "INC043",
+                "KYC185",
+                "KYC111",
+                "INC019"
+            ],
+            "SAME": [
+                "018043",
+                "021185",
+                "021111",
+                "018019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC043",
+            "https://api.weather.gov/zones/county/KYC185",
+            "https://api.weather.gov/zones/county/KYC111",
+            "https://api.weather.gov/zones/county/INC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061624-3447729",
+                "identifier": "NWS-IDP-PROD-4061624-3447729",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T11:24:00-05:00"
+            }
+        ],
+        "sent": "2020-02-16T00:14:00-05:00",
+        "effective": "2020-02-16T00:14:00-05:00",
+        "onset": "2020-02-16T00:14:00-05:00",
+        "expires": "2020-02-16T18:13:00-05:00",
+        "ends": "2020-02-19T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 16 at 12:14AM EST until February 19 at 1:00PM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in\nKentucky...\n\nGreen River at Woodbury\nGreen River at Rochester\n\naffecting the following counties in Kentucky...Butler...Muhlenberg...\nOhio...Warren.\n\n...The Flood Warning continues for the following rivers in Indiana...\nKentucky...\n\nOhio River at McAlpine Upper\nOhio River at McAlpine Lower\nOhio River at Cannelton Lock\nOhio River at Tell City\nKentucky River at Lockport Lock\n\naffecting the following counties in Indiana...Clark...Crawford...\nFloyd...Harrison...Perry and in Kentucky...Breckinridge...Carroll...\nHancock...Hardin...Henry...Jefferson...Meade...Oldham...Owen.\n\nThe Flood Warning continues for\nthe Ohio River at McAlpine Upper.\n* until Wednesday afternoon.\n* At 12:00 AM Sunday the stage was 25.4 feet.\n* Flood stage is 23.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 26.3 feet by\nafter midnight Monday. The river will fall below flood stage\nWednesday morning.\n* Impact...At 26.0 feet...Mockingbird Valley Rd. floods south of\nMellwood Ave.\n* Flood History...This crest compares to a previous crest of 26.1\nfeet on Mar 21 2008.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLMK.FL.W.0017.000000T0000Z-200219T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-19T13:00:00-05:00"
+            ]
+        }
+    }
+}
