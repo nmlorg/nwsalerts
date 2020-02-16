@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062816-3448658",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.4,
+                    35.6599999
+                ],
+                [
+                    -77.26,
+                    35.620000000000005
+                ],
+                [
+                    -77.26,
+                    35.59
+                ],
+                [
+                    -77.30000000000001,
+                    35.580000000000005
+                ],
+                [
+                    -77.36000000000001,
+                    35.59
+                ],
+                [
+                    -77.43,
+                    35.61000000000001
+                ],
+                [
+                    -77.4,
+                    35.6599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062816-3448658",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062816-3448658",
+        "areaDesc": "Pitt, NC",
+        "geocode": {
+            "UGC": [
+                "NCC147"
+            ],
+            "SAME": [
+                "037147"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC147"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062073-3448085",
+                "identifier": "NWS-IDP-PROD-4062073-3448085",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T19:35:00-05:00"
+            }
+        ],
+        "sent": "2020-02-16T08:58:00-05:00",
+        "effective": "2020-02-16T08:58:00-05:00",
+        "onset": "2020-02-16T08:58:00-05:00",
+        "expires": "2020-02-17T08:58:00-05:00",
+        "ends": "2020-02-18T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Newport/Morehead City NC",
+        "headline": "Flood Warning issued February 16 at 8:58AM EST until February 18 at 1:00AM EST by NWS Newport/Morehead City NC",
+        "description": "...The Flood Warning is extended for the following rivers in North\nCarolina...\n\nTar River At Greenville affecting Pitt County\n\nThe Flood Warning extended for\nThe Tar River At Greenville.\n* until late Monday night.\n* At  8 AM Sunday the stage was 15.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 13.0 feet.\n* Forecast...The river will continue to fall to below flood stage by\ntomorrow evening.\n* Impact...At 13.0 feet...Minor flooding of low lying areas adjacent\nto the river can be expected.",
+        "instruction": "Do not drive vehicles through flooded areas. Most flood deaths occur\nin automobiles when people try to drive through flooded areas.\n\nStay tuned to developments by listening to NOAA Weather Radio...local\nradio...media or cable TV.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMHX.FL.W.0039.000000T0000Z-200218T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MHXFLSMHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-18T01:00:00-05:00"
+            ]
+        }
+    }
+}
