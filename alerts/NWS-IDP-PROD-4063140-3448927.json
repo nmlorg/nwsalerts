@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063140-3448927",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88,
+                    37.57
+                ],
+                [
+                    -87.99,
+                    37.46
+                ],
+                [
+                    -88.39,
+                    37.35
+                ],
+                [
+                    -88.4,
+                    37.27
+                ],
+                [
+                    -88.56,
+                    37.28
+                ],
+                [
+                    -88.51,
+                    37.46
+                ],
+                [
+                    -88,
+                    37.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063140-3448927",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4063140-3448927",
+        "areaDesc": "Pope, IL; Hardin, IL; Crittenden, KY; Livingston, KY",
+        "geocode": {
+            "UGC": [
+                "ILC151",
+                "ILC069",
+                "KYC055",
+                "KYC139"
+            ],
+            "SAME": [
+                "017151",
+                "017069",
+                "021055",
+                "021139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC151",
+            "https://api.weather.gov/zones/county/ILC069",
+            "https://api.weather.gov/zones/county/KYC055",
+            "https://api.weather.gov/zones/county/KYC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062185-3448190",
+                "identifier": "NWS-IDP-PROD-4062185-3448190",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T19:33:00-06:00"
+            }
+        ],
+        "sent": "2020-02-16T12:08:00-06:00",
+        "effective": "2020-02-16T12:08:00-06:00",
+        "onset": "2020-02-16T12:08:00-06:00",
+        "expires": "2020-02-17T16:08:00-06:00",
+        "ends": "2020-02-25T06:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued February 16 at 12:08PM CST until February 25 at 6:45AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in Indiana...\nKentucky...Illinois...\n\nOhio River at Owensboro...Newburgh Dam...Evansville...\nMount Vernon...J.T. Myers Dam...Shawneetown...Golconda...\nSmithland Dam...Paducah...Olmsted Dam and Cairo\n\n.River levels will continue to rise along the lower Ohio River this\nweek. Minor to moderate flooding is occurring or forecast to develop\nat most locations except Olmsted Dam which is experiencing major\nflooding. Crests are expected to occur during the early to middle part\nof this week, before river levels slowly start to fall as we head into\nnext weekend.\n\nThe Flood Warning continues for\nthe Ohio River at Golconda.\n* until Tuesday February 25.\n* At 11:00 AM Sunday the stage was 44.6 feet.\n* Flood Stage is 40.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 45.7 feet by\nWednesday evening.\n* Impact...At 46.0 Feet...Flooding begins to affect Rosiclare\nIllinois.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0034.000000T0000Z-200225T1245Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-25T06:45:00-06:00"
+            ]
+        }
+    }
+}
