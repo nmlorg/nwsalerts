@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062906-3448723",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.39,
+                    38.58
+                ],
+                [
+                    -85.56,
+                    38.36
+                ],
+                [
+                    -85.68,
+                    38.24
+                ],
+                [
+                    -85.80000000000001,
+                    38.31
+                ],
+                [
+                    -85.64000000000001,
+                    38.440000000000005
+                ],
+                [
+                    -85.51000000000002,
+                    38.63
+                ],
+                [
+                    -85.39,
+                    38.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062906-3448723",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062906-3448723",
+        "areaDesc": "Floyd, IN; Oldham, KY; Jefferson, KY; Clark, IN",
+        "geocode": {
+            "UGC": [
+                "INC043",
+                "KYC185",
+                "KYC111",
+                "INC019"
+            ],
+            "SAME": [
+                "018043",
+                "021185",
+                "021111",
+                "018019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC043",
+            "https://api.weather.gov/zones/county/KYC185",
+            "https://api.weather.gov/zones/county/KYC111",
+            "https://api.weather.gov/zones/county/INC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062394-3448349",
+                "identifier": "NWS-IDP-PROD-4062394-3448349",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-16T00:14:00-05:00"
+            }
+        ],
+        "sent": "2020-02-16T10:08:00-05:00",
+        "effective": "2020-02-16T10:08:00-05:00",
+        "onset": "2020-02-16T10:08:00-05:00",
+        "expires": "2020-02-17T04:07:00-05:00",
+        "ends": "2020-02-19T05:48:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 16 at 10:08AM EST until February 19 at 5:48AM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in Indiana...\nKentucky...\n\nOhio River at McAlpine Upper\nOhio River at McAlpine Lower\nOhio River at Cannelton Lock\n\naffecting the following counties in Indiana...Clark...Crawford...\nFloyd...Harrison...Perry and in Kentucky...Breckinridge...Hancock...\nHardin...Jefferson...Meade...Oldham.\n\n...The Flood Warning continues for the following rivers in Indiana...\nKentucky...\n\nOhio River at Tell City\n\naffecting the following counties in Indiana...Perry and in\nKentucky...Hancock.\n\nThe Flood Warning continues for\nthe Ohio River at McAlpine Upper.\n* until late Tuesday night.\n* At  9:00 AM Sunday the stage was 25.6 feet.\n* Flood stage is 23.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 25.8 feet by this\nevening. The river will fall below flood stage Tuesday before\nmidnight.\n* Impact...At 26.0 feet...Mockingbird Valley Rd. floods south of\nMellwood Ave.\n* Flood History...This crest compares to a previous crest of 26.1\nfeet on Feb 27 2019.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLMK.FL.W.0017.000000T0000Z-200219T1048Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-19T05:48:00-05:00"
+            ]
+        }
+    }
+}
