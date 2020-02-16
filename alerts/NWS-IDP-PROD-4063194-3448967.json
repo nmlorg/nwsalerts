@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063194-3448967",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.08,
+                    30.84
+                ],
+                [
+                    -88.03999999999999,
+                    30.83
+                ],
+                [
+                    -88.05,
+                    30.819999999999997
+                ],
+                [
+                    -88.08,
+                    30.819999999999997
+                ],
+                [
+                    -88.08,
+                    30.84
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063194-3448967",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4063194-3448967",
+        "areaDesc": "Mobile, AL",
+        "geocode": {
+            "UGC": [
+                "ALC097"
+            ],
+            "SAME": [
+                "001097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC097"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063021-3448818",
+                "identifier": "NWS-IDP-PROD-4063021-3448818",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-16T10:36:00-06:00"
+            }
+        ],
+        "sent": "2020-02-16T13:30:00-06:00",
+        "effective": "2020-02-16T13:30:00-06:00",
+        "onset": "2020-02-16T13:26:00-06:00",
+        "expires": "2020-02-17T13:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued February 16 at 1:30PM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for...\n\nBayou Sara At Saraland affecting Mobile County.\n\n.Recent heavy rains have caused significant rises in Bayou Sara.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMOB.FL.W.0027.200216T1926Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
