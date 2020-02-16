@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062801-3448642",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.86,
+                    34.85
+                ],
+                [
+                    -78.75,
+                    34.85
+                ],
+                [
+                    -78.74,
+                    34.78
+                ],
+                [
+                    -78.64999999999999,
+                    34.72
+                ],
+                [
+                    -78.71999999999998,
+                    34.65
+                ],
+                [
+                    -78.81999989999998,
+                    34.72
+                ],
+                [
+                    -78.86,
+                    34.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062801-3448642",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062801-3448642",
+        "areaDesc": "Bladen, NC",
+        "geocode": {
+            "UGC": [
+                "NCC017"
+            ],
+            "SAME": [
+                "037017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NCC017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062256-3448255",
+                "identifier": "NWS-IDP-PROD-4062256-3448255",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T21:27:00-05:00"
+            }
+        ],
+        "sent": "2020-02-16T08:47:00-05:00",
+        "effective": "2020-02-16T08:47:00-05:00",
+        "onset": "2020-02-16T08:47:00-05:00",
+        "expires": "2020-02-17T00:47:00-05:00",
+        "ends": "2020-02-19T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued February 16 at 8:47AM EST until February 19 at 7:00PM EST by NWS Wilmington NC",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nCape Fear At William O Huske Lock And Dam 3 affecting Bladen County NC\nLittle Pee Dee At Galivants Ferry affecting Dillon...Horry and Marion Counties\nSC\n\n...The Flood Warning continues for the following rivers...\n\nLumber Near Lumberton affecting Robeson County NC\nWaccamaw At Conway affecting Horry County SC\nGreat Pee Dee At Pee Dee affecting Marion and Florence Counties SC",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning now in effect until Wednesday evening"
+            ],
+            "VTEC": [
+                "/O.EXT.KILM.FL.W.0011.000000T0000Z-200220T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-19T19:00:00-05:00"
+            ]
+        }
+    }
+}
