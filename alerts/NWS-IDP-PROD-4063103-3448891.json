@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063103-3448891",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.92,
+                    39.12
+                ],
+                [
+                    -86.94,
+                    39.08
+                ],
+                [
+                    -86.92999999999999,
+                    39
+                ],
+                [
+                    -86.97,
+                    39
+                ],
+                [
+                    -86.99,
+                    39.05
+                ],
+                [
+                    -86.9599999,
+                    39.129999999999995
+                ],
+                [
+                    -86.92,
+                    39.12
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063103-3448891",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4063103-3448891",
+        "areaDesc": "Daviess, IN; Knox, IN; Greene, IN",
+        "geocode": {
+            "UGC": [
+                "INC027",
+                "INC083",
+                "INC055"
+            ],
+            "SAME": [
+                "018027",
+                "018083",
+                "018055"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC027",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC055"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061692-3447793",
+                "identifier": "NWS-IDP-PROD-4061692-3447793",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T12:08:00-05:00"
+            }
+        ],
+        "sent": "2020-02-16T12:40:00-05:00",
+        "effective": "2020-02-16T12:40:00-05:00",
+        "onset": "2020-02-16T12:40:00-05:00",
+        "expires": "2020-02-17T12:39:00-05:00",
+        "ends": "2020-02-22T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued February 16 at 12:40PM EST until February 22 at 10:00PM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nEast Fork White River...Wabash River...White River...\n\n\n.The flood threat continues on the Wabash, White, and East Fork\nWhite Rivers as a result of recent precipitation events.\n\nFlooding on the lower reaches of the Wabash and White Rivers is\nexpected to last as late as Saturday, February 22.  On the East Fork\nWhite river flooding is expected to run through tomorrow morning.\n\nFlood impacts should mainly be confined to roads near the waterways,\nagricultural land, bottomlands, and levees.  Please see the specific\nimpacts listed for your location of interest below or by going to\nthe web page described below.\n\nThe Flood Warning continues for\nThe White River at Elliston.\n* until Saturday evening.\n* There have been no observations in the last 24 hours.\n* Flood stage is 18.0 feet.\n* Minor flooding is forecast.\n* Forecast...It is forecast to rise above flood stage late Wednesday\nnight, crest at 18.5 feet Thursday evening, and then fall below\nflood stage by Saturday morning.\n* At 18.0 feet...River approaching River Road north of CR 150 W in\nGreene County.  Some low lying agricultural land begins to flood.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0061.000000T0000Z-200223T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-22T22:00:00-05:00"
+            ]
+        }
+    }
+}
