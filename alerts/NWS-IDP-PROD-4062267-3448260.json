@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062267-3448260",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.92,
+                    38.74
+                ],
+                [
+                    -84.24,
+                    38.75
+                ],
+                [
+                    -84.28999999999999,
+                    38.85
+                ],
+                [
+                    -84.17999999999999,
+                    38.9
+                ],
+                [
+                    -84.11999999999999,
+                    38.83
+                ],
+                [
+                    -83.88999999999999,
+                    38.8
+                ],
+                [
+                    -83.92,
+                    38.74
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062267-3448260",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062267-3448260",
+        "areaDesc": "Bracken, KY; Clermont, OH; Campbell, KY; Pendleton, KY",
+        "geocode": {
+            "UGC": [
+                "KYC023",
+                "OHC025",
+                "KYC037",
+                "KYC191"
+            ],
+            "SAME": [
+                "021023",
+                "039025",
+                "021037",
+                "021191"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC023",
+            "https://api.weather.gov/zones/county/OHC025",
+            "https://api.weather.gov/zones/county/KYC037",
+            "https://api.weather.gov/zones/county/KYC191"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061846-3447915",
+                "identifier": "NWS-IDP-PROD-4061846-3447915",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T15:36:00-05:00"
+            }
+        ],
+        "sent": "2020-02-15T21:32:00-05:00",
+        "effective": "2020-02-15T21:32:00-05:00",
+        "onset": "2020-02-15T21:32:00-05:00",
+        "expires": "2020-02-16T05:31:00-05:00",
+        "ends": "2020-02-16T16:36:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Flood Warning issued February 15 at 9:32PM EST until February 16 at 4:36PM EST by NWS Wilmington OH",
+        "description": "...The Flood Warning continues for the following rivers...\nOhio River at Portsmouth\nOhio River at Maysville\nOhio River at Meldahl Dam\nOhio River at Cincinnati\n\nThe Flood Warning continues for\nThe Ohio River at Meldahl Dam\n* until Sunday afternoon.\n* At 8 PM the stage was 52.0 feet.\n* Flood stage is 51 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* The river will continue to fall to below flood stage by late Sunday\nmorning.\n* At stages near 52 feet, lowland flooding of streets near Neville\ncontinues.  Water covers Route 52 near State Route 232 in Point\nPleasant, with backwater flooding up Big Indian Creek resulting in\nhigh water along stretches of Route 232 close to the river.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILN.FL.W.0006.000000T0000Z-200216T2136Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNFLSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T16:36:00-05:00"
+            ]
+        }
+    }
+}

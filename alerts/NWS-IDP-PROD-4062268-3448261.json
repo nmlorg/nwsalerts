@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062268-3448261",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.85,
+                    38.78
+                ],
+                [
+                    -82.83999999999999,
+                    38.68
+                ],
+                [
+                    -83.17999999999999,
+                    38.58
+                ],
+                [
+                    -83.61999999999999,
+                    38.61
+                ],
+                [
+                    -83.67999999999999,
+                    38.71
+                ],
+                [
+                    -83.3,
+                    38.7299999
+                ],
+                [
+                    -82.85,
+                    38.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062268-3448261",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062268-3448261",
+        "areaDesc": "Lewis, KY; Greenup, KY; Adams, OH; Scioto, OH",
+        "geocode": {
+            "UGC": [
+                "KYC135",
+                "KYC089",
+                "OHC001",
+                "OHC145"
+            ],
+            "SAME": [
+                "021135",
+                "021089",
+                "039001",
+                "039145"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC135",
+            "https://api.weather.gov/zones/county/KYC089",
+            "https://api.weather.gov/zones/county/OHC001",
+            "https://api.weather.gov/zones/county/OHC145"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061848-3447917",
+                "identifier": "NWS-IDP-PROD-4061848-3447917",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T15:36:00-05:00"
+            }
+        ],
+        "sent": "2020-02-15T21:32:00-05:00",
+        "effective": "2020-02-15T21:32:00-05:00",
+        "onset": "2020-02-15T21:32:00-05:00",
+        "expires": "2020-02-16T05:31:00-05:00",
+        "ends": "2020-02-16T15:40:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington OH",
+        "headline": "Flood Warning issued February 15 at 9:32PM EST until February 16 at 3:40PM EST by NWS Wilmington OH",
+        "description": "...The Flood Warning continues for the following rivers...\nOhio River at Portsmouth\nOhio River at Maysville\nOhio River at Meldahl Dam\nOhio River at Cincinnati\n\nThe Flood Warning continues for\nThe Ohio River at Portsmouth\n* until Sunday afternoon.\n* At 9 PM the stage was 51.8 feet.\n* Flood stage is 50 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* The river will continue to fall to below flood stage by late Sunday\nmorning.\n* At stages near 51 feet, low-lying flooding occurs along the southern\nborder of Scioto County, as well as in South Portsmouth.  Routes 73\nand 239 are closed near the Ohio River. Much of Portsmouth itself is\nprotected by flood walls.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KILN.FL.W.0002.000000T0000Z-200216T2040Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILNFLSILN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T15:40:00-05:00"
+            ]
+        }
+    }
+}
