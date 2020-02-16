@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062106-3448115",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.7,
+                    34.55
+                ],
+                [
+                    -90.59,
+                    34.55
+                ],
+                [
+                    -90.51,
+                    34.5
+                ],
+                [
+                    -90.66000000000001,
+                    34.12
+                ],
+                [
+                    -91.06999990000001,
+                    34.129999999999995
+                ],
+                [
+                    -90.7,
+                    34.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062106-3448115",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062106-3448115",
+        "areaDesc": "Coahoma, MS; Lee, AR; Tunica, MS; Phillips, AR",
+        "geocode": {
+            "UGC": [
+                "MSC027",
+                "ARC077",
+                "MSC143",
+                "ARC107"
+            ],
+            "SAME": [
+                "028027",
+                "005077",
+                "028143",
+                "005107"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC027",
+            "https://api.weather.gov/zones/county/ARC077",
+            "https://api.weather.gov/zones/county/MSC143",
+            "https://api.weather.gov/zones/county/ARC107"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061766-3447858",
+                "identifier": "NWS-IDP-PROD-4061766-3447858",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T12:27:00-06:00"
+            }
+        ],
+        "sent": "2020-02-15T18:54:00-06:00",
+        "effective": "2020-02-15T18:54:00-06:00",
+        "onset": "2020-02-15T18:54:00-06:00",
+        "expires": "2020-02-16T18:54:00-06:00",
+        "ends": "2020-02-19T15:26:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Advisory issued February 15 at 6:54PM CST until February 19 at 3:26PM CST by NWS Memphis TN",
+        "description": "...The Flood Advisory continues for the Mississippi River...\nMississippi River at Helena affecting Lee...Phillips...Coahoma and\nTunica Counties\n\nThe Flood Advisory continues for\nthe Mississippi River at Helena\n* until Wednesday February 19.\n* At 6 PM Saturday the stage was 38.5 feet.\n* Flood stage is 44.0 feet.\n* Forecast...The river may rise to near 43.5 feet Saturday February\n22.\n* At 44.0 feet...In Arkansas, road to landing east of downtown Helena\nis flooded. In Mississippi, cabin areas east of Desoto Lake are\nflooding. Industries north of Friars Point, Mississippi are\nflooding.",
+        "instruction": "The next River Statement will be issued when conditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMEG.FL.Y.0021.000000T0000Z-200219T2126Z/"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-19T15:26:00-06:00"
+            ]
+        }
+    }
+}
