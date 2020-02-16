@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062350-3448308",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.59,
+                    36.36
+                ],
+                [
+                    -87.60000000000001,
+                    36.46
+                ],
+                [
+                    -87.36000000000001,
+                    36.58
+                ],
+                [
+                    -87.20000000000002,
+                    36.409999899999995
+                ],
+                [
+                    -87.28000000000002,
+                    36.349999999999994
+                ],
+                [
+                    -87.37000000000002,
+                    36.44
+                ],
+                [
+                    -87.59,
+                    36.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062350-3448308",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062350-3448308",
+        "areaDesc": "Montgomery, TN",
+        "geocode": {
+            "UGC": [
+                "TNC125"
+            ],
+            "SAME": [
+                "047125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC125"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061592-3447698",
+                "identifier": "NWS-IDP-PROD-4061592-3447698",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T10:07:00-06:00"
+            }
+        ],
+        "sent": "2020-02-15T21:42:00-06:00",
+        "effective": "2020-02-15T21:42:00-06:00",
+        "onset": "2020-02-15T21:42:00-06:00",
+        "expires": "2020-02-16T09:42:00-06:00",
+        "ends": "2020-02-17T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Flood Advisory issued February 15 at 9:42PM CST until February 17 at 6:00AM CST by NWS Nashville TN",
+        "description": "...The Flood Advisory continues for the Cumberland River...\n\nCumberland River At Clarksville affecting Montgomery County\n\n. Waters on the Cumberland River at Clarksville are falling, but remain in\nAction stage. Look for waters to fall below Action stage on Sunday.\n\nThe Flood Advisory continues for\nThe Cumberland River At Clarksville\n* Until Monday morning.\n* At 9 PM Saturday the stage was 41.3 feet and falling.\n* Action stage is 40.0 feet.\n* Flood stage is 46.0 feet.\n* The river will continue to fall to below 40 feet Sunday.\n* At 40.0 feet...Low lying areas along the river, including agricultural areas,\naccess points, and portions of Riverfront Park on North Riverside Dr begin to\nbe inundated. Water also backs up adjacent tributaries, including Bartons\nCreek, Red River, West Fork Red River, and Yellow Creek.",
+        "instruction": "Stay tuned to NOAA weather radio or other local media for further information\nfrom the National Weather Service.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KOHX.FL.Y.0062.000000T0000Z-200217T1200Z/"
+            ],
+            "PIL": [
+                "OHXFLSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T06:00:00-06:00"
+            ]
+        }
+    }
+}
