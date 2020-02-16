@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062695-3448561",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.05,
+                    37.88
+                ],
+                [
+                    -83.85,
+                    37.690000000000005
+                ],
+                [
+                    -83.91999999999999,
+                    37.63
+                ],
+                [
+                    -84.10999999999999,
+                    37.79
+                ],
+                [
+                    -84.05,
+                    37.88
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062695-3448561",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062695-3448561",
+        "areaDesc": "Estill, KY",
+        "geocode": {
+            "UGC": [
+                "KYC065"
+            ],
+            "SAME": [
+                "021065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062117-3448126",
+                "identifier": "NWS-IDP-PROD-4062117-3448126",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T19:57:00-05:00"
+            }
+        ],
+        "sent": "2020-02-16T06:32:00-05:00",
+        "effective": "2020-02-16T06:32:00-05:00",
+        "onset": "2020-02-16T06:32:00-05:00",
+        "expires": "2020-02-16T16:00:00-05:00",
+        "ends": "2020-02-16T16:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson KY",
+        "headline": "Flood Advisory issued February 16 at 6:32AM EST until February 16 at 4:00PM EST by NWS Jackson KY",
+        "description": "...The Flood Advisory continues for the following rivers in\nKentucky...\n\nThe Kentucky River near Ravenna\n\nThe Flood Advisory continues for\nThe Kentucky River near Ravenna.\n* until this afternoon.\n* at 6:15 AM Sunday the stage was 17.4 feet.\n* Flood stage is 21.0 feet.\n* Forecast...The river will continue to recede.",
+        "instruction": "Continue to monitor NOAA weather radio or your favorite local media\noutlet for additional information. If you are in areas affected by\nthis forecast take necessary precautions.\n\nThe next update will be issued by noon today.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJKL.FL.Y.0021.000000T0000Z-200216T2100Z/"
+            ],
+            "PIL": [
+                "JKLFLSJKL"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T16:00:00-05:00"
+            ]
+        }
+    }
+}
