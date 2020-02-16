@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062865-3448700",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.2,
+                    38.65
+                ],
+                [
+                    -85.38000000000001,
+                    38.68
+                ],
+                [
+                    -85.39000000000001,
+                    38.58
+                ],
+                [
+                    -85.51000000000002,
+                    38.629999999999995
+                ],
+                [
+                    -85.43000000000002,
+                    38.769999999999996
+                ],
+                [
+                    -85.20000000000002,
+                    38.729999899999996
+                ],
+                [
+                    -85.2,
+                    38.65
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062865-3448700",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4062865-3448700",
+        "areaDesc": "Jefferson, IN; Trimble, KY",
+        "geocode": {
+            "UGC": [
+                "INC077",
+                "KYC223"
+            ],
+            "SAME": [
+                "018077",
+                "021223"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC077",
+            "https://api.weather.gov/zones/county/KYC223"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061634-3447739",
+                "identifier": "NWS-IDP-PROD-4061634-3447739",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T11:31:00-05:00"
+            }
+        ],
+        "sent": "2020-02-16T09:36:00-05:00",
+        "effective": "2020-02-16T09:36:00-05:00",
+        "onset": "2020-02-16T09:36:00-05:00",
+        "expires": "2020-02-16T23:30:00-05:00",
+        "ends": "2020-02-16T23:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Advisory issued February 16 at 9:36AM EST until February 16 at 11:30PM EST by NWS Louisville KY",
+        "description": "...The Flood Advisory continues for the Ohio River...\n\nOhio River at Clifty Creek\n\naffecting the following counties in Indiana...Jefferson and in\nKentucky...Trimble.\n\nThe Flood Advisory continues for\nTHE Ohio River at Clifty Creek.\n* until this evening.\n* At 9:00 AM Sunday the stage was 449.4 feet.\n* Flood stage is 451.0 feet.\n* Forecast...The river will rise to near 449.6 feet this afternoon.\nThe river is expected to fall below flood stage by midday Monday.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLMK.FL.Y.0013.000000T0000Z-200217T0430Z/"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-16T23:30:00-05:00"
+            ]
+        }
+    }
+}
