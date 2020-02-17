@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064325-3449816",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.77,
+                    30.98
+                ],
+                [
+                    -88.72,
+                    30.98
+                ],
+                [
+                    -88.7099999,
+                    30.82
+                ],
+                [
+                    -88.64,
+                    30.740000000000002
+                ],
+                [
+                    -88.68,
+                    30.740000000000002
+                ],
+                [
+                    -88.79,
+                    30.82
+                ],
+                [
+                    -88.77,
+                    30.98
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064325-3449816",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4064325-3449816",
+        "areaDesc": "George, MS; Greene, MS; Jackson, MS",
+        "geocode": {
+            "UGC": [
+                "MSC039",
+                "MSC041",
+                "MSC059"
+            ],
+            "SAME": [
+                "028039",
+                "028041",
+                "028059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC039",
+            "https://api.weather.gov/zones/county/MSC041",
+            "https://api.weather.gov/zones/county/MSC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063551-3449252",
+                "identifier": "NWS-IDP-PROD-4063551-3449252",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-16T20:22:00-06:00"
+            }
+        ],
+        "sent": "2020-02-17T10:45:00-06:00",
+        "effective": "2020-02-17T10:45:00-06:00",
+        "onset": "2020-02-17T10:45:00-06:00",
+        "expires": "2020-02-18T10:44:00-06:00",
+        "ends": "2020-02-18T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Mobile AL",
+        "headline": "Flood Warning issued February 17 at 10:45AM CST until February 18 at 12:00PM CST by NWS Mobile AL",
+        "description": "...The flood warning continues for the following rivers in Mississippi...\n\nChickasawhay At Leakesville affecting George...Greene and Wayne Counties.\nPascagoula At Merrill affecting George...Greene and Jackson Counties.\n\n.Recent heavy rains have caused significant rises along the river.",
+        "instruction": "SAFETY MESSAGE...\nStay tuned to developments by listening to NOAA Weather radio.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMOB.FL.W.0025.000000T0000Z-200218T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MOBFLSMOB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-18T12:00:00-06:00"
+            ]
+        }
+    }
+}
