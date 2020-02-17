@@ -1,0 +1,88 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064329-3449820",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064329-3449820",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4064329-3449820",
+        "areaDesc": "Reno; Harper; Rice; Ellsworth; Kingman; Barton",
+        "geocode": {
+            "UGC": [
+                "KSZ067",
+                "KSZ091",
+                "KSZ050",
+                "KSZ048",
+                "KSZ082",
+                "KSZ047"
+            ],
+            "SAME": [
+                "020155",
+                "020077",
+                "020159",
+                "020053",
+                "020095",
+                "020009"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KSZ067",
+            "https://api.weather.gov/zones/forecast/KSZ091",
+            "https://api.weather.gov/zones/forecast/KSZ050",
+            "https://api.weather.gov/zones/forecast/KSZ048",
+            "https://api.weather.gov/zones/forecast/KSZ082",
+            "https://api.weather.gov/zones/forecast/KSZ047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064250-3449753",
+                "identifier": "NWS-IDP-PROD-4064250-3449753",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-17T10:01:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064250-3449752",
+                "identifier": "NWS-IDP-PROD-4064250-3449752",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-17T10:01:00-06:00"
+            }
+        ],
+        "sent": "2020-02-17T10:53:00-06:00",
+        "effective": "2020-02-17T10:53:00-06:00",
+        "onset": "2020-02-17T10:53:00-06:00",
+        "expires": "2020-02-17T12:00:00-06:00",
+        "ends": "2020-02-17T11:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Dense Fog Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wichita KS",
+        "headline": "Dense Fog Advisory issued February 17 at 10:53AM CST until February 17 at 11:00AM CST by NWS Wichita KS",
+        "description": "Visibilities will continue to improve as we move through the late\nmorning hours.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "DENSE FOG ADVISORY WILL EXPIRE AT 11 AM CST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXP.KICT.FG.Y.0009.000000T0000Z-200217T1700Z/"
+            ],
+            "PIL": [
+                "ICTNPWICT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-17T11:00:00-06:00"
+            ]
+        }
+    }
+}
