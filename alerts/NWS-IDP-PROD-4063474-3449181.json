@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063474-3449181",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.36,
+                    33.4
+                ],
+                [
+                    -90.4599999,
+                    33.809999999999995
+                ],
+                [
+                    -90.03,
+                    33.809999999999995
+                ],
+                [
+                    -90.15,
+                    33.74999999999999
+                ],
+                [
+                    -90.14,
+                    33.53999999999999
+                ],
+                [
+                    -90.22,
+                    33.36999999999999
+                ],
+                [
+                    -90.36,
+                    33.4
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063474-3449181",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4063474-3449181",
+        "areaDesc": "Leflore, MS",
+        "geocode": {
+            "UGC": [
+                "MSC083"
+            ],
+            "SAME": [
+                "028083"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC083"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062804-3448645",
+                "identifier": "NWS-IDP-PROD-4062804-3448645",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-16T07:49:00-06:00"
+            }
+        ],
+        "sent": "2020-02-16T19:09:00-06:00",
+        "effective": "2020-02-16T19:09:00-06:00",
+        "onset": "2020-02-16T19:09:00-06:00",
+        "expires": "2020-02-18T01:09:00-06:00",
+        "ends": "2020-02-18T12:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued February 16 at 7:09PM CST until February 18 at 12:00PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi..\n\nYalobusha At Whaley affecting Carroll and Leflore Counties\nYazoo River At Greenwood affecting Leflore County\nYazoo River Near Belzoni affecting Humphreys County\nYazoo River At Yazoo City affecting Yazoo County\nBig Sunflower River At Sunflower affecting Sunflower County\nBig Sunflower River Near Anguilla affecting Sharkey County\n\nThe Flood Warning continues for\nThe Yazoo River At Greenwood\n* until Tuesday afternoon.\n* At  6:00 PM Sunday the stage was 35.3 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 35.0 feet.\n* Forecast...The river will continue falling and will fall below\nflood stage early Tuesday morning.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0088.000000T0000Z-200218T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-18T12:00:00-06:00"
+            ]
+        }
+    }
+}
