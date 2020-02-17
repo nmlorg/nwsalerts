@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064477-3449948",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.12,
+                    38.85
+                ],
+                [
+                    -87.23,
+                    38.77
+                ],
+                [
+                    -87.23,
+                    38.550000000000004
+                ],
+                [
+                    -87.26,
+                    38.550000000000004
+                ],
+                [
+                    -87.29,
+                    38.790000000000006
+                ],
+                [
+                    -87.15,
+                    38.870000000000005
+                ],
+                [
+                    -87.12,
+                    38.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064477-3449948",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4064477-3449948",
+        "areaDesc": "Daviess, IN; Knox, IN; Gibson, IN; Pike, IN",
+        "geocode": {
+            "UGC": [
+                "INC027",
+                "INC083",
+                "INC051",
+                "INC125"
+            ],
+            "SAME": [
+                "018027",
+                "018083",
+                "018051",
+                "018125"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/INC027",
+            "https://api.weather.gov/zones/county/INC083",
+            "https://api.weather.gov/zones/county/INC051",
+            "https://api.weather.gov/zones/county/INC125"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063100-3448888",
+                "identifier": "NWS-IDP-PROD-4063100-3448888",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-16T12:40:00-05:00"
+            }
+        ],
+        "sent": "2020-02-17T15:00:00-05:00",
+        "effective": "2020-02-17T15:00:00-05:00",
+        "onset": "2020-02-17T15:00:00-05:00",
+        "expires": "2020-02-18T08:30:00-05:00",
+        "ends": "2020-02-18T08:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Warning issued February 17 at 3:00PM EST until February 18 at 8:30AM EST by NWS Indianapolis IN",
+        "description": "...A Flood Warning continues for portions of the following waterways\nin Indiana...\n\nWabash River...White River...\n\n\n.The flood threat continues on the Wabash and White Rivers as a\nresult of recent precipitation events. Flooding on the lower reaches\nof the Wabash and White Rivers is expected to last as late as\nSaturday, February 22. Less than an inch of rain is expected today\ninto tomorrow... this could prolong flooding at some points.\n\nFlood impacts should mainly be confined to roads near the waterways,\nagricultural land, bottomlands, and levees.  Please see the specific\nimpacts listed for your location of interest below or by going to\nthe web page described below.\n\nThe Flood Warning continues for\nThe White River at Edwardsport.\n* until Tuesday morning.\n* At  7:00 AM Monday the stage was 17.3 feet.\n* Flood stage is 15.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...It will continue to fall to below flood stage by this\nevening.\n* At 17.5 feet...Flooding closes Old Vincennes Road.  High water\ncrosses SR 358 on the Daviess County side just west of the levee.\nFlooding begins to affect higher bottomlands.  Residential property\nof river cabins begins to flood.",
+        "instruction": "Precautionary/Preparedness Actions...\n\nMotorists should never drive into flood water. Turn around and go\nanother way. Keep children away from flooded areas. Recreational and\nagricultural interests should remain alert to changing river\nconditions.\n\nFor detailed flood information go to weather.gov/ind on the web and\nclick on rivers and lakes.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KIND.FL.W.0063.000000T0000Z-200218T1330Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDFLSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-18T08:30:00-05:00"
+            ]
+        }
+    }
+}
