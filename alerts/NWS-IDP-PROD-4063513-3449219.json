@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063513-3449219",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.31,
+                    34.25
+                ],
+                [
+                    -85.36,
+                    34.2
+                ],
+                [
+                    -85.39,
+                    34.21
+                ],
+                [
+                    -85.42,
+                    34.27
+                ],
+                [
+                    -85.37,
+                    34.28
+                ],
+                [
+                    -85.31,
+                    34.25
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4063513-3449219",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4063513-3449219",
+        "areaDesc": "Floyd, GA",
+        "geocode": {
+            "UGC": [
+                "GAC115"
+            ],
+            "SAME": [
+                "013115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC115"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4062938-3448754",
+                "identifier": "NWS-IDP-PROD-4062938-3448754",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-16T10:18:00-05:00"
+            }
+        ],
+        "sent": "2020-02-16T20:33:00-05:00",
+        "effective": "2020-02-16T20:33:00-05:00",
+        "onset": "2020-02-16T20:33:00-05:00",
+        "expires": "2020-02-17T10:33:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 16 at 8:33PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nOostanaula River near Resaca affecting Floyd and Gordon Counties\n\nArmuchee Creek near Armuchee affecting Floyd County\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nOostanaula River near Calhoun affecting Gordon County\n\nCoosa River near Rome Mayos Bar L & D Park affecting Floyd County\n\nCoosa River near Plant Hammond affecting Floyd County\n\nThe Flood Warning continues for\nThe Coosa River near Plant Hammond.\n* Until further notice.\n* Moderate flooding is occurring.\n* Flood stage is 570 feet.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0114.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
