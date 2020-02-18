@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065339-3450577",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.53,
+                    34.62
+                ],
+                [
+                    -86.4599999,
+                    34.5
+                ],
+                [
+                    -86.59,
+                    34.46
+                ],
+                [
+                    -86.9599999,
+                    34.56
+                ],
+                [
+                    -86.92,
+                    34.67
+                ],
+                [
+                    -86.53,
+                    34.62
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065339-3450577",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4065339-3450577",
+        "areaDesc": "Madison, AL; Marshall, AL; Morgan, AL",
+        "geocode": {
+            "UGC": [
+                "ALC089",
+                "ALC095",
+                "ALC103"
+            ],
+            "SAME": [
+                "001089",
+                "001095",
+                "001103"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC089",
+            "https://api.weather.gov/zones/county/ALC095",
+            "https://api.weather.gov/zones/county/ALC103"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065002-3450335",
+                "identifier": "NWS-IDP-PROD-4065002-3450335",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-17T21:53:00-06:00"
+            }
+        ],
+        "sent": "2020-02-18T06:41:00-06:00",
+        "effective": "2020-02-18T06:41:00-06:00",
+        "onset": "2020-02-18T06:41:00-06:00",
+        "expires": "2020-02-18T20:40:00-06:00",
+        "ends": "2020-02-22T01:13:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued February 18 at 6:41AM CST until February 22 at 1:13AM CST by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama...\n\nTennessee River at Whitesburg affecting Madison...Marshall and\nMorgan Counties\n\nThe Flood Warning continues for\nthe Tennessee River at Whitesburg.\n* until late Friday night.\n* At 6 AM Tuesday the stage was 17.9 feet and falling.\n* Flood Stage is 17.0 feet.\n* Minor Flooding is occurring and Minor Flooding is forecast.\n* Recent activity...The maximum river stage in the 24 hours ending at\n6 AM Tuesday was 18.7 feet.\n* Forecast...The river will continue to fall to below Flood Stage by\nearly Friday afternoon.\n* Impact...At 17.0 feet...Lowland flooding begins. Some access roads\nin the area become flooded. Water backed into Long Pond Slough\nbegins to approach roads on the Morgan County side of the river.\n* Flood history...This crest compares to a previous crest of 17.8 feet\non Dec 31 2018.",
+        "instruction": "Safety message...Do not attempt to drive through a flooded road. The\ndepth of water is not always obvious. As little as two feet of water\nwill carry most cars away. Also, the road bed may be washed out under\nthe water, and you could be stranded or trapped. Additional\ninformation is available at http://water.weather.gov. Once there,\nclick on the Tennessee Valley to view local river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KHUN.FL.W.0011.000000T0000Z-200222T0713Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HUNFLSHUN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-22T01:13:00-06:00"
+            ]
+        }
+    }
+}
