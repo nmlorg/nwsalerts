@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064710-3450109",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.76,
+                    45.58
+                ],
+                [
+                    -87.83,
+                    45.32
+                ],
+                [
+                    -87.92999999999999,
+                    45.35
+                ],
+                [
+                    -87.85,
+                    45.58
+                ],
+                [
+                    -87.76,
+                    45.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064710-3450109",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4064710-3450109",
+        "areaDesc": "Menominee, MI; Marinette, WI",
+        "geocode": {
+            "UGC": [
+                "MIC109",
+                "WIC075"
+            ],
+            "SAME": [
+                "026109",
+                "055075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MIC109",
+            "https://api.weather.gov/zones/county/WIC075"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064372-3449855",
+                "identifier": "NWS-IDP-PROD-4064372-3449855",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-17T11:37:00-06:00"
+            }
+        ],
+        "sent": "2020-02-17T18:06:00-06:00",
+        "effective": "2020-02-17T18:06:00-06:00",
+        "onset": "2020-02-17T18:06:00-06:00",
+        "expires": "2020-02-18T11:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Green Bay WI",
+        "headline": "Flood Warning issued February 17 at 6:06PM CST by NWS Green Bay WI",
+        "description": "...Observed flooding changed from Minor to Moderate severity for the\nfollowing rivers in Michigan...Wisconsin...\n\nMenominee River near Pembine affecting Menominee and Marinette\nCounties.\n\nThe Flood Warning continues for\nthe Menominee River near Pembine.\n* Until further notice.\n* At 5:00 PM CST Monday the stage was 17.4 feet.\n* Flood stage is 15.0 feet.\n* Moderate flooding is occurring. This approaches the flood of\nrecord.\n* Recent Activity...The maximum river stage in the 24 hours ending\nat 5:00 PM CST Monday was 17.5 feet.\n* Forecast...No forecast is available for this location.\n* Impact...At 16.9 feet, Cold conditions and above normal flows in\nthe winter continue to create ice jams downstream of the Pemene\nFalls. Water and ice levels fluctuate during ice jams. Please\nreport any observations of ice jams to your local law enforcement\nagency to relay to the National Weather Service.\n* Flood History...This crest compares to a previous crest of 16.2\nfeet on 01/30/1993.",
+        "instruction": "Caution is urged when walking near riverbanks.\n\nAdditional information is available at www.weather.gov.\n\nThe next statement will be issued Tuesday morning at 615 AM CST.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Observed flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.CON.KGRB.FL.W.0005.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GRBFLWGRB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
