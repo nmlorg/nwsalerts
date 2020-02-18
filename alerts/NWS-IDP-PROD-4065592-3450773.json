@@ -1,0 +1,106 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065592-3450773",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.18,
+                    32.78
+                ],
+                [
+                    -94,
+                    32.81
+                ],
+                [
+                    -93.92,
+                    32.7
+                ],
+                [
+                    -94.04,
+                    32.6599999
+                ],
+                [
+                    -94.12,
+                    32.67
+                ],
+                [
+                    -94.18,
+                    32.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065592-3450773",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4065592-3450773",
+        "areaDesc": "Harrison, TX; Cass, TX; Marion, TX; Caddo, LA",
+        "geocode": {
+            "UGC": [
+                "TXC203",
+                "TXC067",
+                "TXC315",
+                "LAC017"
+            ],
+            "SAME": [
+                "048203",
+                "048067",
+                "048315",
+                "022017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC203",
+            "https://api.weather.gov/zones/county/TXC067",
+            "https://api.weather.gov/zones/county/TXC315",
+            "https://api.weather.gov/zones/county/LAC017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064284-3449779",
+                "identifier": "NWS-IDP-PROD-4064284-3449779",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-17T10:16:00-06:00"
+            }
+        ],
+        "sent": "2020-02-18T09:56:00-06:00",
+        "effective": "2020-02-18T09:56:00-06:00",
+        "onset": "2020-02-18T09:56:00-06:00",
+        "expires": "2020-02-19T09:55:00-06:00",
+        "ends": "2020-02-24T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 18 at 9:56AM CST until February 24 at 12:00AM CST by NWS Shreveport LA",
+        "description": "",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KSHV.FL.W.0031.000000T0000Z-200224T0600Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-24T00:00:00-06:00"
+            ]
+        }
+    }
+}
