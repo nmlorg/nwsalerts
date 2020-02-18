@@ -1,0 +1,91 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065550-3450738",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.78,
+                    40.79
+                ],
+                [
+                    -87.7,
+                    40.79
+                ],
+                [
+                    -87.68,
+                    40.6599999
+                ],
+                [
+                    -87.63000000000001,
+                    40.6599999
+                ],
+                [
+                    -87.63000000000001,
+                    40.59
+                ],
+                [
+                    -87.76,
+                    40.580000000000005
+                ],
+                [
+                    -87.78,
+                    40.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065550-3450738",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4065550-3450738",
+        "areaDesc": "Iroquois, IL",
+        "geocode": {
+            "UGC": [
+                "ILC075"
+            ],
+            "SAME": [
+                "017075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC075"
+        ],
+        "references": [],
+        "sent": "2020-02-18T09:38:00-06:00",
+        "effective": "2020-02-18T09:38:00-06:00",
+        "onset": "2020-02-18T09:38:00-06:00",
+        "expires": "2020-02-18T21:39:00-06:00",
+        "ends": "2020-02-20T06:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Flood Advisory issued February 18 at 9:38AM CST until February 20 at 6:00AM CST by NWS Chicago IL",
+        "description": "...The National Weather Service in Chicago has issued a Flood\nAdvisory for the Sugar Creek...\n\nSugar Creek at Milford affecting Iroquois County\n\nThe following forecasts are based on observed precipitation as well\nas forecast precipitation 24-48 hours into the future.\n\nThe National Weather Service in Chicago has issued a\n* Flood Advisory for\nThe Sugar Creek at Milford, or from Near Milford downstream to\nconfluence with Iroquois River at Watseka.\n* until Thursday morning.\n* At  900 AM Tuesday the stage was 9.9 feet.\n* Action stage is 15.0 feet.\n* Flood stage is 18.0 feet.\n* Forecast...The river will rise to near 16.0 feet by Wednesday\nafternoon.",
+        "instruction": "Safety message...If you encounter a flooded roadway...turn around and\nfind an alternate route.\n\nAdditional information can be found at weather.gov/chicago.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.NEW.KLOT.FL.Y.0013.200218T1538Z-200220T1200Z/"
+            ],
+            "PIL": [
+                "LOTFLSLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-20T06:00:00-06:00"
+            ]
+        }
+    }
+}
