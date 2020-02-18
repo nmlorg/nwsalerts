@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065067",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.63,
+                    34.3
+                ],
+                [
+                    -87.64,
+                    34.129999999999995
+                ],
+                [
+                    -87.98,
+                    34.03999999999999
+                ],
+                [
+                    -88.0699999,
+                    34.18999999999999
+                ],
+                [
+                    -87.88,
+                    34.30999999999999
+                ],
+                [
+                    -87.63,
+                    34.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065067",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4065067",
+        "areaDesc": "Marion",
+        "geocode": {
+            "UGC": [
+                "ALZ011"
+            ],
+            "SAME": [
+                "001093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ALZ011"
+        ],
+        "references": [],
+        "sent": "2020-02-17T23:52:00-06:00",
+        "effective": "2020-02-17T23:52:00-06:00",
+        "onset": "2020-02-17T23:52:00-06:00",
+        "expires": "2020-02-18T00:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Special Weather Statement issued February 17 at 11:52PM CST by NWS Birmingham AL",
+        "description": "At 1152 PM CST, Doppler radar was tracking a strong thunderstorm over\nHamilton, moving northeast at 40 mph.\n\nPea size hail and winds in excess of 40 mph will be possible with\nthis storm.\n\nLocations impacted include...\nHamilton, Haleyville, Hackleburg, Weston, Lake Buttahatchee, Brinn,\nBear Creek, Tessner, Marion County Public Lake, Pearces Mill, Rankin\nFite Airport and Upper Bear Creek Reservoir.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-17T23:52:00.000-06:00...storm...240DEG...34KT...34.16,-87.94"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHEASTERN MARION COUNTY UNTIL 1215 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSPSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
