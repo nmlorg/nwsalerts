@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064830-3450216",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.77,
+                    32.36
+                ],
+                [
+                    -82.67999999999999,
+                    32.38
+                ],
+                [
+                    -82.58999999999999,
+                    32.2
+                ],
+                [
+                    -82.50999999999999,
+                    31.960000000000004
+                ],
+                [
+                    -82.58999999999999,
+                    31.950000000000003
+                ],
+                [
+                    -82.67999999999999,
+                    32.18
+                ],
+                [
+                    -82.77,
+                    32.36
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064830-3450216",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4064830-3450216",
+        "areaDesc": "Treutlen, GA; Montgomery, GA; Wheeler, GA",
+        "geocode": {
+            "UGC": [
+                "GAC283",
+                "GAC209",
+                "GAC309"
+            ],
+            "SAME": [
+                "013283",
+                "013209",
+                "013309"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC283",
+            "https://api.weather.gov/zones/county/GAC209",
+            "https://api.weather.gov/zones/county/GAC309"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064122-3449667",
+                "identifier": "NWS-IDP-PROD-4064122-3449667",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-17T09:43:00-05:00"
+            }
+        ],
+        "sent": "2020-02-17T20:47:00-05:00",
+        "effective": "2020-02-17T20:47:00-05:00",
+        "onset": "2020-02-17T20:47:00-05:00",
+        "expires": "2020-02-18T10:47:00-05:00",
+        "ends": "2020-02-18T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 17 at 8:47PM EST until February 18 at 1:00PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nOconee River near Mount Vernon affecting Montgomery...Treutlen and\nWheeler Counties\n\nThe Flood Warning continues for\nThe Oconee River near Mount Vernon.\n* Until Tuesday afternoon.\n* At 8 PM Monday the stage was 16.3 feet...and falling.\n* Minor flooding is occurring and is forecast to continue.\n* Flood stage is 16 feet.\n* The river will continue to fall to below flood stage by tomorrow\nmorning.\n* At 16.feet...Flood Stage is reached. Minor flooding begins in the\nwoodlands...pastures and natural flood plain along the river\nupstream and downstream from the gage on U.S. Highway 280. Flood\nwaters reach the top of a boat ramp by the bridge on the Wheeler\nCounty side of the River.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0140.000000T0000Z-200218T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-18T13:00:00-05:00"
+            ]
+        }
+    }
+}
