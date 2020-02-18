@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065527",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.58,
+                    35.03
+                ],
+                [
+                    -94.61,
+                    35.11
+                ],
+                [
+                    -94.23,
+                    35.24
+                ],
+                [
+                    -94.17,
+                    35.11
+                ],
+                [
+                    -94.58,
+                    35.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065527",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4065527",
+        "areaDesc": "Le Flore; Sebastian",
+        "geocode": {
+            "UGC": [
+                "OKZ076",
+                "ARZ029"
+            ],
+            "SAME": [
+                "040079",
+                "005131"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/OKZ076",
+            "https://api.weather.gov/zones/forecast/ARZ029"
+        ],
+        "references": [],
+        "sent": "2020-02-18T09:26:00-06:00",
+        "effective": "2020-02-18T09:26:00-06:00",
+        "onset": "2020-02-18T09:26:00-06:00",
+        "expires": "2020-02-18T10:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Special Weather Statement issued February 18 at 9:26AM CST by NWS Tulsa OK",
+        "description": "At 925 AM CST, a strong thunderstorm was located 3 miles south of\nCameron, moving east at 40 mph.\n\nPenny size hail will be possible with this storm.\n\nLocations in or near the path include...\nPoteau...                         Greenwood...\nMidland...                        Cameron...\nExcelsior...                      Arkola...\nCrossroads...                     Witcherville...\nDayton...",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-18T09:25:00.000-06:00...storm...252DEG...34KT...35.08,-94.51"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR WEST CENTRAL SEBASTIAN AND EAST CENTRAL LE FLORE COUNTIES UNTIL 1000 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TSASPSTSA"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
