@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064720",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -111.82,
+                    46.95
+                ],
+                [
+                    -112.25,
+                    47.13
+                ],
+                [
+                    -111.86,
+                    47.38
+                ],
+                [
+                    -111.42,
+                    47.2
+                ],
+                [
+                    -111.82,
+                    46.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064720",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4064720",
+        "areaDesc": "Central and Southern Lewis and Clark; Cascade",
+        "geocode": {
+            "UGC": [
+                "MTZ014",
+                "MTZ012"
+            ],
+            "SAME": [
+                "030049",
+                "030013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MTZ014",
+            "https://api.weather.gov/zones/forecast/MTZ012"
+        ],
+        "references": [],
+        "sent": "2020-02-17T17:24:00-07:00",
+        "effective": "2020-02-17T17:24:00-07:00",
+        "onset": "2020-02-17T17:24:00-07:00",
+        "expires": "2020-02-17T18:45:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Great Falls MT",
+        "headline": "Special Weather Statement issued February 17 at 5:24PM MST by NWS Great Falls MT",
+        "description": "Moderate to heavy snow showers on going southwest of Cascade. These\nshowers have the capability of reducing visibility down to a quarter\nmile or less and may create slippery road conditions. Use caution if\ntraveling interstate 15 from Great Falls to Helena and prepare for\nrapidly changing conditions.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-17T17:19:00.000-07:00...storm...238DEG...48KT...47.48,-111.29"
+            ],
+            "NWSheadline": [
+                "MODERATE TO HEAVY SNOW SHOWERS ARE OCCURRING ALONG INTERSTATE 15 FROM WOLF Creek TO CASCADE"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "TFXSPSTFX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
