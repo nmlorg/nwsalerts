@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065745-3450889",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.56,
+                    37.28
+                ],
+                [
+                    -88.4,
+                    37.27
+                ],
+                [
+                    -88.37,
+                    37.07
+                ],
+                [
+                    -88.52000000000001,
+                    37.15
+                ],
+                [
+                    -88.56,
+                    37.28
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065745-3450889",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4065745-3450889",
+        "areaDesc": "Pope, IL; Livingston, KY",
+        "geocode": {
+            "UGC": [
+                "ILC151",
+                "KYC139"
+            ],
+            "SAME": [
+                "017151",
+                "021139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC151",
+            "https://api.weather.gov/zones/county/KYC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064856-3450238",
+                "identifier": "NWS-IDP-PROD-4064856-3450238",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-17T20:02:00-06:00"
+            }
+        ],
+        "sent": "2020-02-18T11:53:00-06:00",
+        "effective": "2020-02-18T11:53:00-06:00",
+        "onset": "2020-02-18T11:53:00-06:00",
+        "expires": "2020-02-19T15:52:00-06:00",
+        "ends": "2020-02-27T22:17:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued February 18 at 11:53AM CST until February 27 at 10:17PM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Kentucky...Missouri...\n\nOhio River at Smithland Dam...Paducah...Olmsted Lock and Dam\nand Cairo\n\n.River levels from Smithland Dam to Cairo are cresting or\nnear crest at this time. Minor to moderate flooding is\noccurring or forecast to develop at locations except Olmsted Dam,\nwhich is experiencing major flooding. Extended crests are expected due\nto high volume water releases from the Tennessee and Cumberland Rivers.\nWater levels will remain above flood stage for these locations through\nmost of the remainder of February.\n\nThe Flood Warning continues for\nthe Ohio River at Smithland Dam.\n* until Thursday February 27.\n* At 11:00 AM Tuesday the stage was 46.0 feet.\n* Flood Stage is 40.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river is cresting at this time and will slowly fall\nthrough most of the remainder of February. At this time, the\nriver is forecast to fall below flood stage by Thursday afternoon,\nFebruary 27.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KPAH.FL.W.0032.000000T0000Z-200228T0417Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-27T22:17:00-06:00"
+            ]
+        }
+    }
+}
