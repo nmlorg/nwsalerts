@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065697-3450851",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.25,
+                    35.39
+                ],
+                [
+                    -89.95,
+                    35.39
+                ],
+                [
+                    -90.05,
+                    35.33
+                ],
+                [
+                    -90.03999999999999,
+                    35.129999999999995
+                ],
+                [
+                    -90.08,
+                    34.909999899999995
+                ],
+                [
+                    -90.41,
+                    34.909999899999995
+                ],
+                [
+                    -90.25,
+                    35.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065697-3450851",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4065697-3450851",
+        "areaDesc": "DeSoto, MS; Crittenden, AR; Shelby, TN",
+        "geocode": {
+            "UGC": [
+                "MSC033",
+                "ARC035",
+                "TNC157"
+            ],
+            "SAME": [
+                "028033",
+                "005035",
+                "047157"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC033",
+            "https://api.weather.gov/zones/county/ARC035",
+            "https://api.weather.gov/zones/county/TNC157"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064735-3450131",
+                "identifier": "NWS-IDP-PROD-4064735-3450131",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-17T18:49:00-06:00"
+            }
+        ],
+        "sent": "2020-02-18T11:16:00-06:00",
+        "effective": "2020-02-18T11:16:00-06:00",
+        "onset": "2020-02-19T21:00:00-06:00",
+        "expires": "2020-02-19T11:16:00-06:00",
+        "ends": "2020-02-26T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued February 18 at 11:16AM CST until February 26 at 9:00PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Mississippi River.\n\nThe Flood Warning continues for\nthe Mississippi River at Memphis\n* from Wednesday February 19 until Tuesday February 25.\n* At 11 AM Tuesday the stage was 33.2 feet.\n* Minor flooding is forecast.\n* Maximum forecast stage of 34.5 feet on Friday February 21.\n* Flood stage is 34.0 feet.\n* Forecast to rise above flood stage by Wednesday February 19 and\ncontinue to rise to near 34.5 feet by Friday February 21.The river\nwill fall below flood stage by Tuesday February 25.\n* At 36.0 feet...In Tennessee, water is edging onto Fullen Dock Area.\nRoads on the north side of the Loosahatchie River near its mouth\nare beginning to flood. Riverside Park Marina begins to flood.",
+        "instruction": "A followup Flood Statement will be issued this evening or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0056.200220T0300Z-200227T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-26T21:00:00-06:00"
+            ]
+        }
+    }
+}
