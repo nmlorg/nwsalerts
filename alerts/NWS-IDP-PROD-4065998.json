@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065998",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.5,
+                    34.1
+                ],
+                [
+                    -82.51,
+                    34.36
+                ],
+                [
+                    -82.44000000000001,
+                    34.4
+                ],
+                [
+                    -81.97000000000001,
+                    34.47
+                ],
+                [
+                    -81.99000000000001,
+                    34.04
+                ],
+                [
+                    -82.5,
+                    34.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065998",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4065998",
+        "areaDesc": "Abbeville; Laurens; Greenwood",
+        "geocode": {
+            "UGC": [
+                "SCZ011",
+                "SCZ012",
+                "SCZ019"
+            ],
+            "SAME": [
+                "045001",
+                "045059",
+                "045047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/SCZ011",
+            "https://api.weather.gov/zones/forecast/SCZ012",
+            "https://api.weather.gov/zones/forecast/SCZ019"
+        ],
+        "references": [],
+        "sent": "2020-02-18T17:08:00-05:00",
+        "effective": "2020-02-18T17:08:00-05:00",
+        "onset": "2020-02-18T17:08:00-05:00",
+        "expires": "2020-02-18T18:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Greenville-Spartanburg SC",
+        "headline": "Special Weather Statement issued February 18 at 5:08PM EST by NWS Greenville-Spartanburg SC",
+        "description": "At 507 PM EST, Doppler radar was tracking a strong thunderstorm 4\nmiles north of Abbeville, moving east at 35 mph.\n\nLocations to be impacted include...\nGreenwood, Abbeville, Ware Shoals, Ninety Six, Due West, Cross Hill,\nDonalds, Cokesbury, Waterloo and Hodges.\n\nWind gusts up to 45 mph will be possible in these areas.",
+        "instruction": "Gusty winds can blow down trees that are dead, or that have weakened\nroot systems. Outdoor furniture and similar items can be tossed\naround if not anchored. Seek shelter indoors.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-18T17:07:00.000-05:00...storm...270DEG...38KT...34.25,-82.38"
+            ],
+            "NWSheadline": [
+                "A STRONG THUNDERSTORM WILL IMPACT SOUTHWESTERN LAURENS...EASTERN ABBEVILLE AND GREENWOOD COUNTIES UNTIL 600 PM EST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GSPSPSGSP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
