@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065515-3450710",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065515-3450710",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4065515-3450710",
+        "areaDesc": "Western Franklin; Western Hampshire; Western Hampden",
+        "geocode": {
+            "UGC": [
+                "MAZ002",
+                "MAZ008",
+                "MAZ009"
+            ],
+            "SAME": [
+                "025011",
+                "025015",
+                "025013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MAZ002",
+            "https://api.weather.gov/zones/forecast/MAZ008",
+            "https://api.weather.gov/zones/forecast/MAZ009"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065097-3450409",
+                "identifier": "NWS-IDP-PROD-4065097-3450409",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-18T02:55:00-05:00"
+            }
+        ],
+        "sent": "2020-02-18T10:19:00-05:00",
+        "effective": "2020-02-18T10:19:00-05:00",
+        "onset": "2020-02-18T10:19:00-05:00",
+        "expires": "2020-02-18T17:00:00-05:00",
+        "ends": "2020-02-18T17:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Boston/Norton MA",
+        "headline": "Winter Weather Advisory issued February 18 at 10:19AM EST until February 18 at 5:00PM EST by NWS Boston/Norton MA",
+        "description": "* WHAT...Mixed precipitation expected. Total snow accumulations\nof a coating to 1 inch of snow with perhaps up to 2 inches in\nfar northwest Massachusetts. Ice accumulations of a light\nglaze following the snow.\n\n* WHERE...Western Franklin MA, Western Hampshire MA and Western\nHampden MA Counties. Mainly for elevations at or above 1000\nfeet.\n\n* WHEN...From 10 AM this morning to 5 PM EST this afternoon.\n\n* IMPACTS...Plan on slippery road conditions this afternoon. The\nmain concern is for elevations near or above 1000 feet.\n\n* ADDITIONAL DETAILS...Snow develops through midday, then changes\nto a brief period of sleet and freezing rain during the\nafternoon before changing to all rain by late afternoon\nafternoon.",
+        "instruction": "Slow down and use caution while traveling.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL 5 PM EST THIS AFTERNOON"
+            ],
+            "HazardType": [
+                "Mixed Precipitation"
+            ],
+            "VTEC": [
+                "/O.CON.KBOX.WW.Y.0006.000000T0000Z-200218T2200Z/"
+            ],
+            "PIL": [
+                "BOXWSWBOX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-18T17:00:00-05:00"
+            ]
+        }
+    }
+}

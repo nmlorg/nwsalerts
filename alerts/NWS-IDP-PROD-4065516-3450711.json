@@ -1,0 +1,110 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065516-3450711",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.36,
+                    38.09
+                ],
+                [
+                    -86.52,
+                    37.870000000000005
+                ],
+                [
+                    -86.75,
+                    37.830000000000005
+                ],
+                [
+                    -86.7,
+                    37.940000000000005
+                ],
+                [
+                    -86.59,
+                    37.96000000000001
+                ],
+                [
+                    -86.36,
+                    38.220000000000006
+                ],
+                [
+                    -86.36,
+                    38.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065516-3450711",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4065516-3450711",
+        "areaDesc": "Breckinridge, KY; Crawford, IN; Hancock, KY; Perry, IN",
+        "geocode": {
+            "UGC": [
+                "KYC027",
+                "INC025",
+                "KYC091",
+                "INC123"
+            ],
+            "SAME": [
+                "021027",
+                "018025",
+                "021091",
+                "018123"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC027",
+            "https://api.weather.gov/zones/county/INC025",
+            "https://api.weather.gov/zones/county/KYC091",
+            "https://api.weather.gov/zones/county/INC123"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065047-3450375",
+                "identifier": "NWS-IDP-PROD-4065047-3450375",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-18T00:18:00-05:00"
+            }
+        ],
+        "sent": "2020-02-18T10:20:00-05:00",
+        "effective": "2020-02-18T10:20:00-05:00",
+        "onset": "2020-02-18T10:20:00-05:00",
+        "expires": "2020-02-19T10:20:00-05:00",
+        "ends": "2020-02-20T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 18 at 10:20AM EST until February 20 at 7:00PM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in Indiana...\nKentucky...\n\nOhio River at Cannelton Lock\nOhio River at Tell City\n\naffecting the following counties in Indiana...Crawford...Perry and in\nKentucky...Breckinridge...Hancock.\n\nThe Flood Warning continues for\nthe Ohio River at Cannelton Lock.\n* until Thursday evening.\n* At 10:00 AM Tuesday the stage was 44.2 feet.\n* Flood stage is 42.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 44.3 feet by this\nafternoon. The river will fall below flood stage Thursday early\nafternoon.\n* Flood History...This crest compares to a previous crest of 44.7\nfeet on Feb 22 2000.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLMK.FL.W.0011.000000T0000Z-200221T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-20T19:00:00-05:00"
+            ]
+        }
+    }
+}
