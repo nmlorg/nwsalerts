@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064744-3450139",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.92,
+                    33.9099999
+                ],
+                [
+                    -78.86,
+                    33.82
+                ],
+                [
+                    -79,
+                    33.79
+                ],
+                [
+                    -79,
+                    33.71
+                ],
+                [
+                    -79.11,
+                    33.71
+                ],
+                [
+                    -79.08,
+                    33.85
+                ],
+                [
+                    -78.92,
+                    33.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064744-3450139",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4064744-3450139",
+        "areaDesc": "Horry, SC",
+        "geocode": {
+            "UGC": [
+                "SCC051"
+            ],
+            "SAME": [
+                "045051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064042-3449588",
+                "identifier": "NWS-IDP-PROD-4064042-3449588",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-17T08:39:00-05:00"
+            }
+        ],
+        "sent": "2020-02-17T20:04:00-05:00",
+        "effective": "2020-02-17T20:04:00-05:00",
+        "onset": "2020-02-17T20:04:00-05:00",
+        "expires": "2020-02-18T12:03:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued February 17 at 8:04PM EST by NWS Wilmington NC",
+        "description": "...Forecast flooding changed from Minor to Moderate severity for the following\nrivers in South Carolina...\nWaccamaw At Conway affecting Horry County",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Forecast flooding increased from Minor to Moderate severity"
+            ],
+            "VTEC": [
+                "/O.CON.KILM.FL.W.0021.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLWILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
