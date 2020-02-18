@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065646-3450806",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.06,
+                    33.34
+                ],
+                [
+                    -92.05,
+                    33.53
+                ],
+                [
+                    -92.1,
+                    33.7299999
+                ],
+                [
+                    -91.97,
+                    33.75
+                ],
+                [
+                    -91.92999999999999,
+                    33.54
+                ],
+                [
+                    -91.91999999999999,
+                    33.33
+                ],
+                [
+                    -92.06,
+                    33.34
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065646-3450806",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4065646-3450806",
+        "areaDesc": "Bradley, AR; Ashley, AR; Cleveland, AR; Drew, AR",
+        "geocode": {
+            "UGC": [
+                "ARC011",
+                "ARC003",
+                "ARC025",
+                "ARC043"
+            ],
+            "SAME": [
+                "005011",
+                "005003",
+                "005025",
+                "005043"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC011",
+            "https://api.weather.gov/zones/county/ARC003",
+            "https://api.weather.gov/zones/county/ARC025",
+            "https://api.weather.gov/zones/county/ARC043"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4061661-3447766",
+                "identifier": "NWS-IDP-PROD-4061661-3447766",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-15T10:50:00-06:00"
+            }
+        ],
+        "sent": "2020-02-18T10:27:00-06:00",
+        "effective": "2020-02-18T10:27:00-06:00",
+        "onset": "2020-02-18T10:27:00-06:00",
+        "expires": "2020-02-18T18:00:00-06:00",
+        "ends": "2020-02-18T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Advisory issued February 18 at 10:27AM CST until February 18 at 6:00PM CST by NWS Little Rock AR",
+        "description": "...From the National Weather Service in Little Rock...The Flood\nAdvisory continues for the Saline River...\n\nSaline River Near Rye affecting Ashley...Bradley...Cleveland and\nDrew Counties\n\n\nRiver forecasts are based on current conditions and rainfall\nforecasted to occur over the next 24 hours. During periods of\nflooding...Evening forecasts are reissued with updated rainfall\nforecasts.\n\nObserved and forecasted stage data plots are available on our\nAdvanced Hydrologic Prediction Service web page at...\nwww.weather.gov/lzk\nUnder the Current Conditions section...Select River and Lakes AHPS.\n\nFrom the National Weather Service in Little Rock ...The Flood\nAdvisory continues for\nThe Saline River Near Rye.\n* until this evening.\n* At 9:15 AM Tuesday the stage was 24.4 feet.\n* Flood stage is 26.0 feet.\n* Forecast...The river will remain above 24 feet for several days.\nWith additional rainfall expected later in the week, continue to\nmonitor latest forecasts for any updates.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLZK.FL.Y.0002.000000T0000Z-200219T0000Z/"
+            ],
+            "PIL": [
+                "LZKFLSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-18T18:00:00-06:00"
+            ]
+        }
+    }
+}
