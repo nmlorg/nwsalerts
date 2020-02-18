@@ -1,0 +1,80 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064937-3450299",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064937-3450299",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4064937-3450299",
+        "areaDesc": "Northern Penobscot; Central Penobscot; Southeast Aroostook; Northeast Aroostook; Northern Washington",
+        "geocode": {
+            "UGC": [
+                "MEZ005",
+                "MEZ011",
+                "MEZ006",
+                "MEZ002",
+                "MEZ032"
+            ],
+            "SAME": [
+                "023019",
+                "023003",
+                "023029"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MEZ005",
+            "https://api.weather.gov/zones/forecast/MEZ011",
+            "https://api.weather.gov/zones/forecast/MEZ006",
+            "https://api.weather.gov/zones/forecast/MEZ002",
+            "https://api.weather.gov/zones/forecast/MEZ032"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4064491-3449962",
+                "identifier": "NWS-IDP-PROD-4064491-3449962",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-17T15:04:00-05:00"
+            }
+        ],
+        "sent": "2020-02-17T21:58:00-05:00",
+        "effective": "2020-02-17T21:58:00-05:00",
+        "onset": "2020-02-18T16:00:00-05:00",
+        "expires": "2020-02-18T06:00:00-05:00",
+        "ends": "2020-02-19T00:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Caribou ME",
+        "headline": "Winter Weather Advisory issued February 17 at 9:58PM EST until February 19 at 12:00AM EST by NWS Caribou ME",
+        "description": "* WHAT...Snow expected. Total snow accumulations of 3 to 5\ninches expected.\n\n* WHERE...Portions of Central Highlands, Far Eastern, Far\nNorthern and Penobscot Valley Maine.\n\n* WHEN...From 4 PM Tuesday to midnight EST Tuesday night.\n\n* ADDITIONAL DETAILS...Plan on slippery road conditions. Patchy\nblowing snow could significantly reduce visibility and cause\nlocalized hazardous travel. The hazardous conditions could\nimpact the evening commute.",
+        "instruction": "A Winter Weather Advisory for snow means periods of snow will\ncause primarily travel difficulties. Expect snow covered roads\nand limited visibilities, and use caution while driving.\n\nThe latest road conditions for Maine can be obtained by going to\nnewengland511.org.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY REMAINS IN EFFECT FROM 4 PM TUESDAY TO MIDNIGHT EST TUESDAY NIGHT"
+            ],
+            "HazardType": [
+                "Snow"
+            ],
+            "VTEC": [
+                "/O.CON.KCAR.WW.Y.0008.200218T2100Z-200219T0500Z/"
+            ],
+            "PIL": [
+                "CARWSWCAR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-19T00:00:00-05:00"
+            ]
+        }
+    }
+}
