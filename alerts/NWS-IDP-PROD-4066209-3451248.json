@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066209-3451248",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.09,
+                    32.57
+                ],
+                [
+                    -94.9,
+                    32.51
+                ],
+                [
+                    -94.91000000000001,
+                    32.449999999999996
+                ],
+                [
+                    -95.01,
+                    32.51
+                ],
+                [
+                    -95.08,
+                    32.53
+                ],
+                [
+                    -95.09,
+                    32.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066209-3451248",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4066209-3451248",
+        "areaDesc": "Wood, TX; Smith, TX; Upshur, TX; Gregg, TX",
+        "geocode": {
+            "UGC": [
+                "TXC499",
+                "TXC423",
+                "TXC459",
+                "TXC183"
+            ],
+            "SAME": [
+                "048499",
+                "048423",
+                "048459",
+                "048183"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC499",
+            "https://api.weather.gov/zones/county/TXC423",
+            "https://api.weather.gov/zones/county/TXC459",
+            "https://api.weather.gov/zones/county/TXC183"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4065595-3450776",
+                "identifier": "NWS-IDP-PROD-4065595-3450776",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-18T10:00:00-06:00"
+            }
+        ],
+        "sent": "2020-02-18T20:19:00-06:00",
+        "effective": "2020-02-18T20:19:00-06:00",
+        "onset": "2020-02-18T20:19:00-06:00",
+        "expires": "2020-02-19T20:18:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 18 at 8:19PM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Sabine River Near Gladewater.\n* until further notice...or until the warning is cancelled.\n* At 11:15 AM Tuesday The stage was 28.8 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 26.0 feet.\n* Forecast...The river will continue rising to near 31.3 feet by\nFriday evening then begin falling.\n* Impact...at 32.0 feet...lowland flooding of rural ranches will occur.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KSHV.FL.W.0020.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
