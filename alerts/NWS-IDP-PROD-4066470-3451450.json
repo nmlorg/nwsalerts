@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066470-3451450",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.14,
+                    33.9799999
+                ],
+                [
+                    -84.0699999,
+                    33.9799999
+                ],
+                [
+                    -84.06,
+                    33.9099999
+                ],
+                [
+                    -84.08,
+                    33.89
+                ],
+                [
+                    -84.12,
+                    33.89
+                ],
+                [
+                    -84.14,
+                    33.9799999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066470-3451450",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4066470-3451450",
+        "areaDesc": "Gwinnett, GA",
+        "geocode": {
+            "UGC": [
+                "GAC135"
+            ],
+            "SAME": [
+                "013135"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC135"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066252-3451281",
+                "identifier": "NWS-IDP-PROD-4066252-3451281",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-18T21:39:00-05:00"
+            }
+        ],
+        "sent": "2020-02-19T01:43:00-05:00",
+        "effective": "2020-02-19T01:43:00-05:00",
+        "onset": "2020-02-19T01:43:00-05:00",
+        "expires": "2020-02-19T08:46:00-05:00",
+        "ends": "2020-02-19T08:46:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 19 at 1:43AM EST until February 19 at 8:46AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nBig Creek near Cumming affecting Forsyth County\n\nBig Creek near Alpharetta affecting Forsyth and Fulton Counties\n\nChattahoochee River near Whitesburg affecting Carroll...Coweta and\nHeard Counties\n\nFlint River near Lovejoy affecting Clayton...Fayette and Spalding\nCounties\n\nFlint River near Griffin Hwy. 16 affecting Fayette and Spalding\nCounties\n\nFlint River near Carsonville Hwy. 19 affecting Crawford...\nTalbot...Taylor and Upson Counties\n\nAlcovy River near Lawrenceville affecting Gwinnett and Walton\nCounties\n\nSweetwater Creek near Lilburn affecting Gwinnett County\n\nYellow River near East Lithonia affecting De Kalb and Rockdale\nCounties\n\nFalling Creek near East Juliette  affecting Jones County\n\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties\n\nMiddle Oconee River near Arcade affecting Barrow and Jackson\nCounties\n\nOconee River near Penfield affecting Clarke...Greene and Oconee\nCounties\n\nOconee River near Oconee affecting Johnson...Washington and\nWilkinson Counties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0176.000000T0000Z-200219T1346Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-19T08:46:00-05:00"
+            ]
+        }
+    }
+}
