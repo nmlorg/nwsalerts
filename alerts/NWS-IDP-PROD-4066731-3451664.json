@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066731-3451664",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.25,
+                    33.64
+                ],
+                [
+                    -83.33,
+                    33.64
+                ],
+                [
+                    -83.33,
+                    33.83
+                ],
+                [
+                    -83.27,
+                    33.839999999999996
+                ],
+                [
+                    -83.25,
+                    33.64
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066731-3451664",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4066731-3451664",
+        "areaDesc": "Greene, GA; Oconee, GA; Clarke, GA",
+        "geocode": {
+            "UGC": [
+                "GAC133",
+                "GAC219",
+                "GAC059"
+            ],
+            "SAME": [
+                "013133",
+                "013219",
+                "013059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC133",
+            "https://api.weather.gov/zones/county/GAC219",
+            "https://api.weather.gov/zones/county/GAC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066702-3451641",
+                "identifier": "NWS-IDP-PROD-4066702-3451641",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T06:02:00-05:00"
+            }
+        ],
+        "sent": "2020-02-19T06:39:00-05:00",
+        "effective": "2020-02-19T06:39:00-05:00",
+        "onset": "2020-02-19T10:00:00-05:00",
+        "expires": "2020-02-19T20:38:00-05:00",
+        "ends": "2020-02-22T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 19 at 6:39AM EST until February 22 at 1:00PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nYellow River near East Lithonia affecting De Kalb and Rockdale\nCounties\n\nMiddle Oconee River near Arcade affecting Barrow and Jackson\nCounties\n\nOconee River near Penfield affecting Clarke...Greene and Oconee\nCounties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Saturday afternoon...The Flood Warning continues for The Oconee River near Penfield. * From late this morning until Saturday afternoon. * At 6 AM Wednesday the stage was 12.1 feet and rising. * Minor flooding is forecast. * Flood stage is 13 feet. * Forecast to rise above flood stage by late this morning and continue to rise to near 17.1 feet by Thursday evening. The river is then forecast to fall below flood stage by Saturday morning. * At 17 feet...Minor flooding continues to expand into fields"
+            ],
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0182.200219T1500Z-200222T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-22T13:00:00-05:00"
+            ]
+        }
+    }
+}
