@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066716-3451651",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.09,
+                    33.77
+                ],
+                [
+                    -84.02000000000001,
+                    33.77
+                ],
+                [
+                    -83.99000000000001,
+                    33.720000000000006
+                ],
+                [
+                    -84.03000000000002,
+                    33.67000000000001
+                ],
+                [
+                    -84.09,
+                    33.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066716-3451651",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4066716-3451651",
+        "areaDesc": "DeKalb, GA; Rockdale, GA",
+        "geocode": {
+            "UGC": [
+                "GAC089",
+                "GAC247"
+            ],
+            "SAME": [
+                "013089",
+                "013247"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC089",
+            "https://api.weather.gov/zones/county/GAC247"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066459-3451439",
+                "identifier": "NWS-IDP-PROD-4066459-3451439",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T01:43:00-05:00"
+            }
+        ],
+        "sent": "2020-02-19T06:18:00-05:00",
+        "effective": "2020-02-19T06:18:00-05:00",
+        "onset": "2020-02-19T06:18:00-05:00",
+        "expires": "2020-02-19T20:18:00-05:00",
+        "ends": "2020-02-20T13:25:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 19 at 6:18AM EST until February 20 at 1:25PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nOconee River near Milledgeville affecting Baldwin...Washington and\nWilkinson Counties\n\n\n...The Flood Warning continues for the following rivers in Georgia...\nNew River near Franklin affecting Heard County\n\nYellow River near East Lithonia affecting De Kalb and Rockdale\nCounties\n\nThe Flood Warning continues for\nThe Yellow River near East Lithonia.\n* From this morning until Thursday afternoon.\n* At 6 AM Wednesday the stage was 10.3 feet and steady.\n* Minor flooding is forecast.\n* Flood stage is 13 feet.\n* Forecast to rise above flood stage by this morning.\n* At 13 feet...Flood stage is reached. Minor flooding will occur in\nportions of the woodlands and fields near the river upstream and\ndownstream from the gage on Pleasant Hill Road.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0187.000000T0000Z-200220T1825Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-20T13:25:00-05:00"
+            ]
+        }
+    }
+}
