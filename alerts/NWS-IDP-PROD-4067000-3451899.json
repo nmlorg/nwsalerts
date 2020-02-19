@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067000-3451899",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.25,
+                    31.93
+                ],
+                [
+                    -90.34,
+                    32.12
+                ],
+                [
+                    -90.13000000000001,
+                    32.43
+                ],
+                [
+                    -90.02000000000001,
+                    32.37
+                ],
+                [
+                    -90.20000000000002,
+                    32.129999999999995
+                ],
+                [
+                    -90.12000000000002,
+                    31.979999999999997
+                ],
+                [
+                    -90.25,
+                    31.93
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067000-3451899",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4067000-3451899",
+        "areaDesc": "Hinds, MS; Rankin, MS",
+        "geocode": {
+            "UGC": [
+                "MSC049",
+                "MSC121"
+            ],
+            "SAME": [
+                "028049",
+                "028121"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC049",
+            "https://api.weather.gov/zones/county/MSC121"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066180-3451220",
+                "identifier": "NWS-IDP-PROD-4066180-3451220",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-18T20:00:00-06:00"
+            }
+        ],
+        "sent": "2020-02-19T09:47:00-06:00",
+        "effective": "2020-02-19T09:47:00-06:00",
+        "onset": "2020-02-19T09:47:00-06:00",
+        "expires": "2020-02-20T15:47:00-06:00",
+        "ends": "2020-02-22T05:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued February 19 at 9:47AM CST until February 22 at 5:00AM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nPearl River At Jackson affecting Hinds and Rankin Counties\n\nThe Flood Warning continues for\nThe Pearl River At Jackson\n* until late Friday night.\n* At  9:15 AM Wednesday the stage was 35.1 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Flood stage is 28.0 feet.\n* Forecast...Reservoir discharges into the Pearl River above Jackson\ncontinue to decrease.  The lake pool is now low enough to store\nrunoff from a significant amount of rainfall if it occurs anytime\nthis spring above the reservoir. The river will continue falling\nand will fall below flood stage Friday afternoon.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 48 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0085.000000T0000Z-200222T1100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-22T05:00:00-06:00"
+            ]
+        }
+    }
+}
