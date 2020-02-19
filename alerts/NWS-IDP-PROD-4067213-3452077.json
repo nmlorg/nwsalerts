@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067213-3452077",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.77,
+                    33.1599999
+                ],
+                [
+                    -83.66,
+                    33.17
+                ],
+                [
+                    -83.67999999999999,
+                    33.1
+                ],
+                [
+                    -83.67999999999999,
+                    33.03
+                ],
+                [
+                    -83.72,
+                    33.02
+                ],
+                [
+                    -83.76,
+                    33.1
+                ],
+                [
+                    -83.77,
+                    33.1599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067213-3452077",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4067213-3452077",
+        "areaDesc": "Jones, GA",
+        "geocode": {
+            "UGC": [
+                "GAC169"
+            ],
+            "SAME": [
+                "013169"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC169"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4066993-3451893",
+                "identifier": "NWS-IDP-PROD-4066993-3451893",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T10:45:00-05:00"
+            }
+        ],
+        "sent": "2020-02-19T14:41:00-05:00",
+        "effective": "2020-02-19T14:41:00-05:00",
+        "onset": "2020-02-19T14:41:00-05:00",
+        "expires": "2020-02-19T21:31:00-05:00",
+        "ends": "2020-02-19T21:31:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 19 at 2:41PM EST until February 19 at 9:31PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nFalling Creek near East Juliette  affecting Jones County\n\nTowaliga River near Juliette affecting Monroe County\n\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties\n\nOcmulgee River near Hawkinsville affecting Bleckley and Pulaski\nCounties\n\nOcmulgee River near Abbeville affecting Dodge...Telfair and Wilcox\nCounties\n\nOcmulgee River near Lumber City affecting Montgomery...Telfair and\nWheeler Counties",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KFFC.FL.W.0191.000000T0000Z-200220T0231Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-19T21:31:00-05:00"
+            ]
+        }
+    }
+}
