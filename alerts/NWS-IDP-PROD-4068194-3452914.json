@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068194-3452914",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -81.99,
+                    32.22
+                ],
+                [
+                    -81.89,
+                    32.22
+                ],
+                [
+                    -81.8199999,
+                    32.22
+                ],
+                [
+                    -81.83,
+                    32.15
+                ],
+                [
+                    -81.89,
+                    32.15
+                ],
+                [
+                    -81.98,
+                    32.15
+                ],
+                [
+                    -81.99,
+                    32.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068194-3452914",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4068194-3452914",
+        "areaDesc": "Evans, GA",
+        "geocode": {
+            "UGC": [
+                "GAC109"
+            ],
+            "SAME": [
+                "013109"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC109"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067602-3452417",
+                "identifier": "NWS-IDP-PROD-4067602-3452417",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T20:36:00-05:00"
+            }
+        ],
+        "sent": "2020-02-20T09:32:00-05:00",
+        "effective": "2020-02-20T09:32:00-05:00",
+        "onset": "2020-02-21T01:00:00-05:00",
+        "expires": "2020-02-21T09:32:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Charleston SC",
+        "headline": "Flood Warning issued February 20 at 9:32AM EST by NWS Charleston SC",
+        "description": "The Flood Warning continues for\nThe Canoochee River near Claxton.\n* At 8 AM Thursday the stage was 10.2 feet.\n* Flood stage is 11.0 feet.\n* Minor flooding is forecast.\n* Forecast, rise above flood stage by early Friday morning and\ncontinue to rise to near 12.6 feet by Sunday morning. Additional\nrises are possible thereafter.\n* At 13.5 feet, Hillside Drive, the main access road into Canoochee\nProperties, will be flooded.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCHS.FL.W.0014.200221T0600Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CHSFLSCHS"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

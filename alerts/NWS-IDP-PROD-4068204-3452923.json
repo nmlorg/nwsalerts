@@ -1,0 +1,83 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068204-3452923",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068204-3452923",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4068204-3452923",
+        "areaDesc": "Northern Somerset; Northwest Aroostook; Central Piscataquis; Northern Piscataquis; Northeast Aroostook",
+        "geocode": {
+            "UGC": [
+                "MEZ003",
+                "MEZ001",
+                "MEZ010",
+                "MEZ004",
+                "MEZ002"
+            ],
+            "SAME": [
+                "023025",
+                "023003",
+                "023021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MEZ003",
+            "https://api.weather.gov/zones/forecast/MEZ001",
+            "https://api.weather.gov/zones/forecast/MEZ010",
+            "https://api.weather.gov/zones/forecast/MEZ004",
+            "https://api.weather.gov/zones/forecast/MEZ002"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067794-3452591",
+                "identifier": "NWS-IDP-PROD-4067794-3452591",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T22:30:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067233-3452097",
+                "identifier": "NWS-IDP-PROD-4067233-3452097",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T14:52:00-05:00"
+            }
+        ],
+        "sent": "2020-02-20T09:33:00-05:00",
+        "effective": "2020-02-20T09:33:00-05:00",
+        "onset": "2020-02-20T09:33:00-05:00",
+        "expires": "2020-02-20T10:45:00-05:00",
+        "ends": "2020-02-20T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Chill Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Caribou ME",
+        "headline": "Wind Chill Advisory issued February 20 at 9:33AM EST until February 20 at 10:00AM EST by NWS Caribou ME",
+        "description": "Actual air temperatures will slowly moderate, thus the wind chill\nadvisory will be allowed to expire.",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+            "NWSheadline": [
+                "WIND CHILL ADVISORY WILL EXPIRE AT 10 AM EST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXP.KCAR.WC.Y.0003.000000T0000Z-200220T1500Z/"
+            ],
+            "PIL": [
+                "CARWSWCAR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-20T10:00:00-05:00"
+            ]
+        }
+    }
+}
