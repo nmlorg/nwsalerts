@@ -1,0 +1,102 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067853",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -74.15,
+                    42.76
+                ],
+                [
+                    -73.87,
+                    42.659999899999995
+                ],
+                [
+                    -74.43,
+                    42.529999999999994
+                ],
+                [
+                    -74.64,
+                    42.60999999999999
+                ],
+                [
+                    -74.63,
+                    42.61999999999999
+                ],
+                [
+                    -74.64999999999999,
+                    42.68999999999999
+                ],
+                [
+                    -74.15,
+                    42.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067853",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4067853",
+        "areaDesc": "Schoharie; Western Albany; Eastern Albany; Western Schenectady",
+        "geocode": {
+            "UGC": [
+                "NYZ047",
+                "NYZ051",
+                "NYZ052",
+                "NYZ048"
+            ],
+            "SAME": [
+                "036095",
+                "036001",
+                "036093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ047",
+            "https://api.weather.gov/zones/forecast/NYZ051",
+            "https://api.weather.gov/zones/forecast/NYZ052",
+            "https://api.weather.gov/zones/forecast/NYZ048"
+        ],
+        "references": [],
+        "sent": "2020-02-20T00:25:00-05:00",
+        "effective": "2020-02-20T00:25:00-05:00",
+        "onset": "2020-02-20T00:25:00-05:00",
+        "expires": "2020-02-20T01:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albany NY",
+        "headline": "Special Weather Statement issued February 20 at 12:25AM EST by NWS Albany NY",
+        "description": "At 1222 AM EST, an area of lake effect snow was located along a line\nextending from near Delanson to 6 miles east of Middlefield.\nMovement was east at 25 mph and will result in a quick accumulation\nof snow of an inch or less.\n\nLocations impacted include...\nCobleskill, Duanesburg, Berne, Voorheesville, Altamont, Middleburgh,\nSchoharie, Richmondville, Delanson, Central Bridge, Knox, Duane, East\nBerne, West Richmondville, West Berne, Huntersland, Warnerville,\nQuaker Street, West Fulton and Shutts Corners.\n\nThis includes Interstate 88 between exits 20 and 23.\n\nUse extra caution if you must travel into or through this snow.\nRapid changes in visibility and potentially slick roads are likely\nto lead to accidents.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-20T00:22:00.000-05:00...storm...289DEG...20KT...42.75,-74.23 42.68,-74.7"
+            ],
+            "NWSheadline": [
+                "AN AREA OF LAKE EFFECT SNOW WILL AFFECT SOUTHWESTERN SCHENECTADY... NORTHWESTERN ALBANY AND CENTRAL SCHOHARIE COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ALYSPSALY"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
