@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068482-3453144",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.22,
+                    35.88
+                ],
+                [
+                    -87.85,
+                    35.88
+                ],
+                [
+                    -87.86999999999999,
+                    35.4799999
+                ],
+                [
+                    -88.24,
+                    35.4799999
+                ],
+                [
+                    -88.22,
+                    35.88
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068482-3453144",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4068482-3453144",
+        "areaDesc": "Perry, TN; Decatur, TN",
+        "geocode": {
+            "UGC": [
+                "TNC135",
+                "TNC039"
+            ],
+            "SAME": [
+                "047135",
+                "047039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC135",
+            "https://api.weather.gov/zones/county/TNC039"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067831-3452629",
+                "identifier": "NWS-IDP-PROD-4067831-3452629",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T22:38:00-06:00"
+            }
+        ],
+        "sent": "2020-02-20T11:59:00-06:00",
+        "effective": "2020-02-20T11:59:00-06:00",
+        "onset": "2020-02-20T11:59:00-06:00",
+        "expires": "2020-02-21T11:58:00-06:00",
+        "ends": "2020-02-27T23:28:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Flood Warning issued February 20 at 11:59AM CST until February 27 at 11:28PM CST by NWS Memphis TN",
+        "description": "The Flood Warning continues for the Tennessee River.\n\nThe Flood Warning continues for\nthe Tennessee River at Perryville\n* until Wednesday February 26.\n* At 11 AM Thursday the stage was 371.2 feet.\n* Moderate flooding is occurring AND Moderate flooding is forecast.\n* Flood stage is 365.0 feet.\n* At 371.0 feet...In Perry County, majority of Crooked Creek\nCampground and Marina is flooded. Homes near the boat launch on\nToms Creek Boat Dock Road in the Toms Creek and Roan Creek areas\nbecome flooded.",
+        "instruction": "A followup Flood Statement will be issued this evening or sooner if\nconditions warrant.\n\nFor graphical river and flood information...please go to\nwww.weather.gov and click near Memphis on the map, then select Rivers\nand Lakes.\n\nDo not drive through flooded areas...turn around don't drown.\n\nStay tuned to your weather radio and your local news media for the\nlatest river information.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KMEG.FL.W.0036.000000T0000Z-200228T0528Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGFLSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-27T23:28:00-06:00"
+            ]
+        }
+    }
+}
