@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068304-3453001",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.75,
+                    37.83
+                ],
+                [
+                    -86.8199999,
+                    37.94
+                ],
+                [
+                    -86.81,
+                    38.059999999999995
+                ],
+                [
+                    -86.7,
+                    37.94
+                ],
+                [
+                    -86.75,
+                    37.83
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068304-3453001",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4068304-3453001",
+        "areaDesc": "Hancock, KY; Perry, IN",
+        "geocode": {
+            "UGC": [
+                "KYC091",
+                "INC123"
+            ],
+            "SAME": [
+                "021091",
+                "018123"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC091",
+            "https://api.weather.gov/zones/county/INC123"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067820-3452620",
+                "identifier": "NWS-IDP-PROD-4067820-3452620",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T23:10:00-05:00"
+            }
+        ],
+        "sent": "2020-02-20T10:17:00-05:00",
+        "effective": "2020-02-20T10:17:00-05:00",
+        "onset": "2020-02-20T10:17:00-05:00",
+        "expires": "2020-02-21T04:13:00-05:00",
+        "ends": "2020-02-21T04:13:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Flood Warning issued February 20 at 10:17AM EST until February 21 at 4:13AM EST by NWS Louisville KY",
+        "description": "...The Flood Warning continues for the following rivers in Indiana...\nKentucky...\n\nOhio River at Tell City\n\naffecting the following counties in Indiana...Perry and in\nKentucky...Hancock.\n\nThe Flood Warning continues for\nthe Ohio River at Tell City.\n* until late tonight.\n* At  7:00 AM Thursday the stage was 40.3 feet.\n* Flood stage is 38.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue to fall to below flood stage by\nFriday.\n* Impact...At 40.0 feet...Indiana highway 66 closes above Cannelton.\n* Flood History...This crest compares to a previous crest of 40.5\nfeet on Mar 12 2008.",
+        "instruction": "If you are affected by these crests take any necessary actions.\nAdditional information is available at\nwater.weather.gov/ahps2/index.php?wfo=lmk.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLMK.FL.W.0012.000000T0000Z-200221T0913Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKFLSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-21T04:13:00-05:00"
+            ]
+        }
+    }
+}
