@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067555-3452370",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -84.99,
+                    33.3
+                ],
+                [
+                    -84.91,
+                    33.29
+                ],
+                [
+                    -84.89,
+                    33.22
+                ],
+                [
+                    -84.99,
+                    33.199999999999996
+                ],
+                [
+                    -85.00999999999999,
+                    33.26
+                ],
+                [
+                    -84.99,
+                    33.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067555-3452370",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4067555-3452370",
+        "areaDesc": "Heard, GA",
+        "geocode": {
+            "UGC": [
+                "GAC149"
+            ],
+            "SAME": [
+                "013149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC149"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067194-3452059",
+                "identifier": "NWS-IDP-PROD-4067194-3452059",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T14:18:00-05:00"
+            }
+        ],
+        "sent": "2020-02-19T20:22:00-05:00",
+        "effective": "2020-02-19T20:22:00-05:00",
+        "onset": "2020-02-19T20:22:00-05:00",
+        "expires": "2020-02-20T10:22:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 19 at 8:22PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nNew River near Franklin affecting Heard County\n\nYellowJacket Creek near Hogansville affecting Troup County\n\nThe Flood Warning continues for\nThe New River near Franklin.\n* Until further notice.\n* At 800 PM Wednesday the stage was 13.1 feet...and\nfalling.\n* Minor flooding is occurring.\n* Flood stage is 12.0 feet.\n* At 14.0 feet...Minor flooding continues in the woodlands and\nwetlands along the river upstream and downstream from the gage on\nGeorgia Highway 100.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0195.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
