@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068414-3453087",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.63,
+                    30.57
+                ],
+                [
+                    -93.64,
+                    30.11
+                ],
+                [
+                    -93.78,
+                    30.11
+                ],
+                [
+                    -93.81,
+                    30.31
+                ],
+                [
+                    -93.78,
+                    30.619999999999997
+                ],
+                [
+                    -93.63,
+                    30.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068414-3453087",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4068414-3453087",
+        "areaDesc": "Orange, TX; Newton, TX; Beauregard, LA; Calcasieu, LA",
+        "geocode": {
+            "UGC": [
+                "TXC361",
+                "TXC351",
+                "LAC011",
+                "LAC019"
+            ],
+            "SAME": [
+                "048361",
+                "048351",
+                "022011",
+                "022019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC361",
+            "https://api.weather.gov/zones/county/TXC351",
+            "https://api.weather.gov/zones/county/LAC011",
+            "https://api.weather.gov/zones/county/LAC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067584-3452399",
+                "identifier": "NWS-IDP-PROD-4067584-3452399",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T19:32:00-06:00"
+            }
+        ],
+        "sent": "2020-02-20T10:49:00-06:00",
+        "effective": "2020-02-20T10:49:00-06:00",
+        "onset": "2020-02-22T06:00:00-06:00",
+        "expires": "2020-02-21T10:47:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued February 20 at 10:49AM CST by NWS Lake Charles LA",
+        "description": "...The Flood Warning continues for the following rivers in\nLouisiana...Texas...\n\nSabine River Near Deweyville\n\n...The Flood Warning continues for the following rivers in\nLouisiana..\nAtchafalaya River At Morgan City\nCalcasieu River Near Glenmora\n\nThe Flood Warning continues for\nThe Sabine River Near Deweyville.\n* from Saturday morning until further notice...or until the warning\nis cancelled.\n* At  9:45 AM Thursday the stage was 23.1 feet.\n* Minor flooding is forecast.\n* Flood stage is 24.0 feet.\n* Forecast...rise above flood stage by Saturday morning and continue\nto rise to near 24.2 feet by Sunday early afternoon. Additional\nrises are possible thereafter.\n* Impact...At stages near 24.0 feet...Minor lowland flooding will\noccur.\n* Impact...At stages near 23.0 feet...The river is at bankfull\nstage.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KLCH.FL.W.0015.200222T1200Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHFLSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
