@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067658-3452472",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.9599999,
+                    33.1599999
+                ],
+                [
+                    -83.8199999,
+                    33.1599999
+                ],
+                [
+                    -83.8199999,
+                    33.1
+                ],
+                [
+                    -83.9599999,
+                    33.1
+                ],
+                [
+                    -83.9599999,
+                    33.1599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067658-3452472",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4067658-3452472",
+        "areaDesc": "Monroe, GA",
+        "geocode": {
+            "UGC": [
+                "GAC207"
+            ],
+            "SAME": [
+                "013207"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC207"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067211-3452075",
+                "identifier": "NWS-IDP-PROD-4067211-3452075",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T14:41:00-05:00"
+            }
+        ],
+        "sent": "2020-02-19T21:18:00-05:00",
+        "effective": "2020-02-19T21:18:00-05:00",
+        "onset": "2020-02-19T21:18:00-05:00",
+        "expires": "2020-02-20T11:18:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 19 at 9:18PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nTowaliga River near Juliette affecting Monroe County\n\nOcmulgee River near Dames Ferry affecting Jones and Monroe\nCounties\n\nOcmulgee River near Macon affecting Bibb...Houston...Jones...\nMonroe and Twiggs Counties\n\nThe Flood Warning continues for\nThe Towaliga River near Juliette.\n* Until further notice.\n* At 8 PM Wednesday the stage was 18.1 feet, and slowly falling.\n* Minor flooding will continue.\n* Flood stage is 16 feet.\n* At 18 feet...Minor flooding expands into woodlands and fields\nupstream and downstream from the gage on Monticello Highway or\nGeorgia Highway 83.  Portions of Byars Road and numerous private\naccess roads near the river will flood.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0193.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
