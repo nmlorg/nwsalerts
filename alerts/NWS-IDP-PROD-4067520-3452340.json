@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067520-3452340",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.88,
+                    37.25
+                ],
+                [
+                    -88.61,
+                    37.15
+                ],
+                [
+                    -88.52,
+                    37.15
+                ],
+                [
+                    -88.36999999999999,
+                    37.07
+                ],
+                [
+                    -88.53999999999999,
+                    36.97
+                ],
+                [
+                    -88.72,
+                    37.089999999999996
+                ],
+                [
+                    -88.9,
+                    37.159999899999995
+                ],
+                [
+                    -88.88,
+                    37.25
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067520-3452340",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4067520-3452340",
+        "areaDesc": "Pope, IL; McCracken, KY; Massac, IL; Livingston, KY",
+        "geocode": {
+            "UGC": [
+                "ILC151",
+                "KYC145",
+                "ILC127",
+                "KYC139"
+            ],
+            "SAME": [
+                "017151",
+                "021145",
+                "017127",
+                "021139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC151",
+            "https://api.weather.gov/zones/county/KYC145",
+            "https://api.weather.gov/zones/county/ILC127",
+            "https://api.weather.gov/zones/county/KYC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067125-3452013",
+                "identifier": "NWS-IDP-PROD-4067125-3452013",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T11:05:00-06:00"
+            }
+        ],
+        "sent": "2020-02-19T18:54:00-06:00",
+        "effective": "2020-02-19T18:54:00-06:00",
+        "onset": "2020-02-19T18:54:00-06:00",
+        "expires": "2020-02-20T22:54:00-06:00",
+        "ends": "2020-02-29T01:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued February 19 at 6:54PM CST until February 29 at 1:30AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following river in\nIllinois...Kentucky...Missouri...\n\nOhio River at Smithland Dam...Paducah...Olmsted Lock and Dam\nand Cairo\n\n.The Ohio River from Smithland Dam to Cairo is cresting or near\ncrest at this time. Slow falls in water levels are expected\nthrough the remainder of the month of February. Water levels\nare expected to fall below flood stage no sooner than late next\nweek.\n\nThe Flood Warning continues for\nthe Ohio River at Paducah\n* until Saturday February 29.\n* At  6:00 PM Wednesday the stage was 47.7 feet.\n* Flood Stage is 39.0 feet.\n* Moderate flooding is occurring and Moderate flooding is forecast.\n* Forecast...The river is cresting near 47.8 feet tomorrow morning,\nafter which it will slowly fall.\n* Impact...At 47.0 Feet...Property damage begins on the the Illinois\nand Kentucky sides of the river.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0029.000000T0000Z-200229T0730Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-29T01:30:00-06:00"
+            ]
+        }
+    }
+}
