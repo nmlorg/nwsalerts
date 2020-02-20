@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068096",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -74.27,
+                    42.89
+                ],
+                [
+                    -74.25999999999999,
+                    42.9799999
+                ],
+                [
+                    -73.74999999999999,
+                    42.96
+                ],
+                [
+                    -73.75999999999999,
+                    42.84
+                ],
+                [
+                    -73.75999999999999,
+                    42.7299999
+                ],
+                [
+                    -74.27,
+                    42.89
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068096",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4068096",
+        "areaDesc": "Southern Saratoga; Montgomery; Eastern Albany; Eastern Schenectady; Western Schenectady",
+        "geocode": {
+            "UGC": [
+                "NYZ050",
+                "NYZ040",
+                "NYZ052",
+                "NYZ049",
+                "NYZ048"
+            ],
+            "SAME": [
+                "036091",
+                "036057",
+                "036001",
+                "036093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ050",
+            "https://api.weather.gov/zones/forecast/NYZ040",
+            "https://api.weather.gov/zones/forecast/NYZ052",
+            "https://api.weather.gov/zones/forecast/NYZ049",
+            "https://api.weather.gov/zones/forecast/NYZ048"
+        ],
+        "references": [],
+        "sent": "2020-02-20T08:02:00-05:00",
+        "effective": "2020-02-20T08:02:00-05:00",
+        "onset": "2020-02-20T08:02:00-05:00",
+        "expires": "2020-02-20T09:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albany NY",
+        "headline": "Special Weather Statement issued February 20 at 8:02AM EST by NWS Albany NY",
+        "description": "At 801 AM EST, an area of snow showers was located over Rotterdam\nJunction, or near Scotia, moving east at 15 mph.\n\nThis includes the following highways...\nInterstate 90 between exits 26 and 27.\nInterstate 890 between exits 1a and 6.\nInterstate 87 between exits 5 and 7, and between exits 8A and 11.\n\nVisibilities will drop quickly to less than a half of a mile in this\narea of snow showers.\n\nIcy roads are possible as the snow melts on the roads then quickly\nrefreezes.\n\nConditions can deteriorate rapidly in winter weather situations. Be\nprepared for snow or ice covered roads. Slow down and allow extra\ntime when traveling.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-20T08:01:00.000-05:00...storm...276DEG...12KT...42.88,-74.02"
+            ],
+            "NWSheadline": [
+                "AN AREA OF SNOW SHOWERS WILL AFFECT CENTRAL SCHENECTADY... NORTHEASTERN ALBANY...SOUTHWESTERN SARATOGA AND EAST CENTRAL MONTGOMERY COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ALYSPSALY"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
