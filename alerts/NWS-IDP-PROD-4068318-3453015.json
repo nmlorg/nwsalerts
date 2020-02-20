@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068318-3453015",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.51,
+                    33.52
+                ],
+                [
+                    -88.63000000000001,
+                    33.52
+                ],
+                [
+                    -88.80000000000001,
+                    33.56
+                ],
+                [
+                    -88.70999990000001,
+                    33.650000000000006
+                ],
+                [
+                    -88.61000000000001,
+                    33.59
+                ],
+                [
+                    -88.53000000000002,
+                    33.57
+                ],
+                [
+                    -88.51,
+                    33.52
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068318-3453015",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4068318-3453015",
+        "areaDesc": "Clay, MS",
+        "geocode": {
+            "UGC": [
+                "MSC025"
+            ],
+            "SAME": [
+                "028025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MSC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067682-3452494",
+                "identifier": "NWS-IDP-PROD-4067682-3452494",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T20:33:00-06:00"
+            }
+        ],
+        "sent": "2020-02-20T09:23:00-06:00",
+        "effective": "2020-02-20T09:23:00-06:00",
+        "onset": "2020-02-20T09:22:00-06:00",
+        "expires": "2020-02-21T15:22:00-06:00",
+        "ends": "2020-02-23T20:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued February 20 at 9:22AM CST until February 23 at 8:00PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nTibbee Creek Near Tibbee affecting Clay County\nNoxubee River At Macon affecting Noxubee County\n\nThe Flood Warning continues for\nThe Tibbee Creek Near Tibbee\n* until Sunday evening.\n* At  8:30 AM Thursday the stage was 25.1 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 23.0 feet.\n* Forecast...The river will continue rising to near 25.5 feet this\nevening.\n* Impact...At 26.0 feet...Low land and agriculture land near the creek\nis flooded.\n* Impact...At 23.5 feet...Flood water is covering the gravel road\nsouth of West Point that leads to the Tibbee Creek bridge near\nTibbee.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 48 hours. Rainfall\namounts greater than forecast may take the rivers higher.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected tonight between 8 and\n10 PM.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning extended until Sunday evening"
+            ],
+            "VTEC": [
+                "/O.EXT.KJAN.FL.W.0089.000000T0000Z-200224T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-23T20:00:00-06:00"
+            ]
+        }
+    }
+}
