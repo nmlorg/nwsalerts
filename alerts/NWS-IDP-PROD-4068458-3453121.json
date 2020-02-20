@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068458-3453121",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.16,
+                    37.17
+                ],
+                [
+                    -89.02,
+                    37.25
+                ],
+                [
+                    -88.88,
+                    37.25
+                ],
+                [
+                    -88.89999999999999,
+                    37.1599999
+                ],
+                [
+                    -88.99,
+                    37.17
+                ],
+                [
+                    -89.05999999999999,
+                    37.09
+                ],
+                [
+                    -89.16,
+                    37.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4068458-3453121",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4068458-3453121",
+        "areaDesc": "Ballard, KY; Pulaski, IL",
+        "geocode": {
+            "UGC": [
+                "KYC007",
+                "ILC153"
+            ],
+            "SAME": [
+                "021007",
+                "017153"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC007",
+            "https://api.weather.gov/zones/county/ILC153"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067518-3452338",
+                "identifier": "NWS-IDP-PROD-4067518-3452338",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T18:54:00-06:00"
+            }
+        ],
+        "sent": "2020-02-20T11:29:00-06:00",
+        "effective": "2020-02-20T11:29:00-06:00",
+        "onset": "2020-02-20T11:29:00-06:00",
+        "expires": "2020-02-21T15:28:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Flood Warning issued February 20 at 11:29AM CST by NWS Paducah KY",
+        "description": "...The flood warning continues for the following rivers in\nIllinois...Kentucky...Missouri...\n\nOhio River at Smithland Dam...Paducah...Olmsted Lock and Dam\nand Cairo\n\n.The points along the Ohio River between Smithland Dam and Cairo are\nremaining at or near crest at this time. Water levels along this\nstretch of the Ohio River will fall below flood stage between\nFebruary 28th and March 1st.\n\nThe Flood Warning continues for\nthe Ohio River at Olmsted Lock and Dam\n* until further notice.\n* At 11:00 AM Thursday the stage was 48.0 feet.\n* Flood Stage is 36.0 feet.\n* Major flooding is occurring and Major flooding is forecast.\n* Forecast...The River is cresting at this time and is forecast to\nslowly fall to minor flood stage on February 28th, eventually\ndropping below flood stage during the early morning of March 1st.",
+        "instruction": "SAFETY MESSAGE...\n\nNever drive cars...trucks or sport utility vehicles through flooded\nareas. The water may be too deep to allow safe passage. Never allow\nchildren to play in or near flood waters. Stay tuned to NOAA Weather\nRadio or your local media for further statements and possible updated\nforecasts.\n\nAdditional information is available at\nhttp://www.crh.noaa.gov/ahps2/index.php?wfo=pah /lower case/",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KPAH.FL.W.0024.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHFLSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
