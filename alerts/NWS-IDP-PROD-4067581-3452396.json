@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067581-3452396",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -95.67,
+                    33.37
+                ],
+                [
+                    -95.56,
+                    33.409999899999995
+                ],
+                [
+                    -95.49000000000001,
+                    33.409999899999995
+                ],
+                [
+                    -95.48,
+                    33.3
+                ],
+                [
+                    -95.5699999,
+                    33.29
+                ],
+                [
+                    -95.67,
+                    33.37
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067581-3452396",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4067581-3452396",
+        "areaDesc": "Delta, TX; Hopkins, TX",
+        "geocode": {
+            "UGC": [
+                "TXC119",
+                "TXC223"
+            ],
+            "SAME": [
+                "048119",
+                "048223"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC119",
+            "https://api.weather.gov/zones/county/TXC223"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067014-3451913",
+                "identifier": "NWS-IDP-PROD-4067014-3451913",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T09:58:00-06:00"
+            }
+        ],
+        "sent": "2020-02-19T19:30:00-06:00",
+        "effective": "2020-02-19T19:30:00-06:00",
+        "onset": "2020-02-19T19:30:00-06:00",
+        "expires": "2020-02-20T07:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Flood Warning issued February 19 at 7:30PM CST by NWS Fort Worth TX",
+        "description": "...The Flood Warning continues for the following areas in Texas...\nSouth Sulphur River Near Cooper Affecting Delta and Hopkins\nCounties\n\nThe Flood Warning continues for\nThe South Sulphur River Near Cooper.\n* At 0715 PM Wednesday the stage was 17.99 feet.\n* Flood stage is  16 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river should remain near the 18 feet level for the\nnext few days.",
+        "instruction": "Do not drive cars through flooded areas.\nCaution is urged when walking near riverbanks.\nStay tuned to NOAA All Hazards Radio for the latest river forecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFWD.FL.W.0022.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FWDFLSFWD"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

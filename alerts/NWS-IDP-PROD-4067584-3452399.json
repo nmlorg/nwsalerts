@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067584-3452399",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.63,
+                    30.57
+                ],
+                [
+                    -93.64,
+                    30.11
+                ],
+                [
+                    -93.78,
+                    30.11
+                ],
+                [
+                    -93.81,
+                    30.31
+                ],
+                [
+                    -93.78,
+                    30.619999999999997
+                ],
+                [
+                    -93.63,
+                    30.57
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067584-3452399",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4067584-3452399",
+        "areaDesc": "Orange, TX; Newton, TX; Beauregard, LA; Calcasieu, LA",
+        "geocode": {
+            "UGC": [
+                "TXC361",
+                "TXC351",
+                "LAC011",
+                "LAC019"
+            ],
+            "SAME": [
+                "048361",
+                "048351",
+                "022011",
+                "022019"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TXC361",
+            "https://api.weather.gov/zones/county/TXC351",
+            "https://api.weather.gov/zones/county/LAC011",
+            "https://api.weather.gov/zones/county/LAC019"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4067040-3451933",
+                "identifier": "NWS-IDP-PROD-4067040-3451933",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-19T10:12:00-06:00"
+            }
+        ],
+        "sent": "2020-02-19T19:32:00-06:00",
+        "effective": "2020-02-19T19:32:00-06:00",
+        "onset": "2020-02-21T18:00:00-06:00",
+        "expires": "2020-02-20T19:32:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued February 19 at 7:32PM CST by NWS Lake Charles LA",
+        "description": "...The Flood Warning continues for the following rivers in\nLouisiana...Texas..\nAtchafalaya River At Morgan City\nCalcasieu River Near Glenmora\nSabine River Near Deweyville\n\nThe Flood Warning continues for\nThe Sabine River Near Deweyville.\n* from Friday evening until further notice...or until the warning is\ncancelled.\n* At  6:45 PM Wednesday the stage was 22.6 feet.\n* Minor flooding is forecast.\n* Flood stage is 24.0 feet.\n* Forecast...rise above flood stage by Friday evening and continue to\nrise to near 24.5 feet by Sunday evening. additional rises are\npossible thereafter.\n* Impact...At stages near 25.0 feet...Lowest roads beside the river\nflood around Deweyville and subject to being closed. In addition,\nlow-lying roads in Southwest Beauregard Parish are flooded\nincluding Robert Clark Road. Flooding occurs on the south side of\nNiblett Bluff Park with access roads to camp houses cut off around\nthe park. Access roads to the river in Northeastern Orange County\nbecome flooded.\n* Impact...At stages near 24.0 feet...Minor lowland flooding will\noccur.\n* Impact...At stages near 23.0 feet...The river is at bankfull\nstage.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KLCH.FL.W.0015.200222T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LCHFLSLCH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
