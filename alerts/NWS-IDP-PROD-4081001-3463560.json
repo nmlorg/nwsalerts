@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081001-3463560",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081001-3463560",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4081001-3463560",
+        "areaDesc": "Morris; Geary; Pottawatomie; Clay; Wabaunsee; Riley; Dickinson; Lyon",
+        "geocode": {
+            "UGC": [
+                "KSZ037",
+                "KSZ036",
+                "KSZ023",
+                "KSZ021",
+                "KSZ038",
+                "KSZ022",
+                "KSZ035",
+                "KSZ054"
+            ],
+            "SAME": [
+                "020127",
+                "020061",
+                "020149",
+                "020027",
+                "020197",
+                "020161",
+                "020041",
+                "020111"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/fire/KSZ037",
+            "https://api.weather.gov/zones/fire/KSZ036",
+            "https://api.weather.gov/zones/fire/KSZ023",
+            "https://api.weather.gov/zones/fire/KSZ021",
+            "https://api.weather.gov/zones/fire/KSZ038",
+            "https://api.weather.gov/zones/fire/KSZ022",
+            "https://api.weather.gov/zones/fire/KSZ035",
+            "https://api.weather.gov/zones/fire/KSZ054"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080270-3462938",
+                "identifier": "NWS-IDP-PROD-4080270-3462938",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-29T04:18:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080742-3463330",
+                "identifier": "NWS-IDP-PROD-4080742-3463330",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-29T13:33:00-06:00"
+            }
+        ],
+        "sent": "2020-02-29T17:52:00-06:00",
+        "effective": "2020-02-29T17:52:00-06:00",
+        "onset": "2020-02-29T17:52:00-06:00",
+        "expires": "2020-02-29T19:00:00-06:00",
+        "ends": "2020-02-29T18:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Topeka KS",
+        "headline": "Red Flag Warning issued February 29 at 5:52PM CST until February 29 at 6:00PM CST by NWS Topeka KS",
+        "description": "Although southerly winds will continue to be gusty this evening,\ntemperatures have begun to fall and relative humidity values have\nbeen rising. Therefore, fire weather conditions will be improving\nso will let the red flag warning expire at 6 PM.",
+        "instruction": null,
+        "response": "Prepare",
+        "parameters": {
+            "NWSheadline": [
+                "RED FLAG WARNING WILL EXPIRE AT 6 PM CST THIS EVENING FOR FIRE WEATHER ZONES 021, 022, 023, 035, 036, 037, 038, AND 054"
+            ],
+            "VTEC": [
+                "/O.EXP.KTOP.FW.W.0001.000000T0000Z-200301T0000Z/"
+            ],
+            "PIL": [
+                "TOPRFWTOP"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-02-29T18:00:00-06:00"
+            ]
+        }
+    }
+}
