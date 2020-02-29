@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080432-3463086",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.9,
+                    33.84
+                ],
+                [
+                    -80.83000000000001,
+                    33.800000000000004
+                ],
+                [
+                    -80.85000000000001,
+                    33.77
+                ],
+                [
+                    -80.91000000000001,
+                    33.800000000000004
+                ],
+                [
+                    -80.9,
+                    33.84
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080432-3463086",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4080432-3463086",
+        "areaDesc": "Richland, SC; Calhoun, SC",
+        "geocode": {
+            "UGC": [
+                "SCC079",
+                "SCC017"
+            ],
+            "SAME": [
+                "045079",
+                "045017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC079",
+            "https://api.weather.gov/zones/county/SCC017"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080214-3462893",
+                "identifier": "NWS-IDP-PROD-4080214-3462893",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-29T04:06:00-05:00"
+            }
+        ],
+        "sent": "2020-02-29T09:23:00-05:00",
+        "effective": "2020-02-29T09:23:00-05:00",
+        "onset": "2020-02-29T09:23:00-05:00",
+        "expires": "2020-03-01T09:22:00-05:00",
+        "ends": "2020-03-02T23:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Columbia SC",
+        "headline": "Flood Warning issued February 29 at 9:23AM EST until March 2 at 11:30PM EST by NWS Columbia SC",
+        "description": "...The Flood Warning continues for the following rivers in South\nCarolina...\n\nCongaree River At Carolina Eastman affecting Calhoun...Lexington and\nRichland Counties\n\nCongaree River At Congaree National Park-Gadsden affecting Calhoun\nand Richland Counties\n\n..Water releases from upstream dams and pump stations continues to\ncause the Congaree River to fluctuate above and below flood stage.\n\nThe Flood Warning extended for\nThe Congaree River At Congaree National Park-Gadsden.\n* until Monday evening...Or until the warning is cancelled.\n* At  9 AM Saturday the stage was 14.9 feet.\n* Flood stage is 15.0 feet.\n* Minor flooding is forecast.\n* forecast...The river will again rise above flood stage late this morning\nand crest around 15.8 feet Sunday morning. It will then fall below\nflood stage Sunday night.\n* At 15.0 feet...Flooding begins in the Congaree National Park. This\nwill begin to produce flooding of portions of the lower boardwalk.",
+        "instruction": "Safety message...never drive vehicles through flooded areas. The\nwater may be too deep to allow safe passage. Never allow children to\nplay in or near flood waters. Stay tuned to noaa weather radio...\nlocal media or the internet for further statements and updated\nforecasts.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KCAE.FL.W.0024.000000T0000Z-200303T0430Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "CAEFLSCAE"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T23:30:00-05:00"
+            ]
+        }
+    }
+}

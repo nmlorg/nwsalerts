@@ -1,0 +1,84 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080267-3462935",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080267-3462935",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4080267-3462935",
+        "areaDesc": "Southern Sacramento Valley; Northern Sacramento Valley; Central Sacramento Valley",
+        "geocode": {
+            "UGC": [
+                "CAZ017",
+                "CAZ015",
+                "CAZ016"
+            ],
+            "SAME": [
+                "006005",
+                "006017",
+                "006061",
+                "006067",
+                "006095",
+                "006101",
+                "006113",
+                "006089",
+                "006103",
+                "006007",
+                "006011",
+                "006021",
+                "006057",
+                "006115"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CAZ017",
+            "https://api.weather.gov/zones/forecast/CAZ015",
+            "https://api.weather.gov/zones/forecast/CAZ016"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4079612-3462397",
+                "identifier": "NWS-IDP-PROD-4079612-3462397",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-28T13:58:00-08:00"
+            }
+        ],
+        "sent": "2020-02-29T02:07:00-08:00",
+        "effective": "2020-02-29T02:07:00-08:00",
+        "onset": "2020-03-01T10:00:00-08:00",
+        "expires": "2020-02-29T16:00:00-08:00",
+        "ends": "2020-03-01T20:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Sacramento CA",
+        "headline": "Wind Advisory issued February 29 at 2:07AM PST until March 1 at 8:00PM PST by NWS Sacramento CA",
+        "description": "...Gusty North Wind Sunday...\n\n.Strong northerly winds will develop on Sunday over the\nSacramento Valley as a low pressure system exits the area. Wind\nbegins to increase late in the morning, with the strongest wind\nSunday afternoon and evening. Highest wind speeds are expected\nalong over the northern Sacramento Valley. Wind speeds decrease\nSunday night, but remain breezy into Monday.\n\n* WHAT...North winds 20 to 30 mph with gusts up to 40 to 45 mph\nexpected.\n\n* WHERE...Northern Sacramento Valley, Central Sacramento Valley\nand Southern Sacramento Valley Counties.\n\n* WHEN...From 10 AM to 8 PM PST Sunday.\n\n* IMPACTS...Gusty winds could blow around unsecured objects.\nTree limbs could be blown down and a few power outages may\nresult.\n\n* ADDITIONAL DETAILS...Driving could be difficult, especially for\nhigh profile vehicles.",
+        "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY REMAINS IN EFFECT FROM 10 AM TO 8 PM PST SUNDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KSTO.WI.Y.0006.200301T1800Z-200302T0400Z/"
+            ],
+            "PIL": [
+                "STONPWSTO"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-01T20:00:00-08:00"
+            ]
+        }
+    }
+}

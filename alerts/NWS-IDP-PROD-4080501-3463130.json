@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080501-3463130",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.99,
+                    31.75
+                ],
+                [
+                    -82.99,
+                    31.81
+                ],
+                [
+                    -82.78,
+                    31.889999999999997
+                ],
+                [
+                    -82.61,
+                    31.959999999999997
+                ],
+                [
+                    -82.58,
+                    31.909999999999997
+                ],
+                [
+                    -82.85,
+                    31.759999999999998
+                ],
+                [
+                    -82.99,
+                    31.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080501-3463130",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4080501-3463130",
+        "areaDesc": "Telfair, GA; Montgomery, GA; Wheeler, GA",
+        "geocode": {
+            "UGC": [
+                "GAC271",
+                "GAC209",
+                "GAC309"
+            ],
+            "SAME": [
+                "013271",
+                "013209",
+                "013309"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC271",
+            "https://api.weather.gov/zones/county/GAC209",
+            "https://api.weather.gov/zones/county/GAC309"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080098-3462810",
+                "identifier": "NWS-IDP-PROD-4080098-3462810",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-29T02:59:00-05:00"
+            }
+        ],
+        "sent": "2020-02-29T10:01:00-05:00",
+        "effective": "2020-02-29T10:01:00-05:00",
+        "onset": "2020-02-29T10:01:00-05:00",
+        "expires": "2020-03-01T00:01:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued February 29 at 10:01AM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\n\nOcmulgee River near Hawkinsville affecting Bleckley and Pulaski\nCounties\n\nOconee River near Oconee affecting Johnson...Washington and\nWilkinson Counties\n\nOconee River near Dublin affecting Johnson...Laurens...Washington\nand Wilkinson Counties\n\nOconee River near Mount Vernon affecting Montgomery...Treutlen and\nWheeler Counties\n\nOcmulgee River near Abbeville affecting Dodge...Telfair and Wilcox\nCounties\n\nOcmulgee River near Lumber City affecting Montgomery...Telfair and\nWheeler Counties\n\nThe Flood Warning continues for\nThe Ocmulgee River near Lumber City.\n* Until further notice.\n* At 845 AM Saturday the stage was 18.6 feet...and falling.\n* Moderate flooding is occurring and forecast.\n* Flood stage is 15 feet.\n* The river will continue to fall to below moderate flood stage by\nSunday morning, then continue in minor flooding.\n* At 18 feet...Moderate flooding begins. Flooding of the access\nroad to the boat ramp near the Highway 341 bridge begins.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0212.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

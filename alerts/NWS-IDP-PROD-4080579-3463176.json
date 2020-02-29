@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080579-3463176",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.13,
+                    32.55
+                ],
+                [
+                    -92.03999999999999,
+                    32.269999999999996
+                ],
+                [
+                    -92.17999999999999,
+                    32.269999999999996
+                ],
+                [
+                    -92.13999999999999,
+                    32.38999999999999
+                ],
+                [
+                    -92.16999999999999,
+                    32.43999999999999
+                ],
+                [
+                    -92.14999999999999,
+                    32.49999999999999
+                ],
+                [
+                    -92.13,
+                    32.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080579-3463176",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4080579-3463176",
+        "areaDesc": "Union, LA; Caldwell, LA; Ouachita, LA",
+        "geocode": {
+            "UGC": [
+                "LAC111",
+                "LAC021",
+                "LAC073"
+            ],
+            "SAME": [
+                "022111",
+                "022021",
+                "022073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC111",
+            "https://api.weather.gov/zones/county/LAC021",
+            "https://api.weather.gov/zones/county/LAC073"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4079745-3462526",
+                "identifier": "NWS-IDP-PROD-4079745-3462526",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-28T19:01:00-06:00"
+            }
+        ],
+        "sent": "2020-02-29T10:05:00-06:00",
+        "effective": "2020-02-29T10:05:00-06:00",
+        "onset": "2020-02-29T10:05:00-06:00",
+        "expires": "2020-03-01T10:05:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Shreveport LA",
+        "headline": "Flood Warning issued February 29 at 10:05AM CST by NWS Shreveport LA",
+        "description": "The flood warning continues for\nthe Ouachita River At Monroe.\n* until further notice...or until the warning is cancelled.\n* At  9:00 AM Saturday The stage was 42.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Flood stage is 40.0 feet.\n* Forecast...The river will continue rising to near 42.2 feet by\ntomorrow morning then begin falling.\n* Impact...at 43.0 feet...The Bawcomville and Moon Lake recreational\nareas flood and close.",
+        "instruction": "Do not drive vehicles through flooded waterways.  Use caution when\nwalking near flooded riverbanks.  Do not try to wade or swim in\nflooded rivers and bayous.\n\nFor more hydrologic information, copy and paste the following website\naddress into your favorite web browser URL bar:\nwater.weather.gov/ahps2/index.php?wfo=shv",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KSHV.FL.W.0032.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SHVFLSSHV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
