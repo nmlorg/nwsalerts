@@ -1,0 +1,87 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081910-3464298",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081910-3464298",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4081910-3464298",
+        "areaDesc": "Greater Lake Tahoe Area; Greater Lake Tahoe Area",
+        "geocode": {
+            "UGC": [
+                "NVZ002",
+                "CAZ072"
+            ],
+            "SAME": [
+                "032005",
+                "032031",
+                "032510",
+                "006003",
+                "006017",
+                "006057",
+                "006061"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NVZ002",
+            "https://api.weather.gov/zones/forecast/CAZ072"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080329-3463008",
+                "identifier": "NWS-IDP-PROD-4080329-3463008",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-29T03:24:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081872-3464262",
+                "identifier": "NWS-IDP-PROD-4081872-3464262",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-01T09:55:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081558-3464007",
+                "identifier": "NWS-IDP-PROD-4081558-3464007",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-01T03:49:00-08:00"
+            }
+        ],
+        "sent": "2020-03-01T11:46:00-08:00",
+        "effective": "2020-03-01T11:46:00-08:00",
+        "onset": "2020-03-01T11:46:00-08:00",
+        "expires": "2020-03-01T13:00:00-08:00",
+        "ends": "2020-03-01T12:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Reno NV",
+        "headline": "Winter Weather Advisory issued March 1 at 11:46AM PST until March 1 at 12:00PM PST by NWS Reno NV",
+        "description": "Isolated snow showers will continue this afternoon through the Tahoe\nbasin, but additional snowfall amounts will be light. As temperatures\nwarm slightly this afternoon, road temperatures are likely to rise\nenough to melt most of the accumulated snow that remains.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WINTER WEATHER ADVISORY WILL EXPIRE AT NOON PST TODAY"
+            ],
+            "VTEC": [
+                "/O.EXP.KREV.WW.Y.0004.000000T0000Z-200301T2000Z/"
+            ],
+            "PIL": [
+                "REVWSWREV"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-01T12:00:00-08:00"
+            ]
+        }
+    }
+}
