@@ -1,0 +1,81 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081303-3463804",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081303-3463804",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4081303-3463804",
+        "areaDesc": "West Side Hills; Western San Joaquin Valley; San Joaquin Confluence",
+        "geocode": {
+            "UGC": [
+                "CAZ179",
+                "CAZ182",
+                "CAZ180"
+            ],
+            "SAME": [
+                "006029",
+                "006031",
+                "006019",
+                "006047",
+                "006039"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CAZ179",
+            "https://api.weather.gov/zones/forecast/CAZ182",
+            "https://api.weather.gov/zones/forecast/CAZ180"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080888-3463435",
+                "identifier": "NWS-IDP-PROD-4080888-3463435",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-29T13:48:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080548-3463166",
+                "identifier": "NWS-IDP-PROD-4080548-3463166",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-29T07:52:00-08:00"
+            }
+        ],
+        "sent": "2020-02-29T22:00:00-08:00",
+        "effective": "2020-02-29T22:00:00-08:00",
+        "onset": "2020-02-29T22:00:00-08:00",
+        "expires": "2020-03-01T04:00:00-08:00",
+        "ends": "2020-03-01T04:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Hanford CA",
+        "headline": "Wind Advisory issued February 29 at 10:00PM PST until March 1 at 4:00AM PST by NWS Hanford CA",
+        "description": "* WHAT...Sustained west winds 15 to 25 mph, with gusts around 45\nmph expected.\n\n* WHERE...Areas around the San Joaquin River and east of\nInterstate 5 from Mendota to Newman, Western San Joaquin Valley\nsouth of Mendota to the Tulare Lake Bed, and West Side Hills.\n\n* WHEN...Until 4 AM PST Sunday.\n\n* IMPACTS...Gusty winds could blow around unsecured objects.\nTree limbs could be blown down and a few power outages may\nresult. Travel can be difficult, especially for high profile\nvehicles such as campers and tractor trailers.\n\n* ADDITIONAL DETAILS...Highways affected include, but are not\nlimited to Highway 198, Highway 180, Interstate 5 north of Kern\nCounty, Highway 152 through Pacheco Pass, and Highway 41 along\nthe west side of the San Joaquin Valley.",
+        "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY REMAINS IN EFFECT UNTIL 4 AM PST SUNDAY"
+            ],
+            "VTEC": [
+                "/O.CON.KHNX.WI.Y.0016.000000T0000Z-200301T1200Z/"
+            ],
+            "PIL": [
+                "HNXNPWHNX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-01T04:00:00-08:00"
+            ]
+        }
+    }
+}
