@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082122",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.04,
+                    35.8
+                ],
+                [
+                    -90.89,
+                    35.879999999999995
+                ],
+                [
+                    -90.87,
+                    35.879999999999995
+                ],
+                [
+                    -90.87,
+                    35.9
+                ],
+                [
+                    -90.59,
+                    36.059999999999995
+                ],
+                [
+                    -90.41,
+                    35.83
+                ],
+                [
+                    -91.03999999999999,
+                    35.559999999999995
+                ],
+                [
+                    -91.04,
+                    35.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082122",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082122",
+        "areaDesc": "Greene; Craighead; Poinsett",
+        "geocode": {
+            "UGC": [
+                "ARZ018",
+                "ARZ026",
+                "ARZ027"
+            ],
+            "SAME": [
+                "005055",
+                "005031",
+                "005111"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ARZ018",
+            "https://api.weather.gov/zones/forecast/ARZ026",
+            "https://api.weather.gov/zones/forecast/ARZ027"
+        ],
+        "references": [],
+        "sent": "2020-03-01T17:21:00-06:00",
+        "effective": "2020-03-01T17:21:00-06:00",
+        "onset": "2020-03-01T17:21:00-06:00",
+        "expires": "2020-03-01T18:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Special Weather Statement issued March 1 at 5:21PM CST by NWS Memphis TN",
+        "description": "Northwestern Poinsett County in eastern Arkansas...\nSouth central Greene County in eastern Arkansas...\nCraighead County in eastern Arkansas...\n\nAt 520 PM CST...a strong thunderstorm producing pea size hail or\nlarger was located over Grubbs, or 11 miles east of Newport, moving\nnortheast at 40 mph.\n\nDangerous cloud to ground lightning is also possible with this\nthunderstorm.\n\nPeople in northwestern Poinsett...south central Greene and Craighead\nCounties should monitor this storm closely.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-01T17:20:00.000-06:00...storm...238DEG...33KT...35.68,-91.04"
+            ],
+            "NWSheadline": [
+                "A SIGNIFICANT WEATHER ADVISORY HAS BEEN ISSUED UNTIL 600 PM CST FOR"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSPSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
