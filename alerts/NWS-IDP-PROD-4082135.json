@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082135",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.09,
+                    35.58
+                ],
+                [
+                    -90.17,
+                    35.739999999999995
+                ],
+                [
+                    -89.48,
+                    36.01
+                ],
+                [
+                    -89.36,
+                    35.75
+                ],
+                [
+                    -90.09,
+                    35.58
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082135",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082135",
+        "areaDesc": "Haywood; Dyer; Mississippi; Lauderdale",
+        "geocode": {
+            "UGC": [
+                "TNZ050",
+                "TNZ019",
+                "ARZ028",
+                "TNZ048"
+            ],
+            "SAME": [
+                "047075",
+                "047045",
+                "005093",
+                "047097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/TNZ050",
+            "https://api.weather.gov/zones/forecast/TNZ019",
+            "https://api.weather.gov/zones/forecast/ARZ028",
+            "https://api.weather.gov/zones/forecast/TNZ048"
+        ],
+        "references": [],
+        "sent": "2020-03-01T17:52:00-06:00",
+        "effective": "2020-03-01T17:52:00-06:00",
+        "onset": "2020-03-01T17:52:00-06:00",
+        "expires": "2020-03-01T18:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Special Weather Statement issued March 1 at 5:52PM CST by NWS Memphis TN",
+        "description": "Central Mississippi County in eastern Arkansas...\nLauderdale County in western Tennessee...\nSouthwestern Dyer County in western Tennessee...\nNorthwestern Haywood County in western Tennessee...\n\nAt 551 PM CST...a strong thunderstorm producing pea size hail or\nlarger was located over Keiser, moving east at 40 mph.\n\nDangerous cloud to ground lightning is also possible with this\nthunderstorm.\n\nPeople in central Mississippi...Lauderdale...southwestern Dyer and\nnorthwestern Haywood Counties should monitor this storm closely.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-01T17:51:00.000-06:00...storm...249DEG...36KT...35.69,-90.05"
+            ],
+            "NWSheadline": [
+                "A SIGNIFICANT WEATHER ADVISORY HAS BEEN ISSUED UNTIL 630 PM CST FOR"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSPSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
