@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081681-3464109",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081681-3464109",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4081681-3464109",
+        "areaDesc": "Coastal Waters from Stonington, ME to Port Clyde, ME out 25 NM; Penobscot Bay; Coastal Waters from Port Clyde, ME to Cape Elizabeth, ME out 25 NM; Coastal Waters from Cape Elizabeth, ME to Merrimack River, MA out 25 NM",
+        "geocode": {
+            "UGC": [
+                "ANZ150",
+                "ANZ151",
+                "ANZ152",
+                "ANZ154"
+            ],
+            "SAME": [
+                "073150",
+                "073151",
+                "073152",
+                "073154"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ANZ150",
+            "https://api.weather.gov/zones/forecast/ANZ151",
+            "https://api.weather.gov/zones/forecast/ANZ152",
+            "https://api.weather.gov/zones/forecast/ANZ154"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081372-3463853",
+                "identifier": "NWS-IDP-PROD-4081372-3463853",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-01T02:45:00-05:00"
+            }
+        ],
+        "sent": "2020-03-01T09:45:00-05:00",
+        "effective": "2020-03-01T09:45:00-05:00",
+        "onset": "2020-03-01T09:45:00-05:00",
+        "expires": "2020-03-01T23:45:00-05:00",
+        "ends": "2020-03-02T00:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Gray ME",
+        "headline": "Small Craft Advisory issued March 1 at 9:45AM EST until March 2 at 12:00AM EST by NWS Gray ME",
+        "description": "* WHAT...Northwest winds 10 to 20 kt with gusts greater than 25 kt.\n\n* WHERE...Coastal waters from Merrimack River, MA to Stonington,\nME out to 25 NM, including Penobscot Bay.\n\n* WHEN...Until midnight EST tonight.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+        "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "SMALL CRAFT ADVISORY REMAINS IN EFFECT UNTIL MIDNIGHT EST TONIGHT"
+            ],
+            "VTEC": [
+                "/O.CON.KGYX.SC.Y.0028.000000T0000Z-200302T0500Z/"
+            ],
+            "PIL": [
+                "GYXMWWGYX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T00:00:00-05:00"
+            ]
+        }
+    }
+}
