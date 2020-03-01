@@ -1,0 +1,100 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081280",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -114.83,
+                    47.34
+                ],
+                [
+                    -114.34,
+                    47.2
+                ],
+                [
+                    -114.87,
+                    47.02
+                ],
+                [
+                    -115.25,
+                    47.150000000000006
+                ],
+                [
+                    -115.26,
+                    47.18000000000001
+                ],
+                [
+                    -115.30000000000001,
+                    47.190000000000005
+                ],
+                [
+                    -115.30000000000001,
+                    47.21000000000001
+                ],
+                [
+                    -114.83,
+                    47.34
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081280",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4081280",
+        "areaDesc": "Lower Clark Fork Region",
+        "geocode": {
+            "UGC": [
+                "MTZ004"
+            ],
+            "SAME": [
+                "030061",
+                "030063",
+                "030089"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MTZ004"
+        ],
+        "references": [],
+        "sent": "2020-02-29T21:48:00-07:00",
+        "effective": "2020-02-29T21:48:00-07:00",
+        "onset": "2020-02-29T21:48:00-07:00",
+        "expires": "2020-02-29T22:45:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Missoula MT",
+        "headline": "Special Weather Statement issued February 29 at 9:48PM MST by NWS Missoula MT",
+        "description": "At 946 PM MST, Doppler radar was tracking intense snow showers along\na line extending from 12 miles northwest of Dixon to 9 miles\nsouthwest of St. Regis. Movement was east at 25 mph.\n\nVisibility one-half mile or less will be possible with snow\naccumulations locally up to an inch. Expect quickly changing\nconditions and slick roads, especially along Interstate 90 from\nSaint Regis to Tarkio.\n\nLocations impacted include...\nSuperior, Riverbend, Keystone and Lozeau.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-29T21:46:00.000-07:00...storm...274DEG...27KT...47.42,-114.53 47.22,-115.26"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR CENTRAL MINERAL...WEST CENTRAL MISSOULA AND SOUTH CENTRAL SANDERS COUNTIES UNTIL 1045 PM MST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MSOSPSMSO"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
