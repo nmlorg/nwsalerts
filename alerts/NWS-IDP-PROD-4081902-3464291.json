@@ -1,0 +1,70 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081902-3464291",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081902-3464291",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4081902-3464291",
+        "areaDesc": "Ventura County Coast; Los Angeles County Coast including Downtown Los Angeles",
+        "geocode": {
+            "UGC": [
+                "CAZ040",
+                "CAZ041"
+            ],
+            "SAME": [
+                "006111",
+                "006037"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CAZ040",
+            "https://api.weather.gov/zones/forecast/CAZ041"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081586-3464030",
+                "identifier": "NWS-IDP-PROD-4081586-3464030",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-01T04:26:00-08:00"
+            }
+        ],
+        "sent": "2020-03-01T11:10:00-08:00",
+        "effective": "2020-03-01T11:10:00-08:00",
+        "onset": "2020-03-01T12:00:00-08:00",
+        "expires": "2020-03-01T20:00:00-08:00",
+        "ends": "2020-03-01T20:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Los Angeles/Oxnard CA",
+        "headline": "Wind Advisory issued March 1 at 11:10AM PST until March 1 at 8:00PM PST by NWS Los Angeles/Oxnard CA",
+        "description": "* WHAT...West winds 15 to 25 mph with gusts up to 40 mph expected.\nStrongest along the coast.\n\n* WHERE...Ventura County Coast and Los Angeles County Coast\nincluding Downtown Los Angeles.\n\n* WHEN...Until 8 PM PST this evening.\n\n* IMPACTS...Gusty winds will make driving difficult and could\nblow around unsecured objects. Tree limbs could be blown down\nand a few power outages may result.\n\n* ADDITIONAL DETAILS...Roadways affected by gusty winds include\nPacific Coast Highway, Highways 101...105 and the 405.",
+        "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "WIND ADVISORY REMAINS IN EFFECT UNTIL 8 PM PST THIS EVENING"
+            ],
+            "VTEC": [
+                "/O.CON.KLOX.WI.Y.0017.200301T2000Z-200302T0400Z/"
+            ],
+            "PIL": [
+                "LOXNPWLOX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-01T20:00:00-08:00"
+            ]
+        }
+    }
+}
