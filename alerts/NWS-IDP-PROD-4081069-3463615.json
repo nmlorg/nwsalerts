@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081069-3463615",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.99,
+                    31.39
+                ],
+                [
+                    -91.94999999999999,
+                    31.91
+                ],
+                [
+                    -91.79999999999998,
+                    31.86
+                ],
+                [
+                    -91.69999999999999,
+                    31.599999999999998
+                ],
+                [
+                    -91.67999999999999,
+                    31.439999999999998
+                ],
+                [
+                    -91.67999999999999,
+                    31.409999999999997
+                ],
+                [
+                    -91.99,
+                    31.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081069-3463615",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4081069-3463615",
+        "areaDesc": "Catahoula, LA; Concordia, LA",
+        "geocode": {
+            "UGC": [
+                "LAC025",
+                "LAC029"
+            ],
+            "SAME": [
+                "022025",
+                "022029"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/LAC025",
+            "https://api.weather.gov/zones/county/LAC029"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4080636-3463236",
+                "identifier": "NWS-IDP-PROD-4080636-3463236",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-02-29T10:41:00-06:00"
+            }
+        ],
+        "sent": "2020-02-29T19:22:00-06:00",
+        "effective": "2020-02-29T19:22:00-06:00",
+        "onset": "2020-02-29T19:22:00-06:00",
+        "expires": "2020-03-02T01:21:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Jackson MS",
+        "headline": "Flood Warning issued February 29 at 7:22PM CST by NWS Jackson MS",
+        "description": "...The Flood Warning continues for the following rivers in\nLouisiana..\n\nBlack River At Jonesville L&D affecting Catahoula and Concordia\nParishes\n\nThe Flood Warning continues for\nThe Black River At Jonesville L&D\n* until further notice.\n* At 5:00 PM Saturday the stage was estimated at 50.9 feet.\n* Minor flooding is occurring and minor flooding is forecast.\n* Flood stage is 50 feet.\n* Forecast...The river will continue rising to a crest near 51.1 feet on\nTuesday.\n* Flood history...This crest compares to a previous crest of 50.4 feet\non Mar 17 2019.\n* Impact...At 51.4 feet...The Columbia Recreation Area is\ninaccessible.\n* Impact...At 50 feet...Highway 124 south near the town of Larto\nstarts to flood. Backwater flooding begins in unprotected areas on\nright bank.",
+        "instruction": "Do not drive or walk through areas where water covers roadway! The\nwater may be deeper than it appears. Remember...Turn around, don't\ndrown!\n\nPlease note that forecast crests are based upon rainfall that has\noccurred along with forecast rainfall for the next 24 hours.\n\nAdditional information is available at:\nhttps://water.weather.gov/ahps2/index.php?wfo=JAN\n\nThe next regularly scheduled update is expected between 8 and 10 AM.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KJAN.FL.W.0104.000000T0000Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "JANFLSJAN"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
