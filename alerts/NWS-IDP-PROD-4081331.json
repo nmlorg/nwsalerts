@@ -1,0 +1,88 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081331",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -118.57,
+                    36.32
+                ],
+                [
+                    -118.64999999999999,
+                    36.46
+                ],
+                [
+                    -118.46999999999998,
+                    36.56
+                ],
+                [
+                    -118.37999999999998,
+                    36.42
+                ],
+                [
+                    -118.57,
+                    36.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4081331",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4081331",
+        "areaDesc": "Sequoia Kings",
+        "geocode": {
+            "UGC": [
+                "CAZ194"
+            ],
+            "SAME": [
+                "006019",
+                "006107",
+                "006029"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/CAZ194"
+        ],
+        "references": [],
+        "sent": "2020-02-29T22:12:00-08:00",
+        "effective": "2020-02-29T22:12:00-08:00",
+        "onset": "2020-02-29T22:12:00-08:00",
+        "expires": "2020-02-29T22:30:00-08:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Hanford CA",
+        "headline": "Special Weather Statement issued February 29 at 10:12PM PST by NWS Hanford CA",
+        "description": "This is a test. Repeating, this is a test.",
+        "instruction": "No threat to life and property.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-02-29T22:10:00.000-08:00...storm...239DEG...24KT...36.42,-118.56"
+            ],
+            "NWSheadline": [
+                "SPECIAL WEATHER STATEMENT TEST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "HNXSPSHNX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
