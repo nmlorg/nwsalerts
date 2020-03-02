@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083180",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -111.8,
+                    33.55
+                ],
+                [
+                    -111.88,
+                    33.519999999999996
+                ],
+                [
+                    -111.99,
+                    33.67999999999999
+                ],
+                [
+                    -111.83,
+                    33.71999999999999
+                ],
+                [
+                    -111.8,
+                    33.55
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083180",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083180",
+        "areaDesc": "Deer Valley; Fountain Hills/East Mesa; Scottsdale/Paradise Valley; Cave Creek/New River",
+        "geocode": {
+            "UGC": [
+                "AZZ542",
+                "AZZ549",
+                "AZZ546",
+                "AZZ541"
+            ],
+            "SAME": [
+                "004013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/AZZ542",
+            "https://api.weather.gov/zones/forecast/AZZ549",
+            "https://api.weather.gov/zones/forecast/AZZ546",
+            "https://api.weather.gov/zones/forecast/AZZ541"
+        ],
+        "references": [],
+        "sent": "2020-03-02T15:10:00-07:00",
+        "effective": "2020-03-02T15:10:00-07:00",
+        "onset": "2020-03-02T15:10:00-07:00",
+        "expires": "2020-03-02T15:45:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Phoenix AZ",
+        "headline": "Special Weather Statement issued March 2 at 3:10PM MST by NWS Phoenix AZ",
+        "description": "At 310 PM MST, Doppler radar was tracking a strong cell near\nScottsdale Airport, or near Paradise Valley, moving north at 20 mph.\n\nPea size hail will be possible with this cell.\n\nLocations impacted include...\nScottsdale, Desert Ridge Marketplace and Scottsdale Airport.\n\nThis includes AZ Route 101 between mile markers 31 and 45.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T15:10:00.000-07:00...storm...158DEG...16KT...33.58,-111.86"
+            ],
+            "NWSheadline": [
+                "SPECIAL WEATHER STATEMENT"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PSRSPSPSR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
