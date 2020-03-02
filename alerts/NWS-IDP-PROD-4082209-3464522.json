@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082209-3464522",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.25,
+                    35.85
+                ],
+                [
+                    -90.29,
+                    35.95
+                ],
+                [
+                    -89.94000000000001,
+                    36.150000000000006
+                ],
+                [
+                    -89.80000000000001,
+                    35.92000000000001
+                ],
+                [
+                    -90.25,
+                    35.85
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082209-3464522",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082209-3464522",
+        "areaDesc": "Pemiscot, MO; Dunklin, MO; Mississippi, AR",
+        "geocode": {
+            "UGC": [
+                "MOC155",
+                "MOC069",
+                "ARC093"
+            ],
+            "SAME": [
+                "029155",
+                "029069",
+                "005093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC155",
+            "https://api.weather.gov/zones/county/MOC069",
+            "https://api.weather.gov/zones/county/ARC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082199-3464515",
+                "identifier": "NWS-IDP-PROD-4082199-3464515",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-01T18:55:00-06:00"
+            }
+        ],
+        "sent": "2020-03-01T19:04:00-06:00",
+        "effective": "2020-03-01T19:04:00-06:00",
+        "onset": "2020-03-01T19:04:00-06:00",
+        "expires": "2020-03-01T19:45:00-06:00",
+        "ends": "2020-03-01T19:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued March 1 at 7:04PM CST until March 1 at 7:45PM CST by NWS Memphis TN",
+        "description": "At 704 PM CST, a severe thunderstorm was located near Leachville,\nmoving northeast at 35 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\nLocations impacted include...\nBlytheville, Gosnell, Manila, Leachville, Hornersville, Jolliff\nStore, Calumet, Buckeye, Burton, Woodland Corner, Pawheen, Poplar\nCorner, Garson, Stark City, Yarbro, Rives, Hornersville Junction,\nWest Hermondale, New Survey and Gilbert.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-01T19:04:00.000-06:00...storm...244DEG...31KT...35.93,-90.19"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 745 PM CST FOR NORTHWESTERN MISSISSIPPI...SOUTHWESTERN PEMISCOT AND SOUTHEASTERN DUNKLIN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMEG.SV.W.0045.000000T0000Z-200302T0145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-01T19:45:00-06:00"
+            ]
+        }
+    }
+}
