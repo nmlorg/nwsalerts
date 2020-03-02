@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082508",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.62,
+                    37.24
+                ],
+                [
+                    -94.06,
+                    36.97
+                ],
+                [
+                    -94.4,
+                    37.07
+                ],
+                [
+                    -93.89,
+                    37.28
+                ],
+                [
+                    -93.62,
+                    37.24
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082508",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082508",
+        "areaDesc": "Newton; Lawrence; Jasper",
+        "geocode": {
+            "UGC": [
+                "MOZ093",
+                "MOZ094",
+                "MOZ088"
+            ],
+            "SAME": [
+                "029145",
+                "029109",
+                "029097"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MOZ093",
+            "https://api.weather.gov/zones/forecast/MOZ094",
+            "https://api.weather.gov/zones/forecast/MOZ088"
+        ],
+        "references": [],
+        "sent": "2020-03-02T00:26:00-06:00",
+        "effective": "2020-03-02T00:26:00-06:00",
+        "onset": "2020-03-02T00:26:00-06:00",
+        "expires": "2020-03-02T01:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Special Weather Statement issued March 2 at 12:26AM CST by NWS Springfield MO",
+        "description": "At 1226 AM CST, Doppler radar was tracking strong thunderstorms along\na line extending from near Miller to near Sarcoxie. Movement was east\nat 20 mph.\n\nPenny size hail and wind gusts up to 50 mph will be possible with\nthese storms.\n\nLocations impacted include...\nMount Vernon...                   Sarcoxie...\nMiller...                         Fidelity...\nStotts City...                    Wentworth...\nLa Russell...                     Reeds...\nRed Oak...\n\nThis includes the following highways...\nInterstate 44 between mile markers 15 and 42.\nInterstate 49 between mile markers 36 and 37.",
+        "instruction": "Torrential rainfall is also occurring with these storms, and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T00:26:00.000-06:00...storm...289DEG...17KT...37.22,-93.92 37.09,-94.18"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHEASTERN NEWTON...NORTHERN LAWRENCE AND SOUTHEASTERN JASPER COUNTIES UNTIL 115 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSPSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
