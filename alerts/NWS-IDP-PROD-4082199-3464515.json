@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082199-3464515",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.31,
+                    35.81
+                ],
+                [
+                    -90.39,
+                    35.93
+                ],
+                [
+                    -89.97,
+                    36.21
+                ],
+                [
+                    -89.8,
+                    35.92
+                ],
+                [
+                    -90.31,
+                    35.81
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082199-3464515",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082199-3464515",
+        "areaDesc": "Craighead, AR; Pemiscot, MO; Dunklin, MO; Mississippi, AR",
+        "geocode": {
+            "UGC": [
+                "ARC031",
+                "MOC155",
+                "MOC069",
+                "ARC093"
+            ],
+            "SAME": [
+                "005031",
+                "029155",
+                "029069",
+                "005093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC031",
+            "https://api.weather.gov/zones/county/MOC155",
+            "https://api.weather.gov/zones/county/MOC069",
+            "https://api.weather.gov/zones/county/ARC093"
+        ],
+        "references": [],
+        "sent": "2020-03-01T18:55:00-06:00",
+        "effective": "2020-03-01T18:55:00-06:00",
+        "onset": "2020-03-01T18:55:00-06:00",
+        "expires": "2020-03-01T19:45:00-06:00",
+        "ends": "2020-03-01T19:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued March 1 at 6:55PM CST until March 1 at 7:45PM CST by NWS Memphis TN",
+        "description": "The National Weather Service in Memphis has issued a\n\n* Severe Thunderstorm Warning for...\nEast central Craighead County in eastern Arkansas...\nNorthwestern Mississippi County in eastern Arkansas...\nSouthwestern Pemiscot County in southeastern Missouri...\nSoutheastern Dunklin County in southeastern Missouri...\n\n* Until 745 PM CST.\n\n* At 654 PM CST, a severe thunderstorm was located over Monette,\nmoving northeast at 35 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\n* Locations impacted include...\nBlytheville, Gosnell, Manila, Leachville, Monette, Hornersville,\nJolliff Store, Happy Corners, Delfore, Calumet, Vail, Macey, Big\nLake, Carmi, Whisp, Buckeye, Burton, Arkmo, Woodland Corner and\nWalters.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-01T18:54:00.000-06:00...storm...244DEG...31KT...35.89,-90.29"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KMEG.SV.W.0045.200302T0055Z-200302T0145Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVRMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-01T19:45:00-06:00"
+            ]
+        }
+    }
+}
