@@ -1,0 +1,96 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082539",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.89,
+                    36.86
+                ],
+                [
+                    -92.73,
+                    37.17
+                ],
+                [
+                    -92.29,
+                    37.07
+                ],
+                [
+                    -92.5,
+                    36.8
+                ],
+                [
+                    -92.64,
+                    36.8
+                ],
+                [
+                    -92.89,
+                    36.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082539",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082539",
+        "areaDesc": "Webster; Wright; Douglas",
+        "geocode": {
+            "UGC": [
+                "MOZ091",
+                "MOZ092",
+                "MOZ096"
+            ],
+            "SAME": [
+                "029225",
+                "029229",
+                "029067"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MOZ091",
+            "https://api.weather.gov/zones/forecast/MOZ092",
+            "https://api.weather.gov/zones/forecast/MOZ096"
+        ],
+        "references": [],
+        "sent": "2020-03-02T02:02:00-06:00",
+        "effective": "2020-03-02T02:02:00-06:00",
+        "onset": "2020-03-02T02:02:00-06:00",
+        "expires": "2020-03-02T02:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Special Weather Statement issued March 2 at 2:02AM CST by NWS Springfield MO",
+        "description": "At 202 AM CST, Doppler radar was tracking strong thunderstorms along\na line extending from near Seymour to 8 miles west of Ava. Movement\nwas southeast at 30 mph.\n\nPenny size hail and wind gusts up to 50 mph will be possible with\nthese storms.\n\nLocations impacted include...\nAva...                            Mansfield...\nNorwood...                        Rome...\nSquires...                        Brushyknob...\nGoodhope...",
+        "instruction": "Torrential rainfall is also occurring with these storms, and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T02:02:00.000-06:00...storm...332DEG...28KT...37.08,-92.73 36.96,-92.81"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTHEASTERN WEBSTER...WESTERN DOUGLAS AND SOUTHWESTERN WRIGHT COUNTIES UNTIL 245 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSPSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
