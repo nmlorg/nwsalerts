@@ -1,0 +1,76 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083035-3465124",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083035-3465124",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083035-3465124",
+        "areaDesc": "Waters from San Mateo point to the Mexican Border Extending 30 to 60 nm out including San Clemente Island; Coastal Waters from San Mateo Point to the Mexican Border and out to 30 nm",
+        "geocode": {
+            "UGC": [
+                "PZZ775",
+                "PZZ750"
+            ],
+            "SAME": [
+                "057775",
+                "057750"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/PZZ775",
+            "https://api.weather.gov/zones/forecast/PZZ750"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082980-3465087",
+                "identifier": "NWS-IDP-PROD-4082980-3465087",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T09:35:00-08:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082626-3464811",
+                "identifier": "NWS-IDP-PROD-4082626-3464811",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T01:53:00-08:00"
+            }
+        ],
+        "sent": "2020-03-02T12:06:00-08:00",
+        "effective": "2020-03-02T12:06:00-08:00",
+        "onset": "2020-03-02T15:00:00-08:00",
+        "expires": "2020-03-02T20:15:00-08:00",
+        "ends": "2020-03-03T10:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS San Diego CA",
+        "headline": "Small Craft Advisory issued March 2 at 12:06PM PST until March 3 at 10:00AM PST by NWS San Diego CA",
+        "description": "* WHAT...Northwest winds 15 to 20 kt with gusts up to 25 kt,\nlocally higher, and seas of 8 to 11 feet expected. Strongest\nwinds and highest seas will be south of San Clemente Island.\n\n* WHERE...Coastal Waters from San Mateo Point to the Mexican\nBorder and out to 30 nm and Waters from San Mateo point to the\nMexican Border Extending 30 to 60 nm out including San\nClemente Island.\n\n* WHEN...Until 10 AM PST Tuesday.\n\n* IMPACTS...Conditions will be hazardous to small craft.\n\n* ADDITIONAL DETAILS...See the Coastal Waters Forecast (CWFSGX).",
+        "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "SMALL CRAFT ADVISORY NOW IN EFFECT UNTIL 10 AM PST TUESDAY"
+            ],
+            "VTEC": [
+                "/O.EXT.KSGX.SC.Y.0005.200302T2300Z-200303T1800Z/"
+            ],
+            "PIL": [
+                "SGXMWWSGX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T10:00:00-08:00"
+            ]
+        }
+    }
+}
