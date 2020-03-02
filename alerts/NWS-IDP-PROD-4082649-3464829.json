@@ -1,0 +1,122 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082649-3464829",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -93.62,
+                    37.09
+                ],
+                [
+                    -93.72,
+                    37.24
+                ],
+                [
+                    -94.09,
+                    37.330000000000005
+                ],
+                [
+                    -93.98,
+                    37.57000000000001
+                ],
+                [
+                    -92.55,
+                    37.300000000000004
+                ],
+                [
+                    -92.41,
+                    37.06
+                ],
+                [
+                    -93.62,
+                    37.09
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082649-3464829",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082649-3464829",
+        "areaDesc": "Christian, MO; Webster, MO; Lawrence, MO; Wright, MO; Greene, MO; Dade, MO; Polk, MO",
+        "geocode": {
+            "UGC": [
+                "MOC043",
+                "MOC225",
+                "MOC109",
+                "MOC229",
+                "MOC077",
+                "MOC057",
+                "MOC167"
+            ],
+            "SAME": [
+                "029043",
+                "029225",
+                "029109",
+                "029229",
+                "029077",
+                "029057",
+                "029167"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC043",
+            "https://api.weather.gov/zones/county/MOC225",
+            "https://api.weather.gov/zones/county/MOC109",
+            "https://api.weather.gov/zones/county/MOC229",
+            "https://api.weather.gov/zones/county/MOC077",
+            "https://api.weather.gov/zones/county/MOC057",
+            "https://api.weather.gov/zones/county/MOC167"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082514-3464745",
+                "identifier": "NWS-IDP-PROD-4082514-3464745",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T00:45:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T04:35:00-06:00",
+        "effective": "2020-03-02T04:35:00-06:00",
+        "onset": "2020-03-02T04:35:00-06:00",
+        "expires": "2020-03-02T04:45:00-06:00",
+        "ends": "2020-03-02T04:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Flash Flood Warning issued March 2 at 4:35AM CST until March 2 at 4:45AM CST by NWS Springfield MO",
+        "description": "The heavy rain has ended. The threat for rapid rises in water levels\nhas diminished. Flash flooding is no longer expected to pose a\nthreat. Please continue to heed any remaining road closures.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLASH FLOOD WARNING FOR WEBSTER...SOUTHWESTERN WRIGHT... NORTHERN CHRISTIAN...SOUTHWESTERN POLK...NORTHEASTERN LAWRENCE... GREENE AND DADE COUNTIES WILL EXPIRE AT 445 AM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KSGF.FF.W.0009.000000T0000Z-200302T1045Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFFFSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T04:45:00-06:00"
+            ]
+        }
+    }
+}
