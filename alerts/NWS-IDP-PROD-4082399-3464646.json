@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082399-3464646",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -104.8199999,
+                    40.63
+                ],
+                [
+                    -104.84,
+                    40.06
+                ],
+                [
+                    -105.31,
+                    40.07
+                ],
+                [
+                    -105.28,
+                    40.63
+                ],
+                [
+                    -104.8199999,
+                    40.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082399-3464646",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082399-3464646",
+        "areaDesc": "Larimer, CO; Weld, CO; Boulder, CO",
+        "geocode": {
+            "UGC": [
+                "COC069",
+                "COC123",
+                "COC013"
+            ],
+            "SAME": [
+                "008069",
+                "008123",
+                "008013"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/COC069",
+            "https://api.weather.gov/zones/county/COC123",
+            "https://api.weather.gov/zones/county/COC013"
+        ],
+        "references": [],
+        "sent": "2020-03-01T21:11:00-07:00",
+        "effective": "2020-03-01T21:11:00-07:00",
+        "onset": "2020-03-01T21:10:00-07:00",
+        "expires": "2020-03-01T22:00:00-07:00",
+        "ends": "2020-03-01T22:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Denver CO",
+        "headline": "Snow Squall Warning issued March 1 at 9:10PM MST until March 1 at 10:00PM MST by NWS Denver CO",
+        "description": "The National Weather Service in Denver Colorado has issued a\n\n* Snow Squall Warning for...\nSouthwestern Weld County in northeastern Colorado...\nSoutheastern Larimer County in north central Colorado...\nNortheastern Boulder County in northeastern Colorado...\n\n* Until 1000 PM MST.\n\n* At 910 PM MST, a dangerous snow squall was located along a line\nextending from Fort Collins to 3 miles northwest of Niwot, or along\na line extending from 18 miles west of Greeley to 29 miles\nnorthwest of Denver, moving east at 25 mph.\n\nHAZARD...Extremely poor visibility in heavy snow and blowing snow.\nWind gusts up to 30 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Dangerous life-threatening travel.\n\n* This includes Interstate 25 between mile markers 234 and 272.\n\nLocations impacted include...\nFort Collins, western Greeley, northern Boulder, Longmont, Loveland,\nWindsor, Erie, Firestone, Johnstown, Frederick, Milliken, Berthoud,\nDacono, Mead, Severance, Platteville, Lyons, Timnath, Masonville and\nCarter Lake.",
+        "instruction": "Slow Down! Rapid changes in visibility and road conditions are\nexpected with this dangerous snow squall. Be alert for sudden\nwhiteout conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-01T21:10:00.000-07:00...storm...250DEG...21KT...40.51,-105.07 40.13,-105.21"
+            ],
+            "VTEC": [
+                "/O.NEW.KBOU.SQ.W.0011.200302T0410Z-200302T0500Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BOUSQWBOU"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-01T22:00:00-07:00"
+            ],
+            "CMAMtext": [
+                "Snow Squall Warning til 10:00 PM MST. Sudden whiteouts. Icy roads. Slow down! -NWS"
+            ]
+        }
+    }
+}
