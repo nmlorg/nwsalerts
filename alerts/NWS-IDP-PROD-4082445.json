@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082445",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.88,
+                    37.39
+                ],
+                [
+                    -94.61999999999999,
+                    37.39
+                ],
+                [
+                    -94.60999999999999,
+                    37.27
+                ],
+                [
+                    -94.61999999999999,
+                    37.17
+                ],
+                [
+                    -94.91,
+                    37.24
+                ],
+                [
+                    -94.88,
+                    37.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082445",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082445",
+        "areaDesc": "Crawford; Cherokee",
+        "geocode": {
+            "UGC": [
+                "KSZ097",
+                "KSZ101"
+            ],
+            "SAME": [
+                "020037",
+                "020021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KSZ097",
+            "https://api.weather.gov/zones/forecast/KSZ101"
+        ],
+        "references": [],
+        "sent": "2020-03-01T23:00:00-06:00",
+        "effective": "2020-03-01T23:00:00-06:00",
+        "onset": "2020-03-01T23:00:00-06:00",
+        "expires": "2020-03-01T23:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Special Weather Statement issued March 1 at 11:00PM CST by NWS Springfield MO",
+        "description": "At 1059 PM CST, Doppler radar was tracking a strong thunderstorm over\nScammon, or 9 miles north of Columbus, moving east at 20 mph.\n\nPenny size hail will be possible with this storm.\n\nLocations impacted include...\nPittsburg...                      Cherokee...\nWeir...                           Scammon...\nChicopee...                       Asbury...\nRoseland...                       Skidmore...\nOpolis...                         Lawton...\nCarona...                         Stippville...",
+        "instruction": "Torrential rainfall is also occurring with this storm, and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.",
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-01T22:59:00.000-06:00...storm...278DEG...15KT...37.3,-94.81"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHEASTERN CHEROKEE AND SOUTHEASTERN CRAWFORD COUNTIES UNTIL 1145 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSPSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
