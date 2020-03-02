@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082143",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.7,
+                    35.71
+                ],
+                [
+                    -90.81,
+                    35.87
+                ],
+                [
+                    -90.2099999,
+                    36.199999999999996
+                ],
+                [
+                    -90.04,
+                    35.959999999999994
+                ],
+                [
+                    -90.7,
+                    35.71
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082143",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082143",
+        "areaDesc": "Greene; Mississippi; Craighead; Dunklin",
+        "geocode": {
+            "UGC": [
+                "ARZ018",
+                "ARZ028",
+                "ARZ026",
+                "MOZ113"
+            ],
+            "SAME": [
+                "005055",
+                "005093",
+                "005031",
+                "029069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ARZ018",
+            "https://api.weather.gov/zones/forecast/ARZ028",
+            "https://api.weather.gov/zones/forecast/ARZ026",
+            "https://api.weather.gov/zones/forecast/MOZ113"
+        ],
+        "references": [],
+        "sent": "2020-03-01T17:57:00-06:00",
+        "effective": "2020-03-01T17:57:00-06:00",
+        "onset": "2020-03-01T17:57:00-06:00",
+        "expires": "2020-03-01T18:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Special Weather Statement issued March 1 at 5:57PM CST by NWS Memphis TN",
+        "description": "Southeastern Greene County in eastern Arkansas...\nEastern Craighead County in eastern Arkansas...\nNorthwestern Mississippi County in eastern Arkansas...\nSouthwestern Dunklin County in southeastern Missouri...\n\nAt 557 PM CST...a strong thunderstorm producing pea size hail or\nlarger was located over Jonesboro, moving northeast at 40 mph.\n\nPeople in southeastern Greene...eastern Craighead...northwestern\nMississippi and southwestern Dunklin Counties should monitor this\nstorm closely.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-01T17:57:00.000-06:00...storm...240DEG...33KT...35.83,-90.68"
+            ],
+            "NWSheadline": [
+                "A SIGNIFICANT WEATHER ADVISORY HAS BEEN ISSUED UNTIL 645 PM CST FOR"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSPSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
