@@ -1,0 +1,93 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083003-3465102",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -107.09,
+                    48.39
+                ],
+                [
+                    -107.3,
+                    48.4099999
+                ],
+                [
+                    -107.3,
+                    48.4799999
+                ],
+                [
+                    -107.17999999999999,
+                    48.4799999
+                ],
+                [
+                    -107.09,
+                    48.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083003-3465102",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083003-3465102",
+        "areaDesc": "Valley, MT",
+        "geocode": {
+            "UGC": [
+                "MTC105"
+            ],
+            "SAME": [
+                "030105"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MTC105"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082396-3464643",
+                "identifier": "NWS-IDP-PROD-4082396-3464643",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-01T21:06:00-07:00"
+            }
+        ],
+        "sent": "2020-03-02T11:52:00-07:00",
+        "effective": "2020-03-02T11:52:00-07:00",
+        "onset": "2020-03-02T11:52:00-07:00",
+        "expires": "2020-03-03T02:51:00-07:00",
+        "ends": "2020-03-04T02:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Glasgow MT",
+        "headline": "Flood Warning issued March 2 at 11:52AM MST until March 4 at 2:00AM MST by NWS Glasgow MT",
+        "description": "...The flood warning continues for the following rivers in Montana...\n\nBeaver Creek near Hinsdale affecting Valley County\n\nLevels on the Beaver Creek have been rising due to snowmelt and appear to be leveling off and near its crest. Levels are expected to drop below flood stage by mid-week.\n\nThe Flood Warning continues for\nThe Beaver Creek near Hinsdale.\n* until late Tuesday night.\n* at 11:30 AM Monday the stage was 15.8 feet.\n* Flood stage is 14.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...the river will continue to fall to below flood stage by\nafter midnight tonight.",
+        "instruction": "SAFETY MESSAGE...\n\nAvoid traveling on flooded roads. Washouts may be hidden under the\nwater.\n\nStay tuned to developments by listening to NOAA Weather radio.\n\nThe latest statements and forecasts for rivers and streams can be\nfound at our web page...\nwater.weather.g o v",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KGGW.FL.W.0001.000000T0000Z-200304T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "GGWFLSGGW"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-04T02:00:00-07:00"
+            ]
+        }
+    }
+}
