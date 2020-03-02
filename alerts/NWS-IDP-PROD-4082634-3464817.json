@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082634-3464817",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -82.99,
+                    31.75
+                ],
+                [
+                    -82.99,
+                    31.81
+                ],
+                [
+                    -82.78,
+                    31.889999999999997
+                ],
+                [
+                    -82.61,
+                    31.959999999999997
+                ],
+                [
+                    -82.58,
+                    31.909999999999997
+                ],
+                [
+                    -82.85,
+                    31.759999999999998
+                ],
+                [
+                    -82.99,
+                    31.75
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082634-3464817",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082634-3464817",
+        "areaDesc": "Telfair, GA; Montgomery, GA; Wheeler, GA",
+        "geocode": {
+            "UGC": [
+                "GAC271",
+                "GAC209",
+                "GAC309"
+            ],
+            "SAME": [
+                "013271",
+                "013209",
+                "013309"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/GAC271",
+            "https://api.weather.gov/zones/county/GAC209",
+            "https://api.weather.gov/zones/county/GAC309"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082229-3464537",
+                "identifier": "NWS-IDP-PROD-4082229-3464537",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-01T20:16:00-05:00"
+            }
+        ],
+        "sent": "2020-03-02T05:09:00-05:00",
+        "effective": "2020-03-02T05:09:00-05:00",
+        "onset": "2020-03-02T05:09:00-05:00",
+        "expires": "2020-03-02T19:09:00-05:00",
+        "ends": "2020-03-05T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Warning issued March 2 at 5:09AM EST until March 5 at 7:00PM EST by NWS Peachtree City GA",
+        "description": "...The Flood Warning continues for the following rivers in Georgia...\nOcmulgee River near Abbeville affecting Dodge...Telfair and Wilcox\nCounties\n\nOcmulgee River near Lumber City affecting Montgomery...Telfair and\nWheeler Counties\n\nOconee River near Mount Vernon affecting Montgomery...Treutlen and\nWheeler Counties\n\nThe Flood Warning continues for\nThe Ocmulgee River near Lumber City.\n* Until Thursday evening.\n* At 4 AM Monday the stage was 16.8 feet...and falling.\n* Minor flooding is occurring.\n* Flood stage is 15 feet.\n* At 18.0 feet...Moderate flooding begins. Flooding of the access\nroad to the boat ramp near the Highway 341 bridge begins.\n* This crest compares to a previous crest of 16.1 feet on Feb 5 2010.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KFFC.FL.W.0212.000000T0000Z-200306T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "FFCFLSFFC"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-05T19:00:00-05:00"
+            ]
+        }
+    }
+}
