@@ -1,0 +1,94 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082261-3464566",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -104.74,
+                    40.68
+                ],
+                [
+                    -105.16,
+                    40.67
+                ],
+                [
+                    -105.14999999999999,
+                    41
+                ],
+                [
+                    -104.69999999999999,
+                    41
+                ],
+                [
+                    -104.74,
+                    40.68
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082261-3464566",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082261-3464566",
+        "areaDesc": "Larimer, CO; Weld, CO",
+        "geocode": {
+            "UGC": [
+                "COC069",
+                "COC123"
+            ],
+            "SAME": [
+                "008069",
+                "008123"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/COC069",
+            "https://api.weather.gov/zones/county/COC123"
+        ],
+        "references": [],
+        "sent": "2020-03-01T18:39:00-07:00",
+        "effective": "2020-03-01T18:39:00-07:00",
+        "onset": "2020-03-01T18:38:00-07:00",
+        "expires": "2020-03-01T19:30:00-07:00",
+        "ends": "2020-03-01T19:30:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Snow Squall Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Denver CO",
+        "headline": "Snow Squall Warning issued March 1 at 6:38PM MST until March 1 at 7:30PM MST by NWS Denver CO",
+        "description": "The National Weather Service in Denver Colorado has issued a\n\n* Snow Squall Warning for...\nNorthwestern Weld County in northeastern Colorado...\nNortheastern Larimer County in north central Colorado...\n\n* Until 730 PM MST.\n\n* At 638 PM MST, a dangerous snow squall was located 4 miles\nsouthwest of Carr, or 21 miles south of Cheyenne, moving east at 20\nmph.\n\nHAZARD...Extremely poor visibility in heavy snow and blowing snow.\nWind gusts up to 30 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Dangerous life-threatening travel.\n\n* This includes Interstate 25 between mile markers 276 and 297.\n\nLocations impacted include...\nWellington, Nunn, Carr, Rockport and Natural Fort.",
+        "instruction": "Reduce your speed and turn on headlights! During snow squalls, the\nvisibility may suddenly drop to near zero in whiteout conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-01T18:38:00.000-07:00...storm...250DEG...19KT...40.85,-104.93"
+            ],
+            "VTEC": [
+                "/O.NEW.KBOU.SQ.W.0010.200302T0138Z-200302T0230Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BOUSQWBOU"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-01T19:30:00-07:00"
+            ],
+            "CMAMtext": [
+                "Snow Squall Warning til 7:30 PM MST. Sudden whiteouts. Icy roads. Slow down! -NWS"
+            ]
+        }
+    }
+}
