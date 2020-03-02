@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082177",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.4,
+                    35.79
+                ],
+                [
+                    -90.48,
+                    35.9099999
+                ],
+                [
+                    -90.03,
+                    36.17
+                ],
+                [
+                    -89.93,
+                    35.92
+                ],
+                [
+                    -90.4,
+                    35.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082177",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082177",
+        "areaDesc": "Mississippi; Craighead; Dunklin",
+        "geocode": {
+            "UGC": [
+                "ARZ028",
+                "ARZ026",
+                "MOZ113"
+            ],
+            "SAME": [
+                "005093",
+                "005031",
+                "029069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ARZ028",
+            "https://api.weather.gov/zones/forecast/ARZ026",
+            "https://api.weather.gov/zones/forecast/MOZ113"
+        ],
+        "references": [],
+        "sent": "2020-03-01T18:45:00-06:00",
+        "effective": "2020-03-01T18:45:00-06:00",
+        "onset": "2020-03-01T18:45:00-06:00",
+        "expires": "2020-03-01T19:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Special Weather Statement issued March 1 at 6:45PM CST by NWS Memphis TN",
+        "description": "Northeastern Craighead County in eastern Arkansas...\nNorthwestern Mississippi County in eastern Arkansas...\nSoutheastern Dunklin County in southeastern Missouri...\n\nAt 644 PM CST...a strong thunderstorm producing pea size hail or\nlarger was located near Monette, moving northeast at 35 mph.\n\nPeople in northeastern Craighead...northwestern Mississippi and\nsoutheastern Dunklin Counties should monitor this storm closely.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-01T18:44:00.000-06:00...storm...244DEG...31KT...35.87,-90.39"
+            ],
+            "NWSheadline": [
+                "A SIGNIFICANT WEATHER ADVISORY HAS BEEN ISSUED UNTIL 730 PM CST FOR"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSPSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
