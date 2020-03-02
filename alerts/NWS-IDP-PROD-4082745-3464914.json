@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082745-3464914",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -101.28,
+                    46.1599999
+                ],
+                [
+                    -100.95,
+                    46.400000000000006
+                ],
+                [
+                    -100.60000000000001,
+                    46.440000000000005
+                ],
+                [
+                    -100.59,
+                    46.400000000000006
+                ],
+                [
+                    -100.9,
+                    46.34
+                ],
+                [
+                    -101.26,
+                    46.1
+                ],
+                [
+                    -101.28,
+                    46.1599999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082745-3464914",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4082745-3464914",
+        "areaDesc": "Sioux, ND; Morton, ND",
+        "geocode": {
+            "UGC": [
+                "NDC085",
+                "NDC059"
+            ],
+            "SAME": [
+                "038085",
+                "038059"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NDC085",
+            "https://api.weather.gov/zones/county/NDC059"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082123-3464464",
+                "identifier": "NWS-IDP-PROD-4082123-3464464",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-01T17:23:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T07:11:00-06:00",
+        "effective": "2020-03-02T07:11:00-06:00",
+        "onset": "2020-03-02T07:11:00-06:00",
+        "expires": "2020-03-03T13:10:00-06:00",
+        "ends": "2020-03-03T22:48:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Bismarck ND",
+        "headline": "Flood Warning issued March 2 at 7:11AM CST until March 3 at 10:48PM CST by NWS Bismarck ND",
+        "description": "...The flood warning continues for the following rivers in North\nDakota...\n\nCannonball River at Breien affecting Morton and Sioux Counties.\n\n.Warm temperatures have melted much of the remaining snow in the\narea and the result has been an increase in river levels.\n\nThe Flood Warning continues for\nThe Cannonball River at Breien.\n* until Tuesday evening.\n* At 6:15 AM Monday the stage was 10.1 feet.\n* Flood stage is 10.0 feet.\n* Minor flooding is occurring and Minor flooding is forecast.\n* Forecast...The river will continue rising to near 11.2 feet by\nlate this afternoon or early evening. This should be a short\nduration flood event with the river most likely falling\nbelow flood stage Tuesday afternoon.\n* Impact...At 9.0 feet, Water overflows the north bank.\n* Impact...At 12.0 feet, Water overflows south bank.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nAdditional information is available at www.weather.gov.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBIS.FL.W.0002.000000T0000Z-200304T0448Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BISFLSBIS"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T22:48:00-06:00"
+            ]
+        }
+    }
+}
