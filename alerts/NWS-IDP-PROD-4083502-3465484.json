@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083502-3465484",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.6,
+                    37.22
+                ],
+                [
+                    -89.55,
+                    37.449999999999996
+                ],
+                [
+                    -89.3199999,
+                    37.419999999999995
+                ],
+                [
+                    -89.39,
+                    37.159999899999995
+                ],
+                [
+                    -89.6,
+                    37.22
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083502-3465484",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083502-3465484",
+        "areaDesc": "Scott, MO; Union, IL; Alexander, IL; Cape Girardeau, MO",
+        "geocode": {
+            "UGC": [
+                "MOC201",
+                "ILC181",
+                "ILC003",
+                "MOC031"
+            ],
+            "SAME": [
+                "029201",
+                "017181",
+                "017003",
+                "029031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC201",
+            "https://api.weather.gov/zones/county/ILC181",
+            "https://api.weather.gov/zones/county/ILC003",
+            "https://api.weather.gov/zones/county/MOC031"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083465-3465448",
+                "identifier": "NWS-IDP-PROD-4083465-3465448",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T20:07:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T20:34:00-06:00",
+        "effective": "2020-03-02T20:34:00-06:00",
+        "onset": "2020-03-02T20:34:00-06:00",
+        "expires": "2020-03-02T20:45:00-06:00",
+        "ends": "2020-03-02T20:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 8:34PM CST until March 2 at 8:45PM CST by NWS Paducah KY",
+        "description": "At 833 PM CST, a severe thunderstorm was located near Cape Girardeau,\nmoving east at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nCape Girardeau, Scott City, Thebes and East Cape Girardeau.",
+        "instruction": "A Tornado Watch remains in effect until 100 AM CST for southern\nIllinois...and southeastern Missouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T20:33:00.000-06:00...storm...283DEG...26KT...37.33,-89.5"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 845 PM CST FOR SOUTHWESTERN UNION...NORTHWESTERN ALEXANDER...NORTH CENTRAL SCOTT AND SOUTHEASTERN CAPE GIRARDEAU COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.SV.W.0020.000000T0000Z-200303T0245Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T20:45:00-06:00"
+            ]
+        }
+    }
+}
