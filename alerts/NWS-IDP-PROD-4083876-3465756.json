@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083876-3465756",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.9599999,
+                    36.17
+                ],
+                [
+                    -85.94,
+                    36.35
+                ],
+                [
+                    -85.50999999999999,
+                    36.34
+                ],
+                [
+                    -85.49999999999999,
+                    36.150000000000006
+                ],
+                [
+                    -85.9599999,
+                    36.17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083876-3465756",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083876-3465756",
+        "areaDesc": "Putnam, TN; Smith, TN; Jackson, TN",
+        "geocode": {
+            "UGC": [
+                "TNC141",
+                "TNC159",
+                "TNC087"
+            ],
+            "SAME": [
+                "047141",
+                "047159",
+                "047087"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC141",
+            "https://api.weather.gov/zones/county/TNC159",
+            "https://api.weather.gov/zones/county/TNC087"
+        ],
+        "references": [],
+        "sent": "2020-03-03T02:18:00-06:00",
+        "effective": "2020-03-03T02:18:00-06:00",
+        "onset": "2020-03-03T02:18:00-06:00",
+        "expires": "2020-03-03T03:00:00-06:00",
+        "ends": "2020-03-03T03:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued March 3 at 2:18AM CST until March 3 at 3:00AM CST by NWS Nashville TN",
+        "description": "The National Weather Service in Nashville has issued a\n\n* Severe Thunderstorm Warning for...\nNortheastern Smith County in Middle Tennessee...\nSouthern Jackson County in Middle Tennessee...\nNorthwestern Putnam County in Middle Tennessee...\n\n* Until 300 AM CST.\n\n* At 218 AM CST, a severe thunderstorm was located over Carthage,\nmoving east at 40 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* Locations impacted include...\nCookeville, Carthage, Baxter, Gordonsville, South Carthage,\nGranville and Cummins Falls State Park.\n\nThis includes Interstate 40 between mile markers 258 and 260.",
+        "instruction": "A Tornado Watch remains in effect until 300 AM CST for Middle\nTennessee.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T02:18:00.000-06:00...storm...273DEG...27KT...36.26,-85.89"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KOHX.SV.W.0046.200303T0818Z-200303T0900Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVROHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T03:00:00-06:00"
+            ]
+        }
+    }
+}
