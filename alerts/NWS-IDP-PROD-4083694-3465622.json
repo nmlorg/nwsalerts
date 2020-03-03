@@ -1,0 +1,132 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083694-3465622",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.66,
+                    36.51
+                ],
+                [
+                    -89.66,
+                    36.659999899999995
+                ],
+                [
+                    -89.36999999999999,
+                    36.699999999999996
+                ],
+                [
+                    -89.35999999999999,
+                    36.669999999999995
+                ],
+                [
+                    -89.34999999999998,
+                    36.669999999999995
+                ],
+                [
+                    -89.34999999999998,
+                    36.64999999999999
+                ],
+                [
+                    -89.32999999999998,
+                    36.63999999999999
+                ],
+                [
+                    -89.32999999999998,
+                    36.629999999999995
+                ],
+                [
+                    -89.30999999999999,
+                    36.60999999999999
+                ],
+                [
+                    -89.40999999999998,
+                    36.50999999999999
+                ],
+                [
+                    -89.66,
+                    36.51
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083694-3465622",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083694-3465622",
+        "areaDesc": "New Madrid, MO; Fulton, KY",
+        "geocode": {
+            "UGC": [
+                "MOC143",
+                "KYC075"
+            ],
+            "SAME": [
+                "029143",
+                "021075"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC143",
+            "https://api.weather.gov/zones/county/KYC075"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083674-3465606",
+                "identifier": "NWS-IDP-PROD-4083674-3465606",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T22:46:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083649-3465584",
+                "identifier": "NWS-IDP-PROD-4083649-3465584",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T22:30:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T23:06:00-06:00",
+        "effective": "2020-03-02T23:06:00-06:00",
+        "onset": "2020-03-02T23:06:00-06:00",
+        "expires": "2020-03-02T23:15:00-06:00",
+        "ends": "2020-03-02T23:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Tornado Warning issued March 2 at 11:06PM CST until March 2 at 11:15PM CST by NWS Paducah KY",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and no longer appears capable of producing a tornado.\nTherefore, the warning will be allowed to expire.\n\nA Tornado Watch remains in effect until 100 AM CST for western\nKentucky...and southeastern Missouri.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T23:05:00.000-06:00...storm...268DEG...30KT...36.6,-89.4"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR WESTERN FULTON AND EAST CENTRAL NEW MADRID COUNTIES WILL EXPIRE AT 1115 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KPAH.TO.W.0019.000000T0000Z-200303T0515Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T23:15:00-06:00"
+            ]
+        }
+    }
+}
