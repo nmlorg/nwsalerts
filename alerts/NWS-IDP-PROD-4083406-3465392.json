@@ -1,0 +1,119 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083406-3465392",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.22,
+                    36.95
+                ],
+                [
+                    -90.22,
+                    36.96
+                ],
+                [
+                    -90.2099999,
+                    37.06
+                ],
+                [
+                    -90.22,
+                    37.09
+                ],
+                [
+                    -90.22,
+                    37.11000000000001
+                ],
+                [
+                    -90.03,
+                    37.120000000000005
+                ],
+                [
+                    -89.9599999,
+                    37.120000000000005
+                ],
+                [
+                    -89.95,
+                    36.93000000000001
+                ],
+                [
+                    -90.22,
+                    36.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083406-3465392",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083406-3465392",
+        "areaDesc": "Wayne, MO; Stoddard, MO; Bollinger, MO",
+        "geocode": {
+            "UGC": [
+                "MOC223",
+                "MOC207",
+                "MOC017"
+            ],
+            "SAME": [
+                "029223",
+                "029207",
+                "029017"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC223",
+            "https://api.weather.gov/zones/county/MOC207",
+            "https://api.weather.gov/zones/county/MOC017"
+        ],
+        "references": [],
+        "sent": "2020-03-02T19:28:00-06:00",
+        "effective": "2020-03-02T19:28:00-06:00",
+        "onset": "2020-03-02T19:28:00-06:00",
+        "expires": "2020-03-02T20:15:00-06:00",
+        "ends": "2020-03-02T20:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Tornado Warning issued March 2 at 7:28PM CST until March 2 at 8:15PM CST by NWS Paducah KY",
+        "description": "The National Weather Service in Paducah has issued a\n\n* Tornado Warning for...\nSouthwestern Bollinger County in southeastern Missouri...\nSoutheastern Wayne County in southeastern Missouri...\nNorthwestern Stoddard County in southeastern Missouri...\n\n* Until 815 PM CST.\n\n* At 726 PM CST, a severe thunderstorm capable of producing a tornado\nwas located over Shook, or near Lake Wappapello State Park, moving\neast at 20 mph.\n\nHAZARD...Tornado and half dollar size hail.\n\nSOURCE...Radar indicated rotation. Wappapello Fire Department\nreported strong rotation with this storm.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This dangerous storm will be near...\nPuxico around 740 PM CST.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T19:26:00.000-06:00...storm...258DEG...19KT...37.02,-90.27"
+            ],
+            "hailSize": [
+                1.25
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KPAH.TO.W.0011.200303T0128Z-200303T0215Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHTORPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T20:15:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 8:15 PM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}
