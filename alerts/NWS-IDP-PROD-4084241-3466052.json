@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084241-3466052",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.92,
+                    33.9099999
+                ],
+                [
+                    -78.86,
+                    33.82
+                ],
+                [
+                    -79,
+                    33.79
+                ],
+                [
+                    -79,
+                    33.71
+                ],
+                [
+                    -79.11,
+                    33.71
+                ],
+                [
+                    -79.08,
+                    33.85
+                ],
+                [
+                    -78.92,
+                    33.9099999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084241-3466052",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4084241-3466052",
+        "areaDesc": "Horry, SC",
+        "geocode": {
+            "UGC": [
+                "SCC051"
+            ],
+            "SAME": [
+                "045051"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/SCC051"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082766-3464934",
+                "identifier": "NWS-IDP-PROD-4082766-3464934",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T08:51:00-05:00"
+            }
+        ],
+        "sent": "2020-03-03T09:14:00-05:00",
+        "effective": "2020-03-03T09:14:00-05:00",
+        "onset": "2020-03-03T09:14:00-05:00",
+        "expires": "2020-03-04T01:13:00-05:00",
+        "ends": "2020-03-04T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wilmington NC",
+        "headline": "Flood Warning issued March 3 at 9:14AM EST until March 4 at 1:00PM EST by NWS Wilmington NC",
+        "description": "...The Flood Warning has been extended for the following rivers...\n\nWaccamaw At Conway affecting Horry County SC",
+        "instruction": "People with interests along the river should take the necessary precautions to\nprotect life and property from the flood waters.\n\nAdditional information is available on our website at weather.gov/ilm under the\n\"Rivers and Lakes\" link.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "Flood Warning now in effect until Wednesday afternoon"
+            ],
+            "VTEC": [
+                "/O.EXT.KILM.FL.W.0021.000000T0000Z-200304T1800Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "ILMFLSILM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-04T13:00:00-05:00"
+            ]
+        }
+    }
+}
