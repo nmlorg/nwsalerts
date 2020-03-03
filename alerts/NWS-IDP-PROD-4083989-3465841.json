@@ -1,0 +1,126 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083989-3465841",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.09,
+                    34.8
+                ],
+                [
+                    -89.72,
+                    34.79
+                ],
+                [
+                    -89.72,
+                    34.839999999999996
+                ],
+                [
+                    -89.67,
+                    34.919999999999995
+                ],
+                [
+                    -89.55,
+                    34.959999999999994
+                ],
+                [
+                    -89.53,
+                    35.00999999999999
+                ],
+                [
+                    -89.09,
+                    35.04999999999999
+                ],
+                [
+                    -89.09,
+                    34.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083989-3465841",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083989-3465841",
+        "areaDesc": "Hardeman, TN; Benton, MS; Marshall, MS; Fayette, TN",
+        "geocode": {
+            "UGC": [
+                "TNC069",
+                "MSC009",
+                "MSC093",
+                "TNC047"
+            ],
+            "SAME": [
+                "047069",
+                "028009",
+                "028093",
+                "047047"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC069",
+            "https://api.weather.gov/zones/county/MSC009",
+            "https://api.weather.gov/zones/county/MSC093",
+            "https://api.weather.gov/zones/county/TNC047"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083960-3465813",
+                "identifier": "NWS-IDP-PROD-4083960-3465813",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T03:11:00-06:00"
+            }
+        ],
+        "sent": "2020-03-03T03:29:00-06:00",
+        "effective": "2020-03-03T03:29:00-06:00",
+        "onset": "2020-03-03T03:29:00-06:00",
+        "expires": "2020-03-03T04:00:00-06:00",
+        "ends": "2020-03-03T04:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued March 3 at 3:29AM CST until March 3 at 4:00AM CST by NWS Memphis TN",
+        "description": "At 329 AM CST, a severe thunderstorm was located over Slayden, or 9\nmiles north of Holly Springs, moving east at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nHolly Springs, Lamar, Byhalia, Snow Lake Shores, Canaan, Mt Pleasant,\nMichigan City, Red Banks, Slayden, Ashland, Saulsbury, Coal Oil\nCorner, Victoria, Hudsonville, New Canaan, Early Grove, Taska, Atway,\nMack and Mahon.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T03:29:00.000-06:00...storm...265DEG...46KT...34.91,-89.47"
+            ],
+            "hailSize": [
+                "Up to 0.75"
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 400 AM CST FOR NORTHERN MARSHALL...NORTHERN BENTON...SOUTHEASTERN FAYETTE AND SOUTHWESTERN HARDEMAN COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMEG.SV.W.0054.000000T0000Z-200303T1000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T04:00:00-06:00"
+            ]
+        }
+    }
+}
