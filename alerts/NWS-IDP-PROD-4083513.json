@@ -1,0 +1,86 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083513",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.97,
+                    33.43
+                ],
+                [
+                    -87.02,
+                    33.51
+                ],
+                [
+                    -86.75999999999999,
+                    33.65
+                ],
+                [
+                    -86.63999999999999,
+                    33.519999999999996
+                ],
+                [
+                    -86.97,
+                    33.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083513",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083513",
+        "areaDesc": "Jefferson",
+        "geocode": {
+            "UGC": [
+                "ALZ024"
+            ],
+            "SAME": [
+                "001073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ALZ024"
+        ],
+        "references": [],
+        "sent": "2020-03-02T20:39:00-06:00",
+        "effective": "2020-03-02T20:39:00-06:00",
+        "onset": "2020-03-02T20:39:00-06:00",
+        "expires": "2020-03-02T21:15:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Special Weather Statement issued March 2 at 8:39PM CST by NWS Birmingham AL",
+        "description": "At 838 PM CST, Doppler radar was tracking a strong thunderstorm over\nPleasant Grove, or over Fairfield, moving northeast at 35 mph.\n\nPea size hail will be possible with this storm.\n\nLocations impacted include...\nBirmingham, Bessemer, Homewood, Mountain Brook, Hueytown, Gardendale,\nIrondale, Fairfield, Fultondale, Pleasant Grove, Tarrant, Midfield,\nAdamsville, Brighton, Sylvan Springs, Birmingham Fairgounds, Ketona\nLakes, B.j.c.c., Edgewater and Kingston.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T20:38:00.000-06:00...storm...243DEG...30KT...33.49,-86.94"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR CENTRAL JEFFERSON COUNTY UNTIL 915 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSPSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
