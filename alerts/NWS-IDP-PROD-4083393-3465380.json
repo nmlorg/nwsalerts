@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083393-3465380",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -114.29,
+                    33.04
+                ],
+                [
+                    -114.53,
+                    32.699999999999996
+                ],
+                [
+                    -114.72,
+                    32.699999999999996
+                ],
+                [
+                    -114.48,
+                    33.059999999999995
+                ],
+                [
+                    -114.29,
+                    33.04
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083393-3465380",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083393-3465380",
+        "areaDesc": "Yuma, AZ; La Paz, AZ; Imperial, CA",
+        "geocode": {
+            "UGC": [
+                "AZC027",
+                "AZC012",
+                "CAC025"
+            ],
+            "SAME": [
+                "004027",
+                "004012",
+                "006025"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/AZC027",
+            "https://api.weather.gov/zones/county/AZC012",
+            "https://api.weather.gov/zones/county/CAC025"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083263-3465272",
+                "identifier": "NWS-IDP-PROD-4083263-3465272",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T16:48:00-07:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083192-3465218",
+                "identifier": "NWS-IDP-PROD-4083192-3465218",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T15:26:00-07:00"
+            }
+        ],
+        "sent": "2020-03-02T18:22:00-07:00",
+        "effective": "2020-03-02T18:22:00-07:00",
+        "onset": "2020-03-02T18:22:00-07:00",
+        "expires": "2020-03-02T18:31:00-07:00",
+        "ends": "2020-03-02T18:30:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Phoenix AZ",
+        "headline": "Flood Advisory issued March 2 at 6:22PM MST until March 2 at 6:30PM MST by NWS Phoenix AZ",
+        "description": "The heavy rain has ended, and flooding is no longer expected to pose\na threat.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLOOD ADVISORY WILL EXPIRE AT 630 PM MST/530 PM PST/ FOR SOUTHERN LA PAZ...WEST CENTRAL YUMA AND SOUTHEASTERN IMPERIAL COUNTIES"
+            ],
+            "VTEC": [
+                "/O.EXP.KPSR.FA.Y.0015.000000T0000Z-200303T0130Z/"
+            ],
+            "PIL": [
+                "PSRFLSPSR"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T18:30:00-07:00"
+            ]
+        }
+    }
+}

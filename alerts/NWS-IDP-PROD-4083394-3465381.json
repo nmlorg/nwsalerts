@@ -1,0 +1,95 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083394-3465381",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.5,
+                    37.39
+                ],
+                [
+                    -90.47,
+                    37.54
+                ],
+                [
+                    -90.15,
+                    37.63
+                ],
+                [
+                    -90.15,
+                    37.32
+                ],
+                [
+                    -90.5,
+                    37.39
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083394-3465381",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083394-3465381",
+        "areaDesc": "Madison, MO",
+        "geocode": {
+            "UGC": [
+                "MOC123"
+            ],
+            "SAME": [
+                "029123"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC123"
+        ],
+        "references": [],
+        "sent": "2020-03-02T19:22:00-06:00",
+        "effective": "2020-03-02T19:22:00-06:00",
+        "onset": "2020-03-02T19:22:00-06:00",
+        "expires": "2020-03-02T20:00:00-06:00",
+        "ends": "2020-03-02T20:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 7:22PM CST until March 2 at 8:00PM CST by NWS St Louis MO",
+        "description": "The National Weather Service in St Louis has issued a\n\n* Severe Thunderstorm Warning for...\nCentral Madison County in southeastern Missouri...\n\n* Until 800 PM CST.\n\n* At 722 PM CST, a severe thunderstorm was located 7 miles southwest\nof Cobalt, moving east at 35 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\n* Locations impacted include...\nFredericktown, Junction City, Cobalt, Marquand and Catherine Place.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T19:22:00.000-06:00...storm...274DEG...32KT...37.45,-90.35"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KLSX.SV.W.0010.200303T0122Z-200303T0200Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXSVRLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T20:00:00-06:00"
+            ]
+        }
+    }
+}
