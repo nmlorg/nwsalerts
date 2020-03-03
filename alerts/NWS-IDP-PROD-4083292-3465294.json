@@ -1,0 +1,111 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083292-3465294",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.5699999,
+                    37.08
+                ],
+                [
+                    -88.58,
+                    37.199999999999996
+                ],
+                [
+                    -88.27,
+                    37.279999999999994
+                ],
+                [
+                    -88.25,
+                    37.07999999999999
+                ],
+                [
+                    -88.5699999,
+                    37.08
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083292-3465294",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083292-3465294",
+        "areaDesc": "Pope, IL; Massac, IL; Livingston, KY",
+        "geocode": {
+            "UGC": [
+                "ILC151",
+                "ILC127",
+                "KYC139"
+            ],
+            "SAME": [
+                "017151",
+                "017127",
+                "021139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ILC151",
+            "https://api.weather.gov/zones/county/ILC127",
+            "https://api.weather.gov/zones/county/KYC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083266-3465275",
+                "identifier": "NWS-IDP-PROD-4083266-3465275",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T17:53:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T18:08:00-06:00",
+        "effective": "2020-03-02T18:08:00-06:00",
+        "onset": "2020-03-02T18:08:00-06:00",
+        "expires": "2020-03-02T18:30:00-06:00",
+        "ends": "2020-03-02T18:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 6:08PM CST until March 2 at 6:30PM CST by NWS Paducah KY",
+        "description": "At 607 PM CST, a severe thunderstorm was located near Ledbetter, or\nnear Reidland, moving east at 30 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nSmithland and Hamletsburg.",
+        "instruction": "A Tornado Watch remains in effect until 100 AM CST for southern\nIllinois...and western Kentucky.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T18:07:00.000-06:00...storm...261DEG...24KT...37.09,-88.51"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 630 PM CST FOR SOUTHEASTERN MASSAC...SOUTHEASTERN POPE AND CENTRAL LIVINGSTON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.SV.W.0015.000000T0000Z-200303T0030Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T18:30:00-06:00"
+            ]
+        }
+    }
+}
