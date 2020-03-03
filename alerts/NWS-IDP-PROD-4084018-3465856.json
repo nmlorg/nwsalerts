@@ -1,0 +1,135 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084018-3465856",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.9,
+                    36.03
+                ],
+                [
+                    -83.9,
+                    36.120000000000005
+                ],
+                [
+                    -83.7099999,
+                    36.13
+                ],
+                [
+                    -83.67,
+                    36.09
+                ],
+                [
+                    -83.67,
+                    36.080000000000005
+                ],
+                [
+                    -83.7099999,
+                    36.10000000000001
+                ],
+                [
+                    -83.69,
+                    36.06000000000001
+                ],
+                [
+                    -83.67,
+                    36.05000000000001
+                ],
+                [
+                    -83.68,
+                    36.03000000000001
+                ],
+                [
+                    -83.65,
+                    35.970000000000006
+                ],
+                [
+                    -83.9,
+                    36.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084018-3465856",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4084018-3465856",
+        "areaDesc": "Knox, TN",
+        "geocode": {
+            "UGC": [
+                "TNC093"
+            ],
+            "SAME": [
+                "047093"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC093"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084013-3465852",
+                "identifier": "NWS-IDP-PROD-4084013-3465852",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T04:47:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084006-3465849",
+                "identifier": "NWS-IDP-PROD-4084006-3465849",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T04:41:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083995-3465842",
+                "identifier": "NWS-IDP-PROD-4083995-3465842",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T04:35:00-05:00"
+            }
+        ],
+        "sent": "2020-03-03T04:54:00-05:00",
+        "effective": "2020-03-03T04:54:00-05:00",
+        "onset": "2020-03-03T04:54:00-05:00",
+        "expires": "2020-03-03T05:03:00-05:00",
+        "ends": "2020-03-03T05:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Tornado Warning issued March 3 at 4:54AM EST until March 3 at 5:00AM EST by NWS Morristown TN",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and has exited the warned area. Therefore, the warning will\nbe allowed to expire.  However gusty winds are still possible with\nthis thunderstorm.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T04:53:00.000-05:00...storm...274DEG...53KT...36.06,-83.77"
+            ],
+            "NWSheadline": [
+                "THE TORNADO WARNING FOR NORTHEASTERN KNOX COUNTY WILL EXPIRE AT 500 AM EST"
+            ],
+            "VTEC": [
+                "/O.EXP.KMRX.TO.W.0006.000000T0000Z-200303T1000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MRXSVSMRX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T05:00:00-05:00"
+            ]
+        }
+    }
+}
