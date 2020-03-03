@@ -1,0 +1,88 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084014-3465853",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084014-3465853",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4084014-3465853",
+        "areaDesc": "Winthrop Harbor to Wilmette Harbor IL; Burns Harbor to Michigan City IN; Wilmette Harbor to Northerly Island IL; Calumet Harbor IL to Gary IN; Gary to Burns Harbor IN; Northerly Island to Calumet Harbor IL",
+        "geocode": {
+            "UGC": [
+                "LMZ740",
+                "LMZ745",
+                "LMZ741",
+                "LMZ743",
+                "LMZ744",
+                "LMZ742"
+            ],
+            "SAME": [
+                "092740",
+                "092745",
+                "092741",
+                "092743",
+                "092744",
+                "092742"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/LMZ740",
+            "https://api.weather.gov/zones/forecast/LMZ745",
+            "https://api.weather.gov/zones/forecast/LMZ741",
+            "https://api.weather.gov/zones/forecast/LMZ743",
+            "https://api.weather.gov/zones/forecast/LMZ744",
+            "https://api.weather.gov/zones/forecast/LMZ742"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083086-3465166",
+                "identifier": "NWS-IDP-PROD-4083086-3465166",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T14:41:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083615-3465558",
+                "identifier": "NWS-IDP-PROD-4083615-3465558",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T21:46:00-06:00"
+            }
+        ],
+        "sent": "2020-03-03T03:47:00-06:00",
+        "effective": "2020-03-03T03:47:00-06:00",
+        "onset": "2020-03-03T09:00:00-06:00",
+        "expires": "2020-03-03T12:00:00-06:00",
+        "ends": "2020-03-04T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Small Craft Advisory issued March 3 at 3:47AM CST until March 4 at 12:00AM CST by NWS Chicago IL",
+        "description": "* WINDS...West to 30 kt with some occasional gales possible.\n\n* SIGNIFICANT WAVES...To 5 ft.",
+        "instruction": "A Small Craft Advisory means that wind speeds of 21 to 33 knots\nare expected to produce hazardous wave conditions to small craft.\nInexperienced mariners...especially those operating smaller\nvessels should avoid navigating in these conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "SMALL CRAFT ADVISORY REMAINS IN EFFECT FROM 9 AM THIS MORNING TO MIDNIGHT CST TONIGHT"
+            ],
+            "VTEC": [
+                "/O.CON.KLOT.SC.Y.0024.200303T1500Z-200304T0600Z/"
+            ],
+            "PIL": [
+                "LOTMWWLOT"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-04T00:00:00-06:00"
+            ]
+        }
+    }
+}
