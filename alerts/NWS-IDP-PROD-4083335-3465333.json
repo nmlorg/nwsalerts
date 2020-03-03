@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083335-3465333",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.58,
+                    37.79
+                ],
+                [
+                    -90.53999999999999,
+                    37.9099999
+                ],
+                [
+                    -90.27,
+                    37.95
+                ],
+                [
+                    -90.28,
+                    37.760000000000005
+                ],
+                [
+                    -90.58,
+                    37.79
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083335-3465333",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083335-3465333",
+        "areaDesc": "Ste. Genevieve, MO; St. Francois, MO",
+        "geocode": {
+            "UGC": [
+                "MOC186",
+                "MOC187"
+            ],
+            "SAME": [
+                "029186",
+                "029187"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC186",
+            "https://api.weather.gov/zones/county/MOC187"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083303-3465304",
+                "identifier": "NWS-IDP-PROD-4083303-3465304",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T18:24:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T18:43:00-06:00",
+        "effective": "2020-03-02T18:43:00-06:00",
+        "onset": "2020-03-02T18:43:00-06:00",
+        "expires": "2020-03-02T19:15:00-06:00",
+        "ends": "2020-03-02T19:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 6:43PM CST until March 2 at 7:15PM CST by NWS St Louis MO",
+        "description": "At 642 PM CST, a severe thunderstorm was located over Park Hills,\nmoving east at 30 mph. Penny size hail has been reported in Park\nHills.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\nLocations impacted include...\nFarmington, Bonne Terre, Desloge, Park Hills and Leadington.\n\nThis also includes St. Joe State Park and Missouri Mines Historic\nSite.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T18:42:00.000-06:00...storm...265DEG...28KT...37.85,-90.52"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 715 PM CST FOR SOUTHWESTERN STE. GENEVIEVE AND WEST CENTRAL ST. FRANCOIS COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KLSX.SV.W.0006.000000T0000Z-200303T0115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXSVSLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T19:15:00-06:00"
+            ]
+        }
+    }
+}
