@@ -1,0 +1,97 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083626-3465567",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.9599999,
+                    36.63
+                ],
+                [
+                    -89.95,
+                    36.550000000000004
+                ],
+                [
+                    -90.14,
+                    36.550000000000004
+                ],
+                [
+                    -90.15,
+                    36.63
+                ],
+                [
+                    -89.9599999,
+                    36.63
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083626-3465567",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083626-3465567",
+        "areaDesc": "Dunklin, MO",
+        "geocode": {
+            "UGC": [
+                "MOC069"
+            ],
+            "SAME": [
+                "029069"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC069"
+        ],
+        "references": [],
+        "sent": "2020-03-02T22:00:00-06:00",
+        "effective": "2020-03-02T22:00:00-06:00",
+        "onset": "2020-03-02T22:00:00-06:00",
+        "expires": "2020-03-02T22:45:00-06:00",
+        "ends": "2020-03-02T22:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Tornado Warning issued March 2 at 10:00PM CST until March 2 at 10:45PM CST by NWS Memphis TN",
+        "description": "The National Weather Service in Memphis has issued a\n\n* Tornado Warning for...\nNortheastern Dunklin County in southeastern Missouri...\n\n* Until 1045 PM CST.\n\n* At 1000 PM CST, doppler radar indicated a severe thunderstorm\nproducing a tornado was located near Malden, moving east at 50 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* Locations impacted include...\nMalden, Brian, Valley Ridge and Townley.",
+        "instruction": "TAKE COVER NOW! Move to a storm shelter or an interior room on the\nlowest floor of a sturdy building. Avoid windows. If you are\noutdoors, in a mobile home, or in a vehicle, move to the closest\nsubstantial shelter and protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T22:00:00.000-06:00...storm...268DEG...44KT...36.59,-90.05"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KMEG.TO.W.0008.200303T0400Z-200303T0445Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGTORMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T22:45:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 10:45 PM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}
