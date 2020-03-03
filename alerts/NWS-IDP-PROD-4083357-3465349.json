@@ -1,0 +1,123 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083357-3465349",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.91,
+                    36.54
+                ],
+                [
+                    -91.88,
+                    36.78
+                ],
+                [
+                    -91.78,
+                    37.01
+                ],
+                [
+                    -91.66,
+                    37.05
+                ],
+                [
+                    -91.66,
+                    36.79
+                ],
+                [
+                    -91.67999999999999,
+                    36.79
+                ],
+                [
+                    -91.67999999999999,
+                    36.5
+                ],
+                [
+                    -91.91,
+                    36.54
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083357-3465349",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083357-3465349",
+        "areaDesc": "Howell, MO",
+        "geocode": {
+            "UGC": [
+                "MOC091"
+            ],
+            "SAME": [
+                "029091"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC091"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083319-3465319",
+                "identifier": "NWS-IDP-PROD-4083319-3465319",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T18:34:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083338-3465336",
+                "identifier": "NWS-IDP-PROD-4083338-3465336",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T18:45:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083278-3465286",
+                "identifier": "NWS-IDP-PROD-4083278-3465286",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T18:04:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T18:54:00-06:00",
+        "effective": "2020-03-02T18:54:00-06:00",
+        "onset": "2020-03-02T18:54:00-06:00",
+        "expires": "2020-03-02T19:03:00-06:00",
+        "ends": "2020-03-02T19:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 6:54PM CST until March 2 at 7:00PM CST by NWS Springfield MO",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and no longer poses an immediate threat to life or property.\nTherefore, the warning will be allowed to expire.  However small\nhail, gusty winds and heavy rain are still possible with this\nthunderstorm.\n\nA Tornado Watch remains in effect until 100 AM CST for south central\nMissouri.\n\nTo report severe weather, contact your nearest law enforcement\nagency. They will relay your report to the National Weather Service\nSpringfield.",
+        "instruction": null,
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T18:53:00.000-06:00...storm...266DEG...29KT...36.85,-91.63"
+            ],
+            "NWSheadline": [
+                "THE SEVERE THUNDERSTORM WARNING FOR EASTERN HOWELL COUNTY WILL EXPIRE AT 700 PM CST"
+            ],
+            "VTEC": [
+                "/O.EXP.KSGF.SV.W.0028.000000T0000Z-200303T0100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T19:00:00-06:00"
+            ]
+        }
+    }
+}
