@@ -1,0 +1,117 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083782-3465684",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.43,
+                    36.64
+                ],
+                [
+                    -88.38000000000001,
+                    36.87
+                ],
+                [
+                    -88.30000000000001,
+                    36.87
+                ],
+                [
+                    -88.29,
+                    36.629999999999995
+                ],
+                [
+                    -88.43,
+                    36.64
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083782-3465684",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083782-3465684",
+        "areaDesc": "Marshall, KY; Calloway, KY",
+        "geocode": {
+            "UGC": [
+                "KYC157",
+                "KYC035"
+            ],
+            "SAME": [
+                "021157",
+                "021035"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC157",
+            "https://api.weather.gov/zones/county/KYC035"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083767-3465673",
+                "identifier": "NWS-IDP-PROD-4083767-3465673",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T00:13:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083772-3465677",
+                "identifier": "NWS-IDP-PROD-4083772-3465677",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T00:24:00-06:00"
+            }
+        ],
+        "sent": "2020-03-03T00:35:00-06:00",
+        "effective": "2020-03-03T00:35:00-06:00",
+        "onset": "2020-03-03T00:35:00-06:00",
+        "expires": "2020-03-03T00:45:00-06:00",
+        "ends": "2020-03-03T00:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Severe Thunderstorm Warning issued March 3 at 12:35AM CST until March 3 at 12:45AM CST by NWS Paducah KY",
+        "description": "At 1234 AM CST, a severe thunderstorm was located 8 miles southeast\nof Benton, moving east at 40 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nMurray, Benton, Hardin and Kirksey.",
+        "instruction": "A Tornado Watch remains in effect until 100 AM CST for western\nKentucky.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T00:34:00.000-06:00...storm...263DEG...36KT...36.74,-88.3"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1245 AM CST FOR NORTHWESTERN CALLOWAY AND SOUTH CENTRAL MARSHALL COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.SV.W.0026.000000T0000Z-200303T0645Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T00:45:00-06:00"
+            ]
+        }
+    }
+}
