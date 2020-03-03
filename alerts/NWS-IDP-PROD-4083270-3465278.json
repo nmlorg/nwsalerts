@@ -1,0 +1,125 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083270-3465278",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.31,
+                    37.59
+                ],
+                [
+                    -91.31,
+                    37.510000000000005
+                ],
+                [
+                    -91.22,
+                    37.50000000000001
+                ],
+                [
+                    -91.22,
+                    37.470000000000006
+                ],
+                [
+                    -91.48,
+                    37.46000000000001
+                ],
+                [
+                    -91.49000000000001,
+                    37.56000000000001
+                ],
+                [
+                    -91.19000000000001,
+                    37.69000000000001
+                ],
+                [
+                    -91.15,
+                    37.69000000000001
+                ],
+                [
+                    -91.16000000000001,
+                    37.59000000000001
+                ],
+                [
+                    -91.31,
+                    37.59
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083270-3465278",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083270-3465278",
+        "areaDesc": "Dent, MO",
+        "geocode": {
+            "UGC": [
+                "MOC065"
+            ],
+            "SAME": [
+                "029065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083259-3465269",
+                "identifier": "NWS-IDP-PROD-4083259-3465269",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T17:45:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T18:00:00-06:00",
+        "effective": "2020-03-02T18:00:00-06:00",
+        "onset": "2020-03-02T18:00:00-06:00",
+        "expires": "2020-03-02T18:30:00-06:00",
+        "ends": "2020-03-02T18:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 6:00PM CST until March 2 at 6:30PM CST by NWS Springfield MO",
+        "description": "At 600 PM CST, a severe thunderstorm was located 7 miles north of\nBunker, or 16 miles east of Salem, moving east at 35 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nTurtle...                         Boss...\nStone Hill...                     Howes Mill...\nGladden...",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T18:00:00.000-06:00...storm...266DEG...29KT...37.56,-91.26"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 630 PM CST FOR SOUTHEASTERN DENT COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KSGF.SV.W.0025.000000T0000Z-200303T0030Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T18:30:00-06:00"
+            ]
+        }
+    }
+}
