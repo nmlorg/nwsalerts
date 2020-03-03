@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083534",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.95,
+                    36.43
+                ],
+                [
+                    -91.56,
+                    36.44
+                ],
+                [
+                    -91.56,
+                    36.5
+                ],
+                [
+                    -90.9599999,
+                    36.5
+                ],
+                [
+                    -90.95,
+                    36.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083534",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083534",
+        "areaDesc": "Randolph; Sharp; Fulton",
+        "geocode": {
+            "UGC": [
+                "ARZ008",
+                "ARZ007",
+                "ARZ006"
+            ],
+            "SAME": [
+                "005121",
+                "005135",
+                "005049"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ARZ008",
+            "https://api.weather.gov/zones/forecast/ARZ007",
+            "https://api.weather.gov/zones/forecast/ARZ006"
+        ],
+        "references": [],
+        "sent": "2020-03-02T20:53:00-06:00",
+        "effective": "2020-03-02T20:53:00-06:00",
+        "onset": "2020-03-02T20:53:00-06:00",
+        "expires": "2020-03-02T21:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Special Weather Statement issued March 2 at 8:53PM CST by NWS Little Rock AR",
+        "description": "At 853 PM CST, Doppler radar was tracking a strong thunderstorm near\nMammoth Spring, moving east at 35 mph.\n\nHalf inch hail and winds in excess of 40 mph will be possible with\nthis storm.\n\nLocations impacted include...\nMammoth Spring...                 Mammoth Spring State Park...\nBrakebill...                      Warm Springs...\nElm Store...                      Wirth...\n\nA Tornado Watch remains in effect until 100 AM CST for eastern and\nnorth central Arkansas.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T20:53:00.000-06:00...storm...271DEG...38KT...36.47,-91.45"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTHWESTERN RANDOLPH... NORTHEASTERN FULTON AND NORTH CENTRAL SHARP COUNTIES UNTIL 945 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKSPSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
