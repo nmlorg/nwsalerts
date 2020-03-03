@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083480",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.55,
+                    33.5
+                ],
+                [
+                    -87.6,
+                    33.59
+                ],
+                [
+                    -87.36999999999999,
+                    33.7299999
+                ],
+                [
+                    -87.24999999999999,
+                    33.580000000000005
+                ],
+                [
+                    -87.55,
+                    33.5
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083480",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083480",
+        "areaDesc": "Fayette; Tuscaloosa; Walker",
+        "geocode": {
+            "UGC": [
+                "ALZ013",
+                "ALZ023",
+                "ALZ015"
+            ],
+            "SAME": [
+                "001057",
+                "001125",
+                "001127"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ALZ013",
+            "https://api.weather.gov/zones/forecast/ALZ023",
+            "https://api.weather.gov/zones/forecast/ALZ015"
+        ],
+        "references": [],
+        "sent": "2020-03-02T20:21:00-06:00",
+        "effective": "2020-03-02T20:21:00-06:00",
+        "onset": "2020-03-02T20:21:00-06:00",
+        "expires": "2020-03-02T20:45:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Special Weather Statement issued March 2 at 8:21PM CST by NWS Birmingham AL",
+        "description": "At 821 PM CST, Doppler radar was tracking a strong thunderstorm near\nBoley Springs, or 19 miles southeast of Fayette, moving northeast at\n30 mph.\n\nPea size hail will be possible with this storm.\n\nLocations impacted include...\nOakman, Boley Springs, Tutwiler, Whitson, Wiley and The Wye.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T20:21:00.000-06:00...storm...242DEG...24KT...33.56,-87.52"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR SOUTH CENTRAL WALKER...NORTH CENTRAL TUSCALOOSA AND SOUTHEASTERN FAYETTE COUNTIES UNTIL 845 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSPSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

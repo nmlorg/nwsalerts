@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083484-3465466",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.4599999,
+                    36.38
+                ],
+                [
+                    -91.88,
+                    36.400000000000006
+                ],
+                [
+                    -91.86999999999999,
+                    36.50000000000001
+                ],
+                [
+                    -91.45999989999999,
+                    36.50000000000001
+                ],
+                [
+                    -91.4599999,
+                    36.38
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083484-3465466",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083484-3465466",
+        "areaDesc": "Fulton, AR",
+        "geocode": {
+            "UGC": [
+                "ARC049"
+            ],
+            "SAME": [
+                "005049"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC049"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083462-3465445",
+                "identifier": "NWS-IDP-PROD-4083462-3465445",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T20:07:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T20:23:00-06:00",
+        "effective": "2020-03-02T20:23:00-06:00",
+        "onset": "2020-03-02T20:23:00-06:00",
+        "expires": "2020-03-02T21:00:00-06:00",
+        "ends": "2020-03-02T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 8:23PM CST until March 2 at 9:00PM CST by NWS Little Rock AR",
+        "description": "At 823 PM CST, a severe thunderstorm was located near Sturkie, or\n5 miles north of Salem in Fulton County, moving east at 30 mph.\n\nHAZARD...60 mph wind gusts and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nMammoth Spring...                 Sturkie...\nMammoth Spring State Park...      Moko...\nFryatt...                         Saddler Falls...\nCamp...",
+        "instruction": "A Tornado Watch remains in effect until 100 AM CST for north central\nArkansas.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T20:23:00.000-06:00...storm...269DEG...24KT...36.45,-91.81"
+            ],
+            "hailSize": [
+                0.88
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 900 PM CST FOR NORTHEASTERN FULTON COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KLZK.SV.W.0036.000000T0000Z-200303T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKSVSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T21:00:00-06:00"
+            ]
+        }
+    }
+}

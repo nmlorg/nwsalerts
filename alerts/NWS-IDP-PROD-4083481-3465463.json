@@ -1,0 +1,128 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083481-3465463",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.9,
+                    36.81
+                ],
+                [
+                    -92.9,
+                    37.080000000000005
+                ],
+                [
+                    -93.24000000000001,
+                    37.09
+                ],
+                [
+                    -93.26,
+                    37.1
+                ],
+                [
+                    -93.25,
+                    37.21
+                ],
+                [
+                    -92.25,
+                    37.24
+                ],
+                [
+                    -92.25,
+                    37.06
+                ],
+                [
+                    -92.09,
+                    37.050000000000004
+                ],
+                [
+                    -92.10000000000001,
+                    36.800000000000004
+                ],
+                [
+                    -92.9,
+                    36.81
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083481-3465463",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083481-3465463",
+        "areaDesc": "Webster, MO; Douglas, MO; Wright, MO; Greene, MO",
+        "geocode": {
+            "UGC": [
+                "MOC225",
+                "MOC067",
+                "MOC229",
+                "MOC077"
+            ],
+            "SAME": [
+                "029225",
+                "029067",
+                "029229",
+                "029077"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC225",
+            "https://api.weather.gov/zones/county/MOC067",
+            "https://api.weather.gov/zones/county/MOC229",
+            "https://api.weather.gov/zones/county/MOC077"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082791-3464953",
+                "identifier": "NWS-IDP-PROD-4082791-3464953",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T08:32:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083151-3465197",
+                "identifier": "NWS-IDP-PROD-4083151-3465197",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T15:19:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T20:21:00-06:00",
+        "effective": "2020-03-02T20:21:00-06:00",
+        "onset": "2020-03-02T20:21:00-06:00",
+        "expires": "2020-03-02T20:31:00-06:00",
+        "ends": "2020-03-02T20:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Flood Advisory issued March 2 at 8:21PM CST until March 2 at 8:30PM CST by NWS Springfield MO",
+        "description": "Flood waters have receded, and are no longer expected to pose a\nthreat to life or property. Please continue to heed any road\nclosures.",
+        "instruction": null,
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "THE FLOOD ADVISORY WILL EXPIRE AT 830 PM CST FOR SOUTHERN WEBSTER...DOUGLAS...SOUTHERN WRIGHT AND SOUTHEASTERN GREENE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.EXP.KSGF.FA.Y.0013.000000T0000Z-200303T0230Z/"
+            ],
+            "PIL": [
+                "SGFFLSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T20:30:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083483-3465465",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.88,
+                    37.03
+                ],
+                [
+                    -89.86999999999999,
+                    37.13
+                ],
+                [
+                    -89.66,
+                    37.13
+                ],
+                [
+                    -89.64999999999999,
+                    37
+                ],
+                [
+                    -89.88,
+                    37.03
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083483-3465465",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083483-3465465",
+        "areaDesc": "Scott, MO; Stoddard, MO",
+        "geocode": {
+            "UGC": [
+                "MOC201",
+                "MOC207"
+            ],
+            "SAME": [
+                "029201",
+                "029207"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC201",
+            "https://api.weather.gov/zones/county/MOC207"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083476-3465459",
+                "identifier": "NWS-IDP-PROD-4083476-3465459",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T20:16:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T20:23:00-06:00",
+        "effective": "2020-03-02T20:23:00-06:00",
+        "onset": "2020-03-02T20:23:00-06:00",
+        "expires": "2020-03-02T21:00:00-06:00",
+        "ends": "2020-03-02T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Tornado Warning issued March 2 at 8:23PM CST until March 2 at 9:00PM CST by NWS Paducah KY",
+        "description": "At 823 PM CST, a severe thunderstorm capable of producing a tornado\nwas located near Bell City, or near Advance, moving east at 25 mph.\n\nHAZARD...Tornado and half dollar size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nThis dangerous storm will be near...\nOran around 845 PM CST.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T20:23:00.000-06:00...storm...261DEG...23KT...37.09,-89.83"
+            ],
+            "hailSize": [
+                1.25
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 900 PM CST FOR WEST CENTRAL SCOTT AND NORTHEASTERN STODDARD COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.TO.W.0014.000000T0000Z-200303T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T21:00:00-06:00"
+            ]
+        }
+    }
+}
