@@ -1,0 +1,120 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083643-3465579",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.91,
+                    36.53
+                ],
+                [
+                    -89.92,
+                    36.54
+                ],
+                [
+                    -89.92,
+                    36.61
+                ],
+                [
+                    -89.91,
+                    36.63
+                ],
+                [
+                    -89.88,
+                    36.650000000000006
+                ],
+                [
+                    -89.69,
+                    36.6599999
+                ],
+                [
+                    -89.67999999999999,
+                    36.510000000000005
+                ],
+                [
+                    -89.91,
+                    36.53
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083643-3465579",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083643-3465579",
+        "areaDesc": "New Madrid, MO; Stoddard, MO",
+        "geocode": {
+            "UGC": [
+                "MOC143",
+                "MOC207"
+            ],
+            "SAME": [
+                "029143",
+                "029207"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC143",
+            "https://api.weather.gov/zones/county/MOC207"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083636-3465574",
+                "identifier": "NWS-IDP-PROD-4083636-3465574",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T22:10:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T22:21:00-06:00",
+        "effective": "2020-03-02T22:21:00-06:00",
+        "onset": "2020-03-02T22:21:00-06:00",
+        "expires": "2020-03-02T22:45:00-06:00",
+        "ends": "2020-03-02T22:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Tornado Warning issued March 2 at 10:21PM CST until March 2 at 10:45PM CST by NWS Paducah KY",
+        "description": "At 1021 PM CST, a confirmed tornado was located over Parma, or 7\nmiles east of Malden, moving east at 35 mph.\n\nHAZARD...Damaging tornado and quarter size hail.\n\nSOURCE...Weather spotters confirmed a tornado 4 miles east of Malden.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nParma, Risco and Catron.",
+        "instruction": "To repeat, a tornado is on the ground. TAKE COVER NOW! Move to a\nbasement or an interior room on the lowest floor of a sturdy\nbuilding. Avoid windows. If you are outdoors, in a mobile home, or in\na vehicle, move to the closest substantial shelter and protect\nyourself from flying debris.\n\nTornadoes are extremely difficult to see and confirm at night. Do not\nwait to see or hear the tornado. TAKE COVER NOW!",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T22:21:00.000-06:00...storm...269DEG...32KT...36.59,-89.84"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "OBSERVED"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 1045 PM CST FOR WEST CENTRAL NEW MADRID AND SOUTHEASTERN STODDARD COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.TO.W.0018.000000T0000Z-200303T0445Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T22:45:00-06:00"
+            ]
+        }
+    }
+}
