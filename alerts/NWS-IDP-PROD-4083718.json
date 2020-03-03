@@ -1,0 +1,105 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083718",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.55,
+                    40.13
+                ],
+                [
+                    -86.47,
+                    39.970000000000006
+                ],
+                [
+                    -86.66,
+                    39.92000000000001
+                ],
+                [
+                    -86.69,
+                    39.92000000000001
+                ],
+                [
+                    -86.7,
+                    39.90999990000001
+                ],
+                [
+                    -86.89,
+                    39.86000000000001
+                ],
+                [
+                    -86.9599999,
+                    39.870000000000005
+                ],
+                [
+                    -87.01,
+                    39.970000000000006
+                ],
+                [
+                    -86.55,
+                    40.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083718",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083718",
+        "areaDesc": "Boone; Montgomery",
+        "geocode": {
+            "UGC": [
+                "INZ037",
+                "INZ036"
+            ],
+            "SAME": [
+                "018011",
+                "018107"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/INZ037",
+            "https://api.weather.gov/zones/forecast/INZ036"
+        ],
+        "references": [],
+        "sent": "2020-03-03T00:15:00-05:00",
+        "effective": "2020-03-03T00:15:00-05:00",
+        "onset": "2020-03-03T00:15:00-05:00",
+        "expires": "2020-03-03T00:45:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Special Weather Statement issued March 3 at 12:15AM EST by NWS Indianapolis IN",
+        "description": "At 1214 AM EST, Doppler radar was tracking a strong thunderstorm 7\nmiles south of Crawfordsville, moving east at 45 mph.\n\nHalf inch hail will be possible with this storm.\n\nLocations impacted include...\nLadoga, Jamestown, New Market, Advance and New Ross.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T00:14:00.000-05:00...storm...248DEG...40KT...39.94,-86.9"
+            ],
+            "NWSheadline": [
+                "THUNDERSTORM WITH HAIL"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDSPSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

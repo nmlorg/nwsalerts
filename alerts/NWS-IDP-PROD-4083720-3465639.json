@@ -1,0 +1,134 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083720-3465639",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.92,
+                    36.13
+                ],
+                [
+                    -87.94,
+                    36.11
+                ],
+                [
+                    -87.9599999,
+                    36.08
+                ],
+                [
+                    -88.05,
+                    36.07
+                ],
+                [
+                    -88.11,
+                    36.18
+                ],
+                [
+                    -87.95,
+                    36.22
+                ],
+                [
+                    -87.94,
+                    36.21
+                ],
+                [
+                    -87.92999999999999,
+                    36.18
+                ],
+                [
+                    -87.91999999999999,
+                    36.17
+                ],
+                [
+                    -87.92,
+                    36.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083720-3465639",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083720-3465639",
+        "areaDesc": "Benton, TN",
+        "geocode": {
+            "UGC": [
+                "TNC005"
+            ],
+            "SAME": [
+                "047005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC005"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083681-3465610",
+                "identifier": "NWS-IDP-PROD-4083681-3465610",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T22:56:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083673-3465605",
+                "identifier": "NWS-IDP-PROD-4083673-3465605",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T22:45:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T23:15:00-06:00",
+        "effective": "2020-03-02T23:15:00-06:00",
+        "onset": "2020-03-02T23:15:00-06:00",
+        "expires": "2020-03-02T23:30:00-06:00",
+        "ends": "2020-03-02T23:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 11:15PM CST until March 2 at 11:30PM CST by NWS Memphis TN",
+        "description": "At 1115 PM CST, a severe thunderstorm was located near Springville,\nor 9 miles north of Camden, moving east at 40 mph.\n\nHAZARD...Ping pong ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect wind\ndamage to roofs, siding, and trees.\n\nLocations impacted include...\nCamden and Nathan Bedford Forrest State Park.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T23:15:00.000-06:00...storm...256DEG...33KT...36.19,-88.06"
+            ],
+            "hailSize": [
+                1.5
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1130 PM CST FOR EAST CENTRAL BENTON COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KMEG.SV.W.0048.000000T0000Z-200303T0530Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T23:30:00-06:00"
+            ]
+        }
+    }
+}
