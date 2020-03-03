@@ -1,0 +1,98 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083467-3465450",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.01,
+                    36.54
+                ],
+                [
+                    -91.4599999,
+                    36.62
+                ],
+                [
+                    -91.4599999,
+                    36.5
+                ],
+                [
+                    -92.01,
+                    36.5
+                ],
+                [
+                    -92.01,
+                    36.54
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083467-3465450",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083467-3465450",
+        "areaDesc": "Howell, MO; Oregon, MO",
+        "geocode": {
+            "UGC": [
+                "MOC091",
+                "MOC149"
+            ],
+            "SAME": [
+                "029091",
+                "029149"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC091",
+            "https://api.weather.gov/zones/county/MOC149"
+        ],
+        "references": [],
+        "sent": "2020-03-02T20:08:00-06:00",
+        "effective": "2020-03-02T20:08:00-06:00",
+        "onset": "2020-03-02T20:08:00-06:00",
+        "expires": "2020-03-02T21:00:00-06:00",
+        "ends": "2020-03-02T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 8:08PM CST until March 2 at 9:00PM CST by NWS Springfield MO",
+        "description": "The National Weather Service in Springfield has issued a\n\n* Severe Thunderstorm Warning for...\nSoutheastern Howell County in south central Missouri...\nSouthwestern Oregon County in south central Missouri...\n\n* Until 900 PM CST.\n\n* At 808 PM CST, a severe thunderstorm was located near Sturkie, or\n10 miles northwest of Salem in Fulton County, moving east at 35\nmph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nThayer around 850 PM CST.\n\nOther locations impacted by this severe thunderstorm include Grand\nGulf State Park, Koshkonong, Lanton and Moody.",
+        "instruction": "A Tornado Watch remains in effect until 100 AM CST for south central\nMissouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T20:08:00.000-06:00...storm...270DEG...29KT...36.49,-91.93"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KSGF.SV.W.0031.200303T0208Z-200303T0300Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVRSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T21:00:00-06:00"
+            ]
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083465-3465448",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.85,
+                    37.3
+                ],
+                [
+                    -89.80999999999999,
+                    37.479999899999996
+                ],
+                [
+                    -89.31999989999998,
+                    37.419999999999995
+                ],
+                [
+                    -89.38999999999999,
+                    37.159999899999995
+                ],
+                [
+                    -89.85,
+                    37.3
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083465-3465448",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083465-3465448",
+        "areaDesc": "Scott, MO; Union, IL; Alexander, IL; Cape Girardeau, MO",
+        "geocode": {
+            "UGC": [
+                "MOC201",
+                "ILC181",
+                "ILC003",
+                "MOC031"
+            ],
+            "SAME": [
+                "029201",
+                "017181",
+                "017003",
+                "029031"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC201",
+            "https://api.weather.gov/zones/county/ILC181",
+            "https://api.weather.gov/zones/county/ILC003",
+            "https://api.weather.gov/zones/county/MOC031"
+        ],
+        "references": [],
+        "sent": "2020-03-02T20:07:00-06:00",
+        "effective": "2020-03-02T20:07:00-06:00",
+        "onset": "2020-03-02T20:07:00-06:00",
+        "expires": "2020-03-02T20:45:00-06:00",
+        "ends": "2020-03-02T20:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 8:07PM CST until March 2 at 8:45PM CST by NWS Paducah KY",
+        "description": "The National Weather Service in Paducah has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Union County in southern Illinois...\nNorthwestern Alexander County in southern Illinois...\nNorth central Scott County in southeastern Missouri...\nCentral Cape Girardeau County in southeastern Missouri...\n\n* Until 845 PM CST.\n\n* At 806 PM CST, a severe thunderstorm was located near Burfordville,\nor near Bollinger Mill State Historic Site, moving east at 30 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* Locations impacted include...\nCape Girardeau, Jackson, Scott City, Bollinger Mill State Historic\nSite, Gordonville, Dutchtown, Burfordville, Millersville, Thebes\nand East Cape Girardeau.\n\nThis includes Interstate 55 between Mile Markers 90 and 108.",
+        "instruction": "A Tornado Watch remains in effect until 100 AM CST for southern\nIllinois...and southeastern Missouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T20:06:00.000-06:00...storm...283DEG...26KT...37.38,-89.74"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KPAH.SV.W.0020.200303T0207Z-200303T0245Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVRPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T20:45:00-06:00"
+            ]
+        }
+    }
+}
