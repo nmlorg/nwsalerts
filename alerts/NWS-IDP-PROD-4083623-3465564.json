@@ -1,0 +1,120 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083623-3465564",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.81,
+                    36.95
+                ],
+                [
+                    -88.68,
+                    37.260000000000005
+                ],
+                [
+                    -88.27000000000001,
+                    37.25000000000001
+                ],
+                [
+                    -88.42000000000002,
+                    36.86000000000001
+                ],
+                [
+                    -88.81,
+                    36.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083623-3465564",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083623-3465564",
+        "areaDesc": "Graves, KY; Pope, IL; McCracken, KY; Massac, IL; Marshall, KY; Livingston, KY",
+        "geocode": {
+            "UGC": [
+                "KYC083",
+                "ILC151",
+                "KYC145",
+                "ILC127",
+                "KYC157",
+                "KYC139"
+            ],
+            "SAME": [
+                "021083",
+                "017151",
+                "021145",
+                "017127",
+                "021157",
+                "021139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC083",
+            "https://api.weather.gov/zones/county/ILC151",
+            "https://api.weather.gov/zones/county/KYC145",
+            "https://api.weather.gov/zones/county/ILC127",
+            "https://api.weather.gov/zones/county/KYC157",
+            "https://api.weather.gov/zones/county/KYC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083605-3465550",
+                "identifier": "NWS-IDP-PROD-4083605-3465550",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T21:32:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T21:53:00-06:00",
+        "effective": "2020-03-02T21:53:00-06:00",
+        "onset": "2020-03-02T21:53:00-06:00",
+        "expires": "2020-03-02T22:15:00-06:00",
+        "ends": "2020-03-02T22:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 9:53PM CST until March 2 at 10:15PM CST by NWS Paducah KY",
+        "description": "At 953 PM CST, severe thunderstorms were located along a line\nextending from 8 miles southwest of Golconda to 7 miles south of Lone\nOak to near Bardwell, moving east at 50 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nPaducah, Metropolis, Calvert City, Lone Oak, Reidland, Brookport,\nWest Paducah, Ledbetter, Barkley Regional Airport, Smithland,\nHamletsburg and Symsonia.",
+        "instruction": "A Tornado Watch remains in effect until 100 AM CST for southern\nIllinois...and western Kentucky.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T21:53:00.000-06:00...storm...271DEG...42KT...37.26,-88.58 36.94,-88.65 36.9,-88.96"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1015 PM CST FOR SOUTHEASTERN MASSAC...SOUTHEASTERN POPE...SOUTHERN LIVINGSTON... NORTHWESTERN MARSHALL...MCCRACKEN AND NORTHEASTERN GRAVES COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.SV.W.0024.000000T0000Z-200303T0415Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T22:15:00-06:00"
+            ]
+        }
+    }
+}
