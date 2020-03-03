@@ -1,0 +1,81 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084027-3465866",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084027-3465866",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4084027-3465866",
+        "areaDesc": "Genesee; Southern Erie; Northern Erie; Niagara; Wyoming; Orleans",
+        "geocode": {
+            "UGC": [
+                "NYZ011",
+                "NYZ085",
+                "NYZ010",
+                "NYZ001",
+                "NYZ012",
+                "NYZ002"
+            ],
+            "SAME": [
+                "036037",
+                "036029",
+                "036063",
+                "036121",
+                "036073"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ011",
+            "https://api.weather.gov/zones/forecast/NYZ085",
+            "https://api.weather.gov/zones/forecast/NYZ010",
+            "https://api.weather.gov/zones/forecast/NYZ001",
+            "https://api.weather.gov/zones/forecast/NYZ012",
+            "https://api.weather.gov/zones/forecast/NYZ002"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083683-3465612",
+                "identifier": "NWS-IDP-PROD-4083683-3465612",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T23:57:00-05:00"
+            }
+        ],
+        "sent": "2020-03-03T05:01:00-05:00",
+        "effective": "2020-03-03T05:01:00-05:00",
+        "onset": "2020-03-03T05:01:00-05:00",
+        "expires": "2020-03-03T10:00:00-05:00",
+        "ends": "2020-03-03T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Dense Fog Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Buffalo NY",
+        "headline": "Dense Fog Advisory issued March 3 at 5:01AM EST until March 3 at 10:00AM EST by NWS Buffalo NY",
+        "description": "* WHAT...Visibility as low as one quarter mile at times in dense\nfog.\n\n* WHERE...The Niagara Frontier. The most widespread dense fog is\nacross Niagara and Orleans counties.\n\n* WHEN...Until 10 AM EST this morning.\n\n* IMPACTS...Hazardous driving conditions due to low visibility.",
+        "instruction": "If driving, slow down, use your headlights, and leave plenty of\ndistance ahead of you.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "DENSE FOG ADVISORY REMAINS IN EFFECT UNTIL 10 AM EST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.CON.KBUF.FG.Y.0001.000000T0000Z-200303T1500Z/"
+            ],
+            "PIL": [
+                "BUFNPWBUF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T10:00:00-05:00"
+            ]
+        }
+    }
+}
