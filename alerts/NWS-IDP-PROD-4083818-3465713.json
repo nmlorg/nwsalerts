@@ -1,0 +1,156 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083818-3465713",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.97,
+                    36.13
+                ],
+                [
+                    -86.42999999999999,
+                    36.13
+                ],
+                [
+                    -86.58,
+                    36.190000000000005
+                ],
+                [
+                    -86.59,
+                    36.24
+                ],
+                [
+                    -86.61,
+                    36.25
+                ],
+                [
+                    -86.64,
+                    36.26
+                ],
+                [
+                    -86.64,
+                    36.29
+                ],
+                [
+                    -86.67,
+                    36.3
+                ],
+                [
+                    -86.68,
+                    36.32
+                ],
+                [
+                    -86.7,
+                    36.32
+                ],
+                [
+                    -86.72,
+                    36.34
+                ],
+                [
+                    -86.73,
+                    36.370000000000005
+                ],
+                [
+                    -86.02000000000001,
+                    36.43000000000001
+                ],
+                [
+                    -85.97,
+                    36.13
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083818-3465713",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083818-3465713",
+        "areaDesc": "Wilson, TN; Smith, TN; Sumner, TN; Trousdale, TN",
+        "geocode": {
+            "UGC": [
+                "TNC189",
+                "TNC159",
+                "TNC165",
+                "TNC169"
+            ],
+            "SAME": [
+                "047189",
+                "047159",
+                "047165",
+                "047169"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC189",
+            "https://api.weather.gov/zones/county/TNC159",
+            "https://api.weather.gov/zones/county/TNC165",
+            "https://api.weather.gov/zones/county/TNC169"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083788-3465690",
+                "identifier": "NWS-IDP-PROD-4083788-3465690",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T00:46:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083811-3465707",
+                "identifier": "NWS-IDP-PROD-4083811-3465707",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T01:13:00-06:00"
+            }
+        ],
+        "sent": "2020-03-03T01:21:00-06:00",
+        "effective": "2020-03-03T01:21:00-06:00",
+        "onset": "2020-03-03T01:21:00-06:00",
+        "expires": "2020-03-03T01:30:00-06:00",
+        "ends": "2020-03-03T01:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Severe Thunderstorm Warning issued March 3 at 1:21AM CST until March 3 at 1:30AM CST by NWS Nashville TN",
+        "description": "At 120 AM CST, a severe thunderstorm was located 8 miles west of\nCarthage, moving east at 55 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...National Weather Service employee reported 60 mph winds\nwith this storm.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nGallatin, Lebanon, Hartsville, Hendersonville, Mount Juliet,\nGoodlettsville, Millersville, Belinda City, Tuckers Crossroads, Dixon\nSprings, Bledsoe Creek State Park and Dickerson Chapel Recreation\nArea.\n\nThis includes the following highways...\nInterstate 40 between mile markers 226 and 256.\nInterstate 65 between mile markers 98 and 100.\nInterstate 840 between mile markers 72 and 76.",
+        "instruction": "A Tornado Watch remains in effect until 300 AM CST for Middle\nTennessee.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T01:20:00.000-06:00...storm...268DEG...49KT...36.25,-86.1"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 130 AM CST FOR WESTERN SMITH...SOUTHERN SUMNER...NORTHERN WILSON AND TROUSDALE COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KOHX.SV.W.0040.000000T0000Z-200303T0730Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T01:30:00-06:00"
+            ]
+        }
+    }
+}
