@@ -1,0 +1,108 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083773-3465678",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -89.9599999,
+                    36.21
+                ],
+                [
+                    -89.9599999,
+                    36.12
+                ],
+                [
+                    -90.7099999,
+                    35.83
+                ],
+                [
+                    -90.8199999,
+                    35.989999999999995
+                ],
+                [
+                    -90.0699999,
+                    36.379999999999995
+                ],
+                [
+                    -89.9599999,
+                    36.21
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083773-3465678",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083773-3465678",
+        "areaDesc": "Craighead, AR; Greene, AR; Dunklin, MO; Clay, AR",
+        "geocode": {
+            "UGC": [
+                "ARC031",
+                "ARC055",
+                "MOC069",
+                "ARC021"
+            ],
+            "SAME": [
+                "005031",
+                "005055",
+                "029069",
+                "005021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC031",
+            "https://api.weather.gov/zones/county/ARC055",
+            "https://api.weather.gov/zones/county/MOC069",
+            "https://api.weather.gov/zones/county/ARC021"
+        ],
+        "references": [],
+        "sent": "2020-03-03T00:25:00-06:00",
+        "effective": "2020-03-03T00:25:00-06:00",
+        "onset": "2020-03-03T00:25:00-06:00",
+        "expires": "2020-03-03T01:15:00-06:00",
+        "ends": "2020-03-03T01:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued March 3 at 12:25AM CST until March 3 at 1:15AM CST by NWS Memphis TN",
+        "description": "The National Weather Service in Memphis has issued a\n\n* Severe Thunderstorm Warning for...\nSoutheastern Greene County in eastern Arkansas...\nNortheastern Craighead County in eastern Arkansas...\nSoutheastern Clay County in eastern Arkansas...\nSouthern Dunklin County in southeastern Missouri...\n\n* Until 115 AM CST.\n\n* At 1225 AM CST, a severe thunderstorm was located over Lake\nFrierson State Park, moving northeast at 50 mph.\n\nHAZARD...Half dollar size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\n* Locations impacted include...\nJonesboro, Paragould, Kennett, Rector, Senath, Brookland,\nMarmaduke, Crowleys Ridge State Park, Lake Frierson State Park, Oak\nGrove Heights, Cardwell, Arbyrd, Walcott, Nimmons, Mounds,\nHalliday, West Kennett, Leonard, Bethel and Finch.",
+        "instruction": "A Tornado Watch remains in effect until 100 AM CST for eastern\nArkansas...and southeastern Missouri.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T00:25:00.000-06:00...storm...240DEG...43KT...35.95,-90.69"
+            ],
+            "hailSize": [
+                1.25
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KMEG.SV.W.0050.200303T0625Z-200303T0715Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVRMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T01:15:00-06:00"
+            ]
+        }
+    }
+}

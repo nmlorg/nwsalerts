@@ -1,0 +1,99 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083774",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.5699999,
+                    34.67
+                ],
+                [
+                    -92.2,
+                    34.49
+                ],
+                [
+                    -92.3199999,
+                    34.49
+                ],
+                [
+                    -92.36,
+                    34.620000000000005
+                ],
+                [
+                    -91.7,
+                    34.92
+                ],
+                [
+                    -91.5699999,
+                    34.67
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083774",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083774",
+        "areaDesc": "Saline; Lonoke; Prairie; Pulaski",
+        "geocode": {
+            "UGC": [
+                "ARZ043",
+                "ARZ045",
+                "ARZ046",
+                "ARZ044"
+            ],
+            "SAME": [
+                "005125",
+                "005085",
+                "005117",
+                "005119"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ARZ043",
+            "https://api.weather.gov/zones/forecast/ARZ045",
+            "https://api.weather.gov/zones/forecast/ARZ046",
+            "https://api.weather.gov/zones/forecast/ARZ044"
+        ],
+        "references": [],
+        "sent": "2020-03-03T00:25:00-06:00",
+        "effective": "2020-03-03T00:25:00-06:00",
+        "onset": "2020-03-03T00:25:00-06:00",
+        "expires": "2020-03-03T01:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Special Weather Statement issued March 3 at 12:25AM CST by NWS Little Rock AR",
+        "description": "At 1223 AM CST, Doppler radar was tracking a strong thunderstorm over\nEstes, or 11 miles southeast of Downtown Little Rock, moving\nnortheast at 55 mph.\n\nPenny size hail and wind gusts up to 50 mph will be possible with\nthis storm.\n\nLocations impacted include...\nLonoke...                         England...\nCarlisle...                       Wrightsville...\nKeo...                            Barrettsville...\nPrairie Center...                 Ironton...\nEstes...                          Meto...\nParkers Corner...                 Toltec Mounds State Park...\nMcCreanor...                      East End...\nSisemore...                       Scott...\nSweet Home...                     Baucum...\nBevis Corner...                   Higgins...",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T00:23:00.000-06:00...storm...246DEG...49KT...34.61,-92.16"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR CENTRAL PRAIRIE...CENTRAL LONOKE...EAST CENTRAL SALINE AND SOUTHEASTERN PULASKI COUNTIES UNTIL 100 AM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKSPSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
