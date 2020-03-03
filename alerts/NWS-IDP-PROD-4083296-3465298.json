@@ -1,0 +1,103 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083296-3465298",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.84,
+                    36.86
+                ],
+                [
+                    -90.87,
+                    36.97
+                ],
+                [
+                    -90.53,
+                    37.08
+                ],
+                [
+                    -90.45,
+                    36.92
+                ],
+                [
+                    -90.84,
+                    36.86
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083296-3465298",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083296-3465298",
+        "areaDesc": "Carter, MO; Wayne, MO; Butler, MO",
+        "geocode": {
+            "UGC": [
+                "MOC035",
+                "MOC223",
+                "MOC023"
+            ],
+            "SAME": [
+                "029035",
+                "029223",
+                "029023"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC035",
+            "https://api.weather.gov/zones/county/MOC223",
+            "https://api.weather.gov/zones/county/MOC023"
+        ],
+        "references": [],
+        "sent": "2020-03-02T18:14:00-06:00",
+        "effective": "2020-03-02T18:14:00-06:00",
+        "onset": "2020-03-02T18:14:00-06:00",
+        "expires": "2020-03-02T19:00:00-06:00",
+        "ends": "2020-03-02T19:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Tornado Warning issued March 2 at 6:14PM CST until March 2 at 7:00PM CST by NWS Paducah KY",
+        "description": "The National Weather Service in Paducah has issued a\n\n* Tornado Warning for...\nSoutheastern Carter County in southeastern Missouri...\nSouthwestern Wayne County in southeastern Missouri...\nNorthwestern Butler County in southeastern Missouri...\n\n* Until 700 PM CST.\n\n* At 614 PM CST, a severe thunderstorm capable of producing a tornado\nwas located over Ellsinore, or 13 miles southeast of Van Buren,\nmoving east at 20 mph.\n\nHAZARD...Tornado and quarter size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This dangerous storm will be near...\nEllsinore around 620 PM CST.\nBrush Arbor around 640 PM CST.\nWilliamsville around 700 PM CST.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T18:14:00.000-06:00...storm...255DEG...16KT...36.92,-90.79"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "VTEC": [
+                "/O.NEW.KPAH.TO.W.0008.200303T0014Z-200303T0100Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHTORPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T19:00:00-06:00"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 7:00 PM CST. Take shelter now. Check media."
+            ]
+        }
+    }
+}

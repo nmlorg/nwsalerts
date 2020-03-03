@@ -1,0 +1,119 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083295-3465297",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -91.43,
+                    37.46
+                ],
+                [
+                    -91.44000000000001,
+                    37.53
+                ],
+                [
+                    -91.31000000000002,
+                    37.57
+                ],
+                [
+                    -91.31000000000002,
+                    37.51
+                ],
+                [
+                    -91.22000000000001,
+                    37.5
+                ],
+                [
+                    -91.22000000000001,
+                    37.47
+                ],
+                [
+                    -91.43,
+                    37.46
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083295-3465297",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083295-3465297",
+        "areaDesc": "Dent, MO",
+        "geocode": {
+            "UGC": [
+                "MOC065"
+            ],
+            "SAME": [
+                "029065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083259-3465269",
+                "identifier": "NWS-IDP-PROD-4083259-3465269",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T17:45:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083270-3465278",
+                "identifier": "NWS-IDP-PROD-4083270-3465278",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T18:00:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T18:14:00-06:00",
+        "effective": "2020-03-02T18:14:00-06:00",
+        "onset": "2020-03-02T18:14:00-06:00",
+        "expires": "2020-03-02T18:30:00-06:00",
+        "ends": "2020-03-02T18:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 6:14PM CST until March 2 at 6:30PM CST by NWS Springfield MO",
+        "description": "At 614 PM CST, a severe thunderstorm was located near Bunker, or 17\nmiles southeast of Salem, moving east at 45 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nTurtle...",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T18:14:00.000-06:00...storm...270DEG...39KT...37.5,-91.27"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 630 PM CST FOR SOUTHEASTERN DENT COUNTY"
+            ],
+            "VTEC": [
+                "/O.CON.KSGF.SV.W.0025.000000T0000Z-200303T0030Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "SGFSVSSGF"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T18:30:00-06:00"
+            ]
+        }
+    }
+}
