@@ -1,0 +1,104 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083767-3465673",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.72,
+                    36.65
+                ],
+                [
+                    -88.74,
+                    36.85
+                ],
+                [
+                    -88.3,
+                    36.870000000000005
+                ],
+                [
+                    -88.28999999999999,
+                    36.63
+                ],
+                [
+                    -88.72,
+                    36.65
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083767-3465673",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083767-3465673",
+        "areaDesc": "Graves, KY; Marshall, KY; Calloway, KY",
+        "geocode": {
+            "UGC": [
+                "KYC083",
+                "KYC157",
+                "KYC035"
+            ],
+            "SAME": [
+                "021083",
+                "021157",
+                "021035"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC083",
+            "https://api.weather.gov/zones/county/KYC157",
+            "https://api.weather.gov/zones/county/KYC035"
+        ],
+        "references": [],
+        "sent": "2020-03-03T00:13:00-06:00",
+        "effective": "2020-03-03T00:13:00-06:00",
+        "onset": "2020-03-03T00:13:00-06:00",
+        "expires": "2020-03-03T00:45:00-06:00",
+        "ends": "2020-03-03T00:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Severe Thunderstorm Warning issued March 3 at 12:13AM CST until March 3 at 12:45AM CST by NWS Paducah KY",
+        "description": "The National Weather Service in Paducah has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Calloway County in western Kentucky...\nSouthwestern Marshall County in western Kentucky...\nCentral Graves County in western Kentucky...\n\n* Until 1245 AM CST.\n\n* At 1212 AM CST, a severe thunderstorm was located near Sedalia, or\nnear Mayfield, moving east at 40 mph. Another severe storm was\nlocated just east of Fancy Farm.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* Locations impacted include...\nMurray, Mayfield, Benton, Hardin, Kirksey and Brewers.\n\nThis includes Interstate 69 in Kentucky between Mile Markers 18 and\n42.",
+        "instruction": "A Tornado Watch remains in effect until 100 AM CST for western\nKentucky.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T00:12:00.000-06:00...storm...263DEG...36KT...36.69,-88.6"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "VTEC": [
+                "/O.NEW.KPAH.SV.W.0026.200303T0613Z-200303T0645Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVRPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T00:45:00-06:00"
+            ]
+        }
+    }
+}
