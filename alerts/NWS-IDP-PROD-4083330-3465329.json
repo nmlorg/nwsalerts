@@ -1,0 +1,122 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083330-3465329",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -88.3199999,
+                    37.1
+                ],
+                [
+                    -88.3199999,
+                    37.18
+                ],
+                [
+                    -88.28,
+                    37.22
+                ],
+                [
+                    -87.91,
+                    37.3
+                ],
+                [
+                    -87.86,
+                    37.04
+                ],
+                [
+                    -88.29,
+                    37.04
+                ],
+                [
+                    -88.3199999,
+                    37.1
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083330-3465329",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083330-3465329",
+        "areaDesc": "Caldwell, KY; Lyon, KY; Crittenden, KY; Livingston, KY",
+        "geocode": {
+            "UGC": [
+                "KYC033",
+                "KYC143",
+                "KYC055",
+                "KYC139"
+            ],
+            "SAME": [
+                "021033",
+                "021143",
+                "021055",
+                "021139"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/KYC033",
+            "https://api.weather.gov/zones/county/KYC143",
+            "https://api.weather.gov/zones/county/KYC055",
+            "https://api.weather.gov/zones/county/KYC139"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083312-3465313",
+                "identifier": "NWS-IDP-PROD-4083312-3465313",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T18:26:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T18:40:00-06:00",
+        "effective": "2020-03-02T18:40:00-06:00",
+        "onset": "2020-03-02T18:40:00-06:00",
+        "expires": "2020-03-02T19:15:00-06:00",
+        "ends": "2020-03-02T19:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Paducah KY",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 6:40PM CST until March 2 at 7:15PM CST by NWS Paducah KY",
+        "description": "At 640 PM CST, a severe thunderstorm was located 7 miles northwest of\nEddyville, moving east at 30 mph.\n\nHAZARD...Golf ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect wind\ndamage to roofs, siding, and trees.\n\nLocations impacted include...\nPrinceton, Eddyville, Creswell, Farmersville, Kuttawa, Fredonia and\nDycusburg.",
+        "instruction": "A Tornado Watch remains in effect until 100 AM CST for western\nKentucky.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T18:40:00.000-06:00...storm...261DEG...28KT...37.14,-88.19"
+            ],
+            "hailSize": [
+                1.75
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 715 PM CST FOR SOUTHEASTERN LIVINGSTON...SOUTH CENTRAL CRITTENDEN...WESTERN CALDWELL AND NORTHERN LYON COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KPAH.SV.W.0017.000000T0000Z-200303T0115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "PAHSVSPAH"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T19:15:00-06:00"
+            ]
+        }
+    }
+}

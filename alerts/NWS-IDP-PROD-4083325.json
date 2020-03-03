@@ -1,0 +1,89 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083325",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -92.15,
+                    36.43
+                ],
+                [
+                    -92.7,
+                    36.39
+                ],
+                [
+                    -92.7099999,
+                    36.5
+                ],
+                [
+                    -92.15,
+                    36.5
+                ],
+                [
+                    -92.15,
+                    36.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083325",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083325",
+        "areaDesc": "Marion; Baxter",
+        "geocode": {
+            "UGC": [
+                "ARZ004",
+                "ARZ005"
+            ],
+            "SAME": [
+                "005089",
+                "005005"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/ARZ004",
+            "https://api.weather.gov/zones/forecast/ARZ005"
+        ],
+        "references": [],
+        "sent": "2020-03-02T18:39:00-06:00",
+        "effective": "2020-03-02T18:39:00-06:00",
+        "onset": "2020-03-02T18:39:00-06:00",
+        "expires": "2020-03-02T19:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Special Weather Statement issued March 2 at 6:39PM CST by NWS Little Rock AR",
+        "description": "At 639 PM CST, Doppler radar was tracking a strong thunderstorm over\nOzark Isle, or near Bull Shoals, moving east at 30 mph.\n\nPenny size hail and winds in excess of 40 mph will be possible with\nthis storm.\n\nLocations impacted include...\nPrice Place...                    Ozark Isle...\nClarkridge...                     Three Brothers...\nGamaliel...                       Oakland...\nNorfork Lake...                   Bull Shoals Lake...\n\nA Tornado Watch remains in effect until 100 AM CST for north central\nArkansas.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T18:39:00.000-06:00...storm...264DEG...27KT...36.44,-92.61"
+            ],
+            "NWSheadline": [
+                "SIGNIFICANT WEATHER ADVISORY FOR NORTH CENTRAL MARION AND NORTHERN BAXTER COUNTIES UNTIL 730 PM CST"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LZKSPSLZK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
