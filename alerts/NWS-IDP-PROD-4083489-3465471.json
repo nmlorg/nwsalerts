@@ -1,0 +1,107 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083489-3465471",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.8199999,
+                    32.77
+                ],
+                [
+                    -87.69,
+                    32.56
+                ],
+                [
+                    -87.8199999,
+                    32.510000000000005
+                ],
+                [
+                    -87.84,
+                    32.620000000000005
+                ],
+                [
+                    -87.9,
+                    32.7299999
+                ],
+                [
+                    -87.89,
+                    32.81
+                ],
+                [
+                    -87.8199999,
+                    32.77
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083489-3465471",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083489-3465471",
+        "areaDesc": "Marengo, AL; Greene, AL; Hale, AL",
+        "geocode": {
+            "UGC": [
+                "ALC091",
+                "ALC063",
+                "ALC065"
+            ],
+            "SAME": [
+                "001091",
+                "001063",
+                "001065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC091",
+            "https://api.weather.gov/zones/county/ALC063",
+            "https://api.weather.gov/zones/county/ALC065"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4082902-3465025",
+                "identifier": "NWS-IDP-PROD-4082902-3465025",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T10:19:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T20:25:00-06:00",
+        "effective": "2020-03-02T20:25:00-06:00",
+        "onset": "2020-03-04T20:40:00-06:00",
+        "expires": "2020-03-03T08:26:00-06:00",
+        "ends": "2020-03-07T21:36:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Warning issued March 2 at 8:25PM CST until March 7 at 9:36PM CST by NWS Birmingham AL",
+        "description": "...The flood warning continues for the Black Warrior River At Selden\nLock and Dam...\n\n.Heavy rainfall over the next few days is expected to produce rises\nalong the Black Warrior River at Selden Lock and Dam, and levels are\nforecast to rise into flood stage.\n\nThe Flood Warning continues for\nThe Black Warrior River At Selden Lock and Dam.\n* from Wednesday evening to Saturday evening...or until the warning\nis cancelled.\n* At 8:15 PM Monday the stage was 83.3 feet.\n* Flood stage is 90.0 feet.\n* Minor flooding is forecast.\n* Forecast...Rise above flood stage by Wednesday evening and continue\nto rise to near 91.8 feet by Thursday evening. The river will fall\nbelow flood stage by late Saturday morning.\n* Impact...At 90.0 feet...Pasture and wood lands begin to flood.\nLivestock should be moved to higher ground at stages above 90 feet.",
+        "instruction": "Do not drive cars through flooded areas.  Turn Around...Don't Drown.\n\nAnother statement will be issued by Tuesday morning...or sooner if\nconditions warrant.",
+        "response": "Avoid",
+        "parameters": {
+            "VTEC": [
+                "/O.EXT.KBMX.FL.W.0060.200305T0240Z-200308T0336Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXFLSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-07T21:36:00-06:00"
+            ]
+        }
+    }
+}
