@@ -1,0 +1,138 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084197-3466012",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -87.11,
+                    32.49
+                ],
+                [
+                    -87.1,
+                    32.5
+                ],
+                [
+                    -87.1,
+                    32.52
+                ],
+                [
+                    -87.08,
+                    32.540000000000006
+                ],
+                [
+                    -87.08,
+                    32.57000000000001
+                ],
+                [
+                    -87.03999999999999,
+                    32.60000000000001
+                ],
+                [
+                    -87.05,
+                    32.63000000000001
+                ],
+                [
+                    -86.98,
+                    32.74000000000001
+                ],
+                [
+                    -86.74000000000001,
+                    32.72999990000001
+                ],
+                [
+                    -86.76,
+                    32.42000000000001
+                ],
+                [
+                    -87.11,
+                    32.49
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084197-3466012",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4084197-3466012",
+        "areaDesc": "Dallas, AL; Autauga, AL; Chilton, AL",
+        "geocode": {
+            "UGC": [
+                "ALC047",
+                "ALC001",
+                "ALC021"
+            ],
+            "SAME": [
+                "001047",
+                "001001",
+                "001021"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ALC047",
+            "https://api.weather.gov/zones/county/ALC001",
+            "https://api.weather.gov/zones/county/ALC021"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084189-3466004",
+                "identifier": "NWS-IDP-PROD-4084189-3466004",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T06:43:00-06:00"
+            }
+        ],
+        "sent": "2020-03-03T07:01:00-06:00",
+        "effective": "2020-03-03T07:01:00-06:00",
+        "onset": "2020-03-03T07:01:00-06:00",
+        "expires": "2020-03-03T07:45:00-06:00",
+        "ends": "2020-03-03T07:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Severe Thunderstorm Warning issued March 3 at 7:01AM CST until March 3 at 7:45AM CST by NWS Birmingham AL",
+        "description": "At 701 AM CST, severe thunderstorms were located along a line\nextending from Parnell to near Valley Grande, moving east at 40 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nValley Grande, Plecher, Mulberry, Burnsville, Parnell, Paul M Grist\nState Park, Valley Creek Junction, Plantersville, Stanton, Barrett\nCreek, Summerfield and Dawson Mill.",
+        "instruction": "A Tornado Watch remains in effect until 1100 AM CST for central and\nsouth central Alabama.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTorrential rainfall is occurring with these storms, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T07:01:00.000-06:00...storm...282DEG...37KT...32.72,-86.92 32.51,-87.05"
+            ],
+            "hailSize": [
+                0.75
+            ],
+            "windGust": [
+                "60 MPH"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 745 AM CST FOR NORTHWESTERN AUTAUGA...SOUTHWESTERN CHILTON AND NORTHEASTERN DALLAS COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KBMX.SV.W.0041.000000T0000Z-200303T1345Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "BMXSVSBMX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T07:45:00-06:00"
+            ]
+        }
+    }
+}
