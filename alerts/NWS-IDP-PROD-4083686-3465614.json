@@ -1,0 +1,90 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083686-3465614",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -94.48,
+                    44.33
+                ],
+                [
+                    -94.41000000000001,
+                    44.269999999999996
+                ],
+                [
+                    -94.70000000000002,
+                    44.22
+                ],
+                [
+                    -94.70000000000002,
+                    44.3
+                ],
+                [
+                    -94.48,
+                    44.33
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083686-3465614",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083686-3465614",
+        "areaDesc": "Brown",
+        "geocode": {
+            "UGC": [
+                "MNZ074"
+            ],
+            "SAME": [
+                "027015"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/MNZ074"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083540-3465513",
+                "identifier": "NWS-IDP-PROD-4083540-3465513",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T20:56:00-06:00"
+            }
+        ],
+        "sent": "2020-03-02T22:59:00-06:00",
+        "effective": "2020-03-02T22:59:00-06:00",
+        "onset": "2020-03-04T12:00:00-06:00",
+        "expires": "2020-03-03T07:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Twin Cities/Chanhassen MN",
+        "headline": "Flood Watch issued March 2 at 10:59PM CST by NWS Twin Cities/Chanhassen MN",
+        "description": "...The Flood Watch continues for the following rivers in Minnesota...\n\nCottonwood River at New Ulm affecting Brown County.\n\n.Snowmelt has resulted in rises on the Cottonwood River. The river\ncould reach flood stage by Wednesday afternoon at New Ulm.\n\nThe Flood Watch continues for\nthe Cottonwood River at New Ulm.\n* From Wednesday afternoon until further notice.\n* At 8:00 PM CST Monday, the stage was 9.7 feet.\n* Flood stage is 11.0 feet.\n* Flooding is possible.\n* Forecast...Flood stage may be reached early Wednesday afternoon.\n* Impact...At 13.1 feet, Flood waters begin to impact Cottonwood\nStreet west of the river.",
+        "instruction": "Do not enter or cross flowing water or water of unknown depth.",
+        "response": "Prepare",
+        "parameters": {
+            "VTEC": [
+                "/O.CON.KMPX.FL.A.0001.200304T1800Z-000000T0000Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MPXFFAMPX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
