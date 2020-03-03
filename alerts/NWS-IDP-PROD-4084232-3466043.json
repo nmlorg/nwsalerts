@@ -1,0 +1,75 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084232-3466043",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084232-3466043",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4084232-3466043",
+        "areaDesc": "Madison; Onondaga; Southern Oneida; Northern Oneida",
+        "geocode": {
+            "UGC": [
+                "NYZ036",
+                "NYZ018",
+                "NYZ037",
+                "NYZ009"
+            ],
+            "SAME": [
+                "036053",
+                "036067",
+                "036065"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/NYZ036",
+            "https://api.weather.gov/zones/forecast/NYZ018",
+            "https://api.weather.gov/zones/forecast/NYZ037",
+            "https://api.weather.gov/zones/forecast/NYZ009"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084070-3465898",
+                "identifier": "NWS-IDP-PROD-4084070-3465898",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T05:44:00-05:00"
+            }
+        ],
+        "sent": "2020-03-03T08:54:00-05:00",
+        "effective": "2020-03-03T08:54:00-05:00",
+        "onset": "2020-03-03T08:54:00-05:00",
+        "expires": "2020-03-03T11:00:00-05:00",
+        "ends": "2020-03-03T11:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Dense Fog Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Binghamton NY",
+        "headline": "Dense Fog Advisory issued March 3 at 8:54AM EST until March 3 at 11:00AM EST by NWS Binghamton NY",
+        "description": "* WHAT...Visibility less than one quarter mile in dense fog.\n\n* WHERE...Onondaga, Madison, Northern Oneida and Southern Oneida\ncounties.\n\n* WHEN...Until 11 AM EST this morning.\n\n* IMPACTS...Hazardous driving conditions due to low visibility.\n\n* ADDITIONAL DETAILS...The fog will slowly lift and dissipate by\nlate morning.",
+        "instruction": "If driving, slow down, use your headlights, and leave plenty of\ndistance ahead of you.",
+        "response": "Execute",
+        "parameters": {
+            "NWSheadline": [
+                "DENSE FOG ADVISORY NOW IN EFFECT UNTIL 11 AM EST THIS MORNING"
+            ],
+            "VTEC": [
+                "/O.EXT.KBGM.FG.Y.0002.000000T0000Z-200303T1600Z/"
+            ],
+            "PIL": [
+                "BGMNPWBGM"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T11:00:00-05:00"
+            ]
+        }
+    }
+}
