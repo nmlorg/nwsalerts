@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083303-3465304",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.75,
+                    37.8
+                ],
+                [
+                    -90.73,
+                    37.909999899999995
+                ],
+                [
+                    -90.27000000000001,
+                    37.949999999999996
+                ],
+                [
+                    -90.28000000000002,
+                    37.76
+                ],
+                [
+                    -90.75,
+                    37.8
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083303-3465304",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083303-3465304",
+        "areaDesc": "Ste. Genevieve, MO; St. Francois, MO; Washington, MO",
+        "geocode": {
+            "UGC": [
+                "MOC186",
+                "MOC187",
+                "MOC221"
+            ],
+            "SAME": [
+                "029186",
+                "029187",
+                "029221"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/MOC186",
+            "https://api.weather.gov/zones/county/MOC187",
+            "https://api.weather.gov/zones/county/MOC221"
+        ],
+        "references": [],
+        "sent": "2020-03-02T18:24:00-06:00",
+        "effective": "2020-03-02T18:24:00-06:00",
+        "onset": "2020-03-02T18:24:00-06:00",
+        "expires": "2020-03-02T19:15:00-06:00",
+        "ends": "2020-03-02T19:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Severe Thunderstorm Warning issued March 2 at 6:24PM CST until March 2 at 7:15PM CST by NWS St Louis MO",
+        "description": "The National Weather Service in St Louis has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Ste. Genevieve County in southeastern Missouri...\nSoutheastern Washington County in east central Missouri...\nWest central St. Francois County in southeastern Missouri...\n\n* Until 715 PM CST.\n\n* At 623 PM CST, a severe thunderstorm was located over Irondale,\nmoving east at 35 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damage to vehicles is expected.\n\n* Locations impacted include...\nFarmington, Bonne Terre, Desloge, Leadwood, Park Hills, Irondale,\nLeadington and Frankclay.\n\nThis also includes St. Joe State Park and Missouri Mines Historic\nSite.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T18:23:00.000-06:00...storm...265DEG...28KT...37.84,-90.71"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "VTEC": [
+                "/O.NEW.KLSX.SV.W.0006.200303T0024Z-200303T0115Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LSXSVRLSX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-02T19:15:00-06:00"
+            ]
+        }
+    }
+}
