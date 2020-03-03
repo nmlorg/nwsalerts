@@ -1,0 +1,128 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083860-3465742",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -85.22,
+                    35.95
+                ],
+                [
+                    -85.65,
+                    36.010000000000005
+                ],
+                [
+                    -85.68,
+                    36.06
+                ],
+                [
+                    -85.66000000000001,
+                    36.17
+                ],
+                [
+                    -85.20999990000001,
+                    36.15
+                ],
+                [
+                    -85.10000000000001,
+                    36.14
+                ],
+                [
+                    -85.22,
+                    35.95
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083860-3465742",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083860-3465742",
+        "areaDesc": "Putnam, TN; Cumberland, TN; White, TN",
+        "geocode": {
+            "UGC": [
+                "TNC141",
+                "TNC035",
+                "TNC185"
+            ],
+            "SAME": [
+                "047141",
+                "047035",
+                "047185"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/TNC141",
+            "https://api.weather.gov/zones/county/TNC035",
+            "https://api.weather.gov/zones/county/TNC185"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083858-3465740",
+                "identifier": "NWS-IDP-PROD-4083858-3465740",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T02:02:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083856-3465738",
+                "identifier": "NWS-IDP-PROD-4083856-3465738",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-03T01:56:00-06:00"
+            }
+        ],
+        "sent": "2020-03-03T02:05:00-06:00",
+        "effective": "2020-03-03T02:05:00-06:00",
+        "onset": "2020-03-03T02:05:00-06:00",
+        "expires": "2020-03-03T02:30:00-06:00",
+        "ends": "2020-03-03T02:30:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Nashville TN",
+        "headline": "Tornado Warning issued March 3 at 2:05AM CST until March 3 at 2:30AM CST by NWS Nashville TN",
+        "description": "At 205 AM CST, a confirmed large and extremely dangerous tornado was\nlocated near Cookeville, moving east at 45 mph.\n\nThis is a PARTICULARLY DANGEROUS SITUATION. TAKE COVER NOW!\n\nHAZARD...Damaging tornado.\n\nSOURCE...Radar confirmed tornado.\n\nIMPACT...You are in a life-threatening situation. Flying debris may\nbe deadly to those caught without shelter. Mobile homes\nwill be destroyed. Considerable damage to homes,\nbusinesses, and vehicles is likely and complete destruction\nis possible.\n\nThe tornado will be near...\nMonterey around 220 AM CST.\n\nOther locations impacted by this tornadic thunderstorm include\nBurgess Falls State Park, Hamptons Crossroads, Bakers Crossroads and\nPleasant Hill.\n\nThis includes Interstate 40 between mile markers 278 and 310.",
+        "instruction": "To repeat, a large, extremely dangerous and potentially deadly\ntornado is on the ground. To protect your life, TAKE COVER NOW! Move\nto a basement or an interior room on the lowest floor of a sturdy\nbuilding. Avoid windows. If you are outdoors, in a mobile home, or in\na vehicle, move to the closest substantial shelter and protect\nyourself from flying debris.\n\nTornadoes are extremely difficult to see and confirm at night. Do not\nwait to see or hear the tornado. TAKE COVER NOW!",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T02:01:00.000-06:00...storm...278DEG...40KT...36.09,-85.5"
+            ],
+            "hailSize": [
+                1
+            ],
+            "tornadoDetection": [
+                "OBSERVED"
+            ],
+            "tornadoDamageThreat": [
+                "CONSIDERABLE"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 230 AM CST FOR NORTHWESTERN CUMBERLAND...NORTHERN WHITE AND SOUTHERN PUTNAM COUNTIES"
+            ],
+            "VTEC": [
+                "/O.COR.KOHX.TO.W.0010.000000T0000Z-200303T0830Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "OHXSVSOHX"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T02:30:00-06:00"
+            ]
+        }
+    }
+}
