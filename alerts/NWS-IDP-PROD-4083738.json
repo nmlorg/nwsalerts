@@ -1,0 +1,92 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083738",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.98,
+                    36.78
+                ],
+                [
+                    -86.91000000000001,
+                    36.89
+                ],
+                [
+                    -86.42000000000002,
+                    36.97
+                ],
+                [
+                    -86.41000000000001,
+                    36.72
+                ],
+                [
+                    -86.98,
+                    36.78
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083738",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083738",
+        "areaDesc": "Logan; Simpson; Warren",
+        "geocode": {
+            "UGC": [
+                "KYZ070",
+                "KYZ072",
+                "KYZ071"
+            ],
+            "SAME": [
+                "021141",
+                "021213",
+                "021227"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/KYZ070",
+            "https://api.weather.gov/zones/forecast/KYZ072",
+            "https://api.weather.gov/zones/forecast/KYZ071"
+        ],
+        "references": [],
+        "sent": "2020-03-02T23:44:00-06:00",
+        "effective": "2020-03-02T23:44:00-06:00",
+        "onset": "2020-03-02T23:44:00-06:00",
+        "expires": "2020-03-03T00:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Louisville KY",
+        "headline": "Special Weather Statement issued March 2 at 11:44PM CST by NWS Louisville KY",
+        "description": "At 1142 PM CST, strong thunderstorms were located across central\nLogan County, including near Russellville, moving east at 35 mph.\n\nWinds in excess of 30 mph and penny size hail are possible with\nthese storms, along with torrrential rainfall that could cause\nlocalized flooding.\n\nLocations impacted include...\nBowling Green, Russellville, Memphis Junction, Auburn, Woodburn,\nHillsdale, Dennis, Rich Pond, Rockfield and South Union.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-02T23:42:00.000-06:00...storm...269DEG...30KT...36.81,-86.9"
+            ],
+            "NWSheadline": [
+                "STRONG THUNDERSTORMS WILL AFFECT 0CENTRAL LOGAN...NORTHERN SIMPSON AND SOUTHWESTERN WARREN COUNTIES"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "LMKSPSLMK"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}

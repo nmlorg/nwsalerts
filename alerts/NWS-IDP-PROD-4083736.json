@@ -1,0 +1,101 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083736",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -86.05,
+                    40.07
+                ],
+                [
+                    -86.56,
+                    39.95
+                ],
+                [
+                    -86.64,
+                    40.120000000000005
+                ],
+                [
+                    -86.44,
+                    40.18000000000001
+                ],
+                [
+                    -86.24,
+                    40.18000000000001
+                ],
+                [
+                    -86.24,
+                    40.220000000000006
+                ],
+                [
+                    -86.13,
+                    40.220000000000006
+                ],
+                [
+                    -86.05,
+                    40.07
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083736",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083736",
+        "areaDesc": "Boone; Hamilton",
+        "geocode": {
+            "UGC": [
+                "INZ037",
+                "INZ039"
+            ],
+            "SAME": [
+                "018011",
+                "018057"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/INZ037",
+            "https://api.weather.gov/zones/forecast/INZ039"
+        ],
+        "references": [],
+        "sent": "2020-03-03T00:40:00-05:00",
+        "effective": "2020-03-03T00:40:00-05:00",
+        "onset": "2020-03-03T00:40:00-05:00",
+        "expires": "2020-03-03T01:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Special Weather Statement issued March 3 at 12:40AM EST by NWS Indianapolis IN",
+        "description": "At 1240 AM EST, Doppler radar was tracking a strong thunderstorm over\nLebanon, or 14 miles south of Frankfort, moving east at 50 mph.\n\nHalf inch hail will be possible with this storm.\n\nLocations impacted include...\nNoblesville, Lebanon, Westfield, Sheridan, Thorntown and Ulen.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T00:40:00.000-05:00...storm...248DEG...45KT...40.07,-86.51"
+            ],
+            "NWSheadline": [
+                "THUNDERSTORM WITH HAIL"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "INDSPSIND"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ]
+        }
+    }
+}
