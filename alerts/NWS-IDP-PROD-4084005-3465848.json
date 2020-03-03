@@ -1,0 +1,79 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084005-3465848",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4084005-3465848",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4084005-3465848",
+        "areaDesc": "Two Rivers to Sheboygan WI; Rock Island Passage to Sturgeon Bay WI; Sturgeon Bay to Two Rivers WI",
+        "geocode": {
+            "UGC": [
+                "LMZ543",
+                "LMZ541",
+                "LMZ542"
+            ],
+            "SAME": [
+                "092543",
+                "092541",
+                "092542"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/forecast/LMZ543",
+            "https://api.weather.gov/zones/forecast/LMZ541",
+            "https://api.weather.gov/zones/forecast/LMZ542"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083557-3465514",
+                "identifier": "NWS-IDP-PROD-4083557-3465514",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T21:02:00-06:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083131-3465188",
+                "identifier": "NWS-IDP-PROD-4083131-3465188",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T15:04:00-06:00"
+            }
+        ],
+        "sent": "2020-03-03T03:40:00-06:00",
+        "effective": "2020-03-03T03:40:00-06:00",
+        "onset": "2020-03-03T09:00:00-06:00",
+        "expires": "2020-03-03T11:45:00-06:00",
+        "ends": "2020-03-04T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Small Craft Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Green Bay WI",
+        "headline": "Small Craft Advisory issued March 3 at 3:40AM CST until March 4 at 12:00AM CST by NWS Green Bay WI",
+        "description": "* WHAT...SW to W winds 15 to 25 kts and waves 3 to 5 ft are\nexpected.\n\n* WHERE...Lake Michigan from Rock Island Passage to Sheboygan WI.\n\n* WHEN...From 9 AM Tuesday to midnight CST Tuesday night.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+        "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+        "response": "Avoid",
+        "parameters": {
+            "NWSheadline": [
+                "SMALL CRAFT ADVISORY REMAINS IN EFFECT FROM 9 AM THIS MORNING TO MIDNIGHT CST TONIGHT"
+            ],
+            "VTEC": [
+                "/O.CON.KGRB.SC.Y.0023.200303T1500Z-200304T0600Z/"
+            ],
+            "PIL": [
+                "GRBMWWGRB"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-04T00:00:00-06:00"
+            ]
+        }
+    }
+}
