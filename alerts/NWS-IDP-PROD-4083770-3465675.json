@@ -1,0 +1,112 @@
+{
+    "id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083770-3465675",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -90.87,
+                    35.88
+                ],
+                [
+                    -90.87,
+                    35.92
+                ],
+                [
+                    -90.45,
+                    36.03
+                ],
+                [
+                    -90.4,
+                    35.86
+                ],
+                [
+                    -90.84,
+                    35.78
+                ],
+                [
+                    -90.87,
+                    35.88
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083770-3465675",
+        "@type": "wx:Alert",
+        "id": "NWS-IDP-PROD-4083770-3465675",
+        "areaDesc": "Craighead, AR; Greene, AR",
+        "geocode": {
+            "UGC": [
+                "ARC031",
+                "ARC055"
+            ],
+            "SAME": [
+                "005031",
+                "005055"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/ARC031",
+            "https://api.weather.gov/zones/county/ARC055"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/NWS-IDP-PROD-4083745-3465659",
+                "identifier": "NWS-IDP-PROD-4083745-3465659",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2020-03-02T23:56:00-06:00"
+            }
+        ],
+        "sent": "2020-03-03T00:18:00-06:00",
+        "effective": "2020-03-03T00:18:00-06:00",
+        "onset": "2020-03-03T00:18:00-06:00",
+        "expires": "2020-03-03T00:45:00-06:00",
+        "ends": "2020-03-03T00:45:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Severe Thunderstorm Warning issued March 3 at 12:18AM CST until March 3 at 12:45AM CST by NWS Memphis TN",
+        "description": "At 1218 AM CST, a severe thunderstorm was located near Bono, moving\neast at 45 mph.\n\nHAZARD...Quarter size hail.\n\nSOURCE...Trained weather spotters.\n\nIMPACT...Damage to vehicles is expected.\n\nLocations impacted include...\nJonesboro, Paragould, Bono, Brookland, Farrville, Dorothy, Lester,\nHerman, Schug, Bethel, Herndon and Goobertown.",
+        "instruction": "A Tornado Watch remains in effect until 100 AM CST for eastern\nArkansas.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "eventMotionDescription": [
+                "2020-03-03T00:18:00.000-06:00...storm...256DEG...37KT...35.84,-90.79"
+            ],
+            "hailSize": [
+                1
+            ],
+            "windGust": [
+                "Up to 50 MPH"
+            ],
+            "NWSheadline": [
+                "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1245 AM CST FOR SOUTH CENTRAL GREENE AND CENTRAL CRAIGHEAD COUNTIES"
+            ],
+            "VTEC": [
+                "/O.CON.KMEG.SV.W.0049.000000T0000Z-200303T0645Z/"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "PIL": [
+                "MEGSVSMEG"
+            ],
+            "BLOCKCHANNEL": [
+                "CMAS",
+                "EAS",
+                "NWEM"
+            ],
+            "eventEndingTime": [
+                "2020-03-03T00:45:00-06:00"
+            ]
+        }
+    }
+}
